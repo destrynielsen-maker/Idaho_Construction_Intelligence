@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 21:56:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:01:14 +0000</lastBuildDate>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
@@ -36,12 +36,6 @@
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 980 N CLITHERO DR — 980 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-00769</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN24-00769</guid>
     </item>
     <item>
       <title>[40] Boise: 2501 S EAGLESON RD — 2501 S EAGLESON RD</title>
@@ -176,22 +170,16 @@
       <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
     </item>
     <item>
-      <title>[40] Boise: 1208 W FORT ST — 1208 W FORT ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00595</link>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00595</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
     </item>
     <item>
       <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
