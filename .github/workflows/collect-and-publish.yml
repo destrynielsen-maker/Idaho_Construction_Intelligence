@@ -38,6 +38,53 @@ jobs:
         env:
           PYTHONPATH: src
         run: python -m idaho_permits.main
+      - name: Collection results
+        shell: python
+        run: |
+          import json
+          import os
+          from collections import Counter
+          from pathlib import Path
+
+          permits_payload = json.loads(Path('public/data/permits.json').read_text(encoding='utf-8'))
+          sources_payload = json.loads(Path('public/data/sources.json').read_text(encoding='utf-8'))
+          permits = permits_payload.get('permits', [])
+          source_rows = sources_payload.get('collector_status', sources_payload.get('sources', []))
+          generated = permits_payload.get('generated_at') or sources_payload.get('generated_at') or 'unknown'
+          counts = Counter(p.get('classification', 'OTHER') for p in permits)
+          valuation = sum((p.get('valuation') or 0) for p in permits)
+          site = f"https://{os.environ['GITHUB_REPOSITORY_OWNER']}.github.io/{os.environ['GITHUB_REPOSITORY'].split('/',1)[1]}/"
+
+          lines = [
+              '# Idaho Construction Intelligence — Collection Results',
+              '',
+              f'**Generated:** {generated}',
+              '',
+              f'**Qualifying permits:** {len(permits):,}  ',
+              f'**Single family:** {counts.get("SINGLE_FAMILY",0):,}  ',
+              f'**Multifamily:** {counts.get("MULTIFAMILY",0):,}  ',
+              f'**Commercial:** {counts.get("COMMERCIAL",0):,}  ',
+              f'**Known valuation:** ${valuation:,.0f}',
+              '',
+              f'## [Open live Idaho dashboard]({site})',
+              '',
+              '## Collector results',
+              '',
+              '| Source | Status | Records seen | Qualifying leads | Note |',
+              '|---|---|---:|---:|---|',
+          ]
+          for s in source_rows:
+              note = str(s.get('note','')).replace('|','\\|').replace('\n',' ')
+              lines.append(f"| {s.get('source','')} | {s.get('status','')} | {s.get('records_seen',0)} | {s.get('qualifying_records',0)} | {note} |")
+
+          if permits:
+              lines += ['', '## Top opportunities', '', '| Score | Market | Project / Type | Address | Builder / GC | Date |', '|---:|---|---|---|---|---|']
+              for p in sorted(permits, key=lambda x: (x.get('score',0), x.get('issued_date','')), reverse=True)[:10]:
+                  project = (p.get('project_name') or p.get('permit_type') or '').replace('|','\\|')
+                  builder = (p.get('contractor') or '').replace('|','\\|')
+                  lines.append(f"| {p.get('score',0)} | {p.get('jurisdiction','')} | {project} | {p.get('address','')} | {builder} | {p.get('issued_date','')} |")
+
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines) + '\n', encoding='utf-8')
       - name: Persist permit history and generated site
         run: |
           git config user.name github-actions[bot]
