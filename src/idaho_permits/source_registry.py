@@ -4,7 +4,7 @@ SOURCES = [
  {'market':"Coeur d'Alene",'grade':'A+','mode':'automated-pdf','url':'https://building.cdaid.org/Reports/IssuedPermitsLastWeek','use':'Direct weekly issued permits'},
  {'market':'Kootenai County','grade':'A+','mode':'automated-pdf','url':'https://kcgov.us/Archive/44','use':'Weekly county building permit archive'},
  {'market':'Boise','grade':'A+ early lead','mode':'automated-gis','url':'https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0','use':'Daily active planning/development tracker; early project leads before building permit issuance'},
- {'market':'Eagle','grade':'A+','mode':'automated-portal','url':'https://eagle_permit.portal.iworq.net/EAGLE/permits/600','use':'Live public building-permit portal; filters to building permits and checks permit detail scope'},
+ {'market':'Eagle','grade':'A+','mode':'automated-portal','url':'https://portal.iworq.net/EAGLE/permits/600','use':'Live public building-permit portal; filters to building permits and checks permit detail scope'},
  {'market':'Eagle Laserfiche','grade':'A','mode':'backfill-report','url':'https://lf.cityofeagle.org/WebLink/?dbid=0&repo=CityofEagle','use':'Official weekly permit report repository for historical/backfill research'},
  {'market':'Canyon County','grade':'A','mode':'gis','url':'https://maps.canyoncounty.id.gov/arcgisportal/apps/webappviewer/index.html?id=daddf87cce654183b32a8b408672de3c','use':'Unincorporated building permit tracker'},
  {'market':'Canyon County Planning','grade':'A+ early lead','mode':'planning','url':'https://www.canyoncounty.id.gov/elected-officials/commissioners/development-services/dsd-gis/','use':'Planning & zoning application tracker'},
