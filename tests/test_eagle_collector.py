@@ -13,6 +13,21 @@ LISTING = '''
 </table>
 '''
 
+CARD_LISTING = '''
+<div><span>Permit #:</span><a href="/EAGLE/permit/600/2001">266719</a></div>
+<div>Date: 08/19/2026</div><div>Permit Type: Building Residential</div>
+<div>Permit Address: 5634 W. Caldermill Ct.</div><div>Status: Online Submission</div>
+<div>Inspection Request Currently Not Allowed</div><a>View</a>
+<div><span>Permit #:</span><a href="/EAGLE/permit/600/2002">266718</a></div>
+<div>Date: 08/19/2026</div><div>Permit Type: Electrical Residential</div>
+<div>Permit Address: 100 Main St</div><div>Status: Online Submission</div>
+<div>Inspection Request Currently Not Allowed</div><a>View</a>
+<div><span>Permit #:</span><a href="/EAGLE/permit/600/2003">266712</a></div>
+<div>Date: 08/19/2026</div><div>Permit Type: Building Residential</div>
+<div>Permit Address: 6404 W SOLLAS CT</div><div>Status: Pending Acceptance</div>
+<div>Request An Inspection</div><a>View</a>
+'''
+
 
 class EagleCollectorTests(unittest.TestCase):
     def test_uses_canonical_iworq_host(self):
@@ -23,6 +38,13 @@ class EagleCollectorTests(unittest.TestCase):
         self.assertEqual([r['permit_number'] for r in rows], ['266108', '266099'])
         self.assertEqual(rows[0]['issued_date'], '2026-08-04')
         self.assertTrue(rows[0]['detail_url'].endswith('/EAGLE/permit/600/1001'))
+
+    def test_responsive_cards_keep_only_building_permits(self):
+        rows = permits_from_listing(CARD_LISTING)
+        self.assertEqual([r['permit_number'] for r in rows], ['266719', '266712'])
+        self.assertEqual(rows[0]['issued_date'], '2026-08-19')
+        self.assertEqual(rows[1]['status'], 'Pending Acceptance')
+        self.assertTrue(rows[0]['detail_url'].endswith('/EAGLE/permit/600/2001'))
 
     def test_extracts_scope_from_detail_labels(self):
         html = '<div><b>Scope of Work:</b> New construction of a 12-unit apartment building</div>'
