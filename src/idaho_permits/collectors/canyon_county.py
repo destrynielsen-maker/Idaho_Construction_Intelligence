@@ -5,19 +5,14 @@ import requests
 from .base import CollectorResult
 from ..models import Permit
 
-LAYER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0'
+LAYER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
 QUERY_URL = LAYER_URL + '/query'
-CURRENT_TRACKER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
-CURRENT_TRACKER_QUERY_URL = CURRENT_TRACKER_URL + '/query'
 PAGE_SIZE = 1000
 REQUIRED_FIELDS = {
-    'PermitIssued','PermitNum','Classification','Address','ProjectInfo',
-    'Contractor','Subdivision','Valuation','Status','ParcelNum1'
-}
-TRACKER_REQUIRED_FIELDS = {
     'BP_PermitNumber','BP_ProjectInfo','BP_SubType','BP_Classficiation',
     'BP_BuildValuation','BP_Address','BP_Contractor','BP_Status',
-    'BP_ReceivedDate','BP_Approval_Status','BP_DecisionDate','BP_DateClosed'
+    'BP_ReceivedDate','BP_Approval_Status','BP_DecisionDate','BP_DateClosed',
+    'BP_ParcelNumber'
 }
 
 
@@ -48,33 +43,37 @@ def _money(value):
         return None
 
 
-def permit_from_attributes(a: dict) -> Permit | None:
-    permit_number = str(a.get('PermitNum') or '').strip()
-    issued_date = _date(a.get('PermitIssued'))
-    if not permit_number or not issued_date:
+def permit_from_tracker_attributes(a: dict) -> Permit | None:
+    permit_number = str(a.get('BP_PermitNumber') or '').strip()
+    received_date = _date(a.get('BP_ReceivedDate'))
+    status = str(a.get('BP_Status') or '').strip()
+    approval = str(a.get('BP_Approval_Status') or '').strip()
+    if not permit_number or not received_date:
         return None
-    classification = str(a.get('Classification') or '').strip()
-    project = str(a.get('ProjectInfo') or '').strip()
-    address = str(a.get('Address') or '').strip()
-    contractor = str(a.get('Contractor') or '').strip()
+    if status.lower() != 'active' or approval.lower() not in {'in progress', 'approved'}:
+        return None
+
+    classification = str(a.get('BP_Classficiation') or '').strip()
+    subtype = str(a.get('BP_SubType') or '').strip()
+    project = str(a.get('BP_ProjectInfo') or '').strip()
+    permit_type = ' | '.join(x for x in (subtype, classification) if x) or 'Building Application'
     return Permit(
         state='ID',
         jurisdiction='Canyon County',
         permit_number=permit_number,
-        issued_date=issued_date,
-        permit_type=classification or 'Building Permit',
-        address=address,
-        source_name='Canyon County DSD Building Permits',
+        issued_date=received_date,
+        permit_type=permit_type,
+        address=str(a.get('BP_Address') or '').strip(),
+        source_name='Canyon County DSD Building Permit Tracker',
         source_url=LAYER_URL,
         project_name=project or None,
-        building_use=project or classification or None,
-        valuation=_money(a.get('Valuation')),
-        contractor=contractor or None,
-        apn=str(a.get('ParcelNum1') or '').strip() or None,
-        status=str(a.get('Status') or '').strip() or None,
-        subdivision=str(a.get('Subdivision') or '').strip() or None,
+        building_use=project or classification or subtype or None,
+        valuation=_money(a.get('BP_BuildValuation')),
+        contractor=str(a.get('BP_Contractor') or '').strip() or None,
+        apn=str(a.get('BP_ParcelNumber') or '').strip() or None,
+        status=f'{status} / {approval}',
         county='Canyon',
-        stage='PERMITTED',
+        stage='APPLICATION',
         raw=a,
     )
 
@@ -82,6 +81,7 @@ def permit_from_attributes(a: dict) -> Permit | None:
 class CanyonCountyPermitCollector:
     name = 'Canyon County'
     landing_url = LAYER_URL
+    replace_jurisdiction = True
 
     def collect(self):
         meta = requests.get(LAYER_URL, params={'f':'json'}, timeout=45)
@@ -90,22 +90,23 @@ class CanyonCountyPermitCollector:
         if metadata.get('error'):
             raise RuntimeError(f"ArcGIS metadata error: {metadata['error']}")
         layer_name = str(metadata.get('name') or '')
+        normalized_name = re.sub(r'[^a-z]', '', layer_name.lower())
         fields = {str(f.get('name') or '') for f in (metadata.get('fields') or [])}
         missing = sorted(REQUIRED_FIELDS - fields)
-        if 'building permit' not in layer_name.lower() or missing:
-            raise RuntimeError(f'Unexpected Canyon County layer identity name={layer_name!r} missing_fields={missing}')
+        if 'buildingpermit' not in normalized_name or missing:
+            raise RuntimeError(f'Unexpected Canyon County tracker identity name={layer_name!r} missing_fields={missing}')
 
         permits = []
         offset = 0
         while True:
             params = {
-                'where': 'PermitNum IS NOT NULL AND PermitIssued IS NOT NULL',
+                'where': 'BP_PermitNumber IS NOT NULL AND BP_ReceivedDate IS NOT NULL',
                 'outFields': '*',
                 'returnGeometry': 'false',
                 'f': 'json',
                 'resultOffset': offset,
                 'resultRecordCount': PAGE_SIZE,
-                'orderByFields': 'PermitIssued DESC',
+                'orderByFields': 'BP_ReceivedDate DESC',
             }
             response = requests.get(QUERY_URL, params=params, timeout=60)
             response.raise_for_status()
@@ -114,64 +115,16 @@ class CanyonCountyPermitCollector:
                 raise RuntimeError(f"ArcGIS query error: {payload['error']}")
             features = payload.get('features') or []
             for feature in features:
-                permit = permit_from_attributes(feature.get('attributes') or {})
+                permit = permit_from_tracker_attributes(feature.get('attributes') or {})
                 if permit:
                     permits.append(permit)
             if len(features) < PAGE_SIZE:
                 break
             offset += len(features)
+
         return CollectorResult(
             'Canyon County',
             LAYER_URL,
             permits,
-            'Official Canyon County DSD issued-building-permit FeatureServer; explicit PermitIssued and PermitNum fields',
+            'Official Canyon County DSD current building-permit tracker; active applications only; date is application received date',
         )
-
-
-class CanyonCountyTrackerProbeCollector:
-    name = 'Canyon County Current Tracker Probe'
-    landing_url = CURRENT_TRACKER_URL
-
-    def collect(self):
-        meta = requests.get(CURRENT_TRACKER_URL, params={'f':'json'}, timeout=45)
-        meta.raise_for_status()
-        metadata = meta.json()
-        if metadata.get('error'):
-            raise RuntimeError(f"ArcGIS tracker metadata error: {metadata['error']}")
-        fields = {str(f.get('name') or '') for f in (metadata.get('fields') or [])}
-        missing = sorted(TRACKER_REQUIRED_FIELDS - fields)
-        if missing:
-            raise RuntimeError(f'Unexpected Canyon current tracker schema missing_fields={missing}')
-        params = {
-            'where': 'BP_PermitNumber IS NOT NULL',
-            'outFields': ','.join(sorted(TRACKER_REQUIRED_FIELDS)),
-            'returnGeometry': 'false',
-            'f': 'json',
-            'resultRecordCount': 20,
-            'orderByFields': 'BP_ReceivedDate DESC',
-        }
-        response = requests.get(CURRENT_TRACKER_QUERY_URL, params=params, timeout=60)
-        response.raise_for_status()
-        payload = response.json()
-        if payload.get('error'):
-            raise RuntimeError(f"ArcGIS tracker query error: {payload['error']}")
-        samples = []
-        for feature in (payload.get('features') or [])[:20]:
-            a = feature.get('attributes') or {}
-            samples.append({
-                'permit': a.get('BP_PermitNumber'),
-                'received': _date(a.get('BP_ReceivedDate')),
-                'approval': a.get('BP_Approval_Status'),
-                'decision': _date(a.get('BP_DecisionDate')),
-                'closed': _date(a.get('BP_DateClosed')),
-                'status': a.get('BP_Status'),
-                'classification': a.get('BP_Classficiation'),
-                'subtype': a.get('BP_SubType'),
-                'project': a.get('BP_ProjectInfo'),
-            })
-        raise RuntimeError(f'Current tracker recent-application probe samples={samples}')
-
-
-# Temporary one-run probe: fail closed and emit current-tracker semantics via source health.
-CanyonCountyPermitCollector.collect = CanyonCountyTrackerProbeCollector.collect
-CanyonCountyPermitCollector.landing_url = CURRENT_TRACKER_URL
