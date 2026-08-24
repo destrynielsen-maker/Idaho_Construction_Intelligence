@@ -1,41 +1,10 @@
 {
-  "generated_at": "2026-08-24T17:17:04+00:00",
+  "generated_at": "2026-08-24T17:31:05+00:00",
   "permits": [
     {
       "state": "ID",
       "jurisdiction": "Coeur d'Alene",
-      "permit_number": "152695-B",
-      "issued_date": "08/17/2026",
-      "permit_type": "",
-      "address": "412 W LINDEN AVE",
-      "source_name": "Coeur d'Alene Issued Permits",
-      "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "project_name": "DUPLEX W/GARAGE",
-      "building_use": null,
-      "units": null,
-      "valuation": 450000.0,
-      "contractor": "HOMEOWNER",
-      "owner": "Duplex",
-      "developer": null,
-      "architect": null,
-      "apn": null,
-      "area": null,
-      "status": null,
-      "classification": "MULTIFAMILY",
-      "new_construction_confidence": "HIGH",
-      "qualifies": true,
-      "score": 40,
-      "first_seen_at": "2026-08-24T17:17:04+00:00",
-      "last_seen_at": "2026-08-24T17:17:04+00:00",
-      "raw": {
-        "project": "DUPLEX W/GARAGE"
-      },
-      "key": "ID:COEUR D'ALENE:152695-B"
-    },
-    {
-      "state": "ID",
-      "jurisdiction": "Coeur d'Alene",
-      "permit_number": "152695-EN1",
+      "permit_number": "152695-P2",
       "issued_date": "08/17/2026",
       "permit_type": "",
       "address": "412 W LINDEN AVE",
@@ -57,42 +26,11 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:17:04+00:00",
-      "last_seen_at": "2026-08-24T17:17:04+00:00",
+      "last_seen_at": "2026-08-24T17:31:05+00:00",
       "raw": {
         "project": "DUPLEX W/GARAGE"
       },
-      "key": "ID:COEUR D'ALENE:152695-EN1"
-    },
-    {
-      "state": "ID",
-      "jurisdiction": "Coeur d'Alene",
-      "permit_number": "152695-M1",
-      "issued_date": "08/17/2026",
-      "permit_type": "",
-      "address": "412 W LINDEN AVE",
-      "source_name": "Coeur d'Alene Issued Permits",
-      "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "project_name": "DUPLEX W/GARAGE",
-      "building_use": null,
-      "units": null,
-      "valuation": 0.0,
-      "contractor": null,
-      "owner": "Duplex",
-      "developer": null,
-      "architect": null,
-      "apn": null,
-      "area": null,
-      "status": null,
-      "classification": "MULTIFAMILY",
-      "new_construction_confidence": "HIGH",
-      "qualifies": true,
-      "score": 40,
-      "first_seen_at": "2026-08-24T17:17:04+00:00",
-      "last_seen_at": "2026-08-24T17:17:04+00:00",
-      "raw": {
-        "project": "DUPLEX W/GARAGE"
-      },
-      "key": "ID:COEUR D'ALENE:152695-M1"
+      "key": "ID:COEUR D'ALENE:152695-P2"
     },
     {
       "state": "ID",
@@ -119,7 +57,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:17:04+00:00",
-      "last_seen_at": "2026-08-24T17:17:04+00:00",
+      "last_seen_at": "2026-08-24T17:31:05+00:00",
       "raw": {
         "project": "DUPLEX W/GARAGE"
       },
@@ -128,7 +66,7 @@
     {
       "state": "ID",
       "jurisdiction": "Coeur d'Alene",
-      "permit_number": "152695-P2",
+      "permit_number": "152695-M1",
       "issued_date": "08/17/2026",
       "permit_type": "",
       "address": "412 W LINDEN AVE",
@@ -150,11 +88,73 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:17:04+00:00",
-      "last_seen_at": "2026-08-24T17:17:04+00:00",
+      "last_seen_at": "2026-08-24T17:31:05+00:00",
       "raw": {
         "project": "DUPLEX W/GARAGE"
       },
-      "key": "ID:COEUR D'ALENE:152695-P2"
+      "key": "ID:COEUR D'ALENE:152695-M1"
+    },
+    {
+      "state": "ID",
+      "jurisdiction": "Coeur d'Alene",
+      "permit_number": "152695-EN1",
+      "issued_date": "08/17/2026",
+      "permit_type": "",
+      "address": "412 W LINDEN AVE",
+      "source_name": "Coeur d'Alene Issued Permits",
+      "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
+      "project_name": "DUPLEX W/GARAGE",
+      "building_use": null,
+      "units": null,
+      "valuation": 0.0,
+      "contractor": null,
+      "owner": "Duplex",
+      "developer": null,
+      "architect": null,
+      "apn": null,
+      "area": null,
+      "status": null,
+      "classification": "MULTIFAMILY",
+      "new_construction_confidence": "HIGH",
+      "qualifies": true,
+      "score": 40,
+      "first_seen_at": "2026-08-24T17:17:04+00:00",
+      "last_seen_at": "2026-08-24T17:31:05+00:00",
+      "raw": {
+        "project": "DUPLEX W/GARAGE"
+      },
+      "key": "ID:COEUR D'ALENE:152695-EN1"
+    },
+    {
+      "state": "ID",
+      "jurisdiction": "Coeur d'Alene",
+      "permit_number": "152695-B",
+      "issued_date": "08/17/2026",
+      "permit_type": "",
+      "address": "412 W LINDEN AVE",
+      "source_name": "Coeur d'Alene Issued Permits",
+      "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
+      "project_name": "DUPLEX W/GARAGE",
+      "building_use": null,
+      "units": null,
+      "valuation": 450000.0,
+      "contractor": "HOMEOWNER",
+      "owner": "Duplex",
+      "developer": null,
+      "architect": null,
+      "apn": null,
+      "area": null,
+      "status": null,
+      "classification": "MULTIFAMILY",
+      "new_construction_confidence": "HIGH",
+      "qualifies": true,
+      "score": 40,
+      "first_seen_at": "2026-08-24T17:17:04+00:00",
+      "last_seen_at": "2026-08-24T17:31:05+00:00",
+      "raw": {
+        "project": "DUPLEX W/GARAGE"
+      },
+      "key": "ID:COEUR D'ALENE:152695-B"
     }
   ]
 }
