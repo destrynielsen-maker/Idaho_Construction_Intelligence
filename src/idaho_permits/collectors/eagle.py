@@ -6,7 +6,7 @@ from .base import CollectorResult
 from .common import get
 from ..models import Permit
 
-PORTAL_URL = 'https://eagle_permit.portal.iworq.net/EAGLE/permits/600'
+PORTAL_URL = 'https://portal.iworq.net/EAGLE/permits/600'
 
 
 def _clean(value):
