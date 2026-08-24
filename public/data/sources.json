@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:21:42+00:00",
+  "generated_at": "2026-08-24T22:23:52+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -15,7 +15,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "RuntimeError: zero parsed; html_bytes=1140687; title=Permits - Eagle, ID; detail_links=15; contains_permit_label=True; contains_building_residential=False; detail_failures=0; detail_unparsed=0"
+      "note": "RuntimeError: zero parsed; html_bytes=1140559; title=Permits - Eagle, ID; detail_links=15; detail_failures=0; detail_unparsed=0; detail_samples=['266853|Electrical Residential|New Electrical Installation', '266852|Electrical Residential|Temporary Construction Power', '266851|Electrical Residential|New Electrical Installation', '266850|Electrical Residential|Temporary Construction Power', '266849|Water Commercial|common lot water meter', '266848|Water Commercial|common lot water meter', '266847|Water Commercial|common lot meter', '266846|Electrical Residential|Temp pole']"
     },
     {
       "source": "Coeur d'Alene",
