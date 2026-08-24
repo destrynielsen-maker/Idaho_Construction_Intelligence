@@ -2,7 +2,7 @@ from __future__ import annotations
 import re
 from .models import Permit
 
-NEGATIVE = ('reroof','re-roof','roof','hvac','mechanical','plumbing','electrical','solar','sign','fence','pool','window','door replacement','tenant improvement','remodel','alteration','repair','demolition','moving pod','tree pruning','sidewalk')
+NEGATIVE = ('reroof','re-roof','roof','hvac','mechanical','plumbing','electrical','solar','sign','fence','pool','window','door replacement','tenant improvement','remodel','alteration','repair','demolition','moving pod','tree pruning','sidewalk','conversion','convert ','modification')
 MULTI = ('multifamily','multi-family','apartment','condominium','townhome','town home','duplex','fourplex','triplex')
 SINGLE = ('single family','single-family','new residence','new residential','new dwelling')
 COMMERCIAL = ('commercial','shell building','warehouse','industrial','hotel','hospitality','mixed use','mixed-use','retail building','office building')
