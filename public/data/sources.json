@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:07:22+00:00",
+  "generated_at": "2026-08-24T18:09:54+00:00",
   "collector_status": [
     {
       "source": "Coeur d'Alene",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Meridian",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://data.meridiancity.org/community-development/building/construction-reports/",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://data.meridiancity.org/community-development/building/construction-reports/"
+      "status": "ok",
+      "records_seen": 44,
+      "qualifying_records": 37,
+      "source_url": "https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf",
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-03 through 2026-08-09 (27 parsed); 2026-08-10 through 2026-08-16 (17 parsed)"
     },
     {
       "source": "Nampa",
