@@ -4,6 +4,7 @@ from datetime import datetime,timezone
 from pathlib import Path
 from .classify import classify_permit
 from .collectors.boise import BoiseDevelopmentCollector
+from .collectors.canyon_county import CanyonCountyDiscoveryCollector
 from .collectors.coeur_dalene import CoeurDAleneCollector
 from .collectors.eagle import EaglePermitCollector
 from .collectors.kootenai_county import KootenaiCountyCollector
@@ -11,7 +12,7 @@ from .collectors.report_pages import MeridianCollector,NampaCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .storage import load_permits,save_permits
-COLLECTORS=[BoiseDevelopmentCollector(),EaglePermitCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),MeridianCollector(),NampaCollector()]
+COLLECTORS=[BoiseDevelopmentCollector(),EaglePermitCollector(),CanyonCountyDiscoveryCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),MeridianCollector(),NampaCollector()]
 
 def _site_base_url():
     x=os.getenv('SITE_BASE_URL','').strip()
