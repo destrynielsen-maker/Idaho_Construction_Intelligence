@@ -1,0 +1,38 @@
+name: Collect Idaho permits and publish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - name: Test
+        env: {PYTHONPATH: src}
+        run: python -m unittest discover -s tests -v
+      - name: Collect and render
+        env: {PYTHONPATH: src}
+        run: python -m idaho_permits.main
+      - name: Persist permit history and generated site
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/permits.json public/data public/feeds
+          git diff --cached --quiet || git commit -m "Update Idaho permit intelligence"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: public}
+      - id: deployment
+        uses: actions/deploy-pages@v4

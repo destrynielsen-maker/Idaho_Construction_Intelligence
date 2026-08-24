@@ -1,0 +1,18 @@
+SOURCES = [
+ {'market':'Meridian','grade':'A+','mode':'automated-report','url':'https://data.meridiancity.org/community-development/building/construction-reports/','use':'Weekly construction reports'},
+ {'market':'Nampa','grade':'A+','mode':'automated-report','url':'https://www.cityofnampa.us/427/Permit-Reports','use':'Weekly permit activity and commercial review status'},
+ {'market':"Coeur d'Alene",'grade':'A+','mode':'automated-pdf','url':'https://building.cdaid.org/Reports/IssuedPermitsLastWeek','use':'Direct weekly issued permits'},
+ {'market':'Boise','grade':'A','mode':'rep-research','url':'https://permits.cityofboise.org/CitizenAccess/Default.aspx','use':'Building/planning searches and reports'},
+ {'market':'Eagle','grade':'A','mode':'rep-report','url':'https://cityofeagle.org/1863/Building-Permit-Reports','use':'Weekly permit reports'},
+ {'market':'Eagle Laserfiche','grade':'A','mode':'rep-research','url':'https://lf.cityofeagle.org/WebLink/?dbid=0&repo=CityofEagle','use':'Direct permit report repository'},
+ {'market':'Canyon County','grade':'A','mode':'gis','url':'https://maps.canyoncounty.id.gov/arcgisportal/apps/webappviewer/index.html?id=daddf87cce654183b32a8b408672de3c','use':'Unincorporated building permit tracker'},
+ {'market':'Canyon County Planning','grade':'A+ early lead','mode':'planning','url':'https://www.canyoncounty.id.gov/elected-officials/commissioners/development-services/dsd-gis/','use':'Planning & zoning application tracker'},
+ {'market':'Caldwell','grade':'B+','mode':'rep-research','url':'https://www2.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=263','use':'Permit and land-use search'},
+ {'market':'Star','grade':'B','mode':'rep-research','url':'https://www.staridaho.org/departments/building/','use':'Search existing permits'},
+ {'market':'Middleton','grade':'B','mode':'rep-research','url':'https://www4.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=242&original_contactID=0&original_iid=0','use':'Building permit portal'},
+ {'market':'Post Falls','grade':'A','mode':'rep-report','url':'https://www.postfalls.gov/175/Building','use':'Monthly building reports'},
+ {'market':'Post Falls OpenGov','grade':'B+','mode':'rep-research','url':'https://postfallsid.portal.opengov.com/','use':'Building/planning/engineering project research'},
+ {'market':'Twin Falls','grade':'A','mode':'rep-report','url':'https://www.tfid.org/214/Building-Permit-Information','use':'Dashboard, current commercial permits and monthly lists'},
+ {'market':'Pocatello','grade':'B+','mode':'rep-research','url':'https://poca.csqrcloud.com/community-etrakit/','use':'Permit/project/contractor/map search'},
+ {'market':'Idaho Falls','grade':'B','mode':'rep-research','url':'https://cw.idahofalls.gov/','use':'Cityworks permit/project research'},
+]
