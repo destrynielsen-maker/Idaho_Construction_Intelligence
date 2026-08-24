@@ -26,7 +26,13 @@ def run(root: Path):
     now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0
     for c in COLLECTORS:
         try:
-            r=c.collect(); total+=len(r.permits); qual=0
+            r=c.collect()
+            if getattr(c,'replace_jurisdiction',False):
+                current_keys={p.key for p in r.permits}
+                for key,old in list(existing.items()):
+                    if old.jurisdiction==c.name and key not in current_keys:
+                        del existing[key]
+            total+=len(r.permits); qual=0
             for p in r.permits:
                 classify_permit(p); qual+=int(p.qualifies); old=existing.get(p.key); p.first_seen_at=old.first_seen_at if old and old.first_seen_at else now; p.last_seen_at=now; existing[p.key]=p
             statuses.append({'source':r.source,'status':'ok','records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note})
