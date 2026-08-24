@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:11:10+00:00",
+  "generated_at": "2026-08-24T22:12:57+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Eagle",
-      "status": "error",
+      "status": "ok",
       "records_seen": 0,
       "qualifying_records": 0,
-      "source_url": "https://eagle_permit.portal.iworq.net/EAGLE/permits/600",
-      "note": "SSLError: HTTPSConnectionPool(host='eagle_permit.portal.iworq.net', port=443): Max retries exceeded with url: /EAGLE/permits/600 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eagle_permit.portal.iworq.net'. (_ssl.c:1010)\")))"
+      "source_url": "https://portal.iworq.net/EAGLE/permits/600",
+      "note": "Official City of Eagle iWorQ public permit portal; rolling live building-permit source"
     },
     {
       "source": "Coeur d'Alene",
@@ -90,7 +90,7 @@
       "market": "Eagle",
       "grade": "A+",
       "mode": "automated-portal",
-      "url": "https://eagle_permit.portal.iworq.net/EAGLE/permits/600",
+      "url": "https://portal.iworq.net/EAGLE/permits/600",
       "use": "Live public building-permit portal; filters to building permits and checks permit detail scope"
     },
     {
