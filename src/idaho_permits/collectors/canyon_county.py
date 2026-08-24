@@ -148,7 +148,7 @@ class CanyonCountyTrackerProbeCollector:
             'returnGeometry': 'false',
             'f': 'json',
             'resultRecordCount': 20,
-            'orderByFields': 'BP_DecisionDate DESC',
+            'orderByFields': 'BP_ReceivedDate DESC',
         }
         response = requests.get(CURRENT_TRACKER_QUERY_URL, params=params, timeout=60)
         response.raise_for_status()
@@ -169,7 +169,7 @@ class CanyonCountyTrackerProbeCollector:
                 'subtype': a.get('BP_SubType'),
                 'project': a.get('BP_ProjectInfo'),
             })
-        raise RuntimeError(f'Current tracker semantic probe samples={samples}')
+        raise RuntimeError(f'Current tracker recent-application probe samples={samples}')
 
 
 # Temporary one-run probe: fail closed and emit current-tracker semantics via source health.
