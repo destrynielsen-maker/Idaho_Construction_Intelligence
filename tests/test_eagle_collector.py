@@ -1,6 +1,9 @@
 import unittest
 from idaho_permits.classify import classify_permit
-from idaho_permits.collectors.eagle import PORTAL_URL, permits_from_listing, _detail_scope
+from idaho_permits.collectors.eagle import (
+    PORTAL_URL, permits_from_listing, _detail_scope,
+    detail_links_from_shell, record_from_detail,
+)
 from idaho_permits.models import Permit
 
 
@@ -28,6 +31,21 @@ CARD_LISTING = '''
 <div>Request An Inspection</div><a>View</a>
 '''
 
+SHELL = '''
+<a href="https://portal.iworq.net/EAGLE/permit/600/29622638">View</a>
+<a href="/EAGLE/permit/600/29622624">View</a>
+<a href="/EAGLE/inspection-request/600/29622638">Inspection</a>
+'''
+
+DETAIL = '''
+<div>Permit #:</div><div>266719</div>
+<div>Date:</div><div>08/19/2026</div>
+<div>Permit Type:</div><div>Building Residential</div>
+<div>Permit Address:</div><div>5634 W. Caldermill Ct.</div>
+<div>Status:</div><div>Online Submission</div>
+<div>Scope of Work:</div><div>New construction of single family dwelling</div>
+'''
+
 
 class EagleCollectorTests(unittest.TestCase):
     def test_uses_canonical_iworq_host(self):
@@ -44,7 +62,18 @@ class EagleCollectorTests(unittest.TestCase):
         self.assertEqual([r['permit_number'] for r in rows], ['266719', '266712'])
         self.assertEqual(rows[0]['issued_date'], '2026-08-19')
         self.assertEqual(rows[1]['status'], 'Pending Acceptance')
-        self.assertTrue(rows[0]['detail_url'].endswith('/EAGLE/permit/600/2001'))
+
+    def test_extracts_current_detail_links_from_shell(self):
+        links = detail_links_from_shell(SHELL)
+        self.assertEqual(len(links), 2)
+        self.assertTrue(links[0].endswith('/EAGLE/permit/600/29622638'))
+
+    def test_parses_labeled_detail_page(self):
+        row = record_from_detail(DETAIL, 'https://portal.iworq.net/EAGLE/permit/600/29622638')
+        self.assertEqual(row['permit_number'], '266719')
+        self.assertEqual(row['issued_date'], '2026-08-19')
+        self.assertEqual(row['permit_type'], 'Building Residential')
+        self.assertIn('New construction', row['scope'])
 
     def test_extracts_scope_from_detail_labels(self):
         html = '<div><b>Scope of Work:</b> New construction of a 12-unit apartment building</div>'
