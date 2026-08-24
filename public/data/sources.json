@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:38:05+00:00",
+  "generated_at": "2026-08-24T23:42:24+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -19,11 +19,11 @@
     },
     {
       "source": "Canyon County",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD",
-      "note": "RuntimeError: GIS discovery only; services=['DSD/APA_Act:MapServer', 'DSD/Building_Permits_NEW_2023:FeatureServer', 'DSD/Building_Permits_NEW_2023:MapServer', 'DSD/Current_Zoning:FeatureServer', 'DSD/Current_Zoning:MapServer', 'DSD/DSD_BLDG_PERMITS:FeatureServer', 'DSD/DSD_BLDG_PERMITS:MapServer', 'DSD/DSD_IMPACT_AREAS:FeatureServer', 'DSD/DSD_IMPACT_AREAS:MapServer', 'DSD/DSD_PLANNING_ZONING_APP_TRACKER:FeatureServer', 'DSD/DSD_PLANNING_ZONING_APP_TRACKER:MapServer', 'DSD/DSD_Timelapse:FeatureServer', 'DSD/DSD_Timelapse:MapServer', 'DSD/Future_Land_Use_2011_2022:FeatureServer', 'DSD/Future_Land_Use_2011_2022:MapServer', 'DSD/Future_Land_Use_2030_Adopted:FeatureServer', 'DSD/Future_Land_Use_2030_Adopted:MapServer']; candidate_layers=[{'service': 'DSD/Building_Permits_NEW_2023', 'service_type': 'FeatureServer', 'layer_id': 0, 'layer_name': 'BuildingPermitsResidentialPoints', 'fields': ['OBJECTID', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'ACRES', 'BP_ObjectID', 'BP_PermitNumber', 'BP_ParcelNumber', 'BP_Parcels', 'BP_AppType', 'BP_ProjectInfo', 'BP_SubType', 'BP_Classficiation', 'BP_BuildValuation', 'BP_Address', 'BP_Contractor', 'BP_StaffAssigned', 'BP_Status', 'BP_ReceivedDate', 'BP_Approval_Status', 'BP_DecisionDate', 'BP_DateClosed', 'BP_AppsInProjectNum', 'BP_Building_Review', 'BP_Building_Review_Comments', 'BP_Building_Review_Results_Comm', 'BP_Building_Review_ReceivedDate', 'BP_Building_Review_Result', 'BP_Building_Review_ResultDate', 'BP_ZoningApproval_1']}, {'service': 'DSD/Building_Permits_NEW_2023', 'service_type': 'FeatureServer', 'layer_id': 1, 'layer_name': 'BuildingPermitsAllPoints', 'fields': ['OBJECTID', 'DXF_LAYER', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'ACRES', 'BP_ObjectID', 'BP_PermitNumber', 'BP_ParcelNumber', 'BP_Parcels', 'BP_AppType', 'BP_ProjectInfo', 'BP_SubType', 'BP_Classficiation', 'BP_BuildValuation', 'BP_Address', 'BP_Contractor', 'BP_StaffAssigned', 'BP_Status', 'BP_ReceivedDate', 'BP_Approval_Status', 'BP_DecisionDate', 'BP_DateClosed', 'BP_AppsInProjectNum', 'BP_Building_Review', 'BP_Building_Review_Comments', 'BP_Building_Review_Results_Comm', 'BP_Building_Review_ReceivedDate', 'BP_Building_Review_Result', 'BP_Building_Review_ResultDate']}, {'service': 'DSD/Building_Permits_NEW_2023', 'service_type': 'MapServer', 'layer_id': 0, 'layer_name': 'BuildingPermitsResidentialPoints', 'fields': ['OBJECTID', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'ACRES', 'BP_ObjectID', 'BP_PermitNumber', 'BP_ParcelNumber', 'BP_Parcels', 'BP_AppType', 'BP_ProjectInfo', 'BP_SubType', 'BP_Classficiation', 'BP_BuildValuation', 'BP_Address', 'BP_Contractor', 'BP_StaffAssigned', 'BP_Status', 'BP_ReceivedDate', 'BP_Approval_Status', 'BP_DecisionDate', 'BP_DateClosed', 'BP_AppsInProjectNum', 'BP_Building_Review', 'BP_Building_Review_Comments', 'BP_Building_Review_Results_Comm', 'BP_Building_Review_ReceivedDate', 'BP_Building_Review_Result', 'BP_Building_Review_ResultDate', 'BP_ZoningApproval_1']}, {'service': 'DSD/Building_Permits_NEW_2023', 'service_type': 'MapServer', 'layer_id': 1, 'layer_name': 'BuildingPermitsAllPoints', 'fields': ['OBJECTID', 'DXF_LAYER', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'ACRES', 'BP_ObjectID', 'BP_PermitNumber', 'BP_ParcelNumber', 'BP_Parcels', 'BP_AppType', 'BP_ProjectInfo', 'BP_SubType', 'BP_Classficiation', 'BP_BuildValuation', 'BP_Address', 'BP_Contractor', 'BP_StaffAssigned', 'BP_Status', 'BP_ReceivedDate', 'BP_Approval_Status', 'BP_DecisionDate', 'BP_DateClosed', 'BP_AppsInProjectNum', 'BP_Building_Review', 'BP_Building_Review_Comments', 'BP_Building_Review_Results_Comm', 'BP_Building_Review_ReceivedDate', 'BP_Building_Review_Result', 'BP_Building_Review_ResultDate']}, {'service': 'DSD/DSD_BLDG_PERMITS', 'service_type': 'FeatureServer', 'layer_id': 0, 'layer_name': 'Building Permits', 'fields': ['OBJECTID', 'DXF_LAYER', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'MinRights', 'ACRES', 'AppSubmitted', 'PermitIssued', 'PermitNum', 'ParcelNum1', 'Classification', 'Address', 'ProjectInfo', 'Contractor', 'Subdivision', 'TwnRngSec', 'LivingSpace', 'TotalSqFt', 'Value_', 'Valuation', 'Status', 'ORIG_FID', 'GlobalID']}, {'service': 'DSD/DSD_BLDG_PERMITS', 'service_type': 'MapServer', 'layer_id': 0, 'layer_name': 'Building Permits', 'fields': ['OBJECTID', 'DXF_LAYER', 'DXF_TEXT', 'ACCOUNT', 'PIN', 'MinRights', 'ACRES', 'AppSubmitted', 'PermitIssued', 'PermitNum', 'ParcelNum1', 'Classification', 'Address', 'ProjectInfo', 'Contractor', 'Subdivision', 'TwnRngSec', 'LivingSpace', 'TotalSqFt', 'Value_', 'Valuation', 'Status', 'ORIG_FID', 'Shape', 'GlobalID']}]"
+      "status": "ok",
+      "records_seen": 2418,
+      "qualifying_records": 651,
+      "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0",
+      "note": "Official Canyon County DSD issued-building-permit FeatureServer; explicit PermitIssued and PermitNum fields"
     },
     {
       "source": "Coeur d'Alene",
@@ -110,10 +110,10 @@
     },
     {
       "market": "Canyon County",
-      "grade": "A",
-      "mode": "gis",
-      "url": "https://maps.canyoncounty.id.gov/arcgisportal/apps/webappviewer/index.html?id=daddf87cce654183b32a8b408672de3c",
-      "use": "Unincorporated building permit tracker"
+      "grade": "A+",
+      "mode": "automated-gis",
+      "url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0",
+      "use": "Official issued building permits with permit number, issue date, project, contractor, valuation and status"
     },
     {
       "market": "Canyon County Planning",

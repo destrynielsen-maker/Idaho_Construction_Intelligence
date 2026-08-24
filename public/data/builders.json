@@ -1,8 +1,2060 @@
 [
   {
+    "contractor": "BLACKSTONE HOMES",
+    "count": 24,
+    "score_total": 480,
+    "valuation_total": 7000293.559999999
+  },
+  {
+    "contractor": "SIMPLICITY HOMES LLC",
+    "count": 20,
+    "score_total": 400,
+    "valuation_total": 3610139.1400000006
+  },
+  {
+    "contractor": "COTNER BUILDING COMPANY LLC",
+    "count": 19,
+    "score_total": 380,
+    "valuation_total": 5681306.2
+  },
+  {
+    "contractor": "TRADITION CUSTOM HOMES INC",
+    "count": 13,
+    "score_total": 260,
+    "valuation_total": 3482389.4599999995
+  },
+  {
+    "contractor": "BRADSHAW CONSTRUCTION",
+    "count": 12,
+    "score_total": 250,
+    "valuation_total": 3565928.9999999995
+  },
+  {
+    "contractor": "PIONEER HOMES INC",
+    "count": 12,
+    "score_total": 240,
+    "valuation_total": 2523966.05
+  },
+  {
+    "contractor": "OAKMONT SIGNATURE HOMES LLC",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 2593300.14
+  },
+  {
+    "contractor": "HIGHLAND HOMES LLC",
+    "count": 10,
+    "score_total": 200,
+    "valuation_total": 2826049.4400000004
+  },
+  {
+    "contractor": "LARRY RICHARDSON CONSTRUCTION",
+    "count": 10,
+    "score_total": 200,
+    "valuation_total": 3328430.14
+  },
+  {
+    "contractor": "GREENCASTLE BUILDING LLC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 2579168.38
+  },
+  {
+    "contractor": "PROMINENT HOMES LLC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 3258844.4799999995
+  },
+  {
+    "contractor": "HIBBARD CONSTRUCTION INC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 2163018.6599999997
+  },
+  {
+    "contractor": "VALUE HOMES OF IDAHO LLC",
+    "count": 8,
+    "score_total": 160,
+    "valuation_total": 1666875.2799999998
+  },
+  {
+    "contractor": "MENDIOLA CUSTOM HOMES INC",
+    "count": 8,
+    "score_total": 160,
+    "valuation_total": 2429103.48
+  },
+  {
+    "contractor": "CANNON FARMHOUSE",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1787814.38
+  },
+  {
+    "contractor": "EVERGREEN CONSTRUCTION",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1778215.0999999999
+  },
+  {
+    "contractor": "WALTMAN HOMES",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 2062589.18
+  },
+  {
+    "contractor": "BROOKSTONE CUSTOM HOMES",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1562265.9
+  },
+  {
+    "contractor": "ADAIR HOMES INC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1286418.4999999998
+  },
+  {
+    "contractor": "PACKER DEVELOPMENT",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1518379.9
+  },
+  {
+    "contractor": "BILL PUGH CONSTRUCTION",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1572779.1
+  },
+  {
+    "contractor": "LIBERTY ENTERPRISES LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1092919.7000000002
+  },
+  {
+    "contractor": "LUDAN DESIGN",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 2053641.9200000002
+  },
+  {
+    "contractor": "HALLMARK HOMES",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 1340697.9
+  },
+  {
+    "contractor": "ALBERTSON SIGNATURE HOMES",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 937339.84
+  },
+  {
+    "contractor": "ANTLER CREEK HOMES",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1259853.6600000001
+  },
+  {
+    "contractor": "ALLIANCE BUILDING",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 947751.28
+  },
+  {
+    "contractor": "T & C CUSTOM HOMES",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 847260.3999999999
+  },
+  {
+    "contractor": "IDAHO IMPACT CONSTRUCTION LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 903395.8
+  },
+  {
+    "contractor": "KAD CONSTRUCTION INC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 878860.7
+  },
+  {
+    "contractor": "WOODBRIDGE PACIFIC GROUP",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 989079.8
+  },
+  {
+    "contractor": "CHANEY STOTTS CONSTRUCTION INC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 822683.9
+  },
+  {
+    "contractor": "LEIGHTON ENTERPRISES INC",
+    "count": 3,
+    "score_total": 80,
+    "valuation_total": 1102383.4
+  },
+  {
+    "contractor": "KRAMER BUILT",
+    "count": 3,
+    "score_total": 75,
+    "valuation_total": 570946.8
+  },
+  {
+    "contractor": "JONES HOMES",
+    "count": 3,
+    "score_total": 65,
+    "valuation_total": 1051892.2
+  },
+  {
+    "contractor": "RIDGETOP HOMES LLC",
+    "count": 3,
+    "score_total": 65,
+    "valuation_total": 1002428.3999999999
+  },
+  {
+    "contractor": "MUSSELL CONSTRUCTION INC",
+    "count": 2,
+    "score_total": 62,
+    "valuation_total": 2190370.3
+  },
+  {
+    "contractor": "TAMARACK CONSTRUCTION",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 884335.8999999999
+  },
+  {
+    "contractor": "ZZ CONSTRUCTION",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 892565.28
+  },
+  {
+    "contractor": "PARRY CONSTRUCTION",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 521939.54000000004
+  },
+  {
+    "contractor": "STEELE CUSTOM HOME",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 910125.88
+  },
+  {
+    "contractor": "MITERS AND SUCH LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 708304.6799999999
+  },
+  {
+    "contractor": "LARZELIER HOMES, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 593725.5
+  },
+  {
+    "contractor": "STUCKI HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 713218.7
+  },
+  {
+    "contractor": "BIG PINE CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 771593.5000000001
+  },
+  {
+    "contractor": "FIVE & CO. DESIGN & BUILD LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 788348.4
+  },
+  {
+    "contractor": "FLAHERTY CUSTOM HOMES LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 1258664.6
+  },
+  {
+    "contractor": "ACADIA BUILDING COMPANY",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 834541.6
+  },
+  {
+    "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 907833.3
+  },
+  {
+    "contractor": "PEARMAN CONTRACTING LLC",
+    "count": 2,
+    "score_total": 60,
+    "valuation_total": 1028665.4
+  },
+  {
+    "contractor": "SYRINGA CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 905141.62
+  },
+  {
+    "contractor": "HEINZ BUILT HOMES LLC",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 976981.7
+  },
+  {
+    "contractor": "PRO-C CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 287458.28
+  },
+  {
+    "contractor": "ABERRANT HOMES, LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 722564.2
+  },
+  {
+    "contractor": "INNOVATIVE CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 439042.8
+  },
+  {
+    "contractor": "BAILEY BUILDS, LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 562739.3200000001
+  },
+  {
+    "contractor": "RIDGE CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 475503.16
+  },
+  {
+    "contractor": "KW HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 593463.8
+  },
+  {
+    "contractor": "IRISH QUALITY BUILDERS",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 508165.7
+  },
+  {
+    "contractor": "STAINBROOK KERRY",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 429168.1
+  },
+  {
+    "contractor": "SULLIVAN PATRICK & JODENA",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 354959.7
+  },
+  {
+    "contractor": "POULSEN ENTERPRISES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 528518.1
+  },
+  {
+    "contractor": "RIVER ROCK BUILDERS",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 355671.5
+  },
+  {
+    "contractor": "LABAHN JEFF",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 637938.1
+  },
+  {
+    "contractor": "HERITAGE HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 563276.4
+  },
+  {
+    "contractor": "SOLITUDE HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 642582.1000000001
+  },
+  {
+    "contractor": "SUPERIOR CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 480805.8
+  },
+  {
+    "contractor": "LEXAR HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 268075.7
+  },
+  {
+    "contractor": "ELK RUN CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 485850.7
+  },
+  {
+    "contractor": "RAMSEY CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 599640.6000000001
+  },
+  {
+    "contractor": "AMERICHOICE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 509157.5
+  },
+  {
+    "contractor": "IRONWOOD HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 565497.7
+  },
+  {
+    "contractor": "BLAST PROPERTIES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 407089.5
+  },
+  {
+    "contractor": "CHRISTENSEN HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 647555.5
+  },
+  {
+    "contractor": "SOLID ROCK HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 743037.0
+  },
+  {
+    "contractor": "DA PARRY CONSTRUCTION INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 530602.4
+  },
+  {
+    "contractor": "RIVERROCK CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 447198.3
+  },
+  {
+    "contractor": "MYERS CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 718236.9
+  },
+  {
+    "contractor": "JC DRYWALL AND CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 643090.5
+  },
+  {
+    "contractor": "VALLEY CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 462003.8
+  },
+  {
+    "contractor": "RIVERWOOD HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 460913.0
+  },
+  {
+    "contractor": "KINZLER BUILDERS AND DEVELOP INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 602857.4
+  },
+  {
+    "contractor": "MARKETPLACE BUILDERS LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 621074.2
+  },
+  {
+    "contractor": "TIMBER STONE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 469663.4
+  },
+  {
+    "contractor": "GREEN CASTLE BUILDING LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 475303.1
+  },
+  {
+    "contractor": "MILLER CONSTRUCTION CORPORATION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 430935.2
+  },
+  {
+    "contractor": "COMPONENTS PLUS",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 548496.6
+  },
+  {
     "contractor": "HOMEOWNER",
     "count": 1,
     "score_total": 40,
     "valuation_total": 450000.0
+  },
+  {
+    "contractor": "STEEL NATIONAL",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 600000.0
+  },
+  {
+    "contractor": "CUSHING TERRELL",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 164640.0
+  },
+  {
+    "contractor": "W & WW LLC",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 51480.0
+  },
+  {
+    "contractor": "KELLER ASSOCIATES",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 25000.0
+  },
+  {
+    "contractor": "CAPITAL SHEET METAL",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 360000.0
+  },
+  {
+    "contractor": "TIPPMANN CONSTRUCTION",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 125000.0
+  },
+  {
+    "contractor": "DALE BINNING ARCHITECT",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 286000.0
+  },
+  {
+    "contractor": "TAYLORD SERVICES LLC",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 60000.0
+  },
+  {
+    "contractor": "BUSSE VICKI",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 35000.0
+  },
+  {
+    "contractor": "RUDEEN ARCHITECTS",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 220000.0
+  },
+  {
+    "contractor": "CLEARY BUILDING CORP",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 67279.0
+  },
+  {
+    "contractor": "STAR FIRE",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 100000.0
+  },
+  {
+    "contractor": "FLAMINGO WEST LLC",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 100000.0
+  },
+  {
+    "contractor": "RED LEAF BUILDING COMPANY",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 717325.68
+  },
+  {
+    "contractor": "ODYSSEY HOMES",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 615299.16
+  },
+  {
+    "contractor": "JASON PHILLIPS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 591948.6
+  },
+  {
+    "contractor": "BRUTSMAN RON",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 814450.2
+  },
+  {
+    "contractor": "VULCAN IONEL",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 737319.36
+  },
+  {
+    "contractor": "KRISTY CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 571194.9
+  },
+  {
+    "contractor": "NUNO JAIME",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 531838.6
+  },
+  {
+    "contractor": "DRINKARD ROBERT AND HOLLY",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 629879.0
+  },
+  {
+    "contractor": "ENVISION CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 102560.0
+  },
+  {
+    "contractor": "REBICH JIMMIE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 419438.16
+  },
+  {
+    "contractor": "Z & H CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 297078.24
+  },
+  {
+    "contractor": "SOLID GOLD LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 253403.04
+  },
+  {
+    "contractor": "VISSOTSKI SHARON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 280486.44
+  },
+  {
+    "contractor": "RIGG CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 226386.72
+  },
+  {
+    "contractor": "BURDINE DAVID",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 356698.8
+  },
+  {
+    "contractor": "PRIETO MANUEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342777.0
+  },
+  {
+    "contractor": "ROBERT MYERS CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 483986.28
+  },
+  {
+    "contractor": "TSUPA IVAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284298.24
+  },
+  {
+    "contractor": "PRIETO PEDRO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 326792.76
+  },
+  {
+    "contractor": "12.15 DESIGN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 436840.08
+  },
+  {
+    "contractor": "EELLS CASEY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 266917.44
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 269435.52
+  },
+  {
+    "contractor": "WESNER CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331308.96
+  },
+  {
+    "contractor": "DEVIN LIMB",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 463015.8
+  },
+  {
+    "contractor": "SUNSET HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 303366.84
+  },
+  {
+    "contractor": "BARNARD NATHAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 399754.92
+  },
+  {
+    "contractor": "LIST MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 282996.6
+  },
+  {
+    "contractor": "VERHOEKS TANNER",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 317873.16
+  },
+  {
+    "contractor": "NORTHSTAR RANCH DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 264190.0
+  },
+  {
+    "contractor": "HILL JEFF",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 100576.0
+  },
+  {
+    "contractor": "PACIFIC NORTH CONTRACTORS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 256695.4
+  },
+  {
+    "contractor": "STIRM JUSTIN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 126670.88
+  },
+  {
+    "contractor": "THORNTON SHERMAN & JULENE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 72172.8
+  },
+  {
+    "contractor": "MORGAN ETHAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 297729.52
+  },
+  {
+    "contractor": "STEWART MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 40588.8
+  },
+  {
+    "contractor": "HUNT FAITH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 258409.44
+  },
+  {
+    "contractor": "JK COMPANIES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 262167.96
+  },
+  {
+    "contractor": "NA INSTALLATIONS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342884.88
+  },
+  {
+    "contractor": "MCGIVERN SAM",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 431025.36
+  },
+  {
+    "contractor": "TRAVIS MATTHEW",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 307665.96
+  },
+  {
+    "contractor": "PROCRAFT CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 77328.0
+  },
+  {
+    "contractor": "ALLEN EZELL CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 346644.0
+  },
+  {
+    "contractor": "DAMYAN RUSS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 333502.32
+  },
+  {
+    "contractor": "CHATEAU BUILDERS INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284903.04
+  },
+  {
+    "contractor": "MONTEITH KASEY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 187024.4
+  },
+  {
+    "contractor": "MARTWICK CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 237028.68
+  },
+  {
+    "contractor": "PRO TECH CONTRACTING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 291375.36
+  },
+  {
+    "contractor": "ROYCE SHANE AND KIMBERLY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 306735.8
+  },
+  {
+    "contractor": "DOUBLE M CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 293294.04
+  },
+  {
+    "contractor": "SHURTLEFF BROTHERS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 270634.08
+  },
+  {
+    "contractor": "MCHADDAD KEAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 328365.3
+  },
+  {
+    "contractor": "THE LANDMARK COMPANY LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 201786.0
+  },
+  {
+    "contractor": "CEDAR AND SAGE HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 400145.7
+  },
+  {
+    "contractor": "BAERWALDT DARREL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 185183.34
+  },
+  {
+    "contractor": "MICHAELA MCQUILKIN & COLE LOWE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 198557.1
+  },
+  {
+    "contractor": "HATHAWAYS HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 231992.1
+  },
+  {
+    "contractor": "DUDLEY MIKE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 295148.12
+  },
+  {
+    "contractor": "BUILD IT USA LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 40977.6
+  },
+  {
+    "contractor": "KELLEY SHAWN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 72660.0
+  },
+  {
+    "contractor": "NELSON KENNETH J",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 62821.6
+  },
+  {
+    "contractor": "JD CUSTOM HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 231036.8
+  },
+  {
+    "contractor": "CHRISTMANN FRANK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 296951.7
+  },
+  {
+    "contractor": "BLUE DIAMOND CUSTOMS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284839.5
+  },
+  {
+    "contractor": "CR HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 445657.0
+  },
+  {
+    "contractor": "PALLESEN BUILDERS INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 309715.4
+  },
+  {
+    "contractor": "PALOMINO FINE HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 234866.0
+  },
+  {
+    "contractor": "RISEN HOME DESIGN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 280548.0
+  },
+  {
+    "contractor": "KONDRATYUK VADIM",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 167900.4
+  },
+  {
+    "contractor": "XCEL PROPERTIES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 248298.0
+  },
+  {
+    "contractor": "COBB ZACHARY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 185667.8
+  },
+  {
+    "contractor": "STEFAN MIRCEA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 157875.6
+  },
+  {
+    "contractor": "WES MILLER CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 373083.1
+  },
+  {
+    "contractor": "STEBBINS PATRICK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 316796.2
+  },
+  {
+    "contractor": "RESTORATIVE CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 162964.4
+  },
+  {
+    "contractor": "POWERS DAVID",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 100522.3
+  },
+  {
+    "contractor": "LUDD CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 306745.3
+  },
+  {
+    "contractor": "WALT HOLTON LIBERTY ENTERPRISES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 172314.3
+  },
+  {
+    "contractor": "BALE NIKOLAUS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 244919.5
+  },
+  {
+    "contractor": "TAMARACK CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 248034.4
+  },
+  {
+    "contractor": "IRON HAVEN HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 194766.2
+  },
+  {
+    "contractor": "JUSSILA BEN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 193520.8
+  },
+  {
+    "contractor": "DESCALSO ANDREW",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 190384.5
+  },
+  {
+    "contractor": "RIVAS EDUARDO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 414758.5
+  },
+  {
+    "contractor": "NOBLE HOMES AND CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 285618.6
+  },
+  {
+    "contractor": "FAST LANE CONCRETE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 235590.0
+  },
+  {
+    "contractor": "ASTLE TRAVIS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 94152.0
+  },
+  {
+    "contractor": "XCEL CONCRETE CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 254003.8
+  },
+  {
+    "contractor": "VANCE DEBBIE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 91817.1
+  },
+  {
+    "contractor": "SCROGGINS BILLY L",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 159067.3
+  },
+  {
+    "contractor": "BATIE DENNIS AND LINDA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 292996.3
+  },
+  {
+    "contractor": "JOHNSON ROBERT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 206333.7
+  },
+  {
+    "contractor": "DEARMENT RUSSELL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 371633.0
+  },
+  {
+    "contractor": "CRISAN CORNELL & ADRIANA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 191192.9
+  },
+  {
+    "contractor": "TOLL RICK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 333220.6
+  },
+  {
+    "contractor": "GRAY WORKS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 279340.3
+  },
+  {
+    "contractor": "HYLTON TRISTON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 226529.6
+  },
+  {
+    "contractor": "WATANABE KENNETH & CHRISTINE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 231195.0
+  },
+  {
+    "contractor": "NORTHWEST CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 188288.7
+  },
+  {
+    "contractor": "VALLEY FINISH INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 157872.0
+  },
+  {
+    "contractor": "ANDERSON WALLACE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 348679.4
+  },
+  {
+    "contractor": "BAUTISTA MARCO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 289908.6
+  },
+  {
+    "contractor": "DLUX CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 238908.7
+  },
+  {
+    "contractor": "HYDE ROD",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 269149.5
+  },
+  {
+    "contractor": "AERO CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 244790.8
+  },
+  {
+    "contractor": "ROBERTSON BUILDING COMPANY LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 236708.8
+  },
+  {
+    "contractor": "INNOVATIVE BUILDING AND REMODELING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 220758.2
+  },
+  {
+    "contractor": "TUCKETT TRAVIS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 376956.5
+  },
+  {
+    "contractor": "EARTHCRAFT CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 355957.5
+  },
+  {
+    "contractor": "SALMON RIVER CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 231509.7
+  },
+  {
+    "contractor": "JACKSON MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 220080.0
+  },
+  {
+    "contractor": "SCHLOSSER CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 261474.5
+  },
+  {
+    "contractor": "NAVARRETE TERESO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 71509.6
+  },
+  {
+    "contractor": "MANGEAC SAMUEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 351557.0
+  },
+  {
+    "contractor": "IPF CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 269855.6
+  },
+  {
+    "contractor": "RASMUSSEN DARWIN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 308117.0
+  },
+  {
+    "contractor": "HIGGINS HOME SERVICES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 128331.8
+  },
+  {
+    "contractor": "WOODRUFF STACY D",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 311223.5
+  },
+  {
+    "contractor": "MONDRAGON GUADENCIO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 271813.1
+  },
+  {
+    "contractor": "ENDERS KENNETH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 277006.3
+  },
+  {
+    "contractor": "ROBERTSON RANDALL AND DAWN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 266915.8
+  },
+  {
+    "contractor": "ARTISAN BUILDS LLLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 235177.3
+  },
+  {
+    "contractor": "MILLER JON M",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 133054.6
+  },
+  {
+    "contractor": "BRIDGEWATER CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 236549.7
+  },
+  {
+    "contractor": "OREGON JOSE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 237454.1
+  },
+  {
+    "contractor": "LORDS CODY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 251484.7
+  },
+  {
+    "contractor": "EXTREME FRAMING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 326844.2
+  },
+  {
+    "contractor": "RAMIREZ ANTONIO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 252742.0
+  },
+  {
+    "contractor": "IDLEMAN RYAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 149041.5
+  },
+  {
+    "contractor": "TV GROUP, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 128134.0
+  },
+  {
+    "contractor": "BRATKOV ROMAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 281913.8
+  },
+  {
+    "contractor": "SOTELO REYNALDO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 170670.6
+  },
+  {
+    "contractor": "AKAL CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 137699.7
+  },
+  {
+    "contractor": "LANDMARK CONSTRUCTION MANAGEMENT LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 254928.7
+  },
+  {
+    "contractor": "CANNON BEAU",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 222290.8
+  },
+  {
+    "contractor": "EELLS JEREMY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 277864.1
+  },
+  {
+    "contractor": "ROBERTS DAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 463107.6
+  },
+  {
+    "contractor": "VALLEY OAK CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 300869.0
+  },
+  {
+    "contractor": "KRAVCHENKO PAVEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 292348.5
+  },
+  {
+    "contractor": "TURNER ANNE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 273116.9
+  },
+  {
+    "contractor": "ROYAL PRO C LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331705.6
+  },
+  {
+    "contractor": "SWAGGART WOOD PROPERTIES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 262078.4
+  },
+  {
+    "contractor": "ZENITH HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 271241.2
+  },
+  {
+    "contractor": "CURTIS RUSS & CINDY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 211326.7
+  },
+  {
+    "contractor": "WEEKS MONTE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 212351.6
+  },
+  {
+    "contractor": "LEPETSKYY ANNA & CONSTANTINE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 364816.9
+  },
+  {
+    "contractor": "JENSEN KASEY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 418253.5
+  },
+  {
+    "contractor": "THOMPSON DAVID G",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 206104.1
+  },
+  {
+    "contractor": "HERITAGE WOODWORKS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331155.4
+  },
+  {
+    "contractor": "REDING JANE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 184134.1
+  },
+  {
+    "contractor": "ODWYER SIGNATURE HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 221869.2
+  },
+  {
+    "contractor": "TURNER CHARLES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 239219.9
+  },
+  {
+    "contractor": "WALKER LARRY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 224739.5
+  },
+  {
+    "contractor": "FLORY ZACHARY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 140728.8
+  },
+  {
+    "contractor": "GUZMAN ANTONIO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 180477.7
+  },
+  {
+    "contractor": "MIKE BELL CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 243231.5
+  },
+  {
+    "contractor": "MORTENSEN CONSTRUCTION INC DBA LIFESTYLE HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 308738.3
+  },
+  {
+    "contractor": "SMITH TERRY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 225191.9
+  },
+  {
+    "contractor": "RODRIGUEZ RICARDO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 269650.5
+  },
+  {
+    "contractor": "MARTINEZ CECELIO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 282988.1
+  },
+  {
+    "contractor": "MACIAS VICTOR",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 308563.0
+  },
+  {
+    "contractor": "MAZE LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 215490.5
+  },
+  {
+    "contractor": "SAUCEDO JAVIER",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 78376.1
+  },
+  {
+    "contractor": "VILNIUS HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 261479.4
+  },
+  {
+    "contractor": "HILLIARD WADE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 168364.7
+  },
+  {
+    "contractor": "FIRST CLASS FRAMING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 184789.5
+  },
+  {
+    "contractor": "AJB CONTRACTORS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 167715.3
+  },
+  {
+    "contractor": "PROFFITT SHANE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 430973.1
+  },
+  {
+    "contractor": "SOTELO JOSE AYALA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 196237.2
+  },
+  {
+    "contractor": "WALL 2 WALL CUSTOM HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 221760.3
+  },
+  {
+    "contractor": "SAI CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 375081.8
+  },
+  {
+    "contractor": "BALLESTEROS MIGUEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 222900.0
+  },
+  {
+    "contractor": "BUSTER BUILT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 73916.8
+  },
+  {
+    "contractor": "CAMPBELL JOHN W",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 221166.7
+  },
+  {
+    "contractor": "ANDREW HOCH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 43596.0
+  },
+  {
+    "contractor": "BRADSHAW KENT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 180264.5
+  },
+  {
+    "contractor": "COREWOOD CONSTRUCTION LTD CO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 277657.4
+  },
+  {
+    "contractor": "POWERS CONSTRUCTION SOLUTIONS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 208011.9
+  },
+  {
+    "contractor": "CONGER TRAVIS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284199.6
+  },
+  {
+    "contractor": "PRICE JEFFREY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 263964.8
+  },
+  {
+    "contractor": "DUDLEY MATT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 255111.3
+  },
+  {
+    "contractor": "SCHWERDTFEGER TIMOTHY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 193939.1
+  },
+  {
+    "contractor": "DAWSON CONSTRUCTION SERVICES, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 189171.0
+  },
+  {
+    "contractor": "MORGAN RIRIE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 157180.6
+  },
+  {
+    "contractor": "BRINK CODY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 346203.1
+  },
+  {
+    "contractor": "TREASURED HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 268526.0
+  },
+  {
+    "contractor": "TAYLER HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 260897.1
+  },
+  {
+    "contractor": "ANDERSON REMODELING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 130306.5
+  },
+  {
+    "contractor": "SQUAW BUTTE HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 130992.8
+  },
+  {
+    "contractor": "FREEMAN FIVE CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 181243.6
+  },
+  {
+    "contractor": "SOUTHERN IDAHO BUILDERS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 257880.1
+  },
+  {
+    "contractor": "JAKE HOLCOMB CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 207068.0
+  },
+  {
+    "contractor": "GROESBECK KEITH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 200991.4
+  },
+  {
+    "contractor": "MOORE NED",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 251280.0
+  },
+  {
+    "contractor": "CATON RIAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 481338.7
+  },
+  {
+    "contractor": "WAGNER MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 250494.1
+  },
+  {
+    "contractor": "MARTINHO DANNY JR",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 215667.4
+  },
+  {
+    "contractor": "ASHWOOD HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 194488.3
+  },
+  {
+    "contractor": "WIZARD RENOVATIONS INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 375834.9
+  },
+  {
+    "contractor": "BUILD PRO IDAHO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 265690.0
+  },
+  {
+    "contractor": "WALTMAN BRANDON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 249431.9
+  },
+  {
+    "contractor": "ALL TRADE CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 185357.1
+  },
+  {
+    "contractor": "THUNDER MOUNTAIN STRUCTURES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 85638.6
+  },
+  {
+    "contractor": "VUCINICH MARK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 315915.4
+  },
+  {
+    "contractor": "JOHANSEN BRAD",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342512.9
+  },
+  {
+    "contractor": "INNOVATIVE CUSTOM HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 220511.2
+  },
+  {
+    "contractor": "PANNELL DONALD O",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 176582.0
+  },
+  {
+    "contractor": "BENT RIVER CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 233306.0
+  },
+  {
+    "contractor": "STONE PRECISION CONTRACTORS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 134623.0
+  },
+  {
+    "contractor": "ZIMEL DEAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 247746.3
+  },
+  {
+    "contractor": "ROB EDMONDS FRAMING",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 225195.2
+  },
+  {
+    "contractor": "CSC LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 184590.5
+  },
+  {
+    "contractor": "ROBINS AND ROBINS CUSTOM HOMES LLP",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 161577.2
+  },
+  {
+    "contractor": "MODERN RENOVATIONS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 238573.0
+  },
+  {
+    "contractor": "GINGRICH HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 261556.4
+  },
+  {
+    "contractor": "STETSON HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 267835.7
+  },
+  {
+    "contractor": "LINDERMAN MATHEW",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 292861.0
+  },
+  {
+    "contractor": "E G CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 338971.9
+  },
+  {
+    "contractor": "JENKINS LYNN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 216662.2
+  },
+  {
+    "contractor": "BUSALACCHI CUSTOM HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 280992.1
+  },
+  {
+    "contractor": "ANDREW'S DRYWALL LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 187251.8
+  },
+  {
+    "contractor": "BARCLAY CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 166306.0
+  },
+  {
+    "contractor": "MAZE CHRIS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 310059.9
+  },
+  {
+    "contractor": "BRADSHAW CRAIG",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 228200.4
+  },
+  {
+    "contractor": "IDAHO RURAL DEV DBA LEXAR HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 193729.6
+  },
+  {
+    "contractor": "EDMONDS FRAMING INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 218350.1
+  },
+  {
+    "contractor": "TURN OF THE CENTURY HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 290648.7
+  },
+  {
+    "contractor": "SPEEDYS CUSTOM HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 173076.2
+  },
+  {
+    "contractor": "LARSON DARREN R",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 146814.3
+  },
+  {
+    "contractor": "JDH BUILDERS INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 288384.6
+  },
+  {
+    "contractor": "WESTERN RANCH BUILDINGS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 88381.55
+  },
+  {
+    "contractor": "AVILA FRANCISCO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 205140.9
+  },
+  {
+    "contractor": "KINGSTUD CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 254093.0
+  },
+  {
+    "contractor": "RICE NICHOLAS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 249248.5
+  },
+  {
+    "contractor": "ALLRED BLACK CONSTRUCTION, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 401600.8
+  },
+  {
+    "contractor": "BOOS JEFFREY C",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 38484.0
+  },
+  {
+    "contractor": "RIVER VALLEY FRAMING LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 316200.4
+  },
+  {
+    "contractor": "STANCIU MIHAELA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 185754.0
+  },
+  {
+    "contractor": "BILL PUGH CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 221154.1
+  },
+  {
+    "contractor": "PAVEL KRUT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 129149.0
+  },
+  {
+    "contractor": "SUGAR CREEK HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 196963.9
+  },
+  {
+    "contractor": "ANGOOD CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 153900.0
+  },
+  {
+    "contractor": "JENSEN JARED",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 170604.0
   }
 ]
