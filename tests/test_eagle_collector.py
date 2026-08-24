@@ -1,6 +1,6 @@
 import unittest
 from idaho_permits.classify import classify_permit
-from idaho_permits.collectors.eagle import permits_from_listing, _detail_scope
+from idaho_permits.collectors.eagle import PORTAL_URL, permits_from_listing, _detail_scope
 from idaho_permits.models import Permit
 
 
@@ -15,6 +15,9 @@ LISTING = '''
 
 
 class EagleCollectorTests(unittest.TestCase):
+    def test_uses_canonical_iworq_host(self):
+        self.assertEqual(PORTAL_URL, 'https://portal.iworq.net/EAGLE/permits/600')
+
     def test_listing_keeps_only_building_permits(self):
         rows = permits_from_listing(LISTING)
         self.assertEqual([r['permit_number'] for r in rows], ['266108', '266099'])
