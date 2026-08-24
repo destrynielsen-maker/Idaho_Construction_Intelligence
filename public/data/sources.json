@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:09:53+00:00",
+  "generated_at": "2026-08-24T22:11:10+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -8,6 +8,14 @@
       "qualifying_records": 31,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
+    },
+    {
+      "source": "Eagle",
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "source_url": "https://eagle_permit.portal.iworq.net/EAGLE/permits/600",
+      "note": "SSLError: HTTPSConnectionPool(host='eagle_permit.portal.iworq.net', port=443): Max retries exceeded with url: /EAGLE/permits/600 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eagle_permit.portal.iworq.net'. (_ssl.c:1010)\")))"
     },
     {
       "source": "Coeur d'Alene",
@@ -80,17 +88,17 @@
     },
     {
       "market": "Eagle",
-      "grade": "A",
-      "mode": "rep-report",
-      "url": "https://cityofeagle.org/1863/Building-Permit-Reports",
-      "use": "Weekly permit reports"
+      "grade": "A+",
+      "mode": "automated-portal",
+      "url": "https://eagle_permit.portal.iworq.net/EAGLE/permits/600",
+      "use": "Live public building-permit portal; filters to building permits and checks permit detail scope"
     },
     {
       "market": "Eagle Laserfiche",
       "grade": "A",
-      "mode": "rep-research",
+      "mode": "backfill-report",
       "url": "https://lf.cityofeagle.org/WebLink/?dbid=0&repo=CityofEagle",
-      "use": "Direct permit report repository"
+      "use": "Official weekly permit report repository for historical/backfill research"
     },
     {
       "market": "Canyon County",
