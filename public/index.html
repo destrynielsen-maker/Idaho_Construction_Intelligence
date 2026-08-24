@@ -1,1 +1,176 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Idaho Construction Intelligence</title><style>body{font-family:Arial,sans-serif;margin:0;background:#f6f7f9;color:#17212b}.wrap{max-width:1200px;margin:auto;padding:24px}h1{margin:0 0 6px}.muted{color:#667085}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:18px 0}.card{background:white;border:1px solid #e4e7ec;border-radius:10px;padding:16px}table{width:100%;border-collapse:collapse;background:white}th,td{padding:10px;border-bottom:1px solid #eee;text-align:left;vertical-align:top}th{position:sticky;top:0;background:#fff}.badge{display:inline-block;padding:2px 8px;border-radius:20px;background:#eef2f6;font-size:12px}a{color:#175cd3;text-decoration:none}.score{font-weight:700}.tabs button{margin-right:8px;padding:8px 12px}.small{font-size:12px}</style></head><body><div class='wrap'><h1>Idaho Construction Intelligence</h1><div class='muted'>New-construction lead feed + Idaho rep prospecting directory</div><div class='grid'><div class='card'><b>Top Opportunities</b><div id='top'>Loading…</div></div><div class='card'><b>Collector Health</b><div id='health'>Loading…</div></div><div class='card'><b>RSS</b><div><a href='feeds/new-construction.xml'>All new construction</a><br><a href='feeds/multifamily.xml'>Multifamily</a><br><a href='feeds/single-family.xml'>Single family</a><br><a href='feeds/commercial.xml'>Commercial</a><br><a href='feeds/top-opportunities.xml'>Top opportunities</a></div></div></div><h2>Qualifying permits</h2><table><thead><tr><th>Score</th><th>Market</th><th>Project</th><th>Address</th><th>Builder / GC</th><th>Valuation</th><th>Date</th></tr></thead><tbody id='permits'></tbody></table><h2>Rep permit & planning sources</h2><table><thead><tr><th>Market</th><th>Grade</th><th>Mode</th><th>How to use it</th></tr></thead><tbody id='sources'></tbody></table></div><script>const money=n=>n?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n):'';Promise.all([fetch('data/permits.json').then(r=>r.json()),fetch('data/sources.json').then(r=>r.json())]).then(([p,s])=>{const rows=p.permits||[];document.getElementById('top').innerHTML=rows.slice(0,5).map(x=>`<div><span class=score>${x.score}</span> ${x.jurisdiction} — ${x.project_name||x.permit_type}</div>`).join('')||'No qualifying permits yet';document.getElementById('permits').innerHTML=rows.map(x=>`<tr><td class=score>${x.score}</td><td>${x.jurisdiction}</td><td><a href='${x.source_url}' target=_blank>${x.project_name||x.permit_type}</a><div class='small'><span class=badge>${x.classification}</span></div></td><td>${x.address}</td><td>${x.contractor||''}</td><td>${money(x.valuation)}</td><td>${x.issued_date}</td></tr>`).join('');document.getElementById('health').innerHTML=(s.collector_status||[]).map(x=>`<div>${x.status==='ok'?'✓':'!'} ${x.source}: ${x.records_seen} seen / ${x.qualifying_records} leads</div>`).join('');document.getElementById('sources').innerHTML=(s.directory||[]).map(x=>`<tr><td><a href='${x.url}' target=_blank>${x.market}</a></td><td>${x.grade}</td><td><span class=badge>${x.mode}</span></td><td>${x.use}</td></tr>`).join('')})</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idaho Construction Intelligence</title>
+  <style>
+    :root { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #172033; color: white; padding: 28px max(20px, calc((100vw - 1500px)/2)); }
+    header h1 { margin: 0 0 6px; font-size: 28px; }
+    header p { margin: 0; opacity: .8; }
+    main { max-width: 1500px; margin: 0 auto; padding: 22px; }
+    .cards { display: grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .card, .panel { background: white; border: 1px solid #e1e6ef; border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,.03); }
+    .card { padding: 16px; }
+    .card .label { color: #667085; font-size: 13px; }
+    .card .value { font-size: 25px; font-weight: 700; margin-top: 6px; }
+    .panel { padding: 16px; margin-bottom: 16px; }
+    .filters { display: grid; grid-template-columns: 1.3fr repeat(4, minmax(130px, .7fr)); gap: 10px; }
+    input, select { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; }
+    .feeds { display: flex; flex-wrap: wrap; gap: 8px; }
+    .feeds a { text-decoration: none; border: 1px solid #cfd6e2; border-radius: 999px; padding: 7px 11px; color: #172033; background: white; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; color: #667085; border-bottom: 1px solid #dfe5ee; padding: 10px 8px; white-space: nowrap; }
+    td { padding: 10px 8px; border-bottom: 1px solid #edf0f5; vertical-align: top; }
+    td.money, td.score, td.units, td.date { white-space: nowrap; }
+    .badge { display:inline-block; padding:3px 7px; border-radius:999px; background:#eef2f7; font-size:11px; font-weight:600; white-space:nowrap; }
+    .muted { color:#667085; }
+    .source-ok { font-weight: 700; color: #067647; }
+    .source-error { font-weight: 700; color: #b42318; }
+    .health-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin-top:10px; }
+    .health-item { border:1px solid #e1e6ef; border-radius:10px; padding:11px 12px; background:#fbfcfe; }
+    .health-item .meta { color:#667085; font-size:12px; margin-top:4px; line-height:1.45; }
+    .health-summary { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; }
+    a { color: #175cd3; }
+    @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
+    @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Idaho Construction Intelligence</h1>
+  <p>New single-family, multifamily and commercial building-permit leads</p>
+</header>
+<main>
+  <section class="cards">
+    <div class="card"><div class="label">Qualifying permits</div><div class="value" id="total">—</div></div>
+    <div class="card"><div class="label">Single family</div><div class="value" id="single">—</div></div>
+    <div class="card"><div class="label">Multifamily</div><div class="value" id="multi">—</div></div>
+    <div class="card"><div class="label">Commercial</div><div class="value" id="commercial">—</div></div>
+    <div class="card"><div class="label">Known valuation</div><div class="value" id="valuation">—</div></div>
+  </section>
+
+  <section class="panel">
+    <div class="health-summary">
+      <div><strong>Source coverage</strong><div class="muted" id="coverageSummary">Loading source health…</div></div>
+      <div class="muted" id="coverageFreshness"></div>
+    </div>
+    <div class="health-grid" id="sourceCards"></div>
+  </section>
+
+  <section class="panel">
+    <strong>RSS feeds</strong>
+    <div class="feeds" style="margin-top:10px">
+      <a href="feeds/new-construction.xml">All new construction</a>
+      <a href="feeds/multifamily.xml">Multifamily</a>
+      <a href="feeds/single-family.xml">Single family</a>
+      <a href="feeds/commercial.xml">Commercial</a>
+      <a href="feeds/top-opportunities.xml">Top opportunities</a>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="filters">
+      <input id="search" placeholder="Search address, builder, project, permit…">
+      <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
+      <select id="jurisdiction"><option value="">All jurisdictions</option></select>
+      <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
+      <select id="minScore"><option value="0">Any score</option><option value="20">Score 20+</option><option value="30" selected>Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div style="display:flex;justify-content:space-between;gap:16px;align-items:end;flex-wrap:wrap;margin-bottom:8px">
+      <div><strong>Construction opportunities</strong><div class="muted" id="updated"></div></div>
+      <div class="muted" id="count"></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Score</th><th>Issued</th><th>Type</th><th>Jurisdiction</th><th>Project / Address</th><th>Builder / GC</th><th>Units</th><th>Valuation</th><th>Permit</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <strong>Idaho rep permit & planning sources</strong>
+    <div class="muted" style="margin-top:4px">Automated feeds plus research portals for early-stage prospecting.</div>
+    <div class="table-wrap" style="margin-top:10px">
+      <table>
+        <thead><tr><th>Market</th><th>Grade</th><th>Mode</th><th>How to use it</th></tr></thead>
+        <tbody id="directory"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <strong>Source health details</strong>
+    <div id="sources" style="margin-top:8px"></div>
+  </section>
+</main>
+<script>
+const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let permits=[];
+let generatedAt='';
+function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
+function render(){
+  const q=document.querySelector('#search').value.toLowerCase();
+  const cls=document.querySelector('#classification').value;
+  const jur=document.querySelector('#jurisdiction').value;
+  const days=Number(document.querySelector('#days').value);
+  const score=Number(document.querySelector('#minScore').value);
+  const cutoff=dateCutoff(days);
+  const rows=permits.filter(p => {
+    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
+    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || p.issued_date>=cutoff) && (p.score>=score);
+  }).sort((a,b) => (b.score-a.score) || String(b.issued_date).localeCompare(String(a.issued_date)));
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
+  document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
+    <td class="score"><strong>${p.score}</strong></td>
+    <td class="date">${esc(p.issued_date)}</td>
+    <td><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
+    <td>${esc(p.jurisdiction)}</td>
+    <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
+    <td>${esc(p.contractor||'—')}</td>
+    <td class="units">${p.units ?? '—'}</td>
+    <td class="money">${money(p.valuation)}</td>
+    <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></td>
+  </tr>`).join('');
+}
+async function boot(){
+  const permitPayload=await fetch('data/permits.json?'+Date.now()).then(r=>r.json());
+  permits=permitPayload.permits||[]; generatedAt=permitPayload.generated_at||'';
+  document.querySelector('#total').textContent=permits.length.toLocaleString();
+  document.querySelector('#single').textContent=permits.filter(p=>p.classification==='SINGLE_FAMILY').length.toLocaleString();
+  document.querySelector('#multi').textContent=permits.filter(p=>p.classification==='MULTIFAMILY').length.toLocaleString();
+  document.querySelector('#commercial').textContent=permits.filter(p=>p.classification==='COMMERCIAL').length.toLocaleString();
+  document.querySelector('#valuation').textContent=money(permits.reduce((s,p)=>s+(p.valuation||0),0));
+  document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
+  [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
+  ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  render();
+  try {
+    const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
+    const sources=status.collector_status||[];
+    const healthy=sources.filter(s=>s.status==='ok').length;
+    const issues=sources.length-healthy;
+    document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} automated collectors${issues?` — ${issues} need attention`:''}`;
+    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Checked ${new Date(status.generated_at).toLocaleString()}` : '';
+    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${Number(s.records_seen||0).toLocaleString()} records seen · ${Number(s.qualifying_records||0).toLocaleString()} qualifying<br>${esc(s.note||'')}</div></div>`).join('');
+    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${Number(s.records_seen||0).toLocaleString()} records seen; ${Number(s.qualifying_records||0).toLocaleString()} qualifying. ${esc(s.note||'')}</span></div>`).join('');
+    const directory=status.directory||[];
+    document.querySelector('#directory').innerHTML=directory.map(x=>`<tr><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.market)}</a></td><td>${esc(x.grade)}</td><td><span class="badge">${esc(x.mode)}</span></td><td>${esc(x.use)}</td></tr>`).join('');
+  } catch(e) {
+    document.querySelector('#coverageSummary').textContent='Source status unavailable.';
+    document.querySelector('#sources').textContent='Source status unavailable.';
+  }
+}
+boot();
+</script>
+</body>
+</html>
