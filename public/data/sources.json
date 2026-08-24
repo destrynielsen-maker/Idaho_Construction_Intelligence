@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:19:20+00:00",
+  "generated_at": "2026-08-24T22:21:42+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -15,7 +15,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "RuntimeError: zero parsed; html_bytes=1140683; title=Permits - Eagle, ID; contains_permit_label=True; contains_building_residential=False; contains_known_live_id=False; scripts=['/fontawesome-pro-6/js/all.min.js', '/recaptcha/api.js', '/ajax/libs/marked/15.0.7/marked.min.js', '/js/client.js', '/js/cc-template.js', '/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js']; forms=['GET:?', 'POST:https://portal.iworq.net/EAGLE/inspection-request/600/__permitId__', 'POST:https://portal.iworq.net/EAGLE/scheduler/600/permit/1/__permitId__']; inputs=['searchField', 'search', 'startDate', 'endDate', '_token', 'contractorcode', 'requestedby', 'requestedbyphone', 'requestedbyemail', 'requestedafter_ts', 'inspectiontype_id', 'inspectiontypecal_id']; endpoint_candidates=['https://fonts.googleapis.com/css?family=Raleway:300,400,600', 'https://www.google.com/recaptcha/api.js', 'https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.7/marked.min.js', 'https://portal.iworq.net/EAGLE/permits/600?sort=permitnum_id&direction=asc', 'https://portal.iworq.net/EAGLE/permits/600?sort=permit_dt&direction=asc', 'https://portal.iworq.net/EAGLE/permits/600?sort=permittype_id&direction=asc', 'https://portal.iworq.net/EAGLE/permits/600?sort=text11&direction=asc', 'https://portal.iworq.net/EAGLE/permits/600?sort=mainStatus.statusname&direction=asc', 'https://portal.iworq.net/EAGLE/permit/600/29622638', 'https://portal.iworq.net/EAGLE/permit/600/29622624', 'https://portal.iworq.net/EAGLE/permit/600/29622552', 'https://portal.iworq.net/EAGLE/permit/600/29622537']"
+      "note": "RuntimeError: zero parsed; html_bytes=1140687; title=Permits - Eagle, ID; detail_links=15; contains_permit_label=True; contains_building_residential=False; detail_failures=0; detail_unparsed=0"
     },
     {
       "source": "Coeur d'Alene",
