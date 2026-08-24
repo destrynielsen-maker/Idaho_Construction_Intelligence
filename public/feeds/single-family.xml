@@ -6,7 +6,37 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 21:28:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 21:56:07 +0000</lastBuildDate>
+    <item>
+      <title>[15] Boise: 7721 W SETTLERS AVE — 7729 W SETTLERS AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN23-00040</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN23-00040</guid>
+    </item>
+    <item>
+      <title>[15] Boise: 308 W RESSEGUIE ST — 308 W RESSEGUIE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00393</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00393</guid>
+    </item>
+    <item>
+      <title>[15] Boise: 1621 S STONE RIDGE WAY - CFH — 1621 S STONE RIDGE WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00753</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00753</guid>
+    </item>
+    <item>
+      <title>[15] Boise: 3749 W Pinehurst DR — 3749 W PINEHURST DR, BLDG#</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00216</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00216</guid>
+    </item>
+    <item>
+      <title>[15] Boise: 4537 N ACCIPITER WAY — 4537 N ACCIPITER WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00522</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00522</guid>
+    </item>
     <item>
       <title>[15] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>

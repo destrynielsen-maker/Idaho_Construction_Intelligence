@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-24T21:28:29+00:00",
+  "generated_at": "2026-08-24T21:55:56+00:00",
   "collector_status": [
+    {
+      "source": "Boise",
+      "status": "ok",
+      "records_seen": 1030,
+      "qualifying_records": 33,
+      "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
+      "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
+    },
     {
       "source": "Coeur d'Alene",
       "status": "ok",
@@ -65,10 +73,10 @@
     },
     {
       "market": "Boise",
-      "grade": "A",
-      "mode": "rep-research",
-      "url": "https://permits.cityofboise.org/CitizenAccess/Default.aspx",
-      "use": "Building/planning searches and reports"
+      "grade": "A+ early lead",
+      "mode": "automated-gis",
+      "url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
+      "use": "Daily active planning/development tracker; early project leads before building permit issuance"
     },
     {
       "market": "Eagle",

@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 21:28:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 21:56:07 +0000</lastBuildDate>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
@@ -36,6 +36,162 @@
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 980 N CLITHERO DR — 980 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-00769</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-00769</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 2501 S EAGLESON RD — 2501 S EAGLESON RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00107</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00107</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1229 S LINCOLN AVE - DRH/SUB — 1229 S LINCOLN AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01024</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01024</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 10473 W SHIELDS AVE — 10473 W SHIELDS AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01039</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01039</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 2233 S DIVISION AVE — 2233 S DIVISION AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00401</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00401</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1501 S CHRISWAY DR — 1501 S CHRISWAY DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01141</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01141</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1615 N 13TH ST — 1615 N 13TH ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00267</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00267</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1505 S WARDLE ST — 1505 S WARDLE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00757</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00757</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 13809 W AUDRA LN — 13809 W AUDRA LN, APT# 101</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00722</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00722</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3113 W MOORE ST — 3113 W MOORE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00534</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00534</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1504 S MANITOU AVE — 1504 S MANITOU AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00572</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00572</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3122 S OLD HICKORY WAY — 3122 S OLD HICKORY WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00809</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00809</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1020 W TARGEE ST — 1020 W TARGEE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00089</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00089</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 912 N 8TH ST — 912 N 8TH ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00149</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00149</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 5309 W DENTON ST — 5309 W DENTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00014</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00014</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 6918 W PETRIE ST — 6918 W PETRIE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00115</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00115</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 9230 W USTICK RD — 9230 W USTICK RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
+    </item>
+    <item>
+      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1208 W FORT ST — 1208 W FORT ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00595</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00595</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
