@@ -3,6 +3,7 @@ import re
 from .models import Permit
 
 NEGATIVE = ('reroof','re-roof','roof','hvac','mechanical','plumbing','electrical','solar','sign','fence','pool','window','door replacement','tenant improvement','remodel','alteration','repair','demolition','moving pod','tree pruning','sidewalk','conversion','convert ','modification')
+TRADE_PREFIXES = ('electrical ','mechanical ','plumbing ','water ','sewer ','gas ','fire sprinkler ','fire alarm ')
 MULTI = ('multifamily','multi-family','apartment','condominium','townhome','town home','duplex','fourplex','triplex')
 SINGLE = ('single family','single-family','new residence','new residential','new dwelling')
 COMMERCIAL = ('commercial','shell building','warehouse','industrial','hotel','hospitality','mixed use','mixed-use','retail building','office building')
@@ -11,8 +12,9 @@ NEW = ('new ','new construction','ground up','ground-up','shell building','duple
 def _norm(v): return re.sub(r'\s+',' ',(v or '').strip()).lower()
 
 def classify_permit(p: Permit) -> Permit:
+    permit_type=_norm(p.permit_type)
     text=_norm(' '.join(filter(None,[p.permit_type,p.building_use,p.project_name])))
-    if any(x in text for x in NEGATIVE):
+    if any(permit_type.startswith(x) for x in TRADE_PREFIXES) or any(x in text for x in NEGATIVE):
         p.classification='OTHER'; p.qualifies=False; p.new_construction_confidence='HIGH'; p.score=0; return p
     if any(x in text for x in MULTI): p.classification='MULTIFAMILY'
     elif any(x in text for x in SINGLE): p.classification='SINGLE_FAMILY'
