@@ -1,6 +1,6 @@
 from __future__ import annotations
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
 from .base import CollectorResult
 from .common import get
@@ -66,7 +66,6 @@ def permits_from_listing(html: str, base_url: str = PORTAL_URL):
     permits = []
     seen = set()
 
-    # Desktop markup when iWorQ renders a conventional table.
     for row in soup.select('table tr'):
         cells = row.find_all('td')
         if len(cells) < 5:
@@ -83,9 +82,6 @@ def permits_from_listing(html: str, base_url: str = PORTAL_URL):
             detail_url,
         )
 
-    # iWorQ's server response can use responsive/mobile cards instead of a literal
-    # table. Parse the labeled card text as a fallback and use the permit-number
-    # anchor to recover the stable detail URL.
     links = {}
     for a in soup.find_all('a', href=True):
         label = _clean(a.get_text(' ', strip=True))
@@ -110,6 +106,32 @@ def permits_from_listing(html: str, base_url: str = PORTAL_URL):
     return permits
 
 
+def _zero_payload_diagnostic(html: str) -> str:
+    soup = BeautifulSoup(html, 'html.parser')
+    title = _clean(soup.title.get_text(' ', strip=True) if soup.title else '')[:80] or 'none'
+    scripts = []
+    for script in soup.find_all('script', src=True):
+        path = urlparse(urljoin(PORTAL_URL, script['src'])).path
+        name = path.rsplit('/', 1)[-1] or path
+        if name and name not in scripts:
+            scripts.append(name[:80])
+    forms = []
+    for form in soup.find_all('form'):
+        action = _clean(form.get('action') or '')
+        method = _clean(form.get('method') or 'GET').upper()
+        token = f'{method}:{action[:80]}'
+        if token not in forms:
+            forms.append(token)
+    raw = html.lower()
+    return (
+        f'zero parsed; html_bytes={len(html.encode("utf-8"))}; title={title}; '
+        f'contains_permit_label={"permit #" in raw or "permit #:" in raw}; '
+        f'contains_building_residential={"building residential" in raw}; '
+        f'contains_known_live_id={"266719" in raw}; '
+        f'scripts={scripts[:8]}; forms={forms[:6]}'
+    )
+
+
 class EaglePermitCollector:
     name = 'Eagle'
     landing_url = PORTAL_URL
@@ -117,6 +139,8 @@ class EaglePermitCollector:
     def collect(self):
         listing = get(PORTAL_URL)
         rows = permits_from_listing(listing.text, listing.url)
+        if not rows:
+            raise RuntimeError(_zero_payload_diagnostic(listing.text))
         permits = []
         detail_failures = 0
         for row in rows:
