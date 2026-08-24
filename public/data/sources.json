@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:59:49+00:00",
+  "generated_at": "2026-08-24T19:03:17+00:00",
   "collector_status": [
     {
       "source": "Coeur d'Alene",
@@ -8,6 +8,14 @@
       "qualifying_records": 5,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
       "note": "Official issued-permits last-week PDF"
+    },
+    {
+      "source": "Kootenai County",
+      "status": "ok",
+      "records_seen": 37,
+      "qualifying_records": 0,
+      "source_url": "https://kcgov.us/Archive/44",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 9, 2026 (4 parsed)"
     },
     {
       "source": "Meridian",
@@ -47,6 +55,13 @@
       "mode": "automated-pdf",
       "url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
       "use": "Direct weekly issued permits"
+    },
+    {
+      "market": "Kootenai County",
+      "grade": "A+",
+      "mode": "automated-pdf",
+      "url": "https://kcgov.us/Archive/44",
+      "use": "Weekly county building permit archive"
     },
     {
       "market": "Boise",
