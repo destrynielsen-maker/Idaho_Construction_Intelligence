@@ -2,6 +2,7 @@ SOURCES = [
  {'market':'Meridian','grade':'A+','mode':'automated-report','url':'https://data.meridiancity.org/community-development/building/construction-reports/','use':'Weekly construction reports'},
  {'market':'Nampa','grade':'A+','mode':'automated-report','url':'https://www.cityofnampa.us/427/Permit-Reports','use':'Weekly permit activity and commercial review status'},
  {'market':"Coeur d'Alene",'grade':'A+','mode':'automated-pdf','url':'https://building.cdaid.org/Reports/IssuedPermitsLastWeek','use':'Direct weekly issued permits'},
+ {'market':'Kootenai County','grade':'A+','mode':'automated-pdf','url':'https://kcgov.us/Archive/44','use':'Weekly county building permit archive'},
  {'market':'Boise','grade':'A','mode':'rep-research','url':'https://permits.cityofboise.org/CitizenAccess/Default.aspx','use':'Building/planning searches and reports'},
  {'market':'Eagle','grade':'A','mode':'rep-report','url':'https://cityofeagle.org/1863/Building-Permit-Reports','use':'Weekly permit reports'},
  {'market':'Eagle Laserfiche','grade':'A','mode':'rep-research','url':'https://lf.cityofeagle.org/WebLink/?dbid=0&repo=CityofEagle','use':'Direct permit report repository'},
