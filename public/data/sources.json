@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T17:59:29+00:00",
+  "generated_at": "2026-08-24T18:02:30+00:00",
   "collector_status": [
     {
       "source": "Coeur d'Alene",
@@ -20,10 +20,10 @@
     {
       "source": "Nampa",
       "status": "ok",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://www.cityofnampa.us/427/Permit-Reports",
-      "note": "No discoverable PDF links matched ('08/', 'August 2026', 'Permit Activity Type Report'); source remains visible for manual prospecting"
+      "records_seen": 2,
+      "qualifying_records": 2,
+      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026",
+      "note": "Latest discovered report: 08/10/2026 \u2013 08/14/2026"
     }
   ],
   "directory": [

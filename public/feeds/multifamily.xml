@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 17:59:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 18:02:35 +0000</lastBuildDate>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
@@ -36,6 +36,18 @@
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
+    </item>
+    <item>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
+    </item>
+    <item>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
   </channel>
 </rss>
