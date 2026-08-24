@@ -112,23 +112,40 @@ def _zero_payload_diagnostic(html: str) -> str:
     scripts = []
     for script in soup.find_all('script', src=True):
         path = urlparse(urljoin(PORTAL_URL, script['src'])).path
-        name = path.rsplit('/', 1)[-1] or path
-        if name and name not in scripts:
-            scripts.append(name[:80])
+        if path and path not in scripts:
+            scripts.append(path[:120])
     forms = []
     for form in soup.find_all('form'):
         action = _clean(form.get('action') or '')
         method = _clean(form.get('method') or 'GET').upper()
-        token = f'{method}:{action[:80]}'
+        token = f'{method}:{action[:100]}'
         if token not in forms:
             forms.append(token)
+    input_names = []
+    for node in soup.find_all(['input', 'select']):
+        name = _clean(node.get('name') or '')
+        if name and name not in input_names:
+            input_names.append(name[:80])
+    candidates = []
+    for match in re.finditer(r'''["']([^"'\n\r]{1,180})["']''', html):
+        value = _clean(match.group(1))
+        low = value.lower()
+        if not value or not any(k in low for k in ('permit', 'search', 'ajax', 'api', 'record')):
+            continue
+        if not (value.startswith('/') or value.startswith('http') or 'route' in low or 'endpoint' in low):
+            continue
+        if value not in candidates:
+            candidates.append(value[:180])
+        if len(candidates) >= 12:
+            break
     raw = html.lower()
     return (
         f'zero parsed; html_bytes={len(html.encode("utf-8"))}; title={title}; '
         f'contains_permit_label={"permit #" in raw or "permit #:" in raw}; '
         f'contains_building_residential={"building residential" in raw}; '
         f'contains_known_live_id={"266719" in raw}; '
-        f'scripts={scripts[:8]}; forms={forms[:6]}'
+        f'scripts={scripts[:10]}; forms={forms[:6]}; inputs={input_names[:12]}; '
+        f'endpoint_candidates={candidates}'
     )
 
 
