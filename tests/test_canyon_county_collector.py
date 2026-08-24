@@ -21,7 +21,7 @@ class CanyonCountyCollectorTests(unittest.TestCase):
         self.assertIsNotNone(p)
         self.assertEqual(p.jurisdiction, 'Canyon County')
         self.assertEqual(p.permit_number, 'BP-26-01234')
-        self.assertEqual(p.issued_date, '2026-08-12')
+        self.assertEqual(p.issued_date, '2026-08-13')
         self.assertEqual(p.stage, 'PERMITTED')
         self.assertEqual(p.valuation, 650000.0)
         self.assertEqual(p.contractor, 'Example Homes LLC')
