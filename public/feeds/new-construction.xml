@@ -6,12 +6,24 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 18:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 18:19:16 +0000</lastBuildDate>
+    <item>
+      <title>[15] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 216,568</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0641</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: NEW 2044 SQ FT SINGLE FAMILY DWELLING WITH 516 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0654</guid>
+    </item>
     <item>
       <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 293,273</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0710</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 247,780</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0702</guid>
     </item>
     <item>
       <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
@@ -22,56 +34,8 @@
     <item>
       <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 247,780</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0702</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 2044 SQ FT SINGLE FAMILY DWELLING WITH 516 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0654</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 216,568</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0641</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0372</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0371</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 206,297</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0370</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 183,579</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0369</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0368</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0367</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 293,273</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0710</guid>
     </item>
     <item>
       <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
@@ -80,10 +44,40 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0365</guid>
     </item>
     <item>
-      <title>[15] Meridian: new single family home — 1241 W MALBAR ST</title>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 307,932</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0722</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0367</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0368</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 183,579</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0369</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 206,297</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0370</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0371</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0372</guid>
     </item>
     <item>
       <title>[15] Meridian: New Single Family Residential/PN08008014 Diamond A (Roberts-McFarland) — 2929 W. Navigator Dr. St 400</title>
@@ -92,16 +86,10 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0661</guid>
     </item>
     <item>
-      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
+      <title>[15] Meridian: new single family home — 1241 W MALBAR ST</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 316,871</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0719</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN09007051 Meadow Creek A — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 280,338</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0665</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 307,932</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0722</guid>
     </item>
     <item>
       <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
@@ -110,28 +98,16 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0597</guid>
     </item>
     <item>
+      <title>[15] Meridian: New Single Family Residential/PN09007051 Meadow Creek A — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 280,338</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0665</guid>
+    </item>
+    <item>
       <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
       <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,182</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0728</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 210,609</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0699</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 230,758</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0698</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 234,788</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0697</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 316,871</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0719</guid>
     </item>
     <item>
       <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
@@ -140,34 +116,34 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0686</guid>
     </item>
     <item>
+      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 234,788</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0697</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 230,758</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0698</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 210,609</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0699</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 336,182</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0728</guid>
+    </item>
+    <item>
       <title>[15] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 5881 N STATIC LINE AVE</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
       <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 267,935</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 247,853</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN04010010 Galloway B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 268,567</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN09009024 Freeman B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 261,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
     </item>
     <item>
       <title>[15] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
@@ -176,22 +152,34 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
     </item>
     <item>
+      <title>[15] Meridian: New Single Family Residential/PN09009024 Freeman B — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 261,753</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN04010010 Galloway B — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 268,567</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 247,853</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 267,935</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
+    </item>
+    <item>
       <title>[15] Meridian: new single family home — 881 W MALBAR ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
       <description>SINGLE_FAMILY | Contractor unknown | 331,366</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
     </item>
     <item>
       <title>[15] Meridian: New single family dwelling — 4726 N WOOLEY CREEK AVE</title>
@@ -202,14 +190,20 @@
     <item>
       <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
     </item>
     <item>
-      <title>[15] Meridian: New single family home — 3128 E RENWICK ST</title>
+      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 312,389</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 242,703</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
     </item>
     <item>
       <title>[15] Meridian: New single family dwelling — 2984 E MARDIA ST</title>
@@ -218,10 +212,16 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
     </item>
     <item>
-      <title>[15] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 2929 W. Navigator Dr. St 400</title>
+      <title>[15] Meridian: New single family home — 3128 E RENWICK ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 242,703</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 312,389</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
     </item>
     <item>
       <title>[25] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
