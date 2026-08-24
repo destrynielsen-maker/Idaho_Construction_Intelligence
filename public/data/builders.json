@@ -75,7 +75,7 @@
     "contractor": "VALUE HOMES OF IDAHO LLC",
     "count": 8,
     "score_total": 160,
-    "valuation_total": 1666875.2799999998
+    "valuation_total": 1666875.28
   },
   {
     "contractor": "MENDIOLA CUSTOM HOMES INC",
@@ -189,7 +189,7 @@
     "contractor": "CHANEY STOTTS CONSTRUCTION INC",
     "count": 4,
     "score_total": 80,
-    "valuation_total": 822683.9
+    "valuation_total": 822683.8999999999
   },
   {
     "contractor": "LEIGHTON ENTERPRISES INC",
@@ -522,16 +522,16 @@
     "valuation_total": 548496.6
   },
   {
-    "contractor": "HOMEOWNER",
-    "count": 1,
-    "score_total": 40,
-    "valuation_total": 450000.0
-  },
-  {
     "contractor": "STEEL NATIONAL",
     "count": 1,
     "score_total": 40,
     "valuation_total": 600000.0
+  },
+  {
+    "contractor": "HOMEOWNER",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 450000.0
   },
   {
     "contractor": "CUSHING TERRELL",
@@ -678,16 +678,16 @@
     "valuation_total": 253403.04
   },
   {
-    "contractor": "VISSOTSKI SHARON",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 280486.44
-  },
-  {
     "contractor": "RIGG CONSTRUCTION INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 226386.72
+  },
+  {
+    "contractor": "VISSOTSKI SHARON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 280486.44
   },
   {
     "contractor": "BURDINE DAVID",
@@ -708,16 +708,16 @@
     "valuation_total": 483986.28
   },
   {
-    "contractor": "TSUPA IVAN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 284298.24
-  },
-  {
     "contractor": "PRIETO PEDRO",
     "count": 1,
     "score_total": 20,
     "valuation_total": 326792.76
+  },
+  {
+    "contractor": "TSUPA IVAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284298.24
   },
   {
     "contractor": "12.15 DESIGN",
@@ -786,16 +786,16 @@
     "valuation_total": 100576.0
   },
   {
-    "contractor": "PACIFIC NORTH CONTRACTORS",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 256695.4
-  },
-  {
     "contractor": "STIRM JUSTIN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 126670.88
+  },
+  {
+    "contractor": "PACIFIC NORTH CONTRACTORS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 256695.4
   },
   {
     "contractor": "THORNTON SHERMAN & JULENE",
@@ -864,16 +864,16 @@
     "valuation_total": 333502.32
   },
   {
-    "contractor": "CHATEAU BUILDERS INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 284903.04
-  },
-  {
     "contractor": "MONTEITH KASEY",
     "count": 1,
     "score_total": 20,
     "valuation_total": 187024.4
+  },
+  {
+    "contractor": "CHATEAU BUILDERS INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 284903.04
   },
   {
     "contractor": "MARTWICK CONSTRUCTION",
@@ -936,16 +936,16 @@
     "valuation_total": 198557.1
   },
   {
-    "contractor": "HATHAWAYS HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 231992.1
-  },
-  {
     "contractor": "DUDLEY MIKE",
     "count": 1,
     "score_total": 20,
     "valuation_total": 295148.12
+  },
+  {
+    "contractor": "HATHAWAYS HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 231992.1
   },
   {
     "contractor": "BUILD IT USA LLC",
@@ -1050,16 +1050,16 @@
     "valuation_total": 162964.4
   },
   {
-    "contractor": "POWERS DAVID",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 100522.3
-  },
-  {
     "contractor": "LUDD CONSTRUCTION",
     "count": 1,
     "score_total": 20,
     "valuation_total": 306745.3
+  },
+  {
+    "contractor": "POWERS DAVID",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 100522.3
   },
   {
     "contractor": "WALT HOLTON LIBERTY ENTERPRISES",
@@ -1080,16 +1080,16 @@
     "valuation_total": 248034.4
   },
   {
-    "contractor": "IRON HAVEN HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 194766.2
-  },
-  {
     "contractor": "JUSSILA BEN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 193520.8
+  },
+  {
+    "contractor": "IRON HAVEN HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 194766.2
   },
   {
     "contractor": "DESCALSO ANDREW",
@@ -1098,16 +1098,16 @@
     "valuation_total": 190384.5
   },
   {
-    "contractor": "RIVAS EDUARDO",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 414758.5
-  },
-  {
     "contractor": "NOBLE HOMES AND CONSTRUCTION",
     "count": 1,
     "score_total": 20,
     "valuation_total": 285618.6
+  },
+  {
+    "contractor": "RIVAS EDUARDO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 414758.5
   },
   {
     "contractor": "FAST LANE CONCRETE",
@@ -1146,16 +1146,16 @@
     "valuation_total": 292996.3
   },
   {
-    "contractor": "JOHNSON ROBERT",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 206333.7
-  },
-  {
     "contractor": "DEARMENT RUSSELL",
     "count": 1,
     "score_total": 20,
     "valuation_total": 371633.0
+  },
+  {
+    "contractor": "JOHNSON ROBERT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 206333.7
   },
   {
     "contractor": "CRISAN CORNELL & ADRIANA",
@@ -1164,16 +1164,16 @@
     "valuation_total": 191192.9
   },
   {
-    "contractor": "TOLL RICK",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 333220.6
-  },
-  {
     "contractor": "GRAY WORKS LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 279340.3
+  },
+  {
+    "contractor": "TOLL RICK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 333220.6
   },
   {
     "contractor": "HYLTON TRISTON",
@@ -1188,16 +1188,16 @@
     "valuation_total": 231195.0
   },
   {
-    "contractor": "NORTHWEST CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 188288.7
-  },
-  {
     "contractor": "VALLEY FINISH INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 157872.0
+  },
+  {
+    "contractor": "NORTHWEST CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 188288.7
   },
   {
     "contractor": "ANDERSON WALLACE",
@@ -1290,6 +1290,12 @@
     "valuation_total": 269855.6
   },
   {
+    "contractor": "WOODRUFF STACY D",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 311223.5
+  },
+  {
     "contractor": "RASMUSSEN DARWIN",
     "count": 1,
     "score_total": 20,
@@ -1300,12 +1306,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 128331.8
-  },
-  {
-    "contractor": "WOODRUFF STACY D",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 311223.5
   },
   {
     "contractor": "MONDRAGON GUADENCIO",
@@ -1404,16 +1404,16 @@
     "valuation_total": 254928.7
   },
   {
-    "contractor": "CANNON BEAU",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 222290.8
-  },
-  {
     "contractor": "EELLS JEREMY",
     "count": 1,
     "score_total": 20,
     "valuation_total": 277864.1
+  },
+  {
+    "contractor": "CANNON BEAU",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 222290.8
   },
   {
     "contractor": "ROBERTS DAN",
@@ -1440,12 +1440,6 @@
     "valuation_total": 273116.9
   },
   {
-    "contractor": "ROYAL PRO C LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 331705.6
-  },
-  {
     "contractor": "SWAGGART WOOD PROPERTIES",
     "count": 1,
     "score_total": 20,
@@ -1456,6 +1450,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 271241.2
+  },
+  {
+    "contractor": "ROYAL PRO C LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331705.6
   },
   {
     "contractor": "CURTIS RUSS & CINDY",
@@ -1512,16 +1512,16 @@
     "valuation_total": 239219.9
   },
   {
-    "contractor": "WALKER LARRY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 224739.5
-  },
-  {
     "contractor": "FLORY ZACHARY",
     "count": 1,
     "score_total": 20,
     "valuation_total": 140728.8
+  },
+  {
+    "contractor": "WALKER LARRY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 224739.5
   },
   {
     "contractor": "GUZMAN ANTONIO",
@@ -1530,16 +1530,16 @@
     "valuation_total": 180477.7
   },
   {
-    "contractor": "MIKE BELL CONSTRUCTION INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 243231.5
-  },
-  {
     "contractor": "MORTENSEN CONSTRUCTION INC DBA LIFESTYLE HOMES",
     "count": 1,
     "score_total": 20,
     "valuation_total": 308738.3
+  },
+  {
+    "contractor": "MIKE BELL CONSTRUCTION INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 243231.5
   },
   {
     "contractor": "SMITH TERRY",
@@ -1626,16 +1626,22 @@
     "valuation_total": 375081.8
   },
   {
+    "contractor": "BUSTER BUILT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 73916.8
+  },
+  {
     "contractor": "BALLESTEROS MIGUEL",
     "count": 1,
     "score_total": 20,
     "valuation_total": 222900.0
   },
   {
-    "contractor": "BUSTER BUILT",
+    "contractor": "BRADSHAW KENT",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 73916.8
+    "valuation_total": 180264.5
   },
   {
     "contractor": "CAMPBELL JOHN W",
@@ -1648,12 +1654,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 43596.0
-  },
-  {
-    "contractor": "BRADSHAW KENT",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 180264.5
   },
   {
     "contractor": "COREWOOD CONSTRUCTION LTD CO",
@@ -1740,16 +1740,16 @@
     "valuation_total": 181243.6
   },
   {
-    "contractor": "SOUTHERN IDAHO BUILDERS LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 257880.1
-  },
-  {
     "contractor": "JAKE HOLCOMB CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 207068.0
+  },
+  {
+    "contractor": "SOUTHERN IDAHO BUILDERS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 257880.1
   },
   {
     "contractor": "GROESBECK KEITH",
@@ -1770,16 +1770,16 @@
     "valuation_total": 481338.7
   },
   {
-    "contractor": "WAGNER MICHAEL",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 250494.1
-  },
-  {
     "contractor": "MARTINHO DANNY JR",
     "count": 1,
     "score_total": 20,
     "valuation_total": 215667.4
+  },
+  {
+    "contractor": "WAGNER MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 250494.1
   },
   {
     "contractor": "ASHWOOD HOMES",
@@ -1788,28 +1788,28 @@
     "valuation_total": 194488.3
   },
   {
-    "contractor": "WIZARD RENOVATIONS INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 375834.9
-  },
-  {
     "contractor": "BUILD PRO IDAHO",
     "count": 1,
     "score_total": 20,
     "valuation_total": 265690.0
   },
   {
-    "contractor": "WALTMAN BRANDON",
+    "contractor": "WIZARD RENOVATIONS INC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 249431.9
+    "valuation_total": 375834.9
   },
   {
     "contractor": "ALL TRADE CONSTRUCTION INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 185357.1
+  },
+  {
+    "contractor": "WALTMAN BRANDON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 249431.9
   },
   {
     "contractor": "THUNDER MOUNTAIN STRUCTURES",
@@ -1824,16 +1824,16 @@
     "valuation_total": 315915.4
   },
   {
-    "contractor": "JOHANSEN BRAD",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 342512.9
-  },
-  {
     "contractor": "INNOVATIVE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
     "valuation_total": 220511.2
+  },
+  {
+    "contractor": "JOHANSEN BRAD",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342512.9
   },
   {
     "contractor": "PANNELL DONALD O",
@@ -1932,12 +1932,6 @@
     "valuation_total": 166306.0
   },
   {
-    "contractor": "MAZE CHRIS",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 310059.9
-  },
-  {
     "contractor": "BRADSHAW CRAIG",
     "count": 1,
     "score_total": 20,
@@ -1950,22 +1944,28 @@
     "valuation_total": 193729.6
   },
   {
+    "contractor": "MAZE CHRIS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 310059.9
+  },
+  {
     "contractor": "EDMONDS FRAMING INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 218350.1
   },
   {
-    "contractor": "TURN OF THE CENTURY HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 290648.7
-  },
-  {
     "contractor": "SPEEDYS CUSTOM HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 173076.2
+  },
+  {
+    "contractor": "TURN OF THE CENTURY HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 290648.7
   },
   {
     "contractor": "LARSON DARREN R",
@@ -1986,16 +1986,16 @@
     "valuation_total": 88381.55
   },
   {
-    "contractor": "AVILA FRANCISCO",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 205140.9
-  },
-  {
     "contractor": "KINGSTUD CONSTRUCTION",
     "count": 1,
     "score_total": 20,
     "valuation_total": 254093.0
+  },
+  {
+    "contractor": "AVILA FRANCISCO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 205140.9
   },
   {
     "contractor": "RICE NICHOLAS",
@@ -2046,15 +2046,15 @@
     "valuation_total": 196963.9
   },
   {
-    "contractor": "ANGOOD CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 153900.0
-  },
-  {
     "contractor": "JENSEN JARED",
     "count": 1,
     "score_total": 20,
     "valuation_total": 170604.0
+  },
+  {
+    "contractor": "ANGOOD CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 153900.0
   }
 ]

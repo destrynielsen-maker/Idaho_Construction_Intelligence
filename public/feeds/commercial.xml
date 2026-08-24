@@ -6,19 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:43:41 +0000</lastBuildDate>
-    <item>
-      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
-    </item>
+    <lastBuildDate>Mon, 24 Aug 2026 23:47:51 +0000</lastBuildDate>
     <item>
       <title>[35] Canyon County: NEW SHIPPING AND RECEIVING BUILDING - SUPPORT THE NURSEY.&#13;
 See fire correction notice&#13;
@@ -56,6 +44,19 @@ Final Fire in office 10/26/21. sh — 20005 11TH AVE Nampa ID</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
       <description>COMMERCIAL | BUSSE VICKI | 35,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-1218</guid>
+    </item>
+    <item>
+      <title>[40] Canyon County: New Commercial Office &amp; Storage   Picked up revised plans, has 30 days from 2/9/23 for next inspection   MG — 21500 HOSKINS RD Caldwell ID</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
+      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 620,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0991</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: Commercial - New Victory Charter School Performing Arts Building Phase 1 GYM *Will be completed in phases&#13;
+Fire District Commercial Review in office 1/14/22. sh Final Fire for this permit only in office 1-19-2023 CL — 9885 S KRIS JENSEN LN Nampa ID</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
+      <description>COMMERCIAL | MUSSELL CONSTRUCTION INC | 1,900,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0907</guid>
     </item>
     <item>
       <title>[35] Canyon County: New 36x60 Shop (CU2020-0013)&#13;
@@ -109,23 +110,22 @@ Need full set of plans. Permit is for an shell only building. A TI permit is req
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0819</guid>
     </item>
     <item>
-      <title>[40] Canyon County: New Commercial Office &amp; Storage   Picked up revised plans, has 30 days from 2/9/23 for next inspection   MG — 21500 HOSKINS RD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 620,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0991</guid>
-    </item>
-    <item>
       <title>[40] Canyon County: New office/Warehouse,  60 x 120 — 3027  LANDON LN Nampa ID</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
       <description>COMMERCIAL | STEEL NATIONAL | 600,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-1003</guid>
     </item>
     <item>
-      <title>[42] Canyon County: Commercial - New Victory Charter School Performing Arts Building Phase 1 GYM *Will be completed in phases&#13;
-Fire District Commercial Review in office 1/14/22. sh Final Fire for this permit only in office 1-19-2023 CL — 9885 S KRIS JENSEN LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | MUSSELL CONSTRUCTION INC | 1,900,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0907</guid>
+      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
+    </item>
+    <item>
+      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
     </item>
   </channel>
 </rss>
