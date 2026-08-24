@@ -23,10 +23,15 @@ class Permit:
     apn: str | None = None
     area: str | None = None
     status: str | None = None
+    subdivision: str | None = None
+    county: str | None = None
+    city: str | None = None
+    stage: str = 'PERMITTED'
     classification: str = 'OTHER'
     new_construction_confidence: str = 'LOW'
     qualifies: bool = False
     score: int = 0
+    sales_score: int = 0
     first_seen_at: str | None = None
     last_seen_at: str | None = None
     raw: dict[str, Any] = field(default_factory=dict)
