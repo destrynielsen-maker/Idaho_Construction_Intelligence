@@ -102,8 +102,6 @@ def record_from_detail(html: str, detail_url: str):
     status = _label_value(lines, ('status', 'permit status'))
     scope = _detail_scope(html)
     if not permit_number:
-        # The public detail route always carries an internal record id; do not use it as
-        # a permit number. Missing displayed permit number means fail closed for this row.
         return None
     return {
         'permit_number': permit_number,
@@ -120,57 +118,30 @@ def permits_from_listing(html: str, base_url: str = PORTAL_URL):
     soup = BeautifulSoup(html, 'html.parser')
     permits = []
     seen = set()
-
     for row in soup.select('table tr'):
         cells = row.find_all('td')
         if len(cells) < 5:
             continue
         link = cells[0].find('a', href=True) or row.find('a', href=True)
         detail_url = urljoin(base_url, link['href']) if link else base_url
-        _append_record(
-            permits, seen,
-            cells[0].get_text(' ', strip=True),
-            cells[1].get_text(' ', strip=True),
-            cells[2].get_text(' ', strip=True),
-            cells[3].get_text(' ', strip=True),
-            cells[4].get_text(' ', strip=True),
-            detail_url,
-        )
-
+        _append_record(permits, seen, cells[0].get_text(' ', strip=True), cells[1].get_text(' ', strip=True), cells[2].get_text(' ', strip=True), cells[3].get_text(' ', strip=True), cells[4].get_text(' ', strip=True), detail_url)
     links = {}
     for a in soup.find_all('a', href=True):
         label = _clean(a.get_text(' ', strip=True))
         if re.fullmatch(r'\d{4,}', label):
             links.setdefault(label, urljoin(base_url, a['href']))
     text = '\n'.join(_clean(x) for x in soup.stripped_strings if _clean(x))
-    card_pattern = re.compile(
-        r'Permit\s*#:\s*(\d{4,})\s+'
-        r'Date:\s*(\d{1,2}/\d{1,2}/\d{4})\s+'
-        r'Permit\s*Type:\s*(.*?)\s+'
-        r'Permit\s*Address:\s*(.*?)\s+'
-        r'Status:\s*(.*?)\s*'
-        r'(?=Inspection Request|Request An Inspection|View\b|Permit\s*#:|Accessibility\b|$)',
-        re.IGNORECASE | re.DOTALL,
-    )
+    card_pattern = re.compile(r'Permit\s*#:\s*(\d{4,})\s+Date:\s*(\d{1,2}/\d{1,2}/\d{4})\s+Permit\s*Type:\s*(.*?)\s+Permit\s*Address:\s*(.*?)\s+Status:\s*(.*?)\s*(?=Inspection Request|Request An Inspection|View\b|Permit\s*#:|Accessibility\b|$)', re.IGNORECASE | re.DOTALL)
     for match in card_pattern.finditer(text):
         number, date, permit_type, address, status = match.groups()
-        _append_record(
-            permits, seen, number, date, permit_type, address, status,
-            links.get(number, base_url),
-        )
+        _append_record(permits, seen, number, date, permit_type, address, status, links.get(number, base_url))
     return permits
 
 
 def _zero_payload_diagnostic(html: str) -> str:
     soup = BeautifulSoup(html, 'html.parser')
     title = _clean(soup.title.get_text(' ', strip=True) if soup.title else '')[:80] or 'none'
-    raw = html.lower()
-    return (
-        f'zero parsed; html_bytes={len(html.encode("utf-8"))}; title={title}; '
-        f'detail_links={len(detail_links_from_shell(html))}; '
-        f'contains_permit_label={"permit #" in raw or "permit #:" in raw}; '
-        f'contains_building_residential={"building residential" in raw}'
-    )
+    return f'zero parsed; html_bytes={len(html.encode("utf-8"))}; title={title}; detail_links={len(detail_links_from_shell(html))}'
 
 
 class EaglePermitCollector:
@@ -182,7 +153,7 @@ class EaglePermitCollector:
         rows = permits_from_listing(listing.text, listing.url)
         detail_failures = 0
         detail_unparsed = 0
-
+        detail_samples = []
         if not rows:
             seen = set()
             for detail_url in detail_links_from_shell(listing.text, listing.url):
@@ -195,16 +166,12 @@ class EaglePermitCollector:
                 if not row:
                     detail_unparsed += 1
                     continue
-                _append_record(
-                    rows, seen,
-                    row['permit_number'], row['issued_date'], row['permit_type'],
-                    row['address'], row['status'], row['detail_url'], row['scope'],
-                )
-
+                if len(detail_samples) < 8:
+                    detail_samples.append(f"{row['permit_number']}|{row['permit_type'][:80]}|{row['scope'][:100]}")
+                _append_record(rows, seen, row['permit_number'], row['issued_date'], row['permit_type'], row['address'], row['status'], row['detail_url'], row['scope'])
         if not rows:
             diag = _zero_payload_diagnostic(listing.text)
-            raise RuntimeError(f'{diag}; detail_failures={detail_failures}; detail_unparsed={detail_unparsed}')
-
+            raise RuntimeError(f'{diag}; detail_failures={detail_failures}; detail_unparsed={detail_unparsed}; detail_samples={detail_samples}')
         permits = []
         for row in rows:
             scope = row.get('scope') or ''
@@ -214,23 +181,7 @@ class EaglePermitCollector:
                     scope = _detail_scope(detail.text)
                 except Exception:
                     detail_failures += 1
-            permits.append(Permit(
-                state='ID',
-                jurisdiction='Eagle',
-                permit_number=row['permit_number'],
-                issued_date=row['issued_date'],
-                permit_type=row['permit_type'],
-                address=row['address'],
-                source_name='Eagle iWorQ Permit Portal',
-                source_url=row['detail_url'],
-                project_name=scope or None,
-                building_use=scope or None,
-                status=row['status'] or None,
-                city='Eagle',
-                county='Ada',
-                stage='PERMITTED',
-                raw={'listing': row, 'detail_scope': scope},
-            ))
+            permits.append(Permit(state='ID', jurisdiction='Eagle', permit_number=row['permit_number'], issued_date=row['issued_date'], permit_type=row['permit_type'], address=row['address'], source_name='Eagle iWorQ Permit Portal', source_url=row['detail_url'], project_name=scope or None, building_use=scope or None, status=row['status'] or None, city='Eagle', county='Ada', stage='PERMITTED', raw={'listing': row, 'detail_scope': scope}))
         note = 'Official City of Eagle iWorQ public permit portal; crawls public current permit detail links when rows are client-rendered'
         if detail_failures:
             note += f'; {detail_failures} detail request(s) unavailable'
