@@ -43,34 +43,70 @@ def _detail_scope(html: str) -> str:
     return _clean(' '.join(lines))[:4000]
 
 
+def _append_record(permits, seen, permit_number, issued_date, permit_type, address, status, detail_url):
+    permit_number = _clean(permit_number)
+    permit_type = _clean(permit_type)
+    if not permit_number or permit_number in seen:
+        return
+    seen.add(permit_number)
+    if not permit_type.lower().startswith('building '):
+        return
+    permits.append({
+        'permit_number': permit_number,
+        'issued_date': _date(issued_date),
+        'permit_type': permit_type,
+        'address': _clean(address),
+        'status': _clean(status),
+        'detail_url': detail_url,
+    })
+
+
 def permits_from_listing(html: str, base_url: str = PORTAL_URL):
     soup = BeautifulSoup(html, 'html.parser')
     permits = []
     seen = set()
+
+    # Desktop markup when iWorQ renders a conventional table.
     for row in soup.select('table tr'):
         cells = row.find_all('td')
         if len(cells) < 5:
             continue
-        permit_number = _clean(cells[0].get_text(' ', strip=True))
-        issued_date = _date(cells[1].get_text(' ', strip=True))
-        permit_type = _clean(cells[2].get_text(' ', strip=True))
-        address = _clean(cells[3].get_text(' ', strip=True))
-        status = _clean(cells[4].get_text(' ', strip=True))
-        if not permit_number or permit_number in seen:
-            continue
-        seen.add(permit_number)
-        if not permit_type.lower().startswith('building '):
-            continue
         link = cells[0].find('a', href=True) or row.find('a', href=True)
         detail_url = urljoin(base_url, link['href']) if link else base_url
-        permits.append({
-            'permit_number': permit_number,
-            'issued_date': issued_date,
-            'permit_type': permit_type,
-            'address': address,
-            'status': status,
-            'detail_url': detail_url,
-        })
+        _append_record(
+            permits, seen,
+            cells[0].get_text(' ', strip=True),
+            cells[1].get_text(' ', strip=True),
+            cells[2].get_text(' ', strip=True),
+            cells[3].get_text(' ', strip=True),
+            cells[4].get_text(' ', strip=True),
+            detail_url,
+        )
+
+    # iWorQ's server response can use responsive/mobile cards instead of a literal
+    # table. Parse the labeled card text as a fallback and use the permit-number
+    # anchor to recover the stable detail URL.
+    links = {}
+    for a in soup.find_all('a', href=True):
+        label = _clean(a.get_text(' ', strip=True))
+        if re.fullmatch(r'\d{4,}', label):
+            links.setdefault(label, urljoin(base_url, a['href']))
+    text = '\n'.join(_clean(x) for x in soup.stripped_strings if _clean(x))
+    card_pattern = re.compile(
+        r'Permit\s*#:\s*(\d{4,})\s+'
+        r'Date:\s*(\d{1,2}/\d{1,2}/\d{4})\s+'
+        r'Permit\s*Type:\s*(.*?)\s+'
+        r'Permit\s*Address:\s*(.*?)\s+'
+        r'Status:\s*(.*?)\s*'
+        r'(?=Inspection Request|Request An Inspection|View\b|Permit\s*#:|Accessibility\b|$)',
+        re.IGNORECASE | re.DOTALL,
+    )
+    for match in card_pattern.finditer(text):
+        number, date, permit_type, address, status = match.groups()
+        _append_record(
+            permits, seen, number, date, permit_type, address, status,
+            links.get(number, base_url),
+        )
     return permits
 
 
