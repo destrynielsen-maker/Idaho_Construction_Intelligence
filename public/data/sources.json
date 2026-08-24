@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:15:07+00:00",
+  "generated_at": "2026-08-24T22:17:47+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Eagle",
-      "status": "ok",
+      "status": "error",
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; rolling live building-permit source"
+      "note": "RuntimeError: zero parsed; html_bytes=1140683; title=Permits - Eagle, ID; contains_permit_label=True; contains_building_residential=False; contains_known_live_id=False; scripts=['all.min.js', 'api.js', 'marked.min.js', 'client.js', 'cc-template.js', 'bootstrap-select.min.js']; forms=['GET:?', 'POST:https://portal.iworq.net/EAGLE/inspection-request/600/__permitId__', 'POST:https://portal.iworq.net/EAGLE/scheduler/600/permit/1/__permitId__']"
     },
     {
       "source": "Coeur d'Alene",
