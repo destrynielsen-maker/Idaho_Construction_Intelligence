@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:53:41+00:00",
+  "generated_at": "2026-08-24T23:58:20+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -19,11 +19,11 @@
     },
     {
       "source": "Canyon County",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 759,
+      "qualifying_records": 243,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
-      "note": "RuntimeError: Current tracker recent-application probe samples=[{'permit': 'BP2026-0653', 'received': '2026-08-20', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': None, 'subtype': 'Residential', 'project': '11 x 34 Insulated Roof Cover - Roof Mount | Purpose: Shade Coverage | Type of Materials: Aluminum\\r\\nONLINE TEMPORARY REFERENCE ID:  202600362'}, {'permit': 'BP2026-0654', 'received': '2026-08-20', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': None, 'subtype': 'Residential', 'project': 'EXISTING LEAN TO ADDITION ON SHOP'}, {'permit': 'BP2026-0651', 'received': '2026-08-19', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE'}, {'permit': 'BP2026-0652', 'received': '2026-08-19', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE AND RV BAY'}, {'permit': 'BP2026-0646', 'received': '2026-08-18', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '106 Manufactured Home - New', 'subtype': 'Manufactured Home', 'project': 'NEW DW MANUFACTURED HOME ON PERMANENT FOUNDATION'}, {'permit': 'BP2026-0647', 'received': '2026-08-18', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '434 Additions, Alterations, Conversions - Residential', 'subtype': 'Residential', 'project': 'RESIDENTIAL ADDITION - 13X30 Sunroom, 16X13 Patio Cover, and 14X18 Patio Cover'}, {'permit': 'BP2026-0648', 'received': '2026-08-18', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE'}, {'permit': 'BP2026-0649', 'received': '2026-08-18', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '328 Sheds, Barns, Storage', 'subtype': 'Residential', 'project': '24X25 DRY SHOP\\r\\nDO NOT ISSUE UNTIL UNPERMITTED STRUCTURE IS PERMITTED!!!'}, {'permit': 'BP2026-0650', 'received': '2026-08-18', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '328 Sheds, Barns, Storage', 'subtype': 'Residential', 'project': '30X60 DRY SHOP/HAY STORAGE AND DP'}, {'permit': 'BP2026-0640', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '328 Sheds, Barns, Storage', 'subtype': 'Residential', 'project': 'NEW DRY SHOP 36X30'}, {'permit': 'BP2026-0641', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '329 Swim Pool', 'subtype': 'Residential', 'project': '20X40 GUNITE POOL'}, {'permit': 'BP2026-0642', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '434 Additions, Alterations, Conversions - Residential', 'subtype': 'Residential', 'project': '12X26 PATIO COVER ADDITION TO SECONDARY RES'}, {'permit': 'BP2026-0643', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '434 Additions, Alterations, Conversions - Residential', 'subtype': 'Residential', 'project': '16X11 LIVING ROOM ADDITION TO MOVE ON HOME'}, {'permit': 'BP2026-0644', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '329 Swim Pool', 'subtype': 'Residential', 'project': '12X26 INGROUND POOL\\r\\nDO NOT ISSUE UNTIL UNPERMITTED STRUCTURE IS APPLIED FOR!!! (ref SI2026-0159)'}, {'permit': 'BP2026-0645', 'received': '2026-08-17', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '317 Assembly, Tasting Room, Club Houses, Event Center', 'subtype': 'Commercial', 'project': 'Conversion of historic barn into special event venue support building. | Purpose: Dressing area for wedding party.\\r\\n ***DO NOT ISSUE UNTIL CP IS APPROVED***'}, {'permit': 'BP2026-0638', 'received': '2026-08-14', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '430 Covered Patio', 'subtype': 'Residential', 'project': '12X24 FREESTADNING PATIO COVER'}, {'permit': 'BP2026-0639', 'received': '2026-08-14', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '214 Guest House', 'subtype': 'Residential', 'project': 'SECONDARY RESIDENCE W/ ATTACHED GARAGE'}, {'permit': 'BP2026-0635', 'received': '2026-08-13', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE'}, {'permit': 'BP2026-0636', 'received': '2026-08-13', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE'}, {'permit': 'BP2026-0637', 'received': '2026-08-13', 'approval': 'In Progress', 'decision': '', 'closed': '', 'status': 'Active', 'classification': '101 Single Family Residence', 'subtype': 'Residential', 'project': 'NEW SFR W/ ATTACHED GARAGE'}]"
+      "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
     {
       "source": "Coeur d'Alene",
@@ -110,10 +110,10 @@
     },
     {
       "market": "Canyon County",
-      "grade": "A+",
+      "grade": "A+ early lead",
       "mode": "automated-gis",
-      "url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0",
-      "use": "Official issued building permits with permit number, issue date, project, contractor, valuation and status"
+      "url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
+      "use": "Current active building-permit applications; received date, status, approval state, project, contractor and valuation"
     },
     {
       "market": "Canyon County Planning",

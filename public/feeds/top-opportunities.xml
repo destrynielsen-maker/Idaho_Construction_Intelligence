@@ -6,95 +6,26 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 23:59:39 +0000</lastBuildDate>
     <item>
-      <title>[35] Canyon County: NEW SHIPPING AND RECEIVING BUILDING - SUPPORT THE NURSEY.&#13;
-See fire correction notice&#13;
-Final Fire in office 10/26/21. sh — 20005 11TH AVE Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | FLAMINGO WEST LLC | 100,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0325</guid>
+      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
+This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
     </item>
     <item>
-      <title>[35] Canyon County: NEW STAR FIRE TRAINING CENTER - 4 Container Units, Stacked 3 High — 22585 KINGSBURY RD Middleton ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | STAR FIRE | 100,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0299</guid>
+      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
     </item>
     <item>
-      <title>[35] Canyon County: Commercial - NEW 42'X80' POLE BARN Final Fire in office 11/12/21 yc — 16151 TEN LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | CLEARY BUILDING CORP | 67,279</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0597</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: NEW 25'X100' METAL COMMERCIAL STORAGE BUILDING FOR IDAHO POWER — 2420 CHACARTEGUI LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | RUDEEN ARCHITECTS | 220,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0614</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New Commercial Shop.  Parcel located in a partial AE Zone floodplain. — 22444  TRIGGER RANCH LN Star ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | LEIGHTON ENTERPRISES INC | 250,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-1196</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New Steel Commercial bldg for storage 35 x 85 — 15824 GUNFIRE RD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | BUSSE VICKI | 35,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-1218</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New 36x60 Shop (CU2020-0013)&#13;
-sent plans out with correction notes attached to  plans  RMO 1/25/2021 Received revised eng for correct size of shop RMO 1/26/2021 — 12464  KARCHER RD Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | TAYLORD SERVICES LLC | 60,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-1217</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: NEW 125'X100' ENGINEERED STEEL COMMERICIAL BUILDING - Needs Hwy District — 20992  PINTO RD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | DALE BINNING ARCHITECT | 286,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-1153</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: NEW COMMERCIAL - GUARD HOUSE - Welcome Center — 16733  SIMPLOT BLVD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | TIPPMANN CONSTRUCTION | 125,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0148</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: NEW COMMERCIAL- STEEL BUILDING - Final SWDH in office 12/15&#13;
-Need full set of plans. Permit is for an shell only building. A TI permit is required to occupy building. — 19971  MONTE WAY Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | CAPITAL SHEET METAL | 360,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0215</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: Commercial - New 296 sq foot metal storage building w/ engineering on concrete slab (pump cover). Parcel and project located in the AE Zone. Structure shall not be fully enclosed and remain open on no less than 2 sides. Structure is under 1,500 square feet and does not require an Elevation Certificate. — 24793  BOISE RIVER RD Parma ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | KELLER ASSOCIATES | 25,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0575</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New office/ Break room for Riverside Irrigation. 26457 Matthews Rd Parma, Id Issued before addressing jo&#13;
-26457 Matthews Rd Address Approved by EMS 8/24-SH Final SWDH in office 10/12/22 CL Final Fire in office 10/12/22 CL — 26457  MATTHEWS RD Parma ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | KRAMER BUILT | 50,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0672</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New 36X26 Shop for waste water treatment - CR2019-0009 - CHEMICAL/EQUIPMENT BUILDING FOR OSPRAY — 0 E LEWIS LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | W &amp; WW LLC | 51,480</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0662</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: New Water Treatment Building — 28371 EL PASO RD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | CUSHING TERRELL | 164,640</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-0819</guid>
+      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
+DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | CONSOR | 300,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
     </item>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
@@ -125,18 +56,6 @@ Need full set of plans. Permit is for an shell only building. A TI permit is req
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
-    </item>
-    <item>
-      <title>[40] Canyon County: New Commercial Office &amp; Storage   Picked up revised plans, has 30 days from 2/9/23 for next inspection   MG — 21500 HOSKINS RD Caldwell ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 620,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0991</guid>
-    </item>
-    <item>
-      <title>[40] Canyon County: New office/Warehouse,  60 x 120 — 3027  LANDON LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | STEEL NATIONAL | 600,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2022-1003</guid>
     </item>
     <item>
       <title>[40] Boise: 2501 S EAGLESON RD — 2501 S EAGLESON RD</title>
@@ -271,6 +190,14 @@ Need full set of plans. Permit is for an shell only building. A TI permit is req
       <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
     </item>
     <item>
+      <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
+&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
+ ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
+    </item>
+    <item>
       <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -283,11 +210,29 @@ Need full set of plans. Permit is for an shell only building. A TI permit is req
       <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
     </item>
     <item>
-      <title>[42] Canyon County: Commercial - New Victory Charter School Performing Arts Building Phase 1 GYM *Will be completed in phases&#13;
-Fire District Commercial Review in office 1/14/22. sh Final Fire for this permit only in office 1-19-2023 CL — 9885 S KRIS JENSEN LN Nampa ID</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0</link>
-      <description>COMMERCIAL | MUSSELL CONSTRUCTION INC | 1,900,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2021-0907</guid>
+      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY&#13;
+Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | ASC INC | 2,000,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
+    </item>
+    <item>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (A) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>

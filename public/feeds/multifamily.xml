@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 23:59:39 +0000</lastBuildDate>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
@@ -92,6 +92,12 @@
       <guid isPermaLink="false">ID:BOISE:PLN25-00534</guid>
     </item>
     <item>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (A) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
       <title>[40] Boise: 1504 S MANITOU AVE — 1504 S MANITOU AVE</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00572</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -138,6 +144,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
+    </item>
+    <item>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
     </item>
     <item>
       <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
