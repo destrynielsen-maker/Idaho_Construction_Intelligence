@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 22:24:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:28:46 +0000</lastBuildDate>
     <item>
       <title>[15] Boise: 7721 W SETTLERS AVE — 7729 W SETTLERS AVE</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN23-00040</link>
@@ -252,6 +252,12 @@
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
       <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:266835</guid>
     </item>
     <item>
       <title>[25] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>

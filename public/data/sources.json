@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:23:52+00:00",
+  "generated_at": "2026-08-24T22:27:31+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Eagle",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 124,
+      "qualifying_records": 1,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "RuntimeError: zero parsed; html_bytes=1140559; title=Permits - Eagle, ID; detail_links=15; detail_failures=0; detail_unparsed=0; detail_samples=['266853|Electrical Residential|New Electrical Installation', '266852|Electrical Residential|Temporary Construction Power', '266851|Electrical Residential|New Electrical Installation', '266850|Electrical Residential|Temporary Construction Power', '266849|Water Commercial|common lot water meter', '266848|Water Commercial|common lot water meter', '266847|Water Commercial|common lot meter', '266846|Electrical Residential|Temp pole']"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
     {
       "source": "Coeur d'Alene",
@@ -36,10 +36,10 @@
     {
       "source": "Meridian",
       "status": "ok",
-      "records_seen": 44,
-      "qualifying_records": 37,
+      "records_seen": 17,
+      "qualifying_records": 14,
       "source_url": "https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-03 through 2026-08-09 (27 parsed); 2026-08-10 through 2026-08-16 (17 parsed)"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (17 parsed). Failures: 2026-08-03 through 2026-08-09: HTTPError"
     },
     {
       "source": "Nampa",
@@ -91,7 +91,7 @@
       "grade": "A+",
       "mode": "automated-portal",
       "url": "https://portal.iworq.net/EAGLE/permits/600",
-      "use": "Live public building-permit portal; filters to building permits and checks permit detail scope"
+      "use": "Rolling public permit records; detail-page crawl supports client-rendered listings and shared classifier suppresses trades"
     },
     {
       "market": "Eagle Laserfiche",
