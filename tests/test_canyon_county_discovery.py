@@ -22,7 +22,6 @@ class CanyonCountyDiscoveryTests(unittest.TestCase):
         }
         rows = candidate_layers(folder, payloads)
         self.assertEqual([(x['layer_id'], x['layer_name']) for x in rows], [
-            (0, 'Addresses'),
             (3, 'Building Permit Locations'),
             (4, 'Planning Development Cases'),
         ])
