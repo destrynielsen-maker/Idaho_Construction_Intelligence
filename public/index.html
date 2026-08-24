@@ -25,6 +25,11 @@
     .table-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
     th { text-align: left; color: #667085; border-bottom: 1px solid #dfe5ee; padding: 10px 8px; white-space: nowrap; }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color:#172033; background:#f8fafc; }
+    th.sortable .sort-arrow { display:inline-block; width:14px; margin-left:4px; color:#98a2b3; }
+    th.sortable.active { color:#172033; }
+    th.sortable.active .sort-arrow { color:#175cd3; }
     td { padding: 10px 8px; border-bottom: 1px solid #edf0f5; vertical-align: top; }
     td.money, td.score, td.units, td.date { white-space: nowrap; }
     .badge { display:inline-block; padding:3px 7px; border-radius:999px; background:#eef2f7; font-size:11px; font-weight:600; white-space:nowrap; }
@@ -90,7 +95,17 @@
     </div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Score</th><th>Issued</th><th>Type</th><th>Jurisdiction</th><th>Project / Address</th><th>Builder / GC</th><th>Units</th><th>Valuation</th><th>Permit</th></tr></thead>
+        <thead><tr>
+          <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
+          <th class="sortable" data-sort="issued_date">Issued<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="classification">Type<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="jurisdiction">Jurisdiction<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="project">Project / Address<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="contractor">Builder / GC<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="units">Units<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="valuation">Valuation<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="permit_number">Permit<span class="sort-arrow"></span></th>
+        </tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>
@@ -117,7 +132,42 @@ const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'cur
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let permits=[];
 let generatedAt='';
+let sortKey='score';
+let sortDirection='desc';
+
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
+function dateValue(value){
+  if(!value) return 0;
+  const s=String(value).trim();
+  const iso=/^\d{4}-\d{2}-\d{2}$/.test(s) ? s : null;
+  if(iso) return new Date(iso+'T00:00:00Z').getTime();
+  const m=s.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);
+  if(m) return Date.UTC(Number(m[3]),Number(m[1])-1,Number(m[2]));
+  const t=Date.parse(s); return Number.isNaN(t)?0:t;
+}
+function sortValue(p,key){
+  if(key==='score' || key==='units' || key==='valuation') return Number(p[key] ?? -1);
+  if(key==='issued_date') return dateValue(p.issued_date);
+  if(key==='project') return `${p.project_name||''} ${p.address||''}`.trim().toLowerCase();
+  return String(p[key] ?? '').trim().toLowerCase();
+}
+function compareRows(a,b){
+  const av=sortValue(a,sortKey), bv=sortValue(b,sortKey);
+  let cmp=0;
+  if(typeof av==='number' && typeof bv==='number') cmp=av-bv;
+  else cmp=String(av).localeCompare(String(bv),undefined,{numeric:true,sensitivity:'base'});
+  if(cmp===0 && sortKey!=='score') cmp=Number(a.score||0)-Number(b.score||0);
+  if(cmp===0) cmp=dateValue(a.issued_date)-dateValue(b.issued_date);
+  return sortDirection==='asc'?cmp:-cmp;
+}
+function updateSortHeaders(){
+  document.querySelectorAll('th.sortable').forEach(th=>{
+    const active=th.dataset.sort===sortKey;
+    th.classList.toggle('active',active);
+    th.querySelector('.sort-arrow').textContent=active?(sortDirection==='asc'?'▲':'▼'):'';
+    th.setAttribute('aria-sort',active?(sortDirection==='asc'?'ascending':'descending'):'none');
+  });
+}
 function render(){
   const q=document.querySelector('#search').value.toLowerCase();
   const cls=document.querySelector('#classification').value;
@@ -127,8 +177,10 @@ function render(){
   const cutoff=dateCutoff(days);
   const rows=permits.filter(p => {
     const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
-    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || p.issued_date>=cutoff) && (p.score>=score);
-  }).sort((a,b) => (b.score-a.score) || String(b.issued_date).localeCompare(String(a.issued_date)));
+    const issuedIso=new Date(dateValue(p.issued_date)).toISOString().slice(0,10);
+    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
+  }).sort(compareRows);
+  updateSortHeaders();
   document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
   document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
     <td class="score"><strong>${p.score}</strong></td>
@@ -153,6 +205,12 @@ async function boot(){
   document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
   ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{
+    const next=th.dataset.sort;
+    if(sortKey===next) sortDirection=sortDirection==='asc'?'desc':'asc';
+    else { sortKey=next; sortDirection=(next==='score'||next==='issued_date'||next==='units'||next==='valuation')?'desc':'asc'; }
+    render();
+  }));
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
