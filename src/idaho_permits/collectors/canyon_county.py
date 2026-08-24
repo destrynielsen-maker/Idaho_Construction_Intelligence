@@ -7,10 +7,17 @@ from ..models import Permit
 
 LAYER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/DSD_BLDG_PERMITS/FeatureServer/0'
 QUERY_URL = LAYER_URL + '/query'
+CURRENT_TRACKER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
+CURRENT_TRACKER_QUERY_URL = CURRENT_TRACKER_URL + '/query'
 PAGE_SIZE = 1000
 REQUIRED_FIELDS = {
     'PermitIssued','PermitNum','Classification','Address','ProjectInfo',
     'Contractor','Subdivision','Valuation','Status','ParcelNum1'
+}
+TRACKER_REQUIRED_FIELDS = {
+    'BP_PermitNumber','BP_ProjectInfo','BP_SubType','BP_Classficiation',
+    'BP_BuildValuation','BP_Address','BP_Contractor','BP_Status',
+    'BP_ReceivedDate','BP_Approval_Status','BP_DecisionDate','BP_DateClosed'
 }
 
 
@@ -119,3 +126,47 @@ class CanyonCountyPermitCollector:
             permits,
             'Official Canyon County DSD issued-building-permit FeatureServer; explicit PermitIssued and PermitNum fields',
         )
+
+
+class CanyonCountyTrackerProbeCollector:
+    name = 'Canyon County Current Tracker Probe'
+    landing_url = CURRENT_TRACKER_URL
+
+    def collect(self):
+        meta = requests.get(CURRENT_TRACKER_URL, params={'f':'json'}, timeout=45)
+        meta.raise_for_status()
+        metadata = meta.json()
+        if metadata.get('error'):
+            raise RuntimeError(f"ArcGIS tracker metadata error: {metadata['error']}")
+        fields = {str(f.get('name') or '') for f in (metadata.get('fields') or [])}
+        missing = sorted(TRACKER_REQUIRED_FIELDS - fields)
+        if missing:
+            raise RuntimeError(f'Unexpected Canyon current tracker schema missing_fields={missing}')
+        params = {
+            'where': 'BP_PermitNumber IS NOT NULL',
+            'outFields': ','.join(sorted(TRACKER_REQUIRED_FIELDS)),
+            'returnGeometry': 'false',
+            'f': 'json',
+            'resultRecordCount': 20,
+            'orderByFields': 'BP_DecisionDate DESC',
+        }
+        response = requests.get(CURRENT_TRACKER_QUERY_URL, params=params, timeout=60)
+        response.raise_for_status()
+        payload = response.json()
+        if payload.get('error'):
+            raise RuntimeError(f"ArcGIS tracker query error: {payload['error']}")
+        samples = []
+        for feature in (payload.get('features') or [])[:20]:
+            a = feature.get('attributes') or {}
+            samples.append({
+                'permit': a.get('BP_PermitNumber'),
+                'received': _date(a.get('BP_ReceivedDate')),
+                'approval': a.get('BP_Approval_Status'),
+                'decision': _date(a.get('BP_DecisionDate')),
+                'closed': _date(a.get('BP_DateClosed')),
+                'status': a.get('BP_Status'),
+                'classification': a.get('BP_Classficiation'),
+                'subtype': a.get('BP_SubType'),
+                'project': a.get('BP_ProjectInfo'),
+            })
+        raise RuntimeError(f'Current tracker semantic probe samples={samples}')
