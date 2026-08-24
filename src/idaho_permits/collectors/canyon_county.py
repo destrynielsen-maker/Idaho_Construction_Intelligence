@@ -170,3 +170,8 @@ class CanyonCountyTrackerProbeCollector:
                 'project': a.get('BP_ProjectInfo'),
             })
         raise RuntimeError(f'Current tracker semantic probe samples={samples}')
+
+
+# Temporary one-run probe: fail closed and emit current-tracker semantics via source health.
+CanyonCountyPermitCollector.collect = CanyonCountyTrackerProbeCollector.collect
+CanyonCountyPermitCollector.landing_url = CURRENT_TRACKER_URL
