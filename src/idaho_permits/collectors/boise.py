@@ -342,6 +342,8 @@ class BoiseIssuedPermitCollector:
         cutoff: date,
         today: date,
     ) -> Permit | None:
+        if not self._row_scope_candidate(family, row):
+            return None
         if (row.get('status') or '').strip().lower() != 'issued':
             return None
         if (detail.get('status') or '').strip().lower() != 'issued':
@@ -463,7 +465,7 @@ class BoiseIssuedPermitCollector:
 
     @staticmethod
     def _norm(value) -> str:
-        return re.sub(r'\s+', ' ', str(value or '')).strip()
+        return re.sub(r'\s+', ' ', str(value or '')).strip().lower()
 
     @classmethod
     def _successful_controls(cls, soup: BeautifulSoup) -> dict[str, str]:
