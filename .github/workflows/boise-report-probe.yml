@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Submit Boise Accela reports
+      - name: Follow Boise Accela report outputs
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -30,15 +30,14 @@ jobs:
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
           home=s.get(urljoin(base,'Default.aspx?TabName=Home'),timeout=60)
           home.raise_for_status()
-
           reports={
               406: {'dates':('Date_403','Date_401'),'extra':{'Number_402':'0'}},
               419: {'dates':('Date_427','Date_425'),'extra':{'Number_426':'0'}},
               928: {'dates':('Date_1084','Date_1083'),'extra':{}},
           }
           for report_id,cfg in reports.items():
-              url=urljoin(base,f'Report/ReportParameter.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
-              r=s.get(url,headers={'Referer':home.url},timeout=60)
+              param=urljoin(base,f'Report/ReportParameter.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
+              r=s.get(param,headers={'Referer':home.url},timeout=60)
               r.raise_for_status()
               soup=BeautifulSoup(r.text,'html.parser')
               form=soup.find('form')
@@ -47,20 +46,38 @@ jobs:
                   name=inp.get('name')
                   if name:
                       data[name]=inp.get('value','')
-              start_field,end_field=cfg['dates']
-              data[start_field]='08/18/2026'
-              data[end_field]='08/25/2026'
+              sf,ef=cfg['dates']
+              data[sf]='08/18/2026'
+              data[ef]='08/25/2026'
               data.update(cfg['extra'])
               data['Submit']='Submit'
-              action=urljoin(r.url,form.get('action') if form else r.url)
-              p=s.post(action,data=data,headers={'Referer':r.url},timeout=120,allow_redirects=True)
-              raw=p.content
-              print('SUBMIT',report_id,'STATUS',p.status_code,'URL',p.url,'CTYPE',p.headers.get('content-type'),'CD',p.headers.get('content-disposition'),'LEN',len(raw),'MAGIC',raw[:24].hex())
-              if 'text' in (p.headers.get('content-type') or '').lower() or 'html' in (p.headers.get('content-type') or '').lower():
-                  text=p.text
-                  print('TEXT_HEAD',report_id,' '.join(text[:1200].split()))
-                  for needle in ['Download','Export','ReportViewer','File','Excel','PDF','window.open','location.href','ReportResult','ReportPreview']:
-                      idx=text.find(needle)
-                      if idx>=0:
-                          print('CTX',report_id,needle,re.sub(r'\s+',' ',text[max(0,idx-500):idx+1600]))
+              p=s.post(urljoin(r.url,form.get('action') if form else r.url),data=data,headers={'Referer':r.url},timeout=120)
+              p.raise_for_status()
+              show=urljoin(p.url,f'ShowReport.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
+              out=s.get(show,headers={'Referer':p.url},timeout=180,allow_redirects=True)
+              raw=out.content
+              ctype=(out.headers.get('content-type') or '').lower()
+              print('OUTPUT',report_id,'STATUS',out.status_code,'URL',out.url,'CTYPE',out.headers.get('content-type'),'CD',out.headers.get('content-disposition'),'LEN',len(raw),'MAGIC',raw[:32].hex())
+              if 'html' in ctype or 'text' in ctype:
+                  text=out.text
+                  print('TEXT_HEAD',report_id,' '.join(text[:1600].split()))
+                  osoup=BeautifulSoup(text,'html.parser')
+                  for tag in osoup.find_all(['iframe','embed','object','a','form','script']):
+                      vals=[]
+                      for attr in ['src','href','data','action']:
+                          v=tag.get(attr)
+                          if v:
+                              vals.append((attr,urljoin(out.url,v)))
+                      label=' '.join(tag.get_text(' ',strip=True).split())[:160]
+                      if vals or any(x in label.lower() for x in ['download','export','excel','pdf']):
+                          print('TAG',report_id,tag.name,vals,repr(label))
+                  for needle in ['ReportViewer','ReportResult','Export','Download','Excel','PDF','iframe','FileName','SessionID','ReportID','GetReport','ShowReport']:
+                      start=0
+                      hits=0
+                      while hits<8:
+                          idx=text.find(needle,start)
+                          if idx<0: break
+                          print('CTX',report_id,needle,re.sub(r'\s+',' ',text[max(0,idx-500):idx+1500]))
+                          start=idx+len(needle)
+                          hits+=1
           PY
