@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Follow Boise Accela report outputs
+      - name: Probe Boise anonymous Building search
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -25,59 +25,73 @@ jobs:
           import requests
           from bs4 import BeautifulSoup
 
-          base='https://permits.cityofboise.org/CitizenAccess/'
+          url='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
-          home=s.get(urljoin(base,'Default.aspx?TabName=Home'),timeout=60)
-          home.raise_for_status()
-          reports={
-              406: {'dates':('Date_403','Date_401'),'extra':{'Number_402':'0'}},
-              419: {'dates':('Date_427','Date_425'),'extra':{'Number_426':'0'}},
-              928: {'dates':('Date_1084','Date_1083'),'extra':{}},
-          }
-          for report_id,cfg in reports.items():
-              param=urljoin(base,f'Report/ReportParameter.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
-              r=s.get(param,headers={'Referer':home.url},timeout=60)
-              r.raise_for_status()
-              soup=BeautifulSoup(r.text,'html.parser')
-              form=soup.find('form')
-              data={}
-              for inp in form.find_all('input') if form else []:
-                  name=inp.get('name')
-                  if name:
-                      data[name]=inp.get('value','')
-              sf,ef=cfg['dates']
-              data[sf]='08/18/2026'
-              data[ef]='08/25/2026'
-              data.update(cfg['extra'])
-              data['Submit']='Submit'
-              p=s.post(urljoin(r.url,form.get('action') if form else r.url),data=data,headers={'Referer':r.url},timeout=120)
-              p.raise_for_status()
-              show=urljoin(p.url,f'ShowReport.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
-              out=s.get(show,headers={'Referer':p.url},timeout=180,allow_redirects=True)
-              raw=out.content
-              ctype=(out.headers.get('content-type') or '').lower()
-              print('OUTPUT',report_id,'STATUS',out.status_code,'URL',out.url,'CTYPE',out.headers.get('content-type'),'CD',out.headers.get('content-disposition'),'LEN',len(raw),'MAGIC',raw[:32].hex())
-              if 'html' in ctype or 'text' in ctype:
-                  text=out.text
-                  print('TEXT_HEAD',report_id,' '.join(text[:1600].split()))
-                  osoup=BeautifulSoup(text,'html.parser')
-                  for tag in osoup.find_all(['iframe','embed','object','a','form','script']):
-                      vals=[]
-                      for attr in ['src','href','data','action']:
-                          v=tag.get(attr)
-                          if v:
-                              vals.append((attr,urljoin(out.url,v)))
-                      label=' '.join(tag.get_text(' ',strip=True).split())[:160]
-                      if vals or any(x in label.lower() for x in ['download','export','excel','pdf']):
-                          print('TAG',report_id,tag.name,vals,repr(label))
-                  for needle in ['ReportViewer','ReportResult','Export','Download','Excel','PDF','iframe','FileName','SessionID','ReportID','GetReport','ShowReport']:
-                      start=0
-                      hits=0
-                      while hits<8:
-                          idx=text.find(needle,start)
-                          if idx<0: break
-                          print('CTX',report_id,needle,re.sub(r'\s+',' ',text[max(0,idx-500):idx+1500]))
-                          start=idx+len(needle)
-                          hits+=1
+          r=s.get(url,timeout=90)
+          print('GET',r.status_code,r.url,'LEN',len(r.text))
+          r.raise_for_status()
+          soup=BeautifulSoup(r.text,'html.parser')
+          form=soup.find('form',id='aspnetForm')
+          print('FORM',bool(form),form.get('action') if form else None)
+          for tag in (form.find_all(['input','select','textarea']) if form else []):
+              name=tag.get('name') or ''
+              ident=tag.get('id') or ''
+              if any(k in (name+' '+ident).lower() for k in ['general','gs','status','permit','type','date','search']):
+                  opts=[]
+                  if tag.name=='select':
+                      opts=[(' '.join(o.get_text(' ',strip=True).split()),o.get('value',''),o.has_attr('selected')) for o in tag.find_all('option')]
+                  print('FIELD',tag.name,ident,name,repr(tag.get('value','')),'OPTS',opts[:120])
+          for table in soup.find_all('table'):
+              ident=table.get('id') or ''
+              if 'permit' in ident.lower() or 'grid' in ident.lower():
+                  print('TABLE',ident)
+          text=' '.join(soup.stripped_strings)
+          print('HAS_NO_RESULTS',bool(re.search(r'no records|no results|0 record',text,re.I)))
+
+          def controls(sp):
+              f=sp.find('form',id='aspnetForm')
+              d={}
+              for e in f.find_all('input') if f else []:
+                  n=e.get('name'); typ=(e.get('type') or 'text').lower()
+                  if not n or typ in {'submit','button','image','file'}: continue
+                  if typ in {'checkbox','radio'} and not e.has_attr('checked'): continue
+                  d[n]=e.get('value','')
+              for e in f.find_all('textarea') if f else []:
+                  if e.get('name'): d[e['name']]=e.get_text()
+              for e in f.find_all('select') if f else []:
+                  n=e.get('name')
+                  if not n: continue
+                  ch=e.find('option',selected=True) or e.find('option')
+                  d[n]=ch.get('value','') if ch else ''
+              return d
+
+          payload=controls(soup)
+          payload.update({
+              '__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch',
+              '__EVENTARGUMENT':'',
+              'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'08/18/2026',
+              'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026',
+              'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'',
+              'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'',
+              'ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType':'',
+              'ctl00$PlaceHolderMain$generalSearchForm$ddlGSStatus':'Issued',
+          })
+          p=s.post(url,data=payload,headers={'Referer':url,'Origin':'https://permits.cityofboise.org'},timeout=120)
+          print('POST',p.status_code,p.url,'LEN',len(p.text))
+          p.raise_for_status()
+          ps=BeautifulSoup(p.text,'html.parser')
+          for table in ps.find_all('table'):
+              ident=table.get('id') or ''
+              if 'permit' in ident.lower() or 'grid' in ident.lower():
+                  rows=table.find_all('tr')
+                  print('RESULT_TABLE',ident,'ROWS',len(rows))
+                  for tr in rows[:12]:
+                      print('ROW',' | '.join(' '.join(x.stripped_strings) for x in tr.find_all(['th','td'])))
+          plain=' '.join(ps.stripped_strings)
+          print('RESULT_NO_RECORDS',bool(re.search(r'no records|no results|0 record',plain,re.I)))
+          for a in ps.find_all('a',href=True):
+              txt=' '.join(a.stripped_strings)
+              if re.search(r'(?:BLD|RES|COM|BP)\w*[- ]?\d',txt,re.I) or txt=='Next >':
+                  print('RESULT_LINK',repr(txt),a.get('id'),a.get('href'))
           PY
