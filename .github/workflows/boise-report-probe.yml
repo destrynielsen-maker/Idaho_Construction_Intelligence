@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Probe Boise Accela reports
+      - name: Probe Boise Accela report parameters
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -28,41 +28,34 @@ jobs:
           base='https://permits.cityofboise.org/CitizenAccess/'
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
-          r=s.get(urljoin(base,'Default.aspx?TabName=Home'),timeout=60)
-          print('HOME',r.status_code,r.url,'LEN',len(r.text))
-          r.raise_for_status()
-          soup=BeautifulSoup(r.text,'html.parser')
-          form=soup.find('form')
-          data={}
-          for inp in form.find_all('input') if form else []:
-              name=inp.get('name')
-              if name:
-                  data[name]=inp.get('value','')
-          data['__EVENTTARGET']='ctl00$HeaderNavigation$btnPostForReport'
-          data['__EVENTARGUMENT']=''
-          action=urljoin(r.url,form.get('action') if form else 'Welcome.aspx?TabName=Home')
-          p=s.post(action,data=data,headers={'Referer':r.url},timeout=60,allow_redirects=True)
-          print('POST',p.status_code,p.url,'LEN',len(p.text),'CTYPE',p.headers.get('content-type'))
-          p.raise_for_status()
-          ps=BeautifulSoup(p.text,'html.parser')
-          for a in ps.find_all('a',href=True):
-              text=' '.join(a.get_text(' ',strip=True).split())
-              href=a['href']
-              low=(text+' '+href).lower()
-              if any(x in low for x in ['report','issued building','building permits issued','occupancy','received']):
-                  print('LINK',repr(text),urljoin(p.url,href))
-          for tag in ps.find_all(['input','button']):
-              blob=' '.join([str(tag.get('id') or ''),str(tag.get('name') or ''),str(tag.get('value') or ''),tag.get_text(' ',strip=True)])
-              if any(x in blob.lower() for x in ['report','issued building','building permits issued','occupancy']):
-                  print('CONTROL',blob[:500])
-          text=p.text
-          for needle in ['Building Permits Issued','Issued Building Permits','Occupancy Report','Report.aspx','reportID','ReportID','btnPostForReport']:
-              start=0
-              hits=0
-              while hits<10:
-                  idx=text.find(needle,start)
-                  if idx<0: break
-                  print('CTX',needle,re.sub(r'\s+',' ',text[max(0,idx-600):idx+1400]))
-                  start=idx+len(needle)
-                  hits+=1
+          home=s.get(urljoin(base,'Default.aspx?TabName=Home'),timeout=60)
+          print('HOME',home.status_code,'LEN',len(home.text))
+          home.raise_for_status()
+          for report_id,name in [(406,'Issued Building Permits'),(419,'Building Permits Issued'),(928,'Occupancy Report Excel')]:
+              url=urljoin(base,f'Report/ReportParameter.aspx?module=&reportID={report_id}&reportType=LINK_REPORT_LIST')
+              r=s.get(url,headers={'Referer':home.url},timeout=60,allow_redirects=True)
+              print('REPORT',report_id,name,'STATUS',r.status_code,'URL',r.url,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text))
+              r.raise_for_status()
+              soup=BeautifulSoup(r.text,'html.parser')
+              form=soup.find('form')
+              print('FORM',form.get('id') if form else None,form.get('method') if form else None,urljoin(r.url,form.get('action') or '') if form else None)
+              for label in soup.find_all(['label','span','td','th']):
+                  text=' '.join(label.get_text(' ',strip=True).split())
+                  if text and any(k in text.lower() for k in ['date','format','permit','report','from','to','start','end']):
+                      if len(text)<240:
+                          print('LABEL',report_id,repr(text))
+              for tag in soup.find_all(['input','select','button']):
+                  name_attr=tag.get('name') or ''
+                  ident=tag.get('id') or ''
+                  value=tag.get('value') or ''
+                  typ=tag.get('type') or tag.name
+                  options=[]
+                  if tag.name=='select':
+                      options=[(' '.join(o.get_text(' ',strip=True).split()),o.get('value',''),o.has_attr('selected')) for o in tag.find_all('option')]
+                  print('FIELD',report_id,typ,ident,name_attr,repr(value),'OPTIONS',options[:20])
+              text=r.text
+              for needle in ['btnSubmit','ReportViewer','reportFormat','PDF','Excel','startDate','endDate','StartDate','EndDate','ReportParameter']:
+                  idx=text.find(needle)
+                  if idx>=0:
+                      print('CTX',report_id,needle,re.sub(r'\s+',' ',text[max(0,idx-500):idx+1400]))
           PY
