@@ -1,5 +1,8 @@
+import tempfile
 import unittest
-from idaho_permits.feeds import _ordered
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from idaho_permits.feeds import _ordered, _write
 from idaho_permits.models import Permit
 
 
@@ -21,6 +24,18 @@ class FeedOrderingTests(unittest.TestCase):
         old_high = row('OLD','2022-12-01',50)
         new_low = row('NEW','2026-08-20',40)
         self.assertEqual([p.permit_number for p in _ordered([new_low,old_high], score_first=True)], ['OLD','NEW'])
+
+    def test_serialized_rss_preserves_newest_first_order(self):
+        old_high = row('OLD','2022-12-01',50)
+        new_low = row('NEW','2026-08-20',15)
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'feed.xml'
+            _write(path, 'Test Feed', [old_high, new_low], 'https://example.com/')
+            root = ET.parse(path).getroot()
+            titles = [item.findtext('title') or '' for item in root.findall('./channel/item')]
+        self.assertEqual(len(titles), 2)
+        self.assertIn('NEW', titles[0])
+        self.assertIn('OLD', titles[1])
 
 
 if __name__ == '__main__':
