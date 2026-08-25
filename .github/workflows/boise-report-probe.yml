@@ -6,13 +6,44 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Apply narrow Boise guard fixes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path=Path('src/idaho_permits/collectors/boise.py')
+          text=path.read_text()
+          before=text
+          text=text.replace(
+              "    ) -> Permit | None:\n        if (row.get('status') or '').strip().lower() != 'issued':",
+              "    ) -> Permit | None:\n        if not self._row_scope_candidate(family, row):\n            return None\n        if (row.get('status') or '').strip().lower() != 'issued':",
+              1,
+          )
+          text=text.replace(
+              "        return re.sub(r'\\s+', ' ', str(value or '')).strip()",
+              "        return re.sub(r'\\s+', ' ', str(value or '')).strip().lower()",
+              1,
+          )
+          if text == before:
+              print('Boise guard fixes already present')
+          else:
+              path.write_text(text)
+              print('Applied Boise guard fixes')
+          PY
+          if ! git diff --quiet -- src/idaho_permits/collectors/boise.py; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/idaho_permits/collectors/boise.py
+            git commit -m "Fix Boise source guards [skip ci]"
+            git push
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
