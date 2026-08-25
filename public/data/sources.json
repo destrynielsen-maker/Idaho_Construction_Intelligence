@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:13:05+00:00",
+  "generated_at": "2026-08-25T01:15:38+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -31,7 +31,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports"
+      "note": "RuntimeError: No directly accessible Caldwell monthly PDF found; attempts=[{'label': 'August 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/august-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/august-2026-building-report.pdf'}, {'label': 'July 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf'}, {'label': 'June 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/june-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/june-2026-building-report.pdf'}, {'label': 'May 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/may-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/may-2026-building-report.pdf'}, {'label': 'April 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/april-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/april-2026-building-report.pdf'}]"
     },
     {
       "source": "Coeur d'Alene",
@@ -133,9 +133,9 @@
     {
       "market": "Caldwell",
       "grade": "A+ candidate",
-      "mode": "discovery-report",
-      "url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
-      "use": "Official monthly building reports; production fallback after Citizenserve POST returned HTTP 401 on GitHub Actions"
+      "mode": "discovery-direct-pdf",
+      "url": "https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf",
+      "use": "Official monthly building report PDFs via predictable direct City file path; index page is runner-blocked"
     },
     {
       "market": "Caldwell Citizenserve",
