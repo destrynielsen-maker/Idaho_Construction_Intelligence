@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:15:38+00:00",
+  "generated_at": "2026-08-25T01:22:02+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -27,11 +27,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
-      "note": "RuntimeError: No directly accessible Caldwell monthly PDF found; attempts=[{'label': 'August 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/august-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/august-2026-building-report.pdf'}, {'label': 'July 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf'}, {'label': 'June 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/june-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/june-2026-building-report.pdf'}, {'label': 'May 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/may-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/may-2026-building-report.pdf'}, {'label': 'April 2026', 'url': 'https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/april-2026-building-report.pdf', 'error': 'HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/april-2026-building-report.pdf'}]"
+      "status": "ok",
+      "records_seen": 6,
+      "qualifying_records": 2,
+      "source_url": "https://compassidaho.org/development-review-checklists-2026/",
+      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
     },
     {
       "source": "Coeur d'Alene",
@@ -132,17 +132,24 @@
     },
     {
       "market": "Caldwell",
-      "grade": "A+ candidate",
-      "mode": "discovery-direct-pdf",
-      "url": "https://www.cityofcaldwell.org/files/assets/city/v/1/building/documents/permit-apps/july-2026-building-report.pdf",
-      "use": "Official monthly building report PDFs via predictable direct City file path; index page is runner-blocked"
+      "grade": "A+ early lead",
+      "mode": "automated-planning",
+      "url": "https://compassidaho.org/development-review-checklists-2026/",
+      "use": "Official COMPASS development-review feed filtered to City of Caldwell projects; early planning/development opportunities"
     },
     {
       "market": "Caldwell Citizenserve",
       "grade": "B manual-detail",
       "mode": "rep-research",
       "url": "https://www2.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit&installationID=263",
-      "use": "Official public permit detail lookup; unattended search POST is not runner-accessible"
+      "use": "Official City permit detail lookup; unattended search POST returns HTTP 401 on GitHub Actions"
+    },
+    {
+      "market": "Caldwell Building Reports",
+      "grade": "B manual-detail",
+      "mode": "rep-report",
+      "url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
+      "use": "Official City monthly building reports; City host returns HTTP 403 to GitHub Actions"
     },
     {
       "market": "Star",

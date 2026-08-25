@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 01:16:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:23:10 +0000</lastBuildDate>
     <item>
       <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
@@ -22,6 +22,12 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
     </item>
     <item>
+      <title>[30] Caldwell: Highline Industrial Park Subdivision — Caldwell, ID</title>
+      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_highline-industrial.pdf</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202607-F756CD3A</guid>
+    </item>
+    <item>
       <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
 DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
@@ -33,6 +39,12 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
+    </item>
+    <item>
+      <title>[30] Caldwell: KCID Commercial Subdivision — Caldwell, ID</title>
+      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_kcid-commercial.pdf</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202605-8746FF23</guid>
     </item>
     <item>
       <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>

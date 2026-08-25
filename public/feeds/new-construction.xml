@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 01:16:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:23:10 +0000</lastBuildDate>
     <item>
       <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
@@ -511,6 +511,12 @@ HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0538</guid>
     </item>
     <item>
+      <title>[30] Caldwell: Highline Industrial Park Subdivision — Caldwell, ID</title>
+      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_highline-industrial.pdf</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202607-F756CD3A</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 26598 STEPHEN LN, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 273,904</description>
@@ -777,6 +783,12 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 440,923</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0370</guid>
+    </item>
+    <item>
+      <title>[30] Caldwell: KCID Commercial Subdivision — Caldwell, ID</title>
+      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_kcid-commercial.pdf</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202605-8746FF23</guid>
     </item>
     <item>
       <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
@@ -1205,18 +1217,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BLACKSTONE HOMES | 329,044</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0142</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Final Fire met in office 8/17/26  NPO — 7715 E WINDMILL RANCH LN, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DENT CODY | 431,237</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0140</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7616 E MIDBERRY CT, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BACHMAN CUSTOM HOMES | 275,850</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0135</guid>
     </item>
   </channel>
 </rss>
