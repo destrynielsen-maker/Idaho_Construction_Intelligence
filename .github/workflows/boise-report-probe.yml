@@ -1,4 +1,4 @@
-name: Boise public report probe
+name: Boise issued permit validation
 
 on:
   push:
@@ -9,30 +9,46 @@ permissions:
   contents: read
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Inspect Boise search date controls
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Run live Boise issued collector
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
-          import requests
-          from bs4 import BeautifulSoup
-          url='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
-          s=requests.Session(); s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
-          r=s.get(url,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-          form=soup.find('form',id='aspnetForm')
-          for tag in form.find_all(['select','input','span','label']) if form else []:
-              ident=tag.get('id') or ''; name=tag.get('name') or ''; title=tag.get('title') or ''; text=' '.join(tag.stripped_strings)
-              blob=' '.join([ident,name,title,text]).lower()
-              if 'date' not in blob and 'issued' not in blob:
-                  continue
-              opts=[]
-              if tag.name=='select':
-                  opts=[(' '.join(o.stripped_strings),o.get('value',''),o.has_attr('selected')) for o in tag.find_all('option')]
-              print('CONTROL',tag.name,ident,name,'VALUE',repr(tag.get('value','')),'TEXT',repr(text[:300]),'ATTRS',dict(tag.attrs),'OPTS',opts[:100])
+          from collections import Counter
+          from datetime import date, timedelta
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.boise import BoiseIssuedPermitCollector
+
+          collector=BoiseIssuedPermitCollector()
+          permits=collector.collect()
+          print('SOURCE',permits.source)
+          print('COUNT',len(permits.permits))
+          kinds=Counter()
+          for p in permits.permits:
+              classify_permit(p)
+              kinds[p.classification]+=1
+              print('PERMIT',p.permit_number,p.issued_date,p.classification,p.project_name,p.address,p.valuation,p.contractor)
+              if not p.qualifies:
+                  raise SystemExit('nonqualifying permit escaped source filter: '+p.permit_number)
+              issued=date.fromisoformat(p.issued_date)
+              if issued < date.today()-timedelta(days=collector.lookback_days) or issued > date.today():
+                  raise SystemExit('issue date outside production window: '+p.permit_number)
+              if p.status != 'Issued':
+                  raise SystemExit('non-issued record escaped source filter: '+p.permit_number)
+          print('CLASSIFICATIONS',dict(kinds))
+          if not permits.permits:
+              raise SystemExit('Boise issued collector returned no qualifying permits')
           PY
