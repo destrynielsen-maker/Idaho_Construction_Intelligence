@@ -264,6 +264,12 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "CR HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "HIGHLAND HOMES",
     "count": 1,
     "score_total": 20,
@@ -1062,6 +1068,12 @@
     "valuation_total": 224563.2
   },
   {
+    "contractor": "CHRISTENSEN CHRISTOPHER",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 370284.36
+  },
+  {
     "contractor": "BURCHARD DAMIEN",
     "count": 1,
     "score_total": 20,
@@ -1090,17 +1102,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "CR HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CHRISTENSEN CHRISTOPHER",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 370284.36
   }
 ]

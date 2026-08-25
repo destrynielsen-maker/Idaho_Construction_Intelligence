@@ -6,24 +6,12 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 15:59:53 +0000</lastBuildDate>
-    <item>
-      <title>[15] Eagle: New Single Family Home — 6631 N. Good Dr.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29623985</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266876</guid>
-    </item>
+    <lastBuildDate>Tue, 25 Aug 2026 18:57:31 +0000</lastBuildDate>
     <item>
       <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00515</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00515</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
@@ -32,10 +20,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
     </item>
     <item>
-      <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266835</guid>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOWMORE CT, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
@@ -1218,6 +1206,18 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ASA CONSTRUCTION | 312,174</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0149</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3120 MORNING STAR LN, Melba   836410000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | DUHRKOOP LEXI | 384,862</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0148</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7810 MINAM DR, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MCLAUGHLIN JAMES P | 354,113</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0146</guid>
     </item>
   </channel>
 </rss>

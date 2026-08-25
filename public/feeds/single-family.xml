@@ -6,19 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 15:59:53 +0000</lastBuildDate>
-    <item>
-      <title>[15] Eagle: New Single Family Home — 6631 N. Good Dr.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29623985</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266876</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
-    </item>
+    <lastBuildDate>Tue, 25 Aug 2026 18:57:31 +0000</lastBuildDate>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
@@ -26,10 +14,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
     </item>
     <item>
-      <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266835</guid>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOWMORE CT, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
@@ -1219,6 +1207,20 @@ CP2026-0003 has been approved per Dan 3/30/26  NPO — 18033 VARMINT CALLER LN, 
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | TRADITION CUSTOM HOMES INC | 309,585</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0079</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE&#13;
+Note: Original approved plans were lost and the copy of originals are not legible when enlarged to scale. B.O. will accept smaller approved plans to be onsite that are ledgible accompanied by a scalable set of plans for reference. 5/21/26. TC. Mary Ann is the contact. 208-242-6701. — 27730 COMMERCE COMET WAY, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRADSHAW CUSTOM HOMES | 250,534</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0078</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE + FINISHED BASEMENT // Revision - Finishing Basement, new plan in obbase.&#13;
+Note: The home / front setback for this parcel is now legal non-conforming. The culdesac easement was misrepresented on the approved plans as 60' (an old survey #2021-073454 was used for the review). The correct ROS #2021-077349 approved via AD2021-0103 shows a 70' easement. If the owner would like to revert back to the 60' a new survey + new deed is required. — 13447 WHETSTONE LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TITUS TIMOTHY | 504,927</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0071</guid>
     </item>
   </channel>
 </rss>
