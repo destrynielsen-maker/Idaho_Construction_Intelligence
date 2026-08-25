@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Apply narrow Boise guard fixes
+      - name: Apply narrow Boise source fixes
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -21,6 +21,11 @@ jobs:
           path=Path('src/idaho_permits/collectors/boise.py')
           text=path.read_text()
           before=text
+          text=text.replace(
+              "    landing_url = BOISE_BUILDING_SEARCH_URL\n    source_url = BOISE_BUILDING_SEARCH_URL",
+              "    landing_url = BOISE_BUILDING_SEARCH_URL\n    search_url = BOISE_BUILDING_SEARCH_URL\n    source_url = BOISE_BUILDING_SEARCH_URL",
+              1,
+          )
           text=text.replace(
               "    ) -> Permit | None:\n        if (row.get('status') or '').strip().lower() != 'issued':",
               "    ) -> Permit | None:\n        if not self._row_scope_candidate(family, row):\n            return None\n        if (row.get('status') or '').strip().lower() != 'issued':",
@@ -32,16 +37,16 @@ jobs:
               1,
           )
           if text == before:
-              print('Boise guard fixes already present')
+              print('Boise source fixes already present')
           else:
               path.write_text(text)
-              print('Applied Boise guard fixes')
+              print('Applied Boise source fixes')
           PY
           if ! git diff --quiet -- src/idaho_permits/collectors/boise.py; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add src/idaho_permits/collectors/boise.py
-            git commit -m "Fix Boise source guards [skip ci]"
+            git commit -m "Fix Boise search URL [skip ci]"
             git push
           fi
       - uses: actions/setup-python@v5
