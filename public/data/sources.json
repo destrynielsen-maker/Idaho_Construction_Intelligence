@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:56:29+00:00",
+  "generated_at": "2026-08-25T19:56:50+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -13,7 +13,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 123,
-      "qualifying_records": 0,
+      "qualifying_records": 1,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
