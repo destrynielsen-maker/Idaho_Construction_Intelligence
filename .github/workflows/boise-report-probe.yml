@@ -17,82 +17,45 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Probe Boise new construction details
+      - name: Probe one issued Boise record per target type
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
-          import re
-          import requests
+          import re, requests
           from bs4 import BeautifulSoup
-
           search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
-          s=requests.Session()
-          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
-
+          s=requests.Session(); s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
           def controls(sp):
-              f=sp.find('form',id='aspnetForm')
-              d={}
+              f=sp.find('form',id='aspnetForm'); d={}
               for e in f.find_all('input') if f else []:
                   n=e.get('name'); typ=(e.get('type') or 'text').lower()
-                  if not n or typ in {'submit','button','image','file'}: continue
-                  if typ in {'checkbox','radio'} and not e.has_attr('checked'): continue
+                  if not n or typ in {'submit','button','image','file'} or (typ in {'checkbox','radio'} and not e.has_attr('checked')): continue
                   d[n]=e.get('value','')
-              for e in f.find_all('textarea') if f else []:
-                  if e.get('name'): d[e['name']]=e.get_text()
               for e in f.find_all('select') if f else []:
-                  n=e.get('name')
-                  if not n: continue
-                  ch=e.find('option',selected=True) or e.find('option')
-                  d[n]=ch.get('value','') if ch else ''
+                  n=e.get('name'); ch=e.find('option',selected=True) or e.find('option')
+                  if n: d[n]=ch.get('value','') if ch else ''
               return d
-
-          types=[
-              ('RES','Building/Building/402-404-New Res/NA'),
-              ('COM','Building/Building/502-New or Added Commercial/NA'),
-              ('MF','Building/Building/506-New Multi-Family/NA'),
-          ]
-          for label,type_value in types:
-              r=s.get(search,timeout=90); r.raise_for_status()
-              soup=BeautifulSoup(r.text,'html.parser')
-              payload=controls(soup)
-              payload.update({
-                  '__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch',
-                  '__EVENTARGUMENT':'',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'07/12/2026',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'',
-                  'ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType':type_value,
-              })
-              p=s.post(search,data=payload,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120)
-              p.raise_for_status()
-              ps=BeautifulSoup(p.text,'html.parser')
-              table=ps.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList')
-              print('TYPE',label,'TABLE',bool(table))
-              candidates=[]
+          types=[('RES','Building/Building/402-404-New Res/NA'),('COM','Building/Building/502-New or Added Commercial/NA'),('MF','Building/Building/506-New Multi-Family/NA')]
+          for label,tv in types:
+              r=s.get(search,timeout=45); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
+              data=controls(soup); data.update({'__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch','__EVENTARGUMENT':'','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'07/12/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'','ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType':tv})
+              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=60); p.raise_for_status(); ps=BeautifulSoup(p.text,'html.parser')
+              table=ps.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); chosen=None; count=0
               if table:
                   for tr in table.find_all('tr'):
                       link=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
                       if not link: continue
-                      number=' '.join(link.stripped_strings)
-                      vals=' | '.join(' '.join(x.stripped_strings) for x in tr.find_all('td'))
-                      print('ROW',label,number,vals[:1800])
-                      candidates.append((number,urljoin(search,link.get('href',''))))
-              print('COUNT_FIRST_PAGE',label,len(candidates))
-              for number,detail_url in candidates[:4]:
-                  d=s.get(detail_url,headers={'Referer':search},timeout=90)
-                  print('DETAIL_HTTP',label,number,d.status_code,'LEN',len(d.text),'URL',d.url)
-                  d.raise_for_status()
-                  ds=BeautifulSoup(d.text,'html.parser')
-                  plain=' '.join(ds.stripped_strings)
-                  for needle in ['Record Status:','Status:','Issued Date:','Date Issued:','Issue Date:','Record Type:','Subtype:','Work Type:','Project Description:','Job Value','Valuation','Occupancy','Number of Units','Licensed Professional:','Owner:']:
-                      m=re.search(re.escape(needle)+r'\s*(.{0,500})',plain,re.I)
-                      if m:
-                          print('FIELDCTX',label,number,needle,m.group(1)[:500])
-                  for tag in ds.find_all(id=True):
-                      ident=tag.get('id','')
-                      if any(k in ident.lower() for k in ['issued','status','type','subtype','jobvalue','occup','unit','projectdesc','licensed']):
-                          txt=' '.join(tag.stripped_strings)
-                          if txt and len(txt)<800:
-                              print('IDFIELD',label,number,ident,repr(txt))
+                      count+=1; row=' | '.join(' '.join(x.stripped_strings) for x in tr.find_all('td'))
+                      print('ROW',label,' '.join(link.stripped_strings),row[:1200])
+                      if chosen is None and re.search(r'\|\s*Issued\s*\|',row,re.I): chosen=(' '.join(link.stripped_strings),urljoin(search,link.get('href','')))
+              print('COUNT',label,count,'CHOSEN',chosen[0] if chosen else None)
+              if not chosen: continue
+              number,du=chosen; d=s.get(du,headers={'Referer':search},timeout=45); print('DETAIL',label,number,d.status_code,'LEN',len(d.text)); d.raise_for_status()
+              ds=BeautifulSoup(d.text,'html.parser'); plain=' '.join(ds.stripped_strings)
+              for needle in ['Record Status:','Issued Date:','Date Issued:','Issue Date:','Record Type:','Subtype:','Work Type:','Project Description:','Job Value','Valuation','Occupancy','Number of Units','Licensed Professional:','Owner:']:
+                  m=re.search(re.escape(needle)+r'\s*(.{0,700})',plain,re.I)
+                  if m: print('CTX',label,number,needle,m.group(1)[:700])
+              for tag in ds.find_all(id=True):
+                  ident=tag.get('id','').lower(); txt=' '.join(tag.stripped_strings)
+                  if txt and len(txt)<1000 and any(k in ident for k in ['issued','status','subtype','jobvalue','occup','unit','projectdesc']): print('ID',label,number,tag.get('id'),repr(txt))
           PY
