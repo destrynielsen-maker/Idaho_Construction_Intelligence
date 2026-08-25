@@ -32,10 +32,10 @@ class FeedOrderingTests(unittest.TestCase):
             path = Path(tmp) / 'feed.xml'
             _write(path, 'Test Feed', [old_high, new_low], 'https://example.com/')
             root = ET.parse(path).getroot()
-            titles = [item.findtext('title') or '' for item in root.findall('./channel/item')]
-        self.assertEqual(len(titles), 2)
-        self.assertIn('NEW', titles[0])
-        self.assertIn('OLD', titles[1])
+            guids = [item.findtext('guid') or '' for item in root.findall('./channel/item')]
+        self.assertEqual(len(guids), 2)
+        self.assertTrue(guids[0].endswith(':NEW'), guids)
+        self.assertTrue(guids[1].endswith(':OLD'), guids)
 
 
 if __name__ == '__main__':
