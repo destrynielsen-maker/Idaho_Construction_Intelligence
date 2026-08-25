@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:10:05+00:00",
+  "generated_at": "2026-08-25T01:13:05+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -30,8 +30,8 @@
       "status": "error",
       "records_seen": 0,
       "qualifying_records": 0,
-      "source_url": "https://www2.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit&installationID=263",
-      "note": "HTTPError: 401 Client Error: Unauthorized for url: https://www2.citizenserve.com/Portal/PortalController"
+      "source_url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
+      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports"
     },
     {
       "source": "Coeur d'Alene",
@@ -133,16 +133,16 @@
     {
       "market": "Caldwell",
       "grade": "A+ candidate",
-      "mode": "discovery-portal",
-      "url": "https://www2.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit&installationID=263",
-      "use": "Official live Citizenserve permit search; fail-closed discovery of unattended search semantics"
+      "mode": "discovery-report",
+      "url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
+      "use": "Official monthly building reports; production fallback after Citizenserve POST returned HTTP 401 on GitHub Actions"
     },
     {
-      "market": "Caldwell Reports",
-      "grade": "A backfill",
-      "mode": "rep-report",
-      "url": "https://www.cityofcaldwell.org/Departments/Community-Development/Building-Safety-Division/Building-Bulletins-Reports",
-      "use": "Official monthly building reports for fallback and backfill"
+      "market": "Caldwell Citizenserve",
+      "grade": "B manual-detail",
+      "mode": "rep-research",
+      "url": "https://www2.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit&installationID=263",
+      "use": "Official public permit detail lookup; unattended search POST is not runner-accessible"
     },
     {
       "market": "Star",
