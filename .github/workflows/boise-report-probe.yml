@@ -17,55 +17,22 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Inspect Boise issued permit detail dates
+      - name: Inspect Boise search date controls
         run: |
           python - <<'PY'
-          from urllib.parse import urljoin
-          import re, requests
+          import requests
           from bs4 import BeautifulSoup
-
-          search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
+          url='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
           s=requests.Session(); s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
-          type_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
-          status_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
-          types=[('RES','Building/Building/402-404-New Res/NA'),('COM','Building/Building/502-New or Added Commercial/NA'),('MF','Building/Building/506-New Multi-Family/NA')]
-
-          def controls(sp):
-              f=sp.find('form',id='aspnetForm'); d={}
-              for e in f.find_all('input') if f else []:
-                  n=e.get('name'); typ=(e.get('type') or 'text').lower()
-                  if not n or typ in {'submit','button','image','file'} or (typ in {'checkbox','radio'} and not e.has_attr('checked')): continue
-                  d[n]=e.get('value','')
-              for e in f.find_all('textarea') if f else []:
-                  if e.get('name'): d[e['name']]=e.get_text()
-              for e in f.find_all('select') if f else []:
-                  n=e.get('name'); ch=e.find('option',selected=True) or e.find('option')
-                  if n: d[n]=ch.get('value','') if ch else ''
-              return d
-
-          for label,tv in types:
-              r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-              data=controls(soup); data[type_name]=tv; data['__EVENTTARGET']=type_name; data['__EVENTARGUMENT']=''
-              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); ps=BeautifulSoup(p.text,'html.parser')
-              data=controls(ps); data[type_name]=tv; data[status_name]='Issued'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']='01/01/2026'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']='08/25/2026'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''; data['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch'; data['__EVENTARGUMENT']=''
-              q=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); q.raise_for_status(); qs=BeautifulSoup(q.text,'html.parser')
-              table=qs.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); chosen=None
-              if table:
-                  for tr in table.find_all('tr'):
-                      link=tr.find('a',id=lambda x: x and x.endswith('_hlPermitNumber'))
-                      if not link: continue
-                      row=' | '.join(' '.join(td.stripped_strings) for td in tr.find_all('td'))
-                      chosen=(' '.join(link.stripped_strings),urljoin(search,link.get('href','')),row)
-                      break
-              print('CHOSEN',label,chosen[0] if chosen else None,chosen[2][:1200] if chosen else '')
-              if not chosen: continue
-              number,du,row=chosen
-              d=s.get(du,headers={'Referer':search},timeout=60); print('DETAIL_HTTP',label,number,d.status_code,'LEN',len(d.text)); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser'); plain=' '.join(ds.stripped_strings)
-              for needle in ['Issued Date:','Issue Date:','Date Issued:','Permit Issued Date:','Record Status:','Received Date:','Intake Approval Date:','Expiration Date:','Finaled Date:','Certificate of Value Total Project Value:','Number of Units in this building:','New Building Area:','Total Building Area:','Project Description:','Licensed Professional:']:
-                  m=re.search(re.escape(needle)+r'\s*(.{0,900})',plain,re.I)
-                  if m: print('CTX',label,number,needle,m.group(1)[:900])
-              for tag in ds.find_all(id=True):
-                  ident=tag.get('id',''); low=ident.lower(); txt=' '.join(tag.stripped_strings)
-                  if txt and len(txt)<1200 and any(k in low for k in ['issue','issued','status','date','jobvalue','projectvalue','unit','newbuildingarea','totalbuildingarea']):
-                      print('IDFIELD',label,number,ident,repr(txt))
+          r=s.get(url,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
+          form=soup.find('form',id='aspnetForm')
+          for tag in form.find_all(['select','input','span','label']) if form else []:
+              ident=tag.get('id') or ''; name=tag.get('name') or ''; title=tag.get('title') or ''; text=' '.join(tag.stripped_strings)
+              blob=' '.join([ident,name,title,text]).lower()
+              if 'date' not in blob and 'issued' not in blob:
+                  continue
+              opts=[]
+              if tag.name=='select':
+                  opts=[(' '.join(o.stripped_strings),o.get('value',''),o.has_attr('selected')) for o in tag.find_all('option')]
+              print('CONTROL',tag.name,ident,name,'VALUE',repr(tag.get('value','')),'TEXT',repr(text[:300]),'ATTRS',dict(tag.attrs),'OPTS',opts[:100])
           PY
