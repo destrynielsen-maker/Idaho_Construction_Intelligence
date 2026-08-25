@@ -106,7 +106,10 @@ def summarize_result_page(html: str, base_url: str) -> dict:
     soup = BeautifulSoup(html, 'html.parser')
     rows = []
     for tr in soup.find_all('tr'):
-        cells = [_clean(x.get_text(' ', strip=True)) for x in tr.find_all(['td', 'th'])]
+        tds = tr.find_all('td')
+        if len(tds) < 2:
+            continue
+        cells = [_clean(x.get_text(' ', strip=True)) for x in tds]
         cells = [x for x in cells if x]
         if len(cells) < 2:
             continue
