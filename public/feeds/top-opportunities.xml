@@ -6,44 +6,201 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:59:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:55:27 +0000</lastBuildDate>
     <item>
-      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
-This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
     <item>
-      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
     </item>
     <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
-DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | CONSOR | 300,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
     </item>
     <item>
-      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
-      <description>MULTIFAMILY | HOMEOWNER | 450,000</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (A) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY&#13;
+Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | ASC INC | 2,000,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
+    </item>
+    <item>
+      <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
+&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
+ ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
+    </item>
+    <item>
+      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 9230 W USTICK RD — 9230 W USTICK RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 6918 W PETRIE ST — 6918 W PETRIE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00115</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00115</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 5309 W DENTON ST — 5309 W DENTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00014</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00014</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 912 N 8TH ST — 912 N 8TH ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00149</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00149</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1020 W TARGEE ST — 1020 W TARGEE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00089</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00089</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3122 S OLD HICKORY WAY — 3122 S OLD HICKORY WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00809</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00809</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1504 S MANITOU AVE — 1504 S MANITOU AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00572</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00572</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3113 W MOORE ST — 3113 W MOORE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00534</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00534</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 13809 W AUDRA LN — 13809 W AUDRA LN, APT# 101</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00722</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00722</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1505 S WARDLE ST — 1505 S WARDLE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00757</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00757</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1615 N 13TH ST — 1615 N 13TH ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00267</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00267</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1501 S CHRISWAY DR — 1501 S CHRISWAY DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01141</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01141</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 2233 S DIVISION AVE — 2233 S DIVISION AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00401</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00401</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 10473 W SHIELDS AVE — 10473 W SHIELDS AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01039</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01039</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1229 S LINCOLN AVE - DRH/SUB — 1229 S LINCOLN AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01024</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN24-01024</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 2501 S EAGLESON RD — 2501 S EAGLESON RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00107</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00107</guid>
     </item>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
-    </item>
-    <item>
-      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-M1</guid>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
     </item>
     <item>
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
@@ -55,196 +212,39 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-P2</guid>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-M1</guid>
     </item>
     <item>
-      <title>[40] Boise: 2501 S EAGLESON RD — 2501 S EAGLESON RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00107</link>
+      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00107</guid>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
     </item>
     <item>
-      <title>[40] Boise: 1229 S LINCOLN AVE - DRH/SUB — 1229 S LINCOLN AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01024</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN24-01024</guid>
+      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
+      <description>MULTIFAMILY | HOMEOWNER | 450,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
     </item>
     <item>
-      <title>[40] Boise: 10473 W SHIELDS AVE — 10473 W SHIELDS AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01039</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN24-01039</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 2233 S DIVISION AVE — 2233 S DIVISION AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00401</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00401</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1501 S CHRISWAY DR — 1501 S CHRISWAY DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN24-01141</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN24-01141</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1615 N 13TH ST — 1615 N 13TH ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00267</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00267</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1505 S WARDLE ST — 1505 S WARDLE ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00757</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00757</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 13809 W AUDRA LN — 13809 W AUDRA LN, APT# 101</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00722</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00722</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 3113 W MOORE ST — 3113 W MOORE ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00534</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00534</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1504 S MANITOU AVE — 1504 S MANITOU AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00572</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00572</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 3122 S OLD HICKORY WAY — 3122 S OLD HICKORY WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00809</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00809</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1020 W TARGEE ST — 1020 W TARGEE ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00089</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00089</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 912 N 8TH ST — 912 N 8TH ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00149</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00149</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 5309 W DENTON ST — 5309 W DENTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00014</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00014</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 6918 W PETRIE ST — 6918 W PETRIE ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00115</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00115</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 9230 W USTICK RD — 9230 W USTICK RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
-    </item>
-    <item>
-      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
-    </item>
-    <item>
-      <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
-&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
- ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
+      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
+DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
+      <description>COMMERCIAL | CONSOR | 300,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
     </item>
     <item>
-      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
-    </item>
-    <item>
-      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY&#13;
-Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
+      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | ASC INC | 2,000,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
+      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
     </item>
     <item>
-      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
+      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
+This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
-    </item>
-    <item>
-      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (A) — 28379 EL PASO RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
-    </item>
-    <item>
-      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
-    </item>
-    <item>
-      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
-      <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
-    </item>
-    <item>
-      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
-      <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
+      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
     </item>
   </channel>
 </rss>

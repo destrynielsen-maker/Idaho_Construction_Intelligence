@@ -6,247 +6,934 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:59:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:55:27 +0000</lastBuildDate>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7616 E MIDBERRY CT, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BACHMAN CUSTOM HOMES | 275,850</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0135</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 24873 FARM DALE AVE, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLACKSTONE HOMES | 329,044</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0142</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Final Fire met in office 8/17/26  NPO — 7715 E WINDMILL RANCH LN, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DENT CODY | 431,237</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0140</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7810 MINAM DR, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MCLAUGHLIN JAMES P | 354,113</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0146</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3127 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 312,174</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0149</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3120 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DUHRKOOP LEXI | 384,862</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0148</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 7006 E CHICKEN HAWK LOOP, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HUNTER HOMES | 259,682</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0154</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 4416 SCHOBER DR, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MUSSELL CONSTRUCTION | 184,549</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0153</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9327 LEGACY RIDGE LN, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 209,243</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0151</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 5309 W DENTON ST — 5309 W DENTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00014</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00014</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5317 S BIG JACKS CREEK AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0164</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5305 S BIG JACKS CREEK AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 268,228</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0162</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5224 S BIG JACKS CREEK AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 346,957</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0161</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5326 S BIG JACKS CREEK AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 247,544</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0159</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28924 HARVEY RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PLEASANT VIEW CONSTRUCTION LLC | 295,210</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0171</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 23698 BOEHNER RD, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SCHROEDER ENTERPRISES INC | 502,915</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0166</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 6918 W PETRIE ST — 6918 W PETRIE ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00115</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00115</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE  Revision picked up 7/21/26 LH — 9833 S PEREGRINE FALCON AVE, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 334,773</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0193</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1002 N 63RD ST, Nampa   83687</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HASANOVIC TEA | 351,917</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0192</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13433 LAKE SHORE DR, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | COBLE MICHAEL | 292,290</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0191</guid>
-    </item>
-    <item>
-      <title>[15] Boise: 3749 W Pinehurst DR — 3749 W PINEHURST DR, BLDG#</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00216</link>
+      <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00216</guid>
+      <guid isPermaLink="false">ID:EAGLE:266835</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3170 TRAPPER RIDGE LN, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MERRILL LOREN | 336,589</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0209</guid>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 2246 SOUTHSIDE BLVD, Melba   83641</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JOHNSON RYAN D | 173,070</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0213</guid>
+      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0652</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13921 SHAW MOUNTAIN ST, Nampa   83651</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13370 BREEZEVIEW LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 385,306</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0216</guid>
+      <description>SINGLE_FAMILY | HIGHLAND HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0651</guid>
     </item>
     <item>
-      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 7490 E MIDBERRY CT, Nampa   83687</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ZZ CONSTRUCTION | 260,532</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0225</guid>
+      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23881 LEGENDS LN, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WELBURN KENNETH | 471,195</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0239</guid>
+      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1115 E DUNCAN CREEK ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0236</guid>
+      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5329 S BIG JACKS CREEK AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 357,436</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0235</guid>
+      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 4883 HEMLOCK WAY, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STACY CONSTRUCTION INC | 273,270</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0241</guid>
+      <title>[15] Meridian: New single family home — 3128 E RENWICK ST</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 312,389</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ 2 ATTACHED GARAGES — 12112 RANCHVIEW DR, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | EELLS CONSTRUCTION, INC. | 372,099</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0247</guid>
+      <title>[15] Meridian: New single family dwelling — 2984 E MARDIA ST</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 337,690</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 8839 OVERUNDER LN, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JONES HOMES | 398,868</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0246</guid>
+      <title>[15] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 242,703</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW PRIMARY SFR W/ ATTACHED GARAGE — 12711 DRAFT ST, Middleton   83644</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24857 BOWMORE CT, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 246,437</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0243</guid>
+      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0637</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1015 E CRAB SPRINGS ST, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 LON DAVIS RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 247,544</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0252</guid>
+      <description>SINGLE_FAMILY | BUILDING IDAHO CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0636</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1027 E CRAB SPRINGS ST, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7024 E CHICKEN HAWK LOOP, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0251</guid>
+      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0635</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1003 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0250</guid>
+      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New single family dwelling — 4726 N WOOLEY CREEK AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 338,733</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Caldwell   83607</title>
+HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 LON DAVIS RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ARRIAGA PABLO | 322,524</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0249</guid>
+      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0631</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 25783 DEEP CANYON DR, Star   836690000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CASCADE HOME DESIGN LLC | 429,801</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0248</guid>
+      <title>[15] Meridian: new single family home — 881 W MALBAR ST</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 331,366</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7621 E MIDBERRY CT, Nampa   83687</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 WHETSTONE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 293,224</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0258</guid>
+      <description>SINGLE_FAMILY | MECK HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13290 BREEZEVIEW LN, Caldwell   83607</title>
+      <title>[15] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 267,935</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 247,853</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN04010010 Galloway B — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 268,567</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN09009024 Freeman B — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 261,753</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 219,342</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
+    </item>
+    <item>
+      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | GREENCASTLE HOMES | 381,650</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0255</guid>
+      <description>SINGLE_FAMILY | MVMNT HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 5881 N STATIC LINE AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MC DERMOTT RD, Kuna   836340000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ABSTRACT RESIDENTIAL DESIGN + BUILD | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0620</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR — 0 FOOTHILL RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRUCH MARTIN | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0617</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 336,182</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0728</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 210,609</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0699</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 230,758</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0698</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 234,788</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0697</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 161,618</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0686</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Final SWDH received at intake &#13;
+***DON’T ISSUE UNTIL CP2026-0058 APPROVED*** — 0 STUBB LN, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | POWERS CONSTRUCTION SOLUTIONS | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0616</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 27142 IRON HORSE DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0613</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 316,871</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0719</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN09007051 Meadow Creek A — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 280,338</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0665</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 253,637</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0597</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
+HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0606</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: new single family home — 1241 W MALBAR ST</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 307,932</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0722</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential/PN08008014 Diamond A (Roberts-McFarland) — 2929 W. Navigator Dr. St 400</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 202,933</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0661</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR (ALREADY BUILT) — 0 BOISE RIVER RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | AJB CONTRACTORS LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0604</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14731 HILLSIDE DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CHAMBERLAIN CORBIN | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0603</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0372</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0371</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 206,297</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0370</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 183,579</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0369</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0368</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0367</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0365</guid>
+    </item>
+    <item>
+      <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
+&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
+ ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
+    </item>
+    <item>
+      <title>[25] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 8,183,943</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-PATIO-2026-0095</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 293,273</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0710</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 224,414</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0703</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 247,780</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0702</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: NEW 2044 SQ FT SINGLE FAMILY DWELLING WITH 516 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0654</guid>
+    </item>
+    <item>
+      <title>[15] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
+      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 216,568</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0641</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5404 S FOUNTAIN HILLS CT, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CATON RIAN | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0596</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13660 HICKORY RANCH DR, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 404,677</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0594</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7550 E MIDBERRY CT, Nampa   836870000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 304,812</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0586</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12725 FRED LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SANTACRUZ ERIC | 214,604</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0581</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 15334 RHODES CT, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STONE SUMMIT HOMES LLC | 327,338</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0578</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 27522 SABIN RD, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CANNON FARMHOUSE | 264,368</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0571</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6786 YETI LN, Melba   836410000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SPENCE SYLVAN | 501,508</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0565</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15327 JUNIPERWOOD DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 349,614</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0563</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24771 LAVIER AVE, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 340,782</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0562</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7871 STRIKE GOLD LN, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | INMAN DARIN R | 257,114</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0559</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15268 JUNIPERWOOD DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 291,575</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0558</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23869 TIMBER HILLS RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WILLOW CREEK HOMES | 366,039</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0557</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 18622 TRANQUIL PL, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 334,717</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0555</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary allowed on this parcel — 16683 MARSHALL LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | LJ EELLS CONSTRUCTION LLC | 178,711</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0554</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3133 MORNING STAR LN, Melba   836410000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 199,704</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0548</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6952 E CHICKEN HAWK LOOP, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 353,722</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0542</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9873 S PEREGRINE FALCON AVE, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 258,612</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0541</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9341 BASIN KID CT, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PINEVIEW DEVELOPMENT LLC | 227,864</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0540</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13949 WATERFRONT LN, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | LARRY RICHARDSON CONSTRUCTION | 398,953</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0539</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 9676 SCISM RD, Nampa</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 288,152</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0538</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 26598 STEPHEN LN, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 273,904</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0532</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8913 DOUBLE SHOT HOLLOW LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MAYBON HOMES LLC | 401,708</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0521</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17837 FARGO RD, Wilder   83676</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | HF CUSTOM HOMES LLC | 210,942</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0515</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel — 18364 BOW LN, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SIMPLICITY HOMES LLC | 194,015</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0507</guid>
+    </item>
+    <item>
+      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
+DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | CONSOR | 300,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND CELLAR&#13;
+**DO NOT ISSUE UNTIL PBA APP HAS BEEN RECEIVED AND APPROVED (Need recorded decision + new recorded deeds)** — 0 EAGLE DR, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | KATAN ENTERPRISES | 258,692</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0504</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17222 TRIPLE CROWN PL, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 291,700</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0495</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 21115 VAN SLYKE RD, Wilder   83676</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CONRO KATHERINE | 254,788</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0493</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27250 LON DAVIS RD, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | FRITTS CONSTRUCTION LLC | 202,816</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0491</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7057 OWYHEE VIEW LN, Melba   83641</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PARRY CONSTRUCTION | 243,891</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0484</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND BASEMENT &#13;
+***ATTENTION TECHS: make sure the Final SWDH received is for SWDH permit #03158. The 2019 final as-built is not correct.*** — 11267 WEST RIO RD, Caldwell   83605</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ARTERRA CUSTOM HOMES LLC | 280,270</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0483</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 12021 TORCHLIGHT WAY, Middleton   83644</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 276,904</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0479</guid>
+    </item>
+    <item>
+      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9302 LEGACY RIDGE LN, Middleton   83644</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 376,330</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0468</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 25412 BUR OAK PL, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PARAGON HOMES LLC | 285,327</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0467</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+7/28/26 The following condition has been added: Prior to C of O: The invoice for Keller's engineering review must be paid to CCDSD. LO — 8134 QUAIL HOLLOW DR, Middleton   83644</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 392,698</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0465</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SECONDARY RESIDENCE W/ ATTACHED GARAGE  Address: 4903 High Hope Ln — 4923 HIGH HOPE LN, Nampa   83686</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | LEXAR HOMES | 265,573</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0459</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Fire exempt 5 acres — 25600 EMBER RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TIMBER STONE CUSTOM HOMES | 144,754</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0457</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + BASEMENT — 26529 LOTHBROOK LN, Wilder   83676</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WESOLOWSKI JEFF | 303,574</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0454</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16281 DRAKES LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BLACKWOOD PROPERTIES LLC. | 463,831</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0453</guid>
+    </item>
+    <item>
+      <title>[15] Boise: 4537 N ACCIPITER WAY — 4537 N ACCIPITER WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00522</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00522</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13417 NORTH FORK LN, Nampa   83686</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALLEGIANT CONSTRUCTION CONCEPTS | 877,088</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0444</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14027 MALLARD COVE LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | JESSUP BRIANNA | 418,749</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0447</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33572 PROSPECT LN, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | HIBBARD CONSTRUCTION INC | 303,301</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0446</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24888 BARBARA LN, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TERRABUILT CONSTRUCTION LLC | 284,451</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0445</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 153 DESERT BLUFF LN, Melba   83641</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | DENNEY ROBERT | 283,981</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0442</guid>
+    </item>
+    <item>
+      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12748 DRAFT ST, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STETSON HOMES | 345,455</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0430</guid>
+    </item>
+    <item>
+      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 12687 DRAFT ST, Middleton   83644</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 356,795</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0426</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + SECOND GARAGE ATTACHED BY BREEZEWAY — 13902 SHAFER BUTTE WAY, Nampa   83651</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 362,707</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0424</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel  Final SWDH met in office 07/13/26 LH — 18355 BOW LN, Wilder   83676</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RKL HOMES | 228,267</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0422</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR ONLY — 26840 EDENBROOK LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BAKER BENJAMIN | 405,547</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0416</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27993 CEMETERY RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | URRUTIA SAVANNA | 260,112</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0414</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR — 4508 RIM RD, Nampa</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 143,553</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0410</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25436 BUR OAK PL, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | THUNDER MOUNTAIN HOMES | 381,241</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0407</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13613 CABERNET LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SWAGGART BUILDERS LLC | 397,502</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0397</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 11244 LAKE SHORE DR, Nampa   83686</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WES MILLER CONSTRUCTION LLC | 301,475</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0393</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 9230 W USTICK RD — 9230 W USTICK RD</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 17186 TRIPLE CROWN PL, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 332,666</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0379</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24821 HAFLINGER WAY, Middleton   83644</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 346,573</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0378</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE - Final Fire District met at intake — 26909 HIDDEN HAVEN LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WHITE ANDREW BRAIDEN | 274,738</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0375</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 13305 PROMINENCE RIDGE LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 440,923</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0370</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13454 MANZANITA LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 263,605</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0357</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27744 GRAY SAGE RD, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TRINITY DEVELOPMENT GROUP LLC | 229,915</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0351</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13644 CENTERLAND DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 316,618</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0350</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 22203 AURA VISTA WAY, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STEVE DUGGER CONSTRUCTION | 287,640</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0349</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28623 HURTZ LN, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 207,321</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0344</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24961 ARDMORE CT, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STONE PRECISION CONTRACTORS INC | 403,370</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0343</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 9234 S HAPPY VALLEY RD, Nampa</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PRO C CONSTRUCTION | 391,952</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0341</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+Reminder to ADMIN: There will be 2 separate invoices from Keller for eng fees on this permit. Please add all of the fees + send the CCDSD invoice once both Keller invoices have been received. 7/29/26 LO — 8158 QUAIL HOLLOW DR, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | OAKMONT HOMES | 484,656</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0339</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17406 OAK RIVER LN, Caldwell   836050000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ANDERSON JUSTIN A | 247,411</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0330</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23686 LEGENDS LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRADSHAW WEST CONSTRUCTION | 846,775</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0324</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1029 E DUNCAN CREEK ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 237,297</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0323</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1017 E DUNCAN CREEK ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 245,687</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0322</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1010 N 63RD ST, Nampa   836870000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | KINDE HOMES LLC | 348,377</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0315</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1103 E DUNCAN CREEK ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 220,839</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0298</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5408 S EDGECOMB WAY, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0297</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5330 S EDGECOMB WAY, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0296</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5420 S EDGECOMB WAY, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 300,883</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0295</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16890 MEADOW LN, Nampa</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | IRONWOOD HOMES | 297,881</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0293</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1004 E CRAB SPRINGS ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 240,214</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0289</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1016 E CRAB SPRINGS ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 346,957</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0287</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1028 E CRAB SPRINGS ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 300,883</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0286</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8304 HOLIDAY LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PIIRTO BEAU | 743,381</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0280</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9913 S PEREGRINE FALCON AVE, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ELEVATED CUSTOM HOMES LLC | 271,563</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0279</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7144 E CHICKEN HAWK LOOP, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ELEVATED CUSTOM HOMES LLC | 243,757</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0278</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + FINISHED BASEMENT — 14154 LEATHER RIDGE RD, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 308,347</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0274</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7889 QUAIL CREEK LN, Middleton   836440000</title>
@@ -291,932 +978,245 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0262</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + FINISHED BASEMENT — 14154 LEATHER RIDGE RD, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7621 E MIDBERRY CT, Nampa   83687</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 308,347</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0274</guid>
+      <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 293,224</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0258</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9913 S PEREGRINE FALCON AVE, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13290 BREEZEVIEW LN, Caldwell   83607</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ELEVATED CUSTOM HOMES LLC | 271,563</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0279</guid>
+      <description>SINGLE_FAMILY | GREENCASTLE HOMES | 381,650</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0255</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7144 E CHICKEN HAWK LOOP, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1015 E CRAB SPRINGS ST, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ELEVATED CUSTOM HOMES LLC | 243,757</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0278</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 247,544</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0252</guid>
     </item>
     <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8304 HOLIDAY LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PIIRTO BEAU | 743,381</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0280</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1004 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 240,214</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0289</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1016 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 346,957</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0287</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1028 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 300,883</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0286</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16890 MEADOW LN, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IRONWOOD HOMES | 297,881</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0293</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1103 E DUNCAN CREEK ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 220,839</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0298</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5408 S EDGECOMB WAY, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0297</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5330 S EDGECOMB WAY, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1027 E CRAB SPRINGS ST, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0296</guid>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0251</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5420 S EDGECOMB WAY, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1003 E CRAB SPRINGS ST, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 300,883</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0295</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1010 N 63RD ST, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | KINDE HOMES LLC | 348,377</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0315</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1029 E DUNCAN CREEK ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 237,297</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0323</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1017 E DUNCAN CREEK ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 245,687</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0322</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23686 LEGENDS LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BRADSHAW WEST CONSTRUCTION | 846,775</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0324</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17406 OAK RIVER LN, Caldwell   836050000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ANDERSON JUSTIN A | 247,411</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0330</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28623 HURTZ LN, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 207,321</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0344</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24961 ARDMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STONE PRECISION CONTRACTORS INC | 403,370</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0343</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 9234 S HAPPY VALLEY RD, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PRO C CONSTRUCTION | 391,952</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0341</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0250</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-Reminder to ADMIN: There will be 2 separate invoices from Keller for eng fees on this permit. Please add all of the fees + send the CCDSD invoice once both Keller invoices have been received. 7/29/26 LO — 8158 QUAIL HOLLOW DR, Middleton   836440000</title>
+DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Caldwell   83607</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | OAKMONT HOMES | 484,656</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0339</guid>
+      <description>SINGLE_FAMILY | ARRIAGA PABLO | 322,524</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0249</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27744 GRAY SAGE RD, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 25783 DEEP CANYON DR, Star   836690000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TRINITY DEVELOPMENT GROUP LLC | 229,915</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0351</guid>
+      <description>SINGLE_FAMILY | CASCADE HOME DESIGN LLC | 429,801</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0248</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13644 CENTERLAND DR, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ 2 ATTACHED GARAGES — 12112 RANCHVIEW DR, Nampa   83686</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 316,618</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0350</guid>
+      <description>SINGLE_FAMILY | EELLS CONSTRUCTION, INC. | 372,099</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0247</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 22203 AURA VISTA WAY, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 8839 OVERUNDER LN, Middleton   83644</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STEVE DUGGER CONSTRUCTION | 287,640</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0349</guid>
+      <description>SINGLE_FAMILY | JONES HOMES | 398,868</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0246</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13454 MANZANITA LN, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW PRIMARY SFR W/ ATTACHED GARAGE — 12711 DRAFT ST, Middleton   83644</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 263,605</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0357</guid>
+      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 246,437</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0243</guid>
     </item>
     <item>
-      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 13305 PROMINENCE RIDGE LN, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 4883 HEMLOCK WAY, Nampa</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 440,923</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0370</guid>
+      <description>SINGLE_FAMILY | STACY CONSTRUCTION INC | 273,270</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0241</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE - Final Fire District met at intake — 26909 HIDDEN HAVEN LN, Middleton   836440000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23881 LEGENDS LN, Caldwell   83607</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WHITE ANDREW BRAIDEN | 274,738</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0375</guid>
+      <description>SINGLE_FAMILY | WELBURN KENNETH | 471,195</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0239</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 17186 TRIPLE CROWN PL, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1115 E DUNCAN CREEK ST, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 332,666</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0379</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0236</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24821 HAFLINGER WAY, Middleton   83644</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5329 S BIG JACKS CREEK AVE, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 346,573</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0378</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 357,436</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0235</guid>
     </item>
     <item>
-      <title>[40] Boise: 9230 W USTICK RD — 9230 W USTICK RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 11244 LAKE SHORE DR, Nampa   83686</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 7490 E MIDBERRY CT, Nampa   83687</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WES MILLER CONSTRUCTION LLC | 301,475</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0393</guid>
+      <description>SINGLE_FAMILY | ZZ CONSTRUCTION | 260,532</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0225</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13613 CABERNET LN, Caldwell   83607</title>
+      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SWAGGART BUILDERS LLC | 397,502</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0397</guid>
+      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25436 BUR OAK PL, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13921 SHAW MOUNTAIN ST, Nampa   83651</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | THUNDER MOUNTAIN HOMES | 381,241</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0407</guid>
+      <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 385,306</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0216</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR ONLY — 26840 EDENBROOK LN, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 2246 SOUTHSIDE BLVD, Melba   83641</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BAKER BENJAMIN | 405,547</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0416</guid>
+      <description>SINGLE_FAMILY | JOHNSON RYAN D | 173,070</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0213</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27993 CEMETERY RD, Middleton   836440000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3170 TRAPPER RIDGE LN, Melba   83641</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | URRUTIA SAVANNA | 260,112</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0414</guid>
+      <description>SINGLE_FAMILY | MERRILL LOREN | 336,589</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0209</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR — 4508 RIM RD, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 143,553</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0410</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + SECOND GARAGE ATTACHED BY BREEZEWAY — 13902 SHAFER BUTTE WAY, Nampa   83651</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 362,707</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0424</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel  Final SWDH met in office 07/13/26 LH — 18355 BOW LN, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RKL HOMES | 228,267</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0422</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 12687 DRAFT ST, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 356,795</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0426</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12748 DRAFT ST, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STETSON HOMES | 345,455</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0430</guid>
-    </item>
-    <item>
-      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14027 MALLARD COVE LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JESSUP BRIANNA | 418,749</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0447</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33572 PROSPECT LN, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIBBARD CONSTRUCTION INC | 303,301</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0446</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24888 BARBARA LN, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TERRABUILT CONSTRUCTION LLC | 284,451</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0445</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 153 DESERT BLUFF LN, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DENNEY ROBERT | 283,981</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0442</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13417 NORTH FORK LN, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLEGIANT CONSTRUCTION CONCEPTS | 877,088</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0444</guid>
-    </item>
-    <item>
-      <title>[15] Boise: 4537 N ACCIPITER WAY — 4537 N ACCIPITER WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00522</link>
+      <title>[15] Boise: 3749 W Pinehurst DR — 3749 W PINEHURST DR, BLDG#</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00216</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00522</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00216</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + BASEMENT — 26529 LOTHBROOK LN, Wilder   83676</title>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE  Revision picked up 7/21/26 LH — 9833 S PEREGRINE FALCON AVE, Nampa   83686</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WESOLOWSKI JEFF | 303,574</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0454</guid>
+      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 334,773</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0193</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16281 DRAKES LN, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1002 N 63RD ST, Nampa   83687</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLACKWOOD PROPERTIES LLC. | 463,831</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0453</guid>
+      <description>SINGLE_FAMILY | HASANOVIC TEA | 351,917</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0192</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SECONDARY RESIDENCE W/ ATTACHED GARAGE  Address: 4903 High Hope Ln — 4923 HIGH HOPE LN, Nampa   83686</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13433 LAKE SHORE DR, Nampa</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LEXAR HOMES | 265,573</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0459</guid>
+      <description>SINGLE_FAMILY | COBLE MICHAEL | 292,290</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0191</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Fire exempt 5 acres — 25600 EMBER RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TIMBER STONE CUSTOM HOMES | 144,754</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0457</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9302 LEGACY RIDGE LN, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 376,330</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0468</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 25412 BUR OAK PL, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PARAGON HOMES LLC | 285,327</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0467</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-7/28/26 The following condition has been added: Prior to C of O: The invoice for Keller's engineering review must be paid to CCDSD. LO — 8134 QUAIL HOLLOW DR, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 392,698</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0465</guid>
-    </item>
-    <item>
-      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
+      <title>[40] Boise: 6918 W PETRIE ST — 6918 W PETRIE ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00115</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00115</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 12021 TORCHLIGHT WAY, Middleton   83644</title>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 23698 BOEHNER RD, Wilder   83676</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 276,904</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0479</guid>
+      <description>SINGLE_FAMILY | SCHROEDER ENTERPRISES INC | 502,915</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0166</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7057 OWYHEE VIEW LN, Melba   83641</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28924 HARVEY RD, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PARRY CONSTRUCTION | 243,891</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0484</guid>
+      <description>SINGLE_FAMILY | PLEASANT VIEW CONSTRUCTION LLC | 295,210</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0171</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND BASEMENT &#13;
-***ATTENTION TECHS: make sure the Final SWDH received is for SWDH permit #03158. The 2019 final as-built is not correct.*** — 11267 WEST RIO RD, Caldwell   83605</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5317 S BIG JACKS CREEK AVE, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ARTERRA CUSTOM HOMES LLC | 280,270</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0483</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0164</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17222 TRIPLE CROWN PL, Caldwell   83607</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5305 S BIG JACKS CREEK AVE, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 291,700</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0495</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 268,228</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0162</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 21115 VAN SLYKE RD, Wilder   83676</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5224 S BIG JACKS CREEK AVE, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CONRO KATHERINE | 254,788</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0493</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 346,957</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0161</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27250 LON DAVIS RD, Parma   83660</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5326 S BIG JACKS CREEK AVE, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | FRITTS CONSTRUCTION LLC | 202,816</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0491</guid>
+      <description>SINGLE_FAMILY | CBH HOMES | 247,544</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0159</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND CELLAR&#13;
-**DO NOT ISSUE UNTIL PBA APP HAS BEEN RECEIVED AND APPROVED (Need recorded decision + new recorded deeds)** — 0 EAGLE DR, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | KATAN ENTERPRISES | 258,692</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0504</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
-DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | CONSOR | 300,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel — 18364 BOW LN, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SIMPLICITY HOMES LLC | 194,015</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0507</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
+      <title>[40] Boise: 5309 W DENTON ST — 5309 W DENTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00014</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00014</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17837 FARGO RD, Wilder   83676</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 7006 E CHICKEN HAWK LOOP, Nampa   83686</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HF CUSTOM HOMES LLC | 210,942</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0515</guid>
+      <description>SINGLE_FAMILY | HUNTER HOMES | 259,682</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0154</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8913 DOUBLE SHOT HOLLOW LN, Middleton   836440000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 4416 SCHOBER DR, Nampa   83686</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MAYBON HOMES LLC | 401,708</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0521</guid>
+      <description>SINGLE_FAMILY | MUSSELL CONSTRUCTION | 184,549</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0153</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 26598 STEPHEN LN, Parma   836600000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9327 LEGACY RIDGE LN, Middleton   83644</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 273,904</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0532</guid>
+      <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 209,243</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0151</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13949 WATERFRONT LN, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3127 MORNING STAR LN, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LARRY RICHARDSON CONSTRUCTION | 398,953</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0539</guid>
+      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 312,174</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0149</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 9676 SCISM RD, Nampa</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3120 MORNING STAR LN, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 288,152</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0538</guid>
+      <description>SINGLE_FAMILY | DUHRKOOP LEXI | 384,862</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0148</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3133 MORNING STAR LN, Melba   836410000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7810 MINAM DR, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 199,704</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0548</guid>
+      <description>SINGLE_FAMILY | MCLAUGHLIN JAMES P | 354,113</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0146</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6952 E CHICKEN HAWK LOOP, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 24873 FARM DALE AVE, Caldwell   83607</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 353,722</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0542</guid>
+      <description>SINGLE_FAMILY | BLACKSTONE HOMES | 329,044</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0142</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9873 S PEREGRINE FALCON AVE, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Final Fire met in office 8/17/26  NPO — 7715 E WINDMILL RANCH LN, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 258,612</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0541</guid>
+      <description>SINGLE_FAMILY | DENT CODY | 431,237</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0140</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9341 BASIN KID CT, Middleton   836440000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7616 E MIDBERRY CT, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PINEVIEW DEVELOPMENT LLC | 227,864</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0540</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7871 STRIKE GOLD LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | INMAN DARIN R | 257,114</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0559</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15268 JUNIPERWOOD DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 291,575</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0558</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23869 TIMBER HILLS RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WILLOW CREEK HOMES | 366,039</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0557</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 18622 TRANQUIL PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 334,717</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0555</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary allowed on this parcel — 16683 MARSHALL LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LJ EELLS CONSTRUCTION LLC | 178,711</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0554</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15327 JUNIPERWOOD DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 349,614</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0563</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24771 LAVIER AVE, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 340,782</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0562</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6786 YETI LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SPENCE SYLVAN | 501,508</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0565</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 27522 SABIN RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CANNON FARMHOUSE | 264,368</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0571</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 15334 RHODES CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STONE SUMMIT HOMES LLC | 327,338</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0578</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12725 FRED LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SANTACRUZ ERIC | 214,604</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0581</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7550 E MIDBERRY CT, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 304,812</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0586</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13660 HICKORY RANCH DR, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 404,677</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0594</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5404 S FOUNTAIN HILLS CT, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CATON RIAN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0596</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 216,568</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0641</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 2044 SQ FT SINGLE FAMILY DWELLING WITH 516 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0654</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 247,780</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0702</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 224,414</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0703</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 293,273</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0710</guid>
-    </item>
-    <item>
-      <title>[25] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 8,183,943</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-PATIO-2026-0095</guid>
-    </item>
-    <item>
-      <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
-&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
- ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0365</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0367</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0368</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 183,579</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0369</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 206,297</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0370</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 205,433</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0371</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 185,816</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0372</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR (ALREADY BUILT) — 0 BOISE RIVER RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | AJB CONTRACTORS LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0604</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14731 HILLSIDE DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CHAMBERLAIN CORBIN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0603</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN08008014 Diamond A (Roberts-McFarland) — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 202,933</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0661</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: new single family home — 1241 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 307,932</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0722</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
-HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0606</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of — 6353 Supply Way</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 253,637</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0597</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN09007051 Meadow Creek A — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 280,338</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0665</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 316,871</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0719</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Final SWDH received at intake &#13;
-***DON’T ISSUE UNTIL CP2026-0058 APPROVED*** — 0 STUBB LN, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | POWERS CONSTRUCTION SOLUTIONS | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0616</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 27142 IRON HORSE DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0613</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0686</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 234,788</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0697</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 230,758</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0698</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 210,609</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0699</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,182</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0728</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MC DERMOTT RD, Kuna   836340000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ABSTRACT RESIDENTIAL DESIGN + BUILD | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0620</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR — 0 FOOTHILL RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BRUCH MARTIN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0617</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 5881 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MVMNT HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
-    </item>
-    <item>
-      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
-      <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,342</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN09009024 Freeman B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 261,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN04010010 Galloway B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 268,567</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 247,853</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 267,935</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 WHETSTONE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MECK HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: new single family home — 881 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 331,366</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0631</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family dwelling — 4726 N WOOLEY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 338,733</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24857 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0637</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BUILDING IDAHO CONSTRUCTION | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0636</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7024 E CHICKEN HAWK LOOP, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0635</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 242,703</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family dwelling — 2984 E MARDIA ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 337,690</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family home — 3128 E RENWICK ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 312,389</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00750</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0652</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13370 BREEZEVIEW LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIGHLAND HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0651</guid>
-    </item>
-    <item>
-      <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 795,000</description>
-      <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266835</guid>
+      <description>SINGLE_FAMILY | BACHMAN CUSTOM HOMES | 275,850</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0135</guid>
     </item>
   </channel>
 </rss>

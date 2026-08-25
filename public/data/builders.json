@@ -3,7 +3,7 @@
     "contractor": "CBH HOMES",
     "count": 25,
     "score_total": 500,
-    "valuation_total": 6984711.479999999
+    "valuation_total": 6984711.4799999995
   },
   {
     "contractor": "PATHWAY BUILDERS",
@@ -90,16 +90,16 @@
     "valuation_total": 785612.52
   },
   {
-    "contractor": "PINEVIEW DEVELOPMENT LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 466331.4
-  },
-  {
     "contractor": "ASA CONSTRUCTION",
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
+  },
+  {
+    "contractor": "PINEVIEW DEVELOPMENT LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 466331.4
   },
   {
     "contractor": "BIG COUNTRY FENCING",
@@ -162,16 +162,16 @@
     "valuation_total": 490083.12
   },
   {
-    "contractor": "HOMEOWNER",
-    "count": 1,
-    "score_total": 40,
-    "valuation_total": 450000.0
-  },
-  {
     "contractor": "THE ARCHITECTS OFFICE PLLC",
     "count": 1,
     "score_total": 40,
     "valuation_total": 650000.0
+  },
+  {
+    "contractor": "HOMEOWNER",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 450000.0
   },
   {
     "contractor": "CONSOR",
@@ -264,13 +264,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "BUILDING IDAHO CONSTRUCTION",
+    "contractor": "VALLE DEVELOPMENT LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
   },
   {
-    "contractor": "VALLE DEVELOPMENT LLC",
+    "contractor": "BUILDING IDAHO CONSTRUCTION",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -288,19 +288,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "BRUCH MARTIN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "ABSTRACT RESIDENTIAL DESIGN + BUILD",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
   },
   {
-    "contractor": "WAITE HOMES LLC",
+    "contractor": "BRUCH MARTIN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -312,13 +306,19 @@
     "valuation_total": 0
   },
   {
-    "contractor": "CHAMBERLAIN CORBIN",
+    "contractor": "WAITE HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
   },
   {
     "contractor": "AJB CONTRACTORS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "CHAMBERLAIN CORBIN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -360,16 +360,16 @@
     "valuation_total": 264368.04
   },
   {
-    "contractor": "LJ EELLS CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 178710.8
-  },
-  {
     "contractor": "INMAN DARIN R",
     "count": 1,
     "score_total": 20,
     "valuation_total": 257114.16
+  },
+  {
+    "contractor": "LJ EELLS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 178710.8
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -396,22 +396,16 @@
     "valuation_total": 258692.4
   },
   {
-    "contractor": "FRITTS CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 202815.96
-  },
-  {
     "contractor": "CONRO KATHERINE",
     "count": 1,
     "score_total": 20,
     "valuation_total": 254787.84
   },
   {
-    "contractor": "ARTERRA CUSTOM HOMES LLC",
+    "contractor": "FRITTS CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 280270.32
+    "valuation_total": 202815.96
   },
   {
     "contractor": "PARRY CONSTRUCTION",
@@ -420,10 +414,10 @@
     "valuation_total": 243891.36
   },
   {
-    "contractor": "STORY BUILDERS LLC",
+    "contractor": "ARTERRA CUSTOM HOMES LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 392697.84
+    "valuation_total": 280270.32
   },
   {
     "contractor": "PARAGON HOMES LLC",
@@ -432,10 +426,10 @@
     "valuation_total": 285327.48
   },
   {
-    "contractor": "TIMBER STONE CUSTOM HOMES",
+    "contractor": "STORY BUILDERS LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 144753.6
+    "valuation_total": 392697.84
   },
   {
     "contractor": "LEXAR HOMES",
@@ -444,10 +438,10 @@
     "valuation_total": 265573.32
   },
   {
-    "contractor": "BLACKWOOD PROPERTIES LLC.",
+    "contractor": "TIMBER STONE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 463831.08
+    "valuation_total": 144753.6
   },
   {
     "contractor": "WESOLOWSKI JEFF",
@@ -456,10 +450,16 @@
     "valuation_total": 303574.32
   },
   {
-    "contractor": "DENNEY ROBERT",
+    "contractor": "BLACKWOOD PROPERTIES LLC.",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 283981.08
+    "valuation_total": 463831.08
+  },
+  {
+    "contractor": "JESSUP BRIANNA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 418748.88
   },
   {
     "contractor": "TERRABUILT CONSTRUCTION LLC",
@@ -468,10 +468,10 @@
     "valuation_total": 284451.12
   },
   {
-    "contractor": "JESSUP BRIANNA",
+    "contractor": "DENNEY ROBERT",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 418748.88
+    "valuation_total": 283981.08
   },
   {
     "contractor": "STETSON HOMES",
@@ -486,10 +486,10 @@
     "valuation_total": 228266.88
   },
   {
-    "contractor": "HIRTLIN CONSTRUCTION LLC",
+    "contractor": "BAKER BENJAMIN",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 143553.12
+    "valuation_total": 405546.84
   },
   {
     "contractor": "URRUTIA SAVANNA",
@@ -498,10 +498,10 @@
     "valuation_total": 260112.0
   },
   {
-    "contractor": "BAKER BENJAMIN",
+    "contractor": "HIRTLIN CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 405546.84
+    "valuation_total": 143553.12
   },
   {
     "contractor": "THUNDER MOUNTAIN HOMES",
@@ -534,10 +534,10 @@
     "valuation_total": 263605.2
   },
   {
-    "contractor": "STEVE DUGGER CONSTRUCTION",
+    "contractor": "TRINITY DEVELOPMENT GROUP LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 287639.88
+    "valuation_total": 229915.4
   },
   {
     "contractor": "MENDIOLA CUSTOM HOMES INC",
@@ -546,22 +546,22 @@
     "valuation_total": 316617.84
   },
   {
-    "contractor": "TRINITY DEVELOPMENT GROUP LLC",
+    "contractor": "STEVE DUGGER CONSTRUCTION",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 229915.4
-  },
-  {
-    "contractor": "OAKMONT HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 484656.24
+    "valuation_total": 287639.88
   },
   {
     "contractor": "PRO C CONSTRUCTION",
     "count": 1,
     "score_total": 20,
     "valuation_total": 391951.92
+  },
+  {
+    "contractor": "OAKMONT HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 484656.24
   },
   {
     "contractor": "ANDERSON JUSTIN A",
@@ -594,28 +594,28 @@
     "valuation_total": 381650.4
   },
   {
-    "contractor": "CASCADE HOME DESIGN LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 429800.76
-  },
-  {
     "contractor": "ARRIAGA PABLO",
     "count": 1,
     "score_total": 20,
     "valuation_total": 322523.64
   },
   {
-    "contractor": "JONES HOMES",
+    "contractor": "CASCADE HOME DESIGN LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 398868.48
+    "valuation_total": 429800.76
   },
   {
     "contractor": "EELLS CONSTRUCTION, INC.",
     "count": 1,
     "score_total": 20,
     "valuation_total": 372099.12
+  },
+  {
+    "contractor": "JONES HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 398868.48
   },
   {
     "contractor": "STACY CONSTRUCTION INC",
@@ -654,16 +654,16 @@
     "valuation_total": 336589.2
   },
   {
-    "contractor": "COBLE MICHAEL",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 292289.52
-  },
-  {
     "contractor": "HASANOVIC TEA",
     "count": 1,
     "score_total": 20,
     "valuation_total": 351916.56
+  },
+  {
+    "contractor": "COBLE MICHAEL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 292289.52
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -672,16 +672,16 @@
     "valuation_total": 295209.84
   },
   {
-    "contractor": "MUSSELL CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 184549.08
-  },
-  {
     "contractor": "HUNTER HOMES",
     "count": 1,
     "score_total": 20,
     "valuation_total": 259682.4
+  },
+  {
+    "contractor": "MUSSELL CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 184549.08
   },
   {
     "contractor": "DUHRKOOP LEXI",
@@ -708,16 +708,16 @@
     "valuation_total": 444574.8
   },
   {
-    "contractor": "IDEAL CUSTOM HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 147749.88
-  },
-  {
     "contractor": "SEID TREVOR",
     "count": 1,
     "score_total": 20,
     "valuation_total": 303658.44
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 147749.88
   },
   {
     "contractor": "DAWSON CONSTRUCTION SERVICES LLC",
@@ -744,28 +744,28 @@
     "valuation_total": 279535.8
   },
   {
-    "contractor": "WALTON DAVID",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 269397.0
-  },
-  {
     "contractor": "TRADITION CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
     "valuation_total": 478490.04
   },
   {
-    "contractor": "BRADSHAW CUSTOM HOMES",
+    "contractor": "WALTON DAVID",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 250534.08
+    "valuation_total": 269397.0
   },
   {
     "contractor": "TRADITION CUSTOM HOMES INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 309585.0
+  },
+  {
+    "contractor": "BRADSHAW CUSTOM HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 250534.08
   },
   {
     "contractor": "208 DESIGN+BUILD LLC",
@@ -780,16 +780,16 @@
     "valuation_total": 396415.8
   },
   {
-    "contractor": "SUMMIT VIEW CONSTRUCTION & RESTORATION, INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 373625.04
-  },
-  {
     "contractor": "IDAHO DRAINAGE SOLUTIONS LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 392716.8
+  },
+  {
+    "contractor": "SUMMIT VIEW CONSTRUCTION & RESTORATION, INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 373625.04
   },
   {
     "contractor": "LEE CUSTOM HOMES, INC",
@@ -798,16 +798,16 @@
     "valuation_total": 233789.4
   },
   {
-    "contractor": "EDGINTON TAYLOR",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 330079.2
-  },
-  {
     "contractor": "ODWYER SIGNATURE HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 414455.4
+  },
+  {
+    "contractor": "EDGINTON TAYLOR",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 330079.2
   },
   {
     "contractor": "KINGSTUD CONSTRUCTION",
@@ -900,16 +900,16 @@
     "valuation_total": 280517.16
   },
   {
-    "contractor": "RUDKIN TYLER",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 314301.12
-  },
-  {
     "contractor": "STEPHENS TYLER",
     "count": 1,
     "score_total": 20,
     "valuation_total": 230126.4
+  },
+  {
+    "contractor": "RUDKIN TYLER",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 314301.12
   },
   {
     "contractor": "UNLIMITED SOLUTIONS DEVELOPMENT GROUP",

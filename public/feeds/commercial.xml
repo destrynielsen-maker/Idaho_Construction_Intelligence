@@ -6,45 +6,12 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 23:59:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:55:27 +0000</lastBuildDate>
     <item>
-      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
-This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
-    </item>
-    <item>
-      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY&#13;
-Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | ASC INC | 2,000,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
-    </item>
-    <item>
-      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
+      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
-DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | CONSOR | 300,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
     </item>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
@@ -55,10 +22,43 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
     </item>
     <item>
-      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
+      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
+DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | CONSOR | 300,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
+    </item>
+    <item>
+      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
+    </item>
+    <item>
+      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
+    </item>
+    <item>
+      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY&#13;
+Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | ASC INC | 2,000,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
+    </item>
+    <item>
+      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
+This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
     </item>
   </channel>
 </rss>
