@@ -78,6 +78,12 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "VALLE DEVELOPMENT LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "ETHAN EELLS LLC",
     "count": 2,
     "score_total": 40,
@@ -142,6 +148,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 754500.36
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 386002.80000000005
   },
   {
     "contractor": "HARTWIG GARY",
@@ -264,12 +276,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "VALLE DEVELOPMENT LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "BUILDING IDAHO CONSTRUCTION",
     "count": 1,
     "score_total": 20,
@@ -309,7 +315,7 @@
     "contractor": "WAITE HOMES LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 310353.0
   },
   {
     "contractor": "AJB CONTRACTORS LLC",
@@ -510,12 +516,6 @@
     "valuation_total": 381240.72
   },
   {
-    "contractor": "SWAGGART BUILDERS LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 397501.68
-  },
-  {
     "contractor": "WES MILLER CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
@@ -712,12 +712,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 303658.44
-  },
-  {
-    "contractor": "IDEAL CUSTOM HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 147749.88
   },
   {
     "contractor": "DAWSON CONSTRUCTION SERVICES LLC",
@@ -1096,5 +1090,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "CR HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "CHRISTENSEN CHRISTOPHER",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 370284.36
   }
 ]

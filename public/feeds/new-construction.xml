@@ -6,7 +6,31 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 13:12:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 15:59:53 +0000</lastBuildDate>
+    <item>
+      <title>[15] Eagle: New Single Family Home — 6631 N. Good Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29623985</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:266876</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00515</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00515</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOWMORE CT, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CR HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
+    </item>
     <item>
       <title>[15] Eagle: New construction, two story, residential single family home. Covered patio square footage includes covered porch and covered patio. Deck square footage is for the balcony. — 3686 N Harvest Moon Way</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29621929</link>
@@ -129,7 +153,8 @@ HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 L
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 WHETSTONE LN, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+***See ZC for all my notes on the 60' easement in SE corner*** — 0 WHETSTONE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MECK HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
@@ -234,7 +259,7 @@ HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 L
     <item>
       <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 27142 IRON HORSE DR, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
+      <description>SINGLE_FAMILY | WAITE HOMES LLC | 310,353</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0613</guid>
     </item>
     <item>
@@ -331,7 +356,7 @@ HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
 &#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
- ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22670 CALLA LILY LN, Middleton   836440000</title>
+ ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 0 CALLA LILY LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
@@ -741,12 +766,6 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | THUNDER MOUNTAIN HOMES | 381,241</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0407</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13613 CABERNET LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SWAGGART BUILDERS LLC | 397,502</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0397</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 11244 LAKE SHORE DR, Nampa   83686</title>
@@ -1199,24 +1218,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ASA CONSTRUCTION | 312,174</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0149</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3120 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DUHRKOOP LEXI | 384,862</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0148</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7810 MINAM DR, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MCLAUGHLIN JAMES P | 354,113</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0146</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 24873 FARM DALE AVE, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLACKSTONE HOMES | 329,044</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0142</guid>
     </item>
   </channel>
 </rss>

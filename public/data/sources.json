@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T13:11:01+00:00",
+  "generated_at": "2026-08-25T15:58:22+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1030,
-      "qualifying_records": 31,
+      "records_seen": 1029,
+      "qualifying_records": 32,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
     },
@@ -13,15 +13,15 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 124,
-      "qualifying_records": 1,
+      "qualifying_records": 2,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 759,
-      "qualifying_records": 243,
+      "records_seen": 758,
+      "qualifying_records": 246,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
