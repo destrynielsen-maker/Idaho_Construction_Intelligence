@@ -1,0 +1,43 @@
+name: Boise public report probe
+
+on:
+  push:
+    branches: [fix-boise-public-issued-permits]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Probe Boise Accela reports
+        run: |
+          python - <<'PY'
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+
+          base='https://permits.cityofboise.org/CitizenAccess/'
+          s=requests.Session()
+          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
+          r=s.get(urljoin(base,'Default.aspx?TabName=Home'),timeout=60)
+          print('HOME',r.status_code,r.url,'LEN',len(r.text))
+          r.raise_for_status()
+          soup=BeautifulSoup(r.text,'html.parser')
+          for a in soup.find_all('a',href=True):
+              text=' '.join(a.get_text(' ',strip=True).split())
+              href=a['href']
+              low=(text+' '+href).lower()
+              if any(x in low for x in ['report','issued building','building permits issued','occupancy']):
+                  print('LINK',repr(text),urljoin(r.url,href))
+          for f in soup.find_all('form'):
+              print('FORM',f.get('id'),f.get('name'),f.get('method'),urljoin(r.url,f.get('action') or ''))
+          print('COOKIES',[(c.name,c.domain,c.path) for c in s.cookies])
+          PY
