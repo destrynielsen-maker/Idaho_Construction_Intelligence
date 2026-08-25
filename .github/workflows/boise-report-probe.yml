@@ -17,82 +17,55 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Probe Boise dynamic status filter
+      - name: Inspect Boise issued permit detail dates
         run: |
           python - <<'PY'
-          import requests
+          from urllib.parse import urljoin
+          import re, requests
           from bs4 import BeautifulSoup
 
           search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
-          s=requests.Session()
-          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
+          s=requests.Session(); s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
+          type_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
+          status_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
+          types=[('RES','Building/Building/402-404-New Res/NA'),('COM','Building/Building/502-New or Added Commercial/NA'),('MF','Building/Building/506-New Multi-Family/NA')]
 
           def controls(sp):
-              f=sp.find('form',id='aspnetForm')
-              d={}
+              f=sp.find('form',id='aspnetForm'); d={}
               for e in f.find_all('input') if f else []:
                   n=e.get('name'); typ=(e.get('type') or 'text').lower()
-                  if not n or typ in {'submit','button','image','file'}: continue
-                  if typ in {'checkbox','radio'} and not e.has_attr('checked'): continue
+                  if not n or typ in {'submit','button','image','file'} or (typ in {'checkbox','radio'} and not e.has_attr('checked')): continue
                   d[n]=e.get('value','')
               for e in f.find_all('textarea') if f else []:
                   if e.get('name'): d[e['name']]=e.get_text()
               for e in f.find_all('select') if f else []:
-                  n=e.get('name')
-                  if not n: continue
-                  ch=e.find('option',selected=True) or e.find('option')
-                  d[n]=ch.get('value','') if ch else ''
+                  n=e.get('name'); ch=e.find('option',selected=True) or e.find('option')
+                  if n: d[n]=ch.get('value','') if ch else ''
               return d
 
-          type_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
-          status_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
-          types=[
-              ('RES','Building/Building/402-404-New Res/NA'),
-              ('COM','Building/Building/502-New or Added Commercial/NA'),
-              ('MF','Building/Building/506-New Multi-Family/NA'),
-          ]
           for label,tv in types:
               r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-              type_select=soup.find('select',{'name':type_name})
-              print('TYPE_SELECT_ATTRS',label,dict(type_select.attrs) if type_select else None)
-              data=controls(soup)
-              data[type_name]=tv
-              data['__EVENTTARGET']=type_name
-              data['__EVENTARGUMENT']=''
-              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90)
-              print('POSTBACK',label,p.status_code,'LEN',len(p.text)); p.raise_for_status()
-              ps=BeautifulSoup(p.text,'html.parser')
-              st=ps.find('select',{'name':status_name})
-              options=[] if not st else [(' '.join(o.stripped_strings),o.get('value',''),o.has_attr('selected')) for o in st.find_all('option')]
-              print('STATUS_OPTIONS',label,options)
-              print('STATUS_ATTRS',label,dict(st.attrs) if st else None)
-              if not st: continue
-              issued=[v for t,v,_ in options if t.strip().lower()=='issued']
-              if not issued:
-                  continue
-              data=controls(ps)
-              data[type_name]=tv
-              data[status_name]=issued[0]
-              data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']='01/01/2026'
-              data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']='08/25/2026'
-              data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''
-              data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''
-              data['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch'
-              data['__EVENTARGUMENT']=''
-              q=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120)
-              print('SEARCH',label,q.status_code,'LEN',len(q.text)); q.raise_for_status()
-              qs=BeautifulSoup(q.text,'html.parser')
-              table=qs.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList')
-              if not table:
-                  print('NO_TABLE',label)
-                  continue
-              count=0
-              for tr in table.find_all('tr'):
-                  link=tr.find('a',id=lambda x: x and x.endswith('_hlPermitNumber'))
-                  if not link: continue
-                  row=' | '.join(' '.join(td.stripped_strings) for td in tr.find_all('td'))
-                  print('ISSUED_ROW',label,' '.join(link.stripped_strings),row[:1600])
-                  count+=1
-                  if count>=5: break
-              print('ISSUED_COUNT_SHOWN',label,count)
+              data=controls(soup); data[type_name]=tv; data['__EVENTTARGET']=type_name; data['__EVENTARGUMENT']=''
+              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); ps=BeautifulSoup(p.text,'html.parser')
+              data=controls(ps); data[type_name]=tv; data[status_name]='Issued'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']='01/01/2026'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']='08/25/2026'; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''; data['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''; data['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch'; data['__EVENTARGUMENT']=''
+              q=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); q.raise_for_status(); qs=BeautifulSoup(q.text,'html.parser')
+              table=qs.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); chosen=None
+              if table:
+                  for tr in table.find_all('tr'):
+                      link=tr.find('a',id=lambda x: x and x.endswith('_hlPermitNumber'))
+                      if not link: continue
+                      row=' | '.join(' '.join(td.stripped_strings) for td in tr.find_all('td'))
+                      chosen=(' '.join(link.stripped_strings),urljoin(search,link.get('href','')),row)
+                      break
+              print('CHOSEN',label,chosen[0] if chosen else None,chosen[2][:1200] if chosen else '')
+              if not chosen: continue
+              number,du,row=chosen
+              d=s.get(du,headers={'Referer':search},timeout=60); print('DETAIL_HTTP',label,number,d.status_code,'LEN',len(d.text)); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser'); plain=' '.join(ds.stripped_strings)
+              for needle in ['Issued Date:','Issue Date:','Date Issued:','Permit Issued Date:','Record Status:','Received Date:','Intake Approval Date:','Expiration Date:','Finaled Date:','Certificate of Value Total Project Value:','Number of Units in this building:','New Building Area:','Total Building Area:','Project Description:','Licensed Professional:']:
+                  m=re.search(re.escape(needle)+r'\s*(.{0,900})',plain,re.I)
+                  if m: print('CTX',label,number,needle,m.group(1)[:900])
+              for tag in ds.find_all(id=True):
+                  ident=tag.get('id',''); low=ident.lower(); txt=' '.join(tag.stripped_strings)
+                  if txt and len(txt)<1200 and any(k in low for k in ['issue','issued','status','date','jobvalue','projectvalue','unit','newbuildingarea','totalbuildingarea']):
+                      print('IDFIELD',label,number,ident,repr(txt))
           PY
