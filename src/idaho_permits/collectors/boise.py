@@ -99,6 +99,7 @@ class BoiseIssuedPermitCollector:
 
     name = 'Boise Issued Building Permits'
     landing_url = BOISE_BUILDING_SEARCH_URL
+    search_url = BOISE_BUILDING_SEARCH_URL
     source_url = BOISE_BUILDING_SEARCH_URL
     lookback_days = 45
     residential_discovery_days = 240
@@ -465,7 +466,7 @@ class BoiseIssuedPermitCollector:
 
     @staticmethod
     def _norm(value) -> str:
-        return re.sub(r'\s+', ' ', str(value or '')).strip().lower()
+        return re.sub(r'\s+', ' ', str(value or '')).strip().lower().lower()
 
     @classmethod
     def _successful_controls(cls, soup: BeautifulSoup) -> dict[str, str]:
