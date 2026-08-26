@@ -6,12 +6,24 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 19:57:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 01:59:13 +0000</lastBuildDate>
     <item>
       <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 12-09-02 (9281-0048) — 2356 N PROVENCE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29626282</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:266896</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 19-16-03 (9280-0002) — 2211 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29626848</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:266905</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 32-04-03 (8883-0062) — 1955 N SAND SPRINGS WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29626780</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:266904</guid>
     </item>
     <item>
       <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
@@ -1206,18 +1218,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 209,243</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0151</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3127 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 312,174</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0149</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3120 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DUHRKOOP LEXI | 384,862</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0148</guid>
     </item>
   </channel>
 </rss>
