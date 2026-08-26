@@ -36,16 +36,16 @@
     "valuation_total": 1562520.36
   },
   {
-    "contractor": "ERSTAD ARCHITECTS",
-    "count": 2,
-    "score_total": 90,
-    "valuation_total": 402431.52
-  },
-  {
     "contractor": "FOOTHILLS PIS",
     "count": 2,
     "score_total": 90,
     "valuation_total": 950000.0
+  },
+  {
+    "contractor": "ERSTAD ARCHITECTS",
+    "count": 2,
+    "score_total": 90,
+    "valuation_total": 402431.52
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -108,6 +108,12 @@
     "valuation_total": 1400000.0
   },
   {
+    "contractor": "MATEO ECHEVERRIA",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1250000.0
+  },
+  {
     "contractor": "DALE BINNING ARCHITECT",
     "count": 1,
     "score_total": 42,
@@ -120,12 +126,6 @@
     "valuation_total": 2000000.0
   },
   {
-    "contractor": "MATEO ECHEVERRIA",
-    "count": 1,
-    "score_total": 42,
-    "valuation_total": 1250000.0
-  },
-  {
     "contractor": "VALLE DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
@@ -136,6 +136,24 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 207320.64
+  },
+  {
+    "contractor": "Thomas Lufkin",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "KOUBA HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 700000.0
+  },
+  {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 172990.0
   },
   {
     "contractor": "WILLOW CREEK HOMES",
@@ -222,24 +240,6 @@
     "valuation_total": 490083.12
   },
   {
-    "contractor": "Thomas Lufkin",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "KOUBA HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 700000.0
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 172990.0
-  },
-  {
     "contractor": "THE ARCHITECTS OFFICE PLLC",
     "count": 1,
     "score_total": 40,
@@ -282,10 +282,28 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "NW BUILDERS COMPANY INC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 825000.0
+  },
+  {
+    "contractor": "IRONWOOD HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 600000.0
+  },
+  {
     "contractor": "SPENCE SYLVAN",
     "count": 1,
     "score_total": 25,
     "valuation_total": 501507.72
+  },
+  {
+    "contractor": "HOUSE IDAHO LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 950000.0
   },
   {
     "contractor": "ALLEGIANT CONSTRUCTION CONCEPTS",
@@ -342,28 +360,16 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "IRONWOOD HOMES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 600000.0
-  },
-  {
-    "contractor": "HOUSE IDAHO LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 950000.0
-  },
-  {
-    "contractor": "NW BUILDERS COMPANY INC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 825000.0
-  },
-  {
     "contractor": "CR HOMES INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
+  },
+  {
+    "contractor": "TESORO HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 450000.0
   },
   {
     "contractor": "HIGHLAND HOMES",
@@ -418,6 +424,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 310353.0
+  },
+  {
+    "contractor": "WESTMINSTER II LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 350000.0
   },
   {
     "contractor": "AJB CONTRACTORS LLC",
@@ -478,6 +490,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 178710.8
+  },
+  {
+    "contractor": "BOISE VALLEY HABITAT FOR HUMANITY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 230000.0
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -1192,23 +1210,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "WESTMINSTER II LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 350000.0
-  },
-  {
-    "contractor": "TESORO HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 450000.0
-  },
-  {
-    "contractor": "BOISE VALLEY HABITAT FOR HUMANITY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 230000.0
   }
 ]

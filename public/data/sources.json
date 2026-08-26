@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T04:55:02+00:00",
+  "generated_at": "2026-08-26T07:07:51+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Boise Issued Building Permits",
-      "status": "ok",
-      "records_seen": 42,
-      "qualifying_records": 42,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
-      "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
+      "note": "RuntimeError: Boise Accela permit detail did not contain the expected ASP.NET form"
     },
     {
       "source": "Eagle",
