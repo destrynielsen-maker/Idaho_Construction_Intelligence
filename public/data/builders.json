@@ -1,9 +1,9 @@
 [
   {
     "contractor": "CBH HOMES",
-    "count": 25,
-    "score_total": 500,
-    "valuation_total": 6984711.4799999995
+    "count": 23,
+    "score_total": 460,
+    "valuation_total": 6369526.4399999995
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -270,6 +270,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "PEARMAN CONTRACTING LLC",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
+  },
+  {
     "contractor": "HHS CONSTRUCTION LLC",
     "count": 1,
     "score_total": 27,
@@ -280,6 +286,12 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "VISSER BUILDING COMPANY LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1073600.0
   },
   {
     "contractor": "NW BUILDERS COMPANY INC",

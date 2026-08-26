@@ -6,24 +6,18 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Aug 2026 13:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 19:19:29 +0000</lastBuildDate>
     <item>
-      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 19-16-03 (9280-0002) — 2211 N ESCUDILLA WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29626848</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266905</guid>
+      <title>[27] Boise: 711 Franklin Residence — 711 W FRANKLIN ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NHJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,073,600</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02204</guid>
     </item>
     <item>
-      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 32-04-03 (8883-0062) — 1955 N SAND SPRINGS WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29626780</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266904</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 12-09-02 (9281-0048) — 2356 N PROVENCE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29626282</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266896</guid>
+      <title>[35] Canyon County: NEW STORAGE STRUCTURE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
     </item>
     <item>
       <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
@@ -244,7 +238,7 @@ HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 L
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***See ZC for all my notes on the 60' easement in SE corner*** — 0 WHETSTONE LN, Caldwell   836070000</title>
+***See ZC for all my notes on the 60' easement in SE corner*** — 13440 WHETSTONE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MECK HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
@@ -512,7 +506,7 @@ HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
 &#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
- ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 0 CALLA LILY LN, Middleton   836440000</title>
+ ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22664 CALLA LILY LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
@@ -1116,8 +1110,7 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0341</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-Reminder to ADMIN: There will be 2 separate invoices from Keller for eng fees on this permit. Please add all of the fees + send the CCDSD invoice once both Keller invoices have been received. 7/29/26 LO — 8158 QUAIL HOLLOW DR, Middleton   836440000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8158 QUAIL HOLLOW DR, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | OAKMONT HOMES | 484,656</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0339</guid>
@@ -1217,6 +1210,12 @@ Reminder to ADMIN: There will be 2 separate invoices from Keller for eng fees on
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ELEVATED CUSTOM HOMES LLC | 243,757</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0278</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + FINISHED BASEMENT — 14154 LEATHER RIDGE RD, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 308,347</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0274</guid>
     </item>
   </channel>
 </rss>
