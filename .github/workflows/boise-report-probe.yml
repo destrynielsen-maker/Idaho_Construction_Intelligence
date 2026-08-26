@@ -1,4 +1,4 @@
-name: Boise issued permit validation
+name: Boise commercial quality probe
 
 on:
   push:
@@ -6,85 +6,79 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  validate:
+  probe:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Apply narrow Boise source fixes
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path=Path('src/idaho_permits/collectors/boise.py')
-          text=path.read_text()
-          before=text
-          text=text.replace(
-              "    landing_url = BOISE_BUILDING_SEARCH_URL\n    source_url = BOISE_BUILDING_SEARCH_URL",
-              "    landing_url = BOISE_BUILDING_SEARCH_URL\n    search_url = BOISE_BUILDING_SEARCH_URL\n    source_url = BOISE_BUILDING_SEARCH_URL",
-              1,
-          )
-          text=text.replace(
-              "    ) -> Permit | None:\n        if (row.get('status') or '').strip().lower() != 'issued':",
-              "    ) -> Permit | None:\n        if not self._row_scope_candidate(family, row):\n            return None\n        if (row.get('status') or '').strip().lower() != 'issued':",
-              1,
-          )
-          text=text.replace(
-              "        return re.sub(r'\\s+', ' ', str(value or '')).strip()",
-              "        return re.sub(r'\\s+', ' ', str(value or '')).strip().lower()",
-              1,
-          )
-          if text == before:
-              print('Boise source fixes already present')
-          else:
-              path.write_text(text)
-              print('Applied Boise source fixes')
-          PY
-          if ! git diff --quiet -- src/idaho_permits/collectors/boise.py; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add src/idaho_permits/collectors/boise.py
-            git commit -m "Fix Boise search URL [skip ci]"
-            git push
-          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-      - run: pip install -r requirements.txt
-      - name: Run tests
-        env:
-          PYTHONPATH: src
-        run: python -m unittest discover -s tests -v
-      - name: Run live Boise issued collector
-        env:
-          PYTHONPATH: src
+      - run: pip install requests beautifulsoup4
+      - name: Inspect borderline Boise commercial permits
         run: |
           python - <<'PY'
-          from collections import Counter
-          from datetime import date, timedelta
-          from idaho_permits.classify import classify_permit
-          from idaho_permits.collectors.boise import BoiseIssuedPermitCollector
+          import re
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
 
-          collector=BoiseIssuedPermitCollector()
-          permits=collector.collect()
-          print('SOURCE',permits.source)
-          print('COUNT',len(permits.permits))
-          kinds=Counter()
-          for p in permits.permits:
-              classify_permit(p)
-              kinds[p.classification]+=1
-              print('PERMIT',p.permit_number,p.issued_date,p.classification,p.project_name,p.address,p.valuation,p.contractor)
-              if not p.qualifies:
-                  raise SystemExit('nonqualifying permit escaped source filter: '+p.permit_number)
-              issued=date.fromisoformat(p.issued_date)
-              if issued < date.today()-timedelta(days=collector.lookback_days) or issued > date.today():
-                  raise SystemExit('issue date outside production window: '+p.permit_number)
-              if p.status != 'Issued':
-                  raise SystemExit('non-issued record escaped source filter: '+p.permit_number)
-          print('CLASSIFICATIONS',dict(kinds))
-          if not permits.permits:
-              raise SystemExit('Boise issued collector returned no qualifying permits')
+          search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
+          numbers=['BLD26-01687','BLD26-01423','BLD26-00239']
+          s=requests.Session()
+          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
+
+          def controls(sp):
+              f=sp.find('form',id='aspnetForm'); out={}
+              for e in f.find_all('input') if f else []:
+                  n=e.get('name'); typ=(e.get('type') or 'text').lower()
+                  if not n or typ in {'submit','button','image','file'} or (typ in {'checkbox','radio'} and not e.has_attr('checked')): continue
+                  out[n]=e.get('value','')
+              for e in f.find_all('textarea') if f else []:
+                  if e.get('name'): out[e['name']]=e.get_text()
+              for e in f.find_all('select') if f else []:
+                  n=e.get('name'); ch=e.find('option',selected=True) or e.find('option')
+                  if n: out[n]=ch.get('value','') if ch else ''
+              return out
+
+          for number in numbers:
+              r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
+              data=controls(soup)
+              data.update({
+                  '__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch',
+                  '__EVENTARGUMENT':'',
+                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSPermitNumber':number,
+                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'01/01/2025',
+                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026',
+                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'',
+                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'',
+              })
+              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); ps=BeautifulSoup(p.text,'html.parser')
+              link=ps.find('a',id=re.compile(r'_hlPermitNumber$'),string=re.compile('^'+re.escape(number)+'$'))
+              if not link:
+                  link=next((a for a in ps.find_all('a',id=re.compile(r'_hlPermitNumber$')) if ' '.join(a.stripped_strings).strip()==number),None)
+              print('FOUND',number,bool(link))
+              if not link: continue
+              detail_url=urljoin(search,link.get('href',''))
+              d=s.get(detail_url,headers={'Referer':search},timeout=60); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser')
+              text=' '.join(ds.stripped_strings)
+              print('DETAIL_URL',number,detail_url)
+              for label,pat in [
+                  ('STATUS',r'Record Status:\s*(.+?)(?=\s+Add to Existing Project|\s+Record Info)'),
+                  ('PROJECT',r'Project Description:\s*(.+?)(?=\s+More Details)'),
+                  ('RECEIVED',r'Received Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
+                  ('ISSUED',r'Issued Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
+                  ('APPLICATION_TYPE',r'Application Type:\s*(.+?)(?=\s+Does this application|\s+Type of Construction|\s+Type of Permit:)'),
+                  ('TYPE_PERMIT',r'Type of Permit:\s*(.+?)(?=\s+Type of Use:)'),
+                  ('TYPE_USE',r'Type of Use:\s*(.+?)(?=\s+Type of Work:)'),
+                  ('TYPE_WORK',r'Type of Work:\s*(.+?)(?=\s+(?:Building Height|Existing Building Area|New Building Area|Total Building Area|Additional Features))'),
+                  ('EXISTING_AREA',r'Existing Building Area:\s*([\d,.]+)'),
+                  ('NEW_AREA',r'New Building Area:\s*([\d,.]+)'),
+                  ('TOTAL_AREA',r'Total Building Area:\s*([\d,.]+)'),
+                  ('VALUE',r'(?:Total Project Value|Initial Value):\s*\$?([\d,.]+)'),
+              ]:
+                  m=re.search(pat,text,re.I)
+                  print(label,number,m.group(1).strip()[:1600] if m else None)
           PY
