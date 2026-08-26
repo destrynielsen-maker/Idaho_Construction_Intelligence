@@ -1,4 +1,4 @@
-name: Boise commercial quality probe
+name: Final Boise and Idaho validation
 
 on:
   push:
@@ -6,90 +6,213 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Apply final Boise commercial guards
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          source = Path('src/idaho_permits/collectors/boise.py')
+          text = source.read_text()
+          before = text
+
+          old_work = "type_of_work = self._capture(text, r'Type of Work:\\s*(.+?)(?=\\s+(?:Building Height|Total Building Area|Additional Features|Dwelling Units))')"
+          new_work = "type_of_work = self._capture(text, r'Type of Work:\\s*(.+?)(?=\\s+(?:Type of Construction|Building Height|Existing Building Area|New Building Area|Total Building Area|Additional Features|Dwelling Units))')"
+          if old_work not in text:
+              raise SystemExit('expected Boise Type of Work parser pattern not found')
+          text = text.replace(old_work, new_work, 1)
+
+          old_commercial = '''        # Boise's 502 category mixes new buildings and additions. A positive new-building
+        # phrase is required; addition/remodel language alone is not sufficient.
+        if cls.new_building_re.search(text):
+            return True
+        if cls.alteration_re.search(text):
+            return False
+        return bool(re.search(r'\\bconstruct(?:ion)?\\b.{0,100}\\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\\b', text, re.I))'''
+          new_commercial = '''        # Boise's 502 category mixes ground-up buildings, additions and alterations.
+        # Prefer Boise's structured Type of Work and building-area fields over descriptive
+        # text so words like "new foundations" cannot turn an addition into a new-building lead.
+        work_kind = cls._norm(detail.get('type_of_work'))
+        if work_kind:
+            if not work_kind.startswith('new'):
+                return False
+            new_area = detail.get('new_building_area')
+            if new_area is not None and new_area <= 0:
+                return False
+            return not cls.excluded_structure_re.search(text)
+        if cls.excluded_structure_re.search(text) or cls.alteration_re.search(text):
+            return False
+        return bool(
+            cls.new_building_re.search(text)
+            or re.search(r'\\bconstruct(?:ion)?\\b.{0,100}\\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\\b', text, re.I)
+        )'''
+          if old_commercial not in text:
+              raise SystemExit('expected Boise commercial scope block not found')
+          text = text.replace(old_commercial, new_commercial, 1)
+          text = text.replace(".strip().lower().lower()", ".strip().lower()")
+          source.write_text(text)
+
+          tests = Path('tests/test_boise_collector.py')
+          test_text = tests.read_text()
+          old_ground = '''        detail = self.detail(
+            application_code=502,
+            type_of_permit=None,
+            type_of_use='Industrial',
+            type_of_work=None,
+            new_building_area=27512.0,
+            total_building_area=27512.0,
+            valuation=4200000.0,
+        )'''
+          new_ground = '''        detail = self.detail(
+            application_code=502,
+            type_of_permit='New Structure',
+            type_of_use='Industrial',
+            type_of_work='New',
+            existing_building_area=0.0,
+            new_building_area=27512.0,
+            total_building_area=27512.0,
+            valuation=4200000.0,
+        )'''
+          if old_ground not in test_text:
+              raise SystemExit('expected commercial ground-up test fixture not found')
+          test_text = test_text.replace(old_ground, new_ground, 1)
+
+          marker = '''    def test_foundation_only_commercial_is_rejected(self):
+'''
+          addition = '''    def test_commercial_structured_alteration_and_addition_are_rejected(self):
+        screen_wall = self.row(
+            'Permit to construct a new exterior architectural screen wall on the existing FAB building. '
+            'Any alterations to the fire system require a separate permit.',
+            project='MICRON FAB Architectural Screen Wall',
+        )
+        screen_detail = self.detail(
+            application_code=502,
+            type_of_permit='Other',
+            type_of_use='Industrial',
+            type_of_work='Alteration',
+            existing_building_area=8190.0,
+            new_building_area=None,
+            total_building_area=8190.0,
+        )
+        dental_addition = self.row(
+            'Addition and remodel with construction of new foundations and new exterior bearing walls.',
+            project='Building Addition for Idaho Street Dental',
+            number='BLD26-00239',
+        )
+        addition_detail = self.detail(
+            application_code=502,
+            type_of_permit='New Structure',
+            type_of_use='Office',
+            type_of_work='Addition',
+            existing_building_area=1544.0,
+            new_building_area=1682.0,
+            total_building_area=3226.0,
+        )
+        self.assertIsNone(self.collector._permit(screen_wall, screen_detail, 'commercial', {502}, self.cutoff, self.today))
+        self.assertIsNone(self.collector._permit(dental_addition, addition_detail, 'commercial', {502}, self.cutoff, self.today))
+
+'''
+          if marker not in test_text:
+              raise SystemExit('test insertion marker not found')
+          test_text = test_text.replace(marker, addition + marker, 1)
+          tests.write_text(test_text)
+
+          if source.read_text() == before:
+              raise SystemExit('Boise source did not change')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/idaho_permits/collectors/boise.py tests/test_boise_collector.py
+          git diff --cached --check
+          git commit -m "Harden Boise commercial new-construction guards [skip ci]"
+          git push
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Inspect Boise 502 issued borderline rows
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+
+      - name: Run full Idaho pipeline
+        env:
+          PYTHONPATH: src
+          SITE_BASE_URL: https://destrynielsen-maker.github.io/Idaho_Construction_Intelligence/
+        run: |
+          start=$(date +%s)
+          python -m idaho_permits.main
+          end=$(date +%s)
+          echo "FULL_PIPELINE_SECONDS=$((end-start))"
+
+      - name: Validate Boise and statewide outputs
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
-          import re
-          from urllib.parse import urljoin
-          import requests
-          from bs4 import BeautifulSoup
+          import json
+          from collections import Counter
+          from datetime import date, timedelta
+          from pathlib import Path
 
-          search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
-          wanted={'BLD26-01687','BLD26-01423','BLD26-00239'}
-          type_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
-          status_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
-          type_value='Building/Building/502-New or Added Commercial/NA'
-          s=requests.Session()
-          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
+          sources = json.loads(Path('public/data/sources.json').read_text())['collector_status']
+          print('SOURCE_STATUS')
+          for row in sources:
+              print(row['source'], row['status'], row['records_seen'], row['qualifying_records'], row.get('note',''))
 
-          def controls(sp):
-              f=sp.find('form',id='aspnetForm'); out={}
-              for e in f.find_all('input') if f else []:
-                  n=e.get('name'); typ=(e.get('type') or 'text').lower()
-                  if not n or typ in {'submit','button','image','file'} or (typ in {'checkbox','radio'} and not e.has_attr('checked')): continue
-                  out[n]=e.get('value','')
-              for e in f.find_all('textarea') if f else []:
-                  if e.get('name'): out[e['name']]=e.get_text()
-              for e in f.find_all('select') if f else []:
-                  n=e.get('name'); ch=e.find('option',selected=True) or e.find('option')
-                  if n: out[n]=ch.get('value','') if ch else ''
-              return out
+          names = {row['source'] for row in sources}
+          expected = {
+              'Boise', 'Boise Issued Building Permits', 'Eagle', 'Canyon County',
+              'Caldwell', "Coeur d'Alene", 'Kootenai County', 'Meridian', 'Nampa'
+          }
+          missing = expected - names
+          if missing:
+              raise SystemExit(f'missing collectors: {sorted(missing)}')
 
-          r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-          data=controls(soup); data[type_name]=type_value; data['__EVENTTARGET']=type_name; data['__EVENTARGUMENT']=''
-          p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); soup=BeautifulSoup(p.text,'html.parser')
-          data=controls(soup)
-          data.update({type_name:type_value,status_name:'Issued','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'01/01/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'','__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch','__EVENTARGUMENT':''})
-          q=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); q.raise_for_status(); soup=BeautifulSoup(q.text,'html.parser')
+          boise = next(row for row in sources if row['source'] == 'Boise Issued Building Permits')
+          if boise['status'] != 'ok' or boise['records_seen'] <= 0 or boise['qualifying_records'] <= 0:
+              raise SystemExit(f'Boise issued source unhealthy: {boise}')
 
-          found={}
-          for page in range(30):
-              table=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList')
-              if not table: break
-              for tr in table.find_all('tr'):
-                  link=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
-                  if not link: continue
-                  number=' '.join(link.stripped_strings).strip()
-                  if number in wanted:
-                      row=' | '.join(' '.join(td.stripped_strings) for td in tr.find_all('td'))
-                      found[number]=(urljoin(search,link.get('href','')),row)
-                      print('ROW',number,row[:2500])
-              if wanted.issubset(found): break
-              next_link=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings).strip()=='Next >'),None)
-              if not next_link: break
-              m=re.search(r"__doPostBack\('([^']*)','([^']*)'\)",next_link.get('href',''))
-              if not m: break
-              pd=controls(soup); pd['__EVENTTARGET']=m.group(1); pd['__EVENTARGUMENT']=m.group(2)
-              nxt=s.post(search,data=pd,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); nxt.raise_for_status(); soup=BeautifulSoup(nxt.text,'html.parser')
+          payload = json.loads(Path('public/data/permits.json').read_text())
+          permits = payload.get('permits', [])
+          boise_permits = [p for p in permits if p.get('jurisdiction') == 'Boise' and p.get('stage') == 'PERMITTED']
+          numbers = {p.get('permit_number') for p in boise_permits}
+          print('BOISE_PERMITTED_COUNT', len(boise_permits))
+          print('BOISE_CLASSIFICATIONS', dict(Counter(p.get('classification') for p in boise_permits)))
+          print('BOISE_NUMBERS', sorted(numbers))
 
-          print('FOUND_NUMBERS',sorted(found))
-          for number,(detail_url,row) in found.items():
-              d=s.get(detail_url,headers={'Referer':search},timeout=60); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser'); text=' '.join(ds.stripped_strings)
-              print('DETAIL_URL',number,detail_url)
-              for label,pat in [
-                  ('PROJECT',r'Project Description:\s*(.+?)(?=\s+More Details)'),
-                  ('RECEIVED',r'Received Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
-                  ('ISSUED',r'Issued Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
-                  ('APPLICATION_TYPE',r'Application Type:\s*(.+?)(?=\s+Does this application|\s+Type of Construction|\s+Type of Permit:)'),
-                  ('TYPE_PERMIT',r'Type of Permit:\s*(.+?)(?=\s+Type of Use:)'),
-                  ('TYPE_USE',r'Type of Use:\s*(.+?)(?=\s+Type of Work:)'),
-                  ('TYPE_WORK',r'Type of Work:\s*(.+?)(?=\s+(?:Building Height|Existing Building Area|New Building Area|Total Building Area|Additional Features))'),
-                  ('EXISTING_AREA',r'Existing Building Area:\s*([\d,.]+)'),
-                  ('NEW_AREA',r'New Building Area:\s*([\d,.]+)'),
-                  ('TOTAL_AREA',r'Total Building Area:\s*([\d,.]+)'),
-                  ('VALUE',r'(?:Total Project Value|Initial Value):\s*\$?([\d,.]+)'),
-              ]:
-                  m=re.search(pat,text,re.I)
-                  print(label,number,m.group(1).strip()[:1800] if m else None)
+          if 'BLD26-01423' not in numbers:
+              raise SystemExit('known true Boise commercial new-building control is missing')
+          for bad in ('BLD26-01687', 'BLD26-00239'):
+              if bad in numbers:
+                  raise SystemExit(f'known Boise false positive escaped final guards: {bad}')
+
+          cutoff = date.today() - timedelta(days=45)
+          for p in boise_permits:
+              issued = date.fromisoformat(p['issued_date'])
+              if issued < cutoff or issued > date.today():
+                  raise SystemExit(f'Boise permit outside issue-date window: {p["permit_number"]}')
+              if p.get('status') != 'Issued':
+                  raise SystemExit(f'non-issued Boise permit escaped: {p["permit_number"]}')
+              if not p.get('qualifies'):
+                  raise SystemExit(f'nonqualifying Boise permit escaped: {p["permit_number"]}')
+
+          required = [
+              'public/data/permits.json', 'public/data/sources.json', 'public/data/builders.json',
+              'public/feeds/new-construction.xml', 'public/feeds/single-family.xml',
+              'public/feeds/multifamily.xml', 'public/feeds/commercial.xml',
+          ]
+          for path in required:
+              if not Path(path).exists():
+                  raise SystemExit(f'missing generated artifact: {path}')
           PY
