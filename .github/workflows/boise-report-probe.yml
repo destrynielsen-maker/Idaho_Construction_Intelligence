@@ -1,8 +1,9 @@
-name: Final Boise and Idaho validation
+name: Boise final validation
 
 on:
   push:
-    branches: [fix-boise-public-issued-permits]
+    branches:
+      - fix-boise-public-issued-permits
   workflow_dispatch:
 
 permissions:
@@ -14,131 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Apply final Boise commercial guards
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply final Boise patch
         run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          source = Path('src/idaho_permits/collectors/boise.py')
-          text = source.read_text()
-          before = text
-
-          old_work = "type_of_work = self._capture(text, r'Type of Work:\\s*(.+?)(?=\\s+(?:Building Height|Total Building Area|Additional Features|Dwelling Units))')"
-          new_work = "type_of_work = self._capture(text, r'Type of Work:\\s*(.+?)(?=\\s+(?:Type of Construction|Building Height|Existing Building Area|New Building Area|Total Building Area|Additional Features|Dwelling Units))')"
-          if old_work not in text:
-              raise SystemExit('expected Boise Type of Work parser pattern not found')
-          text = text.replace(old_work, new_work, 1)
-
-          old_commercial = '''        # Boise's 502 category mixes new buildings and additions. A positive new-building
-        # phrase is required; addition/remodel language alone is not sufficient.
-        if cls.new_building_re.search(text):
-            return True
-        if cls.alteration_re.search(text):
-            return False
-        return bool(re.search(r'\\bconstruct(?:ion)?\\b.{0,100}\\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\\b', text, re.I))'''
-          new_commercial = '''        # Boise's 502 category mixes ground-up buildings, additions and alterations.
-        # Prefer Boise's structured Type of Work and building-area fields over descriptive
-        # text so words like "new foundations" cannot turn an addition into a new-building lead.
-        work_kind = cls._norm(detail.get('type_of_work'))
-        if work_kind:
-            if not work_kind.startswith('new'):
-                return False
-            new_area = detail.get('new_building_area')
-            if new_area is not None and new_area <= 0:
-                return False
-            return not cls.excluded_structure_re.search(text)
-        if cls.excluded_structure_re.search(text) or cls.alteration_re.search(text):
-            return False
-        return bool(
-            cls.new_building_re.search(text)
-            or re.search(r'\\bconstruct(?:ion)?\\b.{0,100}\\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\\b', text, re.I)
-        )'''
-          if old_commercial not in text:
-              raise SystemExit('expected Boise commercial scope block not found')
-          text = text.replace(old_commercial, new_commercial, 1)
-          text = text.replace(".strip().lower().lower()", ".strip().lower()")
-          source.write_text(text)
-
-          tests = Path('tests/test_boise_collector.py')
-          test_text = tests.read_text()
-          old_ground = '''        detail = self.detail(
-            application_code=502,
-            type_of_permit=None,
-            type_of_use='Industrial',
-            type_of_work=None,
-            new_building_area=27512.0,
-            total_building_area=27512.0,
-            valuation=4200000.0,
-        )'''
-          new_ground = '''        detail = self.detail(
-            application_code=502,
-            type_of_permit='New Structure',
-            type_of_use='Industrial',
-            type_of_work='New',
-            existing_building_area=0.0,
-            new_building_area=27512.0,
-            total_building_area=27512.0,
-            valuation=4200000.0,
-        )'''
-          if old_ground not in test_text:
-              raise SystemExit('expected commercial ground-up test fixture not found')
-          test_text = test_text.replace(old_ground, new_ground, 1)
-
-          marker = '''    def test_foundation_only_commercial_is_rejected(self):
-'''
-          addition = '''    def test_commercial_structured_alteration_and_addition_are_rejected(self):
-        screen_wall = self.row(
-            'Permit to construct a new exterior architectural screen wall on the existing FAB building. '
-            'Any alterations to the fire system require a separate permit.',
-            project='MICRON FAB Architectural Screen Wall',
-        )
-        screen_detail = self.detail(
-            application_code=502,
-            type_of_permit='Other',
-            type_of_use='Industrial',
-            type_of_work='Alteration',
-            existing_building_area=8190.0,
-            new_building_area=None,
-            total_building_area=8190.0,
-        )
-        dental_addition = self.row(
-            'Addition and remodel with construction of new foundations and new exterior bearing walls.',
-            project='Building Addition for Idaho Street Dental',
-            number='BLD26-00239',
-        )
-        addition_detail = self.detail(
-            application_code=502,
-            type_of_permit='New Structure',
-            type_of_use='Office',
-            type_of_work='Addition',
-            existing_building_area=1544.0,
-            new_building_area=1682.0,
-            total_building_area=3226.0,
-        )
-        self.assertIsNone(self.collector._permit(screen_wall, screen_detail, 'commercial', {502}, self.cutoff, self.today))
-        self.assertIsNone(self.collector._permit(dental_addition, addition_detail, 'commercial', {502}, self.cutoff, self.today))
-
-'''
-          if marker not in test_text:
-              raise SystemExit('test insertion marker not found')
-          test_text = test_text.replace(marker, addition + marker, 1)
-          tests.write_text(test_text)
-
-          if source.read_text() == before:
-              raise SystemExit('Boise source did not change')
-          PY
+          python scripts/finalize_boise_patch.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/idaho_permits/collectors/boise.py tests/test_boise_collector.py
           git diff --cached --check
-          git commit -m "Harden Boise commercial new-construction guards [skip ci]"
+          git diff --cached --quiet || git commit -m "Harden Boise commercial new-construction guards [skip ci]"
           git push
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: pip
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run complete test suite
         env:
@@ -156,63 +48,4 @@ jobs:
           echo "FULL_PIPELINE_SECONDS=$((end-start))"
 
       - name: Validate Boise and statewide outputs
-        env:
-          PYTHONPATH: src
-        run: |
-          python - <<'PY'
-          import json
-          from collections import Counter
-          from datetime import date, timedelta
-          from pathlib import Path
-
-          sources = json.loads(Path('public/data/sources.json').read_text())['collector_status']
-          print('SOURCE_STATUS')
-          for row in sources:
-              print(row['source'], row['status'], row['records_seen'], row['qualifying_records'], row.get('note',''))
-
-          names = {row['source'] for row in sources}
-          expected = {
-              'Boise', 'Boise Issued Building Permits', 'Eagle', 'Canyon County',
-              'Caldwell', "Coeur d'Alene", 'Kootenai County', 'Meridian', 'Nampa'
-          }
-          missing = expected - names
-          if missing:
-              raise SystemExit(f'missing collectors: {sorted(missing)}')
-
-          boise = next(row for row in sources if row['source'] == 'Boise Issued Building Permits')
-          if boise['status'] != 'ok' or boise['records_seen'] <= 0 or boise['qualifying_records'] <= 0:
-              raise SystemExit(f'Boise issued source unhealthy: {boise}')
-
-          payload = json.loads(Path('public/data/permits.json').read_text())
-          permits = payload.get('permits', [])
-          boise_permits = [p for p in permits if p.get('jurisdiction') == 'Boise' and p.get('stage') == 'PERMITTED']
-          numbers = {p.get('permit_number') for p in boise_permits}
-          print('BOISE_PERMITTED_COUNT', len(boise_permits))
-          print('BOISE_CLASSIFICATIONS', dict(Counter(p.get('classification') for p in boise_permits)))
-          print('BOISE_NUMBERS', sorted(numbers))
-
-          if 'BLD26-01423' not in numbers:
-              raise SystemExit('known true Boise commercial new-building control is missing')
-          for bad in ('BLD26-01687', 'BLD26-00239'):
-              if bad in numbers:
-                  raise SystemExit(f'known Boise false positive escaped final guards: {bad}')
-
-          cutoff = date.today() - timedelta(days=45)
-          for p in boise_permits:
-              issued = date.fromisoformat(p['issued_date'])
-              if issued < cutoff or issued > date.today():
-                  raise SystemExit(f'Boise permit outside issue-date window: {p["permit_number"]}')
-              if p.get('status') != 'Issued':
-                  raise SystemExit(f'non-issued Boise permit escaped: {p["permit_number"]}')
-              if not p.get('qualifies'):
-                  raise SystemExit(f'nonqualifying Boise permit escaped: {p["permit_number"]}')
-
-          required = [
-              'public/data/permits.json', 'public/data/sources.json', 'public/data/builders.json',
-              'public/feeds/new-construction.xml', 'public/feeds/single-family.xml',
-              'public/feeds/multifamily.xml', 'public/feeds/commercial.xml',
-          ]
-          for path in required:
-              if not Path(path).exists():
-                  raise SystemExit(f'missing generated artifact: {path}')
-          PY
+        run: python scripts/validate_boise_pipeline.py
