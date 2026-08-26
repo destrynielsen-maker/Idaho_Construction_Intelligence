@@ -6,7 +6,43 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Aug 2026 01:59:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 05:04:08 +0000</lastBuildDate>
+    <item>
+      <title>[55] Boise: MICRON - ID1 B111F Opal Dewatering Building — 8000 S FEDERAL WAY, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005L7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 64,481,344</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00463</guid>
+    </item>
+    <item>
+      <title>[50] Boise: 1508 &amp; 1510 Boise Ave Duplex — 1508 W BOISE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EBO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 500,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01352</guid>
+    </item>
+    <item>
+      <title>[50] Boise: 1206 S Leadville Ave - Unit B Townhouse — 1206 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXK&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01427</guid>
+    </item>
+    <item>
+      <title>[50] Boise: 1204 S Leadville Ave -Unit A Townhouse — 1204 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01426</guid>
+    </item>
+    <item>
+      <title>[50] Boise: 1202 S Leadville Ave - Unit B Townhome — 1202 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01425</guid>
+    </item>
+    <item>
+      <title>[50] Boise: 725 W Beacon St - Unit A Townhome — 725 W BEACON ST, BOISE ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
+    </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
@@ -14,10 +50,94 @@
       <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
     <item>
+      <title>[45] Boise: Tresidio Homes HH 02-01 — 4399 E HAYSTACK ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01909</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 02-01 — 4387 E HAYSTACK ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3G&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01908</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 02-01 — 4375 E HAYSTACK ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01907</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 02-01 — 4363 E HAYSTACK ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3E&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01906</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 02-01 — 4351 E HAYSTACK ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01905</guid>
+    </item>
+    <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 795,000</description>
       <guid isPermaLink="false">ID:NAMPA:COM-05425-2026</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 15-01 — 4398 E BRIGHTSIDE ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00I45&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01725</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 14-01 — 4384 E BRIGHTSIDE ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00I44&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01724</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 13-01 — 4370 E BRIGHTSIDE ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00I43&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01723</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 12-01 — 4362 E BRIGHTSIDE ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00I42&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01722</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Tresidio Homes HH 11-01 — 4356 E BRIGHTSIDE ST, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00I40&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01721</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Dorothy Fourplex — 2205 S DOROTHY AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006E3&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | FOOTHILLS PIS | 475,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00554</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Dorothy Fourplex — 2201 S DOROTHY AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006DU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | FOOTHILLS PIS | 475,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00552</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Samantha Sub 6-7 — 3432 W HILL RD, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006P7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00598</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Samantha Sub 6-7 — 3438 W HILL RD, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006P5&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00597</guid>
     </item>
     <item>
       <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
@@ -30,6 +150,12 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Boise: Trux Parking — 4600 S APPLE ST, BLDG 1, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EW8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | MATEO ECHEVERRIA | 1,250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01423</guid>
     </item>
     <item>
       <title>[42] Canyon County: NEW DRY COMMERCIAL MATERIAL BUILDING  Address: 19014 Metal Ln — 20334 PINTO RD, Caldwell</title>

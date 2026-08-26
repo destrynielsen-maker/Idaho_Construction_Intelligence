@@ -6,6 +6,24 @@
     "valuation_total": 6984711.4799999995
   },
   {
+    "contractor": "TH CONSTRUCTION LLC",
+    "count": 10,
+    "score_total": 450,
+    "valuation_total": 2860000.0
+  },
+  {
+    "contractor": "COOK BROTHERS CONSTRUCTION INC",
+    "count": 6,
+    "score_total": 200,
+    "valuation_total": 1750000.0
+  },
+  {
+    "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
+    "count": 4,
+    "score_total": 200,
+    "valuation_total": 3000000.0
+  },
+  {
     "contractor": "PATHWAY BUILDERS",
     "count": 5,
     "score_total": 100,
@@ -22,6 +40,18 @@
     "count": 2,
     "score_total": 90,
     "valuation_total": 402431.52
+  },
+  {
+    "contractor": "FOOTHILLS PIS",
+    "count": 2,
+    "score_total": 90,
+    "valuation_total": 950000.0
+  },
+  {
+    "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 72,
+    "valuation_total": 2395209.84
   },
   {
     "contractor": "BLAST PROPERTIES LLC",
@@ -66,6 +96,18 @@
     "valuation_total": 810037.2
   },
   {
+    "contractor": "ENGINEERED STRUCTURES, INC.",
+    "count": 1,
+    "score_total": 55,
+    "valuation_total": 64481344.0
+  },
+  {
+    "contractor": "CONNER CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1400000.0
+  },
+  {
     "contractor": "DALE BINNING ARCHITECT",
     "count": 1,
     "score_total": 42,
@@ -76,6 +118,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "MATEO ECHEVERRIA",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1250000.0
   },
   {
     "contractor": "VALLE DEVELOPMENT LLC",
@@ -174,6 +222,24 @@
     "valuation_total": 490083.12
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "KOUBA HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 700000.0
+  },
+  {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 172990.0
+  },
+  {
     "contractor": "THE ARCHITECTS OFFICE PLLC",
     "count": 1,
     "score_total": 40,
@@ -202,6 +268,18 @@
     "count": 1,
     "score_total": 35,
     "valuation_total": 80000.0
+  },
+  {
+    "contractor": "HHS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 2100000.0
+  },
+  {
+    "contractor": "GARDNER HOMES IDAHO LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1200000.0
   },
   {
     "contractor": "SPENCE SYLVAN",
@@ -262,6 +340,24 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "IRONWOOD HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 600000.0
+  },
+  {
+    "contractor": "HOUSE IDAHO LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 950000.0
+  },
+  {
+    "contractor": "NW BUILDERS COMPANY INC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 825000.0
   },
   {
     "contractor": "CR HOMES INC",
@@ -670,12 +766,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 292289.52
-  },
-  {
-    "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 295209.84
   },
   {
     "contractor": "HUNTER HOMES",
@@ -1102,5 +1192,23 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "WESTMINSTER II LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 350000.0
+  },
+  {
+    "contractor": "TESORO HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 450000.0
+  },
+  {
+    "contractor": "BOISE VALLEY HABITAT FOR HUMANITY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 230000.0
   }
 ]

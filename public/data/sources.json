@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:57:45+00:00",
+  "generated_at": "2026-08-26T04:55:02+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -8,6 +8,14 @@
       "qualifying_records": 32,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
+    },
+    {
+      "source": "Boise Issued Building Permits",
+      "status": "ok",
+      "records_seen": 42,
+      "qualifying_records": 42,
+      "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
+      "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
@@ -101,6 +109,13 @@
       "mode": "automated-gis",
       "url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "use": "Daily active planning/development tracker; early project leads before building permit issuance"
+    },
+    {
+      "market": "Boise Issued Building Permits",
+      "grade": "A+",
+      "mode": "automated-portal",
+      "url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
+      "use": "Anonymous City of Boise Accela search for issued 402-404 residential, 502 commercial and 506 multifamily building permits; detail pages provide authoritative issue date, valuation, contractor, units and building area"
     },
     {
       "market": "Eagle",
