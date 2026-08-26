@@ -307,7 +307,7 @@ class BoiseIssuedPermitCollector:
         application_code = self._positive_int(self._capture(text, r'Application Type:\s*(\d{3})\b'))
         type_of_permit = self._capture(text, r'Type of Permit:\s*(.+?)(?=\s+Type of Use:)')
         type_of_use = self._capture(text, r'Type of Use:\s*(.+?)(?=\s+Type of Work:)')
-        type_of_work = self._capture(text, r'Type of Work:\s*(.+?)(?=\s+(?:Building Height|Total Building Area|Additional Features|Dwelling Units))')
+        type_of_work = self._capture(text, r'Type of Work:\s*(.+?)(?=\s+(?:Type of Construction|Building Height|Existing Building Area|New Building Area|Total Building Area|Additional Features|Dwelling Units))')
         detached_adu = self._capture(text, r'This residence is a detached Accessory Dwelling Unit \(ADU\):\s*(Yes|No)')
         units = self._positive_int(self._capture(text, r'Number of Units in this building:\s*(\d+)'))
         existing_area = self._number(self._capture(text, r'Existing Building Area:\s*([\d,.]+)'))
@@ -449,13 +449,23 @@ class BoiseIssuedPermitCollector:
             units = detail.get('units') or 0
             return units >= 2 and bool(cls.multifamily_re.search(text)) and bool(re.search(r'\bnew\b|construction', text, re.I))
 
-        # Boise's 502 category mixes new buildings and additions. A positive new-building
-        # phrase is required; addition/remodel language alone is not sufficient.
-        if cls.new_building_re.search(text):
-            return True
-        if cls.alteration_re.search(text):
+        # Boise's 502 category mixes ground-up buildings, additions and alterations.
+        # Prefer Boise's structured Type of Work and building-area fields over descriptive
+        # text so words like "new foundations" cannot turn an addition into a new-building lead.
+        work_kind = cls._norm(detail.get('type_of_work'))
+        if work_kind:
+            if not work_kind.startswith('new'):
+                return False
+            new_area = detail.get('new_building_area')
+            if new_area is not None and new_area <= 0:
+                return False
+            return not cls.excluded_structure_re.search(text)
+        if cls.excluded_structure_re.search(text) or cls.alteration_re.search(text):
             return False
-        return bool(re.search(r'\bconstruct(?:ion)?\b.{0,100}\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\b', text, re.I))
+        return bool(
+            cls.new_building_re.search(text)
+            or re.search(r'\bconstruct(?:ion)?\b.{0,100}\b(?:building|warehouse|hotel|office|facility|store|school|church|shop)\b', text, re.I)
+        )
 
     @classmethod
     def _scope_text(cls, row: dict, detail: dict) -> str:
@@ -466,7 +476,7 @@ class BoiseIssuedPermitCollector:
 
     @staticmethod
     def _norm(value) -> str:
-        return re.sub(r'\s+', ' ', str(value or '')).strip().lower().lower()
+        return re.sub(r'\s+', ' ', str(value or '')).strip().lower()
 
     @classmethod
     def _successful_controls(cls, soup: BeautifulSoup) -> dict[str, str]:

@@ -97,9 +97,10 @@ class BoiseCollectorTests(unittest.TestCase):
         row = self.row('Permit for construction of a new 27,512 sf industrial fabrication building.')
         detail = self.detail(
             application_code=502,
-            type_of_permit=None,
+            type_of_permit='New Structure',
             type_of_use='Industrial',
-            type_of_work=None,
+            type_of_work='New',
+            existing_building_area=0.0,
             new_building_area=27512.0,
             total_building_area=27512.0,
             valuation=4200000.0,
@@ -118,6 +119,38 @@ class BoiseCollectorTests(unittest.TestCase):
         self.assertFalse(self.collector._row_scope_candidate('commercial', remodel))
         self.assertIsNone(self.collector._permit(addition, detail, 'commercial', {502}, self.cutoff, self.today))
         self.assertIsNone(self.collector._permit(remodel, detail, 'commercial', {502}, self.cutoff, self.today))
+
+    def test_commercial_structured_alteration_and_addition_are_rejected(self):
+        screen_wall = self.row(
+            'Permit to construct a new exterior architectural screen wall on the existing FAB building. '
+            'Any alterations to the fire system require a separate permit.',
+            project='MICRON FAB Architectural Screen Wall',
+        )
+        screen_detail = self.detail(
+            application_code=502,
+            type_of_permit='Other',
+            type_of_use='Industrial',
+            type_of_work='Alteration',
+            existing_building_area=8190.0,
+            new_building_area=None,
+            total_building_area=8190.0,
+        )
+        dental_addition = self.row(
+            'Addition and remodel with construction of new foundations and new exterior bearing walls.',
+            project='Building Addition for Idaho Street Dental',
+            number='BLD26-00239',
+        )
+        addition_detail = self.detail(
+            application_code=502,
+            type_of_permit='New Structure',
+            type_of_use='Office',
+            type_of_work='Addition',
+            existing_building_area=1544.0,
+            new_building_area=1682.0,
+            total_building_area=3226.0,
+        )
+        self.assertIsNone(self.collector._permit(screen_wall, screen_detail, 'commercial', {502}, self.cutoff, self.today))
+        self.assertIsNone(self.collector._permit(dental_addition, addition_detail, 'commercial', {502}, self.cutoff, self.today))
 
     def test_foundation_only_commercial_is_rejected(self):
         row = self.row('Foundation only for new pumphouse. NO VERTICAL CONSTRUCTION IS ALLOWED.')
