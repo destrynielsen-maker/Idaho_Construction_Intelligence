@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Inspect borderline Boise commercial permits
+      - name: Inspect Boise 502 issued borderline rows
         run: |
           python - <<'PY'
           import re
@@ -26,7 +26,10 @@ jobs:
           from bs4 import BeautifulSoup
 
           search='https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building'
-          numbers=['BLD26-01687','BLD26-01423','BLD26-00239']
+          wanted={'BLD26-01687','BLD26-01423','BLD26-00239'}
+          type_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
+          status_name='ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
+          type_value='Building/Building/502-New or Added Commercial/NA'
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'})
 
@@ -43,30 +46,38 @@ jobs:
                   if n: out[n]=ch.get('value','') if ch else ''
               return out
 
-          for number in numbers:
-              r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-              data=controls(soup)
-              data.update({
-                  '__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch',
-                  '__EVENTARGUMENT':'',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSPermitNumber':number,
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'01/01/2025',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'',
-                  'ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'',
-              })
-              p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); ps=BeautifulSoup(p.text,'html.parser')
-              link=ps.find('a',id=re.compile(r'_hlPermitNumber$'),string=re.compile('^'+re.escape(number)+'$'))
-              if not link:
-                  link=next((a for a in ps.find_all('a',id=re.compile(r'_hlPermitNumber$')) if ' '.join(a.stripped_strings).strip()==number),None)
-              print('FOUND',number,bool(link))
-              if not link: continue
-              detail_url=urljoin(search,link.get('href',''))
-              d=s.get(detail_url,headers={'Referer':search},timeout=60); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser')
-              text=' '.join(ds.stripped_strings)
+          r=s.get(search,timeout=60); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
+          data=controls(soup); data[type_name]=type_value; data['__EVENTTARGET']=type_name; data['__EVENTARGUMENT']=''
+          p=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=90); p.raise_for_status(); soup=BeautifulSoup(p.text,'html.parser')
+          data=controls(soup)
+          data.update({type_name:type_value,status_name:'Issued','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate':'01/01/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate':'08/25/2026','ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState':'','ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState':'','__EVENTTARGET':'ctl00$PlaceHolderMain$btnNewSearch','__EVENTARGUMENT':''})
+          q=s.post(search,data=data,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); q.raise_for_status(); soup=BeautifulSoup(q.text,'html.parser')
+
+          found={}
+          for page in range(30):
+              table=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList')
+              if not table: break
+              for tr in table.find_all('tr'):
+                  link=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
+                  if not link: continue
+                  number=' '.join(link.stripped_strings).strip()
+                  if number in wanted:
+                      row=' | '.join(' '.join(td.stripped_strings) for td in tr.find_all('td'))
+                      found[number]=(urljoin(search,link.get('href','')),row)
+                      print('ROW',number,row[:2500])
+              if wanted.issubset(found): break
+              next_link=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings).strip()=='Next >'),None)
+              if not next_link: break
+              m=re.search(r"__doPostBack\('([^']*)','([^']*)'\)",next_link.get('href',''))
+              if not m: break
+              pd=controls(soup); pd['__EVENTTARGET']=m.group(1); pd['__EVENTARGUMENT']=m.group(2)
+              nxt=s.post(search,data=pd,headers={'Referer':search,'Origin':'https://permits.cityofboise.org'},timeout=120); nxt.raise_for_status(); soup=BeautifulSoup(nxt.text,'html.parser')
+
+          print('FOUND_NUMBERS',sorted(found))
+          for number,(detail_url,row) in found.items():
+              d=s.get(detail_url,headers={'Referer':search},timeout=60); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser'); text=' '.join(ds.stripped_strings)
               print('DETAIL_URL',number,detail_url)
               for label,pat in [
-                  ('STATUS',r'Record Status:\s*(.+?)(?=\s+Add to Existing Project|\s+Record Info)'),
                   ('PROJECT',r'Project Description:\s*(.+?)(?=\s+More Details)'),
                   ('RECEIVED',r'Received Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
                   ('ISSUED',r'Issued Date:\s*(\d{1,2}/\d{1,2}/\d{4})'),
@@ -80,5 +91,5 @@ jobs:
                   ('VALUE',r'(?:Total Project Value|Initial Value):\s*\$?([\d,.]+)'),
               ]:
                   m=re.search(pat,text,re.I)
-                  print(label,number,m.group(1).strip()[:1600] if m else None)
+                  print(label,number,m.group(1).strip()[:1800] if m else None)
           PY
