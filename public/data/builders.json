@@ -66,6 +66,12 @@
     "valuation_total": 612334.44
   },
   {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 242980.0
+  },
+  {
     "contractor": "PONTIFEX HOMES LLC",
     "count": 3,
     "score_total": 60,
@@ -148,12 +154,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 700000.0
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 172990.0
   },
   {
     "contractor": "WILLOW CREEK HOMES",
@@ -372,6 +372,24 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "GRANITE CONRACTING LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 840000.0
+  },
+  {
+    "contractor": "C5 DEVELOPMENT GROUP, LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 513456.0
+  },
+  {
+    "contractor": "UNITED DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CR HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -405,7 +423,7 @@
     "contractor": "MECK HOMES",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 355581.6
   },
   {
     "contractor": "MVMNT HOMES",
@@ -1152,12 +1170,6 @@
     "valuation_total": 155410.2
   },
   {
-    "contractor": "BLEAK COBY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 110432.52
-  },
-  {
     "contractor": "AERO CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
@@ -1222,5 +1234,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "LUDAN DESIGN AND BUILD LLC.",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 488296.08
   }
 ]
