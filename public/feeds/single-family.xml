@@ -6,18 +6,12 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Aug 2026 20:13:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 09:56:37 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: 711 Franklin Residence — 711 W FRANKLIN ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NHJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,073,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02204</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 11-09-02 (9281-0047) — 2328 N PROVENCE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29630438</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:266939</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
@@ -1214,6 +1208,12 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BLACKSTONE HOMES | 329,044</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0142</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Final Fire met in office 8/17/26  NPO — 7715 E WINDMILL RANCH LN, Nampa   836870000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | DENT CODY | 431,237</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0140</guid>
     </item>
   </channel>
 </rss>

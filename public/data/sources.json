@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:01:52+00:00",
+  "generated_at": "2026-08-27T09:45:45+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 123,
-      "qualifying_records": 1,
+      "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
@@ -35,19 +35,19 @@
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 6,
-      "qualifying_records": 2,
-      "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
-    },
-    {
-      "source": "Coeur d'Alene",
       "status": "error",
       "records_seen": 0,
       "qualifying_records": 0,
+      "source_url": "https://compassidaho.org/development-review-checklists-2026/",
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records"
+    },
+    {
+      "source": "Coeur d'Alene",
+      "status": "ok",
+      "records_seen": 62,
+      "qualifying_records": 5,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "note": "ReadTimeout: HTTPSConnectionPool(host='building.cdaid.org', port=443): Read timed out. (read timeout=45)"
+      "note": "Official issued-permits last-week PDF"
     },
     {
       "source": "Kootenai County",
