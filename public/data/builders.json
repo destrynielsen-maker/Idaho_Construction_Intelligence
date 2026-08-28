@@ -54,6 +54,12 @@
     "valuation_total": 2395209.84
   },
   {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 242980.0
+  },
+  {
     "contractor": "BLAST PROPERTIES LLC",
     "count": 3,
     "score_total": 60,
@@ -64,12 +70,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 612334.44
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 242980.0
   },
   {
     "contractor": "PONTIFEX HOMES LLC",
@@ -294,6 +294,18 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "GRANITE CONRACTING LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 840000.0
+  },
+  {
+    "contractor": "C5 DEVELOPMENT GROUP, LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 513456.0
+  },
+  {
     "contractor": "NW BUILDERS COMPANY INC",
     "count": 1,
     "score_total": 25,
@@ -370,18 +382,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "GRANITE CONRACTING LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 840000.0
-  },
-  {
-    "contractor": "C5 DEVELOPMENT GROUP, LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 513456.0
   },
   {
     "contractor": "UNITED DEVELOPMENT LLC",
@@ -544,6 +544,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 210941.64
+  },
+  {
+    "contractor": "LUDAN DESIGN AND BUILD LLC.",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 488296.08
   },
   {
     "contractor": "KATAN ENTERPRISES",
@@ -1234,11 +1240,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "LUDAN DESIGN AND BUILD LLC.",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 488296.08
   }
 ]
