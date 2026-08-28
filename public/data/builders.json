@@ -102,6 +102,12 @@
     "valuation_total": 810037.2
   },
   {
+    "contractor": "MBH LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 167000.0
+  },
+  {
     "contractor": "ENGINEERED STRUCTURES, INC.",
     "count": 1,
     "score_total": 55,
@@ -130,6 +136,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "RAMSEY CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "VALLE DEVELOPMENT LLC",
@@ -1240,5 +1252,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "NATHAN TAYLOR",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 350000.0
+  },
+  {
+    "contractor": "BIRCH MIKE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
