@@ -54,6 +54,12 @@
     "valuation_total": 2395209.84
   },
   {
+    "contractor": "MBH LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 167000.0
+  },
+  {
     "contractor": "COREY BARTON HOMES INC",
     "count": 3,
     "score_total": 60,
@@ -100,12 +106,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 810037.2
-  },
-  {
-    "contractor": "MBH LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 167000.0
   },
   {
     "contractor": "ENGINEERED STRUCTURES, INC.",
@@ -394,6 +394,18 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "NATHAN TAYLOR",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 350000.0
+  },
+  {
+    "contractor": "BIRCH MIKE",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "UNITED DEVELOPMENT LLC",
@@ -1252,17 +1264,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "NATHAN TAYLOR",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 350000.0
-  },
-  {
-    "contractor": "BIRCH MIKE",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

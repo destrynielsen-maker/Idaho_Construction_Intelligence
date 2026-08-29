@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 28 Aug 2026 22:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 07:13:56 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: Boesiger - Parcel B — 2123 N 32ND ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DV8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -44,10 +44,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01866</guid>
     </item>
     <item>
-      <title>[20] Boise: 4-3 Kirsten #2 — 6587 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P3M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02363</guid>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 LANSING LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SOUTHSIDE BLVD, Melba   836410000</title>
@@ -56,10 +56,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0674</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 LANSING LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
+      <title>[20] Boise: 4-3 Kirsten #2 — 6587 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P3M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02363</guid>
     </item>
     <item>
       <title>[27] Boise: 711 Franklin Residence — 711 W FRANKLIN ST, Boise ID 83702</title>
