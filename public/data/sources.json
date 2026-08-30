@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T20:54:16+00:00",
+  "generated_at": "2026-08-30T05:22:45+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 43,
-      "qualifying_records": 43,
+      "records_seen": 42,
+      "qualifying_records": 42,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
