@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T05:22:45+00:00",
+  "generated_at": "2026-08-30T11:53:05+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -44,8 +44,8 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 62,
-      "qualifying_records": 5,
+      "records_seen": 51,
+      "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
       "note": "Official issued-permits last-week PDF"
     },
