@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 31 Aug 2026 05:41:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:57:08 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: Boesiger - Parcel B — 2123 N 32ND ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DV8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -176,7 +176,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0637</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 LON DAVIS RD, Parma   836600000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25992 LON DAVIS RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BUILDING IDAHO CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0636</guid>
@@ -207,9 +207,9 @@
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-HOLD - CP2026-0059 needs to be approved before this permit can be issued — 0 LON DAVIS RD, Parma   836600000</title>
+HOLD - CP2026-0059 needs to be approved before this permit can be issued — 25994 LON DAVIS RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 0</description>
+      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 222,437</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0631</guid>
     </item>
     <item>
@@ -403,7 +403,7 @@ HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14731 HILLSIDE DR, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CHAMBERLAIN CORBIN | 0</description>
+      <description>SINGLE_FAMILY | CHAMBERLAIN CORBIN | 465,726</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0603</guid>
     </item>
     <item>
@@ -525,12 +525,6 @@ HOLD  waiting on CP2026-0054 approval — 0 PURPLE SAGE RD, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 304,812</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0586</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12725 FRED LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SANTACRUZ ERIC | 214,604</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0581</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 15334 RHODES CT, Caldwell   836070000</title>
@@ -1213,6 +1207,12 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | COBLE MICHAEL | 292,290</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0191</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 23698 BOEHNER RD, Wilder   83676</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SCHROEDER ENTERPRISES INC | 502,915</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0166</guid>
     </item>
   </channel>
 </rss>
