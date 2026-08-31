@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 31 Aug 2026 13:57:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 23:01:38 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: Gross Residence — 805 E JEFFERSON ST, Boise ID 83712</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005LU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | FLYNNER PROPERTIES LLC | 600,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00467</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Clinton St Residence — 4620 W CLINTON ST, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L71&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MACHADO CONSTRUCTION LLC | 435,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
+    </item>
     <item>
       <title>[20] Boise: Boesiger - Parcel B — 2123 N 32ND ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DV8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1201,18 +1213,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | HASANOVIC TEA | 351,917</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0192</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13433 LAKE SHORE DR, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | COBLE MICHAEL | 292,290</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0191</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 23698 BOEHNER RD, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SCHROEDER ENTERPRISES INC | 502,915</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0166</guid>
     </item>
   </channel>
 </rss>

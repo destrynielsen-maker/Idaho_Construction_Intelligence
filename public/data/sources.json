@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:46:33+00:00",
+  "generated_at": "2026-08-31T22:49:10+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,16 +12,16 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 42,
-      "qualifying_records": 42,
+      "records_seen": 44,
+      "qualifying_records": 44,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 126,
-      "qualifying_records": 0,
+      "records_seen": 125,
+      "qualifying_records": 1,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
@@ -35,11 +35,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 6,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records"
     },
     {
       "source": "Coeur d'Alene",
@@ -52,10 +52,10 @@
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 37,
+      "records_seen": 33,
       "qualifying_records": 0,
       "source_url": "https://kcgov.us/Archive/44",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 9, 2026 (4 parsed)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed)"
     },
     {
       "source": "Meridian",
