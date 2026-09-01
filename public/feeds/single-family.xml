@@ -6,19 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Sep 2026 16:51:00 +0000</lastBuildDate>
-    <item>
-      <title>[15] Eagle: New Single Family Construction — 4389 W Strant Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29646069</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267085</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: NEW SINGLE-FAMILY HOME — 7367 POWELL PLACE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29645728</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267082</guid>
-    </item>
+    <lastBuildDate>Tue, 01 Sep 2026 21:12:29 +0000</lastBuildDate>
     <item>
       <title>[25] Boise: Gross Residence — 805 E JEFFERSON ST, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005LU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1213,6 +1201,18 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00216</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00216</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE  Revision picked up 7/21/26 LH — 9833 S PEREGRINE FALCON AVE, Nampa   83686</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 334,773</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0193</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1002 N 63RD ST, Nampa   83687</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | HASANOVIC TEA | 351,917</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0192</guid>
     </item>
   </channel>
 </rss>

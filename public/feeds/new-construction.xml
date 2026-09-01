@@ -6,19 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Sep 2026 16:51:00 +0000</lastBuildDate>
-    <item>
-      <title>[15] Eagle: New Single Family Construction — 4389 W Strant Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29646069</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267085</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: NEW SINGLE-FAMILY HOME — 7367 POWELL PLACE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29645728</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267082</guid>
-    </item>
+    <lastBuildDate>Tue, 01 Sep 2026 21:12:29 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29641560</link>
@@ -1215,6 +1203,18 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ANDERSON JUSTIN A | 247,411</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0330</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23686 LEGENDS LN, Caldwell   83607</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRADSHAW WEST CONSTRUCTION | 846,775</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0324</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1029 E DUNCAN CREEK ST, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | CBH HOMES | 237,297</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0323</guid>
     </item>
   </channel>
 </rss>
