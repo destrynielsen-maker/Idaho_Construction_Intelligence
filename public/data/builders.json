@@ -306,6 +306,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "FLYNNER PROPERTIES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 600000.0
+  },
+  {
     "contractor": "GRANITE CONRACTING LLC",
     "count": 1,
     "score_total": 25,
@@ -396,10 +402,10 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "FLYNNER PROPERTIES LLC",
+    "contractor": "MACHADO CONSTRUCTION LLC",
     "count": 1,
-    "score_total": 25,
-    "valuation_total": 600000.0
+    "score_total": 20,
+    "valuation_total": 435000.0
   },
   {
     "contractor": "NATHAN TAYLOR",
@@ -1258,11 +1264,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "MACHADO CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 435000.0
   }
 ]
