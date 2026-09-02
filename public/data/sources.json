@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T21:00:57+00:00",
+  "generated_at": "2026-09-02T04:31:30+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -20,10 +20,10 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 42,
+      "records_seen": 54,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 4 current page(s) crawled; shared classifier suppresses trade permits"
+      "note": "Official City of Eagle iWorQ public permit portal; 5 current page(s) crawled; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
