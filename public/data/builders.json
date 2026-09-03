@@ -54,6 +54,12 @@
     "valuation_total": 612334.44
   },
   {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 312970.0
+  },
+  {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
     "count": 3,
     "score_total": 72,
@@ -64,12 +70,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 167000.0
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 242980.0
   },
   {
     "contractor": "BLAST PROPERTIES LLC",
@@ -144,6 +144,18 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "JD CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 263605.2
+  },
+  {
+    "contractor": "BROOKSTONE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 304811.76
+  },
+  {
     "contractor": "VALLE DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
@@ -166,12 +178,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 700000.0
-  },
-  {
-    "contractor": "BROOKSTONE CUSTOM HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 304811.76
   },
   {
     "contractor": "WILLOW CREEK HOMES",
@@ -214,12 +220,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
-  },
-  {
-    "contractor": "JD CUSTOM HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 263605.2
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",

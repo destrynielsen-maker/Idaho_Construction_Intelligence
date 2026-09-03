@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 16:36:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:13:03 +0000</lastBuildDate>
     <item>
       <title>[55] Boise: MICRON - ID1 B111F Opal Dewatering Building — 8000 S FEDERAL WAY, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005L7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -183,16 +183,16 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <guid isPermaLink="false">ID:NAMPA:RES-18824-2026</guid>
     </item>
     <item>
-      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
-    </item>
-    <item>
       <title>[40] Nampa: 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT28 BLK07 Middlebury North #2 — Permit Number: RES-18785-2026 Situs: 15557 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 125,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18785-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
     </item>
     <item>
       <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>

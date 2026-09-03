@@ -6,18 +6,12 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 16:36:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:13:03 +0000</lastBuildDate>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 140,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18824-2026</guid>
-    </item>
-    <item>
-      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
     </item>
     <item>
       <title>[40] Nampa: 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT28 BLK07 Middlebury North #2 — Permit Number: RES-18785-2026 Situs: 15557 N Exeter Way Nampa, Id 83651</title>
@@ -26,16 +20,22 @@
       <guid isPermaLink="false">ID:NAMPA:RES-18785-2026</guid>
     </item>
     <item>
+      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
+    </item>
+    <item>
       <title>[27] Boise: 363 Panorama Residence — 363 N PANORAMA PL, BLDG, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L7M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,183,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01989</guid>
     </item>
     <item>
-      <title>[15] Eagle: NEW RESIDENTIAL CONSTRUCTION 09-11-02 (9282-0026) — 2160 N HONALEE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29653834</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267163</guid>
+      <title>[20] Boise: 5-4 Kirsten #2 — 6572 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6J&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02372</guid>
     </item>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
@@ -50,16 +50,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00467</guid>
     </item>
     <item>
-      <title>[20] Boise: Clinton St Residence — 4620 W CLINTON ST, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L71&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MACHADO CONSTRUCTION LLC | 435,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7612 E NEWCASTLE DR, Nampa   836870000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6934 E CHICKEN HAWK LOOP, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0681</guid>
+      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
     </item>
     <item>
       <title>[20] Canyon County: New residentual home. | Purpose: Single family residentual home. — 0 RIVER BLUFF RD, Parma   836600000</title>
@@ -68,10 +62,16 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0682</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6934 E CHICKEN HAWK LOOP, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7612 E NEWCASTLE DR, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
+      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0681</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Clinton St Residence — 4620 W CLINTON ST, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L71&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MACHADO CONSTRUCTION LLC | 435,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 USTICK RD, Wilder   836760000</title>
