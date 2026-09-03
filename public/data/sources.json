@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T11:12:24+00:00",
+  "generated_at": "2026-09-03T16:24:24+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1057,
+      "records_seen": 1064,
       "qualifying_records": 31,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -12,24 +12,24 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 43,
-      "qualifying_records": 43,
+      "records_seen": 44,
+      "qualifying_records": 44,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 97,
-      "qualifying_records": 0,
+      "records_seen": 109,
+      "qualifying_records": 1,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 767,
-      "qualifying_records": 247,
+      "records_seen": 769,
+      "qualifying_records": 248,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
@@ -68,10 +68,10 @@
     {
       "source": "Nampa",
       "status": "ok",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20797/Weekly-Permit-Activity-Report-08-17-2026---08-21-2026",
-      "note": "Latest discovered report: 08/17/2026 \u2013 08/21/2026"
+      "records_seen": 4,
+      "qualifying_records": 4,
+      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026",
+      "note": "Latest discovered report: 08/24/2026 \u2013 08/28/2026"
     }
   ],
   "directory": [

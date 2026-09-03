@@ -1,15 +1,15 @@
 [
   {
-    "contractor": "CBH HOMES",
-    "count": 23,
-    "score_total": 460,
-    "valuation_total": 6369526.4399999995
-  },
-  {
     "contractor": "TH CONSTRUCTION LLC",
     "count": 10,
     "score_total": 450,
     "valuation_total": 2860000.0
+  },
+  {
+    "contractor": "CBH HOMES",
+    "count": 22,
+    "score_total": 440,
+    "valuation_total": 6003861.359999999
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -48,6 +48,12 @@
     "valuation_total": 402431.52
   },
   {
+    "contractor": "RIVERWOOD HOMES",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 612334.44
+  },
+  {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
     "count": 3,
     "score_total": 72,
@@ -70,12 +76,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 775411.2
-  },
-  {
-    "contractor": "RIVERWOOD HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 612334.44
   },
   {
     "contractor": "PONTIFEX HOMES LLC",
@@ -114,6 +114,12 @@
     "valuation_total": 64481344.0
   },
   {
+    "contractor": "VISSER BUILDING COMPANY LLC",
+    "count": 2,
+    "score_total": 54,
+    "valuation_total": 2256600.0
+  },
+  {
     "contractor": "CONNER CONSTRUCTION LLC",
     "count": 2,
     "score_total": 50,
@@ -138,16 +144,10 @@
     "valuation_total": 2000000.0
   },
   {
-    "contractor": "RAMSEY CONSTRUCTION",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
     "contractor": "VALLE DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 0
+    "valuation_total": 343293.84
   },
   {
     "contractor": "ETHAN EELLS LLC",
@@ -166,6 +166,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 700000.0
+  },
+  {
+    "contractor": "BROOKSTONE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 304811.76
   },
   {
     "contractor": "WILLOW CREEK HOMES",
@@ -208,6 +214,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
+  },
+  {
+    "contractor": "JD CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 263605.2
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -288,12 +300,6 @@
     "valuation_total": 80000.0
   },
   {
-    "contractor": "VISSER BUILDING COMPANY LLC",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 1073600.0
-  },
-  {
     "contractor": "HHS CONSTRUCTION LLC",
     "count": 1,
     "score_total": 27,
@@ -328,6 +334,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 825000.0
+  },
+  {
+    "contractor": "CATON RIAN",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 552428.64
   },
   {
     "contractor": "IRONWOOD HOMES LLC",
@@ -408,10 +420,22 @@
     "valuation_total": 435000.0
   },
   {
+    "contractor": "KOMPANIET NICK",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "NATHAN TAYLOR",
     "count": 1,
     "score_total": 20,
     "valuation_total": 350000.0
+  },
+  {
+    "contractor": "RAMSEY CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "BIRCH MIKE",
@@ -453,7 +477,7 @@
     "contractor": "BUILDING IDAHO CONSTRUCTION",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 261559.32
   },
   {
     "contractor": "MECK HOMES",
@@ -465,7 +489,7 @@
     "contractor": "MVMNT HOMES",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 314023.68
   },
   {
     "contractor": "ABSTRACT RESIDENTIAL DESIGN + BUILD",
@@ -510,22 +534,10 @@
     "valuation_total": 465725.52
   },
   {
-    "contractor": "CATON RIAN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "PROMINENT HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 404676.96
-  },
-  {
-    "contractor": "BROOKSTONE CUSTOM HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 304811.76
   },
   {
     "contractor": "STONE SUMMIT HOMES LLC",
@@ -712,12 +724,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 274737.96
-  },
-  {
-    "contractor": "JD CUSTOM HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 263605.2
   },
   {
     "contractor": "TRINITY DEVELOPMENT GROUP LLC",
@@ -1198,12 +1204,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 155410.2
-  },
-  {
-    "contractor": "AERO CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 358390.08
   },
   {
     "contractor": "SMITH ERIC BOYD",

@@ -6,7 +6,31 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 11:24:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 16:36:23 +0000</lastBuildDate>
+    <item>
+      <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 140,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18824-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT28 BLK07 Middlebury North #2 — Permit Number: RES-18785-2026 Situs: 15557 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18785-2026</guid>
+    </item>
+    <item>
+      <title>[50] Nampa: Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs — Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 8,007,184</description>
+      <guid isPermaLink="false">ID:NAMPA:COM-04918-2025</guid>
+    </item>
     <item>
       <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00515</link>
