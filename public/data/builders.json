@@ -300,6 +300,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "SAGE AND CO LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1100000.0
+  },
+  {
     "contractor": "HHS CONSTRUCTION LLC",
     "count": 1,
     "score_total": 27,
@@ -310,12 +316,6 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
-  },
-  {
-    "contractor": "SAGE AND CO LLC",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 1100000.0
   },
   {
     "contractor": "FLYNNER PROPERTIES LLC",
