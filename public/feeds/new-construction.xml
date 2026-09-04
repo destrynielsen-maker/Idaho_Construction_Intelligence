@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 04 Sep 2026 16:31:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 20:56:11 +0000</lastBuildDate>
+    <item>
+      <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003MJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | SAGE AND CO LLC | 1,100,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00311</guid>
+    </item>
     <item>
       <title>[20] Boise: Monitor Way/Syringa Springs — 10036 W MALAD ST, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IZ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -18,12 +24,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IO2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01784</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Single Family Home — 2973 N. Eagle Rd. Ste. 110</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29656754</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267206</guid>
     </item>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
@@ -50,6 +50,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01989</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28450 SANDY LN, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MARSH SHANNON | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0689</guid>
+    </item>
+    <item>
       <title>[20] Boise: 5-4 Kirsten #2 — 6572 S ZIPPORA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6J&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
@@ -60,12 +66,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NQE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | BILTMORE CO LLC | 163,500</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28450 SANDY LN, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MARSH SHANNON | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0689</guid>
     </item>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>

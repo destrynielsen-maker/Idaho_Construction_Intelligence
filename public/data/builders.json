@@ -48,6 +48,12 @@
     "valuation_total": 402431.52
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "COREY BARTON HOMES INC",
     "count": 4,
     "score_total": 80,
@@ -58,12 +64,6 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 612334.44
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -312,6 +312,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "SAGE AND CO LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1100000.0
+  },
+  {
     "contractor": "FLYNNER PROPERTIES LLC",
     "count": 1,
     "score_total": 25,
@@ -418,6 +424,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "MARSH SHANNON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "BILTMORE CO LLC",
@@ -1270,11 +1282,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "MARSH SHANNON",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

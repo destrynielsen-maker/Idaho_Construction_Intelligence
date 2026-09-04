@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:20:20+00:00",
+  "generated_at": "2026-09-04T20:44:26+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 45,
-      "qualifying_records": 45,
+      "records_seen": 46,
+      "qualifying_records": 46,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 124,
-      "qualifying_records": 1,
+      "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
     },
@@ -44,7 +44,7 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 51,
+      "records_seen": 52,
       "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
       "note": "Official issued-permits last-week PDF"
