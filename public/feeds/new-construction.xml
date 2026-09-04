@@ -6,7 +6,25 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 04 Sep 2026 11:26:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 16:31:40 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10036 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IZ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01817</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10041 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IO2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01784</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Single Family Home — 2973 N. Eagle Rd. Ste. 110</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29656754</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267206</guid>
+    </item>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
@@ -42,6 +60,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NQE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | BILTMORE CO LLC | 163,500</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28450 SANDY LN, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MARSH SHANNON | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0689</guid>
     </item>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
@@ -227,9 +251,9 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 0</description>
+      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 538,645</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
     </item>
     <item>
@@ -1193,30 +1217,6 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | WHITE ANDREW BRAIDEN | 274,738</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0375</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + RV BAY — 13305 PROMINENCE RIDGE LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 440,923</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0370</guid>
-    </item>
-    <item>
-      <title>[30] Caldwell: KCID Commercial Subdivision — Caldwell, ID</title>
-      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_kcid-commercial.pdf</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202605-8746FF23</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1732 S EUCLID AVE — 1732 S EUCLID AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00347</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00347</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13454 MANZANITA LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 263,605</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0357</guid>
     </item>
   </channel>
 </rss>

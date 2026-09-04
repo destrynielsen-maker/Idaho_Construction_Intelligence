@@ -7,9 +7,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 22,
-    "score_total": 440,
-    "valuation_total": 6003861.359999999
+    "count": 21,
+    "score_total": 420,
+    "valuation_total": 5756317.319999999
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -58,6 +58,12 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 612334.44
+  },
+  {
+    "contractor": "Thomas Lufkin",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -166,12 +172,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 429757.44
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "KOUBA HOMES LLC",
@@ -330,6 +330,12 @@
     "valuation_total": 513456.0
   },
   {
+    "contractor": "RICKMAN BUILDING COMPANY",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 538645.44
+  },
+  {
     "contractor": "NW BUILDERS COMPANY INC",
     "count": 1,
     "score_total": 25,
@@ -469,12 +475,6 @@
   },
   {
     "contractor": "HIGHLAND HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "RICKMAN BUILDING COMPANY",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -1270,5 +1270,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "MARSH SHANNON",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
