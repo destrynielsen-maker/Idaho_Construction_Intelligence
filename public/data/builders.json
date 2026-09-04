@@ -48,16 +48,16 @@
     "valuation_total": 402431.52
   },
   {
-    "contractor": "RIVERWOOD HOMES",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 612334.44
-  },
-  {
     "contractor": "COREY BARTON HOMES INC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 312970.0
+  },
+  {
+    "contractor": "RIVERWOOD HOMES",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 612334.44
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -1264,5 +1264,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "BILTMORE CO LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 163500.0
   }
 ]

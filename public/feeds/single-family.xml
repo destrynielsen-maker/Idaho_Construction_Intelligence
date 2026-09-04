@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 21:13:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:41:36 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: 363 Panorama Residence — 363 N PANORAMA PL, BLDG, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L7M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -18,6 +18,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6J&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02372</guid>
+    </item>
+    <item>
+      <title>[20] Boise: BV.L11.B01 — 3555 E WARM SPRINGS AVE, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NQE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 163,500</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
     </item>
     <item>
       <title>[25] Boise: Gross Residence — 805 E JEFFERSON ST, Boise ID 83712</title>
@@ -1209,12 +1215,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ZZ CONSTRUCTION | 260,532</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0225</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13921 SHAW MOUNTAIN ST, Nampa   83651</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 385,306</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0216</guid>
     </item>
   </channel>
 </rss>
