@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:22:58+00:00",
+  "generated_at": "2026-09-07T04:38:23+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,16 +11,16 @@
     },
     {
       "source": "Boise Issued Building Permits",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 43,
+      "qualifying_records": 43,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
-      "note": "ReadTimeout: HTTPSConnectionPool(host='permits.cityofboise.org', port=443): Read timed out. (read timeout=90)"
+      "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 124,
+      "records_seen": 125,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
