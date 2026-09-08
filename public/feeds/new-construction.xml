@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 08 Sep 2026 16:49:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 21:20:41 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: Polecat — 5544 N POLECAT LOFTS LN, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | CONSULTING AND RENOVATION SERVICES LLC | 547,381</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02225</guid>
+    </item>
     <item>
       <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003MJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1211,12 +1217,6 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MADDYN HOMES LLC | 346,573</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0378</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE - Final Fire District met at intake — 26909 HIDDEN HAVEN LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WHITE ANDREW BRAIDEN | 274,738</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0375</guid>
     </item>
   </channel>
 </rss>
