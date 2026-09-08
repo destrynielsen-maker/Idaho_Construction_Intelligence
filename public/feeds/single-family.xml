@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 08 Sep 2026 11:27:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 16:49:30 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003MJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -80,7 +80,7 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 USTICK RD, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18094 MCINTYRE LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | KOMPANIET NICK | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0679</guid>
@@ -124,7 +124,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
 DO NOT ISSUE BP UNTIL CP2026-0044 IS APPROVED/COMPLETE&#13;
-DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBER FOR NEW DEEDS!!! — 0 LANSING LN, Middleton   836440000</title>
+DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 0 LANSING LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
@@ -447,7 +447,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
 HOLD  waiting on CP2026-0054 approval — 24944 KENRIDGE RD, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 0</description>
+      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 322,373</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0606</guid>
     </item>
     <item>
@@ -469,7 +469,7 @@ HOLD  waiting on CP2026-0054 approval — 24944 KENRIDGE RD, Caldwell</title>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0661</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR (ALREADY BUILT) — 0 BOISE RIVER RD, Caldwell</title>
+      <title>[20] Canyon County: NEW SFR (ALREADY BUILT) — 24500 BOISE RIVER RD, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | AJB CONTRACTORS LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0604</guid>

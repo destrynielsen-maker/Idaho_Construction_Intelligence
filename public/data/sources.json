@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:16:54+00:00",
+  "generated_at": "2026-09-08T16:36:51+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -20,7 +20,7 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 125,
+      "records_seen": 127,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
@@ -28,8 +28,8 @@
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 770,
-      "qualifying_records": 248,
+      "records_seen": 773,
+      "qualifying_records": 247,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
@@ -55,7 +55,7 @@
       "records_seen": 33,
       "qualifying_records": 0,
       "source_url": "https://kcgov.us/Archive/44",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (9 parsed)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed)"
     },
     {
       "source": "Meridian",
