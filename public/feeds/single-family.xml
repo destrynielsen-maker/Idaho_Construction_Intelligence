@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 09 Sep 2026 16:49:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 21:07:31 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 5 — 3530 N JACKIE LN, BOISE ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IXV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | CR HOMES INC | 242,800</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01810</guid>
+    </item>
     <item>
       <title>[25] Boise: Polecat — 5544 N POLECAT LOFTS LN, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1209,12 +1215,6 @@ DO NOT ISSUE BP UNTIL CP2026-0024 IS APPROVED/COMPLETE — 3207 SUNSHINE LN, Cal
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | JONES HOMES | 398,868</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0246</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW PRIMARY SFR W/ ATTACHED GARAGE — 12711 DRAFT ST, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 246,437</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0243</guid>
     </item>
   </channel>
 </rss>

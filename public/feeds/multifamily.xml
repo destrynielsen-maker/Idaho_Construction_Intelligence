@@ -6,7 +6,19 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 09 Sep 2026 16:49:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 21:07:31 +0000</lastBuildDate>
+    <item>
+      <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01805</guid>
+    </item>
+    <item>
+      <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 1 &amp; 2 — 3524 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IOT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
+    </item>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>

@@ -24,6 +24,12 @@
     "valuation_total": 3000000.0
   },
   {
+    "contractor": "CR HOMES INC",
+    "count": 4,
+    "score_total": 130,
+    "valuation_total": 1150000.0
+  },
+  {
     "contractor": "PATHWAY BUILDERS",
     "count": 5,
     "score_total": 100,
@@ -475,12 +481,6 @@
   },
   {
     "contractor": "UNITED DEVELOPMENT LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CR HOMES INC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0

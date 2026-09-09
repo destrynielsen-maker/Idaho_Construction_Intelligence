@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:36:56+00:00",
+  "generated_at": "2026-09-09T20:54:55+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 44,
-      "qualifying_records": 44,
+      "records_seen": 47,
+      "qualifying_records": 47,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -35,11 +35,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 6,
+      "qualifying_records": 2,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records"
+      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
     },
     {
       "source": "Coeur d'Alene",
