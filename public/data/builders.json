@@ -318,6 +318,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 547381.47
+  },
+  {
     "contractor": "FLYNNER PROPERTIES LLC",
     "count": 1,
     "score_total": 25,
@@ -424,12 +430,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 547381.47
   },
   {
     "contractor": "MARSH SHANNON",

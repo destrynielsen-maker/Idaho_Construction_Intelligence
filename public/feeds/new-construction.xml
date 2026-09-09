@@ -6,12 +6,24 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 08 Sep 2026 21:20:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:50:17 +0000</lastBuildDate>
     <item>
       <title>[25] Boise: Polecat — 5544 N POLECAT LOFTS LN, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CONSULTING AND RENOVATION SERVICES LLC | 547,381</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02225</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home Single Family Residential — 3729 N Harvest Moon</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29663517</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267281</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Single-Family Development — 6914 W. Tolland Street</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29663411</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267279</guid>
     </item>
     <item>
       <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
@@ -1205,18 +1217,6 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN25-00638</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN25-00638</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 17186 TRIPLE CROWN PL, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 332,666</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0379</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24821 HAFLINGER WAY, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 346,573</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0378</guid>
     </item>
   </channel>
 </rss>
