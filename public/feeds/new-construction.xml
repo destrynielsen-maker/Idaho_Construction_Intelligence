@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 10 Sep 2026 11:28:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:35:47 +0000</lastBuildDate>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -30,6 +30,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CONSULTING AND RENOVATION SERVICES LLC | 547,381</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02225</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
     </item>
     <item>
       <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
@@ -110,7 +116,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
     </item>
     <item>
-      <title>[20] Canyon County: New residentual home. | Purpose: Single family residentual home. — 0 RIVER BLUFF RD, Parma   836600000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 RIVER BLUFF RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0682</guid>
@@ -172,7 +178,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
 DO NOT ISSUE BP UNTIL CP2026-0044 IS APPROVED/COMPLETE&#13;
-DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 0 LANSING LN, Middleton   836440000</title>
+DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
@@ -203,9 +209,9 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
     </item>
     <item>
-      <title>[35] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
+      <title>[40] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 0</description>
+      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 621,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
     </item>
     <item>
@@ -789,6 +795,14 @@ HOLD  waiting on CP2026-0054 approval — 24944 KENRIDGE RD, Caldwell</title>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0586</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+** Returned check on 8/28/26.  Put on Hold … no inspections until cash or cashier's check is brought in for the fees due  JA  Please notify me when paid.&#13;
+Note: Eric called for prefloor inspection, B.O. left phone message requesting payment. 9/8/2026 TC.  Paid Fee 9/8/26  MG — 12725 FRED LN, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SANTACRUZ ERIC | 214,604</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0581</guid>
+    </item>
+    <item>
       <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -1183,7 +1197,7 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0424</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel  Final SWDH met in office 07/13/26 LH — 18355 BOW LN, Wilder   83676</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel  Final SWDH met in office 07/13/26 LH  Final Fire District met in office 9/9/26  MG — 18355 BOW LN, Wilder   83676</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RKL HOMES | 228,267</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0422</guid>
@@ -1205,18 +1219,6 @@ DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 143,553</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0410</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25436 BUR OAK PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | THUNDER MOUNTAIN HOMES | 381,241</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0407</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 11244 LAKE SHORE DR, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WES MILLER CONSTRUCTION LLC | 301,475</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0393</guid>
     </item>
   </channel>
 </rss>

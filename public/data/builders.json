@@ -7,9 +7,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 21,
-    "score_total": 420,
-    "valuation_total": 5756317.319999999
+    "count": 19,
+    "score_total": 380,
+    "valuation_total": 5174577.6
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -192,12 +192,6 @@
     "valuation_total": 785612.52
   },
   {
-    "contractor": "ASA CONSTRUCTION",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 511877.88
-  },
-  {
     "contractor": "PINEVIEW DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
@@ -240,12 +234,6 @@
     "valuation_total": 515320.68
   },
   {
-    "contractor": "BLACKSTONE HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 754500.36
-  },
-  {
     "contractor": "IDEAL CUSTOM HOMES INC",
     "count": 2,
     "score_total": 40,
@@ -270,6 +258,12 @@
     "valuation_total": 490083.12
   },
   {
+    "contractor": "PEARMAN CONTRACTING LLC",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 621000.0
+  },
+  {
     "contractor": "THE ARCHITECTS OFFICE PLLC",
     "count": 1,
     "score_total": 40,
@@ -280,12 +274,6 @@
     "count": 1,
     "score_total": 40,
     "valuation_total": 450000.0
-  },
-  {
-    "contractor": "PEARMAN CONTRACTING LLC",
-    "count": 1,
-    "score_total": 35,
-    "valuation_total": 0
   },
   {
     "contractor": "CONSOR",
@@ -592,6 +580,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 230000.0
+  },
+  {
+    "contractor": "ASA CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 199704.24
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -904,6 +898,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 354112.68
+  },
+  {
+    "contractor": "BLACKSTONE HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 329043.72
   },
   {
     "contractor": "BLACKWOOD INTERIORS",
@@ -1282,5 +1282,29 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "LEXAR HOMES (STILETTO CONSTRUCTION)",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "SANTACRUZ ERIC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 214603.56
+  },
+  {
+    "contractor": "SWAGGART BUILDERS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 397501.68
+  },
+  {
+    "contractor": "PACHECO FABIAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 398410.8
   }
 ]

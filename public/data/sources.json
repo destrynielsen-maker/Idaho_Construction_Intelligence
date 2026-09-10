@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T11:17:07+00:00",
+  "generated_at": "2026-09-10T16:22:57+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1051,
+      "records_seen": 1060,
       "qualifying_records": 30,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -20,7 +20,7 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 124,
+      "records_seen": 125,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
@@ -28,7 +28,7 @@
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 773,
+      "records_seen": 770,
       "qualifying_records": 247,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "error",
-      "records_seen": 0,
+      "status": "ok",
+      "records_seen": 59,
       "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermitsLastWeek"
+      "note": "Official issued-permits last-week PDF"
     },
     {
       "source": "Kootenai County",
@@ -60,10 +60,10 @@
     {
       "source": "Meridian",
       "status": "ok",
-      "records_seen": 17,
-      "qualifying_records": 14,
+      "records_seen": 44,
+      "qualifying_records": 37,
       "source_url": "https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (17 parsed). Failures: 2026-08-03 through 2026-08-09: HTTPError"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-03 through 2026-08-09 (27 parsed); 2026-08-10 through 2026-08-16 (17 parsed)"
     },
     {
       "source": "Nampa",

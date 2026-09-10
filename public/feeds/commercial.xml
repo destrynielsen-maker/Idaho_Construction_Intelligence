@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 10 Sep 2026 11:28:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:35:47 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29641560</link>
@@ -14,9 +14,9 @@
       <guid isPermaLink="false">ID:EAGLE:267038</guid>
     </item>
     <item>
-      <title>[35] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
+      <title>[40] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 0</description>
+      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 621,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
     </item>
     <item>
