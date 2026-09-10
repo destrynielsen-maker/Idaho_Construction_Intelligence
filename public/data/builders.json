@@ -426,6 +426,12 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "LEXAR HOMES (STILETTO CONSTRUCTION)",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "MARSH SHANNON",
     "count": 1,
     "score_total": 20,
@@ -550,6 +556,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 404676.96
+  },
+  {
+    "contractor": "SANTACRUZ ERIC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 214603.56
   },
   {
     "contractor": "STONE SUMMIT HOMES LLC",
@@ -732,6 +744,12 @@
     "valuation_total": 381240.72
   },
   {
+    "contractor": "SWAGGART BUILDERS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 397501.68
+  },
+  {
     "contractor": "WES MILLER CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
@@ -874,6 +892,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 292289.52
+  },
+  {
+    "contractor": "PACHECO FABIAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 398410.8
   },
   {
     "contractor": "HUNTER HOMES",
@@ -1282,29 +1306,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "LEXAR HOMES (STILETTO CONSTRUCTION)",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "SANTACRUZ ERIC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 214603.56
-  },
-  {
-    "contractor": "SWAGGART BUILDERS LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 397501.68
-  },
-  {
-    "contractor": "PACHECO FABIAN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 398410.8
   }
 ]
