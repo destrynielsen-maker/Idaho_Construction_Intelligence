@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:54:55+00:00",
+  "generated_at": "2026-09-10T04:40:42+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -20,7 +20,7 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 125,
+      "records_seen": 124,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 59,
+      "status": "error",
+      "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "note": "Official issued-permits last-week PDF"
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermitsLastWeek"
     },
     {
       "source": "Kootenai County",
