@@ -1,6 +1,9 @@
 name: Caldwell collector audit
 
 on:
+  push:
+    branches:
+      - audit-caldwell-compass
   workflow_dispatch:
 
 permissions:
@@ -35,7 +38,7 @@ jobs:
               print('CALDWELL_NODE', node.name, node.get('class'), repr(' '.join(node.stripped_strings)[:500]))
               parent=node.parent
               if parent:
-                  print('PARENT', parent.name, parent.get('class'), repr(' '.join(parent.stripped_strings)[:1000]))
+                  print('PARENT', parent.name, parent.get('class'), repr(' '.join(parent.stripped_strings)[:1200]))
           records=records_from_page(r.text,r.url,2026)
           print('PARSED', len(records), [(p.project_name,p.issued_date,p.source_url) for p in records])
           PY
