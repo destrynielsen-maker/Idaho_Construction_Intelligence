@@ -18,36 +18,32 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect live Kootenai reports
+      - name: Inspect Kootenai layout extraction
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          from idaho_permits.classify import classify_permit
-          from idaho_permits.collectors.common import discover_links, get, pdf_text
-          from idaho_permits.collectors.kootenai_county import ARCHIVE_URL, KootenaiCountyCollector, parse_kootenai
+          from io import BytesIO
+          from pypdf import PdfReader
+          from idaho_permits.collectors.common import discover_links, get
+          from idaho_permits.collectors.kootenai_county import ARCHIVE_URL
 
           links=discover_links(ARCHIVE_URL, ('WEEKLY BUILDING PERMIT REPORT','Weekly Building Permit Report'))
-          reports=[(label,url) for label,url in links if '/Archive/ViewFile/Item/' in url]
-          print('REPORT_COUNT',len(reports))
-          print('LATEST_REPORTS',reports[:8])
-          for label,url in reports[:3]:
-              text=pdf_text(get(url,referer=ARCHIVE_URL).content)
-              parsed=parse_kootenai(text,url)
-              print('REPORT',label,'PARSED',len(parsed))
-              for p in parsed:
-                  classify_permit(p)
-                  print('PERMIT',p.permit_number,p.issued_date,p.classification,p.qualifies,p.project_name,p.address,p.valuation,p.contractor)
-              lines=[x.strip() for x in text.splitlines() if x.strip()]
-              for i,line in enumerate(lines):
-                  if 'Permit Title:' in line:
-                      print('TITLE_CONTEXT',label,i,repr(' | '.join(lines[max(0,i-8):min(len(lines),i+4)])))
-          result=KootenaiCountyCollector().collect()
-          print('COLLECTOR_COUNT',len(result.permits))
-          print('COLLECTOR_NOTE',result.note)
-          q=0
-          for p in result.permits:
-              classify_permit(p)
-              q += int(p.qualifies)
-          print('COLLECTOR_QUALIFYING',q)
+          reports=[]; seen=set()
+          for label,url in links:
+              if '/Archive/ViewFile/Item/' not in url or url in seen: continue
+              seen.add(url); reports.append((label,url))
+          label,url=reports[0]
+          data=get(url,referer=ARCHIVE_URL).content
+          reader=PdfReader(BytesIO(data))
+          print('REPORT',label,url,'PAGES',len(reader.pages))
+          for page_no,page in enumerate(reader.pages[:4], start=1):
+              try:
+                  text=page.extract_text(extraction_mode='layout') or ''
+              except TypeError:
+                  text=page.extract_text() or ''
+              print('=== PAGE',page_no,'===')
+              for line in text.splitlines():
+                  if 'NEW SFR' in line.upper() or 'Permit Title:' in line or 'RES26-' in line or 'NEW ONE FAMILY' in line.upper():
+                      print(repr(line))
           PY
