@@ -9,6 +9,7 @@ from .common import get
 from ..models import Permit
 
 PAGE_TEMPLATE = 'https://compassidaho.org/development-review-checklists-{year}/'
+MAX_EMPTY_RETRIES = 1
 MONTHS = {
     'january':1,'february':2,'march':3,'april':4,'may':5,'june':6,
     'july':7,'august':8,'september':9,'october':10,'november':11,'december':12,
@@ -102,13 +103,15 @@ class CaldwellCompassCollector:
         self.landing_url = PAGE_TEMPLATE.format(year=self.year)
 
     def collect(self):
-        response = get(self.landing_url, timeout=60)
-        permits = records_from_page(response.text, response.url, self.year)
-        if not permits:
-            raise RuntimeError('COMPASS page returned no City of Caldwell development-review records')
-        return CollectorResult(
-            'Caldwell',
-            self.landing_url,
-            permits,
-            f'Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for {self.year}',
+        attempts = 1 + MAX_EMPTY_RETRIES
+        for attempt in range(attempts):
+            response = get(self.landing_url, timeout=60)
+            permits = records_from_page(response.text, response.url, self.year)
+            if permits:
+                note = f'Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for {self.year}'
+                if attempt:
+                    note += f'; recovered after {attempt} empty-response retry'
+                return CollectorResult('Caldwell', self.landing_url, permits, note)
+        raise RuntimeError(
+            f'COMPASS page returned no City of Caldwell development-review records after {attempts} reads'
         )
