@@ -1,0 +1,53 @@
+name: Meridian discovery probe
+
+on:
+  push:
+    branches:
+      - fix-meridian-current-report-discovery
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Probe Meridian report pages
+        run: |
+          python - <<'PY'
+          import requests
+          from bs4 import BeautifulSoup
+          from urllib.parse import urljoin
+
+          headers={
+              'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36',
+              'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf;q=0.8,*/*;q=0.7',
+              'Accept-Language':'en-US,en;q=0.9',
+          }
+          urls=[
+              'https://data.meridiancity.org/community-development/building/construction-reports/',
+              'https://meridiancity.org/community-development/building/construction-reports/',
+              'https://www.meridiancity.org/community-development/building/construction-reports/',
+          ]
+          for url in urls:
+              try:
+                  r=requests.get(url,headers=headers,timeout=45,allow_redirects=True)
+                  print('PAGE',url,'STATUS',r.status_code,'FINAL',r.url,'CTYPE',r.headers.get('content-type'))
+                  print('BODY_PREFIX',repr(r.text[:160]))
+                  if r.ok:
+                      soup=BeautifulSoup(r.text,'html.parser')
+                      links=[]
+                      for a in soup.find_all('a',href=True):
+                          label=' '.join(a.stripped_strings)
+                          if label in {'Week 1','Week 2','Week 3','Week 4','Full Report','Summary Report'}:
+                              links.append((label,urljoin(r.url,a['href'])))
+                      print('REPORT_LINKS',links)
+              except Exception as exc:
+                  print('ERROR',url,type(exc).__name__,str(exc))
+          PY
