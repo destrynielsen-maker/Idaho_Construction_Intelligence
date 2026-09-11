@@ -1,4 +1,4 @@
-name: Meridian discovery probe
+name: Meridian collector validation
 
 on:
   push:
@@ -10,44 +10,55 @@ permissions:
   contents: read
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Probe Meridian report pages
+      - run: pip install -r requirements.txt
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live Meridian reports
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
-          import requests
-          from bs4 import BeautifulSoup
-          from urllib.parse import urljoin
+          from collections import Counter
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.report_pages import MeridianDirectCollector
 
-          headers={
-              'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36',
-              'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf;q=0.8,*/*;q=0.7',
-              'Accept-Language':'en-US,en;q=0.9',
-          }
-          urls=[
-              'https://data.meridiancity.org/community-development/building/construction-reports/',
-              'https://meridiancity.org/community-development/building/construction-reports/',
-              'https://www.meridiancity.org/community-development/building/construction-reports/',
-          ]
-          for url in urls:
-              try:
-                  r=requests.get(url,headers=headers,timeout=45,allow_redirects=True)
-                  print('PAGE',url,'STATUS',r.status_code,'FINAL',r.url,'CTYPE',r.headers.get('content-type'))
-                  print('BODY_PREFIX',repr(r.text[:160]))
-                  if r.ok:
-                      soup=BeautifulSoup(r.text,'html.parser')
-                      links=[]
-                      for a in soup.find_all('a',href=True):
-                          label=' '.join(a.stripped_strings)
-                          if label in {'Week 1','Week 2','Week 3','Week 4','Full Report','Summary Report'}:
-                              links.append((label,urljoin(r.url,a['href'])))
-                      print('REPORT_LINKS',links)
-              except Exception as exc:
-                  print('ERROR',url,type(exc).__name__,str(exc))
+          collector=MeridianDirectCollector()
+          result=collector.collect()
+          print('SOURCE',result.source)
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          numbers={p.permit_number for p in result.permits}
+          print('HAS_CENTREPOINT','C-MULTI-2026-0008' in numbers)
+          print('HAS_OUTERBANKS','C-NEW-2026-0027' in numbers)
+          if 'C-MULTI-2026-0008' not in numbers:
+              raise SystemExit('missing Centrepoint Apartments September control')
+          if 'C-NEW-2026-0027' not in numbers:
+              raise SystemExit('missing Outerbanks Clubhouse September control')
+          if '2026-08-31 through 2026-09-06' not in result.note:
+              raise SystemExit('newest Meridian fallback report was not fetched')
+          if 'WARNING:' in result.note:
+              raise SystemExit('current Meridian fallback unexpectedly marked stale')
+
+          kinds=Counter()
+          qualifying=[]
+          for permit in result.permits:
+              classify_permit(permit)
+              kinds[permit.classification]+=1
+              if permit.qualifies:
+                  qualifying.append(permit)
+          print('CLASSIFICATIONS',dict(kinds))
+          print('QUALIFYING',len(qualifying))
+          for permit in sorted(qualifying,key=lambda p:(p.issued_date,p.permit_number),reverse=True)[:20]:
+              print('PERMIT',permit.permit_number,permit.issued_date,permit.classification,permit.project_name,permit.address,permit.valuation,permit.contractor)
+          if len(qualifying) <= 37:
+              raise SystemExit(f'Meridian qualifying count did not improve over stale baseline: {len(qualifying)}')
           PY
