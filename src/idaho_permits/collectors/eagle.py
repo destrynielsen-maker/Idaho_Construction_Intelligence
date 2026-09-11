@@ -176,7 +176,7 @@ class EaglePermitCollector:
                 contractor=row.get('contractor') or None,status=row.get('status') or None,
                 subdivision=row.get('subdivision') or None,city='Eagle',county='Ada',stage='PERMITTED',
                 raw={
-                    'listing':original if row is original else row,
+                    'listing':row,
                     'detail_scope':scope,
                     'use_class':use_class,
                     'living_area_sqft':row.get('living_area_sqft'),
