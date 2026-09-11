@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,32 +18,46 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect Kootenai layout extraction
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live Kootenai reports
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          from io import BytesIO
-          from pypdf import PdfReader
-          from idaho_permits.collectors.common import discover_links, get
-          from idaho_permits.collectors.kootenai_county import ARCHIVE_URL
+          from collections import Counter
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.kootenai_county import KootenaiCountyCollector
 
-          links=discover_links(ARCHIVE_URL, ('WEEKLY BUILDING PERMIT REPORT','Weekly Building Permit Report'))
-          reports=[]; seen=set()
-          for label,url in links:
-              if '/Archive/ViewFile/Item/' not in url or url in seen: continue
-              seen.add(url); reports.append((label,url))
-          label,url=reports[0]
-          data=get(url,referer=ARCHIVE_URL).content
-          reader=PdfReader(BytesIO(data))
-          print('REPORT',label,url,'PAGES',len(reader.pages))
-          for page_no,page in enumerate(reader.pages[:4], start=1):
-              try:
-                  text=page.extract_text(extraction_mode='layout') or ''
-              except TypeError:
-                  text=page.extract_text() or ''
-              print('=== PAGE',page_no,'===')
-              for line in text.splitlines():
-                  if 'NEW SFR' in line.upper() or 'Permit Title:' in line or 'RES26-' in line or 'NEW ONE FAMILY' in line.upper():
-                      print(repr(line))
+          result=KootenaiCountyCollector().collect()
+          print('SOURCE',result.source)
+          print('SOURCE_URL',result.source_url)
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          numbers={p.permit_number for p in result.permits}
+          for required in ('RES26-0064','RES26-0870','RES26-0971','RES26-1015','RES26-1201','RES26-1360','RES26-1437'):
+              print('CONTROL',required,required in numbers)
+              if required not in numbers:
+                  raise SystemExit(f'missing latest-week Kootenai new-SFR control: {required}')
+          if 'RES26-1342' in numbers:
+              raise SystemExit('cancelled Kootenai SFR escaped parser guard')
+          if '2026-08-30 through 2026-09-05' not in result.note:
+              raise SystemExit(f'Kootenai reporting period is not explicit: {result.note}')
+          if 'WARNING:' in result.note:
+              raise SystemExit(f'current Kootenai report unexpectedly marked stale: {result.note}')
+
+          kinds=Counter(); qualifying=[]
+          for permit in result.permits:
+              classify_permit(permit)
+              kinds[permit.classification]+=1
+              if permit.qualifies:
+                  qualifying.append(permit)
+          print('CLASSIFICATIONS',dict(kinds))
+          print('QUALIFYING',len(qualifying))
+          for permit in sorted(qualifying,key=lambda p:(p.issued_date,p.permit_number),reverse=True)[:40]:
+              print('PERMIT',permit.permit_number,permit.issued_date,permit.classification,permit.project_name,permit.address,permit.valuation,permit.contractor)
+          if len(qualifying) < 15:
+              raise SystemExit(f'Kootenai six-week pull produced unexpectedly few qualifying leads: {len(qualifying)}')
           PY
