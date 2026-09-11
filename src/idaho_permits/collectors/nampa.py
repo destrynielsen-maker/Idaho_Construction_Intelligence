@@ -78,6 +78,10 @@ def _new_construction_signal(project_type: str, structure_use: str, project_name
         r'\bnew\s+multifamily\b',
         r'\bnew\s+multi-family\b',
         r'\bnew\s+apartment\b',
+        r'\bnew\s+(?:sf\s+)?town(?:home|house)\b',
+        r'\bnew\s+duplex\b',
+        r'\bnew\s+triplex\b',
+        r'\bnew\s+fourplex\b',
         r'\bnew\s+complete\s+building\b',
         r'\bnew\s+shell\b',
         r'\bground[- ]up\b',
@@ -86,8 +90,8 @@ def _new_construction_signal(project_type: str, structure_use: str, project_name
     if not any(re.search(pattern, low, re.I) for pattern in explicit):
         return False
 
-    # Explicit ground-up/new-construction language wins. Otherwise suppress the common
-    # Nampa non-new scopes that may still contain words such as "new" for finishes/equipment.
+    # Explicit ground-up/new-construction language wins. Otherwise suppress common Nampa
+    # non-new scopes that may still contain words such as "new" for finishes or equipment.
     if re.search(r'\bnew\s+construction\b|\bnew\s+sfd\b|\bground[- ]up\b', low, re.I):
         return True
     noise = (
@@ -97,7 +101,32 @@ def _new_construction_signal(project_type: str, structure_use: str, project_name
     return not any(term in low for term in noise)
 
 
+def _issue_and_project(value: str):
+    patterns = (
+        r'Issue Date:\s*(\d{1,2}/\d{1,2}/20\d{2})\s*Project Name:\s*(.*)$',
+        r'^(\d{1,2}/\d{1,2}/20\d{2})\s*Issue Date:\s*Project Name:\s*(.*)$',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, value, re.I)
+        if match:
+            return match.group(1), match.group(2).strip()
+    return '', ''
+
+
+def _unit_value(value: str):
+    if value.lower().startswith('unit:'):
+        return value.split(':', 1)[1].strip()
+    match = re.match(r'^([\d.]+)\s*Unit:\s*$', value, re.I)
+    return match.group(1) if match else ''
+
+
 def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
+    """Parse Nampa's pypdf token stream by permit block.
+
+    Nampa's PDFs invert several rendered label/value pairs in extraction (for example
+    ``09/04/2026Issue Date:`` and ``1.00Unit:``), so the parser accepts both the rendered and
+    extracted orders while anchoring every record on its own ``Permit Number`` line.
+    """
     lines = [re.sub(r'\s+', ' ', line).strip() for line in text.splitlines() if line.strip()]
     out = []
     project_type = ''
@@ -132,7 +161,6 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
         units = None
         contractor = None
 
-        # The valuation is normally the dotted money line immediately after Permit Number.
         for value in block[1:5]:
             money = re.search(r'\$\s*([\d,]+(?:\.\d+)?)', value)
             if money:
@@ -143,23 +171,26 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
                 break
 
         for pos, value in enumerate(block):
-            issue_match = re.search(r'Issue Date:\s*(\d{1,2}/\d{1,2}/20\d{2})\s+Project Name:\s*(.*)$', value, re.I)
-            if issue_match:
+            issue_raw, project_start = _issue_and_project(value)
+            if issue_raw:
                 try:
-                    issued = datetime.strptime(issue_match.group(1), '%m/%d/%Y').date().isoformat()
+                    issued = datetime.strptime(issue_raw, '%m/%d/%Y').date().isoformat()
                 except ValueError:
                     issued = ''
-                if issue_match.group(2).strip():
-                    project_name_parts.append(issue_match.group(2).strip())
+                if project_start:
+                    project_name_parts.append(project_start)
                 nxt = pos + 1
-                while nxt < len(block) and not re.match(r'^(Unit:|Scope of Work:)', block[nxt], re.I):
-                    project_name_parts.append(block[nxt])
+                while nxt < len(block):
+                    candidate = block[nxt]
+                    if _unit_value(candidate) or candidate.lower() == 'unit:' or candidate.lower().startswith('scope of work:'):
+                        break
+                    project_name_parts.append(candidate)
                     nxt += 1
 
-            if value.lower().startswith('unit:'):
-                unit_text = value.split(':', 1)[1].strip()
+            unit_text = _unit_value(value)
+            if unit_text:
                 try:
-                    units = int(float(unit_text)) if unit_text else None
+                    units = int(float(unit_text))
                 except ValueError:
                     units = None
 
@@ -168,14 +199,21 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
                 nxt = pos + 1
                 while nxt < len(block):
                     candidate = block[nxt]
-                    if re.match(r'^(Applicant|Owner|Tenant|Foreman|Designer|Registered Building Contractor|Permit\(s\)|Project Type Valuation|Tax Account:)', candidate, re.I):
+                    if re.search(r'(Applicant|Owner\s*\d*|Tenant|Foreman|Designer|Registered Building Contractor|Permit\(s\)|Project Type Valuation|Tax Account:)', candidate, re.I):
                         break
+                    if re.match(r'^\d{1,2}/\d{1,2}/20\d{2}\s+Page\s+\d+', candidate, re.I):
+                        nxt += 1
+                        continue
+                    if re.match(r'^\d{1,2}/\d{1,2}/20\d{2}\s+to\s+\d{1,2}/\d{1,2}/20\d{2}$', candidate, re.I):
+                        nxt += 1
+                        continue
                     scope_parts.append(candidate)
                     nxt += 1
 
-            marker = re.search(r'Registered Building Contractor\s+(.+)$', value, re.I)
-            if marker and not contractor:
-                contractor = marker.group(1).strip() or None
+            if 'registered building contractor' in value.lower() and not contractor:
+                before = re.split(r'Registered Building Contractor', value, maxsplit=1, flags=re.I)[0]
+                before = re.sub(r'(Applicant|Owner\s*\d*|Tenant|Foreman|Designer)[, ]*$', '', before, flags=re.I).strip(' ,-')
+                contractor = before or None
 
         project_name = ' '.join(project_name_parts).strip() or None
         scope = ' '.join(scope_parts).strip()
