@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   validate:
@@ -19,59 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply bounded Boise Accela retry patch
-        env:
-          PYTHONPATH: src
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path('src/idaho_permits/collectors/boise.py')
-          text = path.read_text(encoding='utf-8')
-          old = "import requests\nfrom bs4 import BeautifulSoup\n"
-          new = "import requests\nfrom requests.adapters import HTTPAdapter\nfrom urllib3.util.retry import Retry\nfrom bs4 import BeautifulSoup\n"
-          if old not in text:
-              raise SystemExit('Boise import anchor not found')
-          text = text.replace(old, new, 1)
-
-          old = "    max_pages = 75\n\n    type_field = 'ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'\n"
-          new = "    max_pages = 75\n    transient_retry_total = 1\n    transient_retry_backoff = 1.0\n    transient_retry_statuses = (429, 500, 502, 503, 504)\n\n    type_field = 'ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'\n"
-          if old not in text:
-              raise SystemExit('Boise retry config anchor not found')
-          text = text.replace(old, new, 1)
-
-          old = "    def collect(self, session: requests.Session | None = None) -> CollectorResult:\n        session = session or requests.Session()\n        session.headers.update({\n"
-          new = "    def collect(self, session: requests.Session | None = None) -> CollectorResult:\n        session = session or requests.Session()\n        self._configure_session(session)\n        session.headers.update({\n"
-          if old not in text:
-              raise SystemExit('Boise collect anchor not found')
-          text = text.replace(old, new, 1)
-
-          anchor = "    def _search_type(self, session: requests.Session, type_value: str, start: date, end: date) -> list[dict]:\n"
-          helper = "    def _configure_session(self, session: requests.Session) -> None:\n        retry = Retry(\n            total=self.transient_retry_total,\n            connect=self.transient_retry_total,\n            read=self.transient_retry_total,\n            status=self.transient_retry_total,\n            other=0,\n            backoff_factor=self.transient_retry_backoff,\n            status_forcelist=self.transient_retry_statuses,\n            allowed_methods=frozenset({'GET', 'POST'}),\n            respect_retry_after_header=True,\n            raise_on_status=False,\n        )\n        session.mount('https://permits.cityofboise.org/', HTTPAdapter(max_retries=retry))\n\n"
-          if anchor not in text:
-              raise SystemExit('Boise search anchor not found')
-          text = text.replace(anchor, helper + anchor, 1)
-          path.write_text(text, encoding='utf-8')
-
-          test_path = Path('tests/test_boise_collector.py')
-          tests = test_path.read_text(encoding='utf-8')
-          old = "import unittest\nfrom datetime import date\n\nfrom idaho_permits.classify import classify_permit\n"
-          new = "import unittest\nfrom datetime import date\n\nimport requests\n\nfrom idaho_permits.classify import classify_permit\n"
-          if old not in tests:
-              raise SystemExit('Boise test import anchor not found')
-          tests = tests.replace(old, new, 1)
-          anchor = "    def test_date_text_separates_received_from_issued_dates(self):\n"
-          new_test = "    def test_accela_session_retries_one_transient_get_or_post(self):\n        session = requests.Session()\n        self.collector._configure_session(session)\n        retry = session.get_adapter('https://permits.cityofboise.org/').max_retries\n        self.assertEqual(retry.total, 1)\n        self.assertEqual(retry.read, 1)\n        self.assertEqual(retry.connect, 1)\n        self.assertIn('GET', retry.allowed_methods)\n        self.assertIn('POST', retry.allowed_methods)\n        self.assertEqual(set(retry.status_forcelist), {429, 500, 502, 503, 504})\n\n"
-          if anchor not in tests:
-              raise SystemExit('Boise test insertion anchor not found')
-          tests = tests.replace(anchor, new_test + anchor, 1)
-          test_path.write_text(tests, encoding='utf-8')
-          PY
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add src/idaho_permits/collectors/boise.py tests/test_boise_collector.py
-          git diff --cached --quiet || git commit -m "Harden Boise Accela transient retries"
-          git push origin HEAD:harden-boise-accela-retries
+      - run: pip install -r requirements.txt
       - name: Run complete test suite
         env:
           PYTHONPATH: src
