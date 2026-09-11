@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:43:14+00:00",
+  "generated_at": "2026-09-11T20:10:33+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -52,10 +52,10 @@
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 33,
-      "qualifying_records": 0,
-      "source_url": "https://kcgov.us/Archive/44",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (5 parsed)"
+      "records_seen": 55,
+      "qualifying_records": 55,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3563",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (14 parsed). Latest report period 2026-08-30 through 2026-09-05 (6 days old)"
     },
     {
       "source": "Meridian",
@@ -68,10 +68,10 @@
     {
       "source": "Nampa",
       "status": "ok",
-      "records_seen": 4,
-      "qualifying_records": 4,
-      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026",
-      "note": "Latest discovered report: 08/24/2026 \u2013 08/28/2026"
+      "records_seen": 21,
+      "qualifying_records": 21,
+      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026",
+      "note": "Latest discovered report: 08/31/2026 \u2013 09/04/2026; 21 new-construction records parsed; report ended 7 days ago"
     }
   ],
   "directory": [

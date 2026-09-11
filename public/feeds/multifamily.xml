@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 19:54:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:21:55 +0000</lastBuildDate>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -26,6 +26,12 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0786</guid>
     </item>
     <item>
+      <title>[45] Nampa: NEW SF TOWNHOUSE LT24 BLK07 MIDDLEBURY NORTH #2 — 15581 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>MULTIFAMILY | Corey Barton Cbh Homes Inc | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18781-2026</guid>
+    </item>
+    <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 140,990</description>
@@ -42,6 +48,24 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 125,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: NEW SF TOWNHOUSE LT23 BLK07 MIDDLEBURY NORTH #2 — 15587 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18780-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: NEW TOWNHOUSE LT31 BLK07 Middlebury North #2 — 15539 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18788-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: NEW TOWNHOUSE LT30 BLK07 Middlebury North #2 — 15545 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18787-2026</guid>
     </item>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
@@ -68,16 +92,10 @@
       <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
     <item>
-      <title>[45] Meridian: NEW 1742 SQ FT TOWNHOME WITH 48- SQ FT ATTACHED GARAGE — 6051 N HIGHFIRE LN</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>MULTIFAMILY | HUBBLE HOMES LLC | 181,969</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0721</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: New Single Family Residential - Duplex — 498 S FIDDLE AVE</title>
+      <title>[45] Meridian: New Single Family Dwelling - Duplex — 479 S MATTINGLY AVE</title>
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0729</guid>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0732</guid>
     </item>
     <item>
       <title>[45] Meridian: New Single Family Residential - Duplex — 449 S MATTINGLY AVE</title>
@@ -86,10 +104,16 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0730</guid>
     </item>
     <item>
-      <title>[45] Meridian: New Single Family Dwelling - Duplex — 479 S MATTINGLY AVE</title>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 498 S FIDDLE AVE</title>
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0732</guid>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0729</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1742 SQ FT TOWNHOME WITH 48- SQ FT ATTACHED GARAGE — 6051 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES LLC | 181,969</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0721</guid>
     </item>
     <item>
       <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
@@ -108,6 +132,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EBO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 500,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01352</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 161,618</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0735</guid>
     </item>
     <item>
       <title>[45] Boise: Tresidio Homes HH 02-01 — 4399 E HAYSTACK ST, Boise ID 83716</title>
@@ -138,12 +168,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01905</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>MULTIFAMILY | COREY BARTON HOMES INC | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0735</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
