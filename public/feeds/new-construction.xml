@@ -6,12 +6,30 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 21:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:51:36 +0000</lastBuildDate>
     <item>
-      <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
+      <title>[20] Eagle: single family dwelling — 7504 Namer St.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29681954</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267403</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7370 Powell Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29681418</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267398</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Please provide added details about the description of your project — 6532 S Evie Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29680962</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267392</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6553 W DANES DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29678780</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267355</guid>
     </item>
     <item>
       <title>[20] Boise: 21-6 Kirsten #2 — 6473 S KANARA AVE, Boise ID 83709</title>
@@ -26,16 +44,28 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02386</guid>
     </item>
     <item>
+      <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7211 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267374</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 254 N GREAT FALLS AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29678700</link>
+      <description>SINGLE_FAMILY | HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267354</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MOORHOUSE RESIDENTIAL LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Residential Home — 7211 N Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267374</guid>
     </item>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
@@ -48,6 +78,42 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IOT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7263 W LANDS ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29674723</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267319</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7619 W CHARCOAL ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29665751</link>
+      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267303</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5946 W MARBLE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29665565</link>
+      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267300</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5929 W Marble St</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29665415</link>
+      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267295</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5928 W MARBLE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29665359</link>
+      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267293</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5917 W MARBLE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29665276</link>
+      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267291</guid>
     </item>
     <item>
       <title>[20] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 5 — 3530 N JACKIE LN, BOISE ID 83704</title>
@@ -1143,72 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
       <description>SINGLE_FAMILY | BENTON DEVELOPMENT INC | 778,110</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1232</guid>
-    </item>
-    <item>
-      <title>[22] Kootenai County: NEW SFR w/ATTACHED GARAGE | Newell Residence — 2516 (temp) E Sundown Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 1,042,594</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0412</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 4.5 Bathroom, 3-Car Tandem Garage (4), Covered Entry and Covered Patio C ITY OF M ERIDIAN 9 P AGE # BUILDING PERMITS FOR THE WEEK (52) — 881 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Boise PLH, LLC | 331,366</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Crumb Residence — 16495 W HOLLISTER HILLS DR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 848,028</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0281</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25994 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 222,437</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0631</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10035 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00INY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01783</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10022 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00INI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01782</guid>
-    </item>
-    <item>
-      <title>[42] Meridian: Steiner Family Dental Shell - New office for a dental clinic. The project is submitted as a shell because the owner will be constructing a small tenant lease space on one side of the building. The site work is also incorporating Parcels A and B. Parcel A will contain the dental clinic, and parcel be will be left as a blank building pad for construction of a future property owner. New — 39 S WAYFINDER AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>COMMERCIAL | HAWKLINE BUILDERS LLC | 1,374,000</description>
-      <guid isPermaLink="false">ID:MERIDIAN:C-SHELL-2026-0015</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 4578 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 269,182</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0738</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 267,935</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 4577 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 247,853</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 7030 S CAPSTONE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 268,567</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
     </item>
   </channel>
 </rss>

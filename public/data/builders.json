@@ -102,6 +102,12 @@
     "valuation_total": 402431.52
   },
   {
+    "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CLYDE DEVELOPMENT INC",
     "count": 4,
     "score_total": 80,
@@ -262,6 +268,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -636,7 +648,43 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BOISE PLH, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Solitude Homes Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "MOORHOUSE RESIDENTIAL LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Biltmore Company, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "COPPER CANYON HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
