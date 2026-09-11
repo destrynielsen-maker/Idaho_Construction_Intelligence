@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  audit:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,27 +18,39 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect live COMPASS Caldwell shape
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live Caldwell collector
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          from bs4 import BeautifulSoup
-          from idaho_permits.collectors.common import get
-          from idaho_permits.collectors.caldwell import records_from_page
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.caldwell import CaldwellCompassCollector
 
-          url='https://compassidaho.org/development-review-checklists-2026/'
-          r=get(url, timeout=60)
-          print('HTTP', r.status_code, r.url, len(r.text))
-          print('HAS_CALDWELL', 'City of Caldwell' in r.text)
-          soup=BeautifulSoup(r.text,'html.parser')
-          print('COUNTS', {tag:len(soup.find_all(tag)) for tag in ('h2','h3','h4','h5','table','tr','div','p')})
-          for text in soup.find_all(string=lambda s: s and 'City of Caldwell' in s):
-              node=text.parent
-              print('CALDWELL_NODE', node.name, node.get('class'), repr(' '.join(node.stripped_strings)[:500]))
-              parent=node.parent
-              if parent:
-                  print('PARENT', parent.name, parent.get('class'), repr(' '.join(parent.stripped_strings)[:1200]))
-          records=records_from_page(r.text,r.url,2026)
-          print('PARSED', len(records), [(p.project_name,p.issued_date,p.source_url) for p in records])
+          result=CaldwellCompassCollector(year=2026).collect()
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          names={p.project_name for p in result.permits}
+          required={
+              'Highline Industrial Park Subdivision',
+              'North Celeste Subdivision',
+              'KCID Commercial Subdivision',
+              'Legacy Farm Neighborhood',
+              'McAllister Manor Subdivision',
+              'Silverleaf Subdivision',
+          }
+          missing=required-names
+          print('MISSING',sorted(missing))
+          if missing:
+              raise SystemExit(f'missing Caldwell COMPASS controls: {sorted(missing)}')
+          if len(result.permits) != 6:
+              raise SystemExit(f'expected 6 current Caldwell reviews, got {len(result.permits)}')
+          classified={p.project_name:classify_permit(p) for p in result.permits}
+          for name in ('Highline Industrial Park Subdivision','KCID Commercial Subdivision'):
+              print('QUALIFYING_CONTROL',name,classified[name].classification,classified[name].qualifies)
+              if not classified[name].qualifies:
+                  raise SystemExit(f'expected qualifying Caldwell control: {name}')
           PY
