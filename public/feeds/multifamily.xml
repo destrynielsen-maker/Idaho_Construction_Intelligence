@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 20:35:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:09:00 +0000</lastBuildDate>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -224,10 +224,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00552</guid>
     </item>
     <item>
-      <title>[50] Coeur d'Alene: Townhouse Building A — 2709 N 14TH PL</title>
+      <title>[50] Coeur d'Alene: Townhouse Building C — 2727 N 14TH PL</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152271-B</guid>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152274-B</guid>
     </item>
     <item>
       <title>[50] Coeur d'Alene: Townhouse Building B — 2715 N 14TH PL</title>
@@ -236,10 +236,16 @@
       <guid isPermaLink="false">ID:COEUR D'ALENE:152272-B</guid>
     </item>
     <item>
-      <title>[50] Coeur d'Alene: Townhouse Building C — 2727 N 14TH PL</title>
+      <title>[50] Coeur d'Alene: Townhouse Building A — 2709 N 14TH PL</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152274-B</guid>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152271-B</guid>
+    </item>
+    <item>
+      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | ARCHITERRA HOMES LLC | 391,600</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151561-B</guid>
     </item>
     <item>
       <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4490 W SHEDHORN AVE</title>
@@ -252,12 +258,6 @@
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | HVAC DESIGN SERVICES | 372,660</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:151559-B</guid>
-    </item>
-    <item>
-      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
-      <description>MULTIFAMILY | ARCHITERRA HOMES LLC | 391,600</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:151561-B</guid>
     </item>
     <item>
       <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 7679 N MOCHA LP</title>

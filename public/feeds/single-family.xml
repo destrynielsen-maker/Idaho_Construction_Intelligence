@@ -6,12 +6,24 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 20:35:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:09:00 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 21-6 Kirsten #2 — 6473 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02387</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 20-6 Kirsten — 6461 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02386</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
@@ -1199,18 +1211,6 @@ HOLD  waiting on CP2026-0054 approval — 24944 KENRIDGE RD, Caldwell</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00JXA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | WESTMINSTER II LLC | 350,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01892</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: new single family home — 1241 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 307,932</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0722</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN08008014 Diamond A (Roberts-McFarland) — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 202,933</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0661</guid>
     </item>
   </channel>
 </rss>

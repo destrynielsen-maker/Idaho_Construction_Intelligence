@@ -6,12 +6,24 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 20:35:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:09:00 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 21-6 Kirsten #2 — 6473 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02387</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 20-6 Kirsten — 6461 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02386</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
       <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 268,567</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential/PN04010010 Galloway B — 7058 S STEEPLE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 261,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential/PN09009024 Freeman B — 951 E ESCALATION ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 219,342</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
     </item>
   </channel>
 </rss>

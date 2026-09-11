@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:22:56+00:00",
+  "generated_at": "2026-09-11T20:56:51+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 43,
-      "qualifying_records": 43,
+      "records_seen": 45,
+      "qualifying_records": 45,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -60,10 +60,10 @@
     {
       "source": "Meridian",
       "status": "ok",
-      "records_seen": 89,
-      "qualifying_records": 83,
+      "records_seen": 55,
+      "qualifying_records": 51,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (5 days old)"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (5 days old). Failures: 2026-08-17 through 2026-08-23: HTTPError"
     },
     {
       "source": "Nampa",

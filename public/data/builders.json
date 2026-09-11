@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 21,
-    "score_total": 582,
-    "valuation_total": 6664389.869999999
+    "count": 23,
+    "score_total": 622,
+    "valuation_total": 6909369.869999999
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -90,16 +90,16 @@
     "valuation_total": 950000.0
   },
   {
-    "contractor": "ERSTAD ARCHITECTS",
-    "count": 2,
-    "score_total": 90,
-    "valuation_total": 402431.52
-  },
-  {
     "contractor": "ARCHITERRA HOMES LLC",
     "count": 2,
     "score_total": 90,
     "valuation_total": 764260.0
+  },
+  {
+    "contractor": "ERSTAD ARCHITECTS",
+    "count": 2,
+    "score_total": 90,
+    "valuation_total": 402431.52
   },
   {
     "contractor": "CLYDE DEVELOPMENT INC",
@@ -402,16 +402,16 @@
     "valuation_total": 621000.0
   },
   {
-    "contractor": "THE ARCHITECTS OFFICE PLLC",
-    "count": 1,
-    "score_total": 40,
-    "valuation_total": 650000.0
-  },
-  {
     "contractor": "HOMEOWNER",
     "count": 1,
     "score_total": 40,
     "valuation_total": 450000.0
+  },
+  {
+    "contractor": "THE ARCHITECTS OFFICE PLLC",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 650000.0
   },
   {
     "contractor": "DONOHOE CONSTRUCTION LLC",
