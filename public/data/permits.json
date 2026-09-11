@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:27:04+00:00",
+  "generated_at": "2026-09-11T19:12:38+00:00",
   "permits": [
     {
       "state": "ID",
@@ -79,7 +79,7 @@
       "score": 50,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "08/24/2026 to 08/28/2026 | Project Type: Commercial | Occupancy By Group: <undefined> | Tax Account: Urban Renewal Area: No | Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687 | $2,960,000.............. | 08/25/2026Issue Date: Project Name: Amity Landing - Building 2 | 16.00Unit: | Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs | Angie Daw Amity Landing, LlcOwner 1 | Jason Ramsey Ramsey Construction, LlcRegistered Building Contractor | Jeremy Putman The Architects Office, PllcApplicant, Architect | Tax Account: Urban Renewal Area: Yes | Permit Number: COM-05317-2026 Situs: 17094 N Waypoint Ln Nampa, Id 83687 | $8,007,184.............. | 08/27/2026Issue Date: Project Name: The Highline - Civil | Unit: | Scope of Work: This permit is for the site development including grading, utilities, landscaping, paving, flatwork, etc. | John Thompson Thompson Thrift Construction IncRegistered Building Contractor | Mark Bottles Nampa 137 LlcOwner 1"
       },
@@ -115,7 +115,7 @@
       "score": 50,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***Demo Permit for SFD BLD24-03253***\r\nCALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK. ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION.\r\n(1508 & 1510 W Boise Ave Permit for the construction of a new 3307  sq. ft. duplex. Unit 1  is 1923  sq. ft. with 3  bedrooms, 2.5  bathrooms, approximately 74  sq. ft. of covered patio/porch and 292  sq. ft. attached garage.  Unit 2  is 1384  sq. ft. with 3  bedrooms, 3.5  bathrooms, approximately 50 sq. ft. of covered patio/porch and 292  sq. ft. attached garage.  All work per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 zoning and setbacks per planning. **CJL**",
         "application_date": "2026-05-13",
@@ -355,7 +355,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-09-09T20:54:55+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION/INSPECTION.\r\n(Unit 101 & 102 3528 N Jackie Ln) Permit for the construction of a new 3360  sq. ft. duplex. Unit 3 is 1680 sq. ft. (1st floor 786 sq.ft. and 2nd floor 894) 2 story with 2  bedrooms, 2.5  bathrooms, approximately 50 sq. ft. of covered patio/porch and 242 sq. ft. attached garage.  Unit 4 is 1680 sq. ft. (1st floor 786 sq.ft. and 2nd floor 894) 2 story with 2  bedrooms, 2.5 bathrooms, approximately 50 sq. ft. of covered patio/porch and 242 sq. ft. attached garage. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 zoning and setbacks per planning. **CJL**",
         "application_date": "2026-06-18",
@@ -403,7 +403,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-09-09T20:54:55+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION/INSPECTION.\r\n(Unit 101 & 102 3524 N Jackie Ln) Permit for the construction of a new 3360  sq. ft. duplex. Unit 1  is 1680 sq. ft. (1st floor 786 sq.ft. and 2nd floor 894) 2 story with 2  bedrooms, 2.5  bathrooms, approximately 50 sq. ft. of covered patio/porch and 242 sq. ft. attached garage.  Unit 2   is 1680 sq. ft. (1st floor 786 sq.ft. and 2nd floor 894) 2 story with 2  bedrooms, 2.5 bathrooms, approximately 50 sq. ft. of covered patio/porch and 242 sq. ft. attached garage.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 zoning and setbacks per planning. CJL",
         "application_date": "2026-06-17",
@@ -487,9 +487,9 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
-        "description": "Plans under PRJ26-00070 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
+        "description": "Plans under PRJ26-00070 in ePlan. Plan Modification Site plan only 9/11/26***MTD***  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-29",
         "received_date": "2026-06-29",
         "application_code": 402,
@@ -535,9 +535,9 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
-        "description": "Plans under PRJ26-00070 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
+        "description": "Plans under PRJ26-00070 in ePlan. Plan Modification Site plan only 9/11/26***MTD***   ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-29",
         "received_date": "2026-06-29",
         "application_code": 402,
@@ -583,9 +583,9 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
-        "description": "Plans under PRJ26-00070 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.SP-01 zoning and setbacks per planning. ***MTD***",
+        "description": "Plans under PRJ26-00070 in ePlan. Plan Modification Site plan only 9/11/26***MTD***  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.SP-01 zoning and setbacks per planning. ***MTD***",
         "application_date": "2026-06-29",
         "received_date": "2026-06-29",
         "application_code": 402,
@@ -631,9 +631,9 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
-        "description": "Plans under PRJ26-00070 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.SP-01 zoning and setbacks per planning.***MTD***",
+        "description": "Plans under PRJ26-00070 in ePlan. Plan Modification Site plan only 9/11/26***MTD***   ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-29",
         "received_date": "2026-06-29",
         "application_code": 402,
@@ -679,9 +679,9 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
-        "description": "Plans under PRJ26-00070 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
+        "description": "Plans under PRJ26-00070 in ePlan.  Plan Modification Site plan only 9/11/26***MTD***  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-29",
         "received_date": "2026-06-29",
         "application_code": 402,
@@ -763,7 +763,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Plans under PRJ26-00062 in ePlan.  ****Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-12",
@@ -811,7 +811,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Plans under PRJ26-00062 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-12",
@@ -859,7 +859,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Plans under PRJ26-00062 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations.  Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.SP-01 zoning and setbacks per planning. ***MTD***",
         "application_date": "2026-06-12",
@@ -907,7 +907,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Plans under PRJ26-00062 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2158 sq. ft. Townhouse (1st Fl. 356\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 157 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-12",
@@ -955,7 +955,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Plans under PRJ26-00062 in ePlan.  ***Located in Floodplain. Letter of Map Revision (LOMR) on File*** ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE TOWNHOUSE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK***All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2156 sq. ft. Townhouse (1st Fl. 354\u2019sq., 2nd Fl. 879\u2019sq., 3rd Fl. 923\u2019sq.) with 4 bedrooms, 3 \u00bd   bathrooms, approximately 184 sq. ft. of covered porch/patio and a 541 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. SP-01 zoning and setbacks per planning.***MTD***",
         "application_date": "2026-06-12",
@@ -1195,7 +1195,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433799,
         "DXF_LAYER": "PARCEL",
@@ -1294,7 +1294,7 @@
       "score": 45,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433106,
         "DXF_LAYER": "PARCEL",
@@ -1441,7 +1441,7 @@
       "score": 42,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433584,
         "DXF_LAYER": "PARCEL",
@@ -1540,7 +1540,7 @@
       "score": 42,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432792,
         "DXF_LAYER": "PARCEL",
@@ -1639,7 +1639,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "08/26/2026Issue Date: Project Name: Converting Carport into a Garage Addition | Unit: | Scope of Work: Converting Carport into a Garage Addition - No EMP's (Portal Frame & Foundation) | Rodolfo O JimenezApplicant, Owner 1 | Permit(s) 1 Structure Use Valuation SubTotal: | Project Type Valuation Total: | $2,900 | $36,421 | Structure Use: Residential: Duplex | Tax Account: Urban Renewal Area: No | Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651 | $140,990.............. | 08/28/2026Issue Date: Project Name: NEW DUPLEX LT15 BLK01 MIDDLEBURY NORTH #2 | 2.00Unit: | Scope of Work: NEW DUPLEX W/ COVERED PATIO LT15 BLK01 MIDDLEBURY NORTH #2 | Anjelica Cheek Cbh HomesApplicant | Corey Barton Cbh Homes IncOwner 1, Registered Building Contractor | 9/3/2026 Page 3 of 6 | 08/24/2026 to 08/28/2026 | Permit(s) 1 Structure Use Valuation SubTotal:"
       },
@@ -1675,7 +1675,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Anjelica Cheek Cbh HomesApplicant | Corey Barton Cbh Homes IncApplicant, Owner 1, Registered Building | Contractor | 9/3/2026 Page 5 of 6 | 08/24/2026 to 08/28/2026 | Tax Account: Urban Renewal Area: No | Permit Number: RES-18785-2026 Situs: 15557 N Exeter Way Nampa, Id 83651 | $125,990.............. | 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT28 BLK07 Middlebury North #2 | 1.00Unit: | Scope of Work: NEW SF TOWNHOME-GARAGE W/COVERED PATIO LT28 BLK07 Middlebury North #2 | Anjelica Cheek Cbh HomesApplicant | Corey Barton Cbh Homes IncApplicant, Owner 1, Registered Building | Contractor | Tax Account: Urban Renewal Area: No | Permit Number: RES-18786-2026 Situs: 15551 N Exeter Way Nampa, Id 83651 | $125,990.............. | 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT29 BLK07 Middlebury North #2 | 1.00Unit: | Scope of Work: NEW SF TOWNHOME-GARAGE W/COVERED PATIO LT29 BLK07 Middlebury North #2"
       },
@@ -1711,7 +1711,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "1.00Unit: | Scope of Work: NEW TOWNHOME-GARAGE W/ COVERED PATIO LT22 BLK07 MIDDLEBURY NORTH #2 | Anjelica Cheek Cbh HomesApplicant | Corey Barton Cbh Homes IncApplicant, Owner 1, Registered Building | Contractor | Tax Account: Urban Renewal Area: No | Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651 | $125,990.............. | 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 | 1.00Unit: | Scope of Work: NEW TOWNHOME GARAGE W/COVERED PATIO LT21 BLK07 MIDDLEBURY NORTH #2 | Anjelica Cheek Cbh HomesApplicant | Corey Barton Cbh Homes IncApplicant, Owner 1, Registered Building | Contractor | 9/3/2026 Page 5 of 6 | 08/24/2026 to 08/28/2026 | Tax Account: Urban Renewal Area: No | Permit Number: RES-18785-2026 Situs: 15557 N Exeter Way Nampa, Id 83651 | $125,990.............. | 08/25/2026Issue Date: Project Name: NEW SF TOWNHOME LT28 BLK07 Middlebury North #2"
       },
@@ -1747,7 +1747,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T19:07:33+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434024,
         "DXF_LAYER": "PARCEL",
@@ -1846,7 +1846,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T15:58:22+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00515",
         "ParentRecordID": null,
@@ -1904,7 +1904,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00750",
         "ParentRecordID": null,
@@ -1962,7 +1962,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00749",
         "ParentRecordID": null,
@@ -2020,7 +2020,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433961,
         "DXF_LAYER": "PARCEL",
@@ -2119,7 +2119,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00548",
         "ParentRecordID": null,
@@ -2177,7 +2177,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00628",
         "ParentRecordID": null,
@@ -2235,7 +2235,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00612",
         "ParentRecordID": null,
@@ -2293,7 +2293,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00557",
         "ParentRecordID": null,
@@ -2351,7 +2351,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "SUB26-00012",
         "ParentRecordID": "PLN24-01024",
@@ -2409,7 +2409,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00638",
         "ParentRecordID": null,
@@ -2525,7 +2525,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00115",
         "ParentRecordID": null,
@@ -2583,7 +2583,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00014",
         "ParentRecordID": null,
@@ -2641,7 +2641,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00149",
         "ParentRecordID": null,
@@ -2699,7 +2699,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00089",
         "ParentRecordID": null,
@@ -2757,7 +2757,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00809",
         "ParentRecordID": null,
@@ -2815,7 +2815,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00572",
         "ParentRecordID": null,
@@ -2931,7 +2931,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00722",
         "ParentRecordID": null,
@@ -2989,7 +2989,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00757",
         "ParentRecordID": null,
@@ -3047,7 +3047,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00267",
         "ParentRecordID": null,
@@ -3105,7 +3105,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN24-01141",
         "ParentRecordID": null,
@@ -3163,7 +3163,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00401",
         "ParentRecordID": null,
@@ -3221,7 +3221,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN24-01039",
         "ParentRecordID": null,
@@ -3279,7 +3279,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN24-01024",
         "ParentRecordID": null,
@@ -3337,7 +3337,7 @@
       "score": 40,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00107",
         "ParentRecordID": null,
@@ -3575,7 +3575,7 @@
       "score": 35,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433864,
         "DXF_LAYER": "PARCEL",
@@ -3674,7 +3674,7 @@
       "score": 35,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433474,
         "DXF_LAYER": "PARCEL",
@@ -3773,7 +3773,7 @@
       "score": 35,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432596,
         "DXF_LAYER": "PARCEL",
@@ -3917,7 +3917,7 @@
       "score": 30,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00706",
         "ParentRecordID": null,
@@ -3975,7 +3975,7 @@
       "score": 30,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T01:22:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "agency": "City of Caldwell",
         "review_month": "2026-07",
@@ -4014,7 +4014,7 @@
       "score": 30,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00407",
         "ParentRecordID": null,
@@ -4072,7 +4072,7 @@
       "score": 30,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T01:22:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "agency": "City of Caldwell",
         "review_month": "2026-05",
@@ -4111,7 +4111,7 @@
       "score": 27,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T20:44:26+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 3806 sq. ft., two story (first story 2170 sq. ft., Second Story 1636 sq. ft.) single family dwelling with 4 bedrooms, 3.5 bathrooms, approximately 420 sq. ft. of covered patio/porch and a 1276 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  R-1C zoning and setbacks per planning. **MTD**  A Construction Drawings Elevation Certificate is required prior to the actual start of any new construction.  A Building Under Construction Elevation Certificate is required after the lowest floor is established.  A final as-built Finished Construction Elevation Certificate is required after construction is completed and prior to Certificate of Compliance/Occupancy issuance.  Elevation Certificate elevations need to be placed on site plan, foundation plan, and cross section plans. \r\n***LOCATED IN FLOODPLAIN THREE ELEVATION CERTIFICATES WILL BE REQUIRED***",
         "application_date": "2026-02-07",
@@ -4159,7 +4159,7 @@
       "score": 27,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**SEWER PLUG INSPECTION REQUIRED. CONTACT TIFFANY LOWERY** **DEMO PERMIT UNDER BLD26-02051**\r\n***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** \r\nPermit for the construction of a new 5259 sq. ft., two story plus basement (finished basement for mechanical and storage only, no livable usage permitted 504 sq. ft., first story 3236 sq. ft., Second Story 833 sq. ft.) single family dwelling with 4 bedrooms, 3.5 bathrooms, approximately 305 sq. ft. of covered patio/porch and a 686 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. R-1C zoning and setbacks per planning. **CJL**\r\nThis home to be fully fire sprinkled. A Separate deferred submittal is required. AM",
         "application_date": "2026-07-08",
@@ -4207,7 +4207,7 @@
       "score": 27,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T19:07:33+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**SEWER PLUG INSPECTION REQUIRED. CONTACT TIFFANY LOWERY** Demo permit under BLD26-01348   All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 3750 sq. ft., three story (first story 1519 sq. ft., Second Story 1192 sq. ft., third story 1039 sq. ft.) single family dwelling with 3 bedrooms, 3.5 bathrooms, approximately 560 sq. ft. of covered patio/porch and a 719 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  MX-3 zoning and setbacks per planning.***MTD***\r\nThis building to be fire sprinkled. A separate deferred submittal is required. AM",
         "application_date": "2026-07-29",
@@ -4255,7 +4255,7 @@
       "score": 27,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION/INSPECTION. Permit for the construction of a new 5095 sq. ft., two story (first story 2291 sq. ft., Second Story 2804 sq. ft.) single family dwelling with 5 bedrooms, 4.5 bathrooms, approximately 954 sq. ft. of covered patio/porch and a 1038 sq. ft. attached garage per the approved plans and any notations. SP-01 zoning and setbacks per planning.**CJL** ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-06-03",
@@ -4303,7 +4303,7 @@
       "score": 27,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 4561 sq. ft., two story (First Floor 2948 sq. ft., Second floor 1613 sq. ft.) single family dwelling with 5 bedrooms 4 bathrooms, approximately 470 sq. ft. of covered patio/porch and a 1239 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1A zoning and setbacks per planning.***MTD***  ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-05-29",
@@ -4399,7 +4399,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-09-08T21:08:12+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 2777 sq. ft., Single Family Dwelling (Main Floor 1887 sq. ft., Upper Floor 692, Below grade Basement 198 sq. ft.) single family dwelling with 4 bedrooms, 2.5 bathrooms, approximately 414 sq. ft. of covered patio/porch and a 820 sq. ft. attached garage and attached 60 sq. ft. storage shed per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  R-1C zoning and setbacks per planning.***MTD*** ***This home will have a fire sprinkler system. ML***\r\nPrevious Expired Permit # BLD22-01206",
         "application_date": "2026-07-30",
@@ -4447,7 +4447,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-31T22:49:10+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   ***Associated with PRJ26-00017***   Permit for the construction of a new 1703 sq. ft., 1 bedroom, 2 bathroom one-story single-family dwelling with 1703 sq. ft. unfinished basement and approximately 218 sq. ft. of covered patio/porch and 0 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 Zoning and setbacks per Planning.***RDP***",
         "application_date": "2026-02-26",
@@ -4495,7 +4495,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-27T22:14:59+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. Permit for the construction of a new 6343 sq. ft., two story (first story 3897 sq. ft., Second Story 2446 sq. ft.) single family dwelling with 4 bedrooms, 3 bathrooms, approximately 438 sq. ft. of covered patio/porch and a 1154 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1B zoning and setbacks per planning. ***NDN*** ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-07-28",
@@ -4543,7 +4543,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-27T22:14:59+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   Permit for the construction of a new 2845 sq. ft., one-story single-family dwelling with 5 bedrooms, 3 bathrooms, approximately 434 sq. ft. of covered patio/porch and a 587 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning.***RDP***",
         "application_date": "2026-06-25",
@@ -4591,7 +4591,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434011,
         "DXF_LAYER": "PARCEL",
@@ -4690,7 +4690,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. Permit for the construction of a new 4526 sq. ft., two story (first story 2774 sq. ft., Second Story 1752 sq. ft.) single family dwelling with 4 bedrooms, 4 Full, 2 Half bathrooms, approximately 287 sq. ft. of covered patio/porch and a 967 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1B zoning and setbacks per planning. ***NDN***\r\nThis building will be fire sprinkled and will require a separate deferred submittal. AM",
         "application_date": "2026-01-29",
@@ -4738,7 +4738,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 4650 sq. ft., (2650sq ft 1st story and 2000 sq. ft. finished basement) single-family dwelling with 4 bedrooms, 4.5 bathrooms, approximately 890 sq. ft. of covered patio/porch and a 990 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. A-1 zoning and setbacks per planning.***MTD***\r\n ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-05-29",
@@ -4786,7 +4786,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | ALTURAS CONSTRUCTION LLC | 250 E Eagles Gate DR STE 320 | EAGLE, ID 83616 | 208-391-4445 | Project Description: | New Single Family Dwelling | New | TOTAL VALUE: | $8,183,942.91 | 35 | PERMITS | RESIDENTIAL | Patio Covers | Permit # | R-PATIO-2026-0095 | Issued: | 08/03/2026"
       },
@@ -4822,7 +4822,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433960,
         "DXF_LAYER": "PARCEL",
@@ -4921,7 +4921,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**Demo Under BLD26-00895** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 2357 sq. ft., two story (first story 1426 sq. ft., Second Story 931 sq. ft.) single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 374 sq. ft. of covered patio/porch and a 585 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  zoning and setbacks per planning.***MTD***",
         "application_date": "2026-04-23",
@@ -4969,7 +4969,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "SPECIAL INSPECTIONS ***IR1 HILLSIDE LOT CLASS 1 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. Permit for the construction of a new 2756 sq. ft., one story single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 613 sq. ft. of covered patio/porch and a 867 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. A-1 zoning and setbacks per planning. ***NDN*** ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-05-13",
@@ -5017,7 +5017,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433929,
         "DXF_LAYER": "PARCEL",
@@ -5212,7 +5212,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433808,
         "DXF_LAYER": "PARCEL",
@@ -5311,7 +5311,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433688,
         "DXF_LAYER": "PARCEL",
@@ -5410,7 +5410,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433645,
         "DXF_LAYER": "PARCEL",
@@ -5509,7 +5509,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433531,
         "DXF_LAYER": "PARCEL",
@@ -5608,7 +5608,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433436,
         "DXF_LAYER": "PARCEL",
@@ -5707,7 +5707,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433277,
         "DXF_LAYER": "PARCEL",
@@ -5806,7 +5806,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433270,
         "DXF_LAYER": "PARCEL",
@@ -5905,7 +5905,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432926,
         "DXF_LAYER": "PARCEL",
@@ -6004,7 +6004,7 @@
       "score": 25,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432604,
         "DXF_LAYER": "PARCEL",
@@ -6103,7 +6103,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-11T16:27:04+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR2 VALLEY LOT CLASS 2 IGNITION-RESISTANT CONSTRUCTION REQUIRED *** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 2317 sq. ft., two story (first story 988 sq. ft., Second Story 1329 sq. ft.) single family dwelling with 4 bedrooms, 2.5 bathrooms, approximately 118 sq. ft. of covered patio/porch and an 660 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-03 zoning and setbacks per planning. ***MTD*** (Reviewed by SafeBuilt)",
         "application_date": "2026-08-13",
@@ -6151,7 +6151,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-11T16:27:04+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434066,
         "DXF_LAYER": "PARCEL",
@@ -6250,7 +6250,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-09T20:54:55+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK*** ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION/INSPECTION.\r\nPermit for the construction of a new 1680 sq. ft., two story single family dwelling ( 1st Floor 786 Sq. Ft., 2nd Floor 894 Sq. Ft.) with 3 bedrooms, 2.5 bathrooms, approximately 50 sq. ft. of covered patio/porch and a 242 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 zoning and setbacks per planning. **CJL**",
         "application_date": "2026-06-18",
@@ -6298,7 +6298,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-10T16:22:57+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434063,
         "DXF_LAYER": "PARCEL",
@@ -6397,7 +6397,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T16:20:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION*** ***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***\r\nPermit for the construction of a new 2152 sq. ft., one story single family dwelling with 4 bedrooms, 4.5 bathrooms, approximately 287 sq. ft. of covered patio/porch and a 710 sq. ft. attached garage per the approved plans and any notations. HERS Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1B zoning and setbacks per planning. **CJL**",
         "application_date": "2026-06-19",
@@ -6445,7 +6445,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T16:20:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Permit for the construction of a new 2,513sq' two story (first story 1,125sq', second story 1,388sq') single family dwelling with 5 bedrooms, 3 bathrooms, approximately 167sq' of covered patio/porch and a 710sq' attached garage per the approved plans and any notations. R-1B zoning and setbacks per planning. Separate electrical, plumbing & mechanical permits required. **JAB** \r\nProperty lines must be clearly marked on site prior to footing or foundation inspection. Survey may be required.\r\nAll approved construction drawings and documents are required to be on-site.",
         "application_date": "2026-06-17",
@@ -6493,7 +6493,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T16:20:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434054,
         "DXF_LAYER": "PARCEL",
@@ -6592,7 +6592,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T16:20:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434051,
         "DXF_LAYER": "PARCEL",
@@ -6691,7 +6691,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T21:01:04+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR2 VALLEY PERIMETER LOT CLASS 2 IGNITION-RESISTANT CONSTRUCTION REQUIRED***\r\nAll property lines are to be clearly marked with survey pin locations prior to any footing inspections.                                                             R106.3.1 all current construction documents/drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 1460 sq. ft., two story (first story 680 sq. ft., Second Story 780 sq. ft.) single family dwelling with 3 bedrooms, 2 bathrooms, 1 half bathroom, approximately 102 sq. ft. of covered patio/porch and a 531 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.  SP-03 zoning and setbacks per planning.  **MF**",
         "application_date": "2026-08-13",
@@ -6739,7 +6739,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-04T04:30:39+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR2 VALLEY LOT CLASS 2 IGNITION-RESISTANT CONSTRUCTION REQUIRED*** ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION. ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. Permit for the construction of a new 2725 sq. ft., two story (finished basement 954 sq. ft., Second Story 1771 sq. ft.) single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 263 sq. ft. of covered patio/porch and a 853 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2/DA zoning and setbacks per planning.**CJL** ***This home will have a fire sprinkler system. ML***",
         "application_date": "2026-07-31",
@@ -6787,7 +6787,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434046,
         "DXF_LAYER": "PARCEL",
@@ -6886,7 +6886,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434045,
         "DXF_LAYER": "PARCEL",
@@ -6985,7 +6985,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-03T16:24:24+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434044,
         "DXF_LAYER": "PARCEL",
@@ -7084,7 +7084,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-31T22:49:10+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. Permit for the construction of a new 1680 sq. ft., one story single family dwelling with 3 bedrooms, 2 bathrooms, approximately 386 sq. ft. of covered patio/porch and a 620 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning. ***NDN***",
         "application_date": "2026-07-08",
@@ -7132,7 +7132,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-31T13:46:33+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434042,
         "DXF_LAYER": "PARCEL",
@@ -7231,7 +7231,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "DEMO UNDER BLD26-00703***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. **Permit for the construction of a new 1586 sq. ft., two story (first story 793 sq. ft., Second Story 793 sq. ft.) single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 312 sq. ft. of covered patio/porch and a 495 sq. ft. detached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.R-1C zoning and setbacks per planning. **MF**",
         "application_date": "2026-05-11",
@@ -7279,7 +7279,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Demo permit is under BLD25-02074\r\nALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. Permit for the construction of a new 997 sq. ft., one story single family dwelling with 2 bedrooms, 2 bathrooms, approximately 24 sq. ft. of covered patio/porch per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning. ***NDN***",
         "application_date": "2026-03-10",
@@ -7327,7 +7327,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Demo permit is under BLD25-02074\r\nAll property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 1000 sq. ft., two story (First Floor 482 sq. ft., Second floor 518 sq. ft.) single family dwelling with 2 bedrooms 2.5 bathrooms, and approximately 105 sq. ft. of covered patio/porch per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning. ***MTD*** Reviewed by SAFEBuilt.",
         "application_date": "2026-03-10",
@@ -7375,7 +7375,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 1000 sq. ft., two story (First Floor 540 sq. ft., Second floor 460 sq. ft.) single family dwelling with 2 bedrooms 2.5 bathrooms, and approximately 52 sq. ft. of covered patio/porch per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning. ***MTD*** Reviewed by SAFEBuilt",
         "application_date": "2026-03-10",
@@ -7423,7 +7423,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434039,
         "DXF_LAYER": "PARCEL",
@@ -7522,7 +7522,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-28T22:18:03+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434037,
         "DXF_LAYER": "PARCEL",
@@ -7621,7 +7621,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-27T22:14:59+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR2 VALLEY  LOT CLASS 2 IGNITION-RESISTANT CONSTRUCTION REQUIRED***\r\nAll property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 all current construction documents/drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 1460 sq. ft., two story (first story 680 sq. ft., Second Story 780 sq. ft.) single family dwelling with 3 bedrooms, 2 bathrooms, 1 half bathroom, approximately 102 sq. ft. of covered patio/porch and a 531 sq. ft. attached garage per the approved plans and any notations.\r\nPrescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. SP-03 zoning and setbacks per planning.  **MF**",
         "application_date": "2026-08-12",
@@ -7669,7 +7669,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T19:07:33+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434026,
         "DXF_LAYER": "PARCEL",
@@ -7768,7 +7768,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T15:58:22+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434021,
         "DXF_LAYER": "PARCEL",
@@ -7867,7 +7867,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T15:58:22+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434020,
         "DXF_LAYER": "PARCEL",
@@ -7966,7 +7966,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "Reviewed under PRJ26-00079. ***CALL THE STRUCTURAL INSPECTOR PRIOR TO THE VERTICAL CONSTRUCTION OF THE FIRE SEPARATION WALL. INSPECTION OF THE RATED WALL IS REQUIRED AFTER THE APPLICATION OF THE INITIAL LAYER OF SHEETROCK*** All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction. Permit for the construction of a new 3035 sq. ft., two story (First Floor 2567 sq. ft., Second floor 468 sq. ft.) single family dwelling with 3 bedrooms 2.5 bathrooms, approximately 1012 sq. ft. of covered patio/porch and a 1405 sq. ft. attached garage per the approved plans and any notations. R-1A zoning and setbacks per planning. Dwelling will be fire sprinklered with NFPA 13D system. ***CJL***\r\nThis home to be fire sprinkled. A separate deferred submittal is required. AM",
         "application_date": "2026-04-21",
@@ -8014,7 +8014,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434015,
         "DXF_LAYER": "PARCEL",
@@ -8113,7 +8113,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434014,
         "DXF_LAYER": "PARCEL",
@@ -8212,7 +8212,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   ***ASSOCIATED WITH PRJ26-00048***   Permit for the construction of a new 1703 sq. ft., two story (first story 853 sq. ft., Second Story 850 sq. ft.) single family dwelling with 4 bedrooms, 4.5 bathrooms, approximately 0 sq. ft. of covered patio/porch and a 443 sq. ft. detached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 Zoning and setbacks per Planning.***RDP***",
         "application_date": "2026-05-06",
@@ -8260,7 +8260,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   ***ASSOCIATED WITH PRJ26-00047***   Permit for the construction of a new 1643 sq. ft., two story (first story 841 sq. ft., Second Story 802 sq. ft.) single family dwelling with 4 bedrooms, 4.5 bathrooms, approximately 62 sq. ft. of covered patio/porch and a 456 sq. ft. detached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 Zoning and setbacks per Planning.***RDP***",
         "application_date": "2026-05-06",
@@ -8308,7 +8308,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   ***ASSOCIATED WITH PRJ26-00046***   Permit for the construction of a new 1706 sq. ft., two story (first story 863 sq. ft., Second Story 843 sq. ft.) single family dwelling with 4 bedrooms, 4.5 bathrooms, approximately 0 sq. ft. of covered patio/porch and a 448 sq. ft. detached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-2 Zoning and setbacks per Planning.***RDP***",
         "application_date": "2026-05-06",
@@ -8356,7 +8356,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2434000,
         "DXF_LAYER": "PARCEL",
@@ -8455,7 +8455,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433999,
         "DXF_LAYER": "PARCEL",
@@ -8554,7 +8554,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433998,
         "DXF_LAYER": "PARCEL",
@@ -8653,7 +8653,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433994,
         "DXF_LAYER": "PARCEL",
@@ -8752,7 +8752,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "All property lines are to be clearly marked with survey pin locations prior to any footing inspections. R106.3.1 All current construction documents / drawings shall be kept at the site of work during the time of construction.  Permit for the construction of a new 1762 sq. ft., one story single family dwelling with 3 bedrooms, 2 bathrooms, approximately 193 sq. ft. of covered patio/porch and a 684 sq. ft. attached garage per the approved plans and any notations. R-1B zoning and setbacks per planning. HERS Rating Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection.R-1C zoning and setbacks per planning. **MF**\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n.",
         "application_date": "2026-06-17",
@@ -8800,7 +8800,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION*** ***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS*** Permit for the construction of a new 2152 sq. ft., one story single family dwelling with 4 bedrooms, 3 bathrooms, approximately 287 sq. ft. of covered patio/porch and a 434 sq. ft. attached garage per the approved plans and any notations. HERS Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1B zoning and setbacks per planning. **CJL**",
         "application_date": "2026-06-17",
@@ -8848,7 +8848,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433989,
         "DXF_LAYER": "PARCEL",
@@ -8947,7 +8947,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433986,
         "DXF_LAYER": "PARCEL",
@@ -9046,7 +9046,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433983,
         "DXF_LAYER": "PARCEL",
@@ -9145,7 +9145,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433980,
         "DXF_LAYER": "PARCEL",
@@ -9244,7 +9244,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433979,
         "DXF_LAYER": "PARCEL",
@@ -9343,7 +9343,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433976,
         "DXF_LAYER": "PARCEL",
@@ -9442,7 +9442,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**DEMO PERMIT BLD26-01862**  **PLUG PERMIT REQUIRED** ESC no ENERGY yes **Permit for the construction of a new 2175 sq. ft., two story (first story 1238 sq. ft., Second Story 937 sq. ft.) single family dwelling with 5 bedrooms, 5.5 bathrooms, approximately 136 sq. ft. of covered patio/porch, and a 0 sq. ft. attached garage per the approved plans and any notations. R-2  zoning and setbacks per planning.**PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION *ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS  *MF**",
         "application_date": "2026-06-16",
@@ -9490,7 +9490,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**DEMO PERMIT BLD26-01862** **Permit for the construction of a new 2175 sq. ft., two story (first story 1238 sq. ft., Second Story 937 sq. ft.) single family dwelling with 5 bedrooms, 5.5 bathrooms, approximately 136 sq. ft. of covered patio/porch, and a 0 sq. ft. attached garage per the approved plans and any notations. R-2  zoning and setbacks per planning.**PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION *ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS  *MF**",
         "application_date": "2026-06-16",
@@ -9538,7 +9538,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433970,
         "DXF_LAYER": "PARCEL",
@@ -9637,7 +9637,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "**Demo NOT FINALED under BLD25-02787** \r\nALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS. R106.3.1 ALL CURRENT CONSTRUCTION DOCUMENTS/DRAWINGS SHALL BE KEPT AT THE SITE OF WORK DURING THE TIME OF CONSTRUCTION. Permit for the construction of a new 2586 sq. ft., two story (first story 1805 sq. ft., Second Story 781 sq. ft.) single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 374 sq. ft. of covered patio/porch and a 900 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. R-1C zoning and setbacks per planning. ***NDN***",
         "application_date": "2026-06-27",
@@ -9685,7 +9685,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433968,
         "DXF_LAYER": "PARCEL",
@@ -9784,7 +9784,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433967,
         "DXF_LAYER": "PARCEL",
@@ -9883,7 +9883,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-26T04:55:02+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "description": "***IR2 VALLEY LOT CLASS 2 IGNITION-RESISTANT CONSTRUCTION REQUIRED***   ***ALL PROPERTY LINES ARE TO BE CLEARLY MARKED WITH SURVEY PIN LOCATIONS PRIOR TO ANY FOOTING INSPECTIONS***   ***PER R106.3.1 ALL CURRENT CONSTRUCTION DRAWINGS AND DOCUMENTS ARE REQUIRED TO REMAIN ON-SITE DURING THE TIME OF CONSTRUCTION***   Permit for the construction of a new 1851 sq. ft., two story (first story 784 sq. ft., Second Story 1067 sq. ft.) single family dwelling with 3 bedrooms, 2.5 bathrooms, approximately 183 sq. ft. of covered patio/porch and a 461 sq. ft. attached garage per the approved plans and any notations. Prescriptive Energy Compliance. Certificate of Occupancy to be Issued at Final Inspection. SP-03 Zoning and setbacks per Planning.***RDP***",
         "application_date": "2026-06-05",
@@ -9931,7 +9931,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433958,
         "DXF_LAYER": "PARCEL",
@@ -10030,7 +10030,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433950,
         "DXF_LAYER": "PARCEL",
@@ -10129,7 +10129,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-10T16:22:57+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433945,
         "DXF_LAYER": "PARCEL",
@@ -10228,7 +10228,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433942,
         "DXF_LAYER": "PARCEL",
@@ -10327,7 +10327,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433935,
         "DXF_LAYER": "PARCEL",
@@ -10474,7 +10474,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433927,
         "DXF_LAYER": "PARCEL",
@@ -10573,7 +10573,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433926,
         "DXF_LAYER": "PARCEL",
@@ -10672,7 +10672,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433923,
         "DXF_LAYER": "PARCEL",
@@ -10771,7 +10771,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433922,
         "DXF_LAYER": "PARCEL",
@@ -10870,7 +10870,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433921,
         "DXF_LAYER": "PARCEL",
@@ -10969,7 +10969,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433919,
         "DXF_LAYER": "PARCEL",
@@ -11068,7 +11068,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433918,
         "DXF_LAYER": "PARCEL",
@@ -11215,7 +11215,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433912,
         "DXF_LAYER": "PARCEL",
@@ -11314,7 +11314,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433906,
         "DXF_LAYER": "PARCEL",
@@ -11413,7 +11413,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433905,
         "DXF_LAYER": "PARCEL",
@@ -11512,7 +11512,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433904,
         "DXF_LAYER": "PARCEL",
@@ -11611,7 +11611,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433903,
         "DXF_LAYER": "PARCEL",
@@ -11710,7 +11710,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433902,
         "DXF_LAYER": "PARCEL",
@@ -11809,7 +11809,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433896,
         "DXF_LAYER": "PARCEL",
@@ -11908,7 +11908,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433885,
         "DXF_LAYER": "PARCEL",
@@ -12007,7 +12007,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433879,
         "DXF_LAYER": "PARCEL",
@@ -12106,7 +12106,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433871,
         "DXF_LAYER": "PARCEL",
@@ -12205,7 +12205,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-27T22:14:59+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433870,
         "DXF_LAYER": "PARCEL",
@@ -12304,7 +12304,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433868,
         "DXF_LAYER": "PARCEL",
@@ -12403,7 +12403,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433859,
         "DXF_LAYER": "PARCEL",
@@ -12502,7 +12502,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433857,
         "DXF_LAYER": "PARCEL",
@@ -12601,7 +12601,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433855,
         "DXF_LAYER": "PARCEL",
@@ -12700,7 +12700,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433848,
         "DXF_LAYER": "PARCEL",
@@ -12799,7 +12799,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433847,
         "DXF_LAYER": "PARCEL",
@@ -12898,7 +12898,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433843,
         "DXF_LAYER": "PARCEL",
@@ -12997,7 +12997,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433832,
         "DXF_LAYER": "PARCEL",
@@ -13096,7 +13096,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433831,
         "DXF_LAYER": "PARCEL",
@@ -13195,7 +13195,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433829,
         "DXF_LAYER": "PARCEL",
@@ -13294,7 +13294,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433823,
         "DXF_LAYER": "PARCEL",
@@ -13393,7 +13393,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433821,
         "DXF_LAYER": "PARCEL",
@@ -13492,7 +13492,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433818,
         "DXF_LAYER": "PARCEL",
@@ -13591,7 +13591,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433817,
         "DXF_LAYER": "PARCEL",
@@ -13690,7 +13690,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433811,
         "DXF_LAYER": "PARCEL",
@@ -13789,7 +13789,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433810,
         "DXF_LAYER": "PARCEL",
@@ -13888,7 +13888,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433809,
         "DXF_LAYER": "PARCEL",
@@ -13987,7 +13987,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433806,
         "DXF_LAYER": "PARCEL",
@@ -14086,7 +14086,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433794,
         "DXF_LAYER": "PARCEL",
@@ -14185,7 +14185,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433790,
         "DXF_LAYER": "PARCEL",
@@ -14284,7 +14284,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433788,
         "DXF_LAYER": "PARCEL",
@@ -14383,7 +14383,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433786,
         "DXF_LAYER": "PARCEL",
@@ -14482,7 +14482,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433780,
         "DXF_LAYER": "PARCEL",
@@ -14581,7 +14581,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433778,
         "DXF_LAYER": "PARCEL",
@@ -14680,7 +14680,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433774,
         "DXF_LAYER": "PARCEL",
@@ -14779,7 +14779,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433771,
         "DXF_LAYER": "PARCEL",
@@ -14878,7 +14878,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-10T16:22:57+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433761,
         "DXF_LAYER": "PARCEL",
@@ -14977,7 +14977,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433757,
         "DXF_LAYER": "PARCEL",
@@ -15076,7 +15076,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433743,
         "DXF_LAYER": "PARCEL",
@@ -15175,7 +15175,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433742,
         "DXF_LAYER": "PARCEL",
@@ -15274,7 +15274,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433739,
         "DXF_LAYER": "PARCEL",
@@ -15373,7 +15373,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433734,
         "DXF_LAYER": "PARCEL",
@@ -15472,7 +15472,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433721,
         "DXF_LAYER": "PARCEL",
@@ -15571,7 +15571,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433715,
         "DXF_LAYER": "PARCEL",
@@ -15670,7 +15670,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433714,
         "DXF_LAYER": "PARCEL",
@@ -15769,7 +15769,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433713,
         "DXF_LAYER": "PARCEL",
@@ -15868,7 +15868,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433708,
         "DXF_LAYER": "PARCEL",
@@ -15967,7 +15967,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433707,
         "DXF_LAYER": "PARCEL",
@@ -16066,7 +16066,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433705,
         "DXF_LAYER": "PARCEL",
@@ -16165,7 +16165,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433703,
         "DXF_LAYER": "PARCEL",
@@ -16264,7 +16264,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433694,
         "DXF_LAYER": "PARCEL",
@@ -16363,7 +16363,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433687,
         "DXF_LAYER": "PARCEL",
@@ -16462,7 +16462,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433686,
         "DXF_LAYER": "PARCEL",
@@ -16561,7 +16561,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433679,
         "DXF_LAYER": "PARCEL",
@@ -16660,7 +16660,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433662,
         "DXF_LAYER": "PARCEL",
@@ -16759,7 +16759,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433661,
         "DXF_LAYER": "PARCEL",
@@ -16858,7 +16858,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433660,
         "DXF_LAYER": "PARCEL",
@@ -16957,7 +16957,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433659,
         "DXF_LAYER": "PARCEL",
@@ -17056,7 +17056,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433657,
         "DXF_LAYER": "PARCEL",
@@ -17155,7 +17155,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433653,
         "DXF_LAYER": "PARCEL",
@@ -17254,7 +17254,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433651,
         "DXF_LAYER": "PARCEL",
@@ -17353,7 +17353,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433650,
         "DXF_LAYER": "PARCEL",
@@ -17452,7 +17452,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433644,
         "DXF_LAYER": "PARCEL",
@@ -17551,7 +17551,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433643,
         "DXF_LAYER": "PARCEL",
@@ -17650,7 +17650,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433639,
         "DXF_LAYER": "PARCEL",
@@ -17749,7 +17749,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433635,
         "DXF_LAYER": "PARCEL",
@@ -17848,7 +17848,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433633,
         "DXF_LAYER": "PARCEL",
@@ -17947,7 +17947,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433632,
         "DXF_LAYER": "PARCEL",
@@ -18046,7 +18046,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433631,
         "DXF_LAYER": "PARCEL",
@@ -18145,7 +18145,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433630,
         "DXF_LAYER": "PARCEL",
@@ -18244,7 +18244,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433628,
         "DXF_LAYER": "PARCEL",
@@ -18343,7 +18343,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433623,
         "DXF_LAYER": "PARCEL",
@@ -18442,7 +18442,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433620,
         "DXF_LAYER": "PARCEL",
@@ -18541,7 +18541,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433617,
         "DXF_LAYER": "PARCEL",
@@ -18640,7 +18640,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433616,
         "DXF_LAYER": "PARCEL",
@@ -18739,7 +18739,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433615,
         "DXF_LAYER": "PARCEL",
@@ -18838,7 +18838,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433614,
         "DXF_LAYER": "PARCEL",
@@ -18937,7 +18937,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433613,
         "DXF_LAYER": "PARCEL",
@@ -19036,7 +19036,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433612,
         "DXF_LAYER": "PARCEL",
@@ -19135,7 +19135,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433611,
         "DXF_LAYER": "PARCEL",
@@ -19234,7 +19234,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433608,
         "DXF_LAYER": "PARCEL",
@@ -19333,7 +19333,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433606,
         "DXF_LAYER": "PARCEL",
@@ -19432,7 +19432,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433604,
         "DXF_LAYER": "PARCEL",
@@ -19531,7 +19531,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433601,
         "DXF_LAYER": "PARCEL",
@@ -19630,7 +19630,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433590,
         "DXF_LAYER": "PARCEL",
@@ -19729,7 +19729,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433581,
         "DXF_LAYER": "PARCEL",
@@ -19828,7 +19828,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433578,
         "DXF_LAYER": "PARCEL",
@@ -19927,7 +19927,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433574,
         "DXF_LAYER": "PARCEL",
@@ -20026,7 +20026,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433558,
         "DXF_LAYER": "PARCEL",
@@ -20125,7 +20125,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433557,
         "DXF_LAYER": "PARCEL",
@@ -20224,7 +20224,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433556,
         "DXF_LAYER": "PARCEL",
@@ -20323,7 +20323,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433536,
         "DXF_LAYER": "PARCEL",
@@ -20422,7 +20422,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-09-10T16:22:57+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433530,
         "DXF_LAYER": "PARCEL",
@@ -20521,7 +20521,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433519,
         "DXF_LAYER": "PARCEL",
@@ -20620,7 +20620,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433518,
         "DXF_LAYER": "PARCEL",
@@ -20719,7 +20719,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433516,
         "DXF_LAYER": "PARCEL",
@@ -20818,7 +20818,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433513,
         "DXF_LAYER": "PARCEL",
@@ -20917,7 +20917,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433511,
         "DXF_LAYER": "PARCEL",
@@ -21016,7 +21016,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433507,
         "DXF_LAYER": "PARCEL",
@@ -21115,7 +21115,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433500,
         "DXF_LAYER": "PARCEL",
@@ -21214,7 +21214,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433498,
         "DXF_LAYER": "PARCEL",
@@ -21313,7 +21313,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433483,
         "DXF_LAYER": "PARCEL",
@@ -21412,7 +21412,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433482,
         "DXF_LAYER": "PARCEL",
@@ -21511,7 +21511,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433478,
         "DXF_LAYER": "PARCEL",
@@ -21610,7 +21610,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433477,
         "DXF_LAYER": "PARCEL",
@@ -21709,7 +21709,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433476,
         "DXF_LAYER": "PARCEL",
@@ -21808,7 +21808,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433473,
         "DXF_LAYER": "PARCEL",
@@ -21907,7 +21907,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433467,
         "DXF_LAYER": "PARCEL",
@@ -22006,7 +22006,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433465,
         "DXF_LAYER": "PARCEL",
@@ -22105,7 +22105,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433462,
         "DXF_LAYER": "PARCEL",
@@ -22204,7 +22204,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433456,
         "DXF_LAYER": "PARCEL",
@@ -22303,7 +22303,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433454,
         "DXF_LAYER": "PARCEL",
@@ -22402,7 +22402,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433452,
         "DXF_LAYER": "PARCEL",
@@ -22501,7 +22501,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433449,
         "DXF_LAYER": "PARCEL",
@@ -22600,7 +22600,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433447,
         "DXF_LAYER": "PARCEL",
@@ -22699,7 +22699,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433445,
         "DXF_LAYER": "PARCEL",
@@ -22798,7 +22798,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433444,
         "DXF_LAYER": "PARCEL",
@@ -22897,7 +22897,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433443,
         "DXF_LAYER": "PARCEL",
@@ -22996,7 +22996,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433430,
         "DXF_LAYER": "PARCEL",
@@ -23095,7 +23095,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433416,
         "DXF_LAYER": "PARCEL",
@@ -23194,7 +23194,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433411,
         "DXF_LAYER": "PARCEL",
@@ -23293,7 +23293,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433405,
         "DXF_LAYER": "PARCEL",
@@ -23392,7 +23392,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433399,
         "DXF_LAYER": "PARCEL",
@@ -23491,7 +23491,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433372,
         "DXF_LAYER": "PARCEL",
@@ -23590,7 +23590,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433367,
         "DXF_LAYER": "PARCEL",
@@ -23689,7 +23689,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433359,
         "DXF_LAYER": "PARCEL",
@@ -23788,7 +23788,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433340,
         "DXF_LAYER": "PARCEL",
@@ -23887,7 +23887,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433335,
         "DXF_LAYER": "PARCEL",
@@ -23986,7 +23986,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433313,
         "DXF_LAYER": "PARCEL",
@@ -24085,7 +24085,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433312,
         "DXF_LAYER": "PARCEL",
@@ -24184,7 +24184,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433310,
         "DXF_LAYER": "PARCEL",
@@ -24283,7 +24283,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433284,
         "DXF_LAYER": "PARCEL",
@@ -24382,7 +24382,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433281,
         "DXF_LAYER": "PARCEL",
@@ -24481,7 +24481,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433278,
         "DXF_LAYER": "PARCEL",
@@ -24580,7 +24580,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433267,
         "DXF_LAYER": "PARCEL",
@@ -24679,7 +24679,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433263,
         "DXF_LAYER": "PARCEL",
@@ -24778,7 +24778,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433249,
         "DXF_LAYER": "PARCEL",
@@ -24877,7 +24877,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433238,
         "DXF_LAYER": "PARCEL",
@@ -24976,7 +24976,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433233,
         "DXF_LAYER": "PARCEL",
@@ -25075,7 +25075,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433224,
         "DXF_LAYER": "PARCEL",
@@ -25174,7 +25174,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433223,
         "DXF_LAYER": "PARCEL",
@@ -25273,7 +25273,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433215,
         "DXF_LAYER": "PARCEL",
@@ -25372,7 +25372,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433201,
         "DXF_LAYER": "PARCEL",
@@ -25471,7 +25471,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433189,
         "DXF_LAYER": "PARCEL",
@@ -25570,7 +25570,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433179,
         "DXF_LAYER": "PARCEL",
@@ -25669,7 +25669,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433168,
         "DXF_LAYER": "PARCEL",
@@ -25768,7 +25768,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433160,
         "DXF_LAYER": "PARCEL",
@@ -25867,7 +25867,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433152,
         "DXF_LAYER": "PARCEL",
@@ -25966,7 +25966,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433151,
         "DXF_LAYER": "PARCEL",
@@ -26065,7 +26065,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433146,
         "DXF_LAYER": "PARCEL",
@@ -26164,7 +26164,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433145,
         "DXF_LAYER": "PARCEL",
@@ -26263,7 +26263,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433115,
         "DXF_LAYER": "PARCEL",
@@ -26362,7 +26362,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433098,
         "DXF_LAYER": "PARCEL",
@@ -26461,7 +26461,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433083,
         "DXF_LAYER": "PARCEL",
@@ -26560,7 +26560,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433082,
         "DXF_LAYER": "PARCEL",
@@ -26659,7 +26659,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433079,
         "DXF_LAYER": "PARCEL",
@@ -26758,7 +26758,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433077,
         "DXF_LAYER": "PARCEL",
@@ -26857,7 +26857,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T15:58:22+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433073,
         "DXF_LAYER": "PARCEL",
@@ -26956,7 +26956,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433068,
         "DXF_LAYER": "PARCEL",
@@ -27055,7 +27055,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433059,
         "DXF_LAYER": "PARCEL",
@@ -27154,7 +27154,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433039,
         "DXF_LAYER": "PARCEL",
@@ -27253,7 +27253,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433025,
         "DXF_LAYER": "PARCEL",
@@ -27352,7 +27352,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433020,
         "DXF_LAYER": "PARCEL",
@@ -27451,7 +27451,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433012,
         "DXF_LAYER": "PARCEL",
@@ -27550,7 +27550,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2433008,
         "DXF_LAYER": "PARCEL",
@@ -27649,7 +27649,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432949,
         "DXF_LAYER": "PARCEL",
@@ -27748,7 +27748,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432937,
         "DXF_LAYER": "PARCEL",
@@ -27847,7 +27847,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432917,
         "DXF_LAYER": "PARCEL",
@@ -27946,7 +27946,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432873,
         "DXF_LAYER": "PARCEL",
@@ -28045,7 +28045,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432872,
         "DXF_LAYER": "PARCEL",
@@ -28144,7 +28144,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432826,
         "DXF_LAYER": "PARCEL",
@@ -28243,7 +28243,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432744,
         "DXF_LAYER": "PARCEL",
@@ -28342,7 +28342,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432730,
         "DXF_LAYER": "PARCEL",
@@ -28441,7 +28441,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432701,
         "DXF_LAYER": "PARCEL",
@@ -28540,7 +28540,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432649,
         "DXF_LAYER": "PARCEL",
@@ -28639,7 +28639,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432629,
         "DXF_LAYER": "PARCEL",
@@ -28738,7 +28738,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432342,
         "DXF_LAYER": "PARCEL",
@@ -28837,7 +28837,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2432066,
         "DXF_LAYER": "PARCEL",
@@ -28936,7 +28936,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431996,
         "DXF_LAYER": "PARCEL",
@@ -29035,7 +29035,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431954,
         "DXF_LAYER": "PARCEL",
@@ -29134,7 +29134,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-25T15:58:22+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431933,
         "DXF_LAYER": "PARCEL",
@@ -29233,7 +29233,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431817,
         "DXF_LAYER": "PARCEL",
@@ -29332,7 +29332,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431676,
         "DXF_LAYER": "PARCEL",
@@ -29431,7 +29431,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431669,
         "DXF_LAYER": "PARCEL",
@@ -29530,7 +29530,7 @@
       "score": 20,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T23:58:20+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "OBJECTID": 2431357,
         "DXF_LAYER": "PARCEL",
@@ -29605,7 +29605,7 @@
       "permit_number": "267374",
       "issued_date": "2026-09-10",
       "permit_type": "Building Residential",
-      "address": "7211 n Hillswick Way, Eagle Idaho 83616",
+      "address": "7211 N Hillswick Way",
       "source_name": "Eagle iWorQ Permit Portal",
       "source_url": "https://portal.iworq.net/EAGLE/permit/600/29679607",
       "project_name": "New Residential Home",
@@ -29618,7 +29618,7 @@
       "architect": null,
       "apn": null,
       "area": null,
-      "status": "Online Submission",
+      "status": "In Re",
       "subdivision": null,
       "county": "Ada",
       "city": "Eagle",
@@ -29629,14 +29629,14 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-09-11T04:37:55+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "listing": {
           "permit_number": "267374",
           "issued_date": "2026-09-10",
           "permit_type": "Building Residential",
-          "address": "7211 n Hillswick Way, Eagle Idaho 83616",
-          "status": "Online Submission",
+          "address": "7211 N Hillswick Way",
+          "status": "In Re",
           "detail_url": "https://portal.iworq.net/EAGLE/permit/600/29679607",
           "scope": ""
         },
@@ -29674,7 +29674,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | BILTMORE CO LLC | 1580 W Cayuse Creek Dr SUITE | 100 ADA County | MERIDIAN, ID 83646 | 2088950500 | Project Description: | Building of a new single family home | Permit # | R-NEW-2026-0759 | Issued: | 08/14/2026 | Valuation: | $336,516.51 | Address: | 813 E INFINITY ST | Res.SQF: | 3150 | Com.SQF:"
       },
@@ -29710,7 +29710,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | HHS CONSTRUCTION LLC | 923 S. Bridgeway Place | EAGLE, ID 83616 | 2085775501 | Project Description: | New single family home | Permit # | R-NEW-2026-0725 | Issued: | 08/14/2026 | Valuation: | $312,389.41 | Address: | 3128 E RENWICK ST | Res.SQF: | 2977 | Com.SQF:"
       },
@@ -29746,7 +29746,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BLACKROCK HOMES LLC | 1979 N. LOCUST GROVE | MERIDIAN, ID 83646 | 208-297-5940 | Project Description: | New single family dwelling | Permit # | R-NEW-2026-0720 | Issued: | 08/14/2026 | Valuation: | $337,689.95 | Address: | 2984 E MARDIA ST | Res.SQF: | 3154 | Com.SQF:"
       },
@@ -29782,7 +29782,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BRIGHTON HOMES IDAHO INC | 2929 W. Navigator Dr. St 400 | Meridian, ID 83642 | 2083784000 | Project Description: | New Single Family Residential/PN04013002 Cottonwood (Chiang) | Permit # | R-NEW-2026-0700 | Issued: | 08/14/2026 | Valuation: | $242,703.05 | Address: | 1948 S BORDER WAY | Res.SQF: | 2342 | Com.SQF:"
       },
@@ -29818,7 +29818,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | BILTMORE CO LLC | 1580 W Cayuse Creek Dr SUITE | 100 ADA County | MERIDIAN, ID 83646 | 2088950500 | Project Description: | Building of a new single family home | Permit # | R-NEW-2026-0757 | Issued: | 08/13/2026 | Valuation: | $384,660.42 | Address: | 4630 N JARBIDGE AVE | Res.SQF: | 3487 | Com.SQF:"
       },
@@ -29854,7 +29854,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | BILTMORE CO LLC | 1580 W Cayuse Creek Dr SUITE | 100 ADA County | MERIDIAN, ID 83646 | 2088950500 | Project Description: | Building of a new single family home | Permit # | R-NEW-2026-0756 | Issued: | 08/13/2026 | Valuation: | $384,660.42 | Address: | 4679 N BRANDY CREEK AVE | Res.SQF: | 3487 | Com.SQF:"
       },
@@ -29890,7 +29890,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BLACKROCK HOMES LLC | 1979 N. LOCUST GROVE | MERIDIAN, ID 83646 | 208-297-5940 | Project Description: | New single family dwelling | Permit # | R-NEW-2026-0755 | Issued: | 08/13/2026 | Valuation: | $338,733.30 | Address: | 4726 N WOOLEY CREEK AVE | Res.SQF: | 3184 | Com.SQF:"
       },
@@ -29926,7 +29926,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | HHS CONSTRUCTION LLC | 923 S. Bridgeway Place | EAGLE, ID 83616 | 2085775501 | Project Description: | new single family home | Permit # | R-NEW-2026-0726 | Issued: | 08/12/2026 | Valuation: | $331,365.60 | Address: | 881 W MALBAR ST | Res.SQF: | 3090 | Com.SQF:"
       },
@@ -29962,7 +29962,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BLACKROCK HOMES LLC | 1979 N. LOCUST GROVE | MERIDIAN, ID 83646 | 208-297-5940 | Project Description: | New single family dwelling | Permit # | R-NEW-2026-0707 | Issued: | 08/11/2026 | Valuation: | $267,934.72 | Address: | 4525 S MAVORA WAY | Res.SQF: | 2500 | Com.SQF:"
       },
@@ -29998,7 +29998,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "(52) | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0705 | Issued: | 08/11/2026 | Valuation: | $247,852.57 | Address: | 4577 S MAVORA WAY | Res.SQF: | 2222 | Com.SQF:"
       },
@@ -30034,7 +30034,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BRIGHTON HOMES IDAHO INC | 2929 W. Navigator Dr. St 400 | Meridian, ID 83642 | 2083784000 | Project Description: | New Single Family Residential/PN04010010 Galloway B | Permit # | R-NEW-2026-0670 | Issued: | 08/11/2026 | Valuation: | $268,566.70 | Address: | 7030 S CAPSTONE AVE | Res.SQF: | 2515 | Com.SQF:"
       },
@@ -30070,7 +30070,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BRIGHTON HOMES IDAHO INC | 2929 W. Navigator Dr. St 400 | Meridian, ID 83642 | 2083784000 | Project Description: | New Single Family Residential/PN09009024 Freeman B | Permit # | R-NEW-2026-0669 | Issued: | 08/11/2026 | Valuation: | $261,752.90 | Address: | 7058 S STEEPLE AVE | Res.SQF: | 2525 | Com.SQF:"
       },
@@ -30106,7 +30106,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | HUBBLE HOMES LLC | 701 SOUTH ALLEN ST STE 104 | ADA County | MERIDIAN, ID 83642 | 208-433-8800 | Project Description: | NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE | Permit # | R-NEW-2026-0668 | Issued: | 08/11/2026 | Valuation: | $219,341.80 | Address: | 951 E ESCALATION ST | Res.SQF: | 2000 | Com.SQF:"
       },
@@ -30142,7 +30142,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "1 | Owner (Private): | Phone: | Contractor: | MAYBON HOMES LLC | MERIDIAN, ID 83642 | 202-949-7765 | Project Description: | Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. | Permit # | R-NEW-2026-0657 | Issued: | 08/10/2026 | Valuation: | $172,665.33 | Address: | 5881 N STATIC LINE AVE | Res.SQF: | 1618 | Com.SQF:"
       },
@@ -30178,7 +30178,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | ALTURAS CONSTRUCTION LLC | 250 E Eagles Gate DR STE 320 | EAGLE, ID 83616 | 208-391-4445 | Project Description: | New Single Family Dwelling | Permit # | R-NEW-2026-0728 | Issued: | 08/07/2026 | Valuation: | $336,182.04 | Address: | 837 E INFINITY ST | Res.SQF: | 3187 | Com.SQF:"
       },
@@ -30214,7 +30214,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0699 | Issued: | 08/07/2026 | Valuation: | $210,609.45 | Address: | 1966 S BORDER WAY | Res.SQF: | 2000 | Com.SQF:"
       },
@@ -30250,7 +30250,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0698 | Issued: | 08/07/2026 | Valuation: | $230,757.83 | Address: | 1982 S BORDER WAY | Res.SQF: | 2153 | Com.SQF:"
       },
@@ -30286,7 +30286,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential - TH | Permit # | R-NEW-2026-0697 | Issued: | 08/07/2026 | Valuation: | $234,788.39 | Address: | 1998 S BORDER WAY | Res.SQF: | 2318 | Com.SQF:"
       },
@@ -30322,7 +30322,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential - TH | Permit # | R-NEW-2026-0686 | Issued: | 08/07/2026 | Valuation: | $161,617.68 | Address: | 456 S MATTINGLY AVE | Res.SQF: | 1530 | Com.SQF:"
       },
@@ -30358,7 +30358,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | ALTURAS CONSTRUCTION LLC | 250 E Eagles Gate DR STE 320 | EAGLE, ID 83616 | 208-391-4445 | Project Description: | New Single Family Dwelling | Permit # | R-NEW-2026-0719 | Issued: | 08/06/2026 | Valuation: | $316,871.26 | C | ITY | OF | M | ERIDIAN"
       },
@@ -30394,7 +30394,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BRIGHTON HOMES IDAHO INC | 2929 W. Navigator Dr. St 400 | Meridian, ID 83642 | 2083784000 | Project Description: | New Single Family Residential/PN09007051 Meadow Creek A | Permit # | R-NEW-2026-0665 | Issued: | 08/06/2026 | Valuation: | $280,337.88 | Address: | 5760 S HEYDAY PL | Res.SQF: | 2588 | Com.SQF:"
       },
@@ -30430,7 +30430,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0597 | Issued: | 08/06/2026 | Valuation: | $253,636.59 | Address: | 2466 N JULIA AVE | Res.SQF: | 2490"
       },
@@ -30466,7 +30466,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | HHS CONSTRUCTION LLC | 923 S. Bridgeway Place | EAGLE, ID 83616 | 2085775501 | Project Description: | new single family home | Permit # | R-NEW-2026-0722 | Issued: | 08/05/2026 | Valuation: | $307,931.56 | Address: | 1241 W MALBAR ST | Res.SQF: | 2844 | Com.SQF:"
       },
@@ -30502,7 +30502,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | BRIGHTON HOMES IDAHO INC | 2929 W. Navigator Dr. St 400 | Meridian, ID 83642 | 2083784000 | Project Description: | New Single Family Residential/PN08008014 Diamond A (Roberts-McFarland) | Permit # | R-NEW-2026-0661 | Issued: | 08/05/2026 | Valuation: | $202,932.70 | Address: | 6161 S TOPS AVE | Res.SQF: | 1885 | Com.SQF:"
       },
@@ -30538,7 +30538,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0372 | Issued: | 08/04/2026 | Valuation: | $185,815.78 | Address: | 3634 E JACO ST | Res.SQF: | 1793"
       },
@@ -30574,7 +30574,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0371 | Issued: | 08/04/2026 | Valuation: | $205,432.69 | Address: | 3640 E JACO ST | Res.SQF: | 1934"
       },
@@ -30610,7 +30610,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0370 | Issued: | 08/04/2026 | Valuation: | $206,296.52 | C | ITY | OF | M"
       },
@@ -30646,7 +30646,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0369 | Issued: | 08/04/2026 | Valuation: | $183,578.66 | Address: | 3652 E JACO ST | Res.SQF: | 1793"
       },
@@ -30682,7 +30682,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0368 | Issued: | 08/04/2026 | Valuation: | $185,815.78 | Address: | 3610 E JACO ST | Res.SQF: | 1793"
       },
@@ -30718,7 +30718,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, three-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0367 | Issued: | 08/04/2026 | Valuation: | $205,432.69 | Address: | 3616 E JACO ST | Res.SQF: | 1934"
       },
@@ -30754,7 +30754,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Owner (Private): | Phone: | Contractor: | CSDI Construction, Inc. | 6353 Supply Way | Boise, ID 83716 | 2083385973 | Project Description: | New construction of an attached, two-story, single family dwelling with a two-car garage. Scopes of | work include foundations, framing, siding, roofing, interior finishes, HVAC, plumbing, and electrical. | Permit # | R-NEW-2026-0365 | Issued: | 08/04/2026 | Valuation: | $205,432.69 | Address: | 3622 E JACO ST | Res.SQF: | 1934"
       },
@@ -30790,7 +30790,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0710 | Issued: | 08/03/2026 | Valuation: | $293,273.49 | Address: | 5084 N BARTOK AVE | Res.SQF: | 2800 | Com.SQF:"
       },
@@ -30826,7 +30826,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0703 | Issued: | 08/03/2026 | Valuation: | $224,414.43 | Address: | 1919 S BORDER WAY | Res.SQF: | 2100 | Com.SQF:"
       },
@@ -30862,7 +30862,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | COREY BARTON HOMES INC | 1977 E OVERLAND RD 1977 E. | OVERLAND RD. ADA County | MERIDIAN, ID 83642 | 208-288-5560 | Project Description: | New Single Family Residential | Permit # | R-NEW-2026-0702 | Issued: | 08/03/2026 | Valuation: | $247,779.63 | Address: | 1943 S BORDER WAY | Res.SQF: | 2332 | Com.SQF:"
       },
@@ -30898,7 +30898,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | HUBBLE HOMES LLC | 701 SOUTH ALLEN ST STE 104 | ADA County | MERIDIAN, ID 83642 | 208-433-8800 | Project Description: | NEW 2044 SQ FT SINGLE FAMILY DWELLING WITH 516 SQ FT ATTACHED GARAGE | Permit # | R-NEW-2026-0654 | Issued: | 08/03/2026 | Valuation: | $172,665.33 | Address: | 5930 N STATIC LINE AVE | Res.SQF: | 1618 | Com.SQF:"
       },
@@ -30934,7 +30934,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T18:09:54+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "context": "Phone: | Contractor: | HUBBLE HOMES LLC | 701 SOUTH ALLEN ST STE 104 | ADA County | MERIDIAN, ID 83642 | 208-433-8800 | Project Description: | NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE | Permit # | R-NEW-2026-0641 | Issued: | 08/03/2026 | Valuation: | $216,568.20 | Address: | 5500 W LOST RAPIDS ST | Res.SQF: | 2044 | Com.SQF:"
       },
@@ -30970,7 +30970,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00522",
         "ParentRecordID": null,
@@ -31028,7 +31028,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN26-00216",
         "ParentRecordID": null,
@@ -31086,7 +31086,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00753",
         "ParentRecordID": null,
@@ -31144,7 +31144,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN25-00393",
         "ParentRecordID": null,
@@ -31202,7 +31202,7 @@
       "score": 15,
       "sales_score": 0,
       "first_seen_at": "2026-08-24T21:55:56+00:00",
-      "last_seen_at": "2026-09-11T16:27:04+00:00",
+      "last_seen_at": "2026-09-11T19:12:38+00:00",
       "raw": {
         "RecordID": "PLN23-00040",
         "ParentRecordID": null,
