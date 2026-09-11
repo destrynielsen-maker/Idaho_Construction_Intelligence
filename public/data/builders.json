@@ -1,15 +1,33 @@
 [
   {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 21,
+    "score_total": 582,
+    "valuation_total": 6664389.869999999
+  },
+  {
     "contractor": "TH CONSTRUCTION LLC",
     "count": 10,
     "score_total": 450,
     "valuation_total": 2860000.0
   },
   {
+    "contractor": "BLACKROCK HOMES LLC",
+    "count": 19,
+    "score_total": 380,
+    "valuation_total": 3419371.28
+  },
+  {
     "contractor": "CBH HOMES",
     "count": 18,
     "score_total": 360,
     "valuation_total": 4973460.36
+  },
+  {
+    "contractor": "HUBBLE HOMES LLC",
+    "count": 11,
+    "score_total": 245,
+    "valuation_total": 2085266.3999999997
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -24,16 +42,22 @@
     "valuation_total": 3000000.0
   },
   {
+    "contractor": "HHS CONSTRUCTION LLC",
+    "count": 7,
+    "score_total": 147,
+    "valuation_total": 4138561.12
+  },
+  {
+    "contractor": "BRIGHTON HOMES IDAHO INC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1766010.0
+  },
+  {
     "contractor": "CR HOMES INC",
     "count": 4,
     "score_total": 130,
     "valuation_total": 1150000.0
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 438460.0
   },
   {
     "contractor": "PATHWAY BUILDERS",
@@ -66,10 +90,28 @@
     "valuation_total": 0
   },
   {
+    "contractor": "BILTMORE CO LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1271554.14
+  },
+  {
     "contractor": "RIVERWOOD HOMES",
     "count": 4,
     "score_total": 80,
     "valuation_total": 612334.44
+  },
+  {
+    "contractor": "ALTURAS CONSTRUCTION LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1320744.1600000001
+  },
+  {
+    "contractor": "CLYDE DEVELOPMENT INC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1340109.1099999999
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -88,6 +130,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 775411.2
+  },
+  {
+    "contractor": "Boise PLH, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 920884.08
   },
   {
     "contractor": "PONTIFEX HOMES LLC",
@@ -138,6 +186,12 @@
     "valuation_total": 1400000.0
   },
   {
+    "contractor": "HAWKLINE BUILDERS LLC",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1374000.0
+  },
+  {
     "contractor": "MATEO ECHEVERRIA",
     "count": 1,
     "score_total": 42,
@@ -154,6 +208,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "MCCARTER MOORHOUSE LLC",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1033963.0
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -210,6 +270,12 @@
     "valuation_total": 567128.04
   },
   {
+    "contractor": "MAYBON HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 748223.95
+  },
+  {
     "contractor": "SIMPLICITY HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -264,6 +330,12 @@
     "valuation_total": 490083.12
   },
   {
+    "contractor": "Hayden Homes Idaho LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 549288.2
+  },
+  {
     "contractor": "PEARMAN CONTRACTING LLC",
     "count": 1,
     "score_total": 40,
@@ -304,12 +376,6 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1100000.0
-  },
-  {
-    "contractor": "HHS CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 2100000.0
   },
   {
     "contractor": "GARDNER HOMES IDAHO LLC",
@@ -448,12 +514,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
-  },
-  {
-    "contractor": "BILTMORE CO LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 163500.0
   },
   {
     "contractor": "MACHADO CONSTRUCTION LLC",
@@ -610,12 +670,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 199704.24
-  },
-  {
-    "contractor": "MAYBON HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 401707.8
   },
   {
     "contractor": "HF CUSTOM HOMES LLC",
@@ -1306,5 +1360,35 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "PROPERTY OWNER (NO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 139976.8
+  },
+  {
+    "contractor": "ALDER RIDGE CUSTOM HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 404790.04
+  },
+  {
+    "contractor": "boie PLH, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 292480.04
+  },
+  {
+    "contractor": "KB HOME IDAHO LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 242583.42
+  },
+  {
+    "contractor": "James Clyde Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 346744.66
   }
 ]

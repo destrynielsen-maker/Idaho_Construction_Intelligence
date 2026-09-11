@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 19:26:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:54:42 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -74,6 +74,42 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01784</guid>
     </item>
     <item>
+      <title>[20] Meridian: Single Family Home — 757 E SUPREME DR</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 278,723</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0712</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: single family home — 5712 S PRIME WAY</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 341,548</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0731</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: single family home — 5810 S HEYDAY PL</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 343,091</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0763</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: single family home — 5878 S HEYDAY PL</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 376,747</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0799</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: single family home — 5869 S HEYDAY PL</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | James Clyde Homes | 346,745</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0805</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 466 S FIDDLE AVE</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0786</guid>
+    </item>
+    <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 140,990</description>
@@ -122,6 +158,42 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
     </item>
     <item>
+      <title>[20] Meridian: New Single Family Residential — 2594 W EVENING SUN ST</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 278,716</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0804</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 1889 S BORDER WAY</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 199,465</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0806</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN09007052 Alton A — 6147 S TOPS AVE</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 237,659</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0715</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN11017026 Whitburn B — 5751 S HEYDAY PL</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 260,069</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0760</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Home — 3134 E RENWICK ST</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 350,412</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0801</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 335 W GLEASON CT</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 314,943</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0708</guid>
+    </item>
+    <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29641560</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
@@ -156,6 +228,30 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L71&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MACHADO CONSTRUCTION LLC | 435,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 1881 S BORDER WAY</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 252,245</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0807</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 2684 W EVENING SUN ST</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 388,664</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0809</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 2662 W EVENING SUN ST</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 408,181</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0810</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential New — 2640 W EVENING SUN ST</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 335,486</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0811</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18094 MCINTYRE LN, Wilder   836760000</title>
@@ -220,6 +316,90 @@ DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS
       <guid isPermaLink="false">ID:BOISE:BLD26-02363</guid>
     </item>
     <item>
+      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 4-Car Tandem Garage, Covered Entry and Covered Patio C ITY OF M ERIDIAN 5 P AGE # BUILDING PERMITS FOR THE WEEK (47) — 6122 N ARCTIC FOX WAY</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | Boise PLH, LLC | 303,798</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0518</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW SINGLE FAMILY RESIDENTIAL — 5842 S ZAIVCLA AVE</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 342,176</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0734</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3412 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 168,686</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0747</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3400 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,053</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0748</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3388 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0749</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3405 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,429</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0750</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3393 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,166</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0751</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3381 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 152,606</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0752</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling C ITY OF M ERIDIAN 7 P AGE # BUILDING PERMITS FOR THE WEEK (47) — 3376 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 175,388</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0773</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3352 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,655</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0774</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3365 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,790</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0775</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 2089 SQ FT SINGLE FAMILY DWELLING WITH 477 SQ FT ATTACHED GARAGE — 5520 W LOST RAPIDS ST</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 218,641</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0790</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 2345 SQ FT SINGLE FAMILY DWELLING WITH 464 SQ FT ATTACHED GARAGE — 5536 W LOST RAPIDS ST</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 243,873</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0794</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential New — 2700 W EVENING SUN ST</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 286,014</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0808</guid>
+    </item>
+    <item>
       <title>[27] Boise: 711 Franklin Residence — 711 W FRANKLIN ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NHJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,073,600</description>
@@ -233,10 +413,34 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
     </item>
     <item>
+      <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 2,600,000</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-MULTI-2026-0004</guid>
+    </item>
+    <item>
       <title>[40] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 621,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN04013013 Whitburn A — 7049 S CADENCE AVE</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 258,357</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0709</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New SFR - Two-Story, 4 Bedroom, 3 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 1173 W MALBAR ST</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | boie PLH, LLC | 292,480</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0765</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 41 BLK 6 — 4614 W QUARTERHORSE DR</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 242,583</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0767</guid>
     </item>
     <item>
       <title>[50] Nampa: Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs — Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687</title>
@@ -275,6 +479,78 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
     </item>
     <item>
+      <title>[45] Meridian: NEW 1742 SQ FT TOWNHOME WITH 48- SQ FT ATTACHED GARAGE — 6051 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES LLC | 181,969</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0721</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 498 S FIDDLE AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0729</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 449 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0730</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Dwelling - Duplex — 479 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0732</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 7335 S ZENITH AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0672</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1742 SQ FT TOWNHOUSE WITH 480 SQ FT ATTACHED GARAGE — 6019 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 181,969</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0714</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1901 SQ FT TOWNHOUSE WITH 484 SQ FT ATTACHED GARAGE — 6027 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 197,776</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0716</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1901 SQ FT TOWNHOUSE WITH 484 SQ FT ATTACHED GARAGE — 6035 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 197,776</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0717</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1901 SQ FT TOWHHOME WITH 484 SQ FT ATTACHED GARAGE — 6043 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 197,776</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0718</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New SFR - Single Story, 4 Bedroom, 2.5 Bathroom, 2-Car Garage + RV Bay, Covered Entry and Covered Patio — 1452 W BRIARCLIFF ST</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | Boise PLH, LLC | 285,721</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0758</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Dwelling — 5724 S PRIME WAY</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 311,529</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0769</guid>
+    </item>
+    <item>
+      <title>[42] Meridian: Dr. Astin - Endodontist Office - The proposed office building will be an Endodontist Office for Dr. Astin. The building will be all new construction, 2,547 square foot single story structure on a 0.98-acre infill lot. C ITY OF M ERIDIAN 3 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 1788 W MCMILLAN RD</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>COMMERCIAL | MCCARTER MOORHOUSE LLC | 1,033,963</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-NEW-2026-0035</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 0</description>
@@ -293,6 +569,42 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-01276</guid>
     </item>
     <item>
+      <title>[20] Meridian: Construct new residence on internal lot and attach it to existing garage. Lot was split as part of MPP24- 0013. — 1626 NW 8TH ST</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | PROPERTY OWNER (NO | 139,977</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2025-0250</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN11011017 Seminole B — 6008 S HIGHMARK AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 260,263</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0680</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW SINGLE FAMILY RESIDENTIAL — 5826 S ZAIVCLA AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 365,386</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0733</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Dwelling — 853 E INFINITY ST</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 336,517</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0762</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Dwelling — 858 E CRESCENDO ST</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 336,182</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0764</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Home New — 3142 E RENWICK ST</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 330,507</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0770</guid>
+    </item>
+    <item>
       <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00750</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -309,6 +621,54 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 538,645</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Single level, single family residential spec house project to be fully completed. It will be 3598 square feet. — 2689 E DARCY CT</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 404,790</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0679</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3445 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 151,942</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0741</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling C ITY OF M ERIDIAN 12 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 3431 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,053</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0742</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3417 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0743</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3464 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,429</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0744</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3438 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0745</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 3426 E GOODSON DR</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 168,062</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0746</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 1930 S BORDER WAY</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 271,568</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0768</guid>
     </item>
     <item>
       <title>[50] Boise: 1508 &amp; 1510 Boise Ave Duplex — 1508 W BOISE AVE, Boise ID 83706</title>
@@ -347,6 +707,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-01905</guid>
     </item>
     <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 161,618</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0735</guid>
+    </item>
+    <item>
       <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
@@ -365,33 +731,63 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-01269</guid>
     </item>
     <item>
+      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5904 N STATIC LINE AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 162,705</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0660</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5940 N STATIC LINE AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 165,057</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0673</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 5874 N GARBO AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 234,346</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0675</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential - TH — 504 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 161,618</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0687</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5892 N STATIC LINE AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 165,057</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0723</guid>
+    </item>
+    <item>
       <title>[25] Boise: TE_ LOT 10 — 3764 E BARBER DR, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=002PN&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | NW BUILDERS COMPANY INC | 825,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00222</guid>
     </item>
     <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <title>[20] Meridian: New Single Family Dwelling New — 813 E INFINITY ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,517</description>
+      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 336,517</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
     </item>
     <item>
-      <title>[15] Meridian: New single family home — 3128 E RENWICK ST</title>
+      <title>[20] Meridian: new single family home — 3128 E RENWICK ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 312,389</description>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 312,389</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
     </item>
     <item>
-      <title>[15] Meridian: New single family dwelling — 2984 E MARDIA ST</title>
+      <title>[20] Meridian: New single family home — 2984 E MARDIA ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 337,690</description>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 337,690</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
     </item>
     <item>
-      <title>[15] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 2929 W. Navigator Dr. St 400</title>
+      <title>[20] Meridian: New Single Family Residential — 1948 S BORDER WAY</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 242,703</description>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 242,703</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
     </item>
     <item>
@@ -399,6 +795,24 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00H01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 2,100,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01615</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Building of a new single family home — 4630 N JARBIDGE AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Building of a new single family home — 4679 N BRANDY CREEK AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Building of a new single family home — 4726 N WOOLEY CREEK AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 338,733</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24861 BOWMORE CT, Caldwell   836070000</title>
@@ -419,22 +833,10 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0635</guid>
     </item>
     <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
+      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 4.5 Bathroom, 3-Car Tandem Garage (4), Covered Entry and Covered Patio C ITY OF M ERIDIAN 9 P AGE # BUILDING PERMITS FOR THE WEEK (52) — 881 W MALBAR ST</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: Building of a new single family home — 1580 W Cayuse Creek Dr SUITE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New single family dwelling — 4726 N WOOLEY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 338,733</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
+      <description>SINGLE_FAMILY | Boise PLH, LLC | 331,366</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25994 LON DAVIS RD, Parma   836600000</title>
@@ -455,10 +857,40 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-01782</guid>
     </item>
     <item>
-      <title>[15] Meridian: new single family home — 881 W MALBAR ST</title>
+      <title>[42] Meridian: Steiner Family Dental Shell - New office for a dental clinic. The project is submitted as a shell because the owner will be constructing a small tenant lease space on one side of the building. The site work is also incorporating Parcels A and B. Parcel A will contain the dental clinic, and parcel be will be left as a blank building pad for construction of a future property owner. New — 39 S WAYFINDER AVE</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 331,366</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
+      <description>COMMERCIAL | HAWKLINE BUILDERS LLC | 1,374,000</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-SHELL-2026-0015</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 267,935</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 4577 S MAVORA WAY</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 247,853</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 7030 S CAPSTONE AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 268,567</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN04010010 Galloway B — 7058 S STEEPLE AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 261,753</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/PN09009024 Freeman B — 951 E ESCALATION ST</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 219,342</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13440 WHETSTONE LN, Caldwell   836070000</title>
@@ -467,34 +899,10 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
     </item>
     <item>
-      <title>[15] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
+      <title>[20] Meridian: New single family dwelling — 4578 S MAVORA WAY</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 267,935</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 247,853</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN04010010 Galloway B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 268,567</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential/PN09009024 Freeman B — 2929 W. Navigator Dr. St 400</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 261,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 701 SOUTH ALLEN ST STE 104</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,342</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 269,182</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0738</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
@@ -545,16 +953,22 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-00552</guid>
     </item>
     <item>
+      <title>[20] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 5881 N STATIC LINE AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 172,665</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MVMNT HOMES | 314,024</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
     </item>
     <item>
-      <title>[15] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 5881 N STATIC LINE AVE</title>
+      <title>[20] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 6550 S NETHERFIELD WAY</title>
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 172,665</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
+      <description>SINGLE_FAMILY | MAYBON HOMES LLC | 346,516</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0553</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MC DERMOTT RD, Kuna   836340000</title>
@@ -799,426 +1213,6 @@ HOLD  waiting on CP2026-0054 approval — 24944 KENRIDGE RD, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 404,677</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0594</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 608 W FRANKLIN ST - Duplex — 608 W FRANKLIN ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00548</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00548</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Lot 11, Block 1 — 954 E CHARDIE RD, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EB4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 600,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01349</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7550 E MIDBERRY CT, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 304,812</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0586</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-** Returned check on 8/28/26.  Put on Hold … no inspections until cash or cashier's check is brought in for the fees due  JA  Please notify me when paid.&#13;
-Note: Eric called for prefloor inspection, B.O. left phone message requesting payment. 9/8/2026 TC.  Paid Fee 9/8/26  MG — 12725 FRED LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SANTACRUZ ERIC | 214,604</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0581</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 10132 W CLAUDIA RD — 10132 W CLAUDIA RD</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00628</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00628</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Samantha Sub 6-7 — 3432 W HILL RD, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006P7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00598</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Samantha Sub 6-7 — 3438 W HILL RD, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006P5&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00597</guid>
-    </item>
-    <item>
-      <title>[42] Boise: Trux Parking — 4600 S APPLE ST, BLDG 1, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EW8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>COMMERCIAL | MATEO ECHEVERRIA | 1,250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01423</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 15334 RHODES CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STONE SUMMIT HOMES LLC | 327,338</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0578</guid>
-    </item>
-    <item>
-      <title>[50] Boise: 1206 S Leadville Ave - Unit B Townhouse — 1206 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXK&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01427</guid>
-    </item>
-    <item>
-      <title>[50] Boise: 1204 S Leadville Ave -Unit A Townhouse — 1204 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01426</guid>
-    </item>
-    <item>
-      <title>[50] Boise: 1202 S Leadville Ave - Unit B Townhome — 1202 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01425</guid>
-    </item>
-    <item>
-      <title>[50] Boise: 725 W Beacon St - Unit A Townhome — 725 W BEACON ST, BOISE ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 27522 SABIN RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CANNON FARMHOUSE | 264,368</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0571</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 2-5 Kirsten #1 — 6612 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00H7H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 83,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01636</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6786 YETI LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SPENCE SYLVAN | 501,508</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0565</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Kerfoot Residence — 1622 N 25TH ST, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00AJX&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | HOUSE IDAHO LLC | 950,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00994</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15327 JUNIPERWOOD DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 349,614</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0563</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24771 LAVIER AVE, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 340,782</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0562</guid>
-    </item>
-    <item>
-      <title>[55] Boise: MICRON - ID1 B111F Opal Dewatering Building — 8000 S FEDERAL WAY, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005L7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 64,481,344</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00463</guid>
-    </item>
-    <item>
-      <title>[27] Boise: Lot 10 Moghaddasian Residence — 4655 N ACCIPITER PL, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006I9&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | PLEASANT VIEW CONSTRUCTION LLC | 1,200,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00580</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Moghaddasian Residence - Lot 11 — 4673 N ACCIPITER PL, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00AL8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | PLEASANT VIEW CONSTRUCTION LLC | 900,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00998</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7871 STRIKE GOLD LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | INMAN DARIN R | 257,114</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0559</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 15268 JUNIPERWOOD DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PONTIFEX HOMES LLC | 291,575</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0558</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23869 TIMBER HILLS RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WILLOW CREEK HOMES | 366,039</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0557</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 18622 TRANQUIL PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 334,717</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0555</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary allowed on this parcel — 16683 MARSHALL LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LJ EELLS CONSTRUCTION LLC | 178,711</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0554</guid>
-    </item>
-    <item>
-      <title>[20] Boise: H4H Maple Grove A3 Model — 2357 S MAPLE GROVE RD, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003ZD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | BOISE VALLEY HABITAT FOR HUMANITY | 230,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00330</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 3031 N Mountain View Dr — 3031 N MOUNTAIN VIEW DR</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00612</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00612</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 3133 MORNING STAR LN, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ASA CONSTRUCTION | 199,704</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0548</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6952 E CHICKEN HAWK LOOP, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 353,722</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0542</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9873 S PEREGRINE FALCON AVE, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 258,612</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0541</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9341 BASIN KID CT, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PINEVIEW DEVELOPMENT LLC | 227,864</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0540</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13949 WATERFRONT LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LARRY RICHARDSON CONSTRUCTION | 398,953</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0539</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 9676 SCISM RD, Nampa</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TV GROUP LLC DBA BEAR HOMES | 288,152</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0538</guid>
-    </item>
-    <item>
-      <title>[30] Caldwell: Highline Industrial Park Subdivision — Caldwell, ID</title>
-      <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_highline-industrial.pdf</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:CALDWELL:COMPASS-202607-F756CD3A</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 26598 STEPHEN LN, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 273,904</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0532</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8913 DOUBLE SHOT HOLLOW LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MAYBON HOMES LLC | 401,708</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0521</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17837 FARGO RD, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HF CUSTOM HOMES LLC | 210,942</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0515</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1106 S LONGMONT AVE — 1106 S LONGMONT AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00557</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00557</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Note: no secondary residences allowed on this parcel — 18364 BOW LN, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SIMPLICITY HOMES LLC | 194,015</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0507</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 19564 KNOTT LN, Nampa   0</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LUDAN DESIGN AND BUILD LLC. | 488,296</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0506</guid>
-    </item>
-    <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
-DO NOT ISSUE BP UNTIL CP IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | CONSOR | 300,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND CELLAR&#13;
-**DO NOT ISSUE UNTIL PBA APP HAS BEEN RECEIVED AND APPROVED (Need recorded decision + new recorded deeds)** — 0 EAGLE DR, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | KATAN ENTERPRISES | 258,692</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0504</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 17222 TRIPLE CROWN PL, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 291,700</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0495</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 21115 VAN SLYKE RD, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CONRO KATHERINE | 254,788</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0493</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27250 LON DAVIS RD, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | FRITTS CONSTRUCTION LLC | 202,816</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0491</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7057 OWYHEE VIEW LN, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PARRY CONSTRUCTION | 243,891</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0484</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND BASEMENT &#13;
-***ATTENTION TECHS: make sure the Final SWDH received is for SWDH permit #03158. The 2019 final as-built is not correct.*** — 11267 WEST RIO RD, Caldwell   83605</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ARTERRA CUSTOM HOMES LLC | 280,270</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0483</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 12021 TORCHLIGHT WAY, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 276,904</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0479</guid>
-    </item>
-    <item>
-      <title>[40] Boise: HIP Townhomes — 1229 S LINCOLN AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=SUB26-00012</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:SUB26-00012</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 9302 LEGACY RIDGE LN, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JP CUSTOM HOMES &amp; BUILDING CORP | 376,330</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0468</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 25412 BUR OAK PL, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PARAGON HOMES LLC | 285,327</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0467</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-7/28/26 The following condition has been added: Prior to C of O: The invoice for Keller's engineering review must be paid to CCDSD. LO — 8134 QUAIL HOLLOW DR, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 392,698</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0465</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SECONDARY RESIDENCE W/ ATTACHED GARAGE  Address: 4903 High Hope Ln — 4923 HIGH HOPE LN, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LEXAR HOMES | 265,573</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0459</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Fire exempt 5 acres — 25600 EMBER RD, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TIMBER STONE CUSTOM HOMES | 144,754</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0457</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + BASEMENT — 26529 LOTHBROOK LN, Wilder   83676</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WESOLOWSKI JEFF | 303,574</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0454</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16281 DRAKES LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLACKWOOD PROPERTIES LLC. | 463,831</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0453</guid>
-    </item>
-    <item>
-      <title>[15] Boise: 4537 N ACCIPITER WAY — 4537 N ACCIPITER WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00522</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00522</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13417 NORTH FORK LN, Nampa   83686</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLEGIANT CONSTRUCTION CONCEPTS | 877,088</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0444</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14027 MALLARD COVE LN, Caldwell   83607</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JESSUP BRIANNA | 418,749</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0447</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33572 PROSPECT LN, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIBBARD CONSTRUCTION INC | 303,301</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0446</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24888 BARBARA LN, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TERRABUILT CONSTRUCTION LLC | 284,451</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0445</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 153 DESERT BLUFF LN, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | DENNEY ROBERT | 283,981</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0442</guid>
-    </item>
-    <item>
-      <title>[45] Canyon County: COMMERICAL - IDAHO YOUTH RANCH SINGLE STORY DUPLEX (B) — 28379 EL PASO RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0435</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12748 DRAFT ST, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STETSON HOMES | 345,455</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0430</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5917 W CLINTON ST — 5917 W CLINTON ST</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00407</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00407</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 12687 DRAFT ST, Middleton   83644</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MADDYN HOMES LLC | 356,795</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0426</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE + SECOND GARAGE ATTACHED BY BREEZEWAY — 13902 SHAFER BUTTE WAY, Nampa   83651</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TKO HOMES BOISE LLC | 362,707</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0424</guid>
     </item>
   </channel>
 </rss>

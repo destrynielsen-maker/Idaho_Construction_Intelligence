@@ -6,7 +6,13 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 19:26:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:54:42 +0000</lastBuildDate>
+    <item>
+      <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
+      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 2,600,000</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-MULTI-2026-0004</guid>
+    </item>
     <item>
       <title>[55] Boise: MICRON - ID1 B111F Opal Dewatering Building — 8000 S FEDERAL WAY, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005L7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -62,10 +68,40 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
     </item>
     <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 466 S FIDDLE AVE</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0786</guid>
+    </item>
+    <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20794/Weekly-Permit-Activity-Report-08-10-2026---08-14-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 795,000</description>
       <guid isPermaLink="false">ID:NAMPA:COM-05422-2026</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1742 SQ FT TOWNHOME WITH 48- SQ FT ATTACHED GARAGE — 6051 N HIGHFIRE LN</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES LLC | 181,969</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0721</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 498 S FIDDLE AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0729</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 449 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0730</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Dwelling - Duplex — 479 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0732</guid>
     </item>
     <item>
       <title>[45] Boise: Tresidio Homes HH 02-01 — 4399 E HAYSTACK ST, Boise ID 83716</title>
@@ -96,6 +132,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01905</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 161,618</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0735</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05425-2026 Situs: 12154 W Harwich St Nampa, Id 83651</title>
@@ -168,6 +210,18 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Meridian: Dr. Astin - Endodontist Office - The proposed office building will be an Endodontist Office for Dr. Astin. The building will be all new construction, 2,547 square foot single story structure on a 0.98-acre infill lot. C ITY OF M ERIDIAN 3 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 1788 W MCMILLAN RD</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>COMMERCIAL | MCCARTER MOORHOUSE LLC | 1,033,963</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-NEW-2026-0035</guid>
+    </item>
+    <item>
+      <title>[42] Meridian: Steiner Family Dental Shell - New office for a dental clinic. The project is submitted as a shell because the owner will be constructing a small tenant lease space on one side of the building. The site work is also incorporating Parcels A and B. Parcel A will contain the dental clinic, and parcel be will be left as a blank building pad for construction of a future property owner. New — 39 S WAYFINDER AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>COMMERCIAL | HAWKLINE BUILDERS LLC | 1,374,000</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-SHELL-2026-0015</guid>
     </item>
     <item>
       <title>[42] Boise: Trux Parking — 4600 S APPLE ST, BLDG 1, Boise ID 83716</title>

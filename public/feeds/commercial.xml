@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 19:26:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:54:42 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29641560</link>
@@ -20,10 +20,22 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
     </item>
     <item>
+      <title>[42] Meridian: Dr. Astin - Endodontist Office - The proposed office building will be an Endodontist Office for Dr. Astin. The building will be all new construction, 2,547 square foot single story structure on a 0.98-acre infill lot. C ITY OF M ERIDIAN 3 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 1788 W MCMILLAN RD</title>
+      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
+      <description>COMMERCIAL | MCCARTER MOORHOUSE LLC | 1,033,963</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-NEW-2026-0035</guid>
+    </item>
+    <item>
       <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
+    </item>
+    <item>
+      <title>[42] Meridian: Steiner Family Dental Shell - New office for a dental clinic. The project is submitted as a shell because the owner will be constructing a small tenant lease space on one side of the building. The site work is also incorporating Parcels A and B. Parcel A will contain the dental clinic, and parcel be will be left as a blank building pad for construction of a future property owner. New — 39 S WAYFINDER AVE</title>
+      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
+      <description>COMMERCIAL | HAWKLINE BUILDERS LLC | 1,374,000</description>
+      <guid isPermaLink="false">ID:MERIDIAN:C-SHELL-2026-0015</guid>
     </item>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
