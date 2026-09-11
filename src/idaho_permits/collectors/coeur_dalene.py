@@ -61,16 +61,24 @@ def money(value: str | None):
         return None
 
 
-def _project_permit_type(city_type: str, project: str) -> str:
-    """Map strong Coeur d'Alene ground-up signals into the shared classifier vocabulary.
+def _accessory_only(project: str) -> bool:
+    proj = re.sub(r'\s+', ' ', project or '').strip().lower()
+    if not re.search(r'\b(?:deck|patio cover|carport|detached garage|shed|accessory structure)\b', proj):
+        return False
+    # Do not suppress an actual dwelling merely because its description also mentions a garage/deck.
+    return not re.search(
+        r'\b(?:sfr|single[- ]family|dwelling|home|residence|duplex|triplex|fourplex|town\s*house|townhouse|apartment|multifamily|multi-family)\b',
+        proj,
+    )
 
-    City report ``Type`` is a property/use class, not a work scope. We only promote records when
-    the project text itself is strongly consistent with a new primary building. This prevents
-    ordinary Single-Family/Commercial remodels from becoming false positives.
-    """
+
+def _project_permit_type(city_type: str, project: str) -> str:
+    """Map strong Coeur d'Alene ground-up signals into the shared classifier vocabulary."""
     typ = re.sub(r'\s+', ' ', city_type or '').strip().lower()
     proj = re.sub(r'\s+', ' ', project or '').strip().lower()
 
+    if _accessory_only(project):
+        return 'Accessory Structure'
     if typ == 'duplex' and ('duplex' in proj or not proj):
         return 'New Multifamily Duplex'
     if typ in {'town house', 'townhouse'} and re.search(r'\btown\s*house\b|\btownhouse\b', proj):
@@ -156,6 +164,7 @@ def parse(text: str, source_url: str) -> list[Permit]:
 
         if permit_no.endswith('-B') and issued:
             permit_type = _project_permit_type(city_type, project)
+            building_use = None if permit_type == 'Accessory Structure' else (city_type or None)
             out.append(Permit(
                 state='ID',
                 jurisdiction="Coeur d'Alene",
@@ -166,7 +175,7 @@ def parse(text: str, source_url: str) -> list[Permit]:
                 source_name="Coeur d'Alene Issued Permits",
                 source_url=source_url,
                 project_name=project,
-                building_use=city_type or None,
+                building_use=building_use,
                 valuation=valuation,
                 contractor=contractor,
                 owner=owner or None,
