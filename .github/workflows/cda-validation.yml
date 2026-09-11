@@ -18,32 +18,36 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect live Coeur d'Alene issued permits
+      - name: Inspect Coeur d'Alene issued report form
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          import re
-          from collections import Counter
-          from idaho_permits.classify import classify_permit
-          from idaho_permits.collectors.coeur_dalene import CoeurDAleneCollector
-          from idaho_permits.collectors.common import get,pdf_text
+          import requests
+          from bs4 import BeautifulSoup
 
-          collector=CoeurDAleneCollector()
-          response=get(collector.pdf_url)
-          print('CONTENT_TYPE',response.headers.get('content-type'))
-          text=pdf_text(response.content)
-          rows=collector.collect().permits
-          print('PARSED_COUNT',len(rows))
-          counts=Counter()
-          for p in rows:
-              classify_permit(p)
-              counts[(p.classification,p.qualifies)] += 1
-              print('ROW',p.permit_number,p.issued_date,p.permit_type,p.project_name,p.address,p.valuation,p.contractor,p.classification,p.qualifies)
-          print('CLASS_COUNTS',dict(counts))
-          lines=[re.sub(r'\s+',' ',x).strip() for x in text.splitlines() if x.strip()]
-          for i,line in enumerate(lines):
-              low=line.lower()
-              if any(token in low for token in ('new ','duplex','single family','multi-family','multifamily','apartment','commercial')):
-                  print('CONTEXT',i,repr(' | '.join(lines[max(0,i-3):min(len(lines),i+5)])))
+          url='https://building.cdaid.org/Reports/IssuedPermits'
+          s=requests.Session()
+          r=s.get(url,timeout=30)
+          r.raise_for_status()
+          print('GET',r.status_code,r.url,r.headers.get('content-type'))
+          soup=BeautifulSoup(r.text,'html.parser')
+          for f in soup.find_all('form'):
+              print('FORM',f.get('method'),f.get('action'))
+              for inp in f.find_all(['input','button','select']):
+                  print('FIELD',inp.name,inp.get('type'),inp.get('name'),inp.get('value'),inp.get('id'))
+
+          candidates=[
+              {'StartDate':'08/01/2026','EndDate':'09/11/2026'},
+              {'startDate':'08/01/2026','endDate':'09/11/2026'},
+              {'Start':'08/01/2026','End':'09/11/2026'},
+          ]
+          for data in candidates:
+              for method in ('get','post'):
+                  try:
+                      resp=getattr(s,method)(url,params=data if method=='get' else None,data=data if method=='post' else None,timeout=45,allow_redirects=True)
+                      print('TRY',method,data,'STATUS',resp.status_code,'URL',resp.url,'CTYPE',resp.headers.get('content-type'),'LEN',len(resp.content),'PDF',resp.content[:4]==b'%PDF')
+                      print('DISP',resp.headers.get('content-disposition'))
+                  except Exception as exc:
+                      print('TRY_ERROR',method,data,type(exc).__name__,str(exc)[:200])
           PY
