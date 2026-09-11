@@ -4,6 +4,8 @@ import re
 from urllib.parse import urljoin, urlparse
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 
 from .base import CollectorResult
@@ -105,6 +107,9 @@ class BoiseIssuedPermitCollector:
     residential_discovery_days = 240
     commercial_discovery_days = 365
     max_pages = 75
+    transient_retry_total = 1
+    transient_retry_backoff = 1.0
+    transient_retry_statuses = (429, 500, 502, 503, 504)
 
     type_field = 'ctl00$PlaceHolderMain$generalSearchForm$ddlGSPermitType'
     status_field = 'ctl00$PlaceHolderMain$generalSearchForm$ddlGSCapStatus'
@@ -138,6 +143,7 @@ class BoiseIssuedPermitCollector:
 
     def collect(self, session: requests.Session | None = None) -> CollectorResult:
         session = session or requests.Session()
+        self._configure_session(session)
         session.headers.update({
             'User-Agent': 'Mozilla/5.0 (compatible; IdahoConstructionIntelligence/0.1; public-permit-research)'
         })
@@ -168,6 +174,21 @@ class BoiseIssuedPermitCollector:
             list(permits.values()),
             'Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff',
         )
+
+    def _configure_session(self, session: requests.Session) -> None:
+        retry = Retry(
+            total=self.transient_retry_total,
+            connect=self.transient_retry_total,
+            read=self.transient_retry_total,
+            status=self.transient_retry_total,
+            other=0,
+            backoff_factor=self.transient_retry_backoff,
+            status_forcelist=self.transient_retry_statuses,
+            allowed_methods=frozenset({'GET', 'POST'}),
+            respect_retry_after_header=True,
+            raise_on_status=False,
+        )
+        session.mount('https://permits.cityofboise.org/', HTTPAdapter(max_retries=retry))
 
     def _search_type(self, session: requests.Session, type_value: str, start: date, end: date) -> list[dict]:
         response = session.get(self.search_url, timeout=90)
