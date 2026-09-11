@@ -1,4 +1,4 @@
-name: Meridian extraction probe
+name: Meridian collector validation
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,20 +18,45 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect latest Meridian PDF extraction
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live Meridian reports
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          import re
-          from idaho_permits.collectors.common import get,pdf_text
-          url='https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf'
-          text=pdf_text(get(url,referer='https://data.meridiancity.org/community-development/building/construction-reports/').content)
-          lines=[re.sub(r'\s+',' ',x).strip() for x in text.splitlines() if x.strip()]
-          for i,line in enumerate(lines):
-              if 'C-MULTI-2026-0008' in line or 'C-NEW-2026-0027' in line or re.match(r'^(COMMERCIAL|RESIDENTIAL)',line,re.I):
-                  print('MATCH_INDEX',i,repr(line))
-                  for j in range(max(0,i-4),min(len(lines),i+10)):
-                      print(j,repr(lines[j]))
-                  print('---')
+          from collections import Counter
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.report_pages import MeridianDirectCollector
+
+          result=MeridianDirectCollector().collect()
+          print('SOURCE',result.source)
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          numbers={p.permit_number for p in result.permits}
+          print('HAS_CENTREPOINT','C-MULTI-2026-0008' in numbers)
+          print('HAS_OUTERBANKS','C-NEW-2026-0027' in numbers)
+          if 'C-MULTI-2026-0008' not in numbers:
+              raise SystemExit('missing Centrepoint Apartments September control')
+          if 'C-NEW-2026-0027' not in numbers:
+              raise SystemExit('missing Outerbanks Clubhouse September control')
+          if '2026-08-31 through 2026-09-06' not in result.note:
+              raise SystemExit('newest Meridian fallback report was not fetched')
+          if 'WARNING:' in result.note:
+              raise SystemExit('current Meridian fallback unexpectedly marked stale')
+
+          kinds=Counter(); qualifying=[]
+          for permit in result.permits:
+              classify_permit(permit)
+              kinds[permit.classification]+=1
+              if permit.qualifies:
+                  qualifying.append(permit)
+          print('CLASSIFICATIONS',dict(kinds))
+          print('QUALIFYING',len(qualifying))
+          for permit in sorted(qualifying,key=lambda p:(p.issued_date,p.permit_number),reverse=True)[:30]:
+              print('PERMIT',permit.permit_number,permit.issued_date,permit.classification,permit.project_name,permit.address,permit.valuation,permit.contractor,permit.units)
+          if not qualifying:
+              raise SystemExit('Meridian collector returned no qualifying new construction')
           PY
