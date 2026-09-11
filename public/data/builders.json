@@ -72,6 +72,12 @@
     "valuation_total": 1150000.0
   },
   {
+    "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 0
+  },
+  {
     "contractor": "PATHWAY BUILDERS",
     "count": 5,
     "score_total": 100,
@@ -100,12 +106,6 @@
     "count": 2,
     "score_total": 90,
     "valuation_total": 402431.52
-  },
-  {
-    "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
   },
   {
     "contractor": "CLYDE DEVELOPMENT INC",
