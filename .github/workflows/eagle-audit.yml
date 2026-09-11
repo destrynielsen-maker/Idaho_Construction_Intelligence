@@ -1,0 +1,49 @@
+name: Eagle collector audit
+
+on:
+  push:
+    branches:
+      - audit-eagle-permit-intelligence
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Inspect live Eagle permits
+        env:
+          PYTHONPATH: src
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.eagle import EaglePermitCollector
+
+          result=EaglePermitCollector().collect()
+          print('SOURCE',result.source)
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          type_counts=Counter(p.permit_type for p in result.permits)
+          print('TYPE_COUNTS',dict(type_counts))
+          qual=[]
+          buildings=[]
+          for p in result.permits:
+              classify_permit(p)
+              if (p.permit_type or '').lower().startswith('building'):
+                  buildings.append(p)
+                  print('BUILDING',p.permit_number,p.issued_date,p.permit_type,p.status,p.address,repr(p.project_name),p.classification,p.qualifies)
+              if p.qualifies:
+                  qual.append(p)
+          print('BUILDING_COUNT',len(buildings))
+          print('QUALIFYING_COUNT',len(qual))
+          for p in qual:
+              print('QUALIFYING',p.permit_number,p.issued_date,p.permit_type,p.address,repr(p.project_name),p.classification)
+          PY
