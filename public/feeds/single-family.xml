@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 11:30:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 16:41:39 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MOORHOUSE RESIDENTIAL LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
+    </item>
     <item>
       <title>[15] Eagle: New Residential Home — 7211 n Hillswick Way, Eagle Idaho 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
@@ -54,6 +66,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L7M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,183,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01989</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 14263 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | LARRY RICHARDSON CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0692</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28450 SANDY LN, Wilder   836760000</title>
@@ -205,7 +223,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13370 BREEZEVIEW LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIGHLAND HOMES | 0</description>
+      <description>SINGLE_FAMILY | HIGHLAND HOMES | 407,409</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0651</guid>
     </item>
     <item>
@@ -1182,12 +1200,6 @@ Note: Eric called for prefloor inspection, B.O. left phone message requesting pa
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0263</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 5501 S EDGECOMB WAY, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 201,117</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0262</guid>
-    </item>
-    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7621 E MIDBERRY CT, Nampa   83687</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BIG COUNTRY FENCING | 293,224</description>
@@ -1204,18 +1216,6 @@ Note: Eric called for prefloor inspection, B.O. left phone message requesting pa
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | CBH HOMES | 247,544</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0252</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1027 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 273,394</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0251</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 1003 E CRAB SPRINGS ST, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CBH HOMES | 365,665</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0250</guid>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T11:18:38+00:00",
+  "generated_at": "2026-09-11T16:27:04+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1060,
+      "records_seen": 1067,
       "qualifying_records": 30,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -12,15 +12,15 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 47,
-      "qualifying_records": 47,
+      "records_seen": 48,
+      "qualifying_records": 48,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 123,
+      "records_seen": 124,
       "qualifying_records": 1,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; shared classifier suppresses trade permits"

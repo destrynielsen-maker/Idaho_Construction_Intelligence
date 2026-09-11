@@ -7,9 +7,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 19,
-    "score_total": 380,
-    "valuation_total": 5174577.6
+    "count": 18,
+    "score_total": 360,
+    "valuation_total": 4973460.36
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -28,6 +28,12 @@
     "count": 4,
     "score_total": 130,
     "valuation_total": 1150000.0
+  },
+  {
+    "contractor": "COREY BARTON HOMES INC",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 438460.0
   },
   {
     "contractor": "PATHWAY BUILDERS",
@@ -58,12 +64,6 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
-  },
-  {
-    "contractor": "COREY BARTON HOMES INC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 312970.0
   },
   {
     "contractor": "RIVERWOOD HOMES",
@@ -154,6 +154,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "LARRY RICHARDSON CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 398953.08
   },
   {
     "contractor": "JD CUSTOM HOMES LLC",
@@ -489,7 +495,7 @@
     "contractor": "HIGHLAND HOMES",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 407408.88
   },
   {
     "contractor": "BUILDING IDAHO CONSTRUCTION",
@@ -598,12 +604,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 199704.24
-  },
-  {
-    "contractor": "LARRY RICHARDSON CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 398953.08
   },
   {
     "contractor": "MAYBON HOMES LLC",
@@ -1278,12 +1278,6 @@
     "valuation_total": 370284.36
   },
   {
-    "contractor": "BURCHARD DAMIEN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 334582.32
-  },
-  {
     "contractor": "RADION VLADIMIR V",
     "count": 1,
     "score_total": 20,
@@ -1306,5 +1300,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "MOORHOUSE RESIDENTIAL LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
