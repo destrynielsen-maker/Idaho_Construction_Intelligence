@@ -1,6 +1,6 @@
 from __future__ import annotations
 import re
-from datetime import datetime
+from datetime import date,datetime
 import requests
 from .base import CollectorResult
 from .common import discover_links,get,pdf_text
@@ -24,19 +24,30 @@ class LatestPermitReportCollector:
         return CollectorResult(self.name,url,parse_generic(text,self.name,url),f'Latest discovered report: {label}')
 
 class MeridianDirectCollector:
-    """Meridian blocks GitHub-hosted requests to its report landing page with HTTP 403.
+    """Collect Meridian's public weekly construction reports.
 
-    The report PDFs themselves remain public. Try normal discovery first, then fall back to
-    the current direct City-hosted weekly report assets so collection does not fail merely
-    because the HTML landing page rejects the runner IP.
+    Meridian's HTML report landing page is protected by Cloudflare and returns HTTP 403 to
+    GitHub-hosted Actions runners. The report PDFs themselves remain public. Try normal
+    discovery first, then fall back to direct City-hosted weekly report assets. The fallback
+    note includes an explicit age check so a stale direct-report set cannot look silently current.
     """
     name='Meridian'
     landing_url='https://data.meridiancity.org/community-development/building/construction-reports/'
     include=('Week 1','Week 2','Week 3','Week 4','Full Report','Summary Report')
+    seed_freshness_days=14
     seed_reports=(
-        ('2026-08-03 through 2026-08-09','https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf'),
         ('2026-08-10 through 2026-08-16','https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf'),
+        ('2026-08-17 through 2026-08-23','https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf'),
+        ('2026-08-24 through 2026-08-30','https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf'),
+        ('2026-08-31 through 2026-09-06','https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf'),
     )
+
+    @staticmethod
+    def _report_end(label):
+        dates=re.findall(r'\b20\d{2}-\d{2}-\d{2}\b',label or '')
+        if not dates: return None
+        try: return datetime.strptime(dates[-1],'%Y-%m-%d').date()
+        except ValueError: return None
 
     def collect(self):
         candidates=[]
@@ -70,6 +81,14 @@ class MeridianDirectCollector:
         # Deduplicate because a report may be both discovered and seeded.
         unique={p.key:p for p in permits}
         note=discovery_note + ('Direct/discovered reports: ' + '; '.join(fetched) if fetched else 'No report assets fetched')
+        if not candidates:
+            ends=[self._report_end(label) for label,_ in self.seed_reports]
+            ends=[x for x in ends if x]
+            if ends:
+                newest=max(ends); age=(date.today()-newest).days
+                note += f'. Direct fallback newest report ends {newest.isoformat()} ({age} days old)'
+                if age > self.seed_freshness_days:
+                    note += f' WARNING: fallback report set is older than {self.seed_freshness_days} days and should be refreshed'
         if failures: note += '. Failures: ' + '; '.join(failures[:4])
         source_url=merged[-1][1] if merged else self.landing_url
         return CollectorResult(self.name,source_url,list(unique.values()),note)
