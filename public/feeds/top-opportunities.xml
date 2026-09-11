@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 20:21:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:35:51 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -30,6 +30,24 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EBO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 500,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01352</guid>
+    </item>
+    <item>
+      <title>[50] Coeur d'Alene: Townhouse Building A — 2709 N 14TH PL</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152271-B</guid>
+    </item>
+    <item>
+      <title>[50] Coeur d'Alene: Townhouse Building B — 2715 N 14TH PL</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152272-B</guid>
+    </item>
+    <item>
+      <title>[50] Coeur d'Alene: Townhouse Building C — 2727 N 14TH PL</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152274-B</guid>
     </item>
     <item>
       <title>[50] Boise: 1206 S Leadville Ave - Unit B Townhouse — 1206 S LEADVILLE AVE, Boise ID 83706</title>
@@ -68,16 +86,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
     </item>
     <item>
-      <title>[45] Meridian: New Single Family Residential - Duplex — 466 S FIDDLE AVE</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0786</guid>
-    </item>
-    <item>
       <title>[45] Nampa: NEW SF TOWNHOUSE LT24 BLK07 MIDDLEBURY NORTH #2 — 15581 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>MULTIFAMILY | Corey Barton Cbh Homes Inc | 125,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18781-2026</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New Single Family Residential - Duplex — 466 S FIDDLE AVE</title>
+      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
+      <description>MULTIFAMILY | COREY BARTON HOMES INC | 159,913</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0786</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
@@ -194,6 +212,30 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00552</guid>
     </item>
     <item>
+      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4490 W SHEDHORN AVE</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | ARCHITERRA HOMES LLC | 372,660</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151560-B</guid>
+    </item>
+    <item>
+      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4521 W BRESLIN CIR</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | HVAC DESIGN SERVICES | 372,660</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151559-B</guid>
+    </item>
+    <item>
+      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | ARCHITERRA HOMES LLC | 391,600</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151561-B</guid>
+    </item>
+    <item>
+      <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 7679 N MOCHA LP</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | HALLMARK HOMES II LLC | 360,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151488-B</guid>
+    </item>
+    <item>
       <title>[45] Boise: Samantha Sub 6-7 — 3432 W HILL RD, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006P7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
@@ -261,16 +303,16 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <guid isPermaLink="false">ID:NAMPA:RES-18785-2026</guid>
     </item>
     <item>
-      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
-    </item>
-    <item>
       <title>[40] Nampa: NEW SF TOWNHOUSE LT23 BLK07 MIDDLEBURY NORTH #2 — 15587 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 125,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18780-2026</guid>
+    </item>
+    <item>
+      <title>[40] Nampa: 08/27/2026Issue Date: Project Name: NEW TOWNHOME LT21 BLK07 MIDDLEBURY NORTH #2 — Permit Number: RES-18777-2026 Situs: 15599 N Exeter Way Nampa, Id 83651</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
+      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18777-2026</guid>
     </item>
     <item>
       <title>[40] Nampa: NEW TOWNHOUSE LT31 BLK07 Middlebury North #2 — 15539 N Exeter Way Nampa, Id 83651</title>
@@ -307,6 +349,12 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00749</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00749</guid>
+    </item>
+    <item>
+      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | HOMEOWNER | 450,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
     </item>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
@@ -471,12 +519,6 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
-    </item>
-    <item>
-      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
-      <description>MULTIFAMILY | HOMEOWNER | 450,000</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
     </item>
     <item>
       <title>[35] Kootenai County: NEW OFFICE BUILDING | HAYDEN NORTH LLC — 18208 N Pope Rd</title>

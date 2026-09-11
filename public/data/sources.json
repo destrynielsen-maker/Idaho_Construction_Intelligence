@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:10:33+00:00",
+  "generated_at": "2026-09-11T20:22:56+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 61,
-      "qualifying_records": 0,
-      "source_url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "note": "Official issued-permits last-week PDF"
+      "records_seen": 82,
+      "qualifying_records": 8,
+      "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-07-29 through 2026-09-11; 82 primary building permits parsed; newest primary building permit issued 2026-09-11"
     },
     {
       "source": "Kootenai County",

@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 20:21:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:35:51 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 3-5 Kirsten #2 — 6590 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -80,6 +80,12 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0712</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR | Holmberg Residence — 2995 E Hayden Lake Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 518,658</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0064</guid>
+    </item>
+    <item>
       <title>[20] Boise: Monitor Way/Syringa Springs — 10036 W MALAD ST, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IZ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
@@ -90,12 +96,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IO2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01784</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Holmberg Residence — 2995 E Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 518,658</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0064</guid>
     </item>
     <item>
       <title>[27] Boise: 363 Panorama Residence — 363 N PANORAMA PL, BLDG, Boise ID 83702</title>
@@ -110,6 +110,18 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1437</guid>
     </item>
     <item>
+      <title>[20] Nampa: NEW SFD LT26 BLK03 HARVEST CREEK #5 — 3981 S Harvest Creek Way Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Hayden Watson | 220,934</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18749-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT70 BLK07 Harvest Creek #5 — 4060 S Harvest Creek Way Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Hayden Watson | 137,949</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18696-2026</guid>
+    </item>
+    <item>
       <title>[20] Meridian: New Single Family Residential — 1889 S BORDER WAY</title>
       <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 199,465</description>
@@ -120,6 +132,12 @@
       <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 278,716</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0804</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE  PARCEL #2| Saridge — 28325 [TEMP] N Lewellen</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
+      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 420,699</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1201</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 14263 RED RIVER AVE, Nampa   836510000</title>
@@ -146,28 +164,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE  PARCEL #2| Saridge — 28325 [TEMP] N Lewellen</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 420,699</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1201</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT70 BLK07 Harvest Creek #5 — 4060 S Harvest Creek Way Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson | 137,949</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18696-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT26 BLK03 HARVEST CREEK #5 — 3981 S Harvest Creek Way Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson | 220,934</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18749-2026</guid>
-    </item>
-    <item>
       <title>[15] Kootenai County: NEW SFR | Cloward — 4059 W Cloward Family Dr</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
       <description>SINGLE_FAMILY | Contractor unknown | 359,604</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0971</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT16 BLK06 Reflections Edge #4 — 4421 E Briscoe Dr Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Kb Home Idaho Llc Kb Home Idaho Llc | 167,763</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18867-2026</guid>
     </item>
     <item>
       <title>[20] Meridian: New Single Family Home — 3134 E RENWICK ST</title>
@@ -194,46 +200,10 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0870</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT16 BLK06 Reflections Edge #4 — 4421 E Briscoe Dr Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT32 BLK11 FRANKLIN VILLAGE NORTH#4 — 7633 E Dixon St Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Kb Home Idaho Llc Kb Home Idaho Llc | 167,763</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18867-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT03 BLK06 CHISUM ESTATES #1 — 881 S Contusion Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 391,875</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18821-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK14 FRANKLIN VILLAGE NORTH #5 — 17211 N Yorktown Way Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 371,136</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18842-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT01 BLK03 STODDARD CROSSING — 2345 E Ebony St Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 378,772</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18843-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT02 BLK03 STODDARD CROSSING — 2359 E Ebony St Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 314,037</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18844-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT06 BLK13 FRANKLIN VILLAGE NORTH#4 — 7606 E Westing House St Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 366,424</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18845-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK12 FRANKLIN VILLAGE NORTH#4 — 7637 E Westing House St Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 307,765</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18871-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 284,056</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18891-2026</guid>
     </item>
     <item>
       <title>[15] Nampa: NEW SFD LT02 BLK12 FRANKLIN VILLAGE NORTH #4 — 7655 E Westing House St Nampa, Id 83687</title>
@@ -242,10 +212,46 @@
       <guid isPermaLink="false">ID:NAMPA:RES-18872-2026</guid>
     </item>
     <item>
-      <title>[15] Nampa: NEW SFD LT32 BLK11 FRANKLIN VILLAGE NORTH#4 — 7633 E Dixon St Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT04 BLK12 FRANKLIN VILLAGE NORTH#4 — 7637 E Westing House St Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 284,056</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18891-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 307,765</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18871-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT06 BLK13 FRANKLIN VILLAGE NORTH#4 — 7606 E Westing House St Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 366,424</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18845-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT02 BLK03 STODDARD CROSSING — 2359 E Ebony St Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 314,037</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18844-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT01 BLK03 STODDARD CROSSING — 2345 E Ebony St Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 378,772</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18843-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT04 BLK14 FRANKLIN VILLAGE NORTH #5 — 17211 N Yorktown Way Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 371,136</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18842-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT03 BLK06 CHISUM ESTATES #1 — 881 S Contusion Ave Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 391,875</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18821-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT15 BLK06 Reflections Edge #4 — 4433 E Briscoe Dr Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Kb Home Idaho Llc Kb Home Idaho Llc | 182,358</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18866-2026</guid>
     </item>
     <item>
       <title>[20] Meridian: Residential New Construction Single Family Dwelling — 335 W GLEASON CT</title>
@@ -260,10 +266,10 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1360</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT15 BLK06 Reflections Edge #4 — 4433 E Briscoe Dr Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT06 BLK22 NEW YORK LANDING #4 — 4507 S Fort George Ave Nampa, Id 83686</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Kb Home Idaho Llc Kb Home Idaho Llc | 182,358</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18866-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 99,990</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18877-2026</guid>
     </item>
     <item>
       <title>[15] Nampa: NEW SFD LT18 BLK08 Cherry Grove #5 — 7711 E Cherry Grove Dr Nampa, Id 83687</title>
@@ -272,16 +278,16 @@
       <guid isPermaLink="false">ID:NAMPA:RES-18869-2026</guid>
     </item>
     <item>
-      <title>[15] Nampa: NEW SFD LT06 BLK22 NEW YORK LANDING #4 — 4507 S Fort George Ave Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 99,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18877-2026</guid>
-    </item>
-    <item>
       <title>[25] Boise: Gross Residence — 805 E JEFFERSON ST, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005LU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | FLYNNER PROPERTIES LLC | 600,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00467</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT11 BLK2 CAYUSE RIDGE — 913 W Roan Ridge St Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
+      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 214,102</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18744-2026</guid>
     </item>
     <item>
       <title>[20] Meridian: New Single Family Residential New — 2640 W EVENING SUN ST</title>
@@ -332,22 +338,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT11 BLK2 CAYUSE RIDGE — 913 W Roan Ridge St Nampa, Id 83686</title>
+      <title>[15] Nampa: NEW SFD LT08 BLK13 FRANKLIN VILLAGE NORTH #4 — 7582 E Westing House St Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 214,102</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18744-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 347,598</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18854-2026</guid>
     </item>
     <item>
       <title>[15] Kootenai County: NEW SFR | Welch — 8616 N Clarkview Pl</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
       <description>SINGLE_FAMILY | Contractor unknown | 422,714</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1015</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT08 BLK13 FRANKLIN VILLAGE NORTH #4 — 7582 E Westing House St Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 347,598</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18854-2026</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lampert — 24171 [TEMP] S Lakewood</title>
@@ -629,16 +629,16 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0720</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Brown Residence — 15211 [TEMP] N Boot Hill Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | BUGLE NW INC | 382,892</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0823</guid>
-    </item>
-    <item>
       <title>[20] Meridian: New Single Family Dwelling — 5724 S PRIME WAY</title>
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 311,529</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0769</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Rehwalt — 34257 E Cape Horn Cir</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 696,819</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1136</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | K&amp;S Construction — 14525 [TEMP] E Sunset Shores</title>
@@ -647,16 +647,16 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0874</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Brown Residence — 15211 [TEMP] N Boot Hill Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
+      <description>SINGLE_FAMILY | BUGLE NW INC | 382,892</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0823</guid>
+    </item>
+    <item>
       <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Reece — 31445 [TEMP] N Red Fir Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 690,157</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1767</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Rehwalt — 34257 E Cape Horn Cir</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 696,819</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1136</guid>
     </item>
     <item>
       <title>[20] Meridian: New Single Family Home New — 3142 E RENWICK ST</title>
@@ -695,6 +695,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2025-0250</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Zylstra Residence — 3111 E Upper Hayden Lake Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 794,168</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-0832</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 0</description>
@@ -713,22 +719,16 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:BOISE:BLD26-01276</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Zylstra Residence — 3111 E Upper Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 794,168</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-0832</guid>
-    </item>
-    <item>
       <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Abell ALU — 10806 ( temp) PINT HAYDEN</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 448,318</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1176</guid>
     </item>
     <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 538,645</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 22762 [TEMP] N ECLIPSE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 764,985</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1300</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | DAVENNY — 3808 [TEMP] W Gemini Lane</title>
@@ -737,10 +737,10 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1290</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 22762 [TEMP] N ECLIPSE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 764,985</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1300</guid>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 538,645</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
     </item>
     <item>
       <title>[20] Meridian: New Single Family Residential — 1930 S BORDER WAY</title>
@@ -947,6 +947,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Crumb Residence — 16495 W HOLLISTER HILLS DR</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 848,028</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0281</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25994 LON DAVIS RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ETHAN EELLS LLC | 222,437</description>
@@ -963,12 +969,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00INI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01782</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Crumb Residence — 16495 W HOLLISTER HILLS DR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 848,028</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0281</guid>
     </item>
     <item>
       <title>[20] Meridian: New single family dwelling — 4578 S MAVORA WAY</title>
@@ -1007,16 +1007,16 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13440 WHETSTONE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MECK HOMES | 355,582</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
-    </item>
-    <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lew-Eells — 13737 E BUNCO RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
       <description>SINGLE_FAMILY | Contractor unknown | 684,640</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0559</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13440 WHETSTONE LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MECK HOMES | 355,582</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
     </item>
     <item>
       <title>[15] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Brown — 17165 E HAYDEN LAKE RD</title>
@@ -1037,22 +1037,28 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0553</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MVMNT HOMES | 314,024</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
-    </item>
-    <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Brooke House — 15996 E Wallaby Ct</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
       <description>SINGLE_FAMILY | KINLEY CONSTRUCTION LLC | 491,525</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1007</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MVMNT HOMES | 314,024</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE — 7719 [TEMP] E Duke Lane</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
       <description>SINGLE_FAMILY | QUALITY DIAMOND CONSTRUCTION | 589,787</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0582</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tilton Residence — 26687 N Michelle Ct</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
+      <description>SINGLE_FAMILY | TRUE NORTH HOMES LLC DBA | 479,959</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0881</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MC DERMOTT RD, Kuna   836340000</title>
@@ -1065,12 +1071,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BRUCH MARTIN | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0617</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tilton Residence — 26687 N Michelle Ct</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | TRUE NORTH HOMES LLC DBA | 479,959</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0881</guid>
     </item>
     <item>
       <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
@@ -1103,16 +1103,16 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0686</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Harkins Residence — 20600 N Lester Ct</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 685,696</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1147</guid>
-    </item>
-    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dotson Residence — 19315 [TEMP] S Whitla Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
       <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 559,225</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1165</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Harkins Residence — 20600 N Lester Ct</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
+      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 685,696</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1147</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/GARAGE | Coyle — 10552 [TEMP] W Vogel Road</title>
@@ -1170,10 +1170,10 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0294</guid>
     </item>
     <item>
-      <title>[25] Boise: Lot 7 — 1224 E HIGHLAND VIEW DR, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GD8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 800,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01568</guid>
+      <title>[25] Kootenai County: NEW SFR - Mundt — 24313 [TEMP] N ECLIPSE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 747,346</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1215</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 4019 W GEMINI LN [TEMP]</title>
@@ -1182,10 +1182,10 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1214</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR - Mundt — 24313 [TEMP] N ECLIPSE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 747,346</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1215</guid>
+      <title>[25] Boise: Lot 7 — 1224 E HIGHLAND VIEW DR, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GD8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 800,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01568</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
