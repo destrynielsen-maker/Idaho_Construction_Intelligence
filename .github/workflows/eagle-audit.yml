@@ -18,32 +18,25 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect live Eagle permits
+      - name: Inspect Eagle parser anomalies
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          from collections import Counter
-          from idaho_permits.classify import classify_permit
-          from idaho_permits.collectors.eagle import EaglePermitCollector
+          from idaho_permits.collectors.common import get
+          from idaho_permits.collectors.eagle import EaglePermitCollector, _lines
 
           result=EaglePermitCollector().collect()
-          print('SOURCE',result.source)
           print('COUNT',len(result.permits))
-          print('NOTE',result.note)
-          type_counts=Counter(p.permit_type for p in result.permits)
-          print('TYPE_COUNTS',dict(type_counts))
-          qual=[]
-          buildings=[]
           for p in result.permits:
-              classify_permit(p)
-              if (p.permit_type or '').lower().startswith('building'):
-                  buildings.append(p)
-                  print('BUILDING',p.permit_number,p.issued_date,p.permit_type,p.status,p.address,repr(p.project_name),p.classification,p.qualifies)
-              if p.qualifies:
-                  qual.append(p)
-          print('BUILDING_COUNT',len(buildings))
-          print('QUALIFYING_COUNT',len(qual))
-          for p in qual:
-              print('QUALIFYING',p.permit_number,p.issued_date,p.permit_type,p.address,repr(p.project_name),p.classification)
+              typ=(p.permit_type or '')
+              scope=(p.project_name or '')
+              if not typ.lower().startswith(('building','electrical','mechanical','plumbing','water')) or scope.lower() in {'new home','single family dwelling','new residential home'}:
+                  print('TARGET',p.permit_number,p.issued_date,repr(typ),p.status,p.address,repr(scope),p.source_url)
+                  try:
+                      html=get(p.source_url,referer='https://portal.iworq.net/EAGLE/permits/600').text
+                      lines=_lines(html)
+                      print('DETAIL_LINES',p.permit_number,repr(lines[:90]))
+                  except Exception as exc:
+                      print('DETAIL_ERROR',p.permit_number,type(exc).__name__,str(exc))
           PY
