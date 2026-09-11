@@ -73,7 +73,7 @@ class MeridianDirectCollector:
                 if 'pdf' not in ctype and not response.content.startswith(b'%PDF'):
                     failures.append(f'{label}: not PDF')
                     continue
-                parsed=parse_generic(pdf_text(response.content),self.name,url)
+                parsed=parse_meridian(pdf_text(response.content),self.name,url)
                 permits.extend(parsed); fetched.append(f'{label} ({len(parsed)} parsed)')
             except Exception as exc:
                 failures.append(f'{label}: {type(exc).__name__}')
@@ -92,6 +92,94 @@ class MeridianDirectCollector:
         if failures: note += '. Failures: ' + '; '.join(failures[:4])
         source_url=merged[-1][1] if merged else self.landing_url
         return CollectorResult(self.name,source_url,list(unique.values()),note)
+
+def parse_meridian(text,jurisdiction,url):
+    """Parse Meridian PDF rows as discrete permit blocks.
+
+    The PDFs place records directly next to each other. Using a broad nearby-text window can
+    accidentally pair a new project's description with the previous permit number. This parser
+    anchors every record on its own `Permit #` header and carries the active report section
+    (for example COMMERCIAL New) into classification fields.
+    """
+    lines=[re.sub(r'\s+',' ',x).strip() for x in text.splitlines() if x.strip()]
+    out=[]; section=''
+    permit_header=re.compile(r'\bPermit\s*#\s*([A-Z0-9-]+).*?Issued:\s*(\d{1,2}/\d{1,2}/20\d{2})',re.I)
+    section_re=re.compile(r'^(COMMERCIAL|RESIDENTIAL)\s+(.+)$',re.I)
+
+    for idx,line in enumerate(lines):
+        sm=section_re.match(line)
+        if sm and 'TOTAL VALUE' not in line.upper():
+            section=line
+        hm=permit_header.search(line)
+        if not hm: continue
+
+        end=idx+1
+        while end < len(lines):
+            if permit_header.search(lines[end]): break
+            next_section=section_re.match(lines[end])
+            if next_section and 'TOTAL VALUE' not in lines[end].upper(): break
+            end += 1
+        block=lines[idx:end]
+        block_text=' | '.join(block)
+        section_lower=section.lower()
+        if ' new' not in section_lower and 'shell' not in section_lower:
+            continue
+
+        pno=hm.group(1).strip()
+        try: issued=datetime.strptime(hm.group(2),'%m/%d/%Y').date().isoformat()
+        except ValueError: continue
+
+        address=''
+        for value in block:
+            if value.lower().startswith('address:'):
+                address=value.split(':',1)[1].split('Res.SQF:',1)[0].strip()
+                break
+        if not address: continue
+
+        valuation=None
+        vm=re.search(r'Valuation:\s*\$?([\d,]+(?:\.\d{2})?)',block_text,re.I)
+        if vm:
+            try: valuation=float(vm.group(1).replace(',',''))
+            except ValueError: valuation=None
+
+        project_parts=[]; collecting=False
+        for value in block:
+            if value.lower().startswith('project description:'):
+                collecting=True
+                project_parts.append(value.split(':',1)[1].strip())
+                continue
+            if collecting:
+                if re.search(r'\bTOTAL VALUE:',value,re.I): break
+                project_parts.append(value)
+        project=' '.join(x for x in project_parts if x).strip() or None
+
+        contractor=None
+        for pos,value in enumerate(block):
+            if value.lower().startswith('contractor:'):
+                contractor=value.split(':',1)[1].strip() or None
+                if not contractor and pos+1 < len(block): contractor=block[pos+1].strip() or None
+                break
+
+        units=None
+        um=re.search(r'#\s*of\s*Units:\s*(\d+)',block_text,re.I)
+        if um:
+            try: units=int(um.group(1))
+            except ValueError: units=None
+
+        if section_lower.startswith('residential') and 'new' in section_lower:
+            permit_type='New Residential'
+        elif 'shell' in section_lower:
+            permit_type='Commercial Shell Building'
+        else:
+            permit_type='Commercial New'
+
+        out.append(Permit(
+            state='ID',jurisdiction=jurisdiction,permit_number=pno,issued_date=issued,
+            permit_type=permit_type,address=address,source_name=f'{jurisdiction} permit report',
+            source_url=url,project_name=project,building_use=project,units=units,
+            valuation=valuation,contractor=contractor,raw={'section':section,'context':block_text},
+        ))
+    return out
 
 def parse_generic(text,jurisdiction,url):
     lines=[re.sub(r'\s+',' ',x).strip() for x in text.splitlines() if x.strip()]
