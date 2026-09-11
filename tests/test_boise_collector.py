@@ -1,6 +1,8 @@
 import unittest
 from datetime import date
 
+import requests
+
 from idaho_permits.classify import classify_permit
 from idaho_permits.collectors.boise import BoiseIssuedPermitCollector, permit_from_feature
 
@@ -192,6 +194,17 @@ class BoiseCollectorTests(unittest.TestCase):
         row = self.row('Permit for construction of a new single family dwelling.')
         with self.assertRaises(RuntimeError):
             self.collector._permit(row, self.detail(application_code=501), 'residential', {402, 403, 404}, self.cutoff, self.today)
+
+    def test_accela_session_retries_one_transient_get_or_post(self):
+        session = requests.Session()
+        self.collector._configure_session(session)
+        retry = session.get_adapter('https://permits.cityofboise.org/').max_retries
+        self.assertEqual(retry.total, 1)
+        self.assertEqual(retry.read, 1)
+        self.assertEqual(retry.connect, 1)
+        self.assertIn('GET', retry.allowed_methods)
+        self.assertIn('POST', retry.allowed_methods)
+        self.assertEqual(set(retry.status_forcelist), {429, 500, 502, 503, 504})
 
     def test_date_text_separates_received_from_issued_dates(self):
         self.assertEqual(self.collector._date_text('08/10/2026'), '2026-08-10')
