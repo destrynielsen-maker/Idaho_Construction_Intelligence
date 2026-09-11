@@ -51,7 +51,7 @@ Contractor: DAUM CONSTRUCTION
         self.assertTrue(permit.qualifies)
         self.assertEqual(permit.classification, 'MULTIFAMILY')
 
-    def test_adu_and_remodel_are_not_promoted(self):
+    def test_adu_remodel_and_accessory_deck_are_not_promoted(self):
         text = '''
 Permit Num:
 Owner:
@@ -67,9 +67,19 @@ Issued: Valuation: Type:
 150927-B
 Single-Family09/03/2026Jane Doe $200,000.00
 Contractor: VISION BUILT CONSTRUCTION
+Permit Num:
+Owner:
+Address: 1104 E STINER AVE Project: NEW 16'X16' DECK
+Issued: Valuation: Type:
+152715-B
+Single-Family08/06/2026Connor Gullotto $17,000.00
+Contractor: Evolutionary Builders LLC
 '''
         rows = parse(text, 'https://x')
-        self.assertEqual(len(rows), 2)
+        self.assertEqual(len(rows), 3)
+        by_number = {row.permit_number: row for row in rows}
+        self.assertEqual(by_number['152715-B'].permit_type, 'Accessory Structure')
+        self.assertIsNone(by_number['152715-B'].building_use)
         for permit in rows:
             classify_permit(permit)
             self.assertFalse(permit.qualifies)
