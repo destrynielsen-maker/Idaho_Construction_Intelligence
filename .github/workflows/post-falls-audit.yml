@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  audit:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,39 +18,41 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Inspect live Post Falls ArcGIS permits
+      - name: Run complete test suite
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live Post Falls collector
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
           from collections import Counter
-          from datetime import datetime, timezone, timedelta
-          import requests
+          from idaho_permits.classify import classify_permit
+          from idaho_permits.collectors.post_falls import PostFallsPermitCollector
 
-          url='https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17/query'
-          params={
-              'where':'USER_Permit_License_Issued_Date IS NOT NULL',
-              'outFields':'OBJECTID,DESCRIPTION,USER_Record__,USER_Valuation,USER_Record_Type,USER_Date_Submitted,USER_Permit_License_Issued_Date,USER_Type_of_Work,USER_Building_Type,USER_Location,USER_Record_Status,USER_Amount',
-              'returnGeometry':'false',
-              'orderByFields':'USER_Permit_License_Issued_Date DESC',
-              'resultRecordCount':500,
-              'f':'json',
-          }
-          r=requests.get(url,params=params,timeout=60)
-          print('HTTP',r.status_code,r.url)
-          r.raise_for_status()
-          data=r.json()
-          print('ERROR',data.get('error'))
-          feats=data.get('features') or []
-          print('COUNT',len(feats),'EXCEEDED',data.get('exceededTransferLimit'))
-          attrs=[f.get('attributes') or {} for f in feats]
-          print('RECORD_TYPES',Counter(a.get('USER_Record_Type') for a in attrs))
-          print('WORK_TYPES',Counter(a.get('USER_Type_of_Work') for a in attrs).most_common(30))
-          print('BUILDING_TYPES',Counter(a.get('USER_Building_Type') for a in attrs).most_common(30))
-          print('STATUSES',Counter(a.get('USER_Record_Status') for a in attrs))
-          cutoff=(datetime.now(timezone.utc)-timedelta(days=90)).timestamp()*1000
-          recent=[a for a in attrs if (a.get('USER_Permit_License_Issued_Date') or 0)>=cutoff]
-          print('RECENT90',len(recent))
-          for a in recent[:120]:
-              issued=a.get('USER_Permit_License_Issued_Date')
-              issued=datetime.fromtimestamp(issued/1000,tz=timezone.utc).date().isoformat() if issued else None
-              print('ROW',a.get('USER_Record__'),issued,repr(a.get('USER_Record_Type')),repr(a.get('USER_Type_of_Work')),repr(a.get('USER_Building_Type')),repr(a.get('USER_Record_Status')),a.get('USER_Valuation'),repr(a.get('USER_Location')),repr(a.get('DESCRIPTION')))
+          result=PostFallsPermitCollector().collect()
+          print('COUNT',len(result.permits))
+          print('NOTE',result.note)
+          by_number={p.permit_number:p for p in result.permits}
+          required=('BLDC-26-50','BLDR-26-632','BLDR-26-629')
+          rejected=('BLDR-26-682','BLDC-26-93')
+          for number in required:
+              p=by_number.get(number)
+              print('CONTROL',number,bool(p),p.permit_type if p else None,p.valuation if p else None)
+              if not p:
+                  raise SystemExit(f'missing Post Falls control: {number}')
+          for number in rejected:
+              print('REJECTED',number,number in by_number)
+              if number in by_number:
+                  raise SystemExit(f'Post Falls noise escaped guard: {number}')
+          classes=Counter()
+          for p in result.permits:
+              classify_permit(p)
+              classes[p.classification]+=1
+              if not p.qualifies:
+                  raise SystemExit(f'Post Falls collector emitted nonqualifying record: {p.permit_number}')
+          print('CLASSES',dict(classes))
+          if len(result.permits) < 50:
+              raise SystemExit(f'Post Falls live count unexpectedly low: {len(result.permits)}')
           PY
