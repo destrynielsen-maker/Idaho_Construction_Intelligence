@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 23:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:41:29 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: single family dwelling — 7504 Namer St.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29681954</link>
@@ -24,6 +24,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29680962</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267392</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7211 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267374</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6553 W DANES DR</title>
@@ -48,12 +54,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Residential Home — 7211 N Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267374</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 254 N GREAT FALLS AVE</title>
@@ -641,6 +641,54 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0709</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 3513 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 349,006</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-629</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3445 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-631</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3530 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,610</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-655</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 1202 E WALTON CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 219,005</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-630</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2822 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 196,008</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-681</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2800 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 263,448</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-680</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2782 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 352,714</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-678</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2774 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 219,969</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-677</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 24234( TEMP) N ECLIPSE RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
@@ -663,6 +711,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00BHV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | TESORO HOMES LLC | 450,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01094</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2936 N NEPTUNE ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 231,582</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-519</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | King — 1494 W Newtons Ct</title>
@@ -713,6 +767,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0720</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 2647 N NEPTUNE ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 341,318</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-513</guid>
+    </item>
+    <item>
       <title>[20] Meridian: New Single Family Dwelling — 5724 S PRIME WAY</title>
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 311,529</description>
@@ -741,6 +801,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 690,157</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1767</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2466 E SALVATION CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 252,397</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-599</guid>
     </item>
     <item>
       <title>[20] Meridian: New Single Family Home New — 3142 E RENWICK ST</title>
@@ -807,6 +873,18 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 448,318</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1176</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 12260 W KILKENNY DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 225,299</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-670</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 12294 W ROCHESTER AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 168,722</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-671</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 22762 [TEMP] N ECLIPSE RD</title>
@@ -1013,203 +1091,124 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0635</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Perry — 26686 (TEMP) N DAWSON</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | BENTON DEVELOPMENT INC | 778,110</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1232</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2751 N CASSIOPEIA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 237,660</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-659</guid>
     </item>
     <item>
-      <title>[22] Kootenai County: NEW SFR w/ATTACHED GARAGE | Newell Residence — 2516 (temp) E Sundown Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 1,042,594</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0412</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3081 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-554</guid>
     </item>
     <item>
-      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 4.5 Bathroom, 3-Car Tandem Garage (4), Covered Entry and Covered Patio C ITY OF M ERIDIAN 9 P AGE # BUILDING PERMITS FOR THE WEEK (52) — 881 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | Boise PLH, LLC | 331,366</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0726</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3089 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,523</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-555</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Crumb Residence — 16495 W HOLLISTER HILLS DR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 848,028</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0281</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3095 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-556</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25994 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ETHAN EELLS LLC | 222,437</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0631</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3103 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-557</guid>
     </item>
     <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10035 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00INY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01783</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3111 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-290</guid>
     </item>
     <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10022 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00INI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01782</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3117 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,783</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-291</guid>
     </item>
     <item>
-      <title>[20] Meridian: New single family dwelling — 4578 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 269,182</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0738</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3125 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 163,745</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-292</guid>
     </item>
     <item>
-      <title>[20] Meridian: New single family dwelling — 4525 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 267,935</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0707</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3131 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-293</guid>
     </item>
     <item>
-      <title>[20] Meridian: New single family dwelling — 4577 S MAVORA WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 247,853</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0705</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3139 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-294</guid>
     </item>
     <item>
-      <title>[20] Meridian: New Single Family Residential/PN04013002 Cottonwood (Chiang) — 7030 S CAPSTONE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 268,567</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0670</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2484 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-561</guid>
     </item>
     <item>
-      <title>[20] Meridian: New Single Family Residential/PN04010010 Galloway B — 7058 S STEEPLE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 261,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0669</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2476 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,523</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-562</guid>
     </item>
     <item>
-      <title>[20] Meridian: New Single Family Residential/PN09009024 Freeman B — 951 E ESCALATION ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 219,342</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0668</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2472 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-563</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lew-Eells — 13737 E BUNCO RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 684,640</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0559</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2460 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-564</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13440 WHETSTONE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MECK HOMES | 355,582</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0626</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2458 N GRASSHOPPER LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-553</guid>
     </item>
     <item>
-      <title>[15] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Brown — 17165 E HAYDEN LAKE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 443,333</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1064</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2470 N GRASSHOPPER LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,523</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-552</guid>
     </item>
     <item>
-      <title>[20] Meridian: NEW 1618 SQ FT SINGLE FAMILY DWELLING WITH 475 SQ FT ATTACHED GARAGE — 5881 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 172,665</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0657</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2474 N GRASSHOPPER LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-551</guid>
     </item>
     <item>
-      <title>[20] Meridian: Building a new single family, single story home. 3,422 Square ft. 2 car plus RV bay attached garages. — 6550 S NETHERFIELD WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | MAYBON HOMES LLC | 346,516</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0553</guid>
+      <title>[15] Post Falls: New Single Family Residential — 2486 N GRASSHOPPER LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-550</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Brooke House — 15996 E Wallaby Ct</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3550</link>
-      <description>SINGLE_FAMILY | KINLEY CONSTRUCTION LLC | 491,525</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1007</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3047 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-565</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 TRIPLE CROWN PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MVMNT HOMES | 314,024</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0623</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE — 7719 [TEMP] E Duke Lane</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | QUALITY DIAMOND CONSTRUCTION | 589,787</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0582</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tilton Residence — 26687 N Michelle Ct</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | TRUE NORTH HOMES LLC DBA | 479,959</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0881</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MC DERMOTT RD, Kuna   836340000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ABSTRACT RESIDENTIAL DESIGN + BUILD | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0620</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR — 0 FOOTHILL RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BRUCH MARTIN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0617</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Dwelling — 250 E Eagles Gate DR STE 320</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 336,182</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0728</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 210,609</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0699</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 230,758</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0698</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 234,788</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0697</guid>
-    </item>
-    <item>
-      <title>[15] Meridian: New Single Family Residential - TH — 1977 E OVERLAND RD 1977 E.</title>
-      <link>https://data.meridiancity.org/media/vbjn0d53/weekly-reports-832026-892026.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0686</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dotson Residence — 19315 [TEMP] S Whitla Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 559,225</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1165</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Harkins Residence — 20600 N Lester Ct</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 685,696</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1147</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/GARAGE | Coyle — 10552 [TEMP] W Vogel Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>SINGLE_FAMILY | CDA STRUCTURES | 313,017</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0770</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SHOP W/LIVING QUARTERS  Final SWDH received at intake &#13;
-***DON’T ISSUE UNTIL CP2026-0058 APPROVED*** — 28751 STUBB LN, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | POWERS CONSTRUCTION SOLUTIONS | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0616</guid>
+      <title>[15] Post Falls: New Single Family Residential — 3055 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 178,783</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-566</guid>
     </item>
   </channel>
 </rss>

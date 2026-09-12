@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 23:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:41:29 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: single family dwelling — 7504 Namer St.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29681954</link>
@@ -24,6 +24,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29680962</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267392</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7211 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267374</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6553 W DANES DR</title>
@@ -48,12 +54,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P79&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 125,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Residential Home — 7211 N Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29679607</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267374</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 254 N GREAT FALLS AVE</title>
@@ -676,6 +676,12 @@ DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1129</guid>
     </item>
     <item>
+      <title>[35] Post Falls: New Commercial Building — 2514 N HIGHWAY 41, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 850,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-92</guid>
+    </item>
+    <item>
       <title>[27] Boise: 711 Franklin Residence — 711 W FRANKLIN ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NHJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,073,600</description>
@@ -725,6 +731,54 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0709</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 3513 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 349,006</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-629</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3445 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-631</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3530 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 384,610</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-655</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 1202 E WALTON CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 219,005</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-630</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2822 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 196,008</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-681</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2800 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 263,448</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-680</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2782 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 352,714</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-678</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2774 N ANDROMEDA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 219,969</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-677</guid>
+    </item>
+    <item>
       <title>[50] Nampa: Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs — Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 8,007,184</description>
@@ -759,6 +813,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00BHV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | TESORO HOMES LLC | 450,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01094</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2936 N NEPTUNE ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 231,582</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-519</guid>
     </item>
     <item>
       <title>[45] Nampa: Scope of Work: 4-Plex multifamily housing apartment building. EMP's — Permit Number: COM-05422-2026 Situs: 15552 N Exeter Way Nampa, Id 83651</title>
@@ -839,6 +899,18 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0720</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 2647 N NEPTUNE ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 341,318</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-513</guid>
+    </item>
+    <item>
+      <title>[45] Post Falls: New Commercial Building — 7721 W PRAIRIE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 12,000,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-50</guid>
+    </item>
+    <item>
       <title>[20] Meridian: New Single Family Dwelling — 5724 S PRIME WAY</title>
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 311,529</description>
@@ -867,6 +939,12 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 690,157</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1767</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2466 E SALVATION CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 252,397</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-599</guid>
     </item>
     <item>
       <title>[42] Meridian: Dr. Astin - Endodontist Office - The proposed office building will be an Endodontist Office for Dr. Astin. The building will be all new construction, 2,547 square foot single story structure on a 0.98-acre infill lot. C ITY OF M ERIDIAN 3 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 1788 W MCMILLAN RD</title>
@@ -939,6 +1017,18 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 448,318</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1176</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 12260 W KILKENNY DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 225,299</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-670</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 12294 W ROCHESTER AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 168,722</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-671</guid>
     </item>
     <item>
       <title>[40] Boise: 920 N CLITHERO DR — 920 N CLITHERO DR</title>
@@ -1119,96 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 162,705</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0660</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1439 Vermont — 1439 S VERMONT AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DBT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01271</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1445 Vermont - Left House — 1445 S VERMONT AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DBH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01269</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR | Schneider — 16000 [TEMP] W Chantilly</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 282,191</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0882</guid>
-    </item>
-    <item>
-      <title>[25] Boise: TE_ LOT 10 — 3764 E BARBER DR, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=002PN&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | NW BUILDERS COMPANY INC | 825,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00222</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Dwelling New — 813 E INFINITY ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 336,517</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: new single family home — 3128 E RENWICK ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 312,389</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family home — 2984 E MARDIA ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 337,690</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 1948 S BORDER WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 242,703</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
-    </item>
-    <item>
-      <title>[27] Boise: HR1 57-01 — 3145 S GLACIER LILY PL, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00H01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 2,100,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01615</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4630 N JARBIDGE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4679 N BRANDY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4726 N WOOLEY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 338,733</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24861 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 343,294</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0637</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25992 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BUILDING IDAHO CONSTRUCTION | 261,559</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0636</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7024 E CHICKEN HAWK LOOP, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0635</guid>
     </item>
   </channel>
 </rss>

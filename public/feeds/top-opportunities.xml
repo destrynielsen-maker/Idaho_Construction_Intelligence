@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 23:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:41:29 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -126,6 +126,12 @@
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>MULTIFAMILY | HUBBLE HOMES LLC | 181,969</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0721</guid>
+    </item>
+    <item>
+      <title>[45] Post Falls: New Commercial Building — 7721 W PRAIRIE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 12,000,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-50</guid>
     </item>
     <item>
       <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
@@ -357,6 +363,24 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
     </item>
     <item>
+      <title>[40] Post Falls: New Duplex Residential — 1506 N WILHELM WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 340,158</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-632</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 312 W 21ST AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-23</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 316 W 21ST AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-22</guid>
+    </item>
+    <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
 &#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.  &#13;
  ***DO NOT ISSUE UNTIL CP IS APPROVED*** — 22782 CALLA LILY LN, Middleton   836440000</title>
@@ -521,10 +545,34 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
     </item>
     <item>
+      <title>[37] Post Falls: New Commercial Building — 8505 N FENNECUS RD, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 3,500,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-65</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 464 N BAUGH WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,615,898</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-67</guid>
+    </item>
+    <item>
+      <title>[35] Post Falls: New Commercial Building — 2514 N HIGHWAY 41, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 850,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-92</guid>
+    </item>
+    <item>
       <title>[35] Kootenai County: NEW OFFICE BUILDING | HAYDEN NORTH LLC — 18208 N Pope Rd</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
       <description>COMMERCIAL | DONOHOE CONSTRUCTION LLC | 156,199</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0049</guid>
+    </item>
+    <item>
+      <title>[35] Post Falls: New Commercial Building — 4093 N LYNN ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 685,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-2</guid>
     </item>
     <item>
       <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;

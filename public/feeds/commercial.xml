@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 23:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:41:29 +0000</lastBuildDate>
     <item>
       <title>[30] Nampa: Intermountain West Homes No. 2 — 993 S Almond St Nampa, Id 83686</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
@@ -20,10 +20,22 @@
       <guid isPermaLink="false">ID:EAGLE:267038</guid>
     </item>
     <item>
+      <title>[35] Post Falls: New Commercial Building — 2514 N HIGHWAY 41, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 850,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-92</guid>
+    </item>
+    <item>
       <title>[40] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 621,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
+    </item>
+    <item>
+      <title>[45] Post Falls: New Commercial Building — 7721 W PRAIRIE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 12,000,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-50</guid>
     </item>
     <item>
       <title>[42] Meridian: Dr. Astin - Endodontist Office - The proposed office building will be an Endodontist Office for Dr. Astin. The building will be all new construction, 2,547 square foot single story structure on a 0.98-acre infill lot. C ITY OF M ERIDIAN 3 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 1788 W MCMILLAN RD</title>
@@ -42,6 +54,18 @@
       <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
       <description>COMMERCIAL | HAWKLINE BUILDERS LLC | 1,374,000</description>
       <guid isPermaLink="false">ID:MERIDIAN:C-SHELL-2026-0015</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 8505 N FENNECUS RD, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 3,500,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-65</guid>
+    </item>
+    <item>
+      <title>[30] Post Falls: New Commercial Building — 761 N IDAHO ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 5,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-79</guid>
     </item>
     <item>
       <title>[35] Kootenai County: NEW OFFICE BUILDING | HAYDEN NORTH LLC — 18208 N Pope Rd</title>
@@ -64,6 +88,18 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01423</guid>
     </item>
     <item>
+      <title>[30] Post Falls: New Commercial Building — 625 N MCREYNOLDS DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 316,340</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-25-144</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 464 N BAUGH WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,615,898</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-67</guid>
+    </item>
+    <item>
       <title>[55] Boise: MICRON - ID1 B111F Opal Dewatering Building — 8000 S FEDERAL WAY, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005L7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 64,481,344</description>
@@ -74,6 +110,12 @@
       <link>https://www.cityofcaldwell.org/files/assets/city/v/1/planning-amp-zoning/documents/current-cases/fullapplicationpacket_highline-industrial.pdf</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:CALDWELL:COMPASS-202607-F756CD3A</guid>
+    </item>
+    <item>
+      <title>[35] Post Falls: New Commercial Building — 4093 N LYNN ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 685,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-2</guid>
     </item>
     <item>
       <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;

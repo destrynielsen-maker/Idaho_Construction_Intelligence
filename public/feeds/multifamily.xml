@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 23:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:41:29 +0000</lastBuildDate>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -240,6 +240,24 @@
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152271-B</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 1506 N WILHELM WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 340,158</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-632</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 312 W 21ST AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-23</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 316 W 21ST AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-22</guid>
     </item>
     <item>
       <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>

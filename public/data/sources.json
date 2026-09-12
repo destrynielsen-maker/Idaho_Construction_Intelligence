@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:06:47+00:00",
+  "generated_at": "2026-09-12T01:30:07+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 45,
-      "qualifying_records": 45,
+      "records_seen": 44,
+      "qualifying_records": 44,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 83,
+      "records_seen": 78,
       "qualifying_records": 8,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-07-29 through 2026-09-11; 83 primary building permits parsed; newest primary building permit issued 2026-09-11"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-07-30 through 2026-09-12; 78 primary building permits parsed; newest primary building permit issued 2026-09-11"
     },
     {
       "source": "Kootenai County",
@@ -55,15 +55,23 @@
       "records_seen": 55,
       "qualifying_records": 55,
       "source_url": "https://kcgov.us/Archive/ViewFile/Item/3563",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (14 parsed). Latest report period 2026-08-30 through 2026-09-05 (6 days old)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 16, 2026 (14 parsed). Latest report period 2026-08-30 through 2026-09-05 (7 days old)"
+    },
+    {
+      "source": "Post Falls",
+      "status": "ok",
+      "records_seen": 128,
+      "qualifying_records": 128,
+      "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
+      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 285 source records inspected; 128 ground-up building permits kept; newest issued permit 2026-08-26 (17 days old); WARNING source is more than 14 days behind current date"
     },
     {
       "source": "Meridian",
       "status": "ok",
-      "records_seen": 71,
-      "qualifying_records": 67,
+      "records_seen": 89,
+      "qualifying_records": 83,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed). Direct fallback newest report ends 2026-09-06 (5 days old). Failures: 2026-08-31 through 2026-09-06: HTTPError"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (6 days old)"
     },
     {
       "source": "Nampa",
@@ -71,7 +79,7 @@
       "records_seen": 21,
       "qualifying_records": 21,
       "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026",
-      "note": "Latest discovered report: 08/31/2026 \u2013 09/04/2026; 21 new-construction records parsed; report ended 7 days ago"
+      "note": "Latest discovered report: 08/31/2026 \u2013 09/04/2026; 21 new-construction records parsed; report ended 8 days ago"
     }
   ],
   "directory": [
@@ -182,10 +190,10 @@
     },
     {
       "market": "Post Falls",
-      "grade": "A",
-      "mode": "rep-report",
-      "url": "https://www.postfalls.gov/175/Building",
-      "use": "Monthly building reports"
+      "grade": "A+",
+      "mode": "automated-gis",
+      "url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
+      "use": "Official rolling issued building-permit GIS with permit number, issued date, valuation, work type, building type, address and status; ground-up SFR, duplex/townhouse/multifamily and commercial only"
     },
     {
       "market": "Post Falls OpenGov",
