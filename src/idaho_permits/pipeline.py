@@ -10,11 +10,12 @@ from .collectors.coeur_dalene import CoeurDAleneCollector
 from .collectors.eagle import EaglePermitCollector
 from .collectors.kootenai_county import KootenaiCountyCollector
 from .collectors.nampa import NampaPermitCollector
+from .collectors.post_falls import PostFallsPermitCollector
 from .collectors.report_pages import MeridianCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .storage import load_permits,save_permits
-COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),MeridianCollector(),NampaPermitCollector()]
+COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector()]
 
 def _site_base_url():
     x=os.getenv('SITE_BASE_URL','').strip()
