@@ -1,0 +1,56 @@
+name: Post Falls permit source audit
+
+on:
+  push:
+    branches:
+      - add-post-falls-permit-intelligence
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Inspect live Post Falls ArcGIS permits
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from datetime import datetime, timezone, timedelta
+          import requests
+
+          url='https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17/query'
+          params={
+              'where':'USER_Permit_License_Issued_Date IS NOT NULL',
+              'outFields':'OBJECTID,DESCRIPTION,USER_Record__,USER_Valuation,USER_Record_Type,USER_Date_Submitted,USER_Permit_License_Issued_Date,USER_Type_of_Work,USER_Building_Type,USER_Location,USER_Record_Status,USER_Amount',
+              'returnGeometry':'false',
+              'orderByFields':'USER_Permit_License_Issued_Date DESC',
+              'resultRecordCount':500,
+              'f':'json',
+          }
+          r=requests.get(url,params=params,timeout=60)
+          print('HTTP',r.status_code,r.url)
+          r.raise_for_status()
+          data=r.json()
+          print('ERROR',data.get('error'))
+          feats=data.get('features') or []
+          print('COUNT',len(feats),'EXCEEDED',data.get('exceededTransferLimit'))
+          attrs=[f.get('attributes') or {} for f in feats]
+          print('RECORD_TYPES',Counter(a.get('USER_Record_Type') for a in attrs))
+          print('WORK_TYPES',Counter(a.get('USER_Type_of_Work') for a in attrs).most_common(30))
+          print('BUILDING_TYPES',Counter(a.get('USER_Building_Type') for a in attrs).most_common(30))
+          print('STATUSES',Counter(a.get('USER_Record_Status') for a in attrs))
+          cutoff=(datetime.now(timezone.utc)-timedelta(days=90)).timestamp()*1000
+          recent=[a for a in attrs if (a.get('USER_Permit_License_Issued_Date') or 0)>=cutoff]
+          print('RECENT90',len(recent))
+          for a in recent[:120]:
+              issued=a.get('USER_Permit_License_Issued_Date')
+              issued=datetime.fromtimestamp(issued/1000,tz=timezone.utc).date().isoformat() if issued else None
+              print('ROW',a.get('USER_Record__'),issued,repr(a.get('USER_Record_Type')),repr(a.get('USER_Type_of_Work')),repr(a.get('USER_Building_Type')),repr(a.get('USER_Record_Status')),a.get('USER_Valuation'),repr(a.get('USER_Location')),repr(a.get('DESCRIPTION')))
+          PY
