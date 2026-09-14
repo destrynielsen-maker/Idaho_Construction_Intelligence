@@ -6,9 +6,21 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 12:55:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:16:07 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: single family dwelling — 7504 Namer St.</title>
+      <title>[20] Boise: 18-6 Kirsten #2 — 6445 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PC2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 96,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02383</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 2-3 Kirsten #2 — 6601 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7504 Namer St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29681954</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267403</guid>
@@ -853,7 +865,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 0</description>
+      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 382,698</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0652</guid>
     </item>
     <item>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-550</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3139 E POLELINE AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-294</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3131 E POLELINE AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-293</guid>
     </item>
   </channel>
 </rss>
