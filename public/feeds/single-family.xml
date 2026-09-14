@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 17:16:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 22:00:18 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 18-6 Kirsten #2 — 6445 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PC2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -18,6 +18,30 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-4 Kirsten #2 — 6584 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02371</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 3-4 Kirsten #2 — 6590 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6C&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02370</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686742</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267457</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2148 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686492</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267453</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>
@@ -1185,30 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-554</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2458 N GRASSHOPPER LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-553</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2470 N GRASSHOPPER LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 178,523</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-552</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2474 N GRASSHOPPER LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-551</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2486 N GRASSHOPPER LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-550</guid>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 17:16:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 22:00:18 +0000</lastBuildDate>
     <item>
       <title>[20] Boise: 18-6 Kirsten #2 — 6445 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PC2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -18,6 +18,30 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-4 Kirsten #2 — 6584 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02371</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 3-4 Kirsten #2 — 6590 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6C&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02370</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686742</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267457</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2148 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686492</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267453</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>
@@ -1185,30 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — 25906 N Dickens Rd [Temp]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 595,082</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1262</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5892 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 165,057</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0723</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential - TH — 504 S MATTINGLY AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0687</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 5874 N GARBO AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 234,346</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0675</guid>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 25,
-    "score_total": 662,
-    "valuation_total": 7084349.869999999
+    "count": 27,
+    "score_total": 702,
+    "valuation_total": 7248329.869999999
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -1642,5 +1642,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Toll Bros, Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
