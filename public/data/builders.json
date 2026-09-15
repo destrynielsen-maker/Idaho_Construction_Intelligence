@@ -240,6 +240,12 @@
     "valuation_total": 360000.0
   },
   {
+    "contractor": "WOOD BOAT BUILDERS LLC",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1500000.0
+  },
+  {
     "contractor": "MCCARTER MOORHOUSE LLC",
     "count": 1,
     "score_total": 42,
@@ -268,12 +274,6 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
-  },
-  {
-    "contractor": "WOOD BOAT BUILDERS LLC",
-    "count": 1,
-    "score_total": 42,
-    "valuation_total": 1500000.0
   },
   {
     "contractor": "TRESIDIO HOMES",
@@ -652,6 +652,24 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Vandalay Homes DBA Legacy Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Sunlite Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Highland Homes LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
@@ -1660,23 +1678,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Vandalay Homes DBA Legacy Homes",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Sunlite Homes",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Highland Homes LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

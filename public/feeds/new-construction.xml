@@ -6,12 +6,30 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 05:04:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 11:54:02 +0000</lastBuildDate>
     <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>COMMERCIAL | WOOD BOAT BUILDERS LLC | 1,500,000</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: building new 7,416 sq ft home, and 8,588 sq ft detached barn — 13965 W Chinden Blvd</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
+      <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267467</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Residential Home Build — 201 N Romal Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
+      <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267465</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6221 W LES MUIRE LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686784</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267461</guid>
     </item>
     <item>
       <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
@@ -48,24 +66,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: building new 7,416 sq ft home, and 8,588 sq ft detached barn — 13965 W Chinden Blvd</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
-      <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267467</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: Residential Home Build — 201 N Romal Ln</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
-      <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267465</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6221 W LES MUIRE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686784</link>
-      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267461</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>
