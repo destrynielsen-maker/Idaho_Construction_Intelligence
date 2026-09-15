@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:57:49+00:00",
+  "generated_at": "2026-09-15T21:19:18+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 46,
-      "qualifying_records": 46,
+      "records_seen": 47,
+      "qualifying_records": 47,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 8,
+      "qualifying_records": 6,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 77,
+      "records_seen": 78,
       "qualifying_records": 9,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-02 through 2026-09-15; 77 primary building permits parsed; newest primary building permit issued 2026-09-14"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-02 through 2026-09-15; 78 primary building permits parsed; newest primary building permit issued 2026-09-15"
     },
     {
       "source": "Kootenai County",
@@ -68,10 +68,10 @@
     {
       "source": "Meridian",
       "status": "ok",
-      "records_seen": 55,
-      "qualifying_records": 51,
+      "records_seen": 89,
+      "qualifying_records": 83,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (9 days old). Failures: 2026-08-17 through 2026-08-23: HTTPError"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (9 days old)"
     },
     {
       "source": "Nampa",

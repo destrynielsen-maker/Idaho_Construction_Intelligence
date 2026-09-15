@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 17:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 21:35:13 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267498</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
@@ -110,6 +116,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 254 N GREAT FALLS AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29678700</link>
       <description>SINGLE_FAMILY | HOMES LLC | 0</description>
@@ -122,10 +134,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7263 W LANDS ST</title>
@@ -174,12 +186,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IXV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CR HOMES INC | 242,800</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01810</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
-      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE| Varley Residence — 6836 W Rockford Bay Rd</title>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 178,783</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-566</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3047 E POLELINE AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-565</guid>
     </item>
   </channel>
 </rss>

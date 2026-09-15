@@ -144,6 +144,12 @@
     "valuation_total": 2395209.84
   },
   {
+    "contractor": "TRESIDIO HOMES",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "MBH LLC",
     "count": 3,
     "score_total": 60,
@@ -210,6 +216,12 @@
     "valuation_total": 1400000.0
   },
   {
+    "contractor": "NIE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 1120157.97
+  },
+  {
     "contractor": "ASPEN HOMES AND DEVELOPMENT",
     "count": 2,
     "score_total": 45,
@@ -220,12 +232,6 @@
     "count": 2,
     "score_total": 45,
     "valuation_total": 775420.6000000001
-  },
-  {
-    "contractor": "NIE CUSTOM HOMES",
-    "count": 2,
-    "score_total": 45,
-    "valuation_total": 1120157.97
   },
   {
     "contractor": "Corey Barton Cbh Homes Inc",
@@ -280,12 +286,6 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -462,6 +462,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "CAMDEN HOMES INC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1088333.06
+  },
+  {
     "contractor": "SAGE AND CO LLC",
     "count": 1,
     "score_total": 27,
@@ -490,12 +496,6 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
-  },
-  {
-    "contractor": "CAMDEN HOMES INC",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 1088333.06
   },
   {
     "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
@@ -1626,6 +1626,12 @@
     "valuation_total": 155410.2
   },
   {
+    "contractor": "BLEAK COBY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 110432.52
+  },
+  {
     "contractor": "LOPEZ PEDRO",
     "count": 1,
     "score_total": 20,
@@ -1666,11 +1672,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "BLEAK COBY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 110432.52
   }
 ]

@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 17:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 21:35:13 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267498</guid>
+    </item>
     <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
@@ -116,6 +122,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02375</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 254 N GREAT FALLS AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29678700</link>
       <description>SINGLE_FAMILY | HOMES LLC | 0</description>
@@ -128,12 +140,6 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
-    </item>
-    <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
@@ -144,6 +150,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IOT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7263 W LANDS ST</title>
@@ -192,12 +204,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IXV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CR HOMES INC | 242,800</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01810</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
-      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE| Varley Residence — 6836 W Rockford Bay Rd</title>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 253,787</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1188</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Stackhouse — 7721</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0984</guid>
     </item>
   </channel>
 </rss>
