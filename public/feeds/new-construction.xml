@@ -6,18 +6,30 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 22:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 05:04:35 +0000</lastBuildDate>
+    <item>
+      <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>COMMERCIAL | WOOD BOAT BUILDERS LLC | 1,500,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686742</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267457</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2148 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686492</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267453</guid>
+    </item>
     <item>
       <title>[20] Boise: 18-6 Kirsten #2 — 6445 S KANARA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PC2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 96,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02383</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 2-3 Kirsten #2 — 6601 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
     </item>
     <item>
       <title>[20] Boise: 4-4 Kirsten #2 — 6584 S ZIPPORA AVE, Boise ID 83709</title>
@@ -32,16 +44,28 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02370</guid>
     </item>
     <item>
-      <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686742</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267457</guid>
+      <title>[20] Boise: 2-3 Kirsten #2 — 6601 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 2148 N ESCUDILLA WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686492</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267453</guid>
+      <title>[20] Eagle: building new 7,416 sq ft home, and 8,588 sq ft detached barn — 13965 W Chinden Blvd</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
+      <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267467</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Residential Home Build — 201 N Romal Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
+      <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267465</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6221 W LES MUIRE LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29686784</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267461</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>
@@ -1185,30 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01907</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Tresidio Homes HH 02-01 — 4363 E HAYSTACK ST, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3E&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01906</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Tresidio Homes HH 02-01 — 4351 E HAYSTACK ST, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01905</guid>
-    </item>
-    <item>
-      <title>[40] Coeur d'Alene: DUPLEX W/GARAGE — 412 W LINDEN AVE</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
-      <description>MULTIFAMILY | HOMEOWNER | 450,000</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:152695-B</guid>
-    </item>
-    <item>
-      <title>[30] Boise: 5893 S VISIONARY AVE — 5893 S VISIONARY AVE</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00706</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00706</guid>
     </item>
   </channel>
 </rss>
