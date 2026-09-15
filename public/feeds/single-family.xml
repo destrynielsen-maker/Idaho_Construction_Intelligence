@@ -6,15 +6,15 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 11:54:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:11:29 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: building new 7,416 sq ft home, and 8,588 sq ft detached barn — 13965 W Chinden Blvd</title>
+      <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
       <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267467</guid>
     </item>
     <item>
-      <title>[20] Eagle: Residential Home Build — 201 N Romal Ln</title>
+      <title>[20] Eagle: New Home — 201 N ROMAL LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
       <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267465</guid>
@@ -122,6 +122,12 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7263 W LANDS ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29674723</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
@@ -170,16 +176,40 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01810</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE| Varley Residence — 6836 W Rockford Bay Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | CAMDEN HOMES INC | 1,088,333</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0400</guid>
+    </item>
+    <item>
       <title>[25] Boise: Polecat — 5544 N POLECAT LOFTS LN, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CONSULTING AND RENOVATION SERVICES LLC | 547,381</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02225</guid>
     </item>
     <item>
+      <title>[22] Kootenai County: NEW SFR w/ATTACHED GARAGE | Abell Residence — 331214 Unknown</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 1,386,015</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1264</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE  | Jordan residence — 11489 E Wood Duck Ln</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 349,061</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0778</guid>
     </item>
     <item>
       <title>[27] Boise: Lewis Street Residence — 1334 E LEWIS ST, Boise ID 83712</title>
@@ -665,7 +695,7 @@ DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell   0</title>
+DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Caldwell   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | UNITED DEVELOPMENT LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
@@ -751,7 +781,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CR HOMES INC | 0</description>
+      <description>SINGLE_FAMILY | CR HOMES INC | 291,660</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
     </item>
     <item>
@@ -1179,36 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 167,972</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-565</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2460 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-564</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2472 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 178,427</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-563</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2476 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 178,523</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-562</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2484 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-561</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3103 E POLELINE AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 167,913</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-557</guid>
     </item>
   </channel>
 </rss>

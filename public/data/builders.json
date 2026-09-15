@@ -69,7 +69,7 @@
     "contractor": "CR HOMES INC",
     "count": 4,
     "score_total": 130,
-    "valuation_total": 1150000.0
+    "valuation_total": 1441659.88
   },
   {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
@@ -82,12 +82,6 @@
     "count": 5,
     "score_total": 100,
     "valuation_total": 1410445.3199999998
-  },
-  {
-    "contractor": "MADDYN HOMES LLC",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 1562520.36
   },
   {
     "contractor": "FOOTHILLS PIS",
@@ -136,6 +130,12 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1320744.16
+  },
+  {
+    "contractor": "MADDYN HOMES LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1295181.24
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -220,6 +220,12 @@
     "count": 2,
     "score_total": 45,
     "valuation_total": 775420.6000000001
+  },
+  {
+    "contractor": "NIE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 1120157.97
   },
   {
     "contractor": "Corey Barton Cbh Homes Inc",
@@ -486,6 +492,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "CAMDEN HOMES INC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1088333.06
+  },
+  {
     "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
     "count": 1,
     "score_total": 25,
@@ -556,12 +568,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 809962.81
-  },
-  {
-    "contractor": "NIE CUSTOM HOMES",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 734386.97
   },
   {
     "contractor": "CATON RIAN",
@@ -897,7 +903,7 @@
     "contractor": "POWERS CONSTRUCTION SOLUTIONS",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 125021.16
   },
   {
     "contractor": "WAITE HOMES LLC",
@@ -1446,12 +1452,6 @@
     "valuation_total": 260217.72
   },
   {
-    "contractor": "KINZLER BUILDERS AND DEVELOP INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 434863.44
-  },
-  {
     "contractor": "TIMBERSTONE CUSTOME HOMES",
     "count": 1,
     "score_total": 20,
@@ -1566,12 +1566,6 @@
     "valuation_total": 234252.0
   },
   {
-    "contractor": "EELLS REESE",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 171061.92
-  },
-  {
     "contractor": "TALL PINE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -1632,12 +1626,6 @@
     "valuation_total": 155410.2
   },
   {
-    "contractor": "SMITH ERIC BOYD",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 420551.64
-  },
-  {
     "contractor": "LOPEZ PEDRO",
     "count": 1,
     "score_total": 20,
@@ -1678,5 +1666,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "BLEAK COBY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 110432.52
   }
 ]

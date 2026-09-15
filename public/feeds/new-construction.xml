@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 11:54:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:11:29 +0000</lastBuildDate>
     <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
@@ -14,13 +14,13 @@
       <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
     </item>
     <item>
-      <title>[20] Eagle: building new 7,416 sq ft home, and 8,588 sq ft detached barn — 13965 W Chinden Blvd</title>
+      <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
       <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267467</guid>
     </item>
     <item>
-      <title>[20] Eagle: Residential Home Build — 201 N Romal Ln</title>
+      <title>[20] Eagle: New Home — 201 N ROMAL LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
       <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267465</guid>
@@ -128,6 +128,12 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Kessler — 15503 S Chalone Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 913,163</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1027</guid>
+    </item>
+    <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
@@ -188,16 +194,40 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01810</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE| Varley Residence — 6836 W Rockford Bay Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | CAMDEN HOMES INC | 1,088,333</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0400</guid>
+    </item>
+    <item>
       <title>[25] Boise: Polecat — 5544 N POLECAT LOFTS LN, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NO1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | CONSULTING AND RENOVATION SERVICES LLC | 547,381</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02225</guid>
     </item>
     <item>
+      <title>[22] Kootenai County: NEW SFR w/ATTACHED GARAGE | Abell Residence — 331214 Unknown</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 1,386,015</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1264</guid>
+    </item>
+    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE  | Jordan residence — 11489 E Wood Duck Ln</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 349,061</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0778</guid>
     </item>
     <item>
       <title>[30] Nampa: Intermountain West Homes No. 2 — 993 S Almond St Nampa, Id 83686</title>
@@ -749,7 +779,7 @@ DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell   0</title>
+DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Caldwell   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | UNITED DEVELOPMENT LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
@@ -859,7 +889,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CR HOMES INC | 0</description>
+      <description>SINGLE_FAMILY | CR HOMES INC | 291,660</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
     </item>
     <item>
@@ -1179,36 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 0 WAGNER RD, Caldwell
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0984</guid>
-    </item>
-    <item>
-      <title>[50] Boise: 1508 &amp; 1510 Boise Ave Duplex — 1508 W BOISE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EBO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | COOK BROTHERS CONSTRUCTION INC | 500,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01352</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: New Single Family Residential - Duplex — 520 S MATTINGLY AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>MULTIFAMILY | COREY BARTON HOMES INC | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0735</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Tresidio Homes HH 02-01 — 4399 E HAYSTACK ST, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01909</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Tresidio Homes HH 02-01 — 4387 E HAYSTACK ST, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3G&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01908</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Tresidio Homes HH 02-01 — 4375 E HAYSTACK ST, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00K3F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | TH CONSTRUCTION LLC | 286,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01907</guid>
     </item>
   </channel>
 </rss>
