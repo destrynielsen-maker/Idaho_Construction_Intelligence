@@ -210,6 +210,12 @@
     "valuation_total": 2256600.0
   },
   {
+    "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
+    "count": 1,
+    "score_total": 52,
+    "valuation_total": 3283462.0
+  },
+  {
     "contractor": "CONNER CONSTRUCTION LLC",
     "count": 2,
     "score_total": 50,
@@ -364,12 +370,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
-  },
-  {
-    "contractor": "SIMPLICITY HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 355651.56
   },
   {
     "contractor": "ALLIANCE BUILDING",
@@ -885,7 +885,7 @@
     "contractor": "ABSTRACT RESIDENTIAL DESIGN + BUILD",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 289836.96
   },
   {
     "contractor": "BRUCH MARTIN",
@@ -921,7 +921,7 @@
     "contractor": "AJB CONTRACTORS LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 15000.0
   },
   {
     "contractor": "CHAMBERLAIN CORBIN",
@@ -1000,6 +1000,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 210941.64
+  },
+  {
+    "contractor": "SIMPLICITY HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 194014.8
   },
   {
     "contractor": "LUDAN DESIGN AND BUILD LLC.",
@@ -1566,10 +1572,10 @@
     "valuation_total": 234252.0
   },
   {
-    "contractor": "TALL PINE CUSTOM HOMES",
+    "contractor": "EELLS REESE",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 456331.56
+    "valuation_total": 171061.92
   },
   {
     "contractor": "FLYNNER HOMES",

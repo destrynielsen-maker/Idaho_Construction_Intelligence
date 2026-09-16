@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 16 Sep 2026 11:42:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 17:08:29 +0000</lastBuildDate>
+    <item>
+      <title>[52] Boise: MAPLE GROVE APARTMENTS:  CLUBHOUSE — 1770 S MAPLE GROVE RD, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=007XA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | PERRYMAN CONSTRUCTION MANAGEMENT INC | 3,283,462</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00739</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
@@ -224,7 +230,7 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1264</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18339 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
@@ -748,7 +754,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
 DO NOT ISSUE BP UNTIL CP2026-0044 IS APPROVED/COMPLETE&#13;
-DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
+DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 404,790</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0679</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | DeFelice — 14714 N Rollins Beach Loop</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 253,787</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1188</guid>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 16 Sep 2026 11:42:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 17:08:29 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
@@ -206,7 +206,7 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1264</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18339 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
@@ -670,7 +670,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
 DO NOT ISSUE BP UNTIL CP2026-0044 IS APPROVED/COMPLETE&#13;
-DO NOT ISSUE UNTIL WE GET INSTRUMENT NUMBERS FOR NEW DEEDS!!! — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
+DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
