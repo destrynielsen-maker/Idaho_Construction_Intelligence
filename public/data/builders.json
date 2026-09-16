@@ -420,6 +420,12 @@
     "valuation_total": 490083.12
   },
   {
+    "contractor": "Core Building Co",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "PEARMAN CONTRACTING LLC",
     "count": 1,
     "score_total": 40,
@@ -496,6 +502,12 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "URBAN LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 2000000.0
   },
   {
     "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
@@ -1678,5 +1690,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "RENNISON HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
