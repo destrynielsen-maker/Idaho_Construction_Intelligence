@@ -6,7 +6,13 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 11:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 17:11:48 +0000</lastBuildDate>
+    <item>
+      <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
+      <description>COMMERCIAL | Kahler Management | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267577</guid>
+    </item>
     <item>
       <title>[30] Eagle: Core &amp; Shell-Building I - Construct a 14,250 sqft Metal storage building with 12 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD - BLDG I</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716705</link>
@@ -42,12 +48,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29716653</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267579</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Stick built construction of a 1,627 sf coffee shop with drive thru — 3893 W. Johnny Ln Eagle, ID 83618</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267577</guid>
     </item>
     <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>

@@ -19,9 +19,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 16,
-    "score_total": 320,
-    "valuation_total": 4406243.28
+    "count": 15,
+    "score_total": 300,
+    "valuation_total": 4150880.6400000006
   },
   {
     "contractor": "HUBBLE HOMES LLC",
@@ -100,6 +100,12 @@
     "count": 2,
     "score_total": 90,
     "valuation_total": 402431.52
+  },
+  {
+    "contractor": "Core Building Co",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
   },
   {
     "contractor": "CLYDE DEVELOPMENT INC",
@@ -294,12 +300,6 @@
     "valuation_total": 2000000.0
   },
   {
-    "contractor": "Core Building Co",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
     "contractor": "Hayden Watson",
     "count": 2,
     "score_total": 40,
@@ -339,7 +339,7 @@
     "contractor": "VALLE DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 343293.84
+    "valuation_total": 682255.92
   },
   {
     "contractor": "ETHAN EELLS LLC",
@@ -442,6 +442,12 @@
     "count": 1,
     "score_total": 40,
     "valuation_total": 650000.0
+  },
+  {
+    "contractor": "Kahler Management",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
   },
   {
     "contractor": "DONOHOE CONSTRUCTION LLC",
@@ -1588,12 +1594,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 234252.0
-  },
-  {
-    "contractor": "EELLS REESE",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 171061.92
   },
   {
     "contractor": "FLYNNER HOMES",

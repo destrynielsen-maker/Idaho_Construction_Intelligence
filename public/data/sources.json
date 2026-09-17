@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T11:39:27+00:00",
+  "generated_at": "2026-09-17T16:59:00+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1067,
+      "records_seen": 1058,
       "qualifying_records": 30,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -21,25 +21,25 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 17,
+      "qualifying_records": 15,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 765,
-      "qualifying_records": 241,
+      "records_seen": 767,
+      "qualifying_records": 239,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 6,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records after 2 reads"
     },
     {
       "source": "Coeur d'Alene",

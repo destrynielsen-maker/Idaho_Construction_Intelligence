@@ -6,12 +6,18 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 11:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 17:11:48 +0000</lastBuildDate>
     <item>
       <title>[52] Boise: MAPLE GROVE APARTMENTS:  CLUBHOUSE — 1770 S MAPLE GROVE RD, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=007XA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | PERRYMAN CONSTRUCTION MANAGEMENT INC | 3,283,462</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00739</guid>
+    </item>
+    <item>
+      <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
+      <description>COMMERCIAL | Kahler Management | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267577</guid>
     </item>
     <item>
       <title>[30] Eagle: Core &amp; Shell-Building I - Construct a 14,250 sqft Metal storage building with 12 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD - BLDG I</title>
@@ -50,16 +56,16 @@
       <guid isPermaLink="false">ID:EAGLE:267579</guid>
     </item>
     <item>
-      <title>[30] Eagle: Stick built construction of a 1,627 sf coffee shop with drive thru — 3893 W. Johnny Ln Eagle, ID 83618</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267577</guid>
-    </item>
-    <item>
       <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MRD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | URBAN LLC | 2,000,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02137</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1658 W Deadwood Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29716482</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267571</guid>
     </item>
     <item>
       <title>[20] Eagle: Single family residence with attached garage — 1690 W Deadwood Ct</title>
@@ -68,28 +74,22 @@
       <guid isPermaLink="false">ID:EAGLE:267570</guid>
     </item>
     <item>
-      <title>[20] Eagle: Single Family Residence with Attached Garage — 1729 W Deadwood Ct</title>
+      <title>[20] Eagle: New Home — 1729 W Deadwood Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716433</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267568</guid>
     </item>
     <item>
-      <title>[20] Eagle: New two-story detached single-family residence with attached garage, slab-on-grade, wood framed — 2056 E Hidden Cove Lane</title>
+      <title>[20] Eagle: New Home — 6853 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29716197</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267562</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2056 E HIDDEN COVE LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716131</link>
       <description>SINGLE_FAMILY | RENNISON HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267561</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: Single family residence with attached garage — 1658 W Deadwood Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716482</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267571</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Single Family Residence with Attached Garage — 6853 W Danes Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716197</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267562</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
@@ -985,7 +985,7 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24821 BOWMORE CT, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 0</description>
+      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 338,962</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
     </item>
     <item>
