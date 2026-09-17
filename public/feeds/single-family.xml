@@ -6,7 +6,37 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 17:11:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 21:34:30 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 5-3 Kirsten #2 — 6573 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 92,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02416</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-3 Kirsten #2 — 6569 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PHX&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02406</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 26-6 Kirsten #2 — 6565 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PDF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02392</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 09-07-02 (9281-0032) — 7090 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29720652</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267617</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Building of a new single family home — 6225 W Les Muire Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29719922</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267612</guid>
+    </item>
     <item>
       <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MRD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -20,7 +50,7 @@
       <guid isPermaLink="false">ID:EAGLE:267571</guid>
     </item>
     <item>
-      <title>[20] Eagle: Single family residence with attached garage — 1690 W Deadwood Ct</title>
+      <title>[20] Eagle: New Home — 1690 W Deadwood Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716461</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267570</guid>
@@ -1179,36 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00H01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 2,100,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01615</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4630 N JARBIDGE AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0757</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4679 N BRANDY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 384,660</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0756</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Building of a new single family home — 4726 N WOOLEY CREEK AVE</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 338,733</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0755</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24861 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 343,294</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0637</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25992 LON DAVIS RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BUILDING IDAHO CONSTRUCTION | 261,559</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0636</guid>
     </item>
   </channel>
 </rss>

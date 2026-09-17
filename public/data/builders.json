@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 27,
-    "score_total": 702,
-    "valuation_total": 7248329.869999999
+    "count": 30,
+    "score_total": 762,
+    "valuation_total": 7538799.869999999
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -298,6 +298,18 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 2000000.0
+  },
+  {
+    "contractor": "Toll Bros, Inc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Biltmore Company, LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -708,12 +720,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Toll Bros, Inc",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 1,
     "score_total": 20,
@@ -739,12 +745,6 @@
   },
   {
     "contractor": "MOORHOUSE RESIDENTIAL LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
