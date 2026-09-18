@@ -102,6 +102,12 @@
     "valuation_total": 402431.52
   },
   {
+    "contractor": "VISSER BUILDING COMPANY LLC",
+    "count": 3,
+    "score_total": 81,
+    "valuation_total": 3656600.0
+  },
+  {
     "contractor": "Core Building Co",
     "count": 4,
     "score_total": 80,
@@ -208,12 +214,6 @@
     "count": 1,
     "score_total": 55,
     "valuation_total": 64481344.0
-  },
-  {
-    "contractor": "VISSER BUILDING COMPANY LLC",
-    "count": 2,
-    "score_total": 54,
-    "valuation_total": 2256600.0
   },
   {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
