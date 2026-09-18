@@ -756,6 +756,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "BARNES CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "LEXAR HOMES (STILETTO CONSTRUCTION)",
     "count": 1,
     "score_total": 20,
@@ -831,7 +837,7 @@
     "contractor": "UNITED DEVELOPMENT LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 165024.72
   },
   {
     "contractor": "KB HOME IDAHO LLC",
@@ -1090,12 +1096,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 144753.6
-  },
-  {
-    "contractor": "WESOLOWSKI JEFF",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 303574.32
   },
   {
     "contractor": "BLACKWOOD PROPERTIES LLC.",

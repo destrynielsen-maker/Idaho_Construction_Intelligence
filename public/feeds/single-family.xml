@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 18 Sep 2026 11:24:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 13:47:57 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29720652</link>
@@ -276,6 +276,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29665199</link>
       <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267289</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23258 HOMEDALE RD, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BARNES CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0703</guid>
     </item>
     <item>
       <title>[20] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 5 — 3530 N JACKIE LN, BOISE ID 83704</title>
@@ -799,7 +805,7 @@ DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
 DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Caldwell   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | UNITED DEVELOPMENT LLC | 0</description>
+      <description>SINGLE_FAMILY | UNITED DEVELOPMENT LLC | 165,025</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
     </item>
     <item>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 282,191</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0882</guid>
-    </item>
-    <item>
-      <title>[25] Boise: TE_ LOT 10 — 3764 E BARBER DR, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=002PN&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | NW BUILDERS COMPANY INC | 825,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00222</guid>
     </item>
   </channel>
 </rss>
