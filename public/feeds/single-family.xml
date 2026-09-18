@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 21:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 04:53:15 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 09-07-02 (9281-0032) — 7090 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29720652</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267617</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Building of a new single family home — 6225 W Les Muire Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29719922</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267612</guid>
+    </item>
     <item>
       <title>[20] Boise: 5-3 Kirsten #2 — 6573 S BARNWOOD AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -26,16 +38,34 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02392</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 09-07-02 (9281-0032) — 7090 W CRISTOBAL DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29720652</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267617</guid>
+      <title>[20] Boise: 2-4 Kirsten #2 — 6600 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02449</guid>
     </item>
     <item>
-      <title>[20] Eagle: Building of a new single family home — 6225 W Les Muire Ln</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29719922</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267612</guid>
+      <title>[20] Boise: 8-3 Kirsten #2 — 6555 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02419</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 25-6 Kirsten #2 — 6553 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PD8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 96,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02390</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 17-6 Kirsten #2 — 6413 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PBW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 313,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02382</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 3-3 Kirsten #2 — 6591 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P3G&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02362</guid>
     </item>
     <item>
       <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
@@ -1179,36 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=002PN&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | NW BUILDERS COMPANY INC | 825,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00222</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Dwelling New — 813 E INFINITY ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | ALTURAS CONSTRUCTION LLC | 336,517</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0759</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: new single family home — 3128 E RENWICK ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 312,389</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0725</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family home — 2984 E MARDIA ST</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 337,690</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0720</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 1948 S BORDER WAY</title>
-      <link>https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 242,703</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0700</guid>
-    </item>
-    <item>
-      <title>[27] Boise: HR1 57-01 — 3145 S GLACIER LILY PL, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00H01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 2,100,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01615</guid>
     </item>
   </channel>
 </rss>
