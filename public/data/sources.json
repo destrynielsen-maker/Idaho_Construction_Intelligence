@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:22:56+00:00",
+  "generated_at": "2026-09-18T20:53:09+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 14,
+      "qualifying_records": 18,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 80,
+      "records_seen": 81,
       "qualifying_records": 5,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-05 through 2026-09-18; 80 primary building permits parsed; newest primary building permit issued 2026-09-18"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-05 through 2026-09-18; 81 primary building permits parsed; newest primary building permit issued 2026-09-18"
     },
     {
       "source": "Kootenai County",

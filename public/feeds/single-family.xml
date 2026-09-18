@@ -6,12 +6,36 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 18 Sep 2026 16:36:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 21:06:29 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: Atkin Residence — 6122 W ELMER ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GN7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,400,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01583</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New construction - single family — 7603 W. Rockhaven Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29723849</link>
+      <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267668</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 791 W GLEN BELLO ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29723612</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267659</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2453 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29723044</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267649</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2440 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29723019</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267648</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
@@ -1185,30 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 234,346</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0675</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5940 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 165,057</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0673</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5904 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 162,705</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0660</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1439 Vermont — 1439 S VERMONT AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DBT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01271</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1445 Vermont - Left House — 1445 S VERMONT AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DBH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01269</guid>
     </item>
   </channel>
 </rss>
