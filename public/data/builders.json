@@ -306,6 +306,18 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "SCHELL BROTHERS BOISE",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "STERLING HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Biltmore Company, LLC",
     "count": 2,
     "score_total": 40,
@@ -436,12 +448,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 490083.12
-  },
-  {
-    "contractor": "STERLING HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "PEARMAN CONTRACTING LLC",
@@ -1702,11 +1708,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "SCHELL BROTHERS BOISE",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 18 Sep 2026 21:06:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:48:19 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: Atkin Residence — 6122 W ELMER ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GN7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -14,7 +14,7 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01583</guid>
     </item>
     <item>
-      <title>[20] Eagle: New construction - single family — 7603 W. Rockhaven Dr.</title>
+      <title>[20] Eagle: New Home — 7603 W ROCKHAVEN DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29723849</link>
       <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267668</guid>
@@ -36,6 +36,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29723019</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267648</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2304 N BUHRSTONE PL</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29723912</link>
+      <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267669</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 161,618</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0687</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 5874 N GARBO AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 234,346</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0675</guid>
     </item>
   </channel>
 </rss>
