@@ -42,16 +42,16 @@
     "valuation_total": 3000000.0
   },
   {
+    "contractor": "TIMBERED RIDGE HOMES LLC",
+    "count": 7,
+    "score_total": 175,
+    "valuation_total": 5457350.86
+  },
+  {
     "contractor": "DAUM CONSTRUCTION",
     "count": 4,
     "score_total": 175,
     "valuation_total": 2598021.75
-  },
-  {
-    "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 6,
-    "score_total": 150,
-    "valuation_total": 4618453.08
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -78,12 +78,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "PATHWAY BUILDERS",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 1410445.3199999998
-  },
-  {
     "contractor": "FOOTHILLS PIS",
     "count": 2,
     "score_total": 90,
@@ -108,7 +102,19 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Core Building Co",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -144,6 +150,12 @@
     "valuation_total": 1320744.16
   },
   {
+    "contractor": "PATHWAY BUILDERS",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 1217316.0
+  },
+  {
     "contractor": "MADDYN HOMES LLC",
     "count": 4,
     "score_total": 80,
@@ -156,13 +168,13 @@
     "valuation_total": 2395209.84
   },
   {
-    "contractor": "Toll Bros, Inc",
+    "contractor": "NIE CUSTOM HOMES",
     "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
+    "score_total": 70,
+    "valuation_total": 1990712.38
   },
   {
-    "contractor": "TRESIDIO HOMES",
+    "contractor": "Biltmore Company, LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -222,6 +234,12 @@
     "valuation_total": 64481344.0
   },
   {
+    "contractor": "ELA CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 52,
+    "valuation_total": 1823257.33
+  },
+  {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
     "count": 1,
     "score_total": 52,
@@ -234,16 +252,22 @@
     "valuation_total": 1400000.0
   },
   {
-    "contractor": "NIE CUSTOM HOMES",
+    "contractor": "BENWAY QUALITY HOMES INC",
     "count": 2,
-    "score_total": 45,
-    "valuation_total": 1120157.97
+    "score_total": 50,
+    "valuation_total": 1468380.03
   },
   {
     "contractor": "ASPEN HOMES AND DEVELOPMENT",
     "count": 2,
     "score_total": 45,
     "valuation_total": 813011.58
+  },
+  {
+    "contractor": "TRUE NORTH HOMES LLC DBA",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 1009273.98
   },
   {
     "contractor": "SAWYERS CONSTRUCTION",
@@ -318,7 +342,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Biltmore Company, LLC",
+    "contractor": "Highland Homes LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BOISE PLH, LLC",
     "count": 2,
     "score_total": 40,
     "valuation_total": 0
@@ -328,6 +358,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 358883.0
+  },
+  {
+    "contractor": "BLUE COLLAR CONTRACTING LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 827717.4199999999
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -364,12 +400,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 682255.92
-  },
-  {
-    "contractor": "ETHAN EELLS LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 429757.44
   },
   {
     "contractor": "MAYBON HOMES LLC",
@@ -412,6 +442,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
+  },
+  {
+    "contractor": "MENDIOLA CUSTOM HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 316617.84
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -540,6 +576,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "MONARCH CUSTOM HOMES",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1291552.91
+  },
+  {
     "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
     "count": 1,
     "score_total": 25,
@@ -598,12 +640,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 589787.04
-  },
-  {
-    "contractor": "ELA CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 685696.1
   },
   {
     "contractor": "A+ CONSTRUCTION LLC",
@@ -702,6 +738,30 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "HELMUTH & SONS CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 710808.78
+  },
+  {
+    "contractor": "NORTHWEST CONTRACTORS GROUP",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 561846.3
+  },
+  {
+    "contractor": "ALL PHAZE DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 725581.7
+  },
+  {
+    "contractor": "NORTH RIDGE CONTRACTING INC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 668147.64
+  },
+  {
     "contractor": "RENNISON HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -720,12 +780,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Highland Homes LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 1,
     "score_total": 20,
@@ -739,12 +793,6 @@
   },
   {
     "contractor": "Solitude Homes Inc",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -784,12 +832,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 346744.66
-  },
-  {
-    "contractor": "BLUE COLLAR CONTRACTING LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 420699.16
   },
   {
     "contractor": "MARSH SHANNON",
@@ -882,12 +924,6 @@
     "valuation_total": 139976.8
   },
   {
-    "contractor": "HIGHLAND HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 407408.88
-  },
-  {
     "contractor": "ALDER RIDGE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -898,6 +934,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 261559.32
+  },
+  {
+    "contractor": "ETHAN EELLS LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 222436.8
   },
   {
     "contractor": "MECK HOMES",
@@ -916,12 +958,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 314023.68
-  },
-  {
-    "contractor": "TRUE NORTH HOMES LLC DBA",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 479958.88
   },
   {
     "contractor": "ABSTRACT RESIDENTIAL DESIGN + BUILD",
@@ -1192,12 +1228,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 229915.4
-  },
-  {
-    "contractor": "MENDIOLA CUSTOM HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 316617.84
   },
   {
     "contractor": "STEVE DUGGER CONSTRUCTION",
@@ -1708,5 +1738,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "Alturas Construction, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:45:36+00:00",
+  "generated_at": "2026-09-21T21:57:45+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -21,15 +21,15 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 19,
+      "qualifying_records": 14,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 766,
-      "qualifying_records": 239,
+      "records_seen": 761,
+      "qualifying_records": 237,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
@@ -44,18 +44,18 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 70,
+      "records_seen": 75,
       "qualifying_records": 2,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-08 through 2026-09-21; 70 primary building permits parsed; newest primary building permit issued 2026-09-18"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-08 through 2026-09-21; 75 primary building permits parsed; newest primary building permit issued 2026-09-21"
     },
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 50,
-      "qualifying_records": 50,
-      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3569",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 23, 2026 (6 parsed). Latest report period 2026-09-06 through 2026-09-12 (9 days old)"
+      "records_seen": 53,
+      "qualifying_records": 53,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3575",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed). Latest report period 2026-09-13 through 2026-09-19 (2 days old)"
     },
     {
       "source": "Post Falls",

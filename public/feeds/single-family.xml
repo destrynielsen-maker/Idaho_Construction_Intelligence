@@ -6,12 +6,54 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 21 Sep 2026 12:57:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 22:11:02 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 6513 W Danes Drive, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29728133</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267722</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7072 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29727371</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267714</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6264 W CARNOCK DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29727277</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267711</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6226 W LES MUIRE LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29726497</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267702</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5540 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29725967</link>
+      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267692</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6463 W LARGO DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29725879</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267690</guid>
+    </item>
     <item>
       <title>[27] Boise: Atkin Residence — 6122 W ELMER ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GN7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,400,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01583</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Moody — 2945 E [TEMP] Upper Hayden</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 1,137,561</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0977</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 2304 N BUHRSTONE PL</title>
@@ -42,6 +84,61 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29723019</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267648</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW 2 STORY SINGLE FAMILY RESIDENCE | Purpose: PRIMARY RESIDENCE | Type of Materials: WOOD FRAMED&#13;
+ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0719</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | SaRidge LLC — 28449 [TEMP] N Lewellen</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 407,018</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1205</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dowers ALU — 5150( TEMP) S STATELINE</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 217,388</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0220</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30195 [TEMP] N ARCHER RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 738,394</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1090</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sneed Residence — 11414 W Miskin Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | TRUE NORTH HOMES LLC DBA | 529,315</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1351</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR W/ATTACHED GARAGE | Drapeau — 20901 [TEMP] N Stonemason</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | ALL PHAZE DEVELOPMENT LLC | 725,582</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1349</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30161 (temp) N Archer Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 729,986</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1375</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wilkin Residence — 4221 MICA KID AREA S ISAAC</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | NORTH RIDGE CONTRACTING INC | 668,148</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1439</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24264 [TEMP] N Ceylon Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 838,898</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1497</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
@@ -110,6 +207,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02137</guid>
     </item>
     <item>
+      <title>[27] Kootenai County: NEW SFR w/ GARAGE | Kennard Residance — 4163 [TEMP] S ISAAC STEVENS</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 1,291,553</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1636</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 1658 W Deadwood Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716482</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
@@ -140,10 +243,34 @@
       <guid isPermaLink="false">ID:EAGLE:267561</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Bacon Residence — 28890 S KRAMER CIR</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | HELMUTH &amp; SONS CONSTRUCTION | 710,809</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0242</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | KOEHN — 25469 [TEMP] N CEDAR</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | NORTHWEST CONTRACTORS GROUP | 561,846</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0947</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Litsjo Residence — 351 [TEMP] E Driftwood</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 870,554</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1135</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267498</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lonam — 3219 [TEMP] S Bonnell Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 601,396</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1019</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
@@ -198,6 +325,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | K&amp;S Construction — 15229(temp) E Sunset Shores</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>
@@ -814,7 +947,7 @@ DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SOUTHSIDE BLVD, Melba   836410000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6940 YETI LN, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BIRCH MIKE | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0674</guid>
@@ -1077,138 +1210,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | Contractor unknown | 794,168</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-0832</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 5861 E GREENHILL ST, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BLAST PROPERTIES LLC | 382,698</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0652</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13370 BREEZEVIEW LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIGHLAND HOMES | 407,409</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0651</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1431 Vermont Right House — 1431 S VERMONT AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DC8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01276</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 12294 W ROCHESTER AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 168,722</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-671</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 12260 W KILKENNY DR, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 225,299</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-670</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Abell ALU — 10806 ( temp) PINT HAYDEN</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 448,318</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1176</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 22762 [TEMP] N ECLIPSE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 764,985</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1300</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | DAVENNY — 3808 [TEMP] W Gemini Lane</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 774,282</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1290</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8760 KEMP RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 538,645</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0648</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 1930 S BORDER WAY</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 271,568</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0768</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3426 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 168,062</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0746</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3438 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0745</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3464 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,429</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0744</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3417 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0743</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling C ITY OF M ERIDIAN 12 P AGE # BUILDING PERMITS FOR THE WEEK (76) — 3431 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,053</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0742</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3445 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 151,942</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0741</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Single level, single family residential spec house project to be fully completed. It will be 3598 square feet. — 2689 E DARCY CT</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 404,790</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0679</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | DeFelice — 14714 N Rollins Beach Loop</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 253,787</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1188</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Stackhouse — 7721</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0984</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — 25906 N Dickens Rd [Temp]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 595,082</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1262</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 1522 SQ FT SINGLE FAMILY DWELLING WITH 494 SQ FT ATTACHED GARAGE — 5892 N STATIC LINE AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 165,057</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0723</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential - TH — 504 S MATTINGLY AVE</title>
-      <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 161,618</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0687</guid>
     </item>
   </channel>
 </rss>
