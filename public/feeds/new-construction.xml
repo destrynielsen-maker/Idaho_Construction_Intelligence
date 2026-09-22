@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 21 Sep 2026 22:11:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 05:04:55 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29725787</link>
@@ -50,16 +50,22 @@
       <guid isPermaLink="false">ID:EAGLE:267690</guid>
     </item>
     <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Moody — 2945 E [TEMP] Upper Hayden</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 1,137,561</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0977</guid>
+    </item>
+    <item>
       <title>[27] Boise: Atkin Residence — 6122 W ELMER ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GN7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,400,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01583</guid>
     </item>
     <item>
-      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Moody — 2945 E [TEMP] Upper Hayden</title>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | SaRidge LLC — 28449 [TEMP] N Lewellen</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | ELA CONSTRUCTION LLC | 1,137,561</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0977</guid>
+      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 407,018</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1205</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 2304 N BUHRSTONE PL</title>
@@ -99,22 +105,28 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0719</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | SaRidge LLC — 28449 [TEMP] N Lewellen</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 407,018</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1205</guid>
-    </item>
-    <item>
       <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dowers ALU — 5150( TEMP) S STATELINE</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | Contractor unknown | 217,388</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0220</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30195 [TEMP] N ARCHER RD</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24264 [TEMP] N Ceylon Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 738,394</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1090</guid>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 838,898</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1497</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wilkin Residence — 4221 MICA KID AREA S ISAAC</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | NORTH RIDGE CONTRACTING INC | 668,148</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1439</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30161 (temp) N Archer Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 729,986</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1375</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sneed Residence — 11414 W Miskin Road</title>
@@ -129,22 +141,10 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1349</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30161 (temp) N Archer Rd</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30195 [TEMP] N ARCHER RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 729,986</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1375</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wilkin Residence — 4221 MICA KID AREA S ISAAC</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | NORTH RIDGE CONTRACTING INC | 668,148</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1439</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24264 [TEMP] N Ceylon Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 838,898</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1497</guid>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 738,394</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1090</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
@@ -255,16 +255,16 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:EAGLE:267579</guid>
     </item>
     <item>
-      <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MRD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | URBAN LLC | 2,000,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02137</guid>
-    </item>
-    <item>
       <title>[27] Kootenai County: NEW SFR w/ GARAGE | Kennard Residance — 4163 [TEMP] S ISAAC STEVENS</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 1,291,553</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1636</guid>
+    </item>
+    <item>
+      <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MRD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | URBAN LLC | 2,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02137</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1658 W Deadwood Ct</title>
@@ -297,10 +297,10 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:EAGLE:267561</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Bacon Residence — 28890 S KRAMER CIR</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Litsjo Residence — 351 [TEMP] E Driftwood</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | HELMUTH &amp; SONS CONSTRUCTION | 710,809</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0242</guid>
+      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 870,554</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1135</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | KOEHN — 25469 [TEMP] N CEDAR</title>
@@ -309,16 +309,10 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0947</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Litsjo Residence — 351 [TEMP] E Driftwood</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Bacon Residence — 28890 S KRAMER CIR</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 870,554</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1135</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267498</guid>
+      <description>SINGLE_FAMILY | HELMUTH &amp; SONS CONSTRUCTION | 710,809</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0242</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lonam — 3219 [TEMP] S Bonnell Road</title>
@@ -327,10 +321,22 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1019</guid>
     </item>
     <item>
+      <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267498</guid>
+    </item>
+    <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>COMMERCIAL | WOOD BOAT BUILDERS LLC | 1,500,000</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | K&amp;S Construction — 15229(temp) E Sunset Shores</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
@@ -385,12 +391,6 @@ ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02369</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | K&amp;S Construction — 15229(temp) E Sunset Shores</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7504 Namer St</title>

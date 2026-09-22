@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 21 Sep 2026 22:11:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 05:04:55 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -585,12 +585,6 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
       <description>COMMERCIAL | DONOHOE CONSTRUCTION LLC | 156,199</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0049</guid>
-    </item>
-    <item>
-      <title>[35] Post Falls: New Commercial Building — 4093 N LYNN ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 685,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-2</guid>
     </item>
     <item>
       <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;

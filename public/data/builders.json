@@ -108,13 +108,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Core Building Co",
+    "contractor": "TRESIDIO HOMES",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
   },
   {
-    "contractor": "TRESIDIO HOMES",
+    "contractor": "Core Building Co",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -171,7 +171,7 @@
     "contractor": "NIE CUSTOM HOMES",
     "count": 3,
     "score_total": 70,
-    "valuation_total": 1990712.38
+    "valuation_total": 1990712.3800000001
   },
   {
     "contractor": "Biltmore Company, LLC",
@@ -246,28 +246,28 @@
     "valuation_total": 3283462.0
   },
   {
-    "contractor": "CONNER CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 50,
-    "valuation_total": 1400000.0
-  },
-  {
     "contractor": "BENWAY QUALITY HOMES INC",
     "count": 2,
     "score_total": 50,
     "valuation_total": 1468380.03
   },
   {
-    "contractor": "ASPEN HOMES AND DEVELOPMENT",
+    "contractor": "CONNER CONSTRUCTION LLC",
     "count": 2,
-    "score_total": 45,
-    "valuation_total": 813011.58
+    "score_total": 50,
+    "valuation_total": 1400000.0
   },
   {
     "contractor": "TRUE NORTH HOMES LLC DBA",
     "count": 2,
     "score_total": 45,
     "valuation_total": 1009273.98
+  },
+  {
+    "contractor": "ASPEN HOMES AND DEVELOPMENT",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 813011.58
   },
   {
     "contractor": "SAWYERS CONSTRUCTION",
@@ -330,6 +330,24 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "BOISE PLH, LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Highland Homes LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BLUE COLLAR CONTRACTING LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 827717.4199999999
+  },
+  {
     "contractor": "SCHELL BROTHERS BOISE",
     "count": 2,
     "score_total": 40,
@@ -342,28 +360,16 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Highland Homes LLC",
+    "contractor": "MENDIOLA CUSTOM HOMES INC",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
+    "valuation_total": 316617.84
   },
   {
     "contractor": "Hayden Watson",
     "count": 2,
     "score_total": 40,
     "valuation_total": 358883.0
-  },
-  {
-    "contractor": "BLUE COLLAR CONTRACTING LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 827717.4199999999
   },
   {
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
@@ -442,12 +448,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
-  },
-  {
-    "contractor": "MENDIOLA CUSTOM HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 316617.84
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -534,6 +534,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "MONARCH CUSTOM HOMES",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1291552.91
+  },
+  {
     "contractor": "URBAN LLC",
     "count": 1,
     "score_total": 27,
@@ -576,10 +582,28 @@
     "valuation_total": 1200000.0
   },
   {
-    "contractor": "MONARCH CUSTOM HOMES",
+    "contractor": "NORTH RIDGE CONTRACTING INC",
     "count": 1,
-    "score_total": 27,
-    "valuation_total": 1291552.91
+    "score_total": 25,
+    "valuation_total": 668147.64
+  },
+  {
+    "contractor": "ALL PHAZE DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 725581.7
+  },
+  {
+    "contractor": "NORTHWEST CONTRACTORS GROUP",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 561846.3
+  },
+  {
+    "contractor": "HELMUTH & SONS CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 710808.78
   },
   {
     "contractor": "CONSULTING AND RENOVATION SERVICES LLC",
@@ -738,28 +762,10 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "HELMUTH & SONS CONSTRUCTION",
+    "contractor": "Alturas Construction, LLC",
     "count": 1,
-    "score_total": 25,
-    "valuation_total": 710808.78
-  },
-  {
-    "contractor": "NORTHWEST CONTRACTORS GROUP",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 561846.3
-  },
-  {
-    "contractor": "ALL PHAZE DEVELOPMENT LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 725581.7
-  },
-  {
-    "contractor": "NORTH RIDGE CONTRACTING INC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 668147.64
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "RENNISON HOMES INC",
@@ -1738,11 +1744,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Alturas Construction, LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]
