@@ -180,6 +180,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "ALLIANCE BUILDING",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 505371.95999999996
+  },
+  {
     "contractor": "MBH LLC",
     "count": 3,
     "score_total": 60,
@@ -208,12 +214,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 1061741.1600000001
-  },
-  {
-    "contractor": "ALLIANCE BUILDING",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 505371.95999999996
   },
   {
     "contractor": "JP CUSTOM HOMES & BUILDING CORP",
@@ -370,6 +370,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 316617.84
+  },
+  {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -787,12 +793,6 @@
   },
   {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -1698,6 +1698,12 @@
     "valuation_total": 110432.52
   },
   {
+    "contractor": "AERO CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 358390.08
+  },
+  {
     "contractor": "LOPEZ PEDRO",
     "count": 1,
     "score_total": 20,
@@ -1738,11 +1744,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "AERO CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 358390.08
   }
 ]
