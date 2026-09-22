@@ -6,9 +6,9 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 22 Sep 2026 11:48:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:09:33 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 6513 W Danes Drive, Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 6513 W DANES DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29728133</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267722</guid>
@@ -42,6 +42,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29725879</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267690</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV GARAGE — 12100 OCTOBER GLORY ST, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0721</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Moody — 2945 E [TEMP] Upper Hayden</title>
@@ -92,8 +98,7 @@
       <guid isPermaLink="false">ID:EAGLE:267648</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW 2 STORY SINGLE FAMILY RESIDENCE | Purpose: PRIMARY RESIDENCE | Type of Materials: WOOD FRAMED&#13;
-ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BREEZEVIEW LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0719</guid>
@@ -1204,12 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf</link>
       <description>SINGLE_FAMILY | PROPERTY OWNER (NO | 139,977</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2025-0250</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Zylstra Residence — 3111 E Upper Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 794,168</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-0832</guid>
     </item>
   </channel>
 </rss>

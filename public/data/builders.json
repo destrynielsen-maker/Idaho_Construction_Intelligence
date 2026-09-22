@@ -210,6 +210,12 @@
     "valuation_total": 1061741.1600000001
   },
   {
+    "contractor": "ALLIANCE BUILDING",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 505371.95999999996
+  },
+  {
     "contractor": "JP CUSTOM HOMES & BUILDING CORP",
     "count": 3,
     "score_total": 60,
@@ -436,12 +442,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
-  },
-  {
-    "contractor": "ALLIANCE BUILDING",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 505371.95999999996
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
@@ -1596,12 +1596,6 @@
     "valuation_total": 366600.36
   },
   {
-    "contractor": "BOVARD DANIEL",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 370763.76
-  },
-  {
     "contractor": "BEAGLEY CONSTRUCTION",
     "count": 1,
     "score_total": 20,
@@ -1744,5 +1738,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "AERO CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 358390.08
   }
 ]

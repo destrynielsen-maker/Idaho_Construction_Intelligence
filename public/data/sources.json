@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T11:36:00+00:00",
+  "generated_at": "2026-09-22T16:56:19+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1050,
+      "records_seen": 1063,
       "qualifying_records": 30,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -21,15 +21,15 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 14,
+      "qualifying_records": 13,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 761,
-      "qualifying_records": 237,
+      "records_seen": 764,
+      "qualifying_records": 238,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
@@ -75,11 +75,11 @@
     },
     {
       "source": "Nampa",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://www.cityofnampa.us/427/Permit-Reports",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofnampa.us/427/Permit-Reports"
+      "status": "ok",
+      "records_seen": 21,
+      "qualifying_records": 21,
+      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026",
+      "note": "Latest discovered report: 08/31/2026 \u2013 09/04/2026; 21 new-construction records parsed; report ended 18 days ago WARNING: newest published Nampa weekly report is older than 14 days"
     }
   ],
   "directory": [

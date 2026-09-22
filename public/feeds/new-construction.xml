@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 22 Sep 2026 11:48:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:09:33 +0000</lastBuildDate>
+    <item>
+      <title>[30] Eagle: Terra View #5 Pump House — N BELLROCK AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29730464</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267748</guid>
+    </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29725787</link>
@@ -14,7 +20,7 @@
       <guid isPermaLink="false">ID:EAGLE:267688</guid>
     </item>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 6513 W Danes Drive, Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 6513 W DANES DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29728133</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267722</guid>
@@ -48,6 +54,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29725879</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267690</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV GARAGE — 12100 OCTOBER GLORY ST, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0721</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Moody — 2945 E [TEMP] Upper Hayden</title>
@@ -98,8 +110,7 @@
       <guid isPermaLink="false">ID:EAGLE:267648</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW 2 STORY SINGLE FAMILY RESIDENCE | Purpose: PRIMARY RESIDENCE | Type of Materials: WOOD FRAMED&#13;
-ONLINE TEMPORARY REFERENCE ID:  202600403 — 0 BREEZEVIEW LN, Caldwell   836070000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BREEZEVIEW LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0719</guid>
@@ -1198,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 349,006</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-629</guid>
-    </item>
-    <item>
-      <title>[50] Nampa: Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs — Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 8,007,184</description>
-      <guid isPermaLink="false">ID:NAMPA:COM-04918-2025</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 1350 N ETHRIDGE LN — 1350 N ETHRIDGE LN</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00515</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:PLN26-00515</guid>
     </item>
   </channel>
 </rss>
