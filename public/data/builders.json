@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 35,
-    "score_total": 862,
-    "valuation_total": 8207749.870000001
+    "count": 40,
+    "score_total": 962,
+    "valuation_total": 8657699.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -28,6 +28,12 @@
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
+    "count": 7,
+    "score_total": 215,
+    "valuation_total": 0
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -103,12 +109,6 @@
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -336,6 +336,12 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "BOISE PLH, LLC",
     "count": 2,
     "score_total": 40,
@@ -370,12 +376,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 316617.84
-  },
-  {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",

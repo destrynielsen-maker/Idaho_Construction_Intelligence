@@ -6,7 +6,25 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 22 Sep 2026 21:30:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:57:11 +0000</lastBuildDate>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7084 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732481</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267767</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7092 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732474</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267766</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7108 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732469</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267765</guid>
+    </item>
     <item>
       <title>[30] Eagle: Terra View #5 Pump House — N BELLROCK AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29730464</link>
@@ -18,6 +36,36 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29731509</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267757</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 8-5 Kirsten #2 — 6549 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 75,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02414</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 7-5 Kirsten #2 — 6558 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PIY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 64,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02412</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-5 Kirsten #2 — 6562 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PIW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02411</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 23-6 Kirsten #2 — 6527 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PD3&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 105,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02389</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 22-6 Kirsten #2 — 6481 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
     </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
@@ -1161,54 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
       <description>SINGLE_FAMILY | boie PLH, LLC | 292,480</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0765</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential/PN04013013 Whitburn A — 7049 S CADENCE AVE</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 258,357</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0709</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2822 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 196,008</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-681</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2800 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 263,448</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-680</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2782 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 352,714</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-678</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2774 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,969</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-677</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3530 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 384,610</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-655</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3445 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-631</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1202 E WALTON CT, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,005</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-630</guid>
     </item>
   </channel>
 </rss>

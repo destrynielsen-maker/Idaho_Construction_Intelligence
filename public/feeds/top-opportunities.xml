@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 22 Sep 2026 21:30:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:57:11 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -78,6 +78,24 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7084 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732481</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267767</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7092 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732474</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267766</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7108 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29732469</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267765</guid>
     </item>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
