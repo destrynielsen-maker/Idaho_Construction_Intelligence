@@ -6,7 +6,31 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 17:09:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 21:44:38 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 8424 Cathedral St</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29737869</link>
+      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267802</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home — 5797 W ALDERMAN LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29738295</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267806</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home — 5805 W ALDERMAN LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29738286</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267805</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home — 5821 W ALDERMAN LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29738276</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267804</guid>
+    </item>
     <item>
       <title>[45] Eagle: New Townhome — 7084 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29732481</link>
@@ -38,6 +62,18 @@
       <guid isPermaLink="false">ID:EAGLE:267757</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 FROST RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RHC LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14281 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0722</guid>
+    </item>
+    <item>
       <title>[20] Boise: 8-5 Kirsten #2 — 6549 S ZIPPORA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 75,990</description>
@@ -66,18 +102,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14281 RED RIVER AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0722</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 FROST RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RHC LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
     </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
@@ -1184,31 +1208,6 @@ DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NHJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,073,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02204</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Caldwell   0</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | UNITED DEVELOPMENT LLC | 165,025</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0663</guid>
-    </item>
-    <item>
-      <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>MULTIFAMILY | COREY BARTON HOMES INC | 2,600,000</description>
-      <guid isPermaLink="false">ID:MERIDIAN:C-MULTI-2026-0004</guid>
-    </item>
-    <item>
-      <title>[40] Canyon County: NEW COMMERCIAL STORAGE 75X150 — 20872 GRAPE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | PEARMAN CONTRACTING LLC | 621,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0661</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR  w/ GARAGE |Storaci — 3892 [TEMP] W HIGHWAY 54</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
-      <description>SINGLE_FAMILY | AJ DEVELOPMENT COMPANY LLC | | 688,679</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0921</guid>
     </item>
   </channel>
 </rss>
