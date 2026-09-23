@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 11:45:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 17:09:49 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 6732 E Emma Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29731509</link>
@@ -42,6 +42,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14281 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0722</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 FROST RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RHC LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6513 W DANES DR</title>
@@ -806,7 +818,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 RIVER BLUFF RD, Parma   836600000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33589 SUNSET VIEW RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0682</guid>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
       <description>SINGLE_FAMILY | BUGLE NW INC | 382,892</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0823</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR W/ATTACHED GARAGE | Reece — 31445 [TEMP] N Red Fir Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3554</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 690,157</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1767</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2466 E SALVATION CT, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 252,397</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-599</guid>
     </item>
   </channel>
 </rss>

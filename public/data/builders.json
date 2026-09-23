@@ -19,9 +19,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 15,
-    "score_total": 300,
-    "valuation_total": 4150880.6400000006
+    "count": 14,
+    "score_total": 280,
+    "valuation_total": 3913583.1600000006
   },
   {
     "contractor": "HUBBLE HOMES LLC",
@@ -430,6 +430,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 700000.0
+  },
+  {
+    "contractor": "PROMINENT HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 404676.96
   },
   {
     "contractor": "WILLOW CREEK HOMES",
@@ -1026,12 +1032,6 @@
     "valuation_total": 291820.8
   },
   {
-    "contractor": "PROMINENT HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 404676.96
-  },
-  {
     "contractor": "IRONWOOD STRUCTURES LLC",
     "count": 1,
     "score_total": 20,
@@ -1470,12 +1470,6 @@
     "valuation_total": 392716.8
   },
   {
-    "contractor": "SUMMIT VIEW CONSTRUCTION & RESTORATION, INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 373625.04
-  },
-  {
     "contractor": "LEE CUSTOM HOMES, INC",
     "count": 1,
     "score_total": 20,
@@ -1744,5 +1738,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "RHC LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

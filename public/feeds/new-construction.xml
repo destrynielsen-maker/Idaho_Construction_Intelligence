@@ -6,21 +6,21 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 11:45:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 17:09:49 +0000</lastBuildDate>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 7084 W. Amazon Dr.</title>
+      <title>[45] Eagle: New Townhome — 7084 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29732481</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267767</guid>
     </item>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 7092 W. Amazon Dr.</title>
+      <title>[45] Eagle: New Townhome — 7092 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29732474</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267766</guid>
     </item>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 7108 W. Amazon Dr.</title>
+      <title>[45] Eagle: New Townhome — 7108 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29732469</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267765</guid>
@@ -66,6 +66,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14281 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0722</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 FROST RD, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RHC LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
     </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
@@ -962,7 +974,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 RIVER BLUFF RD, Parma   836600000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33589 SUNSET VIEW RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0682</guid>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
       <description>SINGLE_FAMILY | AJ DEVELOPMENT COMPANY LLC | | 688,679</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0921</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 41 BLK 6 — 4614 W QUARTERHORSE DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 242,583</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0767</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New SFR - Two-Story, 4 Bedroom, 3 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 1173 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | boie PLH, LLC | 292,480</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0765</guid>
     </item>
   </channel>
 </rss>
