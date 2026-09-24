@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 40,
-    "score_total": 962,
-    "valuation_total": 8657699.870000001
+    "count": 42,
+    "score_total": 1002,
+    "valuation_total": 8743689.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -70,6 +70,12 @@
     "count": 7,
     "score_total": 140,
     "valuation_total": 1766010.0
+  },
+  {
+    "contractor": "MBH LLC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 501000.0
   },
   {
     "contractor": "CR HOMES INC",
@@ -168,16 +174,16 @@
     "valuation_total": 2395209.84
   },
   {
-    "contractor": "NIE CUSTOM HOMES",
-    "count": 3,
-    "score_total": 70,
-    "valuation_total": 1990712.3800000001
-  },
-  {
     "contractor": "CONNER CONSTRUCTION LLC",
     "count": 3,
     "score_total": 70,
     "valuation_total": 1400000.0
+  },
+  {
+    "contractor": "NIE CUSTOM HOMES",
+    "count": 3,
+    "score_total": 70,
+    "valuation_total": 1990712.3800000001
   },
   {
     "contractor": "Biltmore Company, LLC",
@@ -190,12 +196,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 505371.95999999996
-  },
-  {
-    "contractor": "MBH LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 167000.0
   },
   {
     "contractor": "Boise PLH, LLC",
