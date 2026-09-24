@@ -31,8 +31,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 7,
-    "score_total": 215,
+    "count": 8,
+    "score_total": 235,
     "valuation_total": 0
   },
   {
@@ -84,6 +84,12 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 0
+  },
+  {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
     "count": 5,
     "score_total": 100,
@@ -112,12 +118,6 @@
     "count": 3,
     "score_total": 81,
     "valuation_total": 3656600.0
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
   },
   {
     "contractor": "Core Building Co",
@@ -1146,12 +1146,6 @@
     "valuation_total": 392697.84
   },
   {
-    "contractor": "LEXAR HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 265573.32
-  },
-  {
     "contractor": "TIMBER STONE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -1186,12 +1180,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 345454.68
-  },
-  {
-    "contractor": "RKL HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 228266.88
   },
   {
     "contractor": "BAKER BENJAMIN",
@@ -1536,12 +1524,6 @@
     "valuation_total": 319138.44
   },
   {
-    "contractor": "SIMPSON JOHN DENNIS",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 399049.56
-  },
-  {
     "contractor": "HESS DAVID",
     "count": 1,
     "score_total": 20,
@@ -1678,12 +1660,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 424455.96
-  },
-  {
-    "contractor": "HENRICKSON KATHY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 329266.0
   },
   {
     "contractor": "SKAGGS CRAIG",
