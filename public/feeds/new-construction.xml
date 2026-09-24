@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 05:00:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 11:57:00 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 8424 Cathedral St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29737869</link>
@@ -50,6 +50,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00629</guid>
     </item>
     <item>
+      <title>[15] Eagle: New Home — 5796 W ALDERMAN LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29738298</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267807</guid>
+    </item>
+    <item>
       <title>[15] Eagle: New Home — 5797 W ALDERMAN LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29738295</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
@@ -66,12 +72,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29738276</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267804</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5796 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738298</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267807</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 7084 W AMAZON DR</title>

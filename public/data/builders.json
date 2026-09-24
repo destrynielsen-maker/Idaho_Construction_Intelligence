@@ -66,16 +66,16 @@
     "valuation_total": 4138561.12
   },
   {
-    "contractor": "BRIGHTON HOMES IDAHO INC",
-    "count": 7,
-    "score_total": 140,
-    "valuation_total": 1766010.0
-  },
-  {
     "contractor": "MBH LLC",
     "count": 7,
     "score_total": 140,
     "valuation_total": 501000.0
+  },
+  {
+    "contractor": "BRIGHTON HOMES IDAHO INC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1766010.0
   },
   {
     "contractor": "CR HOMES INC",
