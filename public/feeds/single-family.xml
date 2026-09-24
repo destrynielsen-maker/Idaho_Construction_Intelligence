@@ -6,9 +6,15 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 17:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 21:44:18 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 27-04-03 (8883-0078) — 1952 N CAWOOD WAY</title>
+      <title>[20] Eagle: New Home — 3842 W SPRING HOUSE LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29740515</link>
+      <description>SINGLE_FAMILY | ALL CONTRACTING LLP | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267830</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1952 N CAWOOD WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29740498</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267829</guid>
@@ -20,10 +26,16 @@
       <guid isPermaLink="false">ID:EAGLE:267815</guid>
     </item>
     <item>
-      <title>[15] Eagle: New Home — 3842 W SPRING HOUSE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740515</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267830</guid>
+      <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29741312</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267836</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 771 W CRESTONE CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29740854</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267832</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8424 Cathedral St</title>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | CR HOMES INC | 291,660</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 24821 BOWMORE CT, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | VALLE DEVELOPMENT LLC | 338,962</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0657</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Vinnell — 1821 S VINNELL ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00BHV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | TESORO HOMES LLC | 450,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01094</guid>
     </item>
   </channel>
 </rss>

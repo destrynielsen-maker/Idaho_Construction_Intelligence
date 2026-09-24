@@ -66,6 +66,12 @@
     "valuation_total": 4138561.12
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
+  },
+  {
     "contractor": "MBH LLC",
     "count": 7,
     "score_total": 140,
@@ -82,12 +88,6 @@
     "count": 4,
     "score_total": 130,
     "valuation_total": 1441659.88
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 0
   },
   {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
@@ -772,6 +772,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "ALL CONTRACTING LLP",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "RHC LLC",
