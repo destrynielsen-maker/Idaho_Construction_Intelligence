@@ -6,7 +6,19 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 21:44:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 05:10:30 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29741312</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267836</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 771 W CRESTONE CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29740854</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267832</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 3842 W SPRING HOUSE LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29740515</link>
@@ -24,18 +36,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29739536</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267815</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29741312</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267836</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 771 W CRESTONE CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740854</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267832</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8424 Cathedral St</title>
