@@ -18,6 +18,12 @@
     "valuation_total": 3419371.28
   },
   {
+    "contractor": "TRESIDIO HOMES",
+    "count": 10,
+    "score_total": 275,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CBH HOMES",
     "count": 13,
     "score_total": 260,
@@ -28,12 +34,6 @@
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 8,
-    "score_total": 235,
-    "valuation_total": 0
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -184,6 +184,12 @@
     "count": 3,
     "score_total": 70,
     "valuation_total": 1990712.3800000001
+  },
+  {
+    "contractor": "BOISE PLH, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
   },
   {
     "contractor": "Biltmore Company, LLC",
@@ -346,12 +352,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 404676.96
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "Highland Homes LLC",
@@ -780,6 +780,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "SIERRA CONSTRUCTION OF IDAHO LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "RHC LLC",
     "count": 1,
     "score_total": 20,
@@ -1156,6 +1162,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 144753.6
+  },
+  {
+    "contractor": "WESOLOWSKI JEFF",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 303574.32
   },
   {
     "contractor": "BLACKWOOD PROPERTIES LLC.",
@@ -1720,17 +1732,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "SIERRA CONSTRUCTION OF IDAHO LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "WESOLOWSKI JEFF",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 303574.32
   }
 ]

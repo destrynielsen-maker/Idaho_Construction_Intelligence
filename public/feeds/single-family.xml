@@ -6,7 +6,25 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 17:26:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 21:48:32 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2Car Tandem Garage (3) , Covered Entry and Covered Entry — 7586 W Centerline St., Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267885</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Please provide added details about the description of your project — 6296 W. Sollas Ct.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745061</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267876</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Please provide added details about the description of your project — 6410 W. Carnock Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745014</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267873</guid>
+    </item>
     <item>
       <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
@@ -1191,24 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 384,610</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-655</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3445 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-631</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1202 E WALTON CT, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,005</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-630</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3513 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 349,006</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-629</guid>
     </item>
   </channel>
 </rss>

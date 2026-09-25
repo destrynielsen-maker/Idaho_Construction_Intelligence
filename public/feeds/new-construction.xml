@@ -6,7 +6,25 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 17:26:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 21:48:32 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2Car Tandem Garage (3) , Covered Entry and Covered Entry — 7586 W Centerline St., Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267885</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Please provide added details about the description of your project — 6296 W. Sollas Ct.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745061</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267876</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Please provide added details about the description of your project — 6410 W. Carnock Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29745014</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267873</guid>
+    </item>
     <item>
       <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
@@ -1188,24 +1206,6 @@
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
       <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 218,641</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0790</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3365 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,790</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0775</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3352 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,655</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0774</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling C ITY OF M ERIDIAN 7 P AGE # BUILDING PERMITS FOR THE WEEK (47) — 3376 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 175,388</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0773</guid>
     </item>
   </channel>
 </rss>

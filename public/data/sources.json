@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:09:04+00:00",
+  "generated_at": "2026-09-25T21:33:42+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 63,
-      "qualifying_records": 63,
+      "records_seen": 62,
+      "qualifying_records": 62,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 16,
+      "qualifying_records": 17,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 80,
+      "records_seen": 86,
       "qualifying_records": 2,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-12 through 2026-09-25; 80 primary building permits parsed; newest primary building permit issued 2026-09-25"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-12 through 2026-09-25; 86 primary building permits parsed; newest primary building permit issued 2026-09-25"
     },
     {
       "source": "Kootenai County",
