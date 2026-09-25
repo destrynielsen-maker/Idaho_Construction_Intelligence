@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 12:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 17:26:33 +0000</lastBuildDate>
+    <item>
+      <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267849</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29741312</link>
@@ -36,6 +42,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29739536</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267815</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16978 SPRING MEADOW DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SIERRA CONSTRUCTION OF IDAHO LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0731</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8424 Cathedral St</title>
@@ -742,7 +754,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 28450 SANDY LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MARSH SHANNON | 0</description>
+      <description>SINGLE_FAMILY | MARSH SHANNON | 321,893</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0689</guid>
     </item>
     <item>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 349,006</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-629</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 24234( TEMP) N ECLIPSE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1313</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27528 COMMERCE COMET WAY, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | CR HOMES INC | 291,660</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0658</guid>
     </item>
   </channel>
 </rss>
