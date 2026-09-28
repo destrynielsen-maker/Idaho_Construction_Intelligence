@@ -18,12 +18,6 @@
     "valuation_total": 3419371.28
   },
   {
-    "contractor": "TRESIDIO HOMES",
-    "count": 10,
-    "score_total": 275,
-    "valuation_total": 0
-  },
-  {
     "contractor": "CBH HOMES",
     "count": 13,
     "score_total": 260,
@@ -34,6 +28,12 @@
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
+    "count": 9,
+    "score_total": 230,
+    "valuation_total": 0
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
