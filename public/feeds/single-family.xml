@@ -6,7 +6,37 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 28 Sep 2026 14:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:28:40 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L87&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01992</guid>
+    </item>
+    <item>
+      <title>[25] Boise: 1801 n 9th st — 1801 N 9TH ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L85&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01991</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7248 N Hillswick Wy, Eagle Idaho 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29760820</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267904</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Isaacs Residence — 11479 [TEMP] W MERIDIAN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | PREMIER QUALITY HOMES INC | 1,074,902</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1370</guid>
+    </item>
+    <item>
+      <title>[22] Kootenai County: *FOUNDATION ONLY* | NEW SFR w/ATTACHED — 15309 [TEMP] N Morgan Ln</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 2,107,243</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0911</guid>
+    </item>
     <item>
       <title>[20] Eagle: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2Car Tandem Garage (3) , Covered Entry and Covered Entry — 7586 W Centerline St., Eagle, ID 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
@@ -187,6 +217,18 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6513 W DANES DR</title>
@@ -1168,48 +1210,6 @@ DO NOT ISSUE BP UNTIL CP2026-0063 IS APPROVED/COMPLETE — 18498 WAGNER RD, Cald
       <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
       <description>SINGLE_FAMILY | AJ DEVELOPMENT COMPANY LLC | | 688,679</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0921</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 41 BLK 6 — 4614 W QUARTERHORSE DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 242,583</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0767</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New SFR - Two-Story, 4 Bedroom, 3 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 1173 W MALBAR ST</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | boie PLH, LLC | 292,480</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0765</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential/PN04013013 Whitburn A — 7049 S CADENCE AVE</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 258,357</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0709</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2822 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 196,008</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-681</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2800 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 263,448</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-680</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2782 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 352,714</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-678</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2774 N ANDROMEDA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 219,969</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-677</guid>
     </item>
   </channel>
 </rss>

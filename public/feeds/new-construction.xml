@@ -6,7 +6,37 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 28 Sep 2026 14:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:28:40 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L87&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01992</guid>
+    </item>
+    <item>
+      <title>[25] Boise: 1801 n 9th st — 1801 N 9TH ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L85&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01991</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7248 N Hillswick Wy, Eagle Idaho 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29760820</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267904</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Isaacs Residence — 11479 [TEMP] W MERIDIAN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | PREMIER QUALITY HOMES INC | 1,074,902</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1370</guid>
+    </item>
+    <item>
+      <title>[22] Kootenai County: *FOUNDATION ONLY* | NEW SFR w/ATTACHED — 15309 [TEMP] N Morgan Ln</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 2,107,243</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0911</guid>
+    </item>
     <item>
       <title>[20] Eagle: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2Car Tandem Garage (3) , Covered Entry and Covered Entry — 7586 W Centerline St., Eagle, ID 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
@@ -146,6 +176,12 @@
       <guid isPermaLink="false">ID:EAGLE:267765</guid>
     </item>
     <item>
+      <title>[42] Kootenai County: NEW OFFICE BLDG W/SHOP | KGG PARTNERSHIP | — 9374 N MCGUIRE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>COMMERCIAL | Pro Builders General Contractors, | 2,747,248</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0036</guid>
+    </item>
+    <item>
       <title>[30] Eagle: Terra View #5 Pump House — N BELLROCK AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29730464</link>
       <description>COMMERCIAL | Contractor unknown | 0</description>
@@ -199,6 +235,18 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
     </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
@@ -1159,54 +1207,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 0</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00631</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5484 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00626</guid>
-    </item>
-    <item>
-      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hagan — 986 [TEMP] S LAKEVIEW</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
-      <description>SINGLE_FAMILY | BLACKWELL HOMES &amp; | 1,250,211</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0920</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Craig Jessica Collett Res. — 12565 W PAINT ST, Boise ID 83713</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NCR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | GRANITE CONRACTING LLC | 840,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02177</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Weeks — 2954 N MILWAUKEE ST, BOISE ID 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00JOH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | C5 DEVELOPMENT GROUP, LLC | 513,456</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01866</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential New — 2700 W EVENING SUN ST</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 286,014</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0808</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 2345 SQ FT SINGLE FAMILY DWELLING WITH 464 SQ FT ATTACHED GARAGE — 5536 W LOST RAPIDS ST</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 243,873</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0794</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 2089 SQ FT SINGLE FAMILY DWELLING WITH 477 SQ FT ATTACHED GARAGE — 5520 W LOST RAPIDS ST</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 218,641</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0790</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3365 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,790</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0775</guid>
     </item>
   </channel>
 </rss>

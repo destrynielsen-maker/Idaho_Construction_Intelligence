@@ -42,6 +42,12 @@
     "valuation_total": 3000000.0
   },
   {
+    "contractor": "DAUM CONSTRUCTION",
+    "count": 5,
+    "score_total": 195,
+    "valuation_total": 2606878.3
+  },
+  {
     "contractor": "TRESIDIO HOMES",
     "count": 8,
     "score_total": 185,
@@ -52,12 +58,6 @@
     "count": 7,
     "score_total": 175,
     "valuation_total": 5457350.86
-  },
-  {
-    "contractor": "DAUM CONSTRUCTION",
-    "count": 4,
-    "score_total": 175,
-    "valuation_total": 2598021.75
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -270,6 +270,12 @@
     "valuation_total": 1468380.03
   },
   {
+    "contractor": "HILL CONST & PROPERTY SERVICES INC",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1100000.0
+  },
+  {
     "contractor": "TRUE NORTH HOMES LLC DBA",
     "count": 2,
     "score_total": 45,
@@ -342,6 +348,18 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "Pro Builders General Contractors,",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 2747248.0
+  },
+  {
+    "contractor": "HIRTLIN CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 143553.12
+  },
+  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 2,
     "score_total": 40,
@@ -382,6 +400,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 316617.84
+  },
+  {
+    "contractor": "Solitude Homes Inc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -460,12 +484,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
-  },
-  {
-    "contractor": "HIRTLIN CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 143553.12
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -598,6 +616,12 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "PREMIER QUALITY HOMES INC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1074901.68
   },
   {
     "contractor": "NORTH RIDGE CONTRACTING INC",
@@ -823,12 +847,6 @@
   },
   {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Solitude Homes Inc",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0

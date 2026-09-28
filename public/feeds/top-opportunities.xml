@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 28 Sep 2026 14:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:28:40 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -276,6 +276,12 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Kootenai County: NEW OFFICE BLDG W/SHOP | KGG PARTNERSHIP | — 9374 N MCGUIRE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>COMMERCIAL | Pro Builders General Contractors, | 2,747,248</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0036</guid>
     </item>
     <item>
       <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>

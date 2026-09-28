@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:51:13+00:00",
+  "generated_at": "2026-09-28T23:15:14+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 58,
-      "qualifying_records": 58,
+      "records_seen": 60,
+      "qualifying_records": 60,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,9 +21,9 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 14,
+      "qualifying_records": 15,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits; 3 detail page(s) unparsed"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
@@ -43,19 +43,19 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 82,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-15 through 2026-09-28; 82 primary building permits parsed; newest primary building permit issued 2026-09-25"
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
     },
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 53,
-      "qualifying_records": 53,
-      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3575",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT AUGUST 30, 2026 (7 parsed). Latest report period 2026-09-13 through 2026-09-19 (9 days old)"
+      "records_seen": 52,
+      "qualifying_records": 52,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3580",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 20, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed). Latest report period 2026-09-20 through 2026-09-26 (2 days old)"
     },
     {
       "source": "Post Falls",
