@@ -18,22 +18,16 @@
     "valuation_total": 3419371.28
   },
   {
-    "contractor": "CBH HOMES",
-    "count": 13,
-    "score_total": 260,
-    "valuation_total": 3666039.1200000006
-  },
-  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
   },
   {
-    "contractor": "TRESIDIO HOMES",
-    "count": 9,
-    "score_total": 230,
-    "valuation_total": 0
+    "contractor": "CBH HOMES",
+    "count": 12,
+    "score_total": 240,
+    "valuation_total": 3392645.5200000005
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -46,6 +40,12 @@
     "count": 4,
     "score_total": 200,
     "valuation_total": 3000000.0
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
+    "count": 8,
+    "score_total": 185,
+    "valuation_total": 0
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
@@ -417,7 +417,7 @@
     "contractor": "BROOKSTONE CUSTOM HOMES",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 304811.76
+    "valuation_total": 569898.96
   },
   {
     "contractor": "VALLE DEVELOPMENT LLC",
@@ -460,6 +460,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 671054.28
+  },
+  {
+    "contractor": "HIRTLIN CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 143553.12
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -897,7 +903,7 @@
     "contractor": "KOMPANIET NICK",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 216626.04
   },
   {
     "contractor": "NATHAN TAYLOR",
@@ -909,13 +915,13 @@
     "contractor": "RAMSEY CONSTRUCTION",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 300797.76
   },
   {
     "contractor": "BIRCH MIKE",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 302802.0
   },
   {
     "contractor": "UNITED DEVELOPMENT LLC",
@@ -1212,12 +1218,6 @@
     "valuation_total": 260112.0
   },
   {
-    "contractor": "HIRTLIN CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 143553.12
-  },
-  {
     "contractor": "THUNDER MOUNTAIN HOMES",
     "count": 1,
     "score_total": 20,
@@ -1330,12 +1330,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 471195.0
-  },
-  {
-    "contractor": "ZZ CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 260531.64
   },
   {
     "contractor": "TRIPLE J CUSTOM HOMES",
@@ -1518,12 +1512,6 @@
     "valuation_total": 192492.48
   },
   {
-    "contractor": "TRIDENT HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 313462.32
-  },
-  {
     "contractor": "WESTON TANNER",
     "count": 1,
     "score_total": 20,
@@ -1612,12 +1600,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 307889.52
-  },
-  {
-    "contractor": "VALUE HOMES OF IDAHO",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 335450.04
   },
   {
     "contractor": "PREMIUM SOLUTIONS, LLC",
