@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 28 Sep 2026 23:28:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:54:43 +0000</lastBuildDate>
     <item>
       <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L87&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -188,6 +188,18 @@
       <guid isPermaLink="false">ID:EAGLE:267748</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 6732 E Emma Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29731509</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
@@ -235,18 +247,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
     </item>
     <item>
       <title>[30] Eagle: New Commercial — 3893 W. Johnny Ln</title>
