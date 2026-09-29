@@ -25,9 +25,15 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 12,
-    "score_total": 240,
-    "valuation_total": 3392645.5200000005
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 3026980.4400000004
+  },
+  {
+    "contractor": "TRESIDIO HOMES",
+    "count": 9,
+    "score_total": 205,
+    "valuation_total": 0
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -46,12 +52,6 @@
     "count": 5,
     "score_total": 195,
     "valuation_total": 2606878.3
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 8,
-    "score_total": 185,
-    "valuation_total": 0
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
@@ -147,7 +147,7 @@
     "contractor": "RIVERWOOD HOMES",
     "count": 4,
     "score_total": 80,
-    "valuation_total": 612334.44
+    "valuation_total": 859116.96
   },
   {
     "contractor": "ALTURAS CONSTRUCTION LLC",
@@ -166,6 +166,12 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1295181.24
+  },
+  {
+    "contractor": "SHELF CAPITAL, LLC DBA JW HOMES",
+    "count": 3,
+    "score_total": 75,
+    "valuation_total": 1650000.0
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -187,6 +193,12 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -366,12 +378,6 @@
     "valuation_total": 143553.12
   },
   {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
     "contractor": "PROMINENT HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -435,7 +441,7 @@
     "contractor": "JD CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 263605.2
+    "valuation_total": 494513.4
   },
   {
     "contractor": "BROOKSTONE CUSTOM HOMES",
@@ -1732,5 +1738,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "STONE PRECISION CONTRACTORS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

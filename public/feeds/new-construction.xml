@@ -6,7 +6,85 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 29 Sep 2026 13:03:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:28:55 +0000</lastBuildDate>
+    <item>
+      <title>[40] Eagle: New Townhome — 1316 S COOKSOM LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767202</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267982</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1322 S COOKSOM LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767199</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267981</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1330 S COOKSOM LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767194</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267980</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1340 S COOKSOM LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767188</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267979</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1315 S DORSET LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767178</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267977</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1321 S DORSET LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767173</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267976</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1329 S DORSET LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767170</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267975</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 1339 S DORSET LN EAGLE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767161</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267973</guid>
+    </item>
+    <item>
+      <title>[25] Boise: JW-LEADVILLE BUILDING C — 1309 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IY6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01812</guid>
+    </item>
+    <item>
+      <title>[25] Boise: JW-LEADVILLE BUILDING B — 1311 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IY1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01811</guid>
+    </item>
+    <item>
+      <title>[25] Boise: JW-Leadville Building A — 1313 S LEADVILLE AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IXR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01808</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: single family dwelling — 7404 Vittrup Street</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767317</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267985</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6304 E One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29767162</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267974</guid>
+    </item>
     <item>
       <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L87&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -20,10 +98,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01991</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Residential Home — 7248 N Hillswick Wy, Eagle Idaho 83616</title>
+      <title>[20] Eagle: New Home — 7248 N HILLSWICK WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29760820</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267904</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8202 QUAIL HOLLOW DR, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STONE PRECISION CONTRACTORS | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0743</guid>
     </item>
     <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Isaacs Residence — 11479 [TEMP] W MERIDIAN</title>
@@ -38,19 +122,19 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0911</guid>
     </item>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2Car Tandem Garage (3) , Covered Entry and Covered Entry — 7586 W Centerline St., Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 7586 W CENTERLINE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267885</guid>
     </item>
     <item>
-      <title>[20] Eagle: Please provide added details about the description of your project — 6296 W. Sollas Ct.</title>
+      <title>[20] Eagle: New Home — 6296 W SOLLAS CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745061</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267876</guid>
     </item>
     <item>
-      <title>[20] Eagle: Please provide added details about the description of your project — 6410 W. Carnock Dr.</title>
+      <title>[20] Eagle: New Home — 6410 W CARNOCK DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745014</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267873</guid>
@@ -1123,90 +1207,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 408,181</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0810</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 2684 W EVENING SUN ST</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 388,664</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0809</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 1881 S BORDER WAY</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 252,245</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0807</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6934 E CHICKEN HAWK LOOP, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RIVERWOOD HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0683</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 33589 SUNSET VIEW RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JD CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0682</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 7612 E NEWCASTLE DR, Nampa   836870000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 265,087</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0681</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Clinton St Residence — 4620 W CLINTON ST, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L71&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MACHADO CONSTRUCTION LLC | 435,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01987</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT08 BLK13 FRANKLIN VILLAGE NORTH #4 — 7582 E Westing House St Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 347,598</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18854-2026</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR | Welch — 8616 N Clarkview Pl</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 422,714</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1015</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lampert — 24171 [TEMP] S Lakewood</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
-      <description>SINGLE_FAMILY | KUNTZ CONSTRUCTION LLC | 901,983</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0916</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Johnson — 26698 [TEMP] S Rufus Trail</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3559</link>
-      <description>SINGLE_FAMILY | HAWK HOMES LLC | 156,316</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1077</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18094 MCINTYRE LN, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | KOMPANIET NICK | 216,626</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0679</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Boesiger - Parcel B — 2123 N 32ND ST, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DV8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | NATHAN TAYLOR | 350,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01317</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5502 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X3&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00632</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5496 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00631</guid>
     </item>
   </channel>
 </rss>
