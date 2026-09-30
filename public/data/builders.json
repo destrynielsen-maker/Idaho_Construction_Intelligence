@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 42,
-    "score_total": 1002,
-    "valuation_total": 8743689.870000001
+    "count": 46,
+    "score_total": 1082,
+    "valuation_total": 9159149.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -22,6 +22,18 @@
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
+  },
+  {
+    "contractor": "SHALC GC INC",
+    "count": 5,
+    "score_total": 225,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Toll Bros, Inc",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 0
   },
   {
     "contractor": "CBH HOMES",
@@ -64,12 +76,6 @@
     "count": 7,
     "score_total": 147,
     "valuation_total": 4138561.12
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 7,
-    "score_total": 140,
-    "valuation_total": 0
   },
   {
     "contractor": "MBH LLC",
@@ -414,6 +420,12 @@
     "valuation_total": 316617.84
   },
   {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Hayden Watson",
     "count": 2,
     "score_total": 40,
@@ -484,6 +496,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
+  },
+  {
+    "contractor": "STETSON HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 345454.68
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
@@ -858,12 +876,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "HOMES LLC",
     "count": 1,
     "score_total": 20,
@@ -1228,12 +1240,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 283981.08
-  },
-  {
-    "contractor": "STETSON HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 345454.68
   },
   {
     "contractor": "BAKER BENJAMIN",

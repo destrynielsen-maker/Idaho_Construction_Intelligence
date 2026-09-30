@@ -6,7 +6,103 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 30 Sep 2026 12:45:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:28:25 +0000</lastBuildDate>
+    <item>
+      <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769586</link>
+      <description>MULTIFAMILY | SHALC GC INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268010</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 6341 N FOXGLOVE WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769552</link>
+      <description>MULTIFAMILY | SHALC GC INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268008</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 5676 W REDIVA DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769498</link>
+      <description>MULTIFAMILY | SHALC GC INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268006</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 5698 W REDIVA DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769470</link>
+      <description>MULTIFAMILY | SHALC GC INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268004</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 5665 W PRIMAVERA ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29768389</link>
+      <description>MULTIFAMILY | SHALC GC INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267992</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02425</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 7-3 Kirsten #2 — 6561 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02417</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 19-6 Kirsten #2 — 6457 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268045</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770939</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268028</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6680 W FLATHEAD LAKE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770173</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268017</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-09-02 (9281-0039) — 6920 W YUMA ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769679</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268012</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268000</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home — 5695 W SILVERBERRY DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770974</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268032</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New home — 5711 W SILVERBERRY DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770970</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268031</guid>
+    </item>
     <item>
       <title>[40] Eagle: New Townhome — 1316 S COOKSOM LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29767202</link>
@@ -74,7 +170,7 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01808</guid>
     </item>
     <item>
-      <title>[20] Eagle: single family dwelling — 7404 Vittrup Street</title>
+      <title>[20] Eagle: New Home — 7404 Vittrup St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29767317</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267985</guid>
@@ -84,6 +180,13 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29767162</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267974</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: New single family residence with a detatched shop | Purpose: Single family use | Type of Materials: CMU&#13;
+ONLINE TEMPORARY REFERENCE ID:  202600427 — 12733 DRAFT ST, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STETSON HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0746</guid>
     </item>
     <item>
       <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
@@ -140,7 +243,8 @@
       <guid isPermaLink="false">ID:EAGLE:267873</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR ONLY — 0 HWY 45, Melba   836410000</title>
+      <title>[20] Canyon County: NEW SFR ONLY&#13;
+DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" structure) — 0 HWY 45, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0737</guid>
@@ -849,7 +953,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <guid isPermaLink="false">ID:EAGLE:267289</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23258 HOMEDALE RD, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23250 HOMEDALE RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BARNES CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0703</guid>
@@ -1105,108 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>SINGLE_FAMILY | Contractor unknown | 307,765</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18871-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT06 BLK13 FRANKLIN VILLAGE NORTH#4 — 7606 E Westing House St Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 366,424</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18845-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT02 BLK03 STODDARD CROSSING — 2359 E Ebony St Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 314,037</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18844-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT01 BLK03 STODDARD CROSSING — 2345 E Ebony St Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 378,772</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18843-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK14 FRANKLIN VILLAGE NORTH #5 — 17211 N Yorktown Way Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 371,136</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18842-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT03 BLK06 CHISUM ESTATES #1 — 881 S Contusion Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 391,875</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18821-2026</guid>
-    </item>
-    <item>
-      <title>[40] Nampa: NEW TOWNHOUSE LT31 BLK07 Middlebury North #2 — 15539 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18788-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT15 BLK06 Reflections Edge #4 — 4433 E Briscoe Dr Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Kb Home Idaho Llc Kb Home Idaho Llc | 182,358</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18866-2026</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 335 W GLEASON CT</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 314,943</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0708</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kadoshnikov — 32452 [TEMP] N ROBERTS RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 599,466</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1360</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT06 BLK22 NEW YORK LANDING #4 — 4507 S Fort George Ave Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 99,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18877-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT18 BLK08 Cherry Grove #5 — 7711 E Cherry Grove Dr Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 136,821</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18869-2026</guid>
-    </item>
-    <item>
-      <title>[40] Nampa: NEW TOWNHOUSE LT30 BLK07 Middlebury North #2 — 15545 N Exeter Way Nampa, Id 83651</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>MULTIFAMILY | Contractor unknown | 125,990</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18787-2026</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29641560</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267038</guid>
-    </item>
-    <item>
-      <title>[25] Boise: Gross Residence — 805 E JEFFERSON ST, Boise ID 83712</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=005LU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | FLYNNER PROPERTIES LLC | 600,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00467</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT11 BLK2 CAYUSE RIDGE — 913 W Roan Ridge St Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 214,102</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18744-2026</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential New — 2640 W EVENING SUN ST</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 335,486</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0811</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 2662 W EVENING SUN ST</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 408,181</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0810</guid>
     </item>
   </channel>
 </rss>

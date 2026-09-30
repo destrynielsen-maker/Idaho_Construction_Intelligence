@@ -6,7 +6,73 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 30 Sep 2026 12:45:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:28:25 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02425</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 7-3 Kirsten #2 — 6561 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02417</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 19-6 Kirsten #2 — 6457 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268045</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770939</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268028</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6680 W FLATHEAD LAKE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770173</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268017</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-09-02 (9281-0039) — 6920 W YUMA ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769679</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268012</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268000</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New Home — 5695 W SILVERBERRY DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770974</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268032</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: New home — 5711 W SILVERBERRY DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29770970</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268031</guid>
+    </item>
     <item>
       <title>[25] Boise: JW-LEADVILLE BUILDING C — 1309 S LEADVILLE AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IY6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -26,7 +92,7 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01808</guid>
     </item>
     <item>
-      <title>[20] Eagle: single family dwelling — 7404 Vittrup Street</title>
+      <title>[20] Eagle: New Home — 7404 Vittrup St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29767317</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267985</guid>
@@ -36,6 +102,13 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29767162</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267974</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: New single family residence with a detatched shop | Purpose: Single family use | Type of Materials: CMU&#13;
+ONLINE TEMPORARY REFERENCE ID:  202600427 — 12733 DRAFT ST, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | STETSON HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0746</guid>
     </item>
     <item>
       <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
@@ -92,7 +165,8 @@
       <guid isPermaLink="false">ID:EAGLE:267873</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR ONLY — 0 HWY 45, Melba   836410000</title>
+      <title>[20] Canyon County: NEW SFR ONLY&#13;
+DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" structure) — 0 HWY 45, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0737</guid>
@@ -711,7 +785,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <guid isPermaLink="false">ID:EAGLE:267289</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23258 HOMEDALE RD, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23250 HOMEDALE RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BARNES CONSTRUCTION | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0703</guid>
@@ -1135,80 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
       <description>SINGLE_FAMILY | HUBBLE HOMES LLC | 218,641</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0790</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3365 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,790</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0775</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3352 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,655</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0774</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling C ITY OF M ERIDIAN 7 P AGE # BUILDING PERMITS FOR THE WEEK (47) — 3376 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 175,388</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0773</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3381 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 152,606</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0752</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3393 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 170,166</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0751</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3405 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,429</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0750</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3388 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 167,806</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0749</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3400 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 163,053</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0748</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 3412 E GOODSON DR</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 168,686</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0747</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW SINGLE FAMILY RESIDENTIAL — 5842 S ZAIVCLA AVE</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 342,176</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0734</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 4-Car Tandem Garage, Covered Entry and Covered Patio C ITY OF M ERIDIAN 5 P AGE # BUILDING PERMITS FOR THE WEEK (47) — 6122 N ARCTIC FOX WAY</title>
-      <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
-      <description>SINGLE_FAMILY | Boise PLH, LLC | 303,798</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0518</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-DO NOT ISSUE BP UNTIL CP2026-0044 IS APPROVED/COMPLETE&#13;
-DO NOT ISSUE UNTIL ASSESSOR VERIFIES DEEDS ARE CORRECT — 8971 FLETCHERS MEADOW LN, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RAMSEY CONSTRUCTION | 300,798</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0676</guid>
     </item>
   </channel>
 </rss>
