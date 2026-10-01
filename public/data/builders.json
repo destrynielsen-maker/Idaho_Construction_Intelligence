@@ -18,6 +18,12 @@
     "valuation_total": 3419371.28
   },
   {
+    "contractor": "TRESIDIO HOMES",
+    "count": 13,
+    "score_total": 285,
+    "valuation_total": 0
+  },
+  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
@@ -40,12 +46,6 @@
     "count": 11,
     "score_total": 220,
     "valuation_total": 3026980.4400000004
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 9,
-    "score_total": 205,
-    "valuation_total": 0
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -102,6 +102,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 357083.0
+  },
+  {
     "contractor": "FOOTHILLS PIS",
     "count": 2,
     "score_total": 90,
@@ -126,6 +132,12 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "BOISE PLH, LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Core Building Co",
     "count": 4,
     "score_total": 80,
@@ -136,12 +148,6 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1340109.1099999999
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
   },
   {
     "contractor": "BILTMORE CO LLC",
@@ -198,13 +204,13 @@
     "valuation_total": 1990712.3800000001
   },
   {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
   },
   {
-    "contractor": "BOISE PLH, LLC",
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -238,12 +244,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 981970.8
-  },
-  {
-    "contractor": "TV GROUP LLC DBA BEAR HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 1061741.1600000001
   },
   {
     "contractor": "JP CUSTOM HOMES & BUILDING CORP",
@@ -372,12 +372,6 @@
     "valuation_total": 2000000.0
   },
   {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
     "contractor": "STETSON HOMES",
     "count": 2,
     "score_total": 40,
@@ -432,6 +426,12 @@
     "valuation_total": 316617.84
   },
   {
+    "contractor": "COPPER CANYON HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Hayden Watson",
     "count": 2,
     "score_total": 40,
@@ -441,7 +441,7 @@
     "contractor": "LARRY RICHARDSON CONSTRUCTION",
     "count": 2,
     "score_total": 40,
-    "valuation_total": 398953.08
+    "valuation_total": 740045.8400000001
   },
   {
     "contractor": "Kb Home Idaho Llc Kb Home Idaho Llc",
@@ -496,6 +496,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 466331.4
+  },
+  {
+    "contractor": "TV GROUP LLC DBA BEAR HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 729075.48
   },
   {
     "contractor": "BIG COUNTRY FENCING",
@@ -594,6 +600,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "Western Heating & A/C (Mechanical)",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
+  },
+  {
     "contractor": "PREMIER QUALITY HOMES INC",
     "count": 1,
     "score_total": 27,
@@ -646,6 +658,12 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "SAGE RIVER CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1000000.0
   },
   {
     "contractor": "NORTH RIDGE CONTRACTING INC",
@@ -883,12 +901,6 @@
   },
   {
     "contractor": "MOORHOUSE RESIDENTIAL LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "COPPER CANYON HOMES LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -1284,12 +1296,6 @@
     "valuation_total": 229915.4
   },
   {
-    "contractor": "STEVE DUGGER CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 287639.88
-  },
-  {
     "contractor": "PRO C CONSTRUCTION",
     "count": 1,
     "score_total": 20,
@@ -1410,12 +1416,6 @@
     "valuation_total": 259682.4
   },
   {
-    "contractor": "MUSSELL CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 184549.08
-  },
-  {
     "contractor": "DUHRKOOP LEXI",
     "count": 1,
     "score_total": 20,
@@ -1456,12 +1456,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 319445.76
-  },
-  {
-    "contractor": "MGM GENERAL CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 424405.8
   },
   {
     "contractor": "PARADIGM CUSTOM HOMES",
@@ -1686,12 +1680,6 @@
     "valuation_total": 398056.92
   },
   {
-    "contractor": "TCP IDAHO",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 424455.96
-  },
-  {
     "contractor": "SKAGGS CRAIG",
     "count": 1,
     "score_total": 20,
@@ -1750,5 +1738,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "LEXAR HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 265573.32
   }
 ]
