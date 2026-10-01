@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 30 Sep 2026 22:28:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:02:11 +0000</lastBuildDate>
     <item>
       <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29769586</link>
@@ -38,30 +38,6 @@
       <guid isPermaLink="false">ID:EAGLE:267992</guid>
     </item>
     <item>
-      <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02425</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 7-3 Kirsten #2 — 6561 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02417</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 19-6 Kirsten #2 — 6457 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
-    </item>
-    <item>
       <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
@@ -90,6 +66,30 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268000</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02425</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 7-3 Kirsten #2 — 6561 S BARNWOOD AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02417</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 19-6 Kirsten #2 — 6457 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
     </item>
     <item>
       <title>[15] Eagle: New Home — 5695 W SILVERBERRY DR</title>

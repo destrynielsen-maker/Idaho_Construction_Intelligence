@@ -372,6 +372,18 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "STETSON HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 345454.68
+  },
+  {
     "contractor": "Solitude Homes Inc",
     "count": 2,
     "score_total": 40,
@@ -418,12 +430,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 316617.84
-  },
-  {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -496,12 +502,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
-  },
-  {
-    "contractor": "STETSON HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 345454.68
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
