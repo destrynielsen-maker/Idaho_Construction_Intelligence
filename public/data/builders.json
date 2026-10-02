@@ -78,6 +78,12 @@
     "valuation_total": 4138561.12
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 1180083.0
+  },
+  {
     "contractor": "MBH LLC",
     "count": 7,
     "score_total": 140,
@@ -100,12 +106,6 @@
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 357083.0
   },
   {
     "contractor": "FOOTHILLS PIS",
@@ -372,6 +372,12 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "COPPER CANYON HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "STETSON HOMES",
     "count": 2,
     "score_total": 40,
@@ -424,12 +430,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 316617.84
-  },
-  {
-    "contractor": "COPPER CANYON HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "Hayden Watson",
@@ -570,6 +570,12 @@
     "valuation_total": 650000.0
   },
   {
+    "contractor": "Western Heating & A/C (Mechanical)",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Kahler Management",
     "count": 1,
     "score_total": 35,
@@ -600,10 +606,10 @@
     "valuation_total": 80000.0
   },
   {
-    "contractor": "Western Heating & A/C (Mechanical)",
+    "contractor": "SAGE RIVER CONSTRUCTION LLC",
     "count": 1,
-    "score_total": 35,
-    "valuation_total": 0
+    "score_total": 27,
+    "valuation_total": 1000000.0
   },
   {
     "contractor": "PREMIER QUALITY HOMES INC",
@@ -658,12 +664,6 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
-  },
-  {
-    "contractor": "SAGE RIVER CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 1000000.0
   },
   {
     "contractor": "NORTH RIDGE CONTRACTING INC",
@@ -1218,6 +1218,12 @@
     "valuation_total": 392697.84
   },
   {
+    "contractor": "LEXAR HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 265573.32
+  },
+  {
     "contractor": "TIMBER STONE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -1738,11 +1744,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "LEXAR HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 265573.32
   }
 ]
