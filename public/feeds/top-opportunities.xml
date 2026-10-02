@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 02 Oct 2026 12:45:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:27:11 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -351,6 +351,18 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
     </item>
     <item>
+      <title>[40] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29775801</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268100</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 6341 N FOXGLOVE WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29775758</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268099</guid>
+    </item>
+    <item>
       <title>[40] Eagle: New Townhome — 5676 W REDIVA DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29775052</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -367,6 +379,12 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://portal.iworq.net/EAGLE/permit/600/29773975</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268072</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00855</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00855</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 1316 S COOKSOM LN</title>
@@ -415,6 +433,12 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://portal.iworq.net/EAGLE/permit/600/29767161</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267973</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
     </item>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
@@ -674,12 +698,6 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 1,615,898</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-67</guid>
-    </item>
-    <item>
-      <title>[35] Eagle: INSTALL DUCTLESS IN SHOP — 4035 N. HARTLEY RD.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29773915</link>
-      <description>COMMERCIAL | Western Heating &amp; A/C (Mechanical) | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268069</guid>
     </item>
     <item>
       <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>

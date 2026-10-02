@@ -102,6 +102,12 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "Jeffrey Clemens",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1004016.0
+  },
+  {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
     "count": 5,
     "score_total": 100,
@@ -133,6 +139,12 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -204,12 +216,6 @@
     "valuation_total": 1990712.3800000001
   },
   {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
@@ -226,6 +232,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 505371.95999999996
+  },
+  {
+    "contractor": "STERLING HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -420,12 +432,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "STERLING HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
-  },
-  {
     "contractor": "MENDIOLA CUSTOM HOMES INC",
     "count": 2,
     "score_total": 40,
@@ -454,6 +460,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 549288.2
+  },
+  {
+    "contractor": "Hayden Watson Hayden Homes Idaho Llc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 391540.0
   },
   {
     "contractor": "JD CUSTOM HOMES LLC",
@@ -508,6 +520,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
+  },
+  {
+    "contractor": "ARTERRA CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 280270.32
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
@@ -568,12 +586,6 @@
     "count": 1,
     "score_total": 40,
     "valuation_total": 650000.0
-  },
-  {
-    "contractor": "Western Heating & A/C (Mechanical)",
-    "count": 1,
-    "score_total": 35,
-    "valuation_total": 0
   },
   {
     "contractor": "Kahler Management",
@@ -936,12 +948,6 @@
     "valuation_total": 271614.63
   },
   {
-    "contractor": "Hayden Watson Hayden Homes Idaho Llc",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 214102.0
-  },
-  {
     "contractor": "MACHADO CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
@@ -1198,12 +1204,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 243891.36
-  },
-  {
-    "contractor": "ARTERRA CUSTOM HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 280270.32
   },
   {
     "contractor": "PARAGON HOMES LLC",
