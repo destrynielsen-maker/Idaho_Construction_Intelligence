@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:34:17+00:00",
+  "generated_at": "2026-10-02T12:31:33+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,15 +12,15 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 63,
-      "qualifying_records": 63,
+      "records_seen": 62,
+      "qualifying_records": 62,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 61,
+      "records_seen": 62,
       "qualifying_records": 12,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 6 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
@@ -35,11 +35,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 6,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records after 2 reads"
     },
     {
       "source": "Coeur d'Alene",
