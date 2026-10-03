@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:12:15+00:00",
+  "generated_at": "2026-10-03T05:16:21+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -20,7 +20,7 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 101,
+      "records_seen": 103,
       "qualifying_records": 16,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 90,
+      "records_seen": 88,
       "qualifying_records": 1,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-19 through 2026-10-02; 90 primary building permits parsed; newest primary building permit issued 2026-10-02"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-20 through 2026-10-03; 88 primary building permits parsed; newest primary building permit issued 2026-10-02"
     },
     {
       "source": "Kootenai County",
@@ -55,7 +55,7 @@
       "records_seen": 52,
       "qualifying_records": 52,
       "source_url": "https://kcgov.us/Archive/ViewFile/Item/3580",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 20, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed). Latest report period 2026-09-20 through 2026-09-26 (6 days old)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 20, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 6, 2026 (5 parsed). Latest report period 2026-09-20 through 2026-09-26 (7 days old)"
     },
     {
       "source": "Post Falls",
@@ -63,7 +63,7 @@
       "records_seen": 103,
       "qualifying_records": 103,
       "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
-      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 211 source records inspected; 103 ground-up building permits kept; newest issued permit 2026-08-26 (37 days old); WARNING source is more than 14 days behind current date"
+      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 211 source records inspected; 103 ground-up building permits kept; newest issued permit 2026-08-26 (38 days old); WARNING source is more than 14 days behind current date"
     },
     {
       "source": "Meridian",
@@ -71,7 +71,7 @@
       "records_seen": 89,
       "qualifying_records": 83,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (26 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (27 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
     },
     {
       "source": "Nampa",
@@ -79,7 +79,7 @@
       "records_seen": 15,
       "qualifying_records": 14,
       "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026",
-      "note": "Latest discovered report: 09/21/2026 \u2013 09/25/2026; 15 new-construction records parsed; report ended 7 days ago"
+      "note": "Latest discovered report: 09/21/2026 \u2013 09/25/2026; 15 new-construction records parsed; report ended 8 days ago"
     }
   ],
   "directory": [

@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 02 Oct 2026 22:27:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 05:30:19 +0000</lastBuildDate>
     <item>
       <title>[40] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29775801</link>
@@ -350,6 +350,30 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0911</guid>
     </item>
     <item>
+      <title>[20] Nampa: NEW SFD LT02 BLK01 Grand Central — 1699 S Motive Pl Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18948-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT07 BLK01 GRAND CENTRAL — 1627 S Motive Pl Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18947-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT26 BLK02 GRAND CENTRAL — 1604 S Motive Pl Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18941-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT03 BLK01 LA PALOMA BLANCA — 4621 E Patricia Ct Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 550,000</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18936-2026</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7586 W CENTERLINE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
@@ -375,34 +399,10 @@ DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" 
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0737</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT03 BLK01 LA PALOMA BLANCA — 4621 E Patricia Ct Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT26 BLK01 Stoddard Crossing — 3530 S Sassafras Ave Nampa, Id 83686</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 550,000</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18936-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT26 BLK02 GRAND CENTRAL — 1604 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18941-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT07 BLK01 GRAND CENTRAL — 1627 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18947-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT02 BLK01 Grand Central — 1699 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18948-2026</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267849</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 251,945</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18945-2026</guid>
     </item>
     <item>
       <title>[15] Nampa: NEW SFD LT08 BLK16 Franklin Village North #5 — 17140 N Yorktown Way Nampa, Id 83687</title>
@@ -411,10 +411,16 @@ DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" 
       <guid isPermaLink="false">ID:NAMPA:RES-18938-2026</guid>
     </item>
     <item>
-      <title>[15] Nampa: NEW SFD LT26 BLK01 Stoddard Crossing — 3530 S Sassafras Ave Nampa, Id 83686</title>
+      <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:267849</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT32 BLK01 Grand Central — 1676 S Motive Pl Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 251,945</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18945-2026</guid>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18935-2026</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
@@ -453,16 +459,28 @@ DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" 
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0731</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT32 BLK01 Grand Central — 1676 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18935-2026</guid>
-    </item>
-    <item>
       <title>[15] Nampa: NEW SFD LT12 BLK16 FRANKLIN VILLAGE NORTH #5 — 17176 N Yorktown Way Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
       <description>SINGLE_FAMILY | Contractor unknown | 379,090</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18910-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT10 BLK01 GRAND CENTRAL — 1591 S Motive Pl Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18931-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT13 BLK 01 GRAND CENTRAL SUBDIVISION — 1555 S Motive Pl Nampa, Id 83687</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18929-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT56 BLK07 HARVEST CREEK #5 — 5209 E Patchwork Dr Nampa, Id 83686</title>
+      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
+      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 177,438</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18892-2026</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8424 Cathedral St</title>
@@ -507,22 +525,22 @@ DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" 
       <guid isPermaLink="false">ID:BOISE:BLD26-00629</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT56 BLK07 HARVEST CREEK #5 — 5209 E Patchwork Dr Nampa, Id 83686</title>
+      <title>[15] Nampa: NEW SFD LT04 BLK11 CHERRY GROVE #5 — 7662 E Mount Pleasant Dr Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 177,438</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18892-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 136,983</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18926-2026</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT13 BLK 01 GRAND CENTRAL SUBDIVISION — 1555 S Motive Pl Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT11 BLK03 REFLECTIONS EDGE #1 — 1480 S La Escalera Ave Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18929-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 181,203</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18925-2026</guid>
     </item>
     <item>
-      <title>[20] Nampa: NEW SFD LT10 BLK01 GRAND CENTRAL — 1591 S Motive Pl Nampa, Id 83687</title>
+      <title>[15] Nampa: NEW SFD LT04 BLK06 CHISUM ESTATES #1 — 893 S Contusion Ave Nampa, Id 83687</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18931-2026</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 377,415</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18912-2026</guid>
     </item>
     <item>
       <title>[15] Eagle: New Home — 5796 W ALDERMAN LN</title>
@@ -547,24 +565,6 @@ DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" 
       <link>https://portal.iworq.net/EAGLE/permit/600/29738276</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267804</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK06 CHISUM ESTATES #1 — 893 S Contusion Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 377,415</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18912-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT11 BLK03 REFLECTIONS EDGE #1 — 1480 S La Escalera Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 181,203</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18925-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK11 CHERRY GROVE #5 — 7662 E Mount Pleasant Dr Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 136,983</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18926-2026</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 7108 W AMAZON DR</title>

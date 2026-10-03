@@ -138,13 +138,13 @@
     "valuation_total": 3656600.0
   },
   {
-    "contractor": "BOISE PLH, LLC",
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
   },
   {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "contractor": "BOISE PLH, LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -216,6 +216,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "STERLING HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
@@ -232,12 +238,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 505371.95999999996
-  },
-  {
-    "contractor": "STERLING HOMES INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -384,6 +384,12 @@
     "valuation_total": 2000000.0
   },
   {
+    "contractor": "ARTERRA CUSTOM HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 280270.32
+  },
+  {
     "contractor": "COPPER CANYON HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -406,6 +412,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 143553.12
+  },
+  {
+    "contractor": "Hayden Watson Hayden Homes Idaho Llc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 391540.0
   },
   {
     "contractor": "PROMINENT HOMES LLC",
@@ -462,12 +474,6 @@
     "valuation_total": 549288.2
   },
   {
-    "contractor": "Hayden Watson Hayden Homes Idaho Llc",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 391540.0
-  },
-  {
     "contractor": "JD CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -520,12 +526,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
-  },
-  {
-    "contractor": "ARTERRA CUSTOM HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 280270.32
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
