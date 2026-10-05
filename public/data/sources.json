@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T05:36:34+00:00",
+  "generated_at": "2026-10-05T14:33:59+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -20,7 +20,7 @@
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 108,
+      "records_seen": 120,
       "qualifying_records": 16,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
@@ -28,7 +28,7 @@
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 771,
+      "records_seen": 765,
       "qualifying_records": 228,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
@@ -75,11 +75,11 @@
     },
     {
       "source": "Nampa",
-      "status": "ok",
-      "records_seen": 15,
-      "qualifying_records": 14,
-      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026",
-      "note": "Latest discovered report: 09/21/2026 \u2013 09/25/2026; 15 new-construction records parsed; report ended 10 days ago"
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "source_url": "https://www.cityofnampa.us/427/Permit-Reports",
+      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofnampa.us/427/Permit-Reports"
     }
   ],
   "directory": [

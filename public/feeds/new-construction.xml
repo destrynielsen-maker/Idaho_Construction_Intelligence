@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 05 Oct 2026 05:50:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 14:48:17 +0000</lastBuildDate>
     <item>
       <title>[40] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29775801</link>
@@ -393,7 +393,7 @@
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR ONLY&#13;
-DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" structure) — 0 HWY 45, Melba   836410000</title>
+DO NOT ISSUE UNTIL AG PERMIT IS APPLIED FOR (See Plans for "under construction" structure) — 9173 MELMONT RD, Melba   836410000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0737</guid>
@@ -1170,7 +1170,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23250 HOMEDALE RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BARNES CONSTRUCTION | 0</description>
+      <description>SINGLE_FAMILY | BARNES CONSTRUCTION | 126,044</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0703</guid>
     </item>
     <item>
@@ -1200,7 +1200,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18339 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 0</description>
+      <description>SINGLE_FAMILY | LEXAR HOMES (STILETTO CONSTRUCTION) | 228,608</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0701</guid>
     </item>
     <item>

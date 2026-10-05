@@ -43,9 +43,9 @@
   },
   {
     "contractor": "CBH HOMES",
-    "count": 11,
-    "score_total": 220,
-    "valuation_total": 3026980.4400000004
+    "count": 10,
+    "score_total": 200,
+    "valuation_total": 2781293.4000000004
   },
   {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
@@ -256,6 +256,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 981970.8
+  },
+  {
+    "contractor": "TV GROUP LLC DBA BEAR HOMES",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 1061741.16
   },
   {
     "contractor": "JP CUSTOM HOMES & BUILDING CORP",
@@ -510,16 +516,16 @@
     "valuation_total": 785612.52
   },
   {
+    "contractor": "ASA CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 511877.88
+  },
+  {
     "contractor": "PINEVIEW DEVELOPMENT LLC",
     "count": 2,
     "score_total": 40,
     "valuation_total": 466331.4
-  },
-  {
-    "contractor": "TV GROUP LLC DBA BEAR HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 729075.48
   },
   {
     "contractor": "BIG COUNTRY FENCING",
@@ -562,12 +568,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 629723.28
-  },
-  {
-    "contractor": "JAYO CONSTRUCTION INC.",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 490083.12
   },
   {
     "contractor": "PEARMAN CONTRACTING LLC",
@@ -921,13 +921,13 @@
     "contractor": "BARNES CONSTRUCTION",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 126043.68
   },
   {
     "contractor": "LEXAR HOMES (STILETTO CONSTRUCTION)",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 228607.56
   },
   {
     "contractor": "James Clyde Homes",
@@ -1156,12 +1156,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 230000.0
-  },
-  {
-    "contractor": "ASA CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 199704.24
   },
   {
     "contractor": "HF CUSTOM HOMES LLC",
@@ -1548,7 +1542,7 @@
     "valuation_total": 192492.48
   },
   {
-    "contractor": "WESTON TANNER",
+    "contractor": "WESTON TANNER & KATELYN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 218785.32
@@ -1654,6 +1648,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 234252.0
+  },
+  {
+    "contractor": "JAYO CONSTRUCTION INC.",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 239059.2
   },
   {
     "contractor": "FLYNNER HOMES",
