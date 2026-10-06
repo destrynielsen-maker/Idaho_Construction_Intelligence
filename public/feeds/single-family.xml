@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 06 Oct 2026 00:16:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:32:11 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New single family residential — 6999 N Cairnhill Way</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29781907</link>
@@ -38,6 +38,12 @@
       <guid isPermaLink="false">ID:EAGLE:268186</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Plass Residence — 1645 E RIDDLE RD [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 723,411</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1179</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New construction for a single family residence in the Wildernest River Subdivision — 1454 E Pelham St Eagle, ID 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29777943</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
@@ -54,12 +60,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29776419</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268115</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Plass Residence — 1645 E RIDDLE RD [TEMP]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 723,411</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1179</guid>
     </item>
     <item>
       <title>[27] Boise: Sage River Con. Residence — 1724 N 10TH ST, Boise ID 83702</title>
@@ -146,6 +146,18 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1326</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timberland — 21555 [TEMP] N Stonemason</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 519,728</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1513</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kauer Residence — 1985 E Grandview Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 866,047</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1191</guid>
+    </item>
+    <item>
       <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
@@ -198,18 +210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kauer Residence — 1985 E Grandview Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 866,047</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1191</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timberland — 21555 [TEMP] N Stonemason</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 519,728</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1513</guid>
     </item>
     <item>
       <title>[15] Eagle: New Home — 5695 W SILVERBERRY DR</title>

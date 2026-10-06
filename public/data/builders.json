@@ -102,16 +102,16 @@
     "valuation_total": 1441659.88
   },
   {
-    "contractor": "Jeffrey Clemens",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 1004016.0
-  },
-  {
     "contractor": "Core Building Co",
     "count": 6,
     "score_total": 120,
     "valuation_total": 0
+  },
+  {
+    "contractor": "Jeffrey Clemens",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1004016.0
   },
   {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
@@ -216,6 +216,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "Highland Homes LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "STERLING HOMES INC",
     "count": 3,
     "score_total": 60,
@@ -229,12 +235,6 @@
   },
   {
     "contractor": "Biltmore Company, LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Highland Homes LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -678,6 +678,18 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "MOUNTAINVIEW CONTRACTORS LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 590743.76
+  },
+  {
+    "contractor": "FAIRBANKS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 696048.77
+  },
+  {
     "contractor": "NORTH RIDGE CONTRACTING INC",
     "count": 1,
     "score_total": 25,
@@ -856,18 +868,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "MOUNTAINVIEW CONTRACTORS LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 590743.76
-  },
-  {
-    "contractor": "FAIRBANKS CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 696048.77
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS",
