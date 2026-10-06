@@ -19,8 +19,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 13,
-    "score_total": 285,
+    "count": 14,
+    "score_total": 305,
     "valuation_total": 0
   },
   {
@@ -108,6 +108,12 @@
     "valuation_total": 1004016.0
   },
   {
+    "contractor": "Core Building Co",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 0
+  },
+  {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
     "count": 5,
     "score_total": 100,
@@ -145,12 +151,6 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Core Building Co",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -234,6 +234,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Highland Homes LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "ALLIANCE BUILDING",
     "count": 3,
     "score_total": 60,
@@ -261,7 +267,7 @@
     "contractor": "TV GROUP LLC DBA BEAR HOMES",
     "count": 3,
     "score_total": 60,
-    "valuation_total": 1061741.16
+    "valuation_total": 1061741.1600000001
   },
   {
     "contractor": "JP CUSTOM HOMES & BUILDING CORP",
@@ -430,12 +436,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 404676.96
-  },
-  {
-    "contractor": "Highland Homes LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "BLUE COLLAR CONTRACTING LLC",
@@ -856,6 +856,18 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "MOUNTAINVIEW CONTRACTORS LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 590743.76
+  },
+  {
+    "contractor": "FAIRBANKS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 696048.77
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS",
