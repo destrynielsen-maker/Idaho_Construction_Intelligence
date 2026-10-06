@@ -6,36 +6,66 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 06 Oct 2026 06:32:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 18:35:12 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New single family residential — 6999 N Cairnhill Way</title>
+      <title>[20] Eagle: Construction of a new single family residence with an attached garage. — 6235 W Largo Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29784299</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268200</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Construction of a single family residence with an attached garage — 6751 N TORYGLEN WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29784238</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268199</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6289 W LARGO CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29783758</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268197</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6273 W SOLLAS CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29783733</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268196</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 1419 W FRANKLIN ST — 1419 W FRANKLIN ST</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=PLN26-00705</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:PLN26-00705</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7188 N HILLSWICK WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29781963</link>
+      <description>SINGLE_FAMILY | Hammett Companies dba Hammett Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268186</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6999 N CAIRNHILL WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29781907</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268184</guid>
     </item>
     <item>
-      <title>[20] Eagle: Construction of a new single family residence — 6888 W DANES CT</title>
+      <title>[20] Eagle: New Home — 6888 W DANES CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29781012</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268178</guid>
     </item>
     <item>
-      <title>[20] Eagle: Construction of a single family residence — 1642 W DEADWOOD ST</title>
+      <title>[20] Eagle: New Home — 1642 W DEADWOOD ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29780927</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268176</guid>
     </item>
     <item>
-      <title>[20] Eagle: Please provide added details about the description of your project — 6640 W. Sollas Dr.</title>
+      <title>[20] Eagle: New Home — 6640 W SOLLAS DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29780725</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268173</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New single family residential construction. — 7188 N. Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29781963</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268186</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
@@ -56,7 +86,7 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1179</guid>
     </item>
     <item>
-      <title>[20] Eagle: New construction for a single family residence in the Wildernest River Subdivision — 1454 E Pelham St Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 1454 E PELHAM ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29777943</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268140</guid>
@@ -1178,36 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01805</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 1 &amp; 2 — 3524 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IOT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01788</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hylback ALU — 7546 [TEMP] W Emporia Lane</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3569</link>
-      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 385,771</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1319</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7263 W LANDS ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29674723</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267319</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7619 W CHARCOAL ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29665751</link>
-      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267303</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5946 W MARBLE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29665565</link>
-      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267300</guid>
     </item>
   </channel>
 </rss>

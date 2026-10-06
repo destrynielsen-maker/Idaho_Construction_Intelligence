@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-06T06:18:06+00:00",
+  "generated_at": "2026-10-06T18:20:25+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1033,
-      "qualifying_records": 28,
+      "records_seen": 1035,
+      "qualifying_records": 29,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
     },
@@ -21,14 +21,14 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 20,
+      "qualifying_records": 18,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 765,
+      "records_seen": 766,
       "qualifying_records": 228,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 85,
+      "qualifying_records": 1,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-23 through 2026-10-06; 85 primary building permits parsed; newest primary building permit issued 2026-10-06"
     },
     {
       "source": "Kootenai County",
@@ -75,11 +75,11 @@
     },
     {
       "source": "Nampa",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://www.cityofnampa.us/427/Permit-Reports",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofnampa.us/427/Permit-Reports"
+      "status": "ok",
+      "records_seen": 15,
+      "qualifying_records": 14,
+      "source_url": "https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026",
+      "note": "Latest discovered report: 09/21/2026 \u2013 09/25/2026; 15 new-construction records parsed; report ended 11 days ago"
     }
   ],
   "directory": [

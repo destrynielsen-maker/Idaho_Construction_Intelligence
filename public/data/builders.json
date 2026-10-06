@@ -19,8 +19,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 14,
-    "score_total": 305,
+    "count": 15,
+    "score_total": 325,
     "valuation_total": 0
   },
   {
@@ -42,12 +42,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "CBH HOMES",
-    "count": 10,
-    "score_total": 200,
-    "valuation_total": 2781293.4000000004
-  },
-  {
     "contractor": "COOK BROTHERS CONSTRUCTION INC",
     "count": 6,
     "score_total": 200,
@@ -66,10 +60,22 @@
     "valuation_total": 2606878.3
   },
   {
+    "contractor": "CBH HOMES",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 2543995.92
+  },
+  {
     "contractor": "TIMBERED RIDGE HOMES LLC",
     "count": 7,
     "score_total": 175,
     "valuation_total": 5457350.86
+  },
+  {
+    "contractor": "Core Building Co",
+    "count": 8,
+    "score_total": 160,
+    "valuation_total": 0
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -100,12 +106,6 @@
     "count": 4,
     "score_total": 130,
     "valuation_total": 1441659.88
-  },
-  {
-    "contractor": "Core Building Co",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 0
   },
   {
     "contractor": "Jeffrey Clemens",
@@ -151,6 +151,12 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Biltmore Company, LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -229,12 +235,6 @@
   },
   {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -868,6 +868,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Hammett Companies dba Hammett Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS",
@@ -1756,5 +1762,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "HIGHLAND HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 407408.88
   }
 ]
