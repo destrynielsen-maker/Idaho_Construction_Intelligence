@@ -144,6 +144,18 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "Biltmore Company, LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Highland Homes LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 4,
     "score_total": 80,
@@ -151,12 +163,6 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -222,12 +228,6 @@
     "valuation_total": 1990712.3800000001
   },
   {
-    "contractor": "Highland Homes LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
     "contractor": "STERLING HOMES INC",
     "count": 3,
     "score_total": 60,
@@ -235,6 +235,12 @@
   },
   {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Solitude Homes Inc",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -412,12 +418,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 345454.68
-  },
-  {
-    "contractor": "Solitude Homes Inc",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "HIRTLIN CONSTRUCTION LLC",
@@ -1036,6 +1036,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 139976.8
+  },
+  {
+    "contractor": "HIGHLAND HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 407408.88
   },
   {
     "contractor": "ALDER RIDGE CUSTOM HOMES",
@@ -1762,11 +1768,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "HIGHLAND HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 407408.88
   }
 ]

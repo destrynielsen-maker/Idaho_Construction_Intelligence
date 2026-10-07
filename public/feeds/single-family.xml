@@ -6,15 +6,15 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 06 Oct 2026 18:35:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:11:44 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: Construction of a new single family residence with an attached garage. — 6235 W Largo Ct</title>
+      <title>[20] Eagle: New Home — 6235 W Largo Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29784299</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268200</guid>
     </item>
     <item>
-      <title>[20] Eagle: Construction of a single family residence with an attached garage — 6751 N TORYGLEN WAY</title>
+      <title>[20] Eagle: New Home — 6751 N TORYGLEN WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29784238</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268199</guid>
@@ -30,6 +30,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29783733</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268196</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Homes — 6638 N Toryglen Way Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29785988</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268221</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New single family residential — 6583 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29785562</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268215</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7188 N HILLSWICK WAY</title>
@@ -1196,18 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | MARSH SHANNON | 321,893</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0689</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 5-4 Kirsten #2 — 6572 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6J&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 69,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02372</guid>
-    </item>
-    <item>
-      <title>[20] Boise: BV.L11.B01 — 3555 E WARM SPRINGS AVE, Boise ID 83716</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00NQE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | BILTMORE CO LLC | 163,500</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02232</guid>
     </item>
   </channel>
 </rss>

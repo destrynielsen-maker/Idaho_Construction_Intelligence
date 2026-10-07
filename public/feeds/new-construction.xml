@@ -6,15 +6,15 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 06 Oct 2026 18:35:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:11:44 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: Construction of a new single family residence with an attached garage. — 6235 W Largo Ct</title>
+      <title>[20] Eagle: New Home — 6235 W Largo Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29784299</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268200</guid>
     </item>
     <item>
-      <title>[20] Eagle: Construction of a single family residence with an attached garage — 6751 N TORYGLEN WAY</title>
+      <title>[20] Eagle: New Home — 6751 N TORYGLEN WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29784238</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268199</guid>
@@ -30,6 +30,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29783733</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268196</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Homes — 6638 N Toryglen Way Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29785988</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268221</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New single family residential — 6583 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29785562</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268215</guid>
     </item>
     <item>
       <title>[40] Boise: 1419 W FRANKLIN ST — 1419 W FRANKLIN ST</title>
@@ -1196,18 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://portal.iworq.net/EAGLE/permit/600/29678700</link>
       <description>SINGLE_FAMILY | HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267354</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MOORHOUSE RESIDENTIAL LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
-    </item>
-    <item>
-      <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IW7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | CR HOMES INC | 453,600</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01805</guid>
     </item>
   </channel>
 </rss>
