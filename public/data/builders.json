@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 46,
-    "score_total": 1082,
-    "valuation_total": 9159149.870000001
+    "count": 54,
+    "score_total": 1242,
+    "valuation_total": 9943569.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -24,6 +24,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 13,
+    "score_total": 260,
+    "valuation_total": 0
+  },
+  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
@@ -33,12 +39,6 @@
     "contractor": "SHALC GC INC",
     "count": 5,
     "score_total": 225,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 11,
-    "score_total": 220,
     "valuation_total": 0
   },
   {
@@ -108,6 +108,12 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Jeffrey Clemens",
     "count": 6,
     "score_total": 120,
@@ -151,12 +157,6 @@
   },
   {
     "contractor": "Biltmore Company, LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -228,6 +228,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "SCHELL BROTHERS BOISE",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Solitude Homes Inc",
     "count": 3,
     "score_total": 60,
@@ -250,12 +256,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 505371.95999999996
-  },
-  {
-    "contractor": "SCHELL BROTHERS BOISE",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -933,7 +933,7 @@
     "contractor": "MOORHOUSE RESIDENTIAL LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 339147.96
   },
   {
     "contractor": "BARNES CONSTRUCTION",
@@ -1768,5 +1768,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "Brighton Homes Idaho Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

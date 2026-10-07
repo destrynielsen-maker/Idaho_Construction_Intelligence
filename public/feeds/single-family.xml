@@ -6,21 +6,99 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 07 Oct 2026 13:33:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 23:20:53 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New construction - single family — 7269 W FEATHER EDGE ST, EAGLE, ID 83616</title>
+      <title>[20] Eagle: New Home — 7269 W FEATHER EDGE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29786269</link>
       <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268226</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Residential Homes — 6638 N Toryglen Way Eagle, ID 83616</title>
+      <title>[20] Boise: 6-10 Kirsten #2 — 6474 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PZW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02478</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 5-10 Kirsten #2 — 6462 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPG&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 64,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02448</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 11-5 Kirsten #2 — 6581 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PK3&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02426</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 12-5 Kirsten #2 — 6595 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02423</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 10-5 Kirsten #2 — 6563 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJQ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02422</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 9-5 Kirsten #2 — 6551 S ZIPPORA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02415</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 28-6 Kirsten #2 — 6589 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PDS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 108,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02395</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 27-6 Kirsten #2 — 6577 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PDL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02394</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29788701</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268245</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2050 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29788168</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268238</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1453 E PELHAM ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787574</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268232</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5467 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787555</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268231</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2121 S ISLA DEL RIO WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787426</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268230</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6638 N TORYGLEN WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29785988</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268221</guid>
     </item>
     <item>
-      <title>[20] Eagle: New single family residential — 6583 W Danes Ct</title>
+      <title>[20] Eagle: New Home — 6583 W DANES CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29785562</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268215</guid>
@@ -1014,7 +1092,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 25271 BUR OAK PL, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MOORHOUSE RESIDENTIAL LLC | 0</description>
+      <description>SINGLE_FAMILY | MOORHOUSE RESIDENTIAL LLC | 339,148</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0704</guid>
     </item>
     <item>
@@ -1130,84 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
       <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 343,091</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0763</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: single family home — 5712 S PRIME WAY</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 341,548</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0731</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: Single Family Home — 757 E SUPREME DR</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 278,723</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0712</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Holmberg Residence — 2995 E Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 518,658</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0064</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10036 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IZ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01817</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10041 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IO2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01784</guid>
-    </item>
-    <item>
-      <title>[27] Boise: 363 Panorama Residence — 363 N PANORAMA PL, BLDG, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L7M&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,183,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01989</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 [TEMP] N Ceylon Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 775,298</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1437</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT26 BLK03 HARVEST CREEK #5 — 3981 S Harvest Creek Way Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson | 220,934</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18749-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT70 BLK07 Harvest Creek #5 — 4060 S Harvest Creek Way Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson | 137,949</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18696-2026</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 1889 S BORDER WAY</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 199,465</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0806</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New Single Family Residential — 2594 W EVENING SUN ST</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 278,716</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0804</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE  PARCEL #2| Saridge — 28325 [TEMP] N Lewellen</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3563</link>
-      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 420,699</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1201</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV BAY — 14263 RED RIVER AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | LARRY RICHARDSON CONSTRUCTION | 341,093</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0692</guid>
     </item>
   </channel>
 </rss>
