@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 54,
-    "score_total": 1242,
-    "valuation_total": 9943569.87
+    "count": 55,
+    "score_total": 1262,
+    "valuation_total": 10033559.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -19,14 +19,14 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 15,
-    "score_total": 325,
+    "count": 16,
+    "score_total": 345,
     "valuation_total": 0
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 13,
-    "score_total": 260,
+    "count": 14,
+    "score_total": 280,
     "valuation_total": 0
   },
   {
@@ -114,6 +114,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Biltmore Company, LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Jeffrey Clemens",
     "count": 6,
     "score_total": 120,
@@ -151,12 +157,6 @@
   },
   {
     "contractor": "Highland Homes LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -402,12 +402,6 @@
     "valuation_total": 1500000.0
   },
   {
-    "contractor": "ASC INC",
-    "count": 1,
-    "score_total": 42,
-    "valuation_total": 2000000.0
-  },
-  {
     "contractor": "ARTERRA CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -520,12 +514,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
-  },
-  {
-    "contractor": "PINEVIEW DEVELOPMENT LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 466331.4
   },
   {
     "contractor": "BIG COUNTRY FENCING",
@@ -1188,6 +1176,12 @@
     "valuation_total": 230000.0
   },
   {
+    "contractor": "PINEVIEW DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 227864.16
+  },
+  {
     "contractor": "HF CUSTOM HOMES LLC",
     "count": 1,
     "score_total": 20,
@@ -1774,5 +1768,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "MGM GENERAL CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 424405.8
   }
 ]

@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 08 Oct 2026 13:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 23:33:19 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -344,11 +344,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
     </item>
     <item>
-      <title>[42] Canyon County: NEW SEED RESEARCH FACILITY - Final SWDH met in office 10/1/26  MG&#13;
-Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  Permit extended till 7/28/26 (See OB for Documentation) 5/28/26  MG — 25595 LON DAVIS RD, Parma   83660</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | ASC INC | 2,000,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0494</guid>
+      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
     </item>
     <item>
       <title>[40] Boise: 1419 W FRANKLIN ST — 1419 W FRANKLIN ST</title>
@@ -439,12 +438,6 @@ Sent letter 5/26/26, they have 7 days to reactivate permit with fee waived  MG  
       <link>https://portal.iworq.net/EAGLE/permit/600/29767161</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267973</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
     </item>
     <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>

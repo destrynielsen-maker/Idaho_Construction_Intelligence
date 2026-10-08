@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-08T13:26:23+00:00",
+  "generated_at": "2026-10-08T23:19:34+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1024,
+      "records_seen": 1020,
       "qualifying_records": 29,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 69,
-      "qualifying_records": 69,
+      "records_seen": 70,
+      "qualifying_records": 70,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,15 +21,15 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 18,
+      "qualifying_records": 20,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 770,
-      "qualifying_records": 228,
+      "records_seen": 766,
+      "qualifying_records": 227,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 88,
+      "records_seen": 89,
       "qualifying_records": 1,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-25 through 2026-10-08; 88 primary building permits parsed; newest primary building permit issued 2026-10-08"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-08-25 through 2026-10-08; 89 primary building permits parsed; newest primary building permit issued 2026-10-08"
     },
     {
       "source": "Kootenai County",

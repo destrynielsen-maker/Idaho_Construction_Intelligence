@@ -6,7 +6,43 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 08 Oct 2026 13:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 23:33:19 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 5-5 Kirsten #2 — 6574 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PZR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02476</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7266 W Dotson Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29793558</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268275</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6204 W LARGO CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29793416</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268274</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7054 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29793397</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268273</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6410 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29793340</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268272</guid>
+    </item>
+    <item>
+      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29788701</link>
@@ -1132,12 +1168,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <guid isPermaLink="false">ID:EAGLE:267561</guid>
     </item>
     <item>
-      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
-    </item>
-    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Litsjo Residence — 351 [TEMP] E Driftwood</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 870,554</description>
@@ -1178,36 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
-      <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267467</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 201 N ROMAL LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686828</link>
-      <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267465</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6221 W LES MUIRE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686784</link>
-      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267461</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New construction for a single-family residence. — 1454 E Pelham St, Eagle, ID 83616</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686742</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267457</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2148 N ESCUDILLA WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686492</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267453</guid>
     </item>
   </channel>
 </rss>
