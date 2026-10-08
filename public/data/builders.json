@@ -3,7 +3,7 @@
     "contractor": "COREY BARTON HOMES INC",
     "count": 54,
     "score_total": 1242,
-    "valuation_total": 9943569.870000001
+    "valuation_total": 9943569.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -868,6 +868,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Brighton Homes Idaho Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "Hammett Companies dba Hammett Homes",
@@ -1770,7 +1776,7 @@
     "valuation_total": 301056.72
   },
   {
-    "contractor": "Brighton Homes Idaho Inc",
+    "contractor": "BARCAL ELECTRIC LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0

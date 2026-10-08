@@ -6,7 +6,37 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 07 Oct 2026 23:20:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:17:46 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29788701</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268245</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2050 N ESCUDILLA WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29788168</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268238</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1453 E PELHAM ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787574</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268232</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5467 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787555</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268231</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2121 S ISLA DEL RIO WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29787426</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268230</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 7269 W FEATHER EDGE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29786269</link>
@@ -62,34 +92,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02394</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29788701</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268245</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2050 N ESCUDILLA WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29788168</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268238</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1453 E PELHAM ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29787574</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268232</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5467 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29787555</link>
-      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268231</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2121 S ISLA DEL RIO WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29787426</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268230</guid>
+      <title>[20] Eagle: New Construction residential Single Family dwelling — 1727 W Lone Mountain Dr Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29790093</link>
+      <description>SINGLE_FAMILY | BARCAL ELECTRIC LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268265</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6638 N TORYGLEN WAY</title>
@@ -1202,12 +1208,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
       <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 376,747</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0799</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: single family home — 5810 S HEYDAY PL</title>
-      <link>https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf</link>
-      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 343,091</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0763</guid>
     </item>
   </channel>
 </rss>
