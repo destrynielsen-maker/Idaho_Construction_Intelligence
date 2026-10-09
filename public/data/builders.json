@@ -3,7 +3,7 @@
     "contractor": "COREY BARTON HOMES INC",
     "count": 55,
     "score_total": 1262,
-    "valuation_total": 10033559.87
+    "valuation_total": 10033559.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -108,13 +108,13 @@
     "valuation_total": 1441659.88
   },
   {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "contractor": "Biltmore Company, LLC",
     "count": 6,
     "score_total": 120,
     "valuation_total": 0
   },
   {
-    "contractor": "Biltmore Company, LLC",
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
     "count": 6,
     "score_total": 120,
     "valuation_total": 0
@@ -1482,6 +1482,12 @@
     "valuation_total": 319445.76
   },
   {
+    "contractor": "MGM GENERAL CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 424405.8
+  },
+  {
     "contractor": "PARADIGM CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -1768,11 +1774,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "MGM GENERAL CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 424405.8
   }
 ]
