@@ -6,7 +6,55 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 09 Oct 2026 13:27:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 22:50:46 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: Tsuda Residence — 1106 E FRANKLIN ST, BOISE ID 83712</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MCA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | NATHAN TAYLOR | 650,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02093</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New residential construction of a single story family home to include 4 bedrooms, 3 bathrooms, 2 powder baths, shop, a 2-car garage, utility garage, and RV garage. — 8405 Cathedral St</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29798307</link>
+      <description>SINGLE_FAMILY | Tradewinds General Contracting, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268324</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Building of a new single family home — 7371 N Hillswick Wy</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29798119</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268316</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New residential home. — 2029 S Isla Del Rio Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29798101</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268315</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New single-family residence — 7310 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29798099</link>
+      <description>SINGLE_FAMILY | Hallmark Enterprises dba Hallmark Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268314</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New SFD — 6485 W Danes Drive, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29798045</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268313</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Construction — 2480 E Monhegan Dr, Eagle ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268308</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2475 E Monhegan Dr, Eagle ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29796430</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268302</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 7266 W Dotson Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29793558</link>
@@ -414,6 +462,19 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268000</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 19181 TOP RD, Greenleaf   836260000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | IDAHO DISASTER SOLUTIONS | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0756</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+***DO NOT ISSUE UNTIL CP IS APPROVED*** — 0 LINCOLN RD, Caldwell   836050000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0754</guid>
     </item>
     <item>
       <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
@@ -918,7 +979,7 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
     <item>
       <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV GARAGE — 12100 OCTOBER GLORY ST, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 0</description>
+      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 245,319</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0721</guid>
     </item>
     <item>
@@ -1148,66 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://portal.iworq.net/EAGLE/permit/600/29716461</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267570</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1729 W Deadwood Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716433</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267568</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6853 W Danes Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716197</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267562</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2056 E HIDDEN COVE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716131</link>
-      <description>SINGLE_FAMILY | RENNISON HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267561</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Litsjo Residence — 351 [TEMP] E Driftwood</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | NIE CUSTOM HOMES | 870,554</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1135</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | KOEHN — 25469 [TEMP] N CEDAR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | NORTHWEST CONTRACTORS GROUP | 561,846</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0947</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Bacon Residence — 28890 S KRAMER CIR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | HELMUTH &amp; SONS CONSTRUCTION | 710,809</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0242</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lonam — 3219 [TEMP] S Bonnell Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 601,396</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1019</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6425 W One Tree Place</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29689470</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267498</guid>
-    </item>
-    <item>
-      <title>[42] Coeur d'Alene: COMMERCIAL SHELL BUILDING - DELORES DEPOT — 1570 W TILFORD LN</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
-      <description>COMMERCIAL | WOOD BOAT BUILDERS LLC | 1,500,000</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | K&amp;S Construction — 15229(temp) E Sunset Shores</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
     </item>
   </channel>
 </rss>

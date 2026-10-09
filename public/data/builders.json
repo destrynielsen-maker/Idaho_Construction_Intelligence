@@ -84,6 +84,18 @@
     "valuation_total": 4138561.12
   },
   {
+    "contractor": "Biltmore Company, LLC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Thomas Lufkin",
     "count": 7,
     "score_total": 140,
@@ -108,22 +120,22 @@
     "valuation_total": 1441659.88
   },
   {
-    "contractor": "Biltmore Company, LLC",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 0
-  },
-  {
     "contractor": "Jeffrey Clemens",
     "count": 6,
     "score_total": 120,
     "valuation_total": 1004016.0
+  },
+  {
+    "contractor": "STERLING HOMES INC",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BOISE PLH, LLC",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 0
   },
   {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
@@ -157,12 +169,6 @@
   },
   {
     "contractor": "Highland Homes LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -240,12 +246,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "STERLING HOMES INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
@@ -255,7 +255,7 @@
     "contractor": "ALLIANCE BUILDING",
     "count": 3,
     "score_total": 60,
-    "valuation_total": 505371.95999999996
+    "valuation_total": 750690.72
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -336,6 +336,12 @@
     "valuation_total": 1009273.98
   },
   {
+    "contractor": "NATHAN TAYLOR",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 1000000.0
+  },
+  {
     "contractor": "ASPEN HOMES AND DEVELOPMENT",
     "count": 2,
     "score_total": 45,
@@ -412,6 +418,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 0
+  },
+  {
+    "contractor": "WAITE HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 310353.0
   },
   {
     "contractor": "STETSON HOMES",
@@ -870,6 +882,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "IDAHO DISASTER SOLUTIONS",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "STONE PRECISION CONTRACTORS",
     "count": 1,
     "score_total": 20,
@@ -976,12 +994,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 216626.04
-  },
-  {
-    "contractor": "NATHAN TAYLOR",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 350000.0
   },
   {
     "contractor": "RAMSEY CONSTRUCTION",
@@ -1096,12 +1108,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 125021.16
-  },
-  {
-    "contractor": "WAITE HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 310353.0
   },
   {
     "contractor": "WESTMINSTER II LLC",
@@ -1518,12 +1524,6 @@
     "valuation_total": 250534.08
   },
   {
-    "contractor": "208 DESIGN+BUILD LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 457906.56
-  },
-  {
     "contractor": "SOLITUDE HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -1774,5 +1774,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "Tradewinds General Contracting, Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Hallmark Enterprises dba Hallmark Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
