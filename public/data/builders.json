@@ -126,13 +126,13 @@
     "valuation_total": 1004016.0
   },
   {
-    "contractor": "STERLING HOMES INC",
+    "contractor": "BOISE PLH, LLC",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
   },
   {
-    "contractor": "BOISE PLH, LLC",
+    "contractor": "STERLING HOMES INC",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
@@ -330,16 +330,16 @@
     "valuation_total": 1468380.03
   },
   {
-    "contractor": "TRUE NORTH HOMES LLC DBA",
-    "count": 2,
-    "score_total": 45,
-    "valuation_total": 1009273.98
-  },
-  {
     "contractor": "NATHAN TAYLOR",
     "count": 2,
     "score_total": 45,
     "valuation_total": 1000000.0
+  },
+  {
+    "contractor": "TRUE NORTH HOMES LLC DBA",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 1009273.98
   },
   {
     "contractor": "ASPEN HOMES AND DEVELOPMENT",
@@ -868,6 +868,18 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Tradewinds General Contracting, Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Hallmark Enterprises dba Hallmark Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "Brighton Homes Idaho Inc",
@@ -1774,17 +1786,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Tradewinds General Contracting, Inc",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Hallmark Enterprises dba Hallmark Homes",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]
