@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T05:43:59+00:00",
+  "generated_at": "2026-10-11T12:46:43+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -35,11 +35,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 9,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records after 2 reads"
     },
     {
       "source": "Coeur d'Alene",
