@@ -252,6 +252,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Alturas Construction, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "ALLIANCE BUILDING",
     "count": 3,
     "score_total": 60,
@@ -919,12 +925,6 @@
   },
   {
     "contractor": "RHC LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Alturas Construction, LLC",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0

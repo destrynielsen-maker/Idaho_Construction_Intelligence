@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 12 Oct 2026 06:08:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:35:20 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Single Family Dwelling — 5552 West Satinwood Lane</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
+      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268341</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Single Family Dwelling — 5566 West Satinwood Lane</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29799623</link>
+      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268339</guid>
+    </item>
     <item>
       <title>[25] Boise: Tsuda Residence — 1106 E FRANKLIN ST, BOISE ID 83712</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MCA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1197,18 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://portal.iworq.net/EAGLE/permit/600/29674723</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267319</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7619 W CHARCOAL ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29665751</link>
-      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267303</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5946 W MARBLE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29665565</link>
-      <description>SINGLE_FAMILY | AMH DEVELOPMENT IDAHO GC TRS, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267300</guid>
     </item>
   </channel>
 </rss>
