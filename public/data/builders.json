@@ -3,7 +3,7 @@
     "contractor": "COREY BARTON HOMES INC",
     "count": 56,
     "score_total": 1282,
-    "valuation_total": 10109549.870000001
+    "valuation_total": 10109549.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -234,6 +234,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "COPPER CANYON HOMES LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Alturas Construction, LLC",
     "count": 3,
     "score_total": 60,
@@ -247,12 +253,6 @@
   },
   {
     "contractor": "Solitude Homes Inc",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "COPPER CANYON HOMES LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0

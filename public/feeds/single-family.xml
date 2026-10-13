@@ -6,25 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 13 Oct 2026 00:51:24 +0000</lastBuildDate>
-    <item>
-      <title>[20] Eagle: New Single Family Dwelling — 5552 West Satinwood Lane</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
-      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268341</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Single Family Dwelling — 5566 West Satinwood Lane</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29799623</link>
-      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268339</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 7-10 Kirsten #2 — 6486 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00Q01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 75,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02480</guid>
-    </item>
+    <lastBuildDate>Tue, 13 Oct 2026 14:22:59 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: Building of a new single family home — 6300 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29800955</link>
@@ -42,6 +24,24 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29800530</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268352</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Single Family Dwelling — 5552 West Satinwood Lane</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
+      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268341</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Single Family Dwelling — 5566 West Satinwood Lane</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29799623</link>
+      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268339</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 7-10 Kirsten #2 — 6486 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00Q01&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 75,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02480</guid>
     </item>
     <item>
       <title>[25] Boise: Tsuda Residence — 1106 E FRANKLIN ST, BOISE ID 83712</title>
