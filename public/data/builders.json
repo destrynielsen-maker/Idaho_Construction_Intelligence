@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 55,
-    "score_total": 1262,
-    "valuation_total": 10033559.870000001
+    "count": 56,
+    "score_total": 1282,
+    "valuation_total": 10109549.870000001
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -25,8 +25,8 @@
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 14,
-    "score_total": 280,
+    "count": 15,
+    "score_total": 300,
     "valuation_total": 0
   },
   {
@@ -72,6 +72,12 @@
     "valuation_total": 5457350.86
   },
   {
+    "contractor": "Biltmore Company, LLC",
+    "count": 8,
+    "score_total": 160,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Core Building Co",
     "count": 8,
     "score_total": 160,
@@ -82,12 +88,6 @@
     "count": 7,
     "score_total": 147,
     "valuation_total": 4138561.12
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
-    "count": 7,
-    "score_total": 140,
-    "valuation_total": 0
   },
   {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
@@ -234,6 +234,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "Alturas Construction, LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "SCHELL BROTHERS BOISE",
     "count": 3,
     "score_total": 60,
@@ -246,13 +252,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "contractor": "COPPER CANYON HOMES LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
   },
   {
-    "contractor": "Alturas Construction, LLC",
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -418,12 +424,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 280270.32
-  },
-  {
-    "contractor": "COPPER CANYON HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "WAITE HOMES LLC",
