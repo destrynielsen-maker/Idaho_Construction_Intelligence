@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 56,
-    "score_total": 1282,
-    "valuation_total": 10109549.87
+    "count": 57,
+    "score_total": 1302,
+    "valuation_total": 10246539.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -30,6 +30,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "TIMBERED RIDGE HOMES LLC",
+    "count": 10,
+    "score_total": 250,
+    "valuation_total": 7496718.4399999995
+  },
+  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
@@ -39,6 +45,12 @@
     "contractor": "SHALC GC INC",
     "count": 5,
     "score_total": 225,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Biltmore Company, LLC",
+    "count": 10,
+    "score_total": 200,
     "valuation_total": 0
   },
   {
@@ -60,22 +72,16 @@
     "valuation_total": 2606878.3
   },
   {
+    "contractor": "STERLING HOMES INC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CBH HOMES",
     "count": 9,
     "score_total": 180,
     "valuation_total": 2543995.92
-  },
-  {
-    "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 7,
-    "score_total": 175,
-    "valuation_total": 5457350.86
-  },
-  {
-    "contractor": "Biltmore Company, LLC",
-    "count": 8,
-    "score_total": 160,
-    "valuation_total": 0
   },
   {
     "contractor": "Core Building Co",
@@ -127,12 +133,6 @@
   },
   {
     "contractor": "BOISE PLH, LLC",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "STERLING HOMES INC",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
@@ -234,6 +234,12 @@
     "valuation_total": 1990712.3800000001
   },
   {
+    "contractor": "ASPEN HOMES AND DEVELOPMENT",
+    "count": 3,
+    "score_total": 70,
+    "valuation_total": 1659912.18
+  },
+  {
     "contractor": "COPPER CANYON HOMES LLC",
     "count": 3,
     "score_total": 60,
@@ -324,6 +330,12 @@
     "valuation_total": 1823257.33
   },
   {
+    "contractor": "MONARCH CUSTOM HOMES",
+    "count": 2,
+    "score_total": 52,
+    "valuation_total": 1997268.31
+  },
+  {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
     "count": 1,
     "score_total": 52,
@@ -352,12 +364,6 @@
     "count": 2,
     "score_total": 45,
     "valuation_total": 1009273.98
-  },
-  {
-    "contractor": "ASPEN HOMES AND DEVELOPMENT",
-    "count": 2,
-    "score_total": 45,
-    "valuation_total": 813011.58
   },
   {
     "contractor": "SAWYERS CONSTRUCTION",
@@ -636,12 +642,6 @@
     "valuation_total": 1074901.68
   },
   {
-    "contractor": "MONARCH CUSTOM HOMES",
-    "count": 1,
-    "score_total": 27,
-    "valuation_total": 1291552.91
-  },
-  {
     "contractor": "URBAN LLC",
     "count": 1,
     "score_total": 27,
@@ -682,6 +682,12 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "EXCALIBUR GROUP LLC | Brian",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1252341.09
   },
   {
     "contractor": "MOUNTAINVIEW CONTRACTORS LLC",
@@ -874,6 +880,24 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "VIKING CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 614685.01
+  },
+  {
+    "contractor": "RSB CUSTOMS LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 803892.84
+  },
+  {
+    "contractor": "TRU HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 802113.0
   },
   {
     "contractor": "Tradewinds General Contracting, Inc",
@@ -1786,5 +1810,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "INLAND CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 129901.2
   }
 ]

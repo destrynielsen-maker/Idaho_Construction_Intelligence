@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:08:49+00:00",
+  "generated_at": "2026-10-13T22:42:50+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 63,
-      "qualifying_records": 63,
+      "records_seen": 64,
+      "qualifying_records": 64,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 16,
+      "qualifying_records": 18,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -52,10 +52,10 @@
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 44,
-      "qualifying_records": 44,
-      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3586",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT SEPTEMBER 27, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 20, 2026 (5 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 13, 2026 (15 parsed). Latest report period 2026-09-27 through 2026-10-03 (10 days old)"
+      "records_seen": 48,
+      "qualifying_records": 48,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3596",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT OCTOBER 4, 2026 (10 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 27, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT SEPTEMBER 20, 2026 (5 parsed). Latest report period 2026-10-04 through 2026-10-10 (3 days old)"
     },
     {
       "source": "Post Falls",

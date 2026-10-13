@@ -6,27 +6,69 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 13 Oct 2026 14:22:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 22:57:31 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: Building of a new single family home — 6300 W Danes Ct</title>
+      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Building of new single family home — 6326 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268395</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Building of a new single family home — 2180 N Palaestra Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29803841</link>
+      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268392</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2548 E Monhegan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29803004</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268383</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2534 E Monhegan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29802599</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268378</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2516 E Monhegan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29802572</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268377</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2498 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29802540</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268376</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6300 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29800955</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268357</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 26-04-03 (8883-0077) — 1908 N CAWOOD WAY</title>
+      <title>[20] Eagle: New Home — 1908 N CAWOOD WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29800857</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268355</guid>
     </item>
     <item>
-      <title>[20] Eagle: New construction single family dwelling — 7571 W. Starwood Ct.</title>
+      <title>[20] Eagle: New Home — 7571 W STARWOOD CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29800530</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268352</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Single Family Dwelling — 5552 West Satinwood Lane</title>
+      <title>[20] Eagle: New Home — 5552 West Satinwood Lane</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
       <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268341</guid>
@@ -50,13 +92,37 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02093</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dodson — 755 (TEMP) N TUSCAN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 846,901</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1318</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | — 26704 [TEMP] N Asulkan</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | VIKING CONSTRUCTION | 614,685</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1418</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tru Homes — 27300 [TEMP] N Dawson Loop</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | TRU HOMES LLC | 802,113</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1637</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Timbered Ridge — 22409 N ECLIPSE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 643,228</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1647</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New residential construction of a single story family home to include 4 bedrooms, 3 bathrooms, 2 powder baths, shop, a 2-car garage, utility garage, and RV garage. — 8405 Cathedral St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29798307</link>
       <description>SINGLE_FAMILY | Tradewinds General Contracting, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268324</guid>
     </item>
     <item>
-      <title>[20] Eagle: Building of a new single family home — 7371 N Hillswick Wy</title>
+      <title>[20] Eagle: New Home — 7371 N Hillswick Wy</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29798119</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268316</guid>
@@ -68,28 +134,34 @@
       <guid isPermaLink="false">ID:EAGLE:268315</guid>
     </item>
     <item>
-      <title>[20] Eagle: New single-family residence — 7310 N Hillswick Way</title>
+      <title>[20] Eagle: New Home — 7310 N Hillswick Way</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29798099</link>
       <description>SINGLE_FAMILY | Hallmark Enterprises dba Hallmark Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268314</guid>
     </item>
     <item>
-      <title>[20] Eagle: New SFD — 6485 W Danes Drive, Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 6485 W DANES DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29798045</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268313</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Construction — 2480 E Monhegan Dr, Eagle ID 83616</title>
+      <title>[20] Eagle: New Home — 2480 E Monhegan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268308</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 2475 E Monhegan Dr, Eagle ID 83616</title>
+      <title>[20] Eagle: New Home — 2475 E MONHEGAN DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29796430</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268302</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sullivan — 38721 (TEMP) S HIGHWAY 97</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | EXCALIBUR GROUP LLC | Brian | 1,252,341</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0877</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7266 W Dotson Dr</title>
@@ -126,6 +198,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR W/ ATTACHED SHOP | Bravard Shop/House — 21603 [TEMP] N Stonemason</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | RSB CUSTOMS LLC | 803,893</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1483</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
@@ -254,6 +332,24 @@
       <guid isPermaLink="false">ID:BOISE:PLN26-00705</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hansch Residence — 6201 [TEMP] W Sparrowhawk</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 705,715</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1242</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24400 [TEMP] N ECLIPSE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 599,629</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1575</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23302 N Eclipse Rd [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 796,510</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1591</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7188 N HILLSWICK WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29781963</link>
       <description>SINGLE_FAMILY | Hammett Companies dba Hammett Homes | 0</description>
@@ -282,6 +378,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29780725</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268173</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Wendland — 10882 W Thompson Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | INLAND CONSTRUCTION | 129,901</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0334</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
@@ -1107,108 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | ALL PHAZE DEVELOPMENT LLC | 725,582</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1349</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30195 [TEMP] N ARCHER RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 738,394</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1090</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7090 W CRISTOBAL DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29720652</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267617</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6225 W LES MUIRE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29719922</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267612</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 2-4 Kirsten #2 — 6600 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02449</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 8-3 Kirsten #2 — 6555 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02419</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 5-3 Kirsten #2 — 6573 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ4&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 92,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02416</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 6-3 Kirsten #2 — 6569 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PHX&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 77,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02406</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 26-6 Kirsten #2 — 6565 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PDF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02392</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 25-6 Kirsten #2 — 6553 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PD8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 96,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02390</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 17-6 Kirsten #2 — 6413 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PBW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 313,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02382</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 3-3 Kirsten #2 — 6591 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P3G&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02362</guid>
-    </item>
-    <item>
-      <title>[52] Boise: MAPLE GROVE APARTMENTS:  CLUBHOUSE — 1770 S MAPLE GROVE RD, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=007XA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>MULTIFAMILY | PERRYMAN CONSTRUCTION MANAGEMENT INC | 3,283,462</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00739</guid>
-    </item>
-    <item>
-      <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
-      <description>COMMERCIAL | Kahler Management | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267577</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Core &amp; Shell-Building I - Construct a 14,250 sqft Metal storage building with 12 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD - BLDG I</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716705</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267586</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Core &amp; Shell Building H - Construct a 26,000 sqft Metal storage building with 22 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD, BLDG H</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716691</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267585</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Building G - Construct a 26,000 sqft Metal storage building with 22 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD, BLDG G</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716686</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267584</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Core &amp; shell Building F - Construct a 26,000 sqft Metal storage building with 22 individual condo units. All construction is type V-B — 9361 N HORSESHOE BEND RD, BLDG F</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716678</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267582</guid>
     </item>
   </channel>
 </rss>
