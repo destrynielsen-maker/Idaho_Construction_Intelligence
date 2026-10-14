@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T11:49:11+00:00",
+  "generated_at": "2026-10-14T17:08:29+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 1004,
-      "qualifying_records": 28,
+      "records_seen": 982,
+      "qualifying_records": 26,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
     },
@@ -23,7 +23,7 @@
       "records_seen": 120,
       "qualifying_records": 18,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits; 12 detail page(s) unparsed"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",

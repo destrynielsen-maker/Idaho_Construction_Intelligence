@@ -6,15 +6,15 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 14 Oct 2026 12:02:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 17:26:04 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: Building of new single family home — 6326 W Danes Ct</title>
+      <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268395</guid>
     </item>
     <item>
-      <title>[20] Eagle: Building of a new single family home — 2180 N Palaestra Ave</title>
+      <title>[20] Eagle: New Home — 2180 N PALAESTRA AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29803841</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268392</guid>
@@ -68,13 +68,13 @@
       <guid isPermaLink="false">ID:EAGLE:268352</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 5552 West Satinwood Lane</title>
+      <title>[20] Eagle: New Home — 5552 W SATINWOOD LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
       <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268341</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Single Family Dwelling — 5566 West Satinwood Lane</title>
+      <title>[20] Eagle: New Home — 5566 W SATINWOOD LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29799623</link>
       <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268339</guid>
@@ -128,7 +128,7 @@
       <guid isPermaLink="false">ID:EAGLE:268316</guid>
     </item>
     <item>
-      <title>[20] Eagle: New residential home. — 2029 S Isla Del Rio Way</title>
+      <title>[20] Eagle: New Home — 2029 S ISLA DEL RIO WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29798101</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268315</guid>
