@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:50:27+00:00",
+  "generated_at": "2026-10-14T11:49:11+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -23,7 +23,7 @@
       "records_seen": 120,
       "qualifying_records": 18,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits; 12 detail page(s) unparsed"
     },
     {
       "source": "Canyon County",
