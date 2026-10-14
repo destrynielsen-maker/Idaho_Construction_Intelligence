@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 14 Oct 2026 17:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 21:53:49 +0000</lastBuildDate>
+    <item>
+      <title>[15] Eagle: new house — 6358 W Danes Court</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29809054</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268440</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | Contractor unknown | 756,267</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0873</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 601 E EQUINE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29686874</link>
-      <description>SINGLE_FAMILY | Vandalay Homes DBA Legacy Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267467</guid>
     </item>
   </channel>
 </rss>
