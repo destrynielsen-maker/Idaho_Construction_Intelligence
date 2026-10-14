@@ -6,13 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 13 Oct 2026 22:57:31 +0000</lastBuildDate>
-    <item>
-      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
-    </item>
+    <lastBuildDate>Wed, 14 Oct 2026 05:06:52 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: Building of new single family home — 6326 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
@@ -48,6 +42,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29802540</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6300 W Danes Ct</title>
@@ -86,22 +86,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02480</guid>
     </item>
     <item>
-      <title>[25] Boise: Tsuda Residence — 1106 E FRANKLIN ST, BOISE ID 83712</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MCA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | NATHAN TAYLOR | 650,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02093</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dodson — 755 (TEMP) N TUSCAN</title>
+      <title>[25] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Timbered Ridge — 22409 N ECLIPSE RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 846,901</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1318</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | — 26704 [TEMP] N Asulkan</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | VIKING CONSTRUCTION | 614,685</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1418</guid>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 643,228</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1647</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tru Homes — 27300 [TEMP] N Dawson Loop</title>
@@ -110,10 +98,22 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1637</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Timbered Ridge — 22409 N ECLIPSE RD</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | — 26704 [TEMP] N Asulkan</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 643,228</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1647</guid>
+      <description>SINGLE_FAMILY | VIKING CONSTRUCTION | 614,685</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1418</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dodson — 755 (TEMP) N TUSCAN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 846,901</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1318</guid>
+    </item>
+    <item>
+      <title>[25] Boise: Tsuda Residence — 1106 E FRANKLIN ST, BOISE ID 83712</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MCA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | NATHAN TAYLOR | 650,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02093</guid>
     </item>
     <item>
       <title>[20] Eagle: New residential construction of a single story family home to include 4 bedrooms, 3 bathrooms, 2 powder baths, shop, a 2-car garage, utility garage, and RV garage. — 8405 Cathedral St</title>
@@ -320,10 +320,10 @@
       <guid isPermaLink="false">ID:EAGLE:268196</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hansch Residence — 6201 [TEMP] W Sparrowhawk</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23302 N Eclipse Rd [TEMP]</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 705,715</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1242</guid>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 796,510</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1591</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24400 [TEMP] N ECLIPSE RD</title>
@@ -332,10 +332,16 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1575</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23302 N Eclipse Rd [TEMP]</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hansch Residence — 6201 [TEMP] W Sparrowhawk</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 796,510</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1591</guid>
+      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 705,715</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1242</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Wendland — 10882 W Thompson Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
+      <description>SINGLE_FAMILY | INLAND CONSTRUCTION | 129,901</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0334</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7188 N HILLSWICK WAY</title>
@@ -366,12 +372,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29780725</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268173</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Wendland — 10882 W Thompson Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | INLAND CONSTRUCTION | 129,901</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0334</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Plass Residence — 1645 E RIDDLE RD [TEMP]</title>

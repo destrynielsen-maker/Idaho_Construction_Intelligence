@@ -33,7 +33,7 @@
     "contractor": "TIMBERED RIDGE HOMES LLC",
     "count": 10,
     "score_total": 250,
-    "valuation_total": 7496718.4399999995
+    "valuation_total": 7496718.44
   },
   {
     "contractor": "HUBBLE HOMES LLC",
@@ -222,6 +222,12 @@
     "valuation_total": 2395209.84
   },
   {
+    "contractor": "ASPEN HOMES AND DEVELOPMENT",
+    "count": 3,
+    "score_total": 70,
+    "valuation_total": 1659912.18
+  },
+  {
     "contractor": "CONNER CONSTRUCTION LLC",
     "count": 3,
     "score_total": 70,
@@ -232,12 +238,6 @@
     "count": 3,
     "score_total": 70,
     "valuation_total": 1990712.3800000001
-  },
-  {
-    "contractor": "ASPEN HOMES AND DEVELOPMENT",
-    "count": 3,
-    "score_total": 70,
-    "valuation_total": 1659912.18
   },
   {
     "contractor": "COPPER CANYON HOMES LLC",
@@ -324,16 +324,16 @@
     "valuation_total": 64481344.0
   },
   {
-    "contractor": "ELA CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 52,
-    "valuation_total": 1823257.33
-  },
-  {
     "contractor": "MONARCH CUSTOM HOMES",
     "count": 2,
     "score_total": 52,
     "valuation_total": 1997268.31
+  },
+  {
+    "contractor": "ELA CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 52,
+    "valuation_total": 1823257.33
   },
   {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
@@ -630,6 +630,12 @@
     "valuation_total": 80000.0
   },
   {
+    "contractor": "EXCALIBUR GROUP LLC | Brian",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1252341.09
+  },
+  {
     "contractor": "SAGE RIVER CONSTRUCTION LLC",
     "count": 1,
     "score_total": 27,
@@ -684,10 +690,22 @@
     "valuation_total": 1200000.0
   },
   {
-    "contractor": "EXCALIBUR GROUP LLC | Brian",
+    "contractor": "TRU HOMES LLC",
     "count": 1,
-    "score_total": 27,
-    "valuation_total": 1252341.09
+    "score_total": 25,
+    "valuation_total": 802113.0
+  },
+  {
+    "contractor": "VIKING CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 614685.01
+  },
+  {
+    "contractor": "RSB CUSTOMS LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 803892.84
   },
   {
     "contractor": "MOUNTAINVIEW CONTRACTORS LLC",
@@ -882,24 +900,6 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "VIKING CONSTRUCTION",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 614685.01
-  },
-  {
-    "contractor": "RSB CUSTOMS LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 803892.84
-  },
-  {
-    "contractor": "TRU HOMES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 802113.0
-  },
-  {
     "contractor": "Tradewinds General Contracting, Inc",
     "count": 1,
     "score_total": 20,
@@ -916,6 +916,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
+  },
+  {
+    "contractor": "INLAND CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 129901.2
   },
   {
     "contractor": "Hammett Companies dba Hammett Homes",
@@ -1810,11 +1816,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "INLAND CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 129901.2
   }
 ]
