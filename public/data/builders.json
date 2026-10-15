@@ -84,16 +84,16 @@
     "valuation_total": 2543995.92
   },
   {
+    "contractor": "HHS CONSTRUCTION LLC",
+    "count": 8,
+    "score_total": 174,
+    "valuation_total": 5163161.12
+  },
+  {
     "contractor": "Core Building Co",
     "count": 8,
     "score_total": 160,
     "valuation_total": 0
-  },
-  {
-    "contractor": "HHS CONSTRUCTION LLC",
-    "count": 7,
-    "score_total": 147,
-    "valuation_total": 4138561.12
   },
   {
     "contractor": "TEAL POINT CUSTOM HOMES LLC",
@@ -166,6 +166,12 @@
     "count": 3,
     "score_total": 81,
     "valuation_total": 3656600.0
+  },
+  {
+    "contractor": "Solitude Homes Inc",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
   },
   {
     "contractor": "Highland Homes LLC",
@@ -253,12 +259,6 @@
   },
   {
     "contractor": "SCHELL BROTHERS BOISE",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Solitude Homes Inc",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
