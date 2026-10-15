@@ -6,12 +6,18 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 14 Oct 2026 21:53:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 04:49:21 +0000</lastBuildDate>
     <item>
-      <title>[15] Eagle: new house — 6358 W Danes Court</title>
+      <title>[20] Eagle: New Home — 6358 W DANES CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29809054</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <description>SINGLE_FAMILY | ABC &amp; MHK INC DBA BROOKSTONE CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268440</guid>
+    </item>
+    <item>
+      <title>[15] Eagle: new house — 6228 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29809115</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268443</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 729,986</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1375</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sneed Residence — 11414 W Miskin Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | TRUE NORTH HOMES LLC DBA | 529,315</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1351</guid>
     </item>
   </channel>
 </rss>
