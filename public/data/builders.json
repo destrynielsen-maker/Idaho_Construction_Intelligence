@@ -426,6 +426,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "ARTERRA CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -898,12 +904,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   },
   {
     "contractor": "Tradewinds General Contracting, Inc",
