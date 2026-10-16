@@ -25,8 +25,8 @@
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 16,
-    "score_total": 320,
+    "count": 17,
+    "score_total": 340,
     "valuation_total": 0
   },
   {
@@ -48,13 +48,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Biltmore Company, LLC",
-    "count": 10,
-    "score_total": 200,
+    "contractor": "Core Building Co",
+    "count": 11,
+    "score_total": 220,
     "valuation_total": 0
   },
   {
-    "contractor": "Core Building Co",
+    "contractor": "Biltmore Company, LLC",
     "count": 10,
     "score_total": 200,
     "valuation_total": 0
@@ -126,16 +126,16 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "BOISE PLH, LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Jeffrey Clemens",
     "count": 6,
     "score_total": 120,
     "valuation_total": 1004016.0
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 0
   },
   {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
@@ -1822,5 +1822,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "Jon Gaston",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 365000.0
   }
 ]
