@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 16 Oct 2026 04:43:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 11:33:44 +0000</lastBuildDate>
     <item>
       <title>[27] Boise: HR 14-01 — 5849 E PROMINENCE CT, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00OY8&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -14,16 +14,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02344</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 7389 N HILLSWICK WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29820758</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268459</guid>
-    </item>
-    <item>
       <title>[20] Eagle: New Home — 2047 S ISLA DEL RIO WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29820933</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268461</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7389 N HILLSWICK WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29820758</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268459</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6228 W DANES CT</title>
