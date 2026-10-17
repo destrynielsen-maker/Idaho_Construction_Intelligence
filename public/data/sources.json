@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T10:41:04+00:00",
+  "generated_at": "2026-10-17T15:31:59+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 989,
-      "qualifying_records": 26,
+      "records_seen": 960,
+      "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
     },
