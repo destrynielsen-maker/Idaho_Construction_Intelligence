@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 16 Oct 2026 21:19:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:36:17 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 7900 W FLATHEAD LAKE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29823522</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268516</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6652 W VELINO CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29822769</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268499</guid>
+    </item>
     <item>
       <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-12-02 (9282-0033) — 2071 N HONALEE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29822532</link>
@@ -44,16 +56,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02054</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 7900 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29823522</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268516</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6652 W VELINO CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29822769</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268499</guid>
+      <title>[15] Eagle: This residential building permit application is for a new single family residential home located at 7237 W Buckland Dr, Eagle, ID 83616 or Terra View 15/7. The plans are the same as our previous application for Terra View 4/12; this is due to the house size and setbacks thus the plans had to be moved to a lot that accommodated these plans. — 7237 W Buckland Dr, Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29824031</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268526</guid>
     </item>
     <item>
       <title>[27] Boise: HR 14-01 — 5849 E PROMINENCE CT, Boise ID 83716</title>
@@ -1203,12 +1209,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
       <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 1,291,553</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1636</guid>
-    </item>
-    <item>
-      <title>[27] Boise: Pabon Residence — 118 N CASTELLO PL, Boise ID 83712</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MRD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | URBAN LLC | 2,000,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02137</guid>
     </item>
   </channel>
 </rss>
