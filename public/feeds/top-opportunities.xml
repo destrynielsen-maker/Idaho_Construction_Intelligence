@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 19 Oct 2026 13:23:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 22:34:25 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -344,6 +344,18 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
     </item>
     <item>
+      <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29827709</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268582</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29827680</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268580</guid>
+    </item>
+    <item>
       <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -525,9 +537,10 @@
     </item>
     <item>
       <title>[40] Canyon County: NEW SINGLE-STORY SPECIAL EVENT VENUE BUILDING WITH NPFA 13 FIRE SPRINKLER SYSTEM THROUGHOUT.
-&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA. — 22782 CALLA LILY LN, Middleton   836440000</title>
+&#13; BUILDING INCLUDES LARGE GATHERING SPACE WITH RESTROOMS, STORAGE AND CATERING STAGING AREA.&#13;
+Changed contact to Property Owner/Contractor that was originally the architect (See OB for Documentation) 10/14/26  MG — 22782 CALLA LILY LN, Middleton   836440000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | THE ARCHITECTS OFFICE PLLC | 650,000</description>
+      <description>COMMERCIAL | DAVIS JOSH | 650,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0597</guid>
     </item>
     <item>
@@ -711,8 +724,7 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0049</guid>
     </item>
     <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018)&#13;
-DO NOT ISSUE BP UNTIL CP2026-0051 IS APPROVED/COMPLETE — 24783 BOISE RIVER RD, Parma   836600000</title>
+      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018) — 24783 BOISE RIVER RD, Parma   836600000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | CONSOR | 300,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
