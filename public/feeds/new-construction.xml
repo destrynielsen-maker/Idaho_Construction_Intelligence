@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 19 Oct 2026 22:34:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 05:01:42 +0000</lastBuildDate>
     <item>
       <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29827709</link>
@@ -18,6 +18,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29827680</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268580</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6938 W CAVENDALE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29827711</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268583</guid>
     </item>
     <item>
       <title>[20] Boise: Monitor Way/Syringa Springs — 10060 W MALAD ST, Boise ID 83709</title>
@@ -32,10 +38,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02776</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 6938 W CAVENDALE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29827711</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268583</guid>
+      <title>[15] Eagle: Single family, new construction home — 7679 W Starwood Ct. Eagle</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268588</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dixon Residence — 1875 S Gateway Ranch Rd</title>
@@ -110,6 +116,18 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0791</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lapushinski — 25875 N Fjord Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
+      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 343,251</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1527</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Houk Residence — 18124 S Rockford Pines Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
+      <description>SINGLE_FAMILY | ROCKY MOUNTAIN CONCIERGE LLC | 424,765</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0726</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 2047 S ISLA DEL RIO WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29820933</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
@@ -122,28 +140,16 @@
       <guid isPermaLink="false">ID:EAGLE:268459</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Houk Residence — 18124 S Rockford Pines Rd</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Snyder residence — 2525 E Upper Hayden Lake Rd</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | ROCKY MOUNTAIN CONCIERGE LLC | 424,765</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0726</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lapushinski — 25875 N Fjord Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 343,251</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1527</guid>
+      <description>SINGLE_FAMILY | CREEKSIDE CONSTRUCTION LLC | 969,459</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1451</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Weiner residence — 4926 [TEMP] S Scenic Drive</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
       <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 796,131</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1263</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Snyder residence — 2525 E Upper Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | CREEKSIDE CONSTRUCTION LLC | 969,459</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1451</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6228 W DANES CT</title>
@@ -162,6 +168,12 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 599,629</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1694</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dredge-Dickson — 14564 [TEMP] E Marie Creek</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
+      <description>SINGLE_FAMILY | CDA STRUCTURES | 398,341</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1424</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
@@ -200,10 +212,10 @@
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
     </item>
     <item>
-      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
+      <title>[20] Canyon County: NEW SECONDARY SFR/W ATTACHED GARAGE AND RV BAY   Final SWDH met in office at intake 10/15/26 LH — 5129 CALMING VIEW LN, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | SHARP LYNN | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0780</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
@@ -213,16 +225,10 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SECONDARY SFR/W ATTACHED GARAGE AND RV BAY   Final SWDH met in office at intake 10/15/26 LH — 5129 CALMING VIEW LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SHARP LYNN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0780</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dredge-Dickson — 14564 [TEMP] E Marie Creek</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | CDA STRUCTURES | 398,341</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1424</guid>
+      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6300 W Danes Ct</title>
@@ -1203,12 +1209,6 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
       <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6732 E Emma Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29731509</link>
-      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267757</guid>
     </item>
   </channel>
 </rss>

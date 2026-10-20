@@ -33,7 +33,7 @@
     "contractor": "TIMBERED RIDGE HOMES LLC",
     "count": 11,
     "score_total": 275,
-    "valuation_total": 8096347.92
+    "valuation_total": 8096347.920000001
   },
   {
     "contractor": "HUBBLE HOMES LLC",
@@ -78,16 +78,16 @@
     "valuation_total": 2606878.3
   },
   {
-    "contractor": "STERLING HOMES INC",
-    "count": 9,
-    "score_total": 180,
-    "valuation_total": 0
-  },
-  {
     "contractor": "Thomas Lufkin",
     "count": 9,
     "score_total": 180,
     "valuation_total": 1992166.0
+  },
+  {
+    "contractor": "STERLING HOMES INC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 0
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -426,6 +426,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "CDA STRUCTURES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 711358.1000000001
+  },
+  {
     "contractor": "ARTERRA CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -526,12 +532,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 748223.95
-  },
-  {
-    "contractor": "CDA STRUCTURES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 711358.1000000001
   },
   {
     "contractor": "KOUBA HOMES LLC",
@@ -700,6 +700,24 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "TRAILHEAD STRUCTURES | WENGER",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 966377.56
+  },
+  {
+    "contractor": "IDADREAM HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 520690.4
+  },
+  {
+    "contractor": "CREEKSIDE CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 969458.66
   },
   {
     "contractor": "TRU HOMES LLC",
@@ -912,24 +930,6 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "IDADREAM HOMES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 520690.4
-  },
-  {
-    "contractor": "TRAILHEAD STRUCTURES | WENGER",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 966377.56
-  },
-  {
-    "contractor": "CREEKSIDE CONSTRUCTION LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 969458.66
-  },
-  {
     "contractor": "KW HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -940,6 +940,36 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 365000.0
+  },
+  {
+    "contractor": "PINNACLE GENERAL CONTRACTING",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 343250.66
+  },
+  {
+    "contractor": "ROCKY MOUNTAIN CONCIERGE LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 424764.86
+  },
+  {
+    "contractor": "PEREZ CRUZ JUAN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "SHARP LYNN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "GRIFFIN CY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "Tradewinds General Contracting, Inc",
@@ -1710,6 +1740,12 @@
     "valuation_total": 307889.52
   },
   {
+    "contractor": "VALUE HOMES OF IDAHO",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 335450.04
+  },
+  {
     "contractor": "PREMIUM SOLUTIONS, LLC",
     "count": 1,
     "score_total": 20,
@@ -1804,41 +1840,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "PEREZ CRUZ JUAN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "GRIFFIN CY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "SHARP LYNN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "VALUE HOMES OF IDAHO",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 335450.04
-  },
-  {
-    "contractor": "ROCKY MOUNTAIN CONCIERGE LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 424764.86
-  },
-  {
-    "contractor": "PINNACLE GENERAL CONTRACTING",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 343250.66
   }
 ]
