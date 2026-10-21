@@ -930,6 +930,18 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "JAKUBIAK JOSEPH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "NIBLETT CHRISTY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "SUNRISE DEVELOPMENT LLC",
     "count": 1,
     "score_total": 20,
@@ -1800,6 +1812,12 @@
     "valuation_total": 155410.2
   },
   {
+    "contractor": "BLEAK COBY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 110432.52
+  },
+  {
     "contractor": "AERO CONSTRUCTION LLC",
     "count": 1,
     "score_total": 20,
@@ -1840,23 +1858,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "NIBLETT CHRISTY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "JAKUBIAK JOSEPH",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "BLEAK COBY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 110432.52
   }
 ]
