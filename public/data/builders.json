@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 57,
-    "score_total": 1302,
-    "valuation_total": 10246539.87
+    "count": 63,
+    "score_total": 1422,
+    "valuation_total": 10972479.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -556,6 +556,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
+  },
+  {
+    "contractor": "STORY BUILDERS LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 392697.84
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
@@ -1348,12 +1354,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 285327.48
-  },
-  {
-    "contractor": "STORY BUILDERS LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 392697.84
   },
   {
     "contractor": "LEXAR HOMES",

@@ -6,7 +6,49 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 20 Oct 2026 21:49:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 04:57:43 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 45-5 Barnwood #3 — 7226 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SZ6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 127,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02837</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 44-5 Barnwood #3 — 7212 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 139,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02836</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 42-5 Barnwood #3 — 7188 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 168,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02833</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 41-5 Barnwood #3 — 7164 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 133,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02832</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-10 Kirsten #2 — 6458 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 67,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02447</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 3-10 Kirsten #2 — 6450 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Single Family, single story home with 4 bedrooms, 4 full bathrooms, 2 1/2 bathrooms, game room, gym, office, 3 car attached garage, and attached RV garage. — 946 N. Delehaye Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
+      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268619</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
@@ -1168,48 +1210,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://portal.iworq.net/EAGLE/permit/600/29723912</link>
       <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267669</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7603 W ROCKHAVEN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29723849</link>
-      <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267668</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 791 W GLEN BELLO ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29723612</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267659</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2453 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29723044</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267649</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2440 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29723019</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267648</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BREEZEVIEW LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | MENDIOLA CUSTOM HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0719</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dowers ALU — 5150( TEMP) S STATELINE</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 217,388</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0220</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24264 [TEMP] N Ceylon Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 838,898</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1497</guid>
     </item>
   </channel>
 </rss>

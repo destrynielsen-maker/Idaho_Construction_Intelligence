@@ -6,7 +6,49 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 20 Oct 2026 21:49:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 04:57:43 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 45-5 Barnwood #3 — 7226 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SZ6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 127,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02837</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 44-5 Barnwood #3 — 7212 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 139,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02836</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 42-5 Barnwood #3 — 7188 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 168,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02833</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 41-5 Barnwood #3 — 7164 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 133,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02832</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-10 Kirsten #2 — 6458 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 67,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02447</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 3-10 Kirsten #2 — 6450 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Single Family, single story home with 4 bedrooms, 4 full bathrooms, 2 1/2 bathrooms, game room, gym, office, 3 car attached garage, and attached RV garage. — 946 N. Delehaye Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
+      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268619</guid>
+    </item>
     <item>
       <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29827709</link>
@@ -1167,48 +1209,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29738295</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267806</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5805 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738286</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267805</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5821 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738276</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267804</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 7108 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29732469</link>
-      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267765</guid>
-    </item>
-    <item>
-      <title>[42] Kootenai County: NEW OFFICE BLDG W/SHOP | KGG PARTNERSHIP | — 9374 N MCGUIRE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>COMMERCIAL | Pro Builders General Contractors, | 2,747,248</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0036</guid>
-    </item>
-    <item>
-      <title>[30] Eagle: Terra View #5 Pump House — N BELLROCK AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29730464</link>
-      <description>COMMERCIAL | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267748</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
     </item>
   </channel>
 </rss>
