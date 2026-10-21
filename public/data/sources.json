@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T11:45:48+00:00",
+  "generated_at": "2026-10-21T17:09:50+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 966,
+      "records_seen": 962,
       "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -44,10 +44,10 @@
     {
       "source": "Coeur d'Alene",
       "status": "ok",
-      "records_seen": 93,
+      "records_seen": 94,
       "qualifying_records": 1,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-07 through 2026-10-21; 93 primary building permits parsed; newest primary building permit issued 2026-10-20"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-07 through 2026-10-21; 94 primary building permits parsed; newest primary building permit issued 2026-10-21"
     },
     {
       "source": "Kootenai County",

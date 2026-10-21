@@ -12,16 +12,16 @@
     "valuation_total": 2860000.0
   },
   {
+    "contractor": "TRESIDIO HOMES",
+    "count": 18,
+    "score_total": 385,
+    "valuation_total": 0
+  },
+  {
     "contractor": "BLACKROCK HOMES LLC",
     "count": 19,
     "score_total": 380,
     "valuation_total": 3419371.28
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 17,
-    "score_total": 365,
-    "valuation_total": 0
   },
   {
     "contractor": "Toll Bros, Inc",
@@ -132,12 +132,6 @@
     "valuation_total": 1004016.0
   },
   {
-    "contractor": "PATHWAY BUILDERS",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 1217316.0
-  },
-  {
     "contractor": "AMH DEVELOPMENT IDAHO GC TRS, LLC",
     "count": 5,
     "score_total": 100,
@@ -184,6 +178,12 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
+  },
+  {
+    "contractor": "PATHWAY BUILDERS",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 948789.84
   },
   {
     "contractor": "Highland Homes LLC",
@@ -244,6 +244,12 @@
     "count": 3,
     "score_total": 70,
     "valuation_total": 1990712.3800000001
+  },
+  {
+    "contractor": "BIG COUNTRY FENCING",
+    "count": 2,
+    "score_total": 65,
+    "valuation_total": 567128.04
   },
   {
     "contractor": "COPPER CANYON HOMES LLC",
@@ -352,6 +358,12 @@
     "count": 2,
     "score_total": 45,
     "valuation_total": 1000000.0
+  },
+  {
+    "contractor": "MENDIOLA CUSTOM HOMES INC",
+    "count": 2,
+    "score_total": 45,
+    "valuation_total": 819418.3200000001
   },
   {
     "contractor": "TRUE NORTH HOMES LLC DBA",
@@ -468,12 +480,6 @@
     "valuation_total": 391540.0
   },
   {
-    "contractor": "PROMINENT HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 753572.88
-  },
-  {
     "contractor": "ALLIANCE BUILDING",
     "count": 2,
     "score_total": 40,
@@ -484,12 +490,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 827717.4199999999
-  },
-  {
-    "contractor": "MENDIOLA CUSTOM HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 316617.84
   },
   {
     "contractor": "Hayden Watson",
@@ -556,12 +556,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
-  },
-  {
-    "contractor": "BIG COUNTRY FENCING",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 567128.04
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
@@ -1260,6 +1254,12 @@
     "valuation_total": 291820.8
   },
   {
+    "contractor": "PROMINENT HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 404676.96
+  },
+  {
     "contractor": "IRONWOOD STRUCTURES LLC",
     "count": 1,
     "score_total": 20,
@@ -1626,12 +1626,6 @@
     "valuation_total": 309585.0
   },
   {
-    "contractor": "BRADSHAW CUSTOM HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 250534.08
-  },
-  {
     "contractor": "SOLITUDE HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -1846,5 +1840,23 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "NIBLETT CHRISTY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "JAKUBIAK JOSEPH",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BLEAK COBY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 110432.52
   }
 ]

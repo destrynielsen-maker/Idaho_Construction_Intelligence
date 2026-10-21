@@ -6,9 +6,15 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 21 Oct 2026 11:59:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 17:25:09 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: Single Family, single story home with 4 bedrooms, 4 full bathrooms, 2 1/2 bathrooms, game room, gym, office, 3 car attached garage, and attached RV garage. — 946 N. Delehaye Ave.</title>
+      <title>[20] Eagle: EA 13-01 NEW SFD — 7097 W. TOLLAND ST.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29834477</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268629</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
       <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268619</guid>
@@ -48,6 +54,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR 2676 SQ. FT. — 19641 SUNSET HILL LN, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | NIBLETT CHRISTY | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0796</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW ACC. GARAGE 14x22 — 9234 TULA DR, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | JAKUBIAK JOSEPH | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0797</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>
@@ -242,14 +260,14 @@
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SECONDARY SFR/W ATTACHED GARAGE AND RV BAY   Final SWDH met in office at intake 10/15/26 LH — 5129 CALMING VIEW LN, Nampa   836860000</title>
+      <title>[20] Canyon County: NEW SECONDARY SFR W/ ATTACHED GARAGE AND RV BAY   Final SWDH met in office at intake 10/15/26 LH — 5129 CALMING VIEW LN, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | SHARP LYNN | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0780</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***Do not issue until AD2026-0154 has been approved*** — 0 ALAMO LN, Nampa   836860000</title>
+***Do not issue until AD2026-0154 has been approved + GIS viewer reflects change*** — 0 ALAMO LN, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | GRIFFIN CY | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
@@ -742,14 +760,14 @@
       <guid isPermaLink="false">ID:EAGLE:268000</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 19181 TOP RD, Greenleaf   836260000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Fire: Exempt over 5 acres — 19181 TOP RD, Greenleaf   836260000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | IDAHO DISASTER SOLUTIONS | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0756</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***DO NOT ISSUE UNTIL CP2026-0074 IS APPROVED*** — 0 LINCOLN RD, Caldwell   836050000</title>
+***DO NOT ISSUE UNTIL CP2026-0074 IS APPROVED*** — 20978 FOGGY LN, Caldwell   836050000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0754</guid>
@@ -1110,12 +1128,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14281 RED RIVER AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 348,896</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0722</guid>
-    </item>
-    <item>
       <title>[20] Boise: 8-5 Kirsten #2 — 6549 S ZIPPORA AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 75,990</description>
@@ -1198,18 +1210,6 @@ DO NOT ISSUE UNTIL PRIVATE ROAD &amp; CP ARE APPLIED FOR AND APPROVED AND WE REC
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00GN7&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | VISSER BUILDING COMPANY LLC | 1,400,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01583</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | SaRidge LLC — 28449 [TEMP] N Lewellen</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3575</link>
-      <description>SINGLE_FAMILY | BLUE COLLAR CONTRACTING LLC | 407,018</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1205</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2304 N BUHRSTONE PL</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29723912</link>
-      <description>SINGLE_FAMILY | SCHELL BROTHERS BOISE | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267669</guid>
     </item>
   </channel>
 </rss>
