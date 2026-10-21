@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 21 Oct 2026 04:57:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 11:59:29 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: Single Family, single story home with 4 bedrooms, 4 full bathrooms, 2 1/2 bathrooms, game room, gym, office, 3 car attached garage, and attached RV garage. — 946 N. Delehaye Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
+      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268619</guid>
+    </item>
     <item>
       <title>[20] Boise: 45-5 Barnwood #3 — 7226 S CHINOOK AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SZ6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -42,12 +48,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: Single Family, single story home with 4 bedrooms, 4 full bathrooms, 2 1/2 bathrooms, game room, gym, office, 3 car attached garage, and attached RV garage. — 946 N. Delehaye Ave.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
-      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268619</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>

@@ -420,6 +420,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "STORY BUILDERS LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 392697.84
+  },
+  {
     "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
     "count": 2,
     "score_total": 40,
@@ -556,12 +562,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 567128.04
-  },
-  {
-    "contractor": "STORY BUILDERS LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 392697.84
   },
   {
     "contractor": "TKO HOMES BOISE LLC",
