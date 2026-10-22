@@ -6,12 +6,36 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 22 Oct 2026 12:03:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:24:13 +0000</lastBuildDate>
+    <item>
+      <title>[40] Eagle: New Townhome — 7092 W AMAZON DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29838248</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268669</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29836284</link>
+      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268649</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 7097 W TOLLAND ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29834477</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268629</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13349 PROMINENCE RIDGE LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 0 GARNET RD, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0803</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
@@ -270,12 +294,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29802540</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SECONDARY SFR W/ ATTACHED GARAGE AND RV BAY   Final SWDH met in office at intake 10/15/26 LH — 5129 CALMING VIEW LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SHARP LYNN | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0780</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
@@ -850,7 +868,8 @@
       <guid isPermaLink="false">ID:EAGLE:268000</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Fire: Exempt over 5 acres — 19181 TOP RD, Greenleaf   836260000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Fire: Exempt over 5 acres&#13;
+***Do not issue until the building permit application has been received for the Shop*** — 19181 TOP RD, Greenleaf   836260000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | IDAHO DISASTER SOLUTIONS | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0756</guid>
@@ -1191,24 +1210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00630</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5488 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00629</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK11 CHERRY GROVE #5 — 7662 E Mount Pleasant Dr Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 136,983</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18926-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT11 BLK03 REFLECTIONS EDGE #1 — 1480 S La Escalera Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 181,203</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18925-2026</guid>
     </item>
   </channel>
 </rss>

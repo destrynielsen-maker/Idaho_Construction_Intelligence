@@ -78,6 +78,12 @@
     "valuation_total": 2606878.3
   },
   {
+    "contractor": "TEAL POINT CUSTOM HOMES LLC",
+    "count": 9,
+    "score_total": 180,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Thomas Lufkin",
     "count": 9,
     "score_total": 180,
@@ -94,12 +100,6 @@
     "count": 8,
     "score_total": 174,
     "valuation_total": 5163161.120000001
-  },
-  {
-    "contractor": "TEAL POINT CUSTOM HOMES LLC",
-    "count": 8,
-    "score_total": 160,
-    "valuation_total": 0
   },
   {
     "contractor": "MBH LLC",
@@ -276,6 +276,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "ALLIANCE BUILDING",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 750690.72
+  },
+  {
     "contractor": "Boise PLH, LLC",
     "count": 3,
     "score_total": 60,
@@ -316,6 +322,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 810037.2
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 386002.80000000005
   },
   {
     "contractor": "ENGINEERED STRUCTURES, INC.",
@@ -480,12 +492,6 @@
     "valuation_total": 391540.0
   },
   {
-    "contractor": "ALLIANCE BUILDING",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 522222.48
-  },
-  {
     "contractor": "BLUE COLLAR CONTRACTING LLC",
     "count": 2,
     "score_total": 40,
@@ -534,6 +540,12 @@
     "valuation_total": 682255.92
   },
   {
+    "contractor": "ALDER RIDGE CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 404790.04
+  },
+  {
     "contractor": "MAYBON HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -580,12 +592,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 754500.36
-  },
-  {
-    "contractor": "IDEAL CUSTOM HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 386002.80000000005
   },
   {
     "contractor": "HARTWIG GARY",
@@ -978,12 +984,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "SHARP LYNN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
     "contractor": "GRIFFIN CY",
     "count": 1,
     "score_total": 20,
@@ -1180,12 +1180,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 407408.88
-  },
-  {
-    "contractor": "ALDER RIDGE CUSTOM HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 404790.04
   },
   {
     "contractor": "BUILDING IDAHO CONSTRUCTION",
