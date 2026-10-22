@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 22 Oct 2026 17:24:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 21:47:51 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-11-02 (9282-0023) — 2096 N HONALEE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268686</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29836284</link>
@@ -20,16 +26,16 @@
       <guid isPermaLink="false">ID:EAGLE:268629</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13349 PROMINENCE RIDGE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
-    </item>
-    <item>
       <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 0 GARNET RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0803</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13349 PROMINENCE RIDGE LN, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
@@ -1204,12 +1210,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29725879</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267690</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE AND RV GARAGE — 12100 OCTOBER GLORY ST, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALLIANCE BUILDING | 245,319</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0721</guid>
     </item>
   </channel>
 </rss>
