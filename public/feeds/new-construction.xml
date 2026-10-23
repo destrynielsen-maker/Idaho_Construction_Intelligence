@@ -6,7 +6,37 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 11:49:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 17:18:48 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 2137 N HONALEE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29843121</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268697</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7008 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842729</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268693</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2431 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842555</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268691</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2409 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842535</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268690</guid>
+    </item>
+    <item>
+      <title>[20] Coeur d'Alene: BUILDING NEW SFD — 1511 N LINCOLN WY</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>SINGLE_FAMILY | JASON MORETT DBA HOMES NORTHWEST LLC | 225,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151515-B</guid>
+    </item>
     <item>
       <title>[40] Eagle: New Townhome — 7084 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29838582</link>
@@ -20,13 +50,13 @@
       <guid isPermaLink="false">ID:EAGLE:268669</guid>
     </item>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage + RV Bay, Covered Entry and Covered Patio — 7642 W Flathead Lake St., Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 7642 W FLATHEAD LAKE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841822</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268687</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-11-02 (9282-0023) — 2096 N HONALEE AVE</title>
+      <title>[20] Eagle: New Home — 2096 N HONALEE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
@@ -1180,36 +1210,6 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
       <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18931-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT13 BLK 01 GRAND CENTRAL SUBDIVISION — 1555 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18929-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT56 BLK07 HARVEST CREEK #5 — 5209 E Patchwork Dr Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 177,438</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18892-2026</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8424 Cathedral St</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29737869</link>
-      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267802</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 7-4 Kirsten #2 — 6558 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PIO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02410</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 8-4 Kirsten #2 — 6550 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6X&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02373</guid>
     </item>
   </channel>
 </rss>

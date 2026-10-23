@@ -6,15 +6,45 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 11:49:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 17:18:48 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage + RV Bay, Covered Entry and Covered Patio — 7642 W Flathead Lake St., Eagle, ID 83616</title>
+      <title>[20] Eagle: New Home — 2137 N HONALEE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29843121</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268697</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7008 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842729</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268693</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2431 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842555</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268691</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 2409 E MONHEGAN DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29842535</link>
+      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268690</guid>
+    </item>
+    <item>
+      <title>[20] Coeur d'Alene: BUILDING NEW SFD — 1511 N LINCOLN WY</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>SINGLE_FAMILY | JASON MORETT DBA HOMES NORTHWEST LLC | 225,000</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:151515-B</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7642 W FLATHEAD LAKE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841822</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268687</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-11-02 (9282-0023) — 2096 N HONALEE AVE</title>
+      <title>[20] Eagle: New Home — 2096 N HONALEE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
@@ -1180,36 +1210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6513 W DANES DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29728133</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267722</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7072 W CRISTOBAL DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29727371</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267714</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6264 W CARNOCK DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29727277</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267711</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6226 W LES MUIRE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29726497</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267702</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5540 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29725967</link>
-      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267692</guid>
     </item>
   </channel>
 </rss>

@@ -12,6 +12,12 @@
     "valuation_total": 2860000.0
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 20,
+    "score_total": 400,
+    "valuation_total": 0
+  },
+  {
     "contractor": "TRESIDIO HOMES",
     "count": 18,
     "score_total": 385,
@@ -22,12 +28,6 @@
     "count": 19,
     "score_total": 380,
     "valuation_total": 3419371.28
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 18,
-    "score_total": 360,
-    "valuation_total": 0
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
@@ -49,6 +49,12 @@
   },
   {
     "contractor": "Core Building Co",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "STERLING HOMES INC",
     "count": 11,
     "score_total": 220,
     "valuation_total": 0
@@ -88,12 +94,6 @@
     "count": 9,
     "score_total": 180,
     "valuation_total": 1992166.0
-  },
-  {
-    "contractor": "STERLING HOMES INC",
-    "count": 9,
-    "score_total": 180,
-    "valuation_total": 0
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -1852,5 +1852,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 225000.0
   }
 ]
