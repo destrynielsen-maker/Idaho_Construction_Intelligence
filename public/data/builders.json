@@ -102,6 +102,12 @@
     "valuation_total": 5163161.120000001
   },
   {
+    "contractor": "BOISE PLH, LLC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
+  },
+  {
     "contractor": "MBH LLC",
     "count": 7,
     "score_total": 140,
@@ -118,12 +124,6 @@
     "count": 4,
     "score_total": 130,
     "valuation_total": 1441659.88
-  },
-  {
-    "contractor": "BOISE PLH, LLC",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 0
   },
   {
     "contractor": "Jeffrey Clemens",

@@ -6,13 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 22 Oct 2026 21:47:51 +0000</lastBuildDate>
-    <item>
-      <title>[40] Eagle: New Townhome — 7092 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29838248</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268669</guid>
-    </item>
+    <lastBuildDate>Fri, 23 Oct 2026 05:00:13 +0000</lastBuildDate>
     <item>
       <title>[40] Eagle: New Townhome — 7084 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29838582</link>
@@ -20,10 +14,22 @@
       <guid isPermaLink="false">ID:EAGLE:268673</guid>
     </item>
     <item>
+      <title>[40] Eagle: New Townhome — 7092 W AMAZON DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29838248</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268669</guid>
+    </item>
+    <item>
       <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-11-02 (9282-0023) — 2096 N HONALEE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 3.5 Bathroom, 3-Car Garage + RV Bay, Covered Entry and Covered Patio — 7642 W Flathead Lake St., Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29841822</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268687</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
@@ -1204,12 +1210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6X&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02373</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5480 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00735&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00647</guid>
     </item>
   </channel>
 </rss>
