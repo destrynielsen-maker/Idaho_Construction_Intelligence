@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 17:18:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 21:37:37 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -24,6 +24,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=007XA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | PERRYMAN CONSTRUCTION MANAGEMENT INC | 3,283,462</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00739</guid>
+    </item>
+    <item>
+      <title>[50] Coeur d'Alene: 5 UNIT TOWNHOUSE — 954 W GROVE WY</title>
+      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
+      <description>MULTIFAMILY | BRADY ERIC OAKLAND | 941,059</description>
+      <guid isPermaLink="false">ID:COEUR D'ALENE:153070-B</guid>
     </item>
     <item>
       <title>[50] Nampa: Scope of Work: THREE STORY APARTMENT BUILDING. 16 APARTMENT UNITS WITH 7 GARAGES ON THE FIRST FLOOR. EMPs — Permit Number: COM-04918-2025 Situs: 4424 E Amity Ave Nampa, Id 83687</title>

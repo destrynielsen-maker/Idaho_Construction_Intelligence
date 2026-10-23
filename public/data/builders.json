@@ -48,13 +48,13 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Core Building Co",
+    "contractor": "STERLING HOMES INC",
     "count": 11,
     "score_total": 220,
     "valuation_total": 0
   },
   {
-    "contractor": "STERLING HOMES INC",
+    "contractor": "Core Building Co",
     "count": 11,
     "score_total": 220,
     "valuation_total": 0
@@ -364,6 +364,12 @@
     "count": 2,
     "score_total": 50,
     "valuation_total": 1468380.03
+  },
+  {
+    "contractor": "BRADY ERIC OAKLAND",
+    "count": 1,
+    "score_total": 50,
+    "valuation_total": 941059.22
   },
   {
     "contractor": "NATHAN TAYLOR",
@@ -934,6 +940,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 225000.0
   },
   {
     "contractor": "JAKUBIAK JOSEPH",
@@ -1854,9 +1866,9 @@
     "valuation_total": 301056.72
   },
   {
-    "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
+    "contractor": "AVIMOR DEVELOPMENT LLC",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 225000.0
+    "valuation_total": 0
   }
 ]

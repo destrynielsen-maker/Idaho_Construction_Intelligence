@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 17:18:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 21:37:37 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 2137 N HONALEE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29843121</link>
@@ -36,6 +36,12 @@
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>SINGLE_FAMILY | JASON MORETT DBA HOMES NORTHWEST LLC | 225,000</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:151515-B</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home Construction — 8349 Maclachlan Dr, Eagle</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29862989</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268705</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7642 W FLATHEAD LAKE ST</title>
@@ -1204,12 +1210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PD3&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 105,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02389</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 22-6 Kirsten #2 — 6481 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 112,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02388</guid>
     </item>
   </channel>
 </rss>
