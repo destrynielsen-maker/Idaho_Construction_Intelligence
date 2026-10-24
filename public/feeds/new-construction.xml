@@ -6,12 +6,18 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 21:37:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 04:49:49 +0000</lastBuildDate>
     <item>
       <title>[50] Coeur d'Alene: 5 UNIT TOWNHOUSE — 954 W GROVE WY</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | BRADY ERIC OAKLAND | 941,059</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:153070-B</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8349 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29862989</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268705</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 2137 N HONALEE AVE</title>
@@ -44,10 +50,28 @@
       <guid isPermaLink="false">ID:COEUR D'ALENE:151515-B</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home Construction — 8349 Maclachlan Dr, Eagle</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29862989</link>
-      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268705</guid>
+      <title>[20] Boise: 2-10 Kirsten #2 — 6444 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PKM&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Rocky Allison | 77,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02427</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 1-10 Kirsten #2 — 6412 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02424</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Asin Rental — 6216 W YORK ST, Boise ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IDI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | ASIN HOMES LLC | 240,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01754</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Stutzman Rental — 6214 W YORK ST, 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00ID9&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | ASIN HOMES LLC | 240,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01753</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 7084 W AMAZON DR</title>
@@ -1186,30 +1210,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29740854</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267832</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 3842 W SPRING HOUSE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740515</link>
-      <description>SINGLE_FAMILY | ALL CONTRACTING LLP | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267830</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1952 N CAWOOD WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740498</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267829</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6935 W CAVENDALE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29739536</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267815</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16978 SPRING MEADOW DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SIERRA CONSTRUCTION OF IDAHO LLC | 334,491</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0731</guid>
     </item>
   </channel>
 </rss>

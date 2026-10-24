@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 63,
-    "score_total": 1422,
-    "valuation_total": 10972479.87
+    "count": 64,
+    "score_total": 1442,
+    "valuation_total": 11062469.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -606,6 +606,12 @@
     "valuation_total": 393768.96
   },
   {
+    "contractor": "ASIN HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 480000.0
+  },
+  {
     "contractor": "PEARMAN CONTRACTING LLC",
     "count": 1,
     "score_total": 40,
@@ -940,6 +946,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
@@ -1866,9 +1878,9 @@
     "valuation_total": 301056.72
   },
   {
-    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "contractor": "Rocky Allison",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 77990.0
   }
 ]
