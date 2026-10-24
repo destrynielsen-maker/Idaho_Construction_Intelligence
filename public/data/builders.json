@@ -450,6 +450,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "ASIN HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 480000.0
+  },
+  {
     "contractor": "ALDER RIDGE CUSTOM HOMES",
     "count": 2,
     "score_total": 40,
@@ -604,12 +610,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 393768.96
-  },
-  {
-    "contractor": "ASIN HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 480000.0
   },
   {
     "contractor": "PEARMAN CONTRACTING LLC",
@@ -958,6 +958,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 225000.0
+  },
+  {
+    "contractor": "Rocky Allison",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 77990.0
   },
   {
     "contractor": "JAKUBIAK JOSEPH",
@@ -1876,11 +1882,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Rocky Allison",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 77990.0
   }
 ]
