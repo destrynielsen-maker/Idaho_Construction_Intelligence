@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:43:55+00:00",
+  "generated_at": "2026-10-26T12:58:12+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -23,7 +23,7 @@
       "records_seen": 120,
       "qualifying_records": 12,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits; 9 detail page(s) unparsed"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits; 5 detail page(s) unparsed"
     },
     {
       "source": "Canyon County",
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 94,
-      "qualifying_records": 3,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-12 through 2026-10-26; 94 primary building permits parsed; newest primary building permit issued 2026-10-23"
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
     },
     {
       "source": "Kootenai County",
