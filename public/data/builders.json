@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 64,
-    "score_total": 1442,
-    "valuation_total": 11062469.87
+    "count": 66,
+    "score_total": 1482,
+    "valuation_total": 11511449.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -12,15 +12,15 @@
     "valuation_total": 2860000.0
   },
   {
-    "contractor": "Toll Bros, Inc",
-    "count": 20,
-    "score_total": 400,
+    "contractor": "TRESIDIO HOMES",
+    "count": 19,
+    "score_total": 405,
     "valuation_total": 0
   },
   {
-    "contractor": "TRESIDIO HOMES",
-    "count": 18,
-    "score_total": 385,
+    "contractor": "Toll Bros, Inc",
+    "count": 20,
+    "score_total": 400,
     "valuation_total": 0
   },
   {
@@ -31,15 +31,21 @@
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 11,
-    "score_total": 275,
-    "valuation_total": 8096347.920000001
+    "count": 12,
+    "score_total": 300,
+    "valuation_total": 8699471.75
   },
   {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
     "valuation_total": 2085266.4
+  },
+  {
+    "contractor": "MBH LLC",
+    "count": 12,
+    "score_total": 240,
+    "valuation_total": 1549000.0
   },
   {
     "contractor": "SHALC GC INC",
@@ -106,12 +112,6 @@
     "count": 7,
     "score_total": 140,
     "valuation_total": 0
-  },
-  {
-    "contractor": "MBH LLC",
-    "count": 7,
-    "score_total": 140,
-    "valuation_total": 501000.0
   },
   {
     "contractor": "BRIGHTON HOMES IDAHO INC",
@@ -187,6 +187,12 @@
   },
   {
     "contractor": "Highland Homes LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -271,12 +277,6 @@
   },
   {
     "contractor": "SCHELL BROTHERS BOISE",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -448,6 +448,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 1500000.0
+  },
+  {
+    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "ASIN HOMES LLC",
@@ -630,6 +636,12 @@
     "valuation_total": 650000.0
   },
   {
+    "contractor": "RRC CONTRACTORS INC",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 650000.0
+  },
+  {
     "contractor": "Kahler Management",
     "count": 1,
     "score_total": 35,
@@ -658,6 +670,12 @@
     "count": 1,
     "score_total": 35,
     "valuation_total": 80000.0
+  },
+  {
+    "contractor": "TOP DOG PLUMBING",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
   },
   {
     "contractor": "EXCALIBUR GROUP LLC | Brian",
@@ -948,10 +966,22 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "contractor": "REDTECH LLC",
     "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
+    "score_total": 25,
+    "valuation_total": 569352.66
+  },
+  {
+    "contractor": "L H HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 577899.07
+  },
+  {
+    "contractor": "MOUNTAIN HIGH HOME BUILDERS",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 787805.73
   },
   {
     "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
@@ -1882,5 +1912,23 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "BLACKPOINT INDUSTRIES AND",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 5720.34
+  },
+  {
+    "contractor": "MAS CONTRACTING - MIKE SMALL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 227682.12
+  },
+  {
+    "contractor": "SIMPLICITY BY HAYDEN HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

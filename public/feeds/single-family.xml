@@ -6,7 +6,79 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 26 Oct 2026 13:13:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 22:53:26 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 5-17 Barnwood #3 — 7233 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U6A&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 279,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02973</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 2-17 Barnwood #3 — 7019 W STEADING ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U5O&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 168,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02969</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Pats Cottages — 5460 N PIERCE PARK LN, Boise ID 83714</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WX&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00628</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Pat's Cottages — 5472 N PIERCE PARK LN, Boise ID 83714</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00627</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Pat's Cottages — 5476 N PIERCE PARK LN, Boise ID 83714</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MBH LLC | 380,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00625</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Pats Cottages — 5468 N PIERCE PARK LN, Boise ID 83714</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00624</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Pats  Cottages — 5464 N PIERCE PARK LN, Boise ID 83714</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: single family dwelling — 32001 N. Swire Green Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867666</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268770</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: EA 04-04 NEW SFD — 483 N. MOREHOUSE AVE.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867527</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268764</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8353 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867285</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268757</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | JHL LLC — 29660 [TEMP] N Sylvan Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | REDTECH LLC | 569,353</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1475</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 N Eclipse Rd [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 603,124</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1786</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 8349 Maclachlan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29862989</link>
@@ -68,6 +140,18 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01753</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE |  Frank — 1041 [TEMP] E Yellow Pine</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 713,115</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0925</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR | LH Homes LLC — 24990 [TEMP] N Ellington</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | L H HOMES LLC | 577,899</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1501</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7642 W FLATHEAD LAKE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29841822</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
@@ -78,6 +162,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR | Tanner — 10017 W Looking Glass Ln</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 463,245</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1488</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
@@ -102,6 +192,24 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SHOP w/LIVING SPACE| — 2070 [TEMP] S Signal Point</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | BLACKPOINT INDUSTRIES AND | 5,720</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0189</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Holloway — 31509</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | SIMPLICITY BY HAYDEN HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1642</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sand — 14345 [TEMP] S Highway 3</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 310,329</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1368</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
@@ -158,6 +266,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Clemens — 4605 [TEMP] S WENIGER HILL</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | MOUNTAIN HIGH HOME BUILDERS | 787,806</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1563</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
       <description>SINGLE_FAMILY | SUNRISE DEVELOPMENT LLC | 0</description>
@@ -180,6 +294,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SGY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02776</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Gaskill ALU — 11927 [TEMP] N Chase Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | MAS CONTRACTING - MIKE SMALL | 227,682</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1286</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dixon Residence — 1875 S Gateway Ranch Rd</title>
@@ -1090,126 +1210,6 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
       <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18931-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT13 BLK 01 GRAND CENTRAL SUBDIVISION — 1555 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18929-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT56 BLK07 HARVEST CREEK #5 — 5209 E Patchwork Dr Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Hayden Watson Hayden Homes Idaho Llc | 177,438</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18892-2026</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8424 Cathedral St</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29737869</link>
-      <description>SINGLE_FAMILY | CONNER CONSTRUCTION LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267802</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 7-4 Kirsten #2 — 6558 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PIO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02410</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 8-4 Kirsten #2 — 6550 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P6X&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 85,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02373</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5480 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00735&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00647</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5506 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X5&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00633</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5492 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006X1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00630</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5488 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00629</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK11 CHERRY GROVE #5 — 7662 E Mount Pleasant Dr Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 136,983</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18926-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT11 BLK03 REFLECTIONS EDGE #1 — 1480 S La Escalera Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 181,203</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18925-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT04 BLK06 CHISUM ESTATES #1 — 893 S Contusion Ave Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 377,415</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18912-2026</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5796 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738298</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267807</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5797 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738295</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267806</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5805 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738286</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267805</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5821 W ALDERMAN LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29738276</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267804</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Daum — DAUM CONSTRUCTION LLC</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | DAUM CONSTRUCTION | 8,857</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1463</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Ceausu Residence — 37704 [TEMP] E Hayden Lake</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 938,483</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1395</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6732 E Emma Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29731509</link>
-      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267757</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 FROST RD, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RHC LLC | 152,453</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0723</guid>
     </item>
   </channel>
 </rss>
