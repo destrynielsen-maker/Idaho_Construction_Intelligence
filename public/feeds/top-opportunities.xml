@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 27 Oct 2026 12:22:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 18:16:54 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -735,12 +735,6 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 3,500,000</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-65</guid>
-    </item>
-    <item>
-      <title>[35] Eagle: gas line to a cook top stove — 128 S Eagle Rd Eagle, Idaho 83616</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867663</link>
-      <description>COMMERCIAL | TOP DOG PLUMBING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268769</guid>
     </item>
     <item>
       <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
