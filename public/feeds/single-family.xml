@@ -6,7 +6,25 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 26 Oct 2026 22:53:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:17:15 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: single family dwelling — 32001 N. Swire Green Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867666</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268770</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: EA 04-04 NEW SFD — 483 N. MOREHOUSE AVE.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867527</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268764</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8353 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29867285</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268757</guid>
+    </item>
     <item>
       <title>[20] Boise: 5-17 Barnwood #3 — 7233 S CHINOOK AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U6A&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -50,22 +68,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
     </item>
     <item>
-      <title>[20] Eagle: single family dwelling — 32001 N. Swire Green Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867666</link>
-      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268770</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: EA 04-04 NEW SFD — 483 N. MOREHOUSE AVE.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867527</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268764</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8353 Maclachlan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867285</link>
-      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268757</guid>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 N Eclipse Rd [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 603,124</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1786</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | JHL LLC — 29660 [TEMP] N Sylvan Road</title>
@@ -74,10 +80,10 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1475</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 N Eclipse Rd [TEMP]</title>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE |  Frank — 1041 [TEMP] E Yellow Pine</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 603,124</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1786</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 713,115</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0925</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8349 Maclachlan Dr</title>
@@ -140,12 +146,6 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01753</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE |  Frank — 1041 [TEMP] E Yellow Pine</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 713,115</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0925</guid>
-    </item>
-    <item>
       <title>[25] Kootenai County: NEW SFR | LH Homes LLC — 24990 [TEMP] N Ellington</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | L H HOMES LLC | 577,899</description>
@@ -170,6 +170,18 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1488</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Holloway — 31509</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | SIMPLICITY BY HAYDEN HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1642</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SHOP w/LIVING SPACE| — 2070 [TEMP] S Signal Point</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | BLACKPOINT INDUSTRIES AND | 5,720</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0189</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29836284</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
@@ -192,18 +204,6 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SHOP w/LIVING SPACE| — 2070 [TEMP] S Signal Point</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | BLACKPOINT INDUSTRIES AND | 5,720</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0189</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Holloway — 31509</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | SIMPLICITY BY HAYDEN HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1642</guid>
     </item>
     <item>
       <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sand — 14345 [TEMP] S Highway 3</title>
@@ -272,6 +272,12 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1563</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR | Gaskill ALU — 11927 [TEMP] N Chase Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | MAS CONTRACTING - MIKE SMALL | 227,682</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1286</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
       <description>SINGLE_FAMILY | SUNRISE DEVELOPMENT LLC | 0</description>
@@ -294,12 +300,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SGY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02776</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Gaskill ALU — 11927 [TEMP] N Chase Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | MAS CONTRACTING - MIKE SMALL | 227,682</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1286</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dixon Residence — 1875 S Gateway Ranch Rd</title>

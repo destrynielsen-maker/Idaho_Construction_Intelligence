@@ -174,6 +174,12 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Solitude Homes Inc",
     "count": 4,
     "score_total": 80,
@@ -187,12 +193,6 @@
   },
   {
     "contractor": "Highland Homes LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -618,6 +618,12 @@
     "valuation_total": 393768.96
   },
   {
+    "contractor": "RRC CONTRACTORS INC",
+    "count": 1,
+    "score_total": 40,
+    "valuation_total": 650000.0
+  },
+  {
     "contractor": "PEARMAN CONTRACTING LLC",
     "count": 1,
     "score_total": 40,
@@ -636,10 +642,10 @@
     "valuation_total": 650000.0
   },
   {
-    "contractor": "RRC CONTRACTORS INC",
+    "contractor": "TOP DOG PLUMBING",
     "count": 1,
-    "score_total": 40,
-    "valuation_total": 650000.0
+    "score_total": 35,
+    "valuation_total": 0
   },
   {
     "contractor": "Kahler Management",
@@ -670,12 +676,6 @@
     "count": 1,
     "score_total": 35,
     "valuation_total": 80000.0
-  },
-  {
-    "contractor": "TOP DOG PLUMBING",
-    "count": 1,
-    "score_total": 35,
-    "valuation_total": 0
   },
   {
     "contractor": "EXCALIBUR GROUP LLC | Brian",
@@ -736,6 +736,24 @@
     "count": 1,
     "score_total": 27,
     "valuation_total": 1200000.0
+  },
+  {
+    "contractor": "REDTECH LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 569352.66
+  },
+  {
+    "contractor": "L H HOMES LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 577899.07
+  },
+  {
+    "contractor": "MOUNTAIN HIGH HOME BUILDERS",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 787805.73
   },
   {
     "contractor": "TRAILHEAD STRUCTURES | WENGER",
@@ -966,24 +984,6 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "REDTECH LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 569352.66
-  },
-  {
-    "contractor": "L H HOMES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 577899.07
-  },
-  {
-    "contractor": "MOUNTAIN HIGH HOME BUILDERS",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 787805.73
-  },
-  {
     "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
     "count": 1,
     "score_total": 20,
@@ -996,6 +996,18 @@
     "valuation_total": 77990.0
   },
   {
+    "contractor": "SIMPLICITY BY HAYDEN HOMES LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "BLACKPOINT INDUSTRIES AND",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 5720.34
+  },
+  {
     "contractor": "JAKUBIAK JOSEPH",
     "count": 1,
     "score_total": 20,
@@ -1006,6 +1018,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
+  },
+  {
+    "contractor": "MAS CONTRACTING - MIKE SMALL",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 227682.12
   },
   {
     "contractor": "SUNRISE DEVELOPMENT LLC",
@@ -1912,23 +1930,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "BLACKPOINT INDUSTRIES AND",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 5720.34
-  },
-  {
-    "contractor": "MAS CONTRACTING - MIKE SMALL",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 227682.12
-  },
-  {
-    "contractor": "SIMPLICITY BY HAYDEN HOMES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]
