@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 28 Oct 2026 13:07:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:49:05 +0000</lastBuildDate>
     <item>
       <title>[50] Coeur d'Alene: 5 UNIT TOWNHOUSE — 954 W GROVE WY</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
@@ -228,6 +228,12 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 125,990</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18788-2026</guid>
+    </item>
+    <item>
+      <title>[40] Post Falls: New Duplex Residential — 2486 E SALVATION CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 348,104</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-414</guid>
     </item>
     <item>
       <title>[40] Nampa: NEW TOWNHOUSE LT30 BLK07 Middlebury North #2 — 15545 N Exeter Way Nampa, Id 83651</title>

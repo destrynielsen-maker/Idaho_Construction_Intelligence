@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 66,
-    "score_total": 1482,
-    "valuation_total": 11511449.87
+    "count": 67,
+    "score_total": 1502,
+    "valuation_total": 11670439.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -60,6 +60,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 2447166.0
+  },
+  {
     "contractor": "Core Building Co",
     "count": 11,
     "score_total": 220,
@@ -94,12 +100,6 @@
     "count": 9,
     "score_total": 180,
     "valuation_total": 0
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 9,
-    "score_total": 180,
-    "valuation_total": 1992166.0
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -226,6 +226,12 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1295181.24
+  },
+  {
+    "contractor": "RTL HOMES LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
   },
   {
     "contractor": "SHELF CAPITAL, LLC DBA JW HOMES",

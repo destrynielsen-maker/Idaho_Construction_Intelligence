@@ -6,7 +6,49 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 28 Oct 2026 13:07:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:49:05 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10068 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02998</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 43-5 Barnwood #3 — 7200 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 158,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02834</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10071 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SH2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02778</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29884039</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268842</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29881108</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268833</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7450 W MILLHOUSE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29881083</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268831</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7434 W MILLHOUSE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29880994</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268828</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 6490 W LARGO DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29870696</link>
@@ -766,6 +808,36 @@
       <guid isPermaLink="false">ID:EAGLE:268196</guid>
     </item>
     <item>
+      <title>[20] Post Falls: New Single Family Residential — 2831 N CASSIOPEIA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 507,316</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-828</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2805 N CASSIOPEIA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 433,741</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-834</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5223 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 192,265</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-822</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5271 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 224,564</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-821</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2777 N CASSIOPEIA ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 439,136</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-809</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23302 N Eclipse Rd [TEMP]</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 796,510</description>
@@ -1086,6 +1158,12 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0743</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 3600 N MAY ELLA LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 210,422</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-817</guid>
+    </item>
+    <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Isaacs Residence — 11479 [TEMP] W MERIDIAN</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
       <description>SINGLE_FAMILY | PREMIER QUALITY HOMES INC | 1,074,902</description>
@@ -1132,84 +1210,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29745061</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267876</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6410 W CARNOCK DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29745014</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267873</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR ONLY — 9173 MELMONT RD, Melba   836410000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | HIRTLIN CONSTRUCTION LLC | 143,553</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0737</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT26 BLK01 Stoddard Crossing — 3530 S Sassafras Ave Nampa, Id 83686</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 251,945</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18945-2026</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT08 BLK16 Franklin Village North #5 — 17140 N Yorktown Way Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 331,120</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18938-2026</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: Building of a new single family home. — 2345 NBuhrstone Pl</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29743052</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267849</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT32 BLK01 Grand Central — 1676 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18935-2026</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1979 N SAND SPRINGS WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29741312</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267836</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 771 W CRESTONE CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740854</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267832</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 3842 W SPRING HOUSE LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740515</link>
-      <description>SINGLE_FAMILY | ALL CONTRACTING LLP | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267830</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1952 N CAWOOD WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29740498</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267829</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6935 W CAVENDALE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29739536</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267815</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 16978 SPRING MEADOW DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | SIERRA CONSTRUCTION OF IDAHO LLC | 334,491</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0731</guid>
-    </item>
-    <item>
-      <title>[15] Nampa: NEW SFD LT12 BLK16 FRANKLIN VILLAGE NORTH #5 — 17176 N Yorktown Way Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 379,090</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18910-2026</guid>
     </item>
   </channel>
 </rss>

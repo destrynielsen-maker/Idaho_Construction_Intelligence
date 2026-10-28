@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 28 Oct 2026 13:07:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:49:05 +0000</lastBuildDate>
     <item>
       <title>[57] Meridian: Southridge Apartments - Building 24 - Southridge Apartments - Building 24 - # of Units: 12 New — 1671 S GRAND FORK WAY</title>
       <link>https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf</link>
@@ -513,6 +513,12 @@ Charged for multi-family ($825) instead of single family ($1,984) fire impact fe
       <guid isPermaLink="false">ID:NAMPA:RES-18788-2026</guid>
     </item>
     <item>
+      <title>[40] Post Falls: New Duplex Residential — 2486 E SALVATION CT, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>MULTIFAMILY | Contractor unknown | 348,104</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-414</guid>
+    </item>
+    <item>
       <title>[40] Nampa: NEW TOWNHOUSE LT30 BLK07 Middlebury North #2 — 15545 N Exeter Way Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 125,990</description>
@@ -729,6 +735,30 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <link>https://building.cdaid.org/Reports/IssuedPermitsLastWeek</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 4899 W RIVERBEND AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,000,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-104</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 4895 W RIVERBEND AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 2,000,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-103</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 4076 E POLELINE AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 2,309,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-25-75</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 1706 N NICHOLSON CENTER ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 2,500,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-23</guid>
     </item>
     <item>
       <title>[37] Post Falls: New Commercial Building — 8505 N FENNECUS RD, POST FALLS ID 83854</title>
