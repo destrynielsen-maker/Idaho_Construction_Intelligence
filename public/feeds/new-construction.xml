@@ -6,12 +6,18 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 29 Oct 2026 13:11:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 22:59:23 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29884039</link>
-      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268842</guid>
+      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 4 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 6480 W Danes Drive , Eagle, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29887548</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268874</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 6328 W LARGO DR, EAGLE, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29886664</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268866</guid>
     </item>
     <item>
       <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
@@ -1204,12 +1210,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
     </item>
   </channel>
 </rss>
