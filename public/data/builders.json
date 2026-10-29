@@ -54,16 +54,16 @@
     "valuation_total": 0
   },
   {
-    "contractor": "STERLING HOMES INC",
-    "count": 11,
-    "score_total": 220,
-    "valuation_total": 0
-  },
-  {
     "contractor": "Thomas Lufkin",
     "count": 11,
     "score_total": 220,
     "valuation_total": 2447166.0
+  },
+  {
+    "contractor": "STERLING HOMES INC",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 0
   },
   {
     "contractor": "Core Building Co",
@@ -174,6 +174,12 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "RTL HOMES LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 4,
     "score_total": 80,
@@ -226,12 +232,6 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1295181.24
-  },
-  {
-    "contractor": "RTL HOMES LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
   },
   {
     "contractor": "SHELF CAPITAL, LLC DBA JW HOMES",
