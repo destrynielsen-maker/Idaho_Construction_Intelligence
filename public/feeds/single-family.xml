@@ -6,15 +6,21 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 30 Oct 2026 13:06:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 22:32:24 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New SFR - Two-Story, 4 Bedroom, 4 Bathroom, 3-Car Garage, Covered Entry and Covered Patio — 6480 W Danes Drive , Eagle, ID 83616</title>
+      <title>[20] Boise: 5416 W TARGEE — 5416 W TARGEE ST, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00F7L&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | RETRO HOMES INC | 325,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01448</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6480 W DANES DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29887548</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268874</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Residential Home — 6328 W LARGO DR, EAGLE, ID 83616</title>
+      <title>[20] Eagle: New Home — 6328 W LARGO DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29886664</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268866</guid>
@@ -54,6 +60,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SH2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02778</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home after demo of older home is complete. Demo on separate permit — 2283 N Edgewood Road</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29870892</link>
+      <description>SINGLE_FAMILY | TWO SEVEN ONE | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268805</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6490 W LARGO DR</title>
@@ -1198,18 +1210,6 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
       <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18941-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT03 BLK01 LA PALOMA BLANCA — 4621 E Patricia Ct Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 550,000</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18936-2026</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7586 W CENTERLINE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29745172</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267885</guid>
     </item>
   </channel>
 </rss>
