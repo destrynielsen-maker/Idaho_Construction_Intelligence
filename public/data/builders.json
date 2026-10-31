@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 67,
-    "score_total": 1502,
-    "valuation_total": 11670439.87
+    "count": 68,
+    "score_total": 1522,
+    "valuation_total": 11826429.87
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -984,6 +984,12 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "RETRO HOMES INC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 325000.0
+  },
+  {
     "contractor": "TWO SEVEN ONE",
     "count": 1,
     "score_total": 20,
@@ -1936,11 +1942,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "RETRO HOMES INC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 325000.0
   }
 ]
