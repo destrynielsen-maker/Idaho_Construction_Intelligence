@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:37:46+00:00",
+  "generated_at": "2026-10-31T12:23:57+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -51,11 +51,11 @@
     },
     {
       "source": "Kootenai County",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://kcgov.us/Archive/44",
-      "note": "ConnectTimeout: HTTPSConnectionPool(host='kcgov.us', port=443): Max retries exceeded with url: /Archive/44 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kcgov.us', port=443) at 0x761ad0102300>, 'Connection to kcgov.us timed out. (connect timeout=45)'))"
+      "status": "ok",
+      "records_seen": 54,
+      "qualifying_records": 54,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3605",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 11, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 4, 2026 (10 parsed). Latest report period 2026-10-18 through 2026-10-24 (7 days old)"
     },
     {
       "source": "Post Falls",
