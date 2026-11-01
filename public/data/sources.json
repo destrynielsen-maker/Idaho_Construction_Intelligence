@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:31:24+00:00",
+  "generated_at": "2026-11-01T05:59:03+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,18 +12,18 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 74,
-      "qualifying_records": 74,
+      "records_seen": 72,
+      "qualifying_records": 72,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
-      "status": "ok",
-      "records_seen": 120,
-      "qualifying_records": 7,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
+      "note": "RuntimeError: zero parsed after 1 page(s); detail_failures=0; detail_unparsed=0"
     },
     {
       "source": "Canyon County",
@@ -35,19 +35,19 @@
     },
     {
       "source": "Caldwell",
-      "status": "ok",
-      "records_seen": 10,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
+      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records after 2 reads"
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 101,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-17 through 2026-10-31; 101 primary building permits parsed; newest primary building permit issued 2026-10-30"
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
     },
     {
       "source": "Kootenai County",
@@ -55,15 +55,15 @@
       "records_seen": 54,
       "qualifying_records": 54,
       "source_url": "https://kcgov.us/Archive/ViewFile/Item/3605",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 11, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 4, 2026 (10 parsed). Latest report period 2026-10-18 through 2026-10-24 (7 days old)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 11, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 4, 2026 (10 parsed). Latest report period 2026-10-18 through 2026-10-24 (8 days old)"
     },
     {
       "source": "Post Falls",
       "status": "ok",
-      "records_seen": 126,
-      "qualifying_records": 126,
+      "records_seen": 115,
+      "qualifying_records": 115,
       "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
-      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 251 source records inspected; 126 ground-up building permits kept; newest issued permit 2026-10-06 (25 days old); WARNING source is more than 14 days behind current date"
+      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 235 source records inspected; 115 ground-up building permits kept; newest issued permit 2026-10-06 (26 days old); WARNING source is more than 14 days behind current date"
     },
     {
       "source": "Meridian",
@@ -71,7 +71,7 @@
       "records_seen": 89,
       "qualifying_records": 83,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (55 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (56 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
     },
     {
       "source": "Nampa",
