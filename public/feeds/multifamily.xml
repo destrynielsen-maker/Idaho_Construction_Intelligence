@@ -6,7 +6,121 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Nov 2026 06:12:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:01:42 +0000</lastBuildDate>
+    <item>
+      <title>[62] Boise: Building P (Type 1) — 2237 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01470</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building O (Type 1) — 2229 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDK&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01469</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building N (Type 1) — 2223 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,500,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01468</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building L (Type 1) — 2373 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01467</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building J (Type 1) — 2393 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDG&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01466</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building F (Type 1)- APTS # 101-108,201-208,301-308 — 2267 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01465</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building K (Type 4) — 2385 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3W&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01549</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building E (Type 4) — 2359 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3U&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01548</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building M (Type 2) — 2249 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3K&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01545</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building G (Type 2) — 2201 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01544</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building B (Type 2) — 2423 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3E&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01543</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 320 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891858</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268948</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 328 E Saywer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891829</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268945</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 336 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891783</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268944</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 344 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891746</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268943</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 352 E Sayer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891699</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268941</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 360 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891659</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268940</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit building. — 368 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891631</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268939</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New townhome, part of a 10 unit townhome building. — 376 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891598</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268937</guid>
+    </item>
     <item>
       <title>[50] Coeur d'Alene: 5 UNIT TOWNHOUSE — 954 W GROVE WY</title>
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>

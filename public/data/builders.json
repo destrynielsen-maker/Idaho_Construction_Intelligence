@@ -6,6 +6,12 @@
     "valuation_total": 11826429.87
   },
   {
+    "contractor": "ROUNDHOUSE CONSTRUCTION, LLC",
+    "count": 11,
+    "score_total": 657,
+    "valuation_total": 28850000.0
+  },
+  {
     "contractor": "TH CONSTRUCTION LLC",
     "count": 10,
     "score_total": 450,
@@ -28,6 +34,12 @@
     "count": 19,
     "score_total": 380,
     "valuation_total": 3419371.28
+  },
+  {
+    "contractor": "Brownstone Construction Management LLC",
+    "count": 8,
+    "score_total": 360,
+    "valuation_total": 0
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",

@@ -6,7 +6,121 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Nov 2026 06:12:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:01:42 +0000</lastBuildDate>
+    <item>
+      <title>[62] Boise: Building P (Type 1) — 2237 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01470</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building O (Type 1) — 2229 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDK&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01469</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building N (Type 1) — 2223 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,500,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01468</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building L (Type 1) — 2373 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01467</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building J (Type 1) — 2393 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDG&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01466</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building F (Type 1)- APTS # 101-108,201-208,301-308 — 2267 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01465</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building K (Type 4) — 2385 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3W&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01549</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building E (Type 4) — 2359 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3U&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01548</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building M (Type 2) — 2249 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3K&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01545</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building G (Type 2) — 2201 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3H&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01544</guid>
+    </item>
+    <item>
+      <title>[57] Boise: Building B (Type 2) — 2423 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G3E&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 2,050,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01543</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 320 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891858</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268948</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 328 E Saywer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891829</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268945</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 336 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891783</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268944</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 344 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891746</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268943</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 352 E Sayer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891699</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268941</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 360 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891659</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268940</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: Townhome in a 10 unit building. — 368 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891631</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268939</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New townhome, part of a 10 unit townhome building. — 376 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891598</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268937</guid>
+    </item>
     <item>
       <title>[20] Boise: 3-17 Barnwood #3 — 7027 W STEADING ST, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U5R&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1094,122 +1208,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RGO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02649</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5651 W PRIMAVERA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29773949</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268071</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769586</link>
-      <description>MULTIFAMILY | SHALC GC INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268010</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 6341 N FOXGLOVE WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769552</link>
-      <description>MULTIFAMILY | SHALC GC INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268008</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 5676 W REDIVA DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769498</link>
-      <description>MULTIFAMILY | SHALC GC INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268006</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 5698 W REDIVA DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769470</link>
-      <description>MULTIFAMILY | SHALC GC INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268004</guid>
-    </item>
-    <item>
-      <title>[45] Eagle: New Townhome — 5665 W PRIMAVERA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29768389</link>
-      <description>MULTIFAMILY | SHALC GC INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267992</guid>
-    </item>
-    <item>
-      <title>[37] Post Falls: New Commercial Building — 4899 W RIVERBEND AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 1,000,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-104</guid>
-    </item>
-    <item>
-      <title>[37] Post Falls: New Commercial Building — 4895 W RIVERBEND AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 2,000,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-103</guid>
-    </item>
-    <item>
-      <title>[37] Post Falls: New Commercial Building — 4076 E POLELINE AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 2,309,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-25-75</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Knepper — 7248 E Honeysuckle Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | FAIRBANKS CONSTRUCTION LLC | 696,049</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1326</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timberland — 21555 [TEMP] N Stonemason</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 519,728</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1513</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kauer Residence — 1985 E Grandview Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 866,047</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1191</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268045</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770939</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268028</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6680 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770173</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268017</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-09-02 (9281-0039) — 6920 W YUMA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769679</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268012</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268000</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Fire: Exempt over 5 acres&#13;
-***Do not issue until the building permit application has been received for the Shop*** — 19181 TOP RD, Greenleaf   836260000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IDAHO DISASTER SOLUTIONS | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0756</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***DO NOT ISSUE UNTIL CP2026-0074 IS APPROVED*** — 20978 FOGGY LN, Caldwell   836050000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0754</guid>
     </item>
   </channel>
 </rss>
