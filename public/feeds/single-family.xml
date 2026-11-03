@@ -6,12 +6,30 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 03 Nov 2026 14:24:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 23:36:52 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 4-17 Barnwood #3 — 7035 W STEADING ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U60&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 259,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02971</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: AV 24-03 NEW SFD — 8329 ROGERS WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29898656</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268993</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 3830 N TEMPLETON PL</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29892463</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268949</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2689 N NEPTUNE ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 235,320</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-863</guid>
     </item>
     <item>
       <title>[20] Boise: 3-17 Barnwood #3 — 7027 W STEADING ST, Boise ID 83709</title>
@@ -24,6 +42,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00F7L&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | RETRO HOMES INC | 325,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01448</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2090 N SKAGIT DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 386,753</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3563 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 266,555</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-879</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6480 W DANES DR</title>
@@ -92,6 +122,12 @@
       <guid isPermaLink="false">ID:EAGLE:268697</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 1239 W MISS HANA AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 320,203</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-689</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 32001 N Swire Green Way</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29867666</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
@@ -150,6 +186,36 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 409,351</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-882</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3570 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 287,730</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-856</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5255 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 198,801</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-857</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5239 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 160,912</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-866</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5287 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 198,801</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-855</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 N Eclipse Rd [TEMP]</title>
@@ -288,6 +354,12 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | Contractor unknown | 310,329</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1368</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 326 N CORBIN RD, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 108,150</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-454</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
@@ -438,6 +510,24 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00LZ1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Jon Gaston | 365,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02054</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2455 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 175,517</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-801</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2477 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 175,060</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-803</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2471 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-802</guid>
     </item>
     <item>
       <title>[27] Boise: HR 14-01 — 5849 E PROMINENCE CT, Boise ID 83716</title>
@@ -669,6 +759,72 @@
       <guid isPermaLink="false">ID:EAGLE:268302</guid>
     </item>
     <item>
+      <title>[15] Post Falls: New Single Family Residential — 3620 N LEIGHTON ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 147,141</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-790</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 1062 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 1120 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-827</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3545 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 243,210</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-846</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2449 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-800</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2443 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-799</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2435 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-798</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2421 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-797</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5351 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 168,456</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-789</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5315 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 210,228</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-788</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 5367 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 231,731</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-784</guid>
+    </item>
+    <item>
       <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sullivan — 38721 (TEMP) S HIGHWAY 97</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
       <description>SINGLE_FAMILY | EXCALIBUR GROUP LLC | Brian | 1,252,341</description>
@@ -710,6 +866,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PZR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02476</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 12257 W KILKENNY DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 330,796</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-815</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR W/ ATTACHED SHOP | Bravard Shop/House — 21603 [TEMP] N Stonemason</title>
@@ -1046,170 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
       <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268045</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770939</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268028</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6680 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770173</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268017</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-09-02 (9281-0039) — 6920 W YUMA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769679</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268012</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2687 N HARTLEY WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29769306</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268000</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE  Fire: Exempt over 5 acres&#13;
-***Do not issue until the building permit application has been received for the Shop*** — 19181 TOP RD, Greenleaf   836260000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IDAHO DISASTER SOLUTIONS | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0756</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***DO NOT ISSUE UNTIL CP2026-0074 IS APPROVED*** — 20978 FOGGY LN, Caldwell   836050000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | WAITE HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0754</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 6-4 Kirsten #2 — 6566 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJV&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02425</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 7-3 Kirsten #2 — 6561 S BARNWOOD AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 78,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02417</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 19-6 Kirsten #2 — 6457 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PCD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 137,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02385</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 4-5 Kirsten #2 — 6588 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00P7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02376</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5695 W SILVERBERRY DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770974</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268032</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New home — 5711 W SILVERBERRY DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29770970</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268031</guid>
-    </item>
-    <item>
-      <title>[25] Boise: JW-LEADVILLE BUILDING C — 1309 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IY6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01812</guid>
-    </item>
-    <item>
-      <title>[25] Boise: JW-LEADVILLE BUILDING B — 1311 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IY1&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01811</guid>
-    </item>
-    <item>
-      <title>[25] Boise: JW-Leadville Building A — 1313 S LEADVILLE AVE, Boise ID 83706</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IXR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | SHELF CAPITAL, LLC DBA JW HOMES | 550,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01808</guid>
-    </item>
-    <item>
-      <title>[22] Kootenai County: NEW SFR w/ATTACHED GARAGE | Yates Residence — 4648 [TEMP] S SCENIC DR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 1,072,625</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0749</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7404 Vittrup St</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29767317</link>
-      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267985</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6304 E One Tree Place</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29767162</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267974</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 12733 DRAFT ST, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STETSON HOMES | 266,279</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0746</guid>
-    </item>
-    <item>
-      <title>[25] Boise: 1805 N 9th st — 1805 N 9TH ST, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L87&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01992</guid>
-    </item>
-    <item>
-      <title>[25] Boise: 1801 n 9th st — 1801 N 9TH ST, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00L85&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | HILL CONST &amp; PROPERTY SERVICES INC | 550,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01991</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7248 N HILLSWICK WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29760820</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267904</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8202 QUAIL HOLLOW DR, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | STONE PRECISION CONTRACTORS | 402,319</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0743</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3600 N MAY ELLA LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 210,422</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-817</guid>
-    </item>
-    <item>
-      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Isaacs Residence — 11479 [TEMP] W MERIDIAN</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | PREMIER QUALITY HOMES INC | 1,074,902</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1370</guid>
-    </item>
-    <item>
-      <title>[22] Kootenai County: *FOUNDATION ONLY* | NEW SFR w/ATTACHED — 15309 [TEMP] N Morgan Ln</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3580</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 2,107,243</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0911</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT02 BLK01 Grand Central — 1699 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18948-2026</guid>
     </item>
   </channel>
 </rss>

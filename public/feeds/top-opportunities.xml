@@ -6,7 +6,31 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 03 Nov 2026 14:24:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 23:36:52 +0000</lastBuildDate>
+    <item>
+      <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01555</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building D (Type 5) — 2361 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5E&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01554</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building C (Type 5) — 2521 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01553</guid>
+    </item>
+    <item>
+      <title>[62] Boise: Building A (Type 5) — 2455 W VICTORY RD, Boise ID 83705</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-01552</guid>
+    </item>
     <item>
       <title>[62] Boise: Building P (Type 1) — 2237 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -152,52 +176,58 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 320 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 320 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891858</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268948</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 328 E Saywer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 328 E Saywer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891829</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268945</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome in a 10 unit townhome building. — 336 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 336 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891783</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268944</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 344 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 344 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891746</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268943</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 352 E Sayer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 352 E Sayer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891699</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268941</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome within a 10 unit townhome building. — 360 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 360 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891659</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268940</guid>
     </item>
     <item>
-      <title>[45] Eagle: Townhome in a 10 unit building. — 368 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 368 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891631</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268939</guid>
     </item>
     <item>
-      <title>[45] Eagle: New townhome, part of a 10 unit townhome building. — 376 E Sawyer Gold Ln</title>
+      <title>[45] Eagle: New Townhome — 376 E Sawyer Gold Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29891598</link>
       <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268937</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 384 E Sawyer Gold Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29891559</link>
+      <description>MULTIFAMILY | Brownstone Construction Management LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268936</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
@@ -433,6 +463,12 @@ Charged for multi-family ($825) instead of single family ($1,984) fire impact fe
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Boise: Homewood Suites Boise - Whitewater Village — 3274 W MAIN ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00M7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 1,400,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02077</guid>
     </item>
     <item>
       <title>[42] Kootenai County: NEW OFFICE BLDG W/SHOP | KGG PARTNERSHIP | — 9374 N MCGUIRE RD</title>
@@ -839,6 +875,18 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:COEUR D'ALENE:152695-EN1</guid>
     </item>
     <item>
+      <title>[37] Post Falls: New Commercial Building — 3334 E MULLAN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,800,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-85</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 1147 N INNOVATION WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,500,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-84</guid>
+    </item>
+    <item>
       <title>[37] Post Falls: New Commercial Building — 4899 W RIVERBEND AVE, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 1,000,000</description>
@@ -851,7 +899,7 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-103</guid>
     </item>
     <item>
-      <title>[37] Post Falls: New Commercial Building — 4076 E POLELINE AVE, POST FALLS ID 83854</title>
+      <title>[37] Post Falls: New Commercial Building — 2294 N HIGHWAY 41, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 2,309,000</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-25-75</guid>

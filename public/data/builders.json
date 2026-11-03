@@ -1,15 +1,15 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 68,
-    "score_total": 1522,
-    "valuation_total": 11826429.87
+    "count": 69,
+    "score_total": 1542,
+    "valuation_total": 12086419.87
   },
   {
     "contractor": "ROUNDHOUSE CONSTRUCTION, LLC",
-    "count": 11,
-    "score_total": 657,
-    "valuation_total": 28850000.0
+    "count": 15,
+    "score_total": 905,
+    "valuation_total": 44850000.0
   },
   {
     "contractor": "TH CONSTRUCTION LLC",
@@ -19,7 +19,13 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 19,
+    "count": 20,
+    "score_total": 425,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "Brownstone Construction Management LLC",
+    "count": 9,
     "score_total": 405,
     "valuation_total": 0
   },
@@ -34,12 +40,6 @@
     "count": 19,
     "score_total": 380,
     "valuation_total": 3419371.28
-  },
-  {
-    "contractor": "Brownstone Construction Management LLC",
-    "count": 8,
-    "score_total": 360,
-    "valuation_total": 0
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
@@ -160,6 +160,12 @@
     "count": 5,
     "score_total": 100,
     "valuation_total": 1453549.3199999998
+  },
+  {
+    "contractor": "ENGINEERED STRUCTURES, INC.",
+    "count": 2,
+    "score_total": 97,
+    "valuation_total": 65881344.0
   },
   {
     "contractor": "ASPEN HOMES AND DEVELOPMENT",
@@ -346,12 +352,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 810037.2
-  },
-  {
-    "contractor": "ENGINEERED STRUCTURES, INC.",
-    "count": 1,
-    "score_total": 55,
-    "valuation_total": 64481344.0
   },
   {
     "contractor": "MONARCH CUSTOM HOMES",

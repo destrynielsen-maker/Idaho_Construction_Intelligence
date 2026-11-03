@@ -6,12 +6,42 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 03 Nov 2026 14:24:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 23:36:52 +0000</lastBuildDate>
+    <item>
+      <title>[42] Boise: Homewood Suites Boise - Whitewater Village — 3274 W MAIN ST, Boise ID 83702</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00M7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 1,400,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02077</guid>
+    </item>
     <item>
       <title>[40] Boise: Take 5 Milwaukee St — 1255 N MILWAUKEE ST, Boise ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DDB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>COMMERCIAL | RRC CONTRACTORS INC | 650,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01281</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 3334 E MULLAN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,800,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-85</guid>
+    </item>
+    <item>
+      <title>[30] Post Falls: New Commercial Building — 6335 W INTEGRITY WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 358,272</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-125</guid>
+    </item>
+    <item>
+      <title>[30] Post Falls: New Commercial Building — 3334 E MULLAN AVE, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 30,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-123</guid>
+    </item>
+    <item>
+      <title>[37] Post Falls: New Commercial Building — 1147 N INNOVATION WAY, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>COMMERCIAL | Contractor unknown | 1,500,000</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-84</guid>
     </item>
     <item>
       <title>[37] Post Falls: New Commercial Building — 4899 W RIVERBEND AVE, POST FALLS ID 83854</title>
@@ -26,7 +56,7 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-103</guid>
     </item>
     <item>
-      <title>[37] Post Falls: New Commercial Building — 4076 E POLELINE AVE, POST FALLS ID 83854</title>
+      <title>[37] Post Falls: New Commercial Building — 2294 N HIGHWAY 41, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 2,309,000</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-25-75</guid>

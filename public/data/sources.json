@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T14:09:29+00:00",
+  "generated_at": "2026-11-03T23:20:26+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 971,
+      "records_seen": 980,
       "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -12,18 +12,18 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 74,
-      "qualifying_records": 74,
+      "records_seen": 80,
+      "qualifying_records": 80,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
       "status": "ok",
-      "records_seen": 43,
-      "qualifying_records": 9,
+      "records_seen": 75,
+      "qualifying_records": 11,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "Official City of Eagle iWorQ public permit portal; 4 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
+      "note": "Official City of Eagle iWorQ public permit portal; 6 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
@@ -60,10 +60,10 @@
     {
       "source": "Post Falls",
       "status": "ok",
-      "records_seen": 113,
-      "qualifying_records": 113,
+      "records_seen": 142,
+      "qualifying_records": 142,
       "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
-      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 231 source records inspected; 113 ground-up building permits kept; newest issued permit 2026-10-06 (28 days old); WARNING source is more than 14 days behind current date"
+      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 315 source records inspected; 142 ground-up building permits kept; newest issued permit 2026-11-03 (0 days old)"
     },
     {
       "source": "Meridian",
