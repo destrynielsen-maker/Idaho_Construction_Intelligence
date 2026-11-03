@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Nov 2026 16:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:11:51 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 3830 N TEMPLETON PL</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29892463</link>
+      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268949</guid>
+    </item>
     <item>
       <title>[20] Boise: 3-17 Barnwood #3 — 7027 W STEADING ST, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U5R&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1204,12 +1210,6 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
       <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
       <guid isPermaLink="false">ID:NAMPA:RES-18948-2026</guid>
-    </item>
-    <item>
-      <title>[20] Nampa: NEW SFD LT07 BLK01 GRAND CENTRAL — 1627 S Motive Pl Nampa, Id 83687</title>
-      <link>https://www.cityofnampa.us/DocumentCenter/View/20839/Weekly-Permit-Activity-Report-09-21-2026---09-25-2026</link>
-      <description>SINGLE_FAMILY | Jeffrey Clemens | 167,336</description>
-      <guid isPermaLink="false">ID:NAMPA:RES-18947-2026</guid>
     </item>
   </channel>
 </rss>

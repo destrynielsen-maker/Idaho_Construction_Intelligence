@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Nov 2026 16:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:11:51 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building P (Type 1) — 2237 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00FDL&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -534,18 +534,6 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>MULTIFAMILY | Contractor unknown | 340,158</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-632</guid>
-    </item>
-    <item>
-      <title>[40] Post Falls: New Duplex Residential — 312 W 21ST AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-23</guid>
-    </item>
-    <item>
-      <title>[40] Post Falls: New Duplex Residential — 316 W 21ST AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>MULTIFAMILY | Contractor unknown | 385,724</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-22</guid>
     </item>
     <item>
       <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>

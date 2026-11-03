@@ -198,6 +198,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "COPPER CANYON HOMES LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "PATHWAY BUILDERS",
     "count": 4,
     "score_total": 80,
@@ -280,12 +286,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 386002.80000000005
-  },
-  {
-    "contractor": "COPPER CANYON HOMES LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
   },
   {
     "contractor": "Alturas Construction, LLC",
