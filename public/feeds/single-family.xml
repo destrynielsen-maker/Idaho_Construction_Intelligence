@@ -6,9 +6,39 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 04 Nov 2026 14:54:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:56:08 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: AV 24-03 NEW SFD — 8329 ROGERS WAY</title>
+      <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29881108</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268833</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7450 W MILLHOUSE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29881083</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268831</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7434 W MILLHOUSE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29880994</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:268828</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8351 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29901270</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269029</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6920 W YUMA ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29900452</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269019</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8329 ROGERS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29898656</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268993</guid>
@@ -56,6 +86,24 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Stimpson Lumber — 32842 N CLAGSTONE RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | OAK CREEK CONSTRUCTION | | 773,854</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1550</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Viking — 27078 [TEMP] N Dawson Loop</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | VIKING CONSTRUCTION | 687,915</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1583</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23948 [TEMP] N Ceylon Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1795</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 6480 W DANES DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29887548</link>
       <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
@@ -68,22 +116,10 @@
       <guid isPermaLink="false">ID:EAGLE:268866</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29881108</link>
-      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268833</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7450 W MILLHOUSE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29881083</link>
-      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268831</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7434 W MILLHOUSE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29880994</link>
-      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268828</guid>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Cliff residence — 25715 N GATHERING PL</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | BRANDT HOMES | Jeffrey Brandt | 844,633</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1413</guid>
     </item>
     <item>
       <title>[20] Boise: Monitor Way/Syringa Springs — 10068 W MALAD ST, Boise ID 83709</title>
@@ -120,6 +156,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29843121</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268697</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Burns Residence — 16766 [TEMP] S Citrine Drive</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 925,417</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1271</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 1239 W MISS HANA AVE, POST FALLS ID 83854</title>
@@ -186,6 +228,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kinsley Residence — 9237 [TEMP] E BUNCO RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 813,493</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1493</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
@@ -1160,54 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29772301</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268055</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10058 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RGZ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 357,083</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02652</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10057 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RGQ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 368,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02650</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10044 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RGO&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02649</guid>
-    </item>
-    <item>
-      <title>[15] Eagle: New Home — 5651 W PRIMAVERA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29773949</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268071</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Knepper — 7248 E Honeysuckle Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | FAIRBANKS CONSTRUCTION LLC | 696,049</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1326</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timberland — 21555 [TEMP] N Stonemason</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 519,728</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1513</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kauer Residence — 1985 E Grandview Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 866,047</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1191</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: Permit is for new construction of a 6431 sq ft single family residence. — 1815 S Bowline Pl, Eagle, ID 83616</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29771211</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268045</guid>
     </item>
   </channel>
 </rss>

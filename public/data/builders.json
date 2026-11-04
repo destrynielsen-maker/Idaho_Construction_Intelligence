@@ -24,15 +24,15 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Brownstone Construction Management LLC",
-    "count": 9,
-    "score_total": 405,
+    "contractor": "Toll Bros, Inc",
+    "count": 21,
+    "score_total": 420,
     "valuation_total": 0
   },
   {
-    "contractor": "Toll Bros, Inc",
-    "count": 20,
-    "score_total": 400,
+    "contractor": "Brownstone Construction Management LLC",
+    "count": 9,
+    "score_total": 405,
     "valuation_total": 0
   },
   {
@@ -43,9 +43,15 @@
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 12,
-    "score_total": 300,
-    "valuation_total": 8699471.75
+    "count": 13,
+    "score_total": 325,
+    "valuation_total": 9443829.33
+  },
+  {
+    "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
+    "count": 6,
+    "score_total": 290,
+    "valuation_total": 3880000.0
   },
   {
     "contractor": "HUBBLE HOMES LLC",
@@ -94,12 +100,6 @@
     "count": 6,
     "score_total": 200,
     "valuation_total": 1750000.0
-  },
-  {
-    "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
-    "count": 4,
-    "score_total": 200,
-    "valuation_total": 3000000.0
   },
   {
     "contractor": "DAUM CONSTRUCTION",
@@ -288,6 +288,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "IDEAL CUSTOM HOMES INC",
     "count": 3,
     "score_total": 60,
@@ -370,6 +376,12 @@
     "count": 1,
     "score_total": 52,
     "valuation_total": 3283462.0
+  },
+  {
+    "contractor": "VIKING CONSTRUCTION",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1302600.07
   },
   {
     "contractor": "HILL CONST & PROPERTY SERVICES INC",
@@ -466,12 +478,6 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 1500000.0
-  },
-  {
-    "contractor": "AVIMOR DEVELOPMENT LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "ASIN HOMES LLC",
@@ -792,12 +798,6 @@
     "valuation_total": 802113.0
   },
   {
-    "contractor": "VIKING CONSTRUCTION",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 614685.01
-  },
-  {
     "contractor": "RSB CUSTOMS LLC",
     "count": 1,
     "score_total": 25,
@@ -994,6 +994,18 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "BRANDT HOMES | Jeffrey Brandt",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 844633.41
+  },
+  {
+    "contractor": "OAK CREEK CONSTRUCTION |",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 773854.05
   },
   {
     "contractor": "RETRO HOMES INC",

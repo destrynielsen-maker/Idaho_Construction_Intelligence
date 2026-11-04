@@ -6,7 +6,19 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 04 Nov 2026 14:54:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:56:08 +0000</lastBuildDate>
+    <item>
+      <title>[45] Boise: 1426 S Denver Ave Townhouse — 1426 S DENVER AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00QPP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 440,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02557</guid>
+    </item>
+    <item>
+      <title>[45] Boise: 1428 S Denver Ave Townhouse — 1428 S DENVER AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00QPN&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 440,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02556</guid>
+    </item>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
