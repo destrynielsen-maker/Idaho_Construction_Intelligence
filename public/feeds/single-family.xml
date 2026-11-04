@@ -6,18 +6,18 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 03 Nov 2026 23:36:52 +0000</lastBuildDate>
-    <item>
-      <title>[20] Boise: 4-17 Barnwood #3 — 7035 W STEADING ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U60&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 259,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02971</guid>
-    </item>
+    <lastBuildDate>Wed, 04 Nov 2026 06:31:51 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: AV 24-03 NEW SFD — 8329 ROGERS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29898656</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268993</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 4-17 Barnwood #3 — 7035 W STEADING ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U60&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 259,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02971</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 3830 N TEMPLETON PL</title>
@@ -44,16 +44,16 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01448</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 2090 N SKAGIT DR, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 386,753</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
-    </item>
-    <item>
       <title>[15] Post Falls: New Single Family Residential — 3563 N SEGAR LOOP, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 266,555</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-879</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2090 N SKAGIT DR, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 386,753</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6480 W DANES DR</title>
@@ -194,10 +194,10 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-882</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 3570 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <title>[15] Post Falls: New Single Family Residential — 5239 E EARLY DAWN AVE, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 287,730</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-856</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 160,912</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-866</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 5255 E EARLY DAWN AVE, POST FALLS ID 83854</title>
@@ -206,10 +206,10 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-857</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 5239 E EARLY DAWN AVE, POST FALLS ID 83854</title>
+      <title>[15] Post Falls: New Single Family Residential — 3570 N SEGAR LOOP, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 160,912</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-866</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 287,730</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-856</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 5287 E EARLY DAWN AVE, POST FALLS ID 83854</title>
@@ -350,16 +350,16 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
     </item>
     <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sand — 14345 [TEMP] S Highway 3</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 310,329</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1368</guid>
-    </item>
-    <item>
       <title>[15] Post Falls: New Single Family Residential — 326 N CORBIN RD, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 108,150</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-454</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sand — 14345 [TEMP] S Highway 3</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 310,329</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1368</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
@@ -512,12 +512,6 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02054</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 2455 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 175,517</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-801</guid>
-    </item>
-    <item>
       <title>[15] Post Falls: New Single Family Residential — 2477 N LEAF LN, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 175,060</description>
@@ -528,6 +522,12 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-802</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 2455 N LEAF LN, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 175,517</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-801</guid>
     </item>
     <item>
       <title>[27] Boise: HR 14-01 — 5849 E PROMINENCE CT, Boise ID 83716</title>
@@ -759,16 +759,10 @@
       <guid isPermaLink="false">ID:EAGLE:268302</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 3620 N LEIGHTON ST, POST FALLS ID 83854</title>
+      <title>[15] Post Falls: New Single Family Residential — 3545 N SEGAR LOOP, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 147,141</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-790</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1062 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 243,210</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-846</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 1120 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
@@ -777,10 +771,10 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-827</guid>
     </item>
     <item>
-      <title>[15] Post Falls: New Single Family Residential — 3545 N SEGAR LOOP, POST FALLS ID 83854</title>
+      <title>[15] Post Falls: New Single Family Residential — 1062 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 243,210</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-846</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 2449 N LEAF LN, POST FALLS ID 83854</title>
@@ -805,6 +799,12 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-797</guid>
+    </item>
+    <item>
+      <title>[15] Post Falls: New Single Family Residential — 3620 N LEIGHTON ST, POST FALLS ID 83854</title>
+      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 147,141</description>
+      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-790</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 5351 E EARLY DAWN AVE, POST FALLS ID 83854</title>
