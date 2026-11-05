@@ -282,13 +282,13 @@
     "valuation_total": 567128.04
   },
   {
-    "contractor": "RTL HOMES LLC",
+    "contractor": "AVIMOR DEVELOPMENT LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
   },
   {
-    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "contractor": "RTL HOMES LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -756,6 +756,18 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "OAK CREEK CONSTRUCTION |",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 773854.05
+  },
+  {
+    "contractor": "BRANDT HOMES | Jeffrey Brandt",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 844633.41
+  },
+  {
     "contractor": "REDTECH LLC",
     "count": 1,
     "score_total": 25,
@@ -994,18 +1006,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "BRANDT HOMES | Jeffrey Brandt",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 844633.41
-  },
-  {
-    "contractor": "OAK CREEK CONSTRUCTION |",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 773854.05
   },
   {
     "contractor": "RETRO HOMES INC",

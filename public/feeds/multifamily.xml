@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 04 Nov 2026 23:56:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:57:04 +0000</lastBuildDate>
     <item>
       <title>[45] Boise: 1426 S Denver Ave Townhouse — 1426 S DENVER AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00QPP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -570,12 +570,6 @@
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>MULTIFAMILY | DAUM CONSTRUCTION | 667,646</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:152271-B</guid>
-    </item>
-    <item>
-      <title>[40] Post Falls: New Duplex Residential — 1506 N WILHELM WAY, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>MULTIFAMILY | Contractor unknown | 340,158</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-632</guid>
     </item>
     <item>
       <title>[45] Coeur d'Alene: DUPLEX W/GARAGE — 4539 W BRESLIN CIR</title>

@@ -6,7 +6,19 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 04 Nov 2026 23:56:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:57:04 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 8351 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29901270</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269029</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6920 W YUMA ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29900452</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269019</guid>
+    </item>
     <item>
       <title>[20] Eagle: NEW HOME — 2826 N RIDER STONE AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29881108</link>
@@ -24,18 +36,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29880994</link>
       <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268828</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8351 Maclachlan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29901270</link>
-      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269029</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6920 W YUMA ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29900452</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269019</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8329 ROGERS WAY</title>
@@ -86,10 +86,10 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Stimpson Lumber — 32842 N CLAGSTONE RD</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23948 [TEMP] N Ceylon Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
-      <description>SINGLE_FAMILY | OAK CREEK CONSTRUCTION | | 773,854</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1550</guid>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1795</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Viking — 27078 [TEMP] N Dawson Loop</title>
@@ -98,10 +98,10 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1583</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23948 [TEMP] N Ceylon Road</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Stimpson Lumber — 32842 N CLAGSTONE RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1795</guid>
+      <description>SINGLE_FAMILY | OAK CREEK CONSTRUCTION | | 773,854</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1550</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6480 W DANES DR</title>
@@ -140,6 +140,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02778</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Burns Residence — 16766 [TEMP] S Citrine Drive</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 925,417</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1271</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home after demo of older home is complete. Demo on separate permit — 2283 N Edgewood Road</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29870892</link>
       <description>SINGLE_FAMILY | TWO SEVEN ONE | 0</description>
@@ -158,16 +164,16 @@
       <guid isPermaLink="false">ID:EAGLE:268697</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Burns Residence — 16766 [TEMP] S Citrine Drive</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 925,417</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1271</guid>
-    </item>
-    <item>
       <title>[15] Post Falls: New Single Family Residential — 1239 W MISS HANA AVE, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 320,203</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-689</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kinsley Residence — 9237 [TEMP] E BUNCO RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 813,493</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1493</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 32001 N Swire Green Way</title>
@@ -228,12 +234,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Kinsley Residence — 9237 [TEMP] E BUNCO RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 813,493</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1493</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
