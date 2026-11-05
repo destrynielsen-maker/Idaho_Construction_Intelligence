@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 05 Nov 2026 06:57:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:10:50 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home — 8351 Maclachlan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29901270</link>
@@ -54,6 +54,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29892463</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268949</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 0 LOWER PLEASANT RIDGE RD, Wilder   836760000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0841</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 2689 N NEPTUNE ST, POST FALLS ID 83854</title>
@@ -236,6 +248,18 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8822 KEMP RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 324,820</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0811</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27246 IRON HORSE DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRADSHAW CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0814</guid>
+    </item>
+    <item>
       <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 409,351</description>
@@ -356,6 +380,12 @@
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13340 ROUND ROCK CT, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0809</guid>
+    </item>
+    <item>
       <title>[15] Kootenai County: NEW SFR | Tanner — 10017 W Looking Glass Ln</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | Contractor unknown | 463,245</description>
@@ -386,15 +416,15 @@
       <guid isPermaLink="false">ID:EAGLE:268629</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 0 GARNET RD, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 17260 GARNET RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 0</description>
+      <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 133,243</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0803</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13349 PROMINENCE RIDGE LN, Caldwell   836070000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 0</description>
+      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 372,793</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
     </item>
     <item>
@@ -414,18 +444,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
       <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268619</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW ACC. GARAGE 14x22 — 9234 TULA DR, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | JAKUBIAK JOSEPH | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0797</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR 2676 SQ. FT. — 19641 SUNSET HILL LN, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | NIBLETT CHRISTY | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0796</guid>
     </item>
     <item>
       <title>[20] Boise: 45-5 Barnwood #3 — 7226 S CHINOOK AVE, Boise ID 83709</title>
@@ -632,9 +650,9 @@
       <guid isPermaLink="false">ID:EAGLE:268443</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 STONE LN, Caldwell</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23896 STONE LN, Caldwell</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PEREZ CRUZ JUAN | 0</description>
+      <description>SINGLE_FAMILY | PEREZ CRUZ JUAN | 244,422</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0783</guid>
     </item>
     <item>
@@ -642,6 +660,13 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 599,629</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1694</guid>
+    </item>
+    <item>
+      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
+***Do not issue until AD2026-0154 has been approved + GIS viewer reflects change***  Edit 11/3/26: AD closed 10/28 but viewer doesn’t reflect yet — 6990 RIM RD, Nampa   836860000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | GRIFFIN CY | 522,409</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dredge-Dickson — 14564 [TEMP] E Marie Creek</title>
@@ -684,13 +709,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29802540</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE&#13;
-***Do not issue until AD2026-0154 has been approved + GIS viewer reflects change*** — 0 ALAMO LN, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | GRIFFIN CY | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
     </item>
     <item>
       <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
@@ -906,7 +924,7 @@
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
 ***DO NOT ISSUE UNTIL RD2026-0023 + CP2026-0072 ARE APPROVED*** Route to GIS last — 0 BENNETT RD, Nampa   836860000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 0</description>
+      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 298,605</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0776</guid>
     </item>
     <item>
@@ -1190,24 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29773795</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268067</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2110 S ISLA DEL RIO WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29772907</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268062</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6412 W One Tree Place</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29772660</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268058</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6248 W SOLLAS CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29772301</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268055</guid>
     </item>
   </channel>
 </rss>

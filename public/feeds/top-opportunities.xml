@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 05 Nov 2026 06:57:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:10:50 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -174,6 +174,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
+    </item>
+    <item>
+      <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SFD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02772</guid>
     </item>
     <item>
       <title>[45] Boise: 1426 S Denver Ave Townhouse — 1426 S DENVER AVE, Boise ID 83706</title>
@@ -917,6 +923,12 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-23</guid>
     </item>
     <item>
+      <title>[35] Eagle: Mailbox structure for Mailboxes and Parcels — S050832540</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29902824</link>
+      <description>COMMERCIAL | Conger Management Group | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269049</guid>
+    </item>
+    <item>
       <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
       <description>COMMERCIAL | Kahler Management | 0</description>
@@ -947,8 +959,8 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
     </item>
     <item>
-      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP&#13;
-This permit was originally an addition but they changed it to a brand new building to avoid fire sprinkler requirements *Truck storage only* — 16151 TEN LN, Nampa   0</title>
+      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP  This permit was orig an addition but they changed it to a brand new building to avoid fire sprinkler reqs *Truck storage only*&#13;
+11/3/26: Owner has decided to withdraw this permit. BO made his representative aware of the $633.75 plan review still owed. LO — 16151 TEN LN, Nampa   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
