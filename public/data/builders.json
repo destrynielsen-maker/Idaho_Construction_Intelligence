@@ -54,6 +54,12 @@
     "valuation_total": 9443829.33
   },
   {
+    "contractor": "Core Building Co",
+    "count": 13,
+    "score_total": 260,
+    "valuation_total": 0
+  },
+  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
@@ -79,12 +85,6 @@
   },
   {
     "contractor": "STERLING HOMES INC",
-    "count": 11,
-    "score_total": 220,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Core Building Co",
     "count": 11,
     "score_total": 220,
     "valuation_total": 0
@@ -288,6 +288,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "BROOKSTONE CUSTOM HOMES",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 569898.96
+  },
+  {
     "contractor": "Alturas Construction, LLC",
     "count": 3,
     "score_total": 60,
@@ -298,12 +304,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
-  },
-  {
-    "contractor": "BROOKSTONE CUSTOM HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 569898.96
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -468,6 +468,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "TRIPLE J CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 385306.44
+  },
+  {
     "contractor": "ASIN HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -504,6 +510,12 @@
     "valuation_total": 711358.1000000001
   },
   {
+    "contractor": "Brighton Homes Idaho Inc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "ARTERRA CUSTOM HOMES LLC",
     "count": 2,
     "score_total": 40,
@@ -532,6 +544,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 391540.0
+  },
+  {
+    "contractor": "PROMINENT HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 753572.88
   },
   {
     "contractor": "ALLIANCE BUILDING",
@@ -594,12 +612,6 @@
     "valuation_total": 700000.0
   },
   {
-    "contractor": "PROMINENT HOMES LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 753572.88
-  },
-  {
     "contractor": "WILLOW CREEK HOMES",
     "count": 2,
     "score_total": 40,
@@ -622,12 +634,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 515320.68
-  },
-  {
-    "contractor": "TRIPLE J CUSTOM HOMES",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 385306.44
   },
   {
     "contractor": "HARTWIG GARY",
@@ -660,6 +666,12 @@
     "valuation_total": 650000.0
   },
   {
+    "contractor": "Conger Management Group",
+    "count": 1,
+    "score_total": 35,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Kahler Management",
     "count": 1,
     "score_total": 35,
@@ -688,12 +700,6 @@
     "count": 1,
     "score_total": 35,
     "valuation_total": 80000.0
-  },
-  {
-    "contractor": "Conger Management Group",
-    "count": 1,
-    "score_total": 35,
-    "valuation_total": 0
   },
   {
     "contractor": "EXCALIBUR GROUP LLC | Brian",
@@ -1020,6 +1026,18 @@
     "valuation_total": 0
   },
   {
+    "contractor": "BRADSHAW CUSTOM HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "RICKMAN BUILDING COMPANY",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 324819.84
+  },
+  {
     "contractor": "JASON MORETT DBA HOMES NORTHWEST LLC",
     "count": 1,
     "score_total": 20,
@@ -1030,6 +1048,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 77990.0
+  },
+  {
+    "contractor": "TAMARACK CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "SIMPLICITY BY HAYDEN HOMES LLC",
@@ -1093,12 +1117,6 @@
   },
   {
     "contractor": "Hallmark Enterprises dba Hallmark Homes",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Brighton Homes Idaho Inc",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -1860,6 +1878,12 @@
     "valuation_total": 230290.56
   },
   {
+    "contractor": "PENNER RICHARD",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 398056.92
+  },
+  {
     "contractor": "SKAGGS CRAIG",
     "count": 1,
     "score_total": 20,
@@ -1912,29 +1936,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "RICKMAN BUILDING COMPANY",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 324819.84
-  },
-  {
-    "contractor": "BRADSHAW CUSTOM HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "TAMARACK CONSTRUCTION",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "PENNER RICHARD",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 398056.92
   }
 ]

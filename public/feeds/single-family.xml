@@ -6,7 +6,25 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 05 Nov 2026 20:10:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 06:54:32 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6158 W Largo Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905253</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269074</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1711 W Deadwood Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905085</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269072</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 8351 Maclachlan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29901270</link>
@@ -56,16 +74,16 @@
       <guid isPermaLink="false">ID:EAGLE:268949</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SALADO CREEK AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
-    </item>
-    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 0 LOWER PLEASANT RIDGE RD, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0841</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 2689 N NEPTUNE ST, POST FALLS ID 83854</title>
@@ -206,6 +224,18 @@
       <guid isPermaLink="false">ID:EAGLE:268757</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27246 IRON HORSE DR, Caldwell   836070000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BRADSHAW CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0814</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8822 KEMP RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 324,820</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0811</guid>
+    </item>
+    <item>
       <title>[20] Boise: 5-17 Barnwood #3 — 7233 S CHINOOK AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U6A&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 279,990</description>
@@ -246,18 +276,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8822 KEMP RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 324,820</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0811</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27246 IRON HORSE DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BRADSHAW CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0814</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
@@ -1190,24 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29774711</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268082</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7572 W CENTERLINE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29774368</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268075</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6967 W TOLLAND ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29773913</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268068</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7366 Powell Pl</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29773795</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268067</guid>
     </item>
   </channel>
 </rss>
