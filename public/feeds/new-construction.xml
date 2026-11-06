@@ -6,7 +6,25 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 06 Nov 2026 06:54:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 19:36:51 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8337 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29907451</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269101</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6423 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29906433</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269089</guid>
+    </item>
     <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SFD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -616,7 +634,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13340 ROUND ROCK CT, Nampa   836510000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 0</description>
+      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 392,449</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0809</guid>
     </item>
     <item>
@@ -1190,24 +1208,6 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 330,796</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-815</guid>
-    </item>
-    <item>
-      <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:BOISE:CZC26-00271</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR W/ ATTACHED SHOP | Bravard Shop/House — 21603 [TEMP] N Stonemason</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | RSB CUSTOMS LLC | 803,893</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1483</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2380 N PROVENCE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29788701</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268245</guid>
     </item>
   </channel>
 </rss>

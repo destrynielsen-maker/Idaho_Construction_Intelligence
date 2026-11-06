@@ -19,8 +19,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 20,
-    "score_total": 425,
+    "count": 21,
+    "score_total": 445,
     "valuation_total": 0
   },
   {
@@ -192,6 +192,12 @@
     "valuation_total": 3656600.0
   },
   {
+    "contractor": "AVIMOR DEVELOPMENT LLC",
+    "count": 4,
+    "score_total": 80,
+    "valuation_total": 0
+  },
+  {
     "contractor": "COPPER CANYON HOMES LLC",
     "count": 4,
     "score_total": 80,
@@ -276,12 +282,6 @@
     "valuation_total": 567128.04
   },
   {
-    "contractor": "AVIMOR DEVELOPMENT LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
     "contractor": "RTL HOMES LLC",
     "count": 3,
     "score_total": 60,
@@ -328,12 +328,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 1061741.1600000001
-  },
-  {
-    "contractor": "JP CUSTOM HOMES & BUILDING CORP",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 893361.24
   },
   {
     "contractor": "HIBBARD CONSTRUCTION INC",
@@ -468,6 +462,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "Brighton Homes Idaho Inc",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
+  },
+  {
     "contractor": "TRIPLE J CUSTOM HOMES",
     "count": 2,
     "score_total": 40,
@@ -508,12 +508,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 711358.1000000001
-  },
-  {
-    "contractor": "Brighton Homes Idaho Inc",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "ARTERRA CUSTOM HOMES LLC",
@@ -622,6 +616,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
+  },
+  {
+    "contractor": "JP CUSTOM HOMES & BUILDING CORP",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 585573.24
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -1014,6 +1014,12 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "Justin Cafferty",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 750000.0
+  },
+  {
     "contractor": "RETRO HOMES INC",
     "count": 1,
     "score_total": 20,
@@ -1053,7 +1059,7 @@
     "contractor": "TAMARACK CONSTRUCTION",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
+    "valuation_total": 392448.6
   },
   {
     "contractor": "SIMPLICITY BY HAYDEN HOMES LLC",

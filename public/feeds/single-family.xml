@@ -6,7 +6,25 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 06 Nov 2026 06:54:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 19:36:51 +0000</lastBuildDate>
+    <item>
+      <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 8337 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29907451</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269101</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6423 W One Tree Place</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29906433</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269089</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
@@ -400,7 +418,7 @@
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13340 ROUND ROCK CT, Nampa   836510000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 0</description>
+      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 392,449</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0809</guid>
     </item>
     <item>
@@ -1190,24 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29776419</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268115</guid>
-    </item>
-    <item>
-      <title>[27] Boise: Sage River Con. Residence — 1724 N 10TH ST, Boise ID 83702</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00R1P&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | SAGE RIVER CONSTRUCTION LLC | 1,000,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02599</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Froelich — 1104 [TEMP] S PALOMINO DR</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | MOUNTAINVIEW CONTRACTORS LLC | 590,744</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0476</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7591 W CHARCOAL ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29774711</link>
-      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268082</guid>
     </item>
   </channel>
 </rss>
