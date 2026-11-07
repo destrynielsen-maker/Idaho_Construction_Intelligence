@@ -426,6 +426,12 @@
     "valuation_total": 360000.0
   },
   {
+    "contractor": "THE EWING COMPANY INC",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 4854138.0
+  },
+  {
     "contractor": "Pro Builders General Contractors,",
     "count": 1,
     "score_total": 42,
@@ -460,12 +466,6 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 1500000.0
-  },
-  {
-    "contractor": "THE EWING COMPANY INC",
-    "count": 1,
-    "score_total": 42,
-    "valuation_total": 4854138.0
   },
   {
     "contractor": "Brighton Homes Idaho Inc",
