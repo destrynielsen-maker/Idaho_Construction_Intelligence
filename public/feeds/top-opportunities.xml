@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 06 Nov 2026 19:36:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:08:36 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -481,6 +481,12 @@ Charged for multi-family ($825) instead of single family ($1,984) fire impact fe
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>MULTIFAMILY | ERSTAD ARCHITECTS | 201,216</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0808</guid>
+    </item>
+    <item>
+      <title>[42] Boise: Veolia Bethel Well — 7180 W BETHEL ST, Boise ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003BB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | THE EWING COMPANY INC | 4,854,138</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00280</guid>
     </item>
     <item>
       <title>[42] Boise: Homewood Suites Boise - Whitewater Village — 3274 W MAIN ST, Boise ID 83702</title>

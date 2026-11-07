@@ -12,6 +12,12 @@
     "valuation_total": 44850000.0
   },
   {
+    "contractor": "Toll Bros, Inc",
+    "count": 23,
+    "score_total": 460,
+    "valuation_total": 0
+  },
+  {
     "contractor": "TH CONSTRUCTION LLC",
     "count": 10,
     "score_total": 450,
@@ -21,12 +27,6 @@
     "contractor": "TRESIDIO HOMES",
     "count": 21,
     "score_total": 445,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Toll Bros, Inc",
-    "count": 21,
-    "score_total": 420,
     "valuation_total": 0
   },
   {
@@ -462,6 +462,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "THE EWING COMPANY INC",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 4854138.0
+  },
+  {
     "contractor": "Brighton Homes Idaho Inc",
     "count": 2,
     "score_total": 40,
@@ -762,6 +768,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "Justin Cafferty",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 750000.0
+  },
+  {
     "contractor": "OAK CREEK CONSTRUCTION |",
     "count": 1,
     "score_total": 25,
@@ -1012,12 +1024,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
-  },
-  {
-    "contractor": "Justin Cafferty",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 750000.0
   },
   {
     "contractor": "RETRO HOMES INC",

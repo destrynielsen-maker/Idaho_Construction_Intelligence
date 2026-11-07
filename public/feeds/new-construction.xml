@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 06 Nov 2026 19:36:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:08:36 +0000</lastBuildDate>
+    <item>
+      <title>[42] Boise: Veolia Bethel Well — 7180 W BETHEL ST, Boise ID 83704</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003BB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>COMMERCIAL | THE EWING COMPANY INC | 4,854,138</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-00280</guid>
+    </item>
     <item>
       <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -24,6 +30,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29906433</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269089</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1964 N SAND SPRINGS WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29910463</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269126</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1861 N CAWOOD WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29909319</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269111</guid>
     </item>
     <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
@@ -1189,25 +1207,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29793340</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268272</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY&#13;
-***DO NOT ISSUE UNTIL RD2026-0023 + CP2026-0072 ARE APPROVED*** Route to GIS last — 0 BENNETT RD, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PATHWAY BUILDERS | 298,605</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0776</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 5-5 Kirsten #2 — 6574 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PZR&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02476</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 12257 W KILKENNY DR, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 330,796</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-815</guid>
     </item>
   </channel>
 </rss>
