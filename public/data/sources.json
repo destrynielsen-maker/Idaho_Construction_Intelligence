@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:22:03+00:00",
+  "generated_at": "2026-11-09T22:18:37+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -21,41 +21,41 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 10,
+      "qualifying_records": 16,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 755,
-      "qualifying_records": 210,
+      "records_seen": 758,
+      "qualifying_records": 212,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },
     {
       "source": "Caldwell",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 10,
+      "qualifying_records": 2,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "RuntimeError: COMPASS page returned no City of Caldwell development-review records after 2 reads"
+      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 76,
-      "qualifying_records": 2,
-      "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-26 through 2026-11-09; 76 primary building permits parsed; newest primary building permit issued 2026-11-05"
-    },
-    {
-      "source": "Kootenai County",
       "status": "error",
       "records_seen": 0,
       "qualifying_records": 0,
-      "source_url": "https://kcgov.us/Archive/44",
-      "note": "ConnectTimeout: HTTPSConnectionPool(host='kcgov.us', port=443): Max retries exceeded with url: /Archive/44 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kcgov.us', port=443) at 0x7c08a08bc080>, 'Connection to kcgov.us timed out. (connect timeout=45)'))"
+      "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
+    },
+    {
+      "source": "Kootenai County",
+      "status": "ok",
+      "records_seen": 44,
+      "qualifying_records": 44,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3616",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 25, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed). Latest report period 2026-11-01 through 2026-11-07 (2 days old)"
     },
     {
       "source": "Post Falls",

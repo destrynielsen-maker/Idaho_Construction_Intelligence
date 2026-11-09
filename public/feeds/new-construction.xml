@@ -6,7 +6,61 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 09 Nov 2026 06:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:32:45 +0000</lastBuildDate>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 200 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269163</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 208 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913600</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269162</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 216 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269161</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-07-02 (9281-0029) — 7030 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913756</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269166</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 16-16-03 (9280-0005) — 6678 W VELINO CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913174</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269160</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Construction of a New Single Family Residence — 1610 W DEADWOOD ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913053</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269156</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6352 W SOLLAS CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29912082</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269148</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6588 W SOLLAS DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29911980</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269144</guid>
+    </item>
     <item>
       <title>[42] Boise: Veolia Bethel Well — 7180 W BETHEL ST, Boise ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003BB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -18,6 +72,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hammer — 4820 W Solitaire Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | THOMAS MILLER CONSTRUCTION | 736,870</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0747</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1964 N SAND SPRINGS WAY</title>
@@ -44,6 +104,12 @@
       <guid isPermaLink="false">ID:EAGLE:269089</guid>
     </item>
     <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 14321 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ZZ CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0848</guid>
+    </item>
+    <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SFD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 250,000</description>
@@ -56,10 +122,10 @@
       <guid isPermaLink="false">ID:EAGLE:269049</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
-      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 4384 (TEMP) W GEMINI LN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 576,982</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1853</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6158 W Largo Ct</title>
@@ -144,6 +210,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00M7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 1,400,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02077</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Grossman — 17042 [TEMP] S LAZURITE DR</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | PATAP CONSTRUCTION LLC | 768,657</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0473</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 8329 ROGERS WAY</title>
@@ -278,6 +350,12 @@
       <guid isPermaLink="false">ID:EAGLE:268936</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30211 N ARCHER RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 662,319</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1791</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 3830 N TEMPLETON PL</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29892463</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
@@ -290,7 +368,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0841</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14328 SALADO CREEK AVE, Nampa   836510000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
@@ -1129,84 +1207,6 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2449 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-800</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2443 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-799</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2435 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 186,153</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-798</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2421 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-797</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3620 N LEIGHTON ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 147,141</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-790</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5351 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 168,456</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-789</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5315 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 210,228</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-788</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5367 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 231,731</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-784</guid>
-    </item>
-    <item>
-      <title>[27] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sullivan — 38721 (TEMP) S HIGHWAY 97</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | EXCALIBUR GROUP LLC | Brian | 1,252,341</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0877</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7266 W Dotson Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29793558</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268275</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6204 W LARGO CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29793416</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268274</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7054 W CRISTOBAL DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29793397</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268273</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6410 W One Tree Place</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29793340</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268272</guid>
     </item>
   </channel>
 </rss>

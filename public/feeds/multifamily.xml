@@ -6,7 +6,25 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 09 Nov 2026 06:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:32:45 +0000</lastBuildDate>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 200 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269163</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 208 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913600</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269162</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 216 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269161</guid>
+    </item>
     <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SFD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>

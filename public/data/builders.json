@@ -12,9 +12,15 @@
     "valuation_total": 44850000.0
   },
   {
+    "contractor": "TRESIDIO HOMES",
+    "count": 26,
+    "score_total": 620,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Toll Bros, Inc",
-    "count": 23,
-    "score_total": 460,
+    "count": 25,
+    "score_total": 500,
     "valuation_total": 0
   },
   {
@@ -22,12 +28,6 @@
     "count": 10,
     "score_total": 450,
     "valuation_total": 2860000.0
-  },
-  {
-    "contractor": "TRESIDIO HOMES",
-    "count": 21,
-    "score_total": 445,
-    "valuation_total": 0
   },
   {
     "contractor": "Brownstone Construction Management LLC",
@@ -42,21 +42,21 @@
     "valuation_total": 3419371.28
   },
   {
+    "contractor": "TIMBERED RIDGE HOMES LLC",
+    "count": 14,
+    "score_total": 350,
+    "valuation_total": 10020811.63
+  },
+  {
     "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
     "count": 7,
     "score_total": 335,
     "valuation_total": 4130000.0
   },
   {
-    "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 13,
-    "score_total": 325,
-    "valuation_total": 9443829.33
-  },
-  {
     "contractor": "Core Building Co",
-    "count": 13,
-    "score_total": 260,
+    "count": 14,
+    "score_total": 280,
     "valuation_total": 0
   },
   {
@@ -258,6 +258,12 @@
     "valuation_total": 1650000.0
   },
   {
+    "contractor": "BENWAY QUALITY HOMES INC",
+    "count": 3,
+    "score_total": 75,
+    "valuation_total": 2130698.88
+  },
+  {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
     "count": 3,
     "score_total": 72,
@@ -292,6 +298,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 569898.96
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 519245.76
   },
   {
     "contractor": "Alturas Construction, LLC",
@@ -370,12 +382,6 @@
     "count": 2,
     "score_total": 50,
     "valuation_total": 1100000.0
-  },
-  {
-    "contractor": "BENWAY QUALITY HOMES INC",
-    "count": 2,
-    "score_total": 50,
-    "valuation_total": 1468380.03
   },
   {
     "contractor": "BRADY ERIC OAKLAND",
@@ -484,12 +490,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 480000.0
-  },
-  {
-    "contractor": "IDEAL CUSTOM HOMES INC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 280992.83999999997
   },
   {
     "contractor": "ALDER RIDGE CUSTOM HOMES",
@@ -622,12 +622,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
-  },
-  {
-    "contractor": "JP CUSTOM HOMES & BUILDING CORP",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 585573.24
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -1024,6 +1018,18 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "PATAP CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 768657.04
+  },
+  {
+    "contractor": "THOMAS MILLER CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 736870.05
   },
   {
     "contractor": "RETRO HOMES INC",
@@ -1462,6 +1468,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 243891.36
+  },
+  {
+    "contractor": "JP CUSTOM HOMES & BUILDING CORP",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 376330.44
   },
   {
     "contractor": "PARAGON HOMES LLC",
@@ -1948,5 +1960,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "ZZ CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "GALLEGOS JOEL ROSALES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342811.32
   }
 ]

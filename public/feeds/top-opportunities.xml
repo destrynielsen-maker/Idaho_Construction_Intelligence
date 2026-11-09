@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 09 Nov 2026 06:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:32:45 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -174,6 +174,24 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00EXC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 750,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01424</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 200 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269163</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 208 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913600</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269162</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 216 N. Morehouse Ave.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269161</guid>
     </item>
     <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>

@@ -6,12 +6,54 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 09 Nov 2026 06:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:32:45 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-07-02 (9281-0029) — 7030 W CRISTOBAL DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913756</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269166</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 16-16-03 (9280-0005) — 6678 W VELINO CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913174</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269160</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Construction of a New Single Family Residence — 1610 W DEADWOOD ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29913053</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269156</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6352 W SOLLAS CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29912082</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269148</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6588 W SOLLAS DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29911980</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269144</guid>
+    </item>
     <item>
       <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hammer — 4820 W Solitaire Rd</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | THOMAS MILLER CONSTRUCTION | 736,870</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0747</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1964 N SAND SPRINGS WAY</title>
@@ -38,10 +80,16 @@
       <guid isPermaLink="false">ID:EAGLE:269089</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
-      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 14321 RED RIVER AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | ZZ CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0848</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 4384 (TEMP) W GEMINI LN</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 576,982</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1853</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6158 W Largo Ct</title>
@@ -86,6 +134,12 @@
       <guid isPermaLink="false">ID:EAGLE:268828</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Grossman — 17042 [TEMP] S LAZURITE DR</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | PATAP CONSTRUCTION LLC | 768,657</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0473</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 8329 ROGERS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29898656</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
@@ -96,6 +150,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U60&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 259,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02971</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30211 N ARCHER RD</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
+      <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 662,319</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1791</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 3830 N TEMPLETON PL</title>
@@ -110,7 +170,7 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0841</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14328 SALADO CREEK AVE, Nampa   836510000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROOKSTONE CUSTOM HOMES | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
@@ -1148,66 +1208,6 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 796,510</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1591</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge | — 24400 [TEMP] N ECLIPSE RD</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 599,629</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1575</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hansch Residence — 6201 [TEMP] W Sparrowhawk</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 705,715</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1242</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Wendland — 10882 W Thompson Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3596</link>
-      <description>SINGLE_FAMILY | INLAND CONSTRUCTION | 129,901</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0334</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7188 N HILLSWICK WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29781963</link>
-      <description>SINGLE_FAMILY | Hammett Companies dba Hammett Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268186</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6999 N CAIRNHILL WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29781907</link>
-      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268184</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6888 W DANES CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29781012</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268178</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1642 W DEADWOOD ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29780927</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268176</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6640 W SOLLAS DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29780725</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268173</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Plass Residence — 1645 E RIDDLE RD [TEMP]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3586</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 723,411</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1179</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1454 E PELHAM ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29777943</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268140</guid>
     </item>
   </channel>
 </rss>
