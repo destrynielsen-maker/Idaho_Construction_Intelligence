@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 09 Nov 2026 22:32:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:29:33 +0000</lastBuildDate>
     <item>
       <title>[45] Eagle: New Single Family Townhome — 200 N. Morehouse Ave.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
@@ -14,37 +14,31 @@
       <guid isPermaLink="false">ID:EAGLE:269163</guid>
     </item>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 208 N. Morehouse Ave.</title>
+      <title>[45] Eagle: New Townhome — 208 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913600</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269162</guid>
     </item>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 216 N. Morehouse Ave.</title>
+      <title>[45] Eagle: New Townhome — 216 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269161</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
-      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269077</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-07-02 (9281-0029) — 7030 W CRISTOBAL DR</title>
+      <title>[20] Eagle: New Home — 7030 W CRISTOBAL DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913756</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269166</guid>
     </item>
     <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 16-16-03 (9280-0005) — 6678 W VELINO CT</title>
+      <title>[20] Eagle: New Home — 6678 W VELINO CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913174</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269160</guid>
     </item>
     <item>
-      <title>[20] Eagle: Construction of a New Single Family Residence — 1610 W DEADWOOD ST</title>
+      <title>[20] Eagle: New Home — 1610 W DEADWOOD ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913053</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269156</guid>
@@ -62,22 +56,52 @@
       <guid isPermaLink="false">ID:EAGLE:269144</guid>
     </item>
     <item>
+      <title>[20] Eagle: New Home — 5455 W SATINWOOD LN</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29905541</link>
+      <description>SINGLE_FAMILY | Brighton Homes Idaho Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269077</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 13-17 Barnwood #3 — 7224 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00W8U&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 169,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03219</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 15-17 Barnwood #3 — 7248 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00W3V&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 155,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03200</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 14-17 Barnwood #3 — 7236 S KANARA AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00W3U&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 157,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03199</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Lot 01, Blk 01 Easy Street Sub — 506 W HIGHLAND ST, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SSF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | WEST RIDGE HOMES | 300,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02810</guid>
+    </item>
+    <item>
       <title>[42] Boise: Veolia Bethel Well — 7180 W BETHEL ST, Boise ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=003BB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>COMMERCIAL | THE EWING COMPANY INC | 4,854,138</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00280</guid>
     </item>
     <item>
-      <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
-    </item>
-    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Hammer — 4820 W Solitaire Rd</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
       <description>SINGLE_FAMILY | THOMAS MILLER CONSTRUCTION | 736,870</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0747</guid>
+    </item>
+    <item>
+      <title>[25] Boise: Hewitt Residence — 3518 N 36TH ST, Boise ID 83703</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UKP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Justin Cafferty | 750,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03002</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1964 N SAND SPRINGS WAY</title>
@@ -1183,30 +1207,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268308</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2475 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29796430</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268302</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3545 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 243,210</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-846</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1120 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-827</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1062 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
     </item>
   </channel>
 </rss>

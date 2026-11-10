@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 69,
-    "score_total": 1542,
-    "valuation_total": 12086419.87
+    "count": 72,
+    "score_total": 1602,
+    "valuation_total": 12569889.87
   },
   {
     "contractor": "ROUNDHOUSE CONSTRUCTION, LLC",
@@ -45,7 +45,7 @@
     "contractor": "TIMBERED RIDGE HOMES LLC",
     "count": 14,
     "score_total": 350,
-    "valuation_total": 10020811.63
+    "valuation_total": 10020811.629999999
   },
   {
     "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
@@ -252,16 +252,16 @@
     "valuation_total": 1295181.24
   },
   {
-    "contractor": "SHELF CAPITAL, LLC DBA JW HOMES",
-    "count": 3,
-    "score_total": 75,
-    "valuation_total": 1650000.0
-  },
-  {
     "contractor": "BENWAY QUALITY HOMES INC",
     "count": 3,
     "score_total": 75,
     "valuation_total": 2130698.88
+  },
+  {
+    "contractor": "SHELF CAPITAL, LLC DBA JW HOMES",
+    "count": 3,
+    "score_total": 75,
+    "valuation_total": 1650000.0
   },
   {
     "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
@@ -762,10 +762,22 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "THOMAS MILLER CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 736870.05
+  },
+  {
     "contractor": "Justin Cafferty",
     "count": 1,
     "score_total": 25,
     "valuation_total": 750000.0
+  },
+  {
+    "contractor": "PATAP CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 768657.04
   },
   {
     "contractor": "OAK CREEK CONSTRUCTION |",
@@ -1020,16 +1032,10 @@
     "valuation_total": 622738.8
   },
   {
-    "contractor": "PATAP CONSTRUCTION LLC",
+    "contractor": "ZZ CONSTRUCTION",
     "count": 1,
-    "score_total": 25,
-    "valuation_total": 768657.04
-  },
-  {
-    "contractor": "THOMAS MILLER CONSTRUCTION",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 736870.05
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "RETRO HOMES INC",
@@ -1806,6 +1812,12 @@
     "valuation_total": 278234.8
   },
   {
+    "contractor": "GALLEGOS JOEL ROSALES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342811.32
+  },
+  {
     "contractor": "POULSEN ENTERPRISES LLC",
     "count": 1,
     "score_total": 20,
@@ -1962,15 +1974,9 @@
     "valuation_total": 301056.72
   },
   {
-    "contractor": "ZZ CONSTRUCTION",
+    "contractor": "WEST RIDGE HOMES",
     "count": 1,
     "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "GALLEGOS JOEL ROSALES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 342811.32
+    "valuation_total": 300000.0
   }
 ]
