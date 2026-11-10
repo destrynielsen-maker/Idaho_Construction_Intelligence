@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 72,
-    "score_total": 1602,
-    "valuation_total": 12569889.87
+    "count": 75,
+    "score_total": 1662,
+    "valuation_total": 13044359.87
   },
   {
     "contractor": "ROUNDHOUSE CONSTRUCTION, LLC",
@@ -13,8 +13,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 26,
-    "score_total": 620,
+    "count": 27,
+    "score_total": 640,
     "valuation_total": 0
   },
   {
@@ -90,16 +90,16 @@
     "valuation_total": 0
   },
   {
+    "contractor": "COOK BROTHERS CONSTRUCTION INC",
+    "count": 7,
+    "score_total": 220,
+    "valuation_total": 2000000.0
+  },
+  {
     "contractor": "Biltmore Company, LLC",
     "count": 10,
     "score_total": 200,
     "valuation_total": 0
-  },
-  {
-    "contractor": "COOK BROTHERS CONSTRUCTION INC",
-    "count": 6,
-    "score_total": 200,
-    "valuation_total": 1750000.0
   },
   {
     "contractor": "DAUM CONSTRUCTION",
@@ -1030,6 +1030,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "WEST RIDGE HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 300000.0
   },
   {
     "contractor": "ZZ CONSTRUCTION",
@@ -1972,11 +1978,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "WEST RIDGE HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 300000.0
   }
 ]

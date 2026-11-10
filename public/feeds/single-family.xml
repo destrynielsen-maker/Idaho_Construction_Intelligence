@@ -6,7 +6,37 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 10 Nov 2026 07:29:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:57:05 +0000</lastBuildDate>
+    <item>
+      <title>[20] Boise: 10-17 Barnwood #3 — 7155 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V83&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 139,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03086</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 9-17 Barnwood #3 — 7173 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V7Z&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 164,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03083</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-17 Barnwood #3 — 7229 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UM6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 169,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03009</guid>
+    </item>
+    <item>
+      <title>[20] Boise: MAIN HOME Euclid — 1808 S EUCLID AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00TMD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02910</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: new single family residential — 6503 W. SOLLAS CT.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29916377</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269206</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 7030 W CRISTOBAL DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913756</link>
@@ -1178,36 +1208,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29785562</link>
       <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268215</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6235 W Largo Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29784299</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268200</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6751 N TORYGLEN WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29784238</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268199</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6289 W LARGO CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29783758</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268197</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6273 W SOLLAS CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29783733</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268196</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2805 N CASSIOPEIA ST, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 433,741</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-834</guid>
     </item>
   </channel>
 </rss>

@@ -6,9 +6,39 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 10 Nov 2026 07:29:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:57:05 +0000</lastBuildDate>
     <item>
-      <title>[45] Eagle: New Single Family Townhome — 200 N. Morehouse Ave.</title>
+      <title>[20] Boise: 10-17 Barnwood #3 — 7155 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V83&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 139,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03086</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 9-17 Barnwood #3 — 7173 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V7Z&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 164,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03083</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 6-17 Barnwood #3 — 7229 S CHINOOK AVE, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UM6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 169,490</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03009</guid>
+    </item>
+    <item>
+      <title>[20] Boise: MAIN HOME Euclid — 1808 S EUCLID AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00TMD&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02910</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: new single family residential — 6503 W. SOLLAS CT.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29916377</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269206</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Townhome — 200 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269163</guid>
@@ -1177,36 +1207,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29798307</link>
       <description>SINGLE_FAMILY | Tradewinds General Contracting, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268324</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7371 N Hillswick Wy</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798119</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268316</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2029 S ISLA DEL RIO WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798101</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268315</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7310 N Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798099</link>
-      <description>SINGLE_FAMILY | Hallmark Enterprises dba Hallmark Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268314</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6485 W DANES DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798045</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268313</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2480 E Monhegan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268308</guid>
     </item>
   </channel>
 </rss>
