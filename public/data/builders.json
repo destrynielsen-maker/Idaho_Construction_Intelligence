@@ -72,6 +72,12 @@
     "valuation_total": 1549000.0
   },
   {
+    "contractor": "COOK BROTHERS CONSTRUCTION INC",
+    "count": 8,
+    "score_total": 240,
+    "valuation_total": 2250000.0
+  },
+  {
     "contractor": "SHALC GC INC",
     "count": 5,
     "score_total": 225,
@@ -88,12 +94,6 @@
     "count": 11,
     "score_total": 220,
     "valuation_total": 0
-  },
-  {
-    "contractor": "COOK BROTHERS CONSTRUCTION INC",
-    "count": 7,
-    "score_total": 220,
-    "valuation_total": 2000000.0
   },
   {
     "contractor": "Biltmore Company, LLC",

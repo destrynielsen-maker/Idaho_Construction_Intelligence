@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:41:47+00:00",
+  "generated_at": "2026-11-11T06:12:24+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -12,8 +12,8 @@
     {
       "source": "Boise Issued Building Permits",
       "status": "ok",
-      "records_seen": 77,
-      "qualifying_records": 77,
+      "records_seen": 78,
+      "qualifying_records": 78,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 12,
+      "qualifying_records": 11,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "ok",
-      "records_seen": 77,
-      "qualifying_records": 2,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-09-27 through 2026-11-10; 77 primary building permits parsed; newest primary building permit issued 2026-11-09"
+      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
     },
     {
       "source": "Kootenai County",
@@ -55,15 +55,15 @@
       "records_seen": 44,
       "qualifying_records": 44,
       "source_url": "https://kcgov.us/Archive/ViewFile/Item/3616",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 25, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed). Latest report period 2026-11-01 through 2026-11-07 (3 days old)"
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 25, 2026 (6 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 18, 2026 (10 parsed). Latest report period 2026-11-01 through 2026-11-07 (4 days old)"
     },
     {
       "source": "Post Falls",
       "status": "ok",
-      "records_seen": 126,
-      "qualifying_records": 126,
+      "records_seen": 103,
+      "qualifying_records": 103,
       "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
-      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 287 source records inspected; 126 ground-up building permits kept; newest issued permit 2026-11-03 (7 days old)"
+      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 262 source records inspected; 103 ground-up building permits kept; newest issued permit 2026-11-03 (8 days old)"
     },
     {
       "source": "Meridian",
@@ -71,7 +71,7 @@
       "records_seen": 89,
       "qualifying_records": 83,
       "source_url": "https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf",
-      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (65 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
+      "note": "Landing-page discovery unavailable (HTTPError); Direct/discovered reports: 2026-08-10 through 2026-08-16 (19 parsed); 2026-08-17 through 2026-08-23 (34 parsed); 2026-08-24 through 2026-08-30 (18 parsed); 2026-08-31 through 2026-09-06 (18 parsed). Direct fallback newest report ends 2026-09-06 (66 days old) WARNING: fallback report set is older than 14 days and should be refreshed"
     },
     {
       "source": "Nampa",

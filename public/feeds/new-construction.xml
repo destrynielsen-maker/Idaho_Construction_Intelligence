@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 10 Nov 2026 19:57:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:27:00 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: new single family residential — 6503 W. SOLLAS CT.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29916377</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269206</guid>
+    </item>
     <item>
       <title>[20] Boise: 10-17 Barnwood #3 — 7155 S CHINOOK AVE, Boise ID 83709</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V83&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -32,10 +38,10 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02910</guid>
     </item>
     <item>
-      <title>[20] Eagle: new single family residential — 6503 W. SOLLAS CT.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29916377</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269206</guid>
+      <title>[20] Boise: 1810 Euclid — 1810 S EUCLID AVE, Boise ID 83706</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00TMI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COOK BROTHERS CONSTRUCTION INC | 250,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02913</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 200 N Morehouse Ave</title>
@@ -1201,12 +1207,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00MCA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | NATHAN TAYLOR | 650,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02093</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New residential construction of a single story family home to include 4 bedrooms, 3 bathrooms, 2 powder baths, shop, a 2-car garage, utility garage, and RV garage. — 8405 Cathedral St</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798307</link>
-      <description>SINGLE_FAMILY | Tradewinds General Contracting, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268324</guid>
     </item>
   </channel>
 </rss>
