@@ -297,7 +297,7 @@
     "contractor": "BROOKSTONE CUSTOM HOMES",
     "count": 3,
     "score_total": 60,
-    "valuation_total": 569898.96
+    "valuation_total": 1010785.2
   },
   {
     "contractor": "IDEAL CUSTOM HOMES INC",
@@ -346,12 +346,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 1048353.48
-  },
-  {
-    "contractor": "BACHMAN CUSTOM HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 810037.2
   },
   {
     "contractor": "MONARCH CUSTOM HOMES",
@@ -636,10 +630,22 @@
     "valuation_total": 515320.68
   },
   {
+    "contractor": "BACHMAN CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 534186.72
+  },
+  {
     "contractor": "HARTWIG GARY",
     "count": 2,
     "score_total": 40,
     "valuation_total": 393768.96
+  },
+  {
+    "contractor": "O'DWYER SIGNATURE HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 629723.28
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -1978,5 +1984,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "ABSOLUTE CONSTRUCTION & CONSULTING dba Bachman Custom Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "EELLS LAREN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]
