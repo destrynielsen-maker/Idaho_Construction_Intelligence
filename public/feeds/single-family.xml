@@ -6,7 +6,25 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 12 Nov 2026 15:24:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:54:38 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 6384 W Danes Ct</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29946212</link>
+      <description>SINGLE_FAMILY | ABC &amp; MHK INC DBA BROOKSTONE CUSTOM HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269288</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7169 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29946182</link>
+      <description>SINGLE_FAMILY | Highland Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269287</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7334 N Hillswick Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29945824</link>
+      <description>SINGLE_FAMILY | Hammett Companies LLC (residential) | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269283</guid>
+    </item>
     <item>
       <title>[20] Eagle: Single residential family home — 3768 N Templeton Pl</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29943101</link>
@@ -14,13 +32,13 @@
       <guid isPermaLink="false">ID:EAGLE:269252</guid>
     </item>
     <item>
-      <title>[15] Eagle: Construction of a new 429 SF attached garage addition to the existing single-family residence, with 752 SF of unfinished bonus space above the existing and new garages. The new garage addition will be attached to the existing 2-car garage. The existing garage ceiling will be raised to the same height as the new garage ceiling. Included in the plans is a 162 SF unfinished future loft extension to tie the existing loft area of the second story to the unfinished bonus room above the garage (and provide access to that area). No finished or conditioned living area is being added under this permit. Scope also includes 350 SF of new driveway to serve the new garage from Eagle Hills Way. Square Footage Summary: New finished living area: 0 SF Unfinished bonus area (above garage): 752 SF Unfinished loft extension: 162 SF Total unfinished area: 914 SF New garage: 429 SF New driveway (flatwork): 350 SF — 771 N Eagle Hills Way, Eagle, ID 83616</title>
+      <title>[20] Eagle: Construction of a new 429 SF attached garage addition to the existing single-family residence, with 752 SF of unfinished bonus space above the existing and new garages. The new garage addition will be attached to the existing 2-car garage. The existing garage ceiling will be raised to the same height as the new garage ceiling. Included in the plans is a 162 SF unfinished future loft extension to tie the existing loft area of the second story to the unfinished bonus room above the garage (and provide access to that area). No finished or conditioned living area is being added under this permit. Scope also includes 350 SF of new driveway to serve the new garage from Eagle Hills Way. Square Footage Summary: New finished living area: 0 SF Unfinished bonus area (above garage): 752 SF Unfinished loft extension: 162 SF Total unfinished area: 914 SF New garage: 429 SF New driveway (flatwork): 350 SF — 771 N EAGLE HILLS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29942967</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <description>SINGLE_FAMILY | ACADIA BUILDING COMPANY LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269250</guid>
     </item>
     <item>
-      <title>[20] Eagle: new single family residential — 6503 W. SOLLAS CT.</title>
+      <title>[20] Eagle: New Home — 6503 W SOLLAS CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29916377</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269206</guid>
@@ -1189,24 +1207,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 119,490</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02423</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 10-5 Kirsten #2 — 6563 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJQ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02422</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 9-5 Kirsten #2 — 6551 S ZIPPORA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJ2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02415</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 28-6 Kirsten #2 — 6589 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PDS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 108,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02395</guid>
     </item>
   </channel>
 </rss>

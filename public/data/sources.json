@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:10:17+00:00",
+  "generated_at": "2026-11-12T23:36:58+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 11,
+      "qualifying_records": 6,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
