@@ -1038,6 +1038,18 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "ABSOLUTE CONSTRUCTION & CONSULTING dba Bachman Custom Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
+    "contractor": "EELLS LAREN",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "WEST RIDGE HOMES",
     "count": 1,
     "score_total": 20,
@@ -1984,17 +1996,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "ABSOLUTE CONSTRUCTION & CONSULTING dba Bachman Custom Homes",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "EELLS LAREN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]
