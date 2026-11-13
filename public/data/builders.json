@@ -144,13 +144,13 @@
     "valuation_total": 1004016.0
   },
   {
-    "contractor": "Solitude Homes Inc",
+    "contractor": "Highland Homes LLC",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
   },
   {
-    "contractor": "Highland Homes LLC",
+    "contractor": "Solitude Homes Inc",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
@@ -288,6 +288,12 @@
     "valuation_total": 567128.04
   },
   {
+    "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
+  },
+  {
     "contractor": "RTL HOMES LLC",
     "count": 3,
     "score_total": 60,
@@ -304,12 +310,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 519245.76
-  },
-  {
-    "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
   },
   {
     "contractor": "Alturas Construction, LLC",
@@ -1036,6 +1036,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Hammett Companies LLC (residential)",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "ABSOLUTE CONSTRUCTION & CONSULTING dba Bachman Custom Homes",
@@ -2002,11 +2008,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Hammett Companies LLC (residential)",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]
