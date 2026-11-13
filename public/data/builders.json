@@ -13,14 +13,14 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 27,
-    "score_total": 640,
+    "count": 29,
+    "score_total": 680,
     "valuation_total": 0
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 25,
-    "score_total": 500,
+    "count": 26,
+    "score_total": 520,
     "valuation_total": 0
   },
   {
@@ -124,6 +124,12 @@
     "count": 8,
     "score_total": 174,
     "valuation_total": 5163161.120000001
+  },
+  {
+    "contractor": "RTL HOMES LLC",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
   },
   {
     "contractor": "BRIGHTON HOMES IDAHO INC",
@@ -289,12 +295,6 @@
   },
   {
     "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "RTL HOMES LLC",
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
@@ -1030,12 +1030,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 511236.96
-  },
-  {
-    "contractor": "CONSTRUCTION MANAGEMENT OF IDAHO",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 622738.8
   },
   {
     "contractor": "Hammett Companies LLC (residential)",

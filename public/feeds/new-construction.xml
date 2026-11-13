@@ -6,7 +6,49 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 13 Nov 2026 06:55:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 19:53:41 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL SINGLE-FAMILY DETACHED HOME (LOT PURCHASED FROM CORE BUILDING CO) — 334 N BOULDER RIDGE WAY, EAGLE, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29949727</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269345</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL SINGLE-FAMILY DETACHED HOME (LOT PURCHASED FROM CORE BUILDING CO) — 358 N BOULDER RIDGE WAY, EAGLE, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29949703</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269343</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL SINGLE-FAMILY DETACHED HOME (LOT PURCHASED FROM CORE BUILDING CO) — 361 N HUNTER CREEK, EAGLE, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29949622</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269341</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL SINGLE-FAMILY DETACHED HOME (LOT PURCHASED FROM CORE BUILDING CO) — 339 N HUNTER CREEK, EAGLE, ID 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29949599</link>
+      <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269340</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 1864 N CAWOOD WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29948871</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269327</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 6383 W CARNOCK DR</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29948489</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269318</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7075 W TOLLAND ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29948434</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269315</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 6384 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29946212</link>
@@ -26,7 +68,7 @@
       <guid isPermaLink="false">ID:EAGLE:269283</guid>
     </item>
     <item>
-      <title>[20] Eagle: Single residential family home — 3768 N Templeton Pl</title>
+      <title>[20] Eagle: New Home — 3768 N Templeton Pl</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29943101</link>
       <description>SINGLE_FAMILY | ABSOLUTE CONSTRUCTION &amp; CONSULTING dba Bachman Custom Homes | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269252</guid>
@@ -1164,48 +1206,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29802540</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268376</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 40-5 Barnwood #3 — 7152 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 136,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02831</guid>
-    </item>
-    <item>
-      <title>[37] Post Falls: New Commercial Building — 1147 N INNOVATION WAY, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 1,500,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-84</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6300 W Danes Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29800955</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268357</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1908 N CAWOOD WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29800857</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268355</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7571 W STARWOOD CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29800530</link>
-      <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268352</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5552 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29799654</link>
-      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268341</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 5566 W SATINWOOD LN</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29799623</link>
-      <description>SINGLE_FAMILY | Alturas Construction, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268339</guid>
     </item>
   </channel>
 </rss>
