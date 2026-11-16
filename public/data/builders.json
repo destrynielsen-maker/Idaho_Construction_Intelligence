@@ -19,8 +19,8 @@
   },
   {
     "contractor": "Toll Bros, Inc",
-    "count": 26,
-    "score_total": 520,
+    "count": 27,
+    "score_total": 540,
     "valuation_total": 0
   },
   {
@@ -96,6 +96,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "HHS CONSTRUCTION LLC",
+    "count": 9,
+    "score_total": 201,
+    "valuation_total": 6187761.120000001
+  },
+  {
     "contractor": "Biltmore Company, LLC",
     "count": 10,
     "score_total": 200,
@@ -120,12 +126,6 @@
     "valuation_total": 0
   },
   {
-    "contractor": "HHS CONSTRUCTION LLC",
-    "count": 8,
-    "score_total": 174,
-    "valuation_total": 5163161.120000001
-  },
-  {
     "contractor": "RTL HOMES LLC",
     "count": 7,
     "score_total": 140,
@@ -148,6 +148,12 @@
     "count": 6,
     "score_total": 120,
     "valuation_total": 1004016.0
+  },
+  {
+    "contractor": "MONARCH CUSTOM HOMES",
+    "count": 4,
+    "score_total": 102,
+    "valuation_total": 3651789.73
   },
   {
     "contractor": "Highland Homes LLC",
@@ -354,16 +360,16 @@
     "valuation_total": 1048353.48
   },
   {
-    "contractor": "MONARCH CUSTOM HOMES",
-    "count": 2,
-    "score_total": 52,
-    "valuation_total": 1997268.31
-  },
-  {
     "contractor": "ELA CONSTRUCTION LLC",
     "count": 2,
     "score_total": 52,
     "valuation_total": 1823257.33
+  },
+  {
+    "contractor": "BENTON DEVELOPMENT INC",
+    "count": 2,
+    "score_total": 52,
+    "valuation_total": 1790325.33
   },
   {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
@@ -382,6 +388,18 @@
     "count": 2,
     "score_total": 50,
     "valuation_total": 1100000.0
+  },
+  {
+    "contractor": "QUALITY DIAMOND CONSTRUCTION",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1242013.53
+  },
+  {
+    "contractor": "ATLAS BUILDING GROUP LLC",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1567213.1400000001
   },
   {
     "contractor": "BRADY ERIC OAKLAND",
@@ -646,6 +664,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 629723.28
+  },
+  {
+    "contractor": "Asbury Homes LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -928,18 +952,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 825000.0
-  },
-  {
-    "contractor": "BENTON DEVELOPMENT INC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 778110.38
-  },
-  {
-    "contractor": "QUALITY DIAMOND CONSTRUCTION",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 589787.04
   },
   {
     "contractor": "A+ CONSTRUCTION LLC",
@@ -2002,5 +2014,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "IRON RIDGE CUSTOM HOMES LLC |",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 330695.5
   }
 ]

@@ -6,27 +6,51 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 16 Nov 2026 06:40:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 22:16:27 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY, EAGLE, ID 83616</title>
+      <title>[27] Boise: HR 18-01 — 6103 E PROMINENCE CT, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00OK6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 1,024,600</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02298</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 06-12-02 (9282-0029) — 2149 N HONALEE AVE</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29953990</link>
+      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269401</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home- Single Family Resident — 2156 N BUHRSTONE AVE, EAGLE, ID 83616-0000</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29952433</link>
+      <description>SINGLE_FAMILY | Asbury Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269382</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home- Single Family Resident — 2600 N Palaestra Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29952388</link>
+      <description>SINGLE_FAMILY | Asbury Homes LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269379</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29949727</link>
       <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269345</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 358 N BOULDER RIDGE WAY, EAGLE, ID 83616</title>
+      <title>[20] Eagle: New Home — 358 N BOULDER RIDGE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29949703</link>
       <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269343</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 361 N HUNTER CREEK, EAGLE, ID 83616</title>
+      <title>[20] Eagle: New Home — 361 N HUNTER CREEK AVE</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29949622</link>
       <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269341</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Home — 339 N HUNTER CREEK, EAGLE, ID 83616</title>
+      <title>[20] Eagle: New Home — 339 N HUNTER CREEK</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29949599</link>
       <description>SINGLE_FAMILY | RTL HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269340</guid>
@@ -86,6 +110,18 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-03073</guid>
     </item>
     <item>
+      <title>[27] Kootenai County: SFR w/ATTACHED GARAGE | Olsen Residence — 32475 [TEMP] N</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | BENTON DEVELOPMENT INC | 1,012,215</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1705</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Quality Diamond — 26597 N Asulkan St [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | QUALITY DIAMOND CONSTRUCTION | 652,226</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1519</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 6384 W Danes Ct</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29946212</link>
       <description>SINGLE_FAMILY | ABC &amp; MHK INC DBA BROOKSTONE CUSTOM HOMES | 0</description>
@@ -104,10 +140,40 @@
       <guid isPermaLink="false">ID:EAGLE:269283</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR w/ UNFINISHED BASEMENT| Cartwright — 5187 [TEMP] S Melick Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | IRON RIDGE CUSTOM HOMES LLC | | 330,696</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1473</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: SFR Cadar Residence — 16243 [TEMP]</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1698</guid>
+    </item>
+    <item>
       <title>[20] Eagle: Construction of a new 429 SF attached garage addition to the existing single-family residence, with 752 SF of unfinished bonus space above the existing and new garages. The new garage addition will be attached to the existing 2-car garage. The existing garage ceiling will be raised to the same height as the new garage ceiling. Included in the plans is a 162 SF unfinished future loft extension to tie the existing loft area of the second story to the unfinished bonus room above the garage (and provide access to that area). No finished or conditioned living area is being added under this permit. Scope also includes 350 SF of new driveway to serve the new garage from Eagle Hills Way. Square Footage Summary: New finished living area: 0 SF Unfinished bonus area (above garage): 752 SF Unfinished loft extension: 162 SF Total unfinished area: 914 SF New garage: 429 SF New driveway (flatwork): 350 SF — 771 N EAGLE HILLS WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29942967</link>
       <description>SINGLE_FAMILY | ACADIA BUILDING COMPANY LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269250</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR W/ATTACHED GARAGE | Jordan residence — 2840 [TEMP] S Silver Beach</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 781,996</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES25-1609</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Atlas Building — 11729 [TEMP] N Fox Hole</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | ATLAS BUILDING GROUP LLC | 899,114</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1680</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Monarch — 15529 [TEMP] N Mountain</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | MONARCH CUSTOM HOMES | 872,525</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1776</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 6503 W SOLLAS CT</title>
@@ -168,6 +234,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269161</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | ATLAS BUILDING — 11699 [TEMP] N Fox Hole</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
+      <description>SINGLE_FAMILY | ATLAS BUILDING GROUP LLC | 668,099</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1496</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7030 W CRISTOBAL DR</title>
@@ -1134,78 +1206,6 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
       <description>SINGLE_FAMILY | IDADREAM HOMES LLC | 520,690</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0791</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Lapushinski — 25875 N Fjord Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 343,251</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1527</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Houk Residence — 18124 S Rockford Pines Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | ROCKY MOUNTAIN CONCIERGE LLC | 424,765</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0726</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2047 S ISLA DEL RIO WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29820933</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268461</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7389 N HILLSWICK WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29820758</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268459</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Snyder residence — 2525 E Upper Hayden Lake Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | CREEKSIDE CONSTRUCTION LLC | 969,459</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1451</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Weiner residence — 4926 [TEMP] S Scenic Drive</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | ASPEN HOMES AND DEVELOPMENT | 796,131</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1263</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6228 W DANES CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29809115</link>
-      <description>SINGLE_FAMILY | ABC &amp; MHK INC DBA BROOKSTONE CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268443</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 23896 STONE LN, Caldwell</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PEREZ CRUZ JUAN | 244,422</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0783</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | LOT 34 BLK 8 — 23738 N Ceylon Rd [TEMP]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 599,629</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1694</guid>
-    </item>
-    <item>
-      <title>[25] Canyon County: NEW SFR W/ ATTACHED GARAGE — 6990 RIM RD, Nampa   836860000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | GRIFFIN CY | 522,409</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dredge-Dickson — 14564 [TEMP] E Marie Creek</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | CDA STRUCTURES | 398,341</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1424</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268395</guid>
     </item>
   </channel>
 </rss>
