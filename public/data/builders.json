@@ -153,7 +153,7 @@
     "contractor": "MONARCH CUSTOM HOMES",
     "count": 4,
     "score_total": 102,
-    "valuation_total": 3651789.73
+    "valuation_total": 3651789.7299999995
   },
   {
     "contractor": "Highland Homes LLC",
@@ -360,34 +360,22 @@
     "valuation_total": 1048353.48
   },
   {
-    "contractor": "ELA CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 52,
-    "valuation_total": 1823257.33
-  },
-  {
     "contractor": "BENTON DEVELOPMENT INC",
     "count": 2,
     "score_total": 52,
     "valuation_total": 1790325.33
   },
   {
+    "contractor": "ELA CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 52,
+    "valuation_total": 1823257.33
+  },
+  {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
     "count": 1,
     "score_total": 52,
     "valuation_total": 3283462.0
-  },
-  {
-    "contractor": "VIKING CONSTRUCTION",
-    "count": 2,
-    "score_total": 50,
-    "valuation_total": 1302600.07
-  },
-  {
-    "contractor": "HILL CONST & PROPERTY SERVICES INC",
-    "count": 2,
-    "score_total": 50,
-    "valuation_total": 1100000.0
   },
   {
     "contractor": "QUALITY DIAMOND CONSTRUCTION",
@@ -400,6 +388,18 @@
     "count": 2,
     "score_total": 50,
     "valuation_total": 1567213.1400000001
+  },
+  {
+    "contractor": "VIKING CONSTRUCTION",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1302600.07
+  },
+  {
+    "contractor": "HILL CONST & PROPERTY SERVICES INC",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1100000.0
   },
   {
     "contractor": "BRADY ERIC OAKLAND",
@@ -490,6 +490,12 @@
     "count": 1,
     "score_total": 42,
     "valuation_total": 1500000.0
+  },
+  {
+    "contractor": "Asbury Homes LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 0
   },
   {
     "contractor": "Brighton Homes Idaho Inc",
@@ -664,12 +670,6 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 629723.28
-  },
-  {
-    "contractor": "Asbury Homes LLC",
-    "count": 2,
-    "score_total": 40,
-    "valuation_total": 0
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -1048,6 +1048,12 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
+  },
+  {
+    "contractor": "IRON RIDGE CUSTOM HOMES LLC |",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 330695.5
   },
   {
     "contractor": "Hammett Companies LLC (residential)",
@@ -2014,11 +2020,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "IRON RIDGE CUSTOM HOMES LLC |",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 330695.5
   }
 ]
