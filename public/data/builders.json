@@ -450,6 +450,12 @@
     "valuation_total": 360000.0
   },
   {
+    "contractor": "TRINITY HOMES LLC",
+    "count": 1,
+    "score_total": 45,
+    "valuation_total": 400000.0
+  },
+  {
     "contractor": "THE EWING COMPANY INC",
     "count": 1,
     "score_total": 42,
