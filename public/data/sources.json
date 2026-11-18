@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T12:24:21+00:00",
+  "generated_at": "2026-11-18T18:20:11+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 987,
-      "qualifying_records": 25,
+      "records_seen": 989,
+      "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
     },
@@ -21,7 +21,7 @@
       "source": "Eagle",
       "status": "ok",
       "records_seen": 120,
-      "qualifying_records": 11,
+      "qualifying_records": 12,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
       "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
@@ -35,11 +35,11 @@
     },
     {
       "source": "Caldwell",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 10,
+      "qualifying_records": 2,
       "source_url": "https://compassidaho.org/development-review-checklists-2026/",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://compassidaho.org/development-review-checklists-2026/"
+      "note": "Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for 2026"
     },
     {
       "source": "Coeur d'Alene",

@@ -6,15 +6,27 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Nov 2026 12:38:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:37:27 +0000</lastBuildDate>
     <item>
-      <title>[20] Eagle: single family dwelling — 7402 Vittrup St.</title>
+      <title>[20] Eagle: New Single Family Residential Home — 884 E Equine Ln</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29959514</link>
+      <description>SINGLE_FAMILY | Sunlite Homes | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269468</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 31026 N Swire Green Way</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29959277</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269461</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7402 Vittrup St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29957876</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269444</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Residential Home — 7260 W BUCKLAND DR, EAGLE, ID</title>
+      <title>[20] Eagle: New Home — 7260 W BUCKLAND DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29957705</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269441</guid>
@@ -1194,18 +1206,6 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-827</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1062 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 240,130</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-824</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 2449 N LEAF LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 175,157</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-800</guid>
     </item>
   </channel>
 </rss>
