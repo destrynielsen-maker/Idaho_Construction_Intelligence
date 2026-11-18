@@ -144,6 +144,12 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "Solitude Homes Inc",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 0
+  },
+  {
     "contractor": "Jeffrey Clemens",
     "count": 6,
     "score_total": 120,
@@ -162,7 +168,7 @@
     "valuation_total": 0
   },
   {
-    "contractor": "Solitude Homes Inc",
+    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
@@ -217,12 +223,6 @@
   },
   {
     "contractor": "COPPER CANYON HOMES LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING",
     "count": 4,
     "score_total": 80,
     "valuation_total": 0
@@ -432,6 +432,12 @@
     "valuation_total": 775420.6000000001
   },
   {
+    "contractor": "TRINITY HOMES LLC",
+    "count": 1,
+    "score_total": 45,
+    "valuation_total": 400000.0
+  },
+  {
     "contractor": "Corey Barton Cbh Homes Inc",
     "count": 1,
     "score_total": 45,
@@ -448,12 +454,6 @@
     "count": 1,
     "score_total": 45,
     "valuation_total": 360000.0
-  },
-  {
-    "contractor": "TRINITY HOMES LLC",
-    "count": 1,
-    "score_total": 45,
-    "valuation_total": 400000.0
   },
   {
     "contractor": "THE EWING COMPANY INC",
