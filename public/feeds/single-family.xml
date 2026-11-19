@@ -6,7 +6,13 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Nov 2026 12:39:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 18:38:08 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home Construction — 8336 Maclachlan Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29962964</link>
+      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269503</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 884 E Equine Ln</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29959514</link>
@@ -54,6 +60,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29952388</link>
       <description>SINGLE_FAMILY | Asbury Homes LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269379</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 S HAPPY VALLEY RD, Nampa   0</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | BROTHERS KUSTOM BUILD &amp; DESIGN LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0872</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -168,6 +186,12 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29945824</link>
       <description>SINGLE_FAMILY | Hammett Companies LLC (residential) | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269283</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 MIDDLETON RD, Middleton   836440000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | HEMLOCK CONSTRUCTION | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0861</guid>
     </item>
     <item>
       <title>[15] Kootenai County: SFR Cadar Residence — 16243 [TEMP]</title>
@@ -426,12 +450,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29892463</link>
       <description>SINGLE_FAMILY | COPPER CANYON HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268949</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 23517 LOWER PLEASANT RIDGE RD, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TRIPLE J CUSTOM HOMES | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0841</guid>
     </item>
     <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 14328 SALADO CREEK AVE, Nampa   836510000</title>
@@ -1188,24 +1206,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
       <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268308</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2475 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29796430</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268302</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3545 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 243,210</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-846</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1120 E MOUNT EDEN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 271,811</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-827</guid>
     </item>
   </channel>
 </rss>
