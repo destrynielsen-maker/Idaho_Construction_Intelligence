@@ -354,12 +354,6 @@
     "valuation_total": 1061741.1600000001
   },
   {
-    "contractor": "HIBBARD CONSTRUCTION INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 1048353.48
-  },
-  {
     "contractor": "BENTON DEVELOPMENT INC",
     "count": 2,
     "score_total": 52,
@@ -640,6 +634,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 511877.88
+  },
+  {
+    "contractor": "HIBBARD CONSTRUCTION INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 610314.24
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -1852,12 +1852,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 252210.72
-  },
-  {
-    "contractor": "ASTLE BEN",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 192492.48
   },
   {
     "contractor": "WESTON TANNER & KATELYN",
