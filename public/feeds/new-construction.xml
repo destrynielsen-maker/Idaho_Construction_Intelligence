@@ -6,12 +6,36 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Nov 2026 18:38:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:51:46 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home Construction — 8336 Maclachlan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29962964</link>
       <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269503</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 32-5 Barnwood #3 — 7080 W SANDGROUSE ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V7B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 146,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03076</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Construction of a new single family residence — 1681 W Lone Mountain Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963952</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269521</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 3517 N. Templeton Way Eagle, Idaho 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269512</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Single Family Home — 5900 W. Calvay St.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963448</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269507</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 884 E Equine Ln</title>
@@ -74,16 +98,16 @@
       <guid isPermaLink="false">ID:EAGLE:269379</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
-    </item>
-    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 S HAPPY VALLEY RD, Nampa   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROTHERS KUSTOM BUILD &amp; DESIGN LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0872</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -1182,30 +1206,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29824031</link>
       <description>SINGLE_FAMILY | KW HOMES INC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268526</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7900 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29823522</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268516</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6652 W VELINO CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29822769</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268499</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: NEW RESIDENTIAL CONSTRUCTION 02-12-02 (9282-0033) — 2071 N HONALEE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29822532</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268491</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6236 W Largo Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29821799</link>
-      <description>SINGLE_FAMILY | Core Building Co | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268478</guid>
     </item>
   </channel>
 </rss>

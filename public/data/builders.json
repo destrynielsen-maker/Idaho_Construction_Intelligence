@@ -1,9 +1,9 @@
 [
   {
     "contractor": "COREY BARTON HOMES INC",
-    "count": 80,
-    "score_total": 1762,
-    "valuation_total": 13648819.87
+    "count": 81,
+    "score_total": 1782,
+    "valuation_total": 13795809.87
   },
   {
     "contractor": "ROUNDHOUSE CONSTRUCTION, LLC",
@@ -13,8 +13,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 29,
-    "score_total": 680,
+    "count": 30,
+    "score_total": 700,
     "valuation_total": 0
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "contractor": "Core Building Co",
-    "count": 14,
-    "score_total": 280,
+    "count": 15,
+    "score_total": 300,
     "valuation_total": 0
   },
   {
@@ -126,6 +126,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Solitude Homes Inc",
+    "count": 7,
+    "score_total": 140,
+    "valuation_total": 0
+  },
+  {
     "contractor": "RTL HOMES LLC",
     "count": 7,
     "score_total": 140,
@@ -145,12 +151,6 @@
   },
   {
     "contractor": "AVIMOR DEVELOPMENT LLC",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "Solitude Homes Inc",
     "count": 6,
     "score_total": 120,
     "valuation_total": 0
@@ -294,6 +294,12 @@
     "valuation_total": 567128.04
   },
   {
+    "contractor": "PROMINENT HOMES LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 753572.88
+  },
+  {
     "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
     "count": 3,
     "score_total": 60,
@@ -322,12 +328,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
-  },
-  {
-    "contractor": "PROMINENT HOMES LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 753572.88
   },
   {
     "contractor": "Boise PLH, LLC",
@@ -1048,6 +1048,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "BROTHERS KUSTOM BUILD & DESIGN LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   },
   {
     "contractor": "ABSOLUTE CONSTRUCTION & CONSULTING dba Bachman Custom Homes",
@@ -2032,11 +2038,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "BROTHERS KUSTOM BUILD & DESIGN LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

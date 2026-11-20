@@ -6,12 +6,36 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Nov 2026 18:38:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:51:46 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Home Construction — 8336 Maclachlan Dr</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29962964</link>
       <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269503</guid>
+    </item>
+    <item>
+      <title>[20] Boise: 32-5 Barnwood #3 — 7080 W SANDGROUSE ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00V7B&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 146,990</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03076</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: Construction of a new single family residence — 1681 W Lone Mountain Dr</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963952</link>
+      <description>SINGLE_FAMILY | Core Building Co | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269521</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 3517 N. Templeton Way Eagle, Idaho 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269512</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Single Family Home — 5900 W. Calvay St.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963448</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269507</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 884 E Equine Ln</title>
@@ -62,16 +86,16 @@
       <guid isPermaLink="false">ID:EAGLE:269379</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
-    </item>
-    <item>
       <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 S HAPPY VALLEY RD, Nampa   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROTHERS KUSTOM BUILD &amp; DESIGN LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0872</guid>
+    </item>
+    <item>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
+      <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
+      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -1182,30 +1206,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29798119</link>
       <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268316</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2029 S ISLA DEL RIO WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798101</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268315</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7310 N Hillswick Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798099</link>
-      <description>SINGLE_FAMILY | Hallmark Enterprises dba Hallmark Homes | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268314</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6485 W DANES DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29798045</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268313</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2480 E Monhegan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29797848</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268308</guid>
     </item>
   </channel>
 </rss>
