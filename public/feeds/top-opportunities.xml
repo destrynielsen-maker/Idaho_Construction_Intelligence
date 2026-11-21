@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 18:37:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:52:39 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -547,6 +547,18 @@ Charged for multi-family ($825) instead of single family ($1,984) fire impact fe
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>COMMERCIAL | DALE BINNING ARCHITECT | 1,500,000</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0219</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29966568</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269558</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 208 N Morehouse Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29966541</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269557</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 216 N Morehouse Ave</title>

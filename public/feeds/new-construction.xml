@@ -6,7 +6,37 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 18:37:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:52:38 +0000</lastBuildDate>
+    <item>
+      <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29966568</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269558</guid>
+    </item>
+    <item>
+      <title>[40] Eagle: New Townhome — 208 N Morehouse Ave</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29966541</link>
+      <description>MULTIFAMILY | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269557</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10074 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJG&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 357,083</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-03000</guid>
+    </item>
+    <item>
+      <title>[20] Boise: Monitor Way/Syringa Springs — 10079 W MALAD ST, Boise ID 83709</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02999</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Residential Home — 7376 N Hillswick Way, Eagle Idaho 83616</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29967726</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269566</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 1681 W LONE MOUNTAIN DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29963952</link>
@@ -1176,36 +1206,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
       <description>SINGLE_FAMILY | SUNRISE DEVELOPMENT LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268588</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6938 W CAVENDALE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29827711</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268583</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10060 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SGZ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 357,083</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02777</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10063 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SGY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02776</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dixon Residence — 1875 S Gateway Ranch Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | TRAILHEAD STRUCTURES | WENGER | 966,378</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1321</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7237 W BUCKLAND DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29824031</link>
-      <description>SINGLE_FAMILY | KW HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268526</guid>
     </item>
   </channel>
 </rss>

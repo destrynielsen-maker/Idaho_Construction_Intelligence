@@ -60,6 +60,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Thomas Lufkin",
+    "count": 13,
+    "score_total": 260,
+    "valuation_total": 3259249.0
+  },
+  {
     "contractor": "HUBBLE HOMES LLC",
     "count": 11,
     "score_total": 245,
@@ -82,12 +88,6 @@
     "count": 5,
     "score_total": 225,
     "valuation_total": 0
-  },
-  {
-    "contractor": "Thomas Lufkin",
-    "count": 11,
-    "score_total": 220,
-    "valuation_total": 2447166.0
   },
   {
     "contractor": "STERLING HOMES INC",
@@ -127,8 +127,8 @@
   },
   {
     "contractor": "Solitude Homes Inc",
-    "count": 7,
-    "score_total": 140,
+    "count": 8,
+    "score_total": 160,
     "valuation_total": 0
   },
   {
