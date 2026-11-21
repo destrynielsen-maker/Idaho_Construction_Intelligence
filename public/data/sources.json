@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T12:22:38+00:00",
+  "generated_at": "2026-11-21T18:19:44+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 998,
+      "records_seen": 988,
       "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -51,11 +51,11 @@
     },
     {
       "source": "Kootenai County",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
-      "source_url": "https://kcgov.us/Archive/44",
-      "note": "ConnectTimeout: HTTPSConnectionPool(host='kcgov.us', port=443): Max retries exceeded with url: /Archive/44 (Caused by ConnectTimeoutError(<HTTPSConnection(host='kcgov.us', port=443) at 0x79558dc81700>, 'Connection to kcgov.us timed out. (connect timeout=45)'))"
+      "status": "ok",
+      "records_seen": 46,
+      "qualifying_records": 46,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3620",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 8, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 25, 2026 (6 parsed). Latest report period 2026-11-08 through 2026-11-14 (7 days old)"
     },
     {
       "source": "Post Falls",
