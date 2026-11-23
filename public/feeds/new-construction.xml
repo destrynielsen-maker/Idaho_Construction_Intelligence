@@ -6,7 +6,13 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 23 Nov 2026 12:40:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:36:47 +0000</lastBuildDate>
+    <item>
+      <title>[20] Eagle: New Home — 6115 W CALVAY CT</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29969232</link>
+      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269584</guid>
+    </item>
     <item>
       <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29966568</link>
@@ -20,7 +26,19 @@
       <guid isPermaLink="false">ID:EAGLE:269557</guid>
     </item>
     <item>
-      <title>[20] Eagle: New Residential Home — 7376 N Hillswick Way, Eagle Idaho 83616</title>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Minkie LLC — 1378 [TEMP] E Burma Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | HAROLD SAND CONSTRUCTION DBA | 939,713</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1421</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Childress — 32411 [TEMP] N Leonard Loop</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | SAFEHAVEN HOMES &amp; DESIGN LLC | 917,009</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1568</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7376 N HILLSWICK WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29967726</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269566</guid>
@@ -36,6 +54,30 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02999</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Conwell — 32558 [TEMP] N Tahoe Drive</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 633,439</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1734</guid>
+    </item>
+    <item>
+      <title>[15] Kootenai County: NEW SFR | Steele — 26337 [TEMP] S Farup Road</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 211,414</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1668</guid>
+    </item>
+    <item>
+      <title>[27] Kootenai County: NEW SFR w/ ATTACHED GARAGE| Knopp Residence — 13606 [TEMP] N Hauser Lake</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | MVR HOMES LLC | 1,292,746</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1571</guid>
+    </item>
+    <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Tru Homes LLC | — 11055 temp E Highway 54</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | TRU HOMES LLC | 759,645</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1846</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 1681 W LONE MOUNTAIN DR</title>
@@ -92,6 +134,12 @@
       <guid isPermaLink="false">ID:EAGLE:269421</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR | Tesky — 8979 [TEMP] E Morning Glory</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | TRAILHEAD STRUCTURES | WENGER | 805,196</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1693</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7402 Vittrup St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29957876</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
@@ -102,6 +150,30 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29957705</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269441</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wendt — 2546 [TEMP] E Sundown Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 271,040</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1241</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Sauther residence — 5773 S Lakeside Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 497,352</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1572</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/  ATTACHED GARAGE|  Indigo Delta — 5759 S Lakeside Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 318,759</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1573</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Cox — 6813 [TEMP] E Yellowbank</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 802,468</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1595</guid>
     </item>
     <item>
       <title>[27] Boise: HR 18-01 — 6103 E PROMINENCE CT, Boise ID 83716</title>
@@ -138,6 +210,12 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Howard Residence — 18179 W Rice Ave</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 594,737</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1343</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -1128,84 +1206,6 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 108,150</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-454</guid>
-    </item>
-    <item>
-      <title>[15] Kootenai County: NEW SFR w/ATTACHED GARAGE | Sand — 14345 [TEMP] S Highway 3</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 310,329</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1368</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 946 N DELEHAYE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29831935</link>
-      <description>SINGLE_FAMILY | STORY BUILDERS LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268619</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 45-5 Barnwood #3 — 7226 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SZ6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 127,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02837</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 44-5 Barnwood #3 — 7212 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYY&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 139,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02836</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 42-5 Barnwood #3 — 7188 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYJ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 168,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02833</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 41-5 Barnwood #3 — 7164 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SYH&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 133,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02832</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 4-10 Kirsten #2 — 6458 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 67,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02447</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 3-10 Kirsten #2 — 6450 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PPC&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 86,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02446</guid>
-    </item>
-    <item>
-      <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29827709</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268582</guid>
-    </item>
-    <item>
-      <title>[40] Eagle: New Townhome — 7108 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29827680</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268580</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Clemens — 4605 [TEMP] S WENIGER HILL</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | MOUNTAIN HIGH HOME BUILDERS | 787,806</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1563</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Gaskill ALU — 11927 [TEMP] N Chase Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | MAS CONTRACTING - MIKE SMALL | 227,682</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1286</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7679 W STARWOOD CT</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29828091</link>
-      <description>SINGLE_FAMILY | SUNRISE DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268588</guid>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:25:59+00:00",
+  "generated_at": "2026-11-23T18:21:19+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -19,11 +19,11 @@
     },
     {
       "source": "Eagle",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 120,
+      "qualifying_records": 9,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "HTTPError: 502 Server Error: Bad Gateway for url: https://portal.iworq.net/EAGLE/permits/600"
+      "note": "Official City of Eagle iWorQ public permit portal; 8 current page(s) crawled; detail-enriched Use Class identifies new-home building permits; shared classifier suppresses trade permits"
     },
     {
       "source": "Canyon County",
@@ -52,10 +52,10 @@
     {
       "source": "Kootenai County",
       "status": "ok",
-      "records_seen": 46,
-      "qualifying_records": 46,
-      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3620",
-      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 8, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed); WEEKLY BUILDING PERMIT REPORT OCTOBER 25, 2026 (6 parsed). Latest report period 2026-11-08 through 2026-11-14 (9 days old)"
+      "records_seen": 48,
+      "qualifying_records": 48,
+      "source_url": "https://kcgov.us/Archive/ViewFile/Item/3625",
+      "note": "Latest weekly archive reports: Most Recent Item WEEKLY BUILDING PERMIT REPORT NOVEMBER 15, 2026 (12 parsed); WEEKLY BUILDING PERMIT REPORT NOVEMBER 8, 2026 (8 parsed); WEEKLY BUILDING PERMIT REPORT NOVEMBER 1, 2026 (4 parsed). Latest report period 2026-11-15 through 2026-11-21 (2 days old)"
     },
     {
       "source": "Post Falls",

@@ -13,8 +13,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 30,
-    "score_total": 700,
+    "count": 31,
+    "score_total": 720,
     "valuation_total": 0
   },
   {
@@ -396,6 +396,18 @@
     "valuation_total": 1302600.07
   },
   {
+    "contractor": "TRAILHEAD STRUCTURES | WENGER",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1771573.54
+  },
+  {
+    "contractor": "TRU HOMES LLC",
+    "count": 2,
+    "score_total": 50,
+    "valuation_total": 1561757.8900000001
+  },
+  {
     "contractor": "HILL CONST & PROPERTY SERVICES INC",
     "count": 2,
     "score_total": 50,
@@ -532,6 +544,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 392697.84
+  },
+  {
+    "contractor": "PINNACLE GENERAL CONTRACTING",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 614290.44
   },
   {
     "contractor": "CDA STRUCTURES",
@@ -672,6 +690,12 @@
     "valuation_total": 629723.28
   },
   {
+    "contractor": "Highline Construction Co. LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 816111.1699999999
+  },
+  {
     "contractor": "RRC CONTRACTORS INC",
     "count": 1,
     "score_total": 40,
@@ -792,6 +816,12 @@
     "valuation_total": 1200000.0
   },
   {
+    "contractor": "MVR HOMES LLC",
+    "count": 1,
+    "score_total": 27,
+    "valuation_total": 1292746.4
+  },
+  {
     "contractor": "THOMAS MILLER CONSTRUCTION",
     "count": 1,
     "score_total": 25,
@@ -840,12 +870,6 @@
     "valuation_total": 787805.73
   },
   {
-    "contractor": "TRAILHEAD STRUCTURES | WENGER",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 966377.56
-  },
-  {
     "contractor": "IDADREAM HOMES LLC",
     "count": 1,
     "score_total": 25,
@@ -862,12 +886,6 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 522409.44
-  },
-  {
-    "contractor": "TRU HOMES LLC",
-    "count": 1,
-    "score_total": 25,
-    "valuation_total": 802113.0
   },
   {
     "contractor": "RSB CUSTOMS LLC",
@@ -1050,6 +1068,18 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "HAROLD SAND CONSTRUCTION DBA",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 939713.08
+  },
+  {
+    "contractor": "SAFEHAVEN HOMES & DESIGN LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 917008.96
+  },
+  {
     "contractor": "BROTHERS KUSTOM BUILD & DESIGN LLC",
     "count": 1,
     "score_total": 20,
@@ -1180,12 +1210,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 365000.0
-  },
-  {
-    "contractor": "PINNACLE GENERAL CONTRACTING",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 343250.66
   },
   {
     "contractor": "ROCKY MOUNTAIN CONCIERGE LLC",
