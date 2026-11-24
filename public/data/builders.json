@@ -13,8 +13,8 @@
   },
   {
     "contractor": "TRESIDIO HOMES",
-    "count": 34,
-    "score_total": 855,
+    "count": 36,
+    "score_total": 895,
     "valuation_total": 0
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "contractor": "Core Building Co",
-    "count": 15,
-    "score_total": 300,
+    "count": 14,
+    "score_total": 280,
     "valuation_total": 0
   },
   {
@@ -276,6 +276,12 @@
     "valuation_total": 1650000.0
   },
   {
+    "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 72,
+    "valuation_total": 2395209.84
+  },
+  {
     "contractor": "CONNER CONSTRUCTION LLC",
     "count": 3,
     "score_total": 70,
@@ -310,12 +316,6 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 1010785.2
-  },
-  {
-    "contractor": "IDEAL CUSTOM HOMES INC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 519245.76
   },
   {
     "contractor": "Alturas Construction, LLC",
@@ -364,12 +364,6 @@
     "count": 2,
     "score_total": 52,
     "valuation_total": 1823257.33
-  },
-  {
-    "contractor": "PLEASANT VIEW CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 52,
-    "valuation_total": 2100000.0
   },
   {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
@@ -510,6 +504,12 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "BRADSHAW CUSTOM HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 296644.32
+  },
+  {
     "contractor": "Sunlite Homes",
     "count": 2,
     "score_total": 40,
@@ -544,6 +544,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 480000.0
+  },
+  {
+    "contractor": "IDEAL CUSTOM HOMES INC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 280992.83999999997
   },
   {
     "contractor": "ALDER RIDGE CUSTOM HOMES",
@@ -1147,12 +1153,6 @@
   },
   {
     "contractor": "TWO SEVEN ONE",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
-  },
-  {
-    "contractor": "BRADSHAW CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
@@ -1764,22 +1764,10 @@
     "valuation_total": 336589.2
   },
   {
-    "contractor": "COBLE MICHAEL",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 292289.52
-  },
-  {
     "contractor": "PACHECO FABIAN",
     "count": 1,
     "score_total": 20,
     "valuation_total": 398410.8
-  },
-  {
-    "contractor": "HUNTER HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 259682.4
   },
   {
     "contractor": "DUHRKOOP LEXI",
@@ -1938,12 +1926,6 @@
     "valuation_total": 314301.12
   },
   {
-    "contractor": "UNLIMITED SOLUTIONS DEVELOPMENT GROUP",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 366600.36
-  },
-  {
     "contractor": "BEAGLEY CONSTRUCTION",
     "count": 1,
     "score_total": 20,
@@ -2062,5 +2044,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "SANDOVAL REYNA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 238947.36
   }
 ]
