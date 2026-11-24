@@ -1080,6 +1080,12 @@
     "valuation_total": 622738.8
   },
   {
+    "contractor": "Stetson Homes Inc",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
+  },
+  {
     "contractor": "BROTHERS KUSTOM BUILD & DESIGN LLC",
     "count": 1,
     "score_total": 20,
@@ -2056,11 +2062,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "Stetson Homes Inc",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 0
   }
 ]

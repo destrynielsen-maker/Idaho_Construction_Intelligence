@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 24 Nov 2026 00:50:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:42:29 +0000</lastBuildDate>
     <item>
       <title>[45] Eagle: New Single Family Townhome — 7050 W. Amazon Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29970802</link>
@@ -32,6 +32,12 @@
       <guid isPermaLink="false">ID:EAGLE:269593</guid>
     </item>
     <item>
+      <title>[20] Eagle: New Home — 7784 W FLATHEAD LAKE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29969839</link>
+      <description>SINGLE_FAMILY | Stetson Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269591</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 6115 W CALVAY CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29969232</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
@@ -42,12 +48,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269512</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7784 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29969839</link>
-      <description>SINGLE_FAMILY | Stetson Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269591</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
