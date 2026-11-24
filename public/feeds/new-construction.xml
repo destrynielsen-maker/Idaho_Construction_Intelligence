@@ -6,12 +6,48 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 23 Nov 2026 18:36:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:50:27 +0000</lastBuildDate>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7050 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29970802</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269602</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7062 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29970778</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269601</guid>
+    </item>
+    <item>
+      <title>[45] Eagle: New Single Family Townhome — 7076 W. Amazon Dr.</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29970753</link>
+      <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269599</guid>
+    </item>
+    <item>
+      <title>[30] Eagle: Mailbox structure for Mailboxes and Parcels — W Yellowstone St</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29969866</link>
+      <description>COMMERCIAL | Contractor unknown | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269593</guid>
+    </item>
     <item>
       <title>[20] Eagle: New Home — 6115 W CALVAY CT</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29969232</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269584</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 3517 N TEMPLETON WAY</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
+      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269512</guid>
+    </item>
+    <item>
+      <title>[20] Eagle: New Home — 7784 W FLATHEAD LAKE ST</title>
+      <link>https://portal.iworq.net/EAGLE/permit/600/29969839</link>
+      <description>SINGLE_FAMILY | Stetson Homes Inc | 0</description>
+      <guid isPermaLink="false">ID:EAGLE:269591</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
@@ -26,16 +62,22 @@
       <guid isPermaLink="false">ID:EAGLE:269557</guid>
     </item>
     <item>
+      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Childress — 32411 [TEMP] N Leonard Loop</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | SAFEHAVEN HOMES &amp; DESIGN LLC | 917,009</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1568</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Minkie LLC — 1378 [TEMP] E Burma Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
       <description>SINGLE_FAMILY | HAROLD SAND CONSTRUCTION DBA | 939,713</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1421</guid>
     </item>
     <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Childress — 32411 [TEMP] N Leonard Loop</title>
+      <title>[20] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Conwell — 32558 [TEMP] N Tahoe Drive</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | SAFEHAVEN HOMES &amp; DESIGN LLC | 917,009</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1568</guid>
+      <description>SINGLE_FAMILY | Contractor unknown | 633,439</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1734</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7376 N HILLSWICK WAY</title>
@@ -54,12 +96,6 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02999</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ ATTACHED GARAGE | Conwell — 32558 [TEMP] N Tahoe Drive</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 633,439</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1734</guid>
     </item>
     <item>
       <title>[15] Kootenai County: NEW SFR | Steele — 26337 [TEMP] S Farup Road</title>
@@ -84,12 +120,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29963952</link>
       <description>SINGLE_FAMILY | Core Building Co | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269521</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 3517 N TEMPLETON WAY</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
-      <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:269512</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 5900 W CALVAY ST</title>
@@ -140,6 +170,30 @@
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1693</guid>
     </item>
     <item>
+      <title>[20] Kootenai County: NEW SFR | Cox — 6813 [TEMP] E Yellowbank</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 802,468</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1595</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/  ATTACHED GARAGE|  Indigo Delta — 5759 S Lakeside Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 318,759</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1573</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR | Sauther residence — 5773 S Lakeside Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 497,352</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1572</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wendt — 2546 [TEMP] E Sundown Dr</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 271,040</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1241</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7402 Vittrup St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29957876</link>
       <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
@@ -152,34 +206,16 @@
       <guid isPermaLink="false">ID:EAGLE:269441</guid>
     </item>
     <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Wendt — 2546 [TEMP] E Sundown Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | PINNACLE GENERAL CONTRACTING | 271,040</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1241</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Sauther residence — 5773 S Lakeside Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 497,352</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1572</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/  ATTACHED GARAGE|  Indigo Delta — 5759 S Lakeside Dr</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | Highline Construction Co. LLC | 318,759</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1573</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR | Cox — 6813 [TEMP] E Yellowbank</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 802,468</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1595</guid>
-    </item>
-    <item>
       <title>[27] Boise: HR 18-01 — 6103 E PROMINENCE CT, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00OK6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 1,024,600</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02298</guid>
+    </item>
+    <item>
+      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Howard Residence — 18179 W Rice Ave</title>
+      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 594,737</description>
+      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1343</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 2149 N HONALEE AVE</title>
@@ -210,12 +246,6 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Howard Residence — 18179 W Rice Ave</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3625</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 594,737</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1343</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -1176,36 +1206,6 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | BLACKPOINT INDUSTRIES AND | 5,720</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0189</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29836284</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268649</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7097 W TOLLAND ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29834477</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268629</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 17260 GARNET RD, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 133,243</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0803</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 13349 PROMINENCE RIDGE LN, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | ALDER RIDGE CUSTOM HOMES | 372,793</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0801</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 326 N CORBIN RD, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 108,150</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-454</guid>
     </item>
   </channel>
 </rss>
