@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T12:26:18+00:00",
+  "generated_at": "2026-11-25T18:21:08+00:00",
   "collector_status": [
     {
       "source": "Boise",
       "status": "ok",
-      "records_seen": 988,
+      "records_seen": 994,
       "qualifying_records": 24,
       "source_url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0",
       "note": "Official City of Boise Development Tracker active planning projects; daily early-lead source"
@@ -28,8 +28,8 @@
     {
       "source": "Canyon County",
       "status": "ok",
-      "records_seen": 747,
-      "qualifying_records": 210,
+      "records_seen": 751,
+      "qualifying_records": 208,
       "source_url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1",
       "note": "Official Canyon County DSD current building-permit tracker; active applications only; date is application received date"
     },

@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Nov 2026 12:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 18:36:07 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -260,13 +260,14 @@
       <guid isPermaLink="false">ID:EAGLE:269379</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18426 S HAPPY VALLEY RD, Nampa   0</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8399 S HAPPY VALLEY RD, Nampa   0</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | BROTHERS KUSTOM BUILD &amp; DESIGN LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0872</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home) — 0 SALADO CREEK AVE, Nampa   836510000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE (Parade Home)&#13;
+***SUB DOCS NEED ADDED TO ONBASE*** — 0 SALADO CREEK AVE, Nampa   836510000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
@@ -428,7 +429,7 @@
       <guid isPermaLink="false">ID:EAGLE:269206</guid>
     </item>
     <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 0 BOW LN, Wilder   836760000</title>
+      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 18427 BOW LN, Wilder   836760000</title>
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | EELLS LAREN | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0857</guid>

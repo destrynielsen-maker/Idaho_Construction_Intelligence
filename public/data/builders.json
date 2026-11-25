@@ -348,12 +348,6 @@
     "valuation_total": 981970.8
   },
   {
-    "contractor": "TV GROUP LLC DBA BEAR HOMES",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 1061741.1600000001
-  },
-  {
     "contractor": "BENTON DEVELOPMENT INC",
     "count": 2,
     "score_total": 52,
@@ -670,6 +664,12 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 610314.24
+  },
+  {
+    "contractor": "TV GROUP LLC DBA BEAR HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 773588.76
   },
   {
     "contractor": "STONE PRECISION CONTRACTORS INC",
@@ -1894,12 +1894,6 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 342811.32
-  },
-  {
-    "contractor": "POULSEN ENTERPRISES LLC",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 346561.8
   },
   {
     "contractor": "IRON WOOD ENTERPRISES",
