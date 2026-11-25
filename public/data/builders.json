@@ -150,6 +150,12 @@
     "valuation_total": 1441659.88
   },
   {
+    "contractor": "BILTMORE CO LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1576954.14
+  },
+  {
     "contractor": "AVIMOR DEVELOPMENT LLC",
     "count": 6,
     "score_total": 120,
@@ -160,12 +166,6 @@
     "count": 6,
     "score_total": 120,
     "valuation_total": 1004016.0
-  },
-  {
-    "contractor": "BILTMORE CO LLC",
-    "count": 6,
-    "score_total": 120,
-    "valuation_total": 1576954.14
   },
   {
     "contractor": "MONARCH CUSTOM HOMES",
