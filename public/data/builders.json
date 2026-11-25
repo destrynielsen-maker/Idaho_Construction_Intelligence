@@ -2010,6 +2010,12 @@
     "valuation_total": 358390.08
   },
   {
+    "contractor": "SANDOVAL REYNA",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 238947.36
+  },
+  {
     "contractor": "LOPEZ PEDRO",
     "count": 1,
     "score_total": 20,
@@ -2044,11 +2050,5 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
-  },
-  {
-    "contractor": "SANDOVAL REYNA",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 238947.36
   }
 ]
