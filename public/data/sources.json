@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:39:28+00:00",
+  "generated_at": "2026-11-25T06:28:58+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -11,11 +11,11 @@
     },
     {
       "source": "Boise Issued Building Permits",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 67,
+      "qualifying_records": 67,
       "source_url": "https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
-      "note": "ConnectionError: HTTPSConnectionPool(host='permits.cityofboise.org', port=443): Max retries exceeded with url: /CitizenAccess/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00PJU&agencyCode=BOISE&IsToShowInspection= (Caused by NameResolutionError(\"HTTPSConnection(host='permits.cityofboise.org', port=443): Failed to resolve 'permits.cityofboise.org' ([Errno -3] Temporary failure in name resolution)\"))"
+      "note": "Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff"
     },
     {
       "source": "Eagle",
@@ -23,7 +23,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://portal.iworq.net/EAGLE/permits/600",
-      "note": "ConnectionError: HTTPSConnectionPool(host='portal.iworq.net', port=443): Max retries exceeded with url: /EAGLE/permits/600 (Caused by NameResolutionError(\"HTTPSConnection(host='portal.iworq.net', port=443): Failed to resolve 'portal.iworq.net' ([Errno -3] Temporary failure in name resolution)\"))"
+      "note": "HTTPError: 403 Client Error: Forbidden for url: https://portal.iworq.net/EAGLE/permits/600"
     },
     {
       "source": "Canyon County",
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 68,
+      "qualifying_records": 2,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-10-12 through 2026-11-25; 68 primary building permits parsed; newest primary building permit issued 2026-11-24"
     },
     {
       "source": "Kootenai County",

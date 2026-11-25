@@ -162,6 +162,12 @@
     "valuation_total": 1004016.0
   },
   {
+    "contractor": "BILTMORE CO LLC",
+    "count": 6,
+    "score_total": 120,
+    "valuation_total": 1576954.14
+  },
+  {
     "contractor": "MONARCH CUSTOM HOMES",
     "count": 4,
     "score_total": 102,
@@ -238,12 +244,6 @@
     "count": 4,
     "score_total": 80,
     "valuation_total": 1340109.1099999999
-  },
-  {
-    "contractor": "BILTMORE CO LLC",
-    "count": 4,
-    "score_total": 80,
-    "valuation_total": 1271554.14
   },
   {
     "contractor": "RIVERWOOD HOMES",

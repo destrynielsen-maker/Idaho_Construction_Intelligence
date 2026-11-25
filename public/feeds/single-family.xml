@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Nov 2026 00:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 06:42:56 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -18,6 +18,18 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29972731</link>
       <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269634</guid>
+    </item>
+    <item>
+      <title>[20] Boise: BV.L36.B01 — 3523 E ETERNAL LN, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RIE&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 150,900</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02662</guid>
+    </item>
+    <item>
+      <title>[20] Boise: BV.L35.B01 — 3529 E ETERNAL LN, Boise ID 83716</title>
+      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RI2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 154,500</description>
+      <guid isPermaLink="false">ID:BOISE:BLD26-02659</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 7784 W FLATHEAD LAKE ST</title>
@@ -1194,18 +1206,6 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | GRIFFIN CY | 522,409</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0779</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Dredge-Dickson — 14564 [TEMP] E Marie Creek</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3601</link>
-      <description>SINGLE_FAMILY | CDA STRUCTURES | 398,341</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1424</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6326 W Danes Ct</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29803935</link>
-      <description>SINGLE_FAMILY | Biltmore Company, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268395</guid>
     </item>
   </channel>
 </rss>
