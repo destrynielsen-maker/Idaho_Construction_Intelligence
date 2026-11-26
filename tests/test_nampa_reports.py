@@ -1,5 +1,8 @@
 import unittest
 from datetime import date
+from types import SimpleNamespace
+from unittest.mock import patch
+from requests import HTTPError
 
 from idaho_permits.classify import classify_permit
 from idaho_permits.collectors.nampa import NampaPermitCollector, parse_nampa
@@ -86,6 +89,50 @@ Devon Tripp Perigee Group, LlcRegistered Building Contractor
 """
         self.assertEqual(parse_nampa(text, 'Nampa', 'https://example.test/nampa.pdf'), [])
 
+
+    def test_associated_company_only_and_same_permit_binding(self):
+        text='''Project Type: Residential
+Permit Number: RES-18696-2026 Situs: 4060 S Harvest Creek Way
+09/03/2026Issue Date: Project Name: NEW SFD
+1.00Unit:
+Scope of Work: New SFD
+First Person Example Homes LlcRegistered Building Contractor
+Permit Number: RES-18697-2026 Situs: 4061 S Harvest Creek Way
+09/03/2026Issue Date: Project Name: NEW SFD
+1.00Unit:
+Scope of Work: New SFD
+Other PersonRegistered Building Contractor
+'''
+        layout='''Permit Number:    RES-18696-2026    Situs:     4060 S Harvest Creek Way
+Owner 1, Registered Building Contractor      First Person        Example Homes Llc
+Permit Number:    RES-18697-2026    Situs:     4061 S Harvest Creek Way
+Owner 1, Registered Building Contractor      Other Person
+'''
+        p=parse_nampa(text,'Nampa','https://example.test/report.pdf',layout=layout)
+        self.assertEqual([x.contractor for x in p],['Example Homes Llc',None])
+        self.assertNotIn('First Person',str(p[0].raw))
+        self.assertEqual(p[0].raw['contractor_role'],'Registered Building Contractor / Associated Company')
+
+    def test_city_linked_pdf_fallback_is_not_labeled_current(self):
+        text='''CITY OF NAMPA, Department of Building Safety
+Permit Activity Type Report
+10/19/2026 to 10/23/2026
+Project Type: Residential
+Permit Number: RES-18788-2026 Situs: 1 Example Lane
+10/22/2026Issue Date: Project Name: NEW SFD
+1.00Unit:
+Scope of Work: New SFD
+'''
+        layout='Permit Number:     RES-18788-2026     Situs: 1 Example Lane'
+        page=SimpleNamespace(extract_text=lambda **kwargs: layout if kwargs else text)
+        url=NampaPermitCollector.direct_report[1]
+        result=SimpleNamespace(content=b'%PDF',url=url)
+        with patch('idaho_permits.collectors.nampa.discover_links',side_effect=HTTPError('403')),             patch('idaho_permits.collectors.nampa.get',return_value=result),             patch('idaho_permits.collectors.nampa.PdfReader',return_value=SimpleNamespace(pages=[page])):
+            collected=NampaPermitCollector().collect()
+        self.assertEqual(collected.status,'stale')
+        self.assertIn('direct fallback',collected.note)
+        self.assertEqual(collected.latest_issued_date,'2026-10-22')
+        self.assertEqual(collected.report_period_end,'2026-10-23')
 
 if __name__ == '__main__':
     unittest.main()
