@@ -14,6 +14,7 @@ from .collectors.post_falls import PostFallsPermitCollector
 from .collectors.report_pages import MeridianCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
+from .reporting import prior_status, reporting_report
 from .storage import load_permits,save_permits
 COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector()]
 
@@ -26,7 +27,7 @@ def _site_base_url():
     return 'https://example.invalid/idaho-construction-intelligence/'
 
 def run(root: Path):
-    now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0
+    now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0; observations={}; original_ids=set(existing); previous=prior_status(root/'public'/'data'/'sources.json')
     for c in COLLECTORS:
         try:
             r=c.collect()
@@ -51,10 +52,10 @@ def run(root: Path):
             status={'source':r.source,'status':r.status,'records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note}
             if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
             if r.report_period_end:status['report_period_end']=r.report_period_end
-            statuses.append(status)
+            statuses.append(status); observations[r.source]=r.permits
         except Exception as e:
             statuses.append({'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
     permits=list(existing.values())
     for p in permits: classify_permit(p)
-    save_permits(store,permits,now); write_public_data(root/'public',permits,statuses,now); write_all_feeds(root/'public'/'feeds',permits,_site_base_url())
+    save_permits(store,permits,now); write_public_data(root/'public',permits,statuses,now,reporting_report(statuses,observations,permits,original_ids,previous,now)); write_all_feeds(root/'public'/'feeds',permits,_site_base_url())
     return {'generated_at':now,'total_collected_this_run':total,'total_stored':len(permits),'qualifying_stored':sum(p.qualifies for p in permits),'sources':statuses}

@@ -24,11 +24,37 @@ function runner(html){
  for(const x of [a,b]){x.e('days').value='0';x.e('minScore').value='0';vm.runInContext('render()',x.ctx);}
  assert.equal(count(a),1186);assert.equal(count(b),1186);
  assert.equal(vm.runInContext("csvText(matchingRows).trimEnd().split('\\r\\n').length",b.ctx),1187);
- assert.match(b.e('count').textContent,/showing 1,000/);
+ assert.match(b.e('count').textContent,/showing 1–100/);
+ const ordered=vm.runInContext("JSON.stringify(matchingRows.map(x=>x.key))",b.ctx);
+ const pageHtml=new Set();let visible=0;
+ for(let i=0;i<12;i++){
+  assert.equal(b.e('pageSummary').textContent,`Page ${i+1} of 12`);
+  assert.equal(b.e('prevPage').disabled,i===0);
+  assert.equal(b.e('nextPage').disabled,i===11);
+  const rows=b.e('rows').innerHTML;
+  assert.ok(!pageHtml.has(rows));pageHtml.add(rows);
+  const num=(rows.match(/<tr>/g)||[]).length;
+  assert.equal(num,i===11?86:100);visible+=num;
+  if(i<11)b.e('nextPage').events.click();
+ }
+ assert.equal(visible,1186);
+ assert.equal(vm.runInContext("JSON.stringify(matchingRows.map(x=>x.key))",b.ctx),ordered);
+ assert.match(b.e('count').textContent,/showing 1,101–1,186/);
+ assert.match(b.e('rows').innerHTML,/data-label="Source date"/);
+ const csv=vm.runInContext("csvText(matchingRows)",b.ctx);
+ assert.match(csv.split('\r\n')[0],/"verified_issue_date","application_received_date"/);
+ b.e('mobileSort').events.change({target:{value:'issued_date'}});
+ assert.equal(b.e('pageSummary').textContent,'Page 1 of 12');
+ assert.equal(vm.runInContext("sortKey",b.ctx),'issued_date');
+ b.e('mobileDirection').events.click();
+ assert.equal(vm.runInContext("sortDirection",b.ctx),'asc');
+
  assert.match(b.e('sourceCards').innerHTML,/No successful observation in this run/);
- b.e('evidence').value='issued';vm.runInContext('render()',b.ctx);assert.equal(count(b),653);
- b.e('evidence').value='application received';vm.runInContext('render()',b.ctx);assert.equal(count(b),208);
+ b.e('evidence').value='issued';b.e('evidence').events.change();assert.equal(count(b),653);assert.equal(b.e('pageSummary').textContent,'Page 1 of 7');
+ assert.ok(vm.runInContext('matchingRows.every(p=>!!evidenceDate(p,"issued")&&!evidenceDate(p,"application received"))',b.ctx));
+ b.e('evidence').value='application received';b.e('evidence').events.change();assert.equal(count(b),208);
+ assert.ok(vm.runInContext('matchingRows.every(p=>!evidenceDate(p,"issued")&&!!evidenceDate(p,"application received"))',b.ctx));
  b.e('evidence').value='unverified';b.e('jurisdiction').value='Eagle';vm.runInContext('render()',b.ctx);assert.equal(count(b),242);
  assert.equal(vm.runInContext("csvCell('=HYPERLINK(1)')",b.ctx),"\"'=HYPERLINK(1)\"");
- console.log(JSON.stringify({default_matches_before_and_after:def,all_matches:1186,export_rows:1186,display_cap_disclosed:1000,issued:653,application:208,eagle_unverified_visible:242}));
+ console.log(JSON.stringify({default_matches_before_and_after:def,all_matches:1186,export_rows:1186,page_size:100,issued:653,application:208,eagle_unverified_visible:242}));
 })().catch(e=>{console.error(e);process.exitCode=1});
