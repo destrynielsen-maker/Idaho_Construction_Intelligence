@@ -1,0 +1,52 @@
+name: Exact Idaho history and source QA (no deployment)
+on:
+  push:
+    branches: [scout/qa-idaho-history-20261126]
+permissions:
+  contents: read
+jobs:
+  validate:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/scout/qa-idaho-history-20261126'
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: e62210fd61913ec5a6cbb35127ad89904e88efd6
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Assert candidate identity and protected paths
+        run: |
+          test "$(git rev-parse HEAD)" = 'e62210fd61913ec5a6cbb35127ad89904e88efd6'
+          test "$(git rev-parse HEAD^{tree})" = '7044f5e58ca24dde1d0bcb53b5846b496327ca42'
+          git diff --quiet 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD -- data public/data public/feeds .github src/idaho_permits/classify.py src/idaho_permits/feeds.py src/idaho_permits/collectors/eagle.py src/idaho_permits/collectors/nampa.py src/idaho_permits/collectors/canyon_county.py src/idaho_permits/collectors/caldwell.py
+          git show 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e:public/index.html > /tmp/idaho-baseline-index.html
+      - name: Verify UI and whole-snapshot regression
+        run: |
+          node scripts/test-reporting.cjs /tmp/idaho-baseline-index.html
+          python -m pip install -r requirements.txt
+          PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Verify official Post Falls GIS and Meridian report data on hosted runner without persistence
+        env:
+          PYTHONPATH: src
+        run: |
+          python -u - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from datetime import date
+          from idaho_permits.collectors.post_falls import PostFallsPermitCollector
+          from idaho_permits.collectors.report_pages import MeridianCollector
+
+          def probe(c):
+              result = c.collect()
+              keys = {p.key for p in result.permits}
+              print(result.source, result.status, 'unique',len(keys),'source-issued', result.latest_issued_date,
+                    'last selected issue',max((p.issued_date for p in result.permits),default=None),
+                    'date test',date.today().isoformat(),'report:',result.note)
+              if not keys or len(keys)!=len(result.permits) or not result.latest_issued_date:
+                  raise RuntimeError('Authoritative issued source probe did not validate: '+c.name)
+          with ThreadPoolExecutor(max_workers=2) as pool:
+              list(pool.map(probe,(PostFallsPermitCollector(),MeridianCollector())))
+          PY
