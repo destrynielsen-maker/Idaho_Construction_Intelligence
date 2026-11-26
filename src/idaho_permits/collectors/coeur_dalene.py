@@ -31,14 +31,17 @@ class CoeurDAleneCollector:
             headers=BROWSER_HEADERS,
             allow_redirects=True,
         )
+        window = f'{start.isoformat()} through {end.isoformat()}'
+        if 500 <= response.status_code < 600:
+            raise RuntimeError(
+                f'Official date-range issued-permit endpoint returned HTTP {response.status_code} '
+                f'for {window}; no report parsed'
+            )
         response.raise_for_status()
-        ctype = response.headers.get('content-type', '').lower()
-        if 'pdf' not in ctype and not response.content.startswith(b'%PDF'):
-            return CollectorResult(
-                self.name,
-                REPORT_URL,
-                [],
-                f'Official date-range issued-permit report did not return a PDF for {start.isoformat()} through {end.isoformat()}',
+        if not response.content.startswith(b'%PDF-'):
+            raise RuntimeError(
+                f'Official date-range issued-permit endpoint did not return a PDF '
+                f'for {window}; no report parsed'
             )
 
         permits = parse(pdf_text(response.content), REPORT_URL)
