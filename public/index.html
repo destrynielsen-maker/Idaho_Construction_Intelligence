@@ -112,6 +112,21 @@
   </section>
 
   <section class="panel">
+    <details>
+      <summary><strong>Eagle historical research (unverified)</strong></summary>
+      <p class="muted">These legacy listing dates and references are not verified issue events.
+      Records are excluded from opportunities, builder rankings, and RSS. Source unavailable
+      does not mean the city issued no permits.</p>
+      <p><a href="https://cityofeagle.org/1863/Building-Permit-Reports" target="_blank" rel="noopener">Check official Eagle building permit reports</a></p>
+      <p class="muted" id="eagleResearchStatus">Open to load historical research.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Legacy reference</th><th>Listing date (unverified)</th><th>Reported type</th><th>Reported address</th></tr></thead>
+        <tbody id="eagleResearchRows"></tbody>
+      </table></div>
+    </details>
+  </section>
+
+  <section class="panel">
     <strong>Idaho rep permit & planning sources</strong>
     <div class="muted" style="margin-top:4px">Automated feeds plus research portals for early-stage prospecting.</div>
     <div class="table-wrap" style="margin-top:10px">
@@ -194,6 +209,29 @@ function render(){
     <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></td>
   </tr>`).join('');
 }
+function sourceCounts(s){
+  if(s.count_scope==='unavailable' || s.status==='error') return 'Current count unavailable';
+  const numbers=`${Number(s.records_seen ?? 0).toLocaleString()} records seen · ${Number(s.qualifying_records ?? 0).toLocaleString()} qualifying`;
+  return (s.count_scope==='partial_or_historical_snapshot' ? 'Partial or historical snapshot: ' : 'Source snapshot: ') + numbers;
+}
+function sourceLabel(s){
+  return ({ok:'HEALTHY',stale:'STALE',degraded:'DEGRADED',error:'UNAVAILABLE'})[s.status] || 'ATTENTION';
+}
+let researchLoaded=false;
+document.querySelector('#eagleResearchStatus').closest('details').addEventListener('toggle', async (event)=>{
+  if(!event.currentTarget.open || researchLoaded) return;
+  const status=document.querySelector('#eagleResearchStatus');
+  status.textContent='Loading historical research…';
+  try{
+    const response=await fetch('data/eagle-research.json?'+Date.now());
+    if(!response.ok) throw Error('Historical export unavailable');
+    const payload=await response.json();
+    if(!Array.isArray(payload.records)) throw Error('Historical export unavailable');
+    status.textContent=`${payload.records.length.toLocaleString()} historical records · unverified`;
+    document.querySelector('#eagleResearchRows').innerHTML=payload.records.map(p=>`<tr><td>${esc(p.legacy_reference)}</td><td>${esc(p.legacy_listing_date)}</td><td>${esc(p.type_as_reported)}</td><td>${esc(p.address_as_reported)}</td></tr>`).join('');
+    researchLoaded=true;
+  } catch(error) { status.textContent='Historical research export unavailable.'; }
+});
 async function boot(){
   const permitPayload=await fetch('data/permits.json?'+Date.now()).then(r=>r.json());
   permits=permitPayload.permits||[]; generatedAt=permitPayload.generated_at||'';
@@ -219,8 +257,8 @@ async function boot(){
     const issues=sources.length-healthy;
     document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} automated collectors${issues?` — ${issues} need attention`:''}`;
     document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Checked ${new Date(status.generated_at).toLocaleString()}` : '';
-    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${Number(s.records_seen||0).toLocaleString()} records seen · ${Number(s.qualifying_records||0).toLocaleString()} qualifying<br>${esc(s.note||'')}</div></div>`).join('');
-    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${Number(s.records_seen||0).toLocaleString()} records seen; ${Number(s.qualifying_records||0).toLocaleString()} qualifying. ${esc(s.note||'')}</span></div>`).join('');
+    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${esc(sourceLabel(s))}</div><div class="meta">${esc(sourceCounts(s))}<br>${esc(s.note||'')}</div></div>`).join('');
+    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${esc(sourceLabel(s))}</span> <span class="muted">${esc(sourceCounts(s))}. ${esc(s.note||'')}</span></div>`).join('');
     const directory=status.directory||[];
     document.querySelector('#directory').innerHTML=directory.map(x=>`<tr><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.market)}</a></td><td>${esc(x.grade)}</td><td><span class="badge">${esc(x.mode)}</span></td><td>${esc(x.use)}</td></tr>`).join('');
   } catch(e) {

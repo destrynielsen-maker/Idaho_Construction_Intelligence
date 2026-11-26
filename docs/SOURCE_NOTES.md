@@ -16,3 +16,16 @@ Keep: new single-family, duplex/fourplex/townhome, multifamily/apartments, comme
 Suppress: reroof, HVAC/mechanical replacement, plumbing/electrical, solar, signs, fences, pools, windows/doors, small remodels and tenant improvements.
 
 The stable key is `ID:JURISDICTION:PERMIT_NUMBER`.
+
+## Evidence gates: Eagle, Nampa and Meridian
+- **Eagle:** A dashboard lead requires a canonical numeric permit ID, verified issuance evidence (not a generic listing date), and supported new-construction scope. Legacy listing-only rows lacking verified issuance remain in the historical store, but no longer qualify for dashboard/feeds. A public portal error is a source outage, not evidence of zero issues. Anonymous iWorQ list access returned 403 during verification; the city’s Laserfiche weekly archive remains a manual fallback. Only explicitly labeled builder/general-contractor roles are used; trade contractors cannot stand in for a builder.
+- **Nampa:** Use the official Permit Reports index and City-linked weekly PDF filenames/title/period only. An HTTP-successful but old document is reported stale, not current. Map named building-contractor organizations only where the labeled role, associated company column, and permit match; otherwise leave the builder unknown. The City’s Citizen Connect bulletin describes a manual export, not a verified unattended API. Do not substitute guessed document IDs or protected endpoints.
+- **Meridian:** Discover current issued-permit PDFs from the [City’s new Construction Reports URL](https://about.meridiancity.org/community-development/building/construction-reports/), with vetted City-hosted report URLs as backup. Report period and newest observed issue date are independent. Deduplicate by jurisdiction/permit ID; preserve the earliest recorded first-seen timestamp. The City's Contractor column is reported as labeled, not independently verified as a GC.
+- **Rollback:** Next run uses the currently merged code; revert the reviewed code commit to remove these gates. If restoring exact dashboard/feeds or prospect ranking, restore verified pre-run generated artifacts via the maintainer’s normal publication workflow, not by deleting or resetting stored permit history.
+
+Eagle's historical-research panel is a separate narrow export, not an issuance or
+lead dataset. It lists only legacy entries that previously qualified but lack
+verified issuance evidence. The original record remains in the permit store;
+the export omits builder/GC claims, scores and prospect rankings. Unavailable
+sources have unknown counts, while stale/degraded counts describe only the
+observed sample, not the market. An available report can have a true zero.

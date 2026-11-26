@@ -1,5 +1,6 @@
 from __future__ import annotations
 import re
+from dataclasses import replace
 from .models import Permit
 
 NEGATIVE = ('reroof','re-roof','roof','hvac','mechanical','plumbing','electrical','solar','sign','fence','pool','window','door replacement','tenant improvement','remodel','alteration','repair','demolition','moving pod','tree pruning','sidewalk','conversion','convert ','modification')
@@ -11,7 +12,22 @@ NEW = ('new ','new construction','ground up','ground-up','shell building','duple
 
 def _norm(v): return re.sub(r'\s+',' ',(v or '').strip()).lower()
 
+def unverified_eagle_listing(p: Permit) -> bool:
+    raw=p.raw or {}
+    return p.jurisdiction=='Eagle' and 'listing' in raw and raw.get('issue_date_verified') is not True
+
+def historical_eagle_candidate(p: Permit) -> bool:
+    """Reproduce the previous lead gate on a copy, for the research view only."""
+    return unverified_eagle_listing(p) and _classify_construction(replace(p)).qualifies
+
 def classify_permit(p: Permit) -> Permit:
+    # Historical Eagle listing Date was not an issuing event and shifted cells sometimes
+    # produced non-permit keys. Keep those rows in history, but not in sales outputs.
+    if unverified_eagle_listing(p):
+        p.classification='OTHER'; p.qualifies=False; p.new_construction_confidence='LOW'; p.score=0; return p
+    return _classify_construction(p)
+
+def _classify_construction(p: Permit) -> Permit:
     permit_type=_norm(p.permit_type)
     text=_norm(' '.join(filter(None,[p.permit_type,p.building_use,p.project_name])))
     if any(permit_type.startswith(x) for x in TRADE_PREFIXES) or any(x in text for x in NEGATIVE):

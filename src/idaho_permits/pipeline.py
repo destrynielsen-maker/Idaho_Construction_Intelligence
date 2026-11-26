@@ -38,9 +38,13 @@ def run(root: Path):
             total+=len(r.permits); qual=0
             for p in r.permits:
                 classify_permit(p); qual+=int(p.qualifies); old=existing.get(p.key); p.first_seen_at=old.first_seen_at if old and old.first_seen_at else now; p.last_seen_at=now; existing[p.key]=p
-            statuses.append({'source':r.source,'status':'ok','records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note})
+            status={'source':r.source,'status':r.status,'records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note}
+            status['count_scope']='source_snapshot' if r.status=='ok' else 'partial_or_historical_snapshot'
+            if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
+            if r.report_period_end:status['report_period_end']=r.report_period_end
+            statuses.append(status)
         except Exception as e:
-            statuses.append({'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
+            statuses.append({'source':c.name,'status':'error','records_seen':None,'qualifying_records':None,'count_scope':'unavailable','source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
     permits=list(existing.values())
     for p in permits: classify_permit(p)
     save_permits(store,permits,now); write_public_data(root/'public',permits,statuses,now); write_all_feeds(root/'public'/'feeds',permits,_site_base_url())
