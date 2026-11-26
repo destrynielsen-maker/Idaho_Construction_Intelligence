@@ -37,7 +37,17 @@ def run(root: Path):
                         del existing[key]
             total+=len(r.permits); qual=0
             for p in r.permits:
-                classify_permit(p); qual+=int(p.qualifies); old=existing.get(p.key); p.first_seen_at=old.first_seen_at if old and old.first_seen_at else now; p.last_seen_at=now; existing[p.key]=p
+                classify_permit(p); qual+=int(p.qualifies); old=existing.get(p.key)
+                # Eagle is append-only until historical reconciliation is separately approved.
+                # A changed detail record must not remove or rewrite an already-published lead.
+                if old and c.name==p.jurisdiction=='Eagle':
+                    continue
+                if old and c.name==p.jurisdiction=='Nampa':
+                    # The current report does not establish ownership/design roles.
+                    for field in ('owner','developer','architect'):
+                        if getattr(p,field) is None:
+                            setattr(p,field,getattr(old,field))
+                p.first_seen_at=old.first_seen_at if old and old.first_seen_at else now; p.last_seen_at=now; existing[p.key]=p
             status={'source':r.source,'status':r.status,'records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note}
             if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
             if r.report_period_end:status['report_period_end']=r.report_period_end

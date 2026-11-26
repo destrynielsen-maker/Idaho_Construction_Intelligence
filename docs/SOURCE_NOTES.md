@@ -32,3 +32,8 @@ unconfirmed source result, not an authoritative zero: no empty-report marker
 has been validated. Retain last-good history and first-seen data during outages.
 On recovery, validate all accepted issue dates against the requested window and
 deduplicate by permit key. Recovery is fixture-tested, not live-confirmed.
+
+
+### Eagle and Nampa collector scope
+- Eagle: ingest new identities only from the official iWorQ listing/detail path and only with an explicitly labeled issue date, never a generic listing or application date. Keep existing Eagle rows in their existing history and publication paths even if a new detail response disagrees. Any correction/removal of historical leads is separate. An unavailable portal is not evidence of zero permits.
+- Nampa: use City Permit Activity Type PDFs with matching issue-report periods and in-period dates. A City-linked fallback can still be stale. Contractor organization requires a single explicit registered-building-contractor/Associated Company pairing, not the applicant or owner or independent GC verification. Permit history and first-seen timestamps are retained.
