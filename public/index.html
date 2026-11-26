@@ -18,7 +18,7 @@
     .card .label { color: #667085; font-size: 13px; }
     .card .value { font-size: 25px; font-weight: 700; margin-top: 6px; }
     .panel { padding: 16px; margin-bottom: 16px; }
-    .filters { display: grid; grid-template-columns: 1.3fr repeat(4, minmax(130px, .7fr)); gap: 10px; }
+    .filters { display: grid; grid-template-columns: 1.3fr repeat(5, minmax(0, .7fr)); gap: 10px; }
     input, select { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; }
     .feeds { display: flex; flex-wrap: wrap; gap: 8px; }
     .feeds a { text-decoration: none; border: 1px solid #cfd6e2; border-radius: 999px; padding: 7px 11px; color: #172033; background: white; }
@@ -39,10 +39,27 @@
     .health-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin-top:10px; }
     .health-item { border:1px solid #e1e6ef; border-radius:10px; padding:11px 12px; background:#fbfcfe; }
     .health-item .meta { color:#667085; font-size:12px; margin-top:4px; line-height:1.45; }
+    .source-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 9px;margin:10px 0}.source-metrics div{min-width:0;overflow-wrap:anywhere}.source-metrics dt{font-size:11px;color:#667085;font-weight:600}.source-metrics dd{margin:0;font-size:13px}.compact-health-title{display:flex;align-items:start;justify-content:space-between;gap:8px;flex-wrap:wrap}.compact-health-title strong{font-size:15px}.source-diagnostic{border-top:1px solid #e1e6ef;margin-top:8px;font-size:12px;overflow-wrap:anywhere}.source-diagnostic summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:600}.source-diagnostic summary::before{content:'▸';margin-right:5px}.source-diagnostic[open] summary::before{content:'▾'}.source-diagnostic p{margin:0 0 8px}.source-evidence-gap{color:#667085}
+    @media(max-width:560px){.health-grid{grid-template-columns:minmax(0,1fr)}.source-metrics dd{font-size:12px}}
     .health-summary { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; }
     a { color: #175cd3; }
     @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
     @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
+    .filters > * { min-width: 0; width: 100%; }
+    .report-pager { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:8px 0; }
+    .report-pager button, #export { min-height:44px; padding:6px 12px; }
+    .report-sort { display:none; }
+    #permit-results td, #shared-reporting-status { overflow-wrap:anywhere; }
+    @media(max-width: 560px) {
+      .report-sort { display:flex; gap:8px; align-items:center; margin:8px 0; }
+      #permit-results { min-width:0; width:100%; }
+      #permit-results thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+      #permit-results tbody, #permit-results tr { display:block; }
+      #permit-results tr { border:1px solid var(--line,#334155); border-radius:8px; padding:4px 8px; margin:8px 0; }
+      #permit-results td { display:grid; grid-template-columns:minmax(85px,36%) minmax(0,1fr); align-items:start; gap:8px; white-space:normal; border:0; padding:5px 0; }
+      #permit-results td::before { content:attr(data-label); font-weight:600; }
+      #permit-results td > span { min-width:0; }
+    }
   </style>
 </head>
 <body>
@@ -79,8 +96,9 @@
   </section>
 
   <section class="panel">
-    <div class="filters">
+    <p class="muted">Published under existing qualification; inclusion does not prove a project is active or available to buy. Date window uses the legacy listing date. Use Date evidence to separate actual issuance, applications, planning and unverified records.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
+      <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
       <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
       <select id="jurisdiction"><option value="">All jurisdictions</option></select>
       <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
@@ -91,17 +109,19 @@
   <section class="panel">
     <div style="display:flex;justify-content:space-between;gap:16px;align-items:end;flex-wrap:wrap;margin-bottom:8px">
       <div><strong>Construction opportunities</strong><div class="muted" id="updated"></div></div>
-      <div class="muted" id="count"></div>
+      <div><div class="muted" id="count" aria-live="polite"></div><button id="export" type="button">Export matching CSV</button></div>
     </div>
+    <label class="report-sort">Sort <select id="mobileSort"><option value="score">Score</option><option value="issued_date">Source date</option><option value="classification">Type</option><option value="jurisdiction">Jurisdiction</option><option value="project">Project / Address</option><option value="contractor">Contractor</option><option value="units">Units</option><option value="valuation">Valuation</option><option value="permit_number">Permit</option></select><button id="mobileDirection" type="button">Descending</button></label>
+    <nav class="report-pager" aria-label="Results pages"><button id="prevPage" type="button">Previous</button><span id="pageSummary" aria-live="polite"></span><button id="nextPage" type="button">Next</button></nav>
     <div class="table-wrap">
-      <table>
+      <table id="permit-results" role="table">
         <thead><tr>
           <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
-          <th class="sortable" data-sort="issued_date">Issued<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="issued_date">Source date<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="classification">Type<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="jurisdiction">Jurisdiction<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="project">Project / Address<span class="sort-arrow"></span></th>
-          <th class="sortable" data-sort="contractor">Builder / GC<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="contractor">Reported contractor / role<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="units">Units<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="valuation">Valuation<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="permit_number">Permit<span class="sort-arrow"></span></th>
@@ -122,10 +142,6 @@
     </div>
   </section>
 
-  <section class="panel">
-    <strong>Source health details</strong>
-    <div id="sources" style="margin-top:8px"></div>
-  </section>
 </main>
 <script>
 const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
@@ -134,6 +150,116 @@ let permits=[];
 let generatedAt='';
 let sortKey='score';
 let sortDirection='desc';
+let matchingRows=[], resultPage=0;
+const PAGE_SIZE=100;
+const MT='America/Boise';
+function mt(s){return s?new Date(s).toLocaleString('en-US',{timeZone:MT})+' MT':'Unknown'}
+function evidence(p){
+  const raw=p.raw||{}, d=p.issued_date||'', src=p.source_name||'';
+  const iso=/^\d{4}-\d{2}-\d{2}$/.test(d)&&Number.isFinite(dateValue(d))&&new Date(dateValue(d)).toISOString().slice(0,10)===d&&(!generatedAt||d<=generatedAt.slice(0,10));
+  if(!iso)return 'unverified';
+  if(src==='Boise Development Tracker'||src==='COMPASS Development Review')return 'planning';
+  if(src==='Canyon County DSD Building Permit Tracker')return 'application received';
+  if(src==='Eagle iWorQ Permit Portal')return raw.issue_date_verified===true?'issued':'unverified';
+  if(src==='City of Boise Accela Citizen Access')return raw.source_issue_date_authoritative===true?'issued':'unverified';
+  if(src==='Nampa weekly permit activity report'){
+    const dates=[...(raw.context||'').matchAll(/Issue Date:\s*(\d{1,2}\/\d{1,2}\/20\d{2})/gi)];
+    return dates.length===1&&dateValue(dates[0][1])===dateValue(d)?'issued':'unverified';
+  }
+  return ["Coeur d'Alene Issued Permits",'Kootenai County weekly building permit report','City of Post Falls Building Permits GIS','Meridian permit report'].includes(src)?'issued':'unverified';
+}
+function evidenceDate(p, kind){
+  return evidence(p)===kind ? (p.issued_date||'') : '';
+}
+function contractorEvidence(p){
+  const label=(p.raw||{}).contractor_role||'';
+  if(!p.contractor)return 'Not reported';
+  if(['registered building contractor','general contractor','builder','Registered Building Contractor / Associated Company','City report Contractor field; GC unverified'].includes(label))return 'Source-labeled: '+label;
+  if(p.source_name==='Canyon County DSD Building Permit Tracker')return 'Application-reported contractor; not verified GC';
+  if(p.source_name==="Coeur d'Alene Issued Permits")return 'City report Contractor field; GC unverified';
+  if(p.source_name==='City of Boise Accela Citizen Access')return 'Listed licensed professional; role unverified';
+  return 'Legacy attribution unverified';
+}
+function csvCell(v){let x=String(v??'');if(/^\s*[=+\-@]/.test(x)||/^[\t\r]/.test(x))x="'"+x;return '"'+x.replaceAll('"','""')+'"'}
+function csvText(rows){
+  return [['key','issuer','permit_number','source_date','date_evidence','verified_issue_date','application_received_date','observed_stage','reported_contractor','contractor_evidence','classification','score','source_url'],
+    ...rows.map(p=>[p.key,p.jurisdiction,p.permit_number,p.issued_date,evidence(p),evidenceDate(p,'issued'),evidenceDate(p,'application received'),p.stage,p.contractor,contractorEvidence(p),p.classification,p.score,p.source_url])]
+   .map(r=>r.map(csvCell).join(',')).join('\r\n')+'\r\n';
+}
+function downloadCsv(){
+  const u=URL.createObjectURL(new Blob([csvText(matchingRows)],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=u;a.download='idaho-construction-matching.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
+}
+const sourceProfiles={
+  'Boise':['boise-planning','Boise Development Tracker','Planning only','City of Boise development tracker'],
+  'Boise Issued Building Permits':['boise-issued','Boise Issued Building Permits','Issued building permits','City of Boise building permits'],
+  'Eagle':['eagle','Eagle','Issued building permits','City of Eagle building permits'],
+  'Canyon County':['canyon-county','Canyon County','Applications only','Unincorporated Canyon County permit tracker'],
+  'Caldwell':['caldwell','Caldwell','Planning only','Caldwell regional development review'],
+  "Coeur d'Alene":['coeur-dalene','Coeur d’Alene','Issued building permits','City of Coeur d’Alene building permits'],
+  'Kootenai County':['kootenai-county','Kootenai County','Issued building permits','Unincorporated Kootenai County weekly reports'],
+  'Post Falls':['post-falls','Post Falls','Issued building permits','City of Post Falls rolling 90-day building permit window'],
+  'Meridian':['meridian','Meridian','Issued building permits','City of Meridian building permit reports'],
+  'Nampa':['nampa','Nampa','Issued building permits','City of Nampa weekly building permit reports'],
+};
+const sourceGapProfiles={
+  'bingham-manual':['Bingham County','Permit stage not verified here','Official county reports; manual review only'],
+  'eastern-idaho-issued-gap':['Eastern Idaho coverage gaps','City-issued permits not collected','Idaho Falls, Rexburg, Pocatello and Blackfoot city-issued permits'],
+};
+function safeDate(d){return typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)}
+function safeTimestamp(d){return d&&Number.isFinite(new Date(d).getTime())?mt(d):'Unknown'}
+function sourceCount(value){return Number.isInteger(value)&&value>=0?value.toLocaleString('en-US'):'Unknown'}
+function sourceCardData(snapshot){
+  const raw=Array.isArray(snapshot.collector_status)?snapshot.collector_status:[];
+  const env=snapshot.reporting_v1;
+  const same=env?.schema_version===1&&env.generated_at===snapshot.generated_at&&Array.isArray(env.sources);
+  const manifest=new Map(same?env.sources.map(s=>[s.id,s]):[]);
+  const rows=raw.map(item=>{
+    const [id,label,stage,coverage]=sourceProfiles[item.source]||[item.source,item.source,'Stage not verified','Coverage not documented'];
+    const row=manifest.get(id);
+    return {id,label:row?.label||label,stage,coverage:row?.coverage||coverage,mode:row?.mode||'automatic',raw:item,row};
+  });
+  for(const [id,[label,stage,coverage]] of Object.entries(sourceGapProfiles)){
+    const row=manifest.get(id);
+    rows.push({id,label:row?.label||label,stage,coverage:row?.coverage||coverage,mode:row?.mode||(id==='bingham-manual'?'manual':'uncovered'),raw:null,row});
+  }
+  return rows;
+}
+function collectionHealth(item){
+  const status=(item.raw?.status||'').toLowerCase(),r=item.row;
+  if(item.mode==='manual')return ['manual','Manual review only'];
+  if(item.mode==='uncovered')return ['uncovered','Not covered'];
+  if(r?.collection_outcome==='error'||['error','failed','unavailable'].includes(status))return ['failed','Collection failed'];
+  if(status==='stale'||status==='degraded'||r?.availability==='partial')
+    return ['partial',r?.verified_data_fallback?'Official reports collected · index degraded':'Partial collection'];
+  if(r?.collection_outcome==='no_data')return ['empty','Verified empty'];
+  if(r?.collection_outcome==='success'||(!r&&status==='ok'&&item.raw?.records_seen>0))return ['ok','Collection succeeded'];
+  return ['unknown','Collection unverified'];
+}
+function sourceCard(item,snapshot){
+  const r=item.row,status=item.raw, [key,health]=collectionHealth(item);
+  const knownAttempt=['ok','partial','empty'].includes(key);
+  const observed=r?.observed_records ?? (!r&&knownAttempt&&status?.records_seen>0?status.records_seen:null);
+  const observations=key==='failed'?'Not collected':sourceCount(observed);
+  const qualifies=knownAttempt&&Number.isInteger(observed)&&Number.isInteger(status?.qualifying_records)?' · '+sourceCount(status.qualifying_records)+' qualifying':'';
+  const lastSuccess=r?.last_success_at;
+  const verifiedLatest=r?.latest_authoritative_date;
+  const retainedOnly=!safeDate(verifiedLatest)&&safeDate(r?.retained_latest_authoritative_date);
+  const latest=retainedOnly?r.retained_latest_authoritative_date:verifiedLatest;
+  const basis=r?.latest_date_kind;
+  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.stage==='Applications only'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
+  let freshness=safeDate(latest)?(Number.isInteger(r?.source_age_days)&&r.source_age_days>=0?r.source_age_days+' days at snapshot':'Dated evidence'):'Not verified';
+  if(retainedOnly)freshness='Retained evidence; current freshness unverified';
+  if(safeDate(latest)&&r?.date_provenance==='prior_success')freshness+=' · prior successful collection';
+  if(r?.freshness_status==='stale'||String(status?.status||'').toLowerCase()==='stale')freshness+=' · source flagged stale';
+  const metric=(k,v)=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`;
+  const diagnostics=status?.note? `<details class="source-diagnostic"><summary>Diagnostic details</summary><p>${esc(status.note)}</p></details>`:'';
+  return `<article class="health-item" data-source-id="${esc(item.id)}"><div class="compact-health-title"><strong>${esc(item.label)}</strong><span class="badge source-${key==='failed'?'error':key==='ok'?'ok':'neutral'}">${esc(health)}</span></div>
+  <div class="meta">${esc(item.coverage)}</div><dl class="source-metrics">${metric('Permit stage',item.stage)}${metric('Freshness',freshness)}
+  ${metric(latestLabel,safeDate(latest)?latest:'Unknown')}${metric('Last successful collection',safeTimestamp(lastSuccess))}
+  ${metric('Observed this attempt',observations+qualifies)}${metric('Retained historical records',sourceCount(r?.retained_records))}</dl>
+  ${key==='failed'?'<p class="meta source-evidence-gap">No successful observation in this run. That does not mean zero permits were issued.</p>':''}${diagnostics}</article>`;
+}
 
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
 function dateValue(value){
@@ -174,24 +300,35 @@ function render(){
   const jur=document.querySelector('#jurisdiction').value;
   const days=Number(document.querySelector('#days').value);
   const score=Number(document.querySelector('#minScore').value);
-  const cutoff=dateCutoff(days);
+  const cutoff=dateCutoff(days), dateKind=document.querySelector('#evidence').value;
   const rows=permits.filter(p => {
     const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
     const issuedIso=new Date(dateValue(p.issued_date)).toISOString().slice(0,10);
-    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
+    return (!dateKind || evidence(p)===dateKind) && (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
   }).sort(compareRows);
   updateSortHeaders();
-  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
-  document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
-    <td class="score"><strong>${p.score}</strong></td>
-    <td class="date">${esc(p.issued_date)}</td>
-    <td><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
-    <td>${esc(p.jurisdiction)}</td>
-    <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
-    <td>${esc(p.contractor||'—')}</td>
-    <td class="units">${p.units ?? '—'}</td>
-    <td class="money">${money(p.valuation)}</td>
-    <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></td>
+  matchingRows=rows;
+  document.querySelector('#mobileSort').value=sortKey;
+  document.querySelector('#mobileDirection').textContent=sortDirection==='desc'?'Descending':'Ascending';
+  const pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));
+  resultPage=Math.min(Math.max(0,resultPage),pages-1);
+  const lo=resultPage*PAGE_SIZE, hi=Math.min(lo+PAGE_SIZE,rows.length);
+  document.querySelector('#export').disabled=!rows.length;
+  document.querySelector('#prevPage').disabled=resultPage===0;
+  document.querySelector('#nextPage').disabled=resultPage>=pages-1;
+  document.querySelector('#pageSummary').textContent=rows.length?`Page ${resultPage+1} of ${pages}`:'No pages';
+  const range=rows.length?`${(lo+1).toLocaleString()}–${hi.toLocaleString()}`:'0';
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching records · showing ${range} · CSV includes all matches`;
+  document.querySelector('#rows').innerHTML=rows.slice(lo,hi).map(p=>`<tr>
+    <td class="score" data-label="Score"><span><strong>${p.score}</strong></span></td>
+    <td class="date" data-label="Source date"><span>${esc(p.issued_date)}<br><span class="muted">${esc(evidence(p))}</span></span></td>
+    <td data-label="Type"><span><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></span></td>
+    <td data-label="Jurisdiction"><span>${esc(p.jurisdiction)}</span></td>
+    <td data-label="Project / address"><span>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</span></td>
+    <td data-label="Contractor"><span>${esc(p.contractor||'—')}<br><span class="muted">${esc(contractorEvidence(p))}</span></span></td>
+    <td class="units" data-label="Units"><span>${p.units ?? '—'}</span></td>
+    <td class="money" data-label="Valuation"><span>${money(p.valuation)}</span></td>
+    <td data-label="Permit"><span><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></span></td>
   </tr>`).join('');
 }
 async function boot(){
@@ -202,33 +339,39 @@ async function boot(){
   document.querySelector('#multi').textContent=permits.filter(p=>p.classification==='MULTIFAMILY').length.toLocaleString();
   document.querySelector('#commercial').textContent=permits.filter(p=>p.classification==='COMMERCIAL').length.toLocaleString();
   document.querySelector('#valuation').textContent=money(permits.reduce((s,p)=>s+(p.valuation||0),0));
-  document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
+  document.querySelector('#updated').textContent=generatedAt ? `Published snapshot ${mt(generatedAt)}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
-  ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  ['search','classification','jurisdiction','days','minScore','evidence'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',()=>{resultPage=0;render()}));
   document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{
     const next=th.dataset.sort;
     if(sortKey===next) sortDirection=sortDirection==='asc'?'desc':'asc';
     else { sortKey=next; sortDirection=(next==='score'||next==='issued_date'||next==='units'||next==='valuation')?'desc':'asc'; }
-    render();
+    resultPage=0;render();
   }));
+  document.querySelector('#export').addEventListener('click',downloadCsv);
+  document.querySelector('#prevPage').addEventListener('click',()=>{resultPage--;render()});
+  document.querySelector('#nextPage').addEventListener('click',()=>{resultPage++;render()});
+  document.querySelector('#mobileSort').addEventListener('change',e=>{sortKey=e.target.value;sortDirection=['score','issued_date','units','valuation'].includes(sortKey)?'desc':'asc';resultPage=0;render()});
+  document.querySelector('#mobileDirection').addEventListener('click',()=>{sortDirection=sortDirection==='asc'?'desc':'asc';resultPage=0;render()});
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
-    const sources=status.collector_status||[];
-    const healthy=sources.filter(s=>s.status==='ok').length;
-    const issues=sources.length-healthy;
-    document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} automated collectors${issues?` — ${issues} need attention`:''}`;
-    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Checked ${new Date(status.generated_at).toLocaleString()}` : '';
-    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${Number(s.records_seen||0).toLocaleString()} records seen · ${Number(s.qualifying_records||0).toLocaleString()} qualifying<br>${esc(s.note||'')}</div></div>`).join('');
-    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${Number(s.records_seen||0).toLocaleString()} records seen; ${Number(s.qualifying_records||0).toLocaleString()} qualifying. ${esc(s.note||'')}</span></div>`).join('');
+    const rows=sourceCardData(status);
+    const attempts=rows.filter(s=>s.mode==='automatic');
+    const healthy=attempts.filter(s=>collectionHealth(s)[0]==='ok').length;
+    const failures=attempts.filter(s=>collectionHealth(s)[0]==='failed').length;
+    document.querySelector('#coverageSummary').textContent=`${healthy} successful / ${attempts.length} configured collectors · ${failures} failed · other checks may be partial or unverified`;
+    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Attempt snapshot ${mt(status.generated_at)} · not permit freshness` : '';
+    document.querySelector('#sourceCards').innerHTML=rows.map(s=>sourceCard(s,status)).join('');
     const directory=status.directory||[];
     document.querySelector('#directory').innerHTML=directory.map(x=>`<tr><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.market)}</a></td><td>${esc(x.grade)}</td><td><span class="badge">${esc(x.mode)}</span></td><td>${esc(x.use)}</td></tr>`).join('');
   } catch(e) {
     document.querySelector('#coverageSummary').textContent='Source status unavailable.';
-    document.querySelector('#sources').textContent='Source status unavailable.';
+    document.querySelector('#sourceCards').textContent='Source status could not be loaded. This does not mean zero permits were issued.';
   }
 }
 boot();
 </script>
+
 </body>
 </html>

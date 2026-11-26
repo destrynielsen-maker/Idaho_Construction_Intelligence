@@ -117,6 +117,7 @@ class PostFallsPermitCollector:
         permits = []
         source_rows = 0
         newest = None
+        retry_available = True
 
         for page in range(MAX_PAGES):
             params = {
@@ -128,7 +129,14 @@ class PostFallsPermitCollector:
                 'resultRecordCount': PAGE_SIZE,
                 'f': 'json',
             }
-            response = requests.get(QUERY_URL, params=params, timeout=60)
+            try:
+                response = requests.get(QUERY_URL, params=params, timeout=60)
+            except (requests.exceptions.ConnectTimeout, requests.exceptions.ReadTimeout):
+                if not retry_available:
+                    raise
+                # One identical transport retry for this collection, across all pages.
+                retry_available = False
+                response = requests.get(QUERY_URL, params=params, timeout=60)
             response.raise_for_status()
             payload = response.json()
             if payload.get('error'):
@@ -170,4 +178,5 @@ class PostFallsPermitCollector:
             note += f'; newest issued permit {newest.isoformat()} ({age} days old)'
             if age > STALE_AFTER_DAYS:
                 note += f'; WARNING source is more than {STALE_AFTER_DAYS} days behind current date'
-        return CollectorResult(self.name, LAYER_URL, list(unique.values()), note)
+        return CollectorResult(self.name, LAYER_URL, list(unique.values()), note,
+                               latest_issued_date=newest.isoformat() if newest else None)
