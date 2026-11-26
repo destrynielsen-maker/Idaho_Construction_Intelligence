@@ -1,0 +1,40 @@
+name: Scout Idaho release 38 refreshed preflight (no deployment)
+on:
+  push:
+    branches: [scout/qa-idaho-38-5a1e3c4]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/scout/qa-idaho-38-5a1e3c4'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prove exact merge tree and untouched records
+        run: |
+          test "$(git rev-parse HEAD:.github/workflows/collect-and-publish.yml)" = "$(git rev-parse HEAD^:.github/workflows/collect-and-publish.yml)"
+          git diff --quiet HEAD^ HEAD -- data public
+          git rm --cached -q .github/workflows/scout-idaho-38-refresh.yml
+          test "$(git write-tree)" = "39b8d78bbbdc18f9fcf6b44cd491ae2c55135f12"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          records=json.loads(Path('data/permits.json').read_text())['permits']
+          visible=json.loads(Path('public/data/permits.json').read_text())['permits']
+          assert len(records)==len({r['key'] for r in records})==6181
+          assert sum(r['jurisdiction']=='Eagle' for r in records)==2815
+          assert sum(r['jurisdiction']=='Eagle' for r in visible)==242
+          PY
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+      - name: Run unchanged test entry point
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v

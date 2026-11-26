@@ -2,9 +2,14 @@ from __future__ import annotations
 
 from datetime import date, datetime
 import re
+from io import BytesIO
+from urllib.parse import urlparse
+
+import requests
+from pypdf import PdfReader
 
 from .base import CollectorResult
-from .common import discover_links, get, pdf_text
+from .common import discover_links, get
 from ..models import Permit
 
 
@@ -14,6 +19,8 @@ class NampaPermitCollector:
     name = 'Nampa'
     landing_url = 'https://www.cityofnampa.us/427/Permit-Reports'
     freshness_days = 14
+    # Public download explicitly linked under the City's Permit Activity Type reports.
+    direct_report = ('10/19/2026 – 10/23/2026','https://www.cityofnampa.us/DocumentCenter/View/20941/Weekly-Permit-Activity-Report-10-19-2026---10-23-2026')
 
     @staticmethod
     def _report_end(label: str):
@@ -29,41 +36,103 @@ class NampaPermitCollector:
         reports = []
         for label, url in discover_links(self.landing_url):
             end = self._report_end(label)
-            if not end:
-                continue
-            if '/DocumentCenter/View/' not in url and '.pdf' not in url.lower():
+            if not end or end > date.today() or not _official_weekly_url(url):
                 continue
             reports.append((end, label, url))
         reports.sort(key=lambda item: (item[0], item[1], item[2]))
         return reports
 
     def collect(self):
-        reports = self._weekly_reports()
-        if not reports:
-            return CollectorResult(
-                self.name,
-                self.landing_url,
-                [],
-                'No published weekly Permit Activity Type report links were discoverable; source remains visible for manual prospecting',
-            )
+        discovery_error=''
+        try:
+            reports=self._weekly_reports()
+        except requests.RequestException as exc:
+            reports=[]
+            discovery_error=f'Listing unavailable ({type(exc).__name__}); '
+        label,url=self.direct_report
+        candidates=[*reversed(reports[-3:]),(self._report_end(label),label,url)]
+        tried=set()
+        rejected=[]
+        for end,label,url in candidates:
+            if url in tried:continue
+            tried.add(url)
+            try:
+                response=get(url, referer=self.landing_url)
+                if not _official_weekly_url(response.url) or not response.content.startswith(b'%PDF'):
+                    raise ValueError('not an official weekly PDF')
+                reader=PdfReader(BytesIO(response.content))
+                text='\n'.join(page.extract_text() or '' for page in reader.pages)
+                if not re.search(r'CITY OF NAMPA,\s*Department of Building Safety',text,re.I) or not re.search(r'Permit Activity Type Report',text,re.I):
+                    raise ValueError('unrecognized City permit report')
+                period=_published_period(text)
+                dates=_contained_dates(text)
+                if not period or period[1]!=end or not dates or not all(period[0]<=d<=end for d in dates):
+                    raise ValueError('report period or labeled issue dates not verified')
+                try:
+                    layout='\n'.join(page.extract_text(extraction_mode='layout') or '' for page in reader.pages)
+                except Exception:
+                    layout=''  # Dates remain usable; do not borrow names from flattened PDF text.
+                permits=parse_nampa(text,self.name,url,layout=layout,period=period)
+            except (requests.RequestException,ValueError,OSError) as exc:
+                rejected.append(f'{label}: {type(exc).__name__}')
+                continue
+            newest=max(dates)
+            age=(date.today()-newest).days
+            state='stale' if age>self.freshness_days else 'degraded' if discovery_error or rejected else 'ok'
+            report_mode='City-linked direct fallback' if not reports or not any(x[2]==url for x in reports) else 'City listing'
+            note=(f'{discovery_error}{report_mode}: {label}; {len(permits)} new-construction records parsed; '
+                  f'last labeled issue date {newest.isoformat()} ({age} days old).')
+            if rejected:note+=' Unavailable/newer assets: '+', '.join(rejected)+'.'
+            if state=='stale':note+=f' WARNING: latest verified issue date is older than {self.freshness_days} days.'
+            return CollectorResult(self.name,url,permits,note,status=state,latest_issued_date=newest.isoformat(),report_period_end=end.isoformat())
+        raise RuntimeError(f'{discovery_error}No validated City weekly PDF; {", ".join(rejected) or "no linked report"}')
 
-        end, label, url = reports[-1]
-        response = get(url, referer=self.landing_url)
-        ctype = response.headers.get('content-type', '').lower()
-        if 'pdf' not in ctype and not response.content.startswith(b'%PDF'):
-            return CollectorResult(
-                self.name,
-                url,
-                [],
-                f'Newest published weekly report was not a PDF ({label}); source remains visible for manual prospecting',
-            )
 
-        permits = parse_nampa(pdf_text(response.content), self.name, url)
-        age = (date.today() - end).days
-        note = f'Latest discovered report: {label}; {len(permits)} new-construction records parsed; report ended {age} days ago'
-        if age > self.freshness_days:
-            note += f' WARNING: newest published Nampa weekly report is older than {self.freshness_days} days'
-        return CollectorResult(self.name, url, permits, note)
+def _official_weekly_url(url):
+    target=urlparse(url)
+    return (target.scheme=='https' and target.netloc=='www.cityofnampa.us'
+            and '/documentcenter/view/' in target.path.lower()
+            and 'permit-activity-report-' in target.path.lower())
+
+
+def _published_period(text):
+    found=re.search(r'^\s*(\d{1,2}/\d{1,2}/20\d{2})\s+to\s+(\d{1,2}/\d{1,2}/20\d{2})\s*$',text,re.I|re.M)
+    if not found:return None
+    try:return tuple(datetime.strptime(x,'%m/%d/%Y').date() for x in found.groups())
+    except ValueError:return None
+
+
+def _contained_dates(text):
+    dates=[]
+    for line in text.splitlines():
+        token,_=_issue_and_project(line.strip())
+        if token:
+            try:dates.append(datetime.strptime(token,'%m/%d/%Y').date())
+            except ValueError:continue
+    return dates
+
+
+def _organizations_from_layout(layout):
+    # The report prints separate Contact Type / Name / Associated Company columns.
+    # Layout extraction preserves that distinction; flattened extraction does not.
+    matches={}
+    permit=''
+    for line in layout.splitlines():
+        match=re.match(r'^\s*Permit Number:\s*([A-Z0-9-]+)\s+Situs:',line,re.I)
+        if match:
+            permit=match.group(1).upper()
+            continue
+        if not permit:continue
+        columns=re.split(r'\s{5,}',line.strip())
+        if len(columns)!=3:continue
+        role,person,company=columns
+        if not re.search(r'\bRegistered Building(?: Contractor)?$',role,re.I):continue
+        company=re.sub(r'\s+',' ',company.strip())
+        if not company or company.casefold()==person.casefold() and not re.search(r'\b(llc|inc|corp|company|construction|homes|builders)\b',company,re.I):
+            continue
+        matches.setdefault(permit,set()).add(company)
+    # Multiple registered contractors remain ambiguous; never pick one on list order.
+    return {p:next(iter(values)) for p,values in matches.items() if len(values)==1}
 
 
 def _new_construction_signal(project_type: str, structure_use: str, project_name: str, scope: str) -> bool:
@@ -84,6 +153,7 @@ def _new_construction_signal(project_type: str, structure_use: str, project_name
         r'\bnew\s+fourplex\b',
         r'\bnew\s+complete\s+building\b',
         r'\bnew\s+shell\b',
+        r'\bshell building\s+(?:to be\s+)?construct(?:ed|ion)\b',
         r'\bground[- ]up\b',
         r'\bconstruct(?:ion)?\b.{0,80}\bnew\b.{0,80}\b(?:building|dwelling|home|residence|warehouse|facility)\b',
     )
@@ -120,7 +190,7 @@ def _unit_value(value: str):
     return match.group(1) if match else ''
 
 
-def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
+def parse_nampa(text: str, jurisdiction: str, url: str, *, layout='', period=None) -> list[Permit]:
     """Parse Nampa's pypdf token stream by permit block.
 
     Nampa's PDFs invert several rendered label/value pairs in extraction (for example
@@ -129,6 +199,7 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
     """
     lines = [re.sub(r'\s+', ' ', line).strip() for line in text.splitlines() if line.strip()]
     out = []
+    organizations=_organizations_from_layout(layout)
     project_type = ''
     structure_use = ''
     permit_line = re.compile(r'^Permit Number:\s*([A-Z0-9-]+)\s+Situs:\s*(.+)$', re.I)
@@ -210,15 +281,14 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
                     scope_parts.append(candidate)
                     nxt += 1
 
-            if 'registered building contractor' in value.lower() and not contractor:
-                before = re.split(r'Registered Building Contractor', value, maxsplit=1, flags=re.I)[0]
-                before = re.sub(r'(Applicant|Owner\s*\d*|Tenant|Foreman|Designer)[, ]*$', '', before, flags=re.I).strip(' ,-')
-                contractor = before or None
-
         project_name = ' '.join(project_name_parts).strip() or None
         scope = ' '.join(scope_parts).strip()
         if not issued or not _new_construction_signal(project_type, structure_use, project_name or '', scope):
             continue
+        issued_value=date.fromisoformat(issued)
+        if issued_value>date.today() or period and not period[0]<=issued_value<=period[1]:
+            continue
+        contractor=organizations.get(number.upper())
 
         combined = ' '.join(x for x in (structure_use, project_name or '', scope) if x)
         if re.search(r'\b(?:duplex|triplex|fourplex|multifamily|multi-family|apartment|townhome|townhouse)\b', combined, re.I):
@@ -246,7 +316,7 @@ def parse_nampa(text: str, jurisdiction: str, url: str) -> list[Permit]:
                 'project_type': project_type,
                 'structure_use': structure_use,
                 'scope': scope,
-                'context': ' | '.join(block),
+                'contractor_role': 'Registered Building Contractor / Associated Company' if contractor else None,
             },
         ))
 
