@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 26 Nov 2026 09:38:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 10:07:50 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -200,6 +200,24 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-03107</guid>
     </item>
     <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5622 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0963</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5636 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0962</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5660 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0960</guid>
+    </item>
+    <item>
       <title>[45] Eagle: New Townhome — 200 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
@@ -216,24 +234,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269161</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5660 W WILDFIRE DR</title>
-      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
-      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0960</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5636 W WILDFIRE DR</title>
-      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
-      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0962</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5622 W WILDFIRE DR</title>
-      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
-      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0963</guid>
     </item>
     <item>
       <title>[45] Boise: 1424 S. Denver Ave — 1424 S DENVER AVE, Boise ID 83706</title>
@@ -258,6 +258,18 @@
       <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
       <description>MULTIFAMILY | River valley framing llc | 170,767</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0938</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New single-family townhome unit — 3941 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 153,870</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0940</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New single-family townhome unit — 3965 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 169,826</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0936</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 320 E Sawyer Gold Ln</title>
@@ -314,16 +326,10 @@
       <guid isPermaLink="false">ID:EAGLE:268936</guid>
     </item>
     <item>
-      <title>[45] Meridian: New single-family townhome unit — 3965 E DITMARS DR</title>
-      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
-      <description>MULTIFAMILY | River valley framing llc | 169,826</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0936</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: New single-family townhome unit — 3941 E DITMARS DR</title>
-      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
-      <description>MULTIFAMILY | River valley framing llc | 153,870</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0940</guid>
+      <title>[45] Meridian: New single-family townhome being built in the Poima subdivision — 3957 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 170,139</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0937</guid>
     </item>
     <item>
       <title>[45] Meridian: New single-family townhome unit to be built in Pioma subdivision. — 3973 E DITMARS DR</title>
@@ -332,22 +338,10 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0935</guid>
     </item>
     <item>
-      <title>[45] Meridian: New single-family townhome being built in the Poima subdivision — 3957 E DITMARS DR</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>MULTIFAMILY | River valley framing llc | 170,139</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0937</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: NEW 1684 SQ FT TOWNHOME WITH 481 SQ FT ATTACHED GARAGE — 5684 W LOST RAPIDS LN</title>
+      <title>[45] Meridian: NEW 1684 SQ FT TOWNHOME WITH 481 SQ FT ATTACHED GARAGE — 5668 W LOST RAPIDS LN</title>
       <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
       <description>MULTIFAMILY | HUBBLE HOMES | 177,031</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0917</guid>
-    </item>
-    <item>
-      <title>[45] Meridian: NEW 1654 SQ FT TOWNHOME WITH 477 SQ FT ATTACHED GARAGE — 5680 W LOST RAPIDS LN</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>MULTIFAMILY | HUBBLE HOMES | 174,060</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0918</guid>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0920</guid>
     </item>
     <item>
       <title>[45] Meridian: NEW 1640 SQ FT TOWNHOME WITH 477 SQ FT ATTACHED GARAGE — 5676 W LOST RAPIDS LN</title>
@@ -356,10 +350,16 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0919</guid>
     </item>
     <item>
-      <title>[45] Meridian: NEW 1684 SQ FT TOWNHOME WITH 481 SQ FT ATTACHED GARAGE — 5668 W LOST RAPIDS LN</title>
+      <title>[45] Meridian: NEW 1654 SQ FT TOWNHOME WITH 477 SQ FT ATTACHED GARAGE — 5680 W LOST RAPIDS LN</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 174,060</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0918</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1684 SQ FT TOWNHOME WITH 481 SQ FT ATTACHED GARAGE — 5684 W LOST RAPIDS LN</title>
       <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
       <description>MULTIFAMILY | HUBBLE HOMES | 177,031</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0920</guid>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0917</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>

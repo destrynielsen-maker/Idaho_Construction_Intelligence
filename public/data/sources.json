@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:25:03+00:00",
+  "generated_at": "2026-11-26T09:53:26+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -47,7 +47,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "HTTPError: 500 Server Error: Internal Server Error for url: https://building.cdaid.org/Reports/IssuedPermits"
+      "note": "RuntimeError: Official date-range issued-permit endpoint returned HTTP 500 for 2026-10-13 through 2026-11-26; no report parsed"
     },
     {
       "source": "Kootenai County",
@@ -103,8 +103,8 @@
       "market": "Coeur d'Alene",
       "grade": "A+",
       "mode": "automated-pdf",
-      "url": "https://building.cdaid.org/Reports/IssuedPermitsLastWeek",
-      "use": "Direct weekly issued permits"
+      "url": "https://building.cdaid.org/Reports/IssuedPermits",
+      "use": "City 45-day issued permit report; form submission returns a PDF"
     },
     {
       "market": "Kootenai County",
