@@ -1,6 +1,8 @@
 from __future__ import annotations
 import re
+from calendar import monthrange
 from datetime import date,datetime
+from urllib.parse import urlparse
 import requests
 from .base import CollectorResult
 from .common import discover_links,get,pdf_text
@@ -24,71 +26,105 @@ class LatestPermitReportCollector:
         return CollectorResult(self.name,url,parse_generic(text,self.name,url),f'Latest discovered report: {label}')
 
 class MeridianDirectCollector:
-    """Collect Meridian's public weekly construction reports.
-
-    Meridian's HTML report landing page is protected by Cloudflare and returns HTTP 403 to
-    GitHub-hosted Actions runners. The report PDFs themselves remain public. Try normal
-    discovery first, then fall back to direct City-hosted weekly report assets. The fallback
-    note includes an explicit age check so a stale direct-report set cannot look silently current.
-    """
+    """City-published issued-construction reports with content-based freshness."""
     name='Meridian'
-    landing_url='https://data.meridiancity.org/community-development/building/construction-reports/'
-    include=('Week 1','Week 2','Week 3','Week 4','Full Report','Summary Report')
+    landing_url='https://about.meridiancity.org/community-development/building/construction-reports/'
+    include=('Week 1','Week 2','Week 3','Week 4','Week 5','Full Report')
     seed_freshness_days=14
     seed_reports=(
-        ('2026-08-10 through 2026-08-16','https://data.meridiancity.org/media/0jycsh0b/weekly-reports-8102026-8162026.pdf'),
-        ('2026-08-17 through 2026-08-23','https://data.meridiancity.org/media/uhklc3xc/weekly-reports-8172026-8232026.pdf'),
-        ('2026-08-24 through 2026-08-30','https://data.meridiancity.org/media/ln5hcyb5/weekly-reports-8242026-8302026.pdf'),
-        ('2026-08-31 through 2026-09-06','https://data.meridiancity.org/media/gx5ghq1k/weekly-report-8-31-thru-9-6.pdf'),
+        ('2026-11-16 through 2026-11-22','https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf'),
+        ('2026-11-09 through 2026-11-15','https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf'),
+        ('2026-11-02 through 2026-11-08','https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf'),
+        ('October 2026 detailed monthly','https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf'),
     )
 
     @staticmethod
     def _report_end(label):
         dates=re.findall(r'\b20\d{2}-\d{2}-\d{2}\b',label or '')
-        if not dates: return None
-        try: return datetime.strptime(dates[-1],'%Y-%m-%d').date()
-        except ValueError: return None
+        if not dates:return None
+        try:return date.fromisoformat(dates[-1])
+        except ValueError:return None
+
+    @staticmethod
+    def _asset_url(url):
+        parsed=urlparse(url)
+        return (parsed.scheme=='https' and parsed.netloc in {'about.meridiancity.org','data.meridiancity.org'}
+                and parsed.path.startswith('/media/') and parsed.path.lower().endswith('.pdf'))
+
+    @staticmethod
+    def _period_end(text,label,url):
+        # Some weekly downloads are misleadingly titled "FOR THE MONTH" internally.
+        # Preserve the City's linked weekly interval (filename/explicit seed label),
+        # but validate actual freshness against labeled Issued values parsed from the body.
+        seed_end=MeridianDirectCollector._report_end(label)
+        if seed_end:return seed_end
+        filename=urlparse(url).path.rsplit('/',1)[-1]
+        matches=re.findall(r'(?<!\d)\d{6,8}(?!\d)',filename)
+        if 'week' in filename.lower() and len(matches)>=2:
+            try:return datetime.strptime(matches[-1],'%m%d%Y').date()
+            except ValueError:pass
+        if re.search(r'BUILDING PERMITS FOR THE MONTH',text,re.I):
+            month=re.search(r'^\s*([A-Z]{3})\s+(20\d{2})\s*$',text[:1500],re.I|re.M)
+            if month:
+                try:
+                    start=datetime.strptime(' '.join(month.groups()),'%b %Y').date()
+                    return start.replace(day=monthrange(start.year,start.month)[1])
+                except ValueError:pass
+        return None
 
     def collect(self):
-        candidates=[]
         discovery_note=''
         try:
             links=discover_links(self.landing_url,self.include)
-            candidates=[(a,u) for a,u in links if '.pdf' in u.lower()]
+            candidates=[(a,u) for a,u in links if self._asset_url(u)
+                        and re.fullmatch(r'Week [1-5]|Full Report',a.strip(),re.I)]
         except requests.RequestException as exc:
-            discovery_note=f'Landing-page discovery unavailable ({type(exc).__name__}); '
-
-        merged=[]; seen=set()
+            candidates=[]
+            discovery_note=f'City index unavailable ({type(exc).__name__}); '
+        fetched=[]; failures=[]; seen=set()
         for label,url in [*candidates,*self.seed_reports]:
-            if url not in seen:
-                seen.add(url); merged.append((label,url))
-
-        permits=[]; fetched=[]; failures=[]
-        for label,url in merged:
+            if url in seen:continue
+            seen.add(url)
+            if len(seen)>9:break
             try:
                 response=get(url,referer=self.landing_url)
-                ctype=response.headers.get('content-type','').lower()
-                if 'pdf' not in ctype and not response.content.startswith(b'%PDF'):
-                    failures.append(f'{label}: not PDF')
-                    continue
-                parsed=parse_meridian(pdf_text(response.content),self.name,url)
-                permits.extend(parsed); fetched.append(f'{label} ({len(parsed)} parsed)')
+                if not self._asset_url(response.url) or not response.content.startswith(b'%PDF'):
+                    raise ValueError('not an official permit PDF')
+                text=pdf_text(response.content)
+                if not re.search(r'BUILDING PERMITS FOR THE (WEEK|MONTH)',text[:1500],re.I) or 'CITYOFMERIDIAN' not in re.sub(r'\s+','',text[:1500]).upper():
+                    raise ValueError('unrecognized City construction report')
+                period_end=self._period_end(text,label,url)
+                dates=[]
+                for token in re.findall(r'(?im)^\s*Issued:\s*(\d{1,2}/\d{1,2}/20\d{2})\b',text):
+                    try:dates.append(datetime.strptime(token,'%m/%d/%Y').date())
+                    except ValueError:pass
+                if not dates or max(dates)>date.today() or period_end and max(dates)>period_end:
+                    raise ValueError('missing, future or conflicting issue dates')
+                rows=parse_meridian(text,self.name,url)
+                fetched.append((max(dates),period_end,label,url,rows))
             except Exception as exc:
                 failures.append(f'{label}: {type(exc).__name__}')
 
-        unique={p.key:p for p in permits}
-        note=discovery_note + ('Direct/discovered reports: ' + '; '.join(fetched) if fetched else 'No report assets fetched')
-        if not candidates:
-            ends=[self._report_end(label) for label,_ in self.seed_reports]
-            ends=[x for x in ends if x]
-            if ends:
-                newest=max(ends); age=(date.today()-newest).days
-                note += f'. Direct fallback newest report ends {newest.isoformat()} ({age} days old)'
-                if age > self.seed_freshness_days:
-                    note += f' WARNING: fallback report set is older than {self.seed_freshness_days} days and should be refreshed'
-        if failures: note += '. Failures: ' + '; '.join(failures[:4])
-        source_url=merged[-1][1] if merged else self.landing_url
-        return CollectorResult(self.name,source_url,list(unique.values()),note)
+        if not fetched:
+            raise RuntimeError(f'{discovery_note}No validated City PDF assets; {", ".join(failures[:4])}')
+        # Later issued coverage wins an overlap. Prefer the official weekly record when otherwise equal.
+        fetched.sort(key=lambda f:(f[0],f[1] or date.min,bool(re.search(r'week',f[2]+' '+f[3],re.I)),f[3]),reverse=True)
+        newest,period_end,_,source_url,_=fetched[0]
+        unique={}
+        for _,_,_,_,rows in fetched:
+            for p in rows:
+                previous=unique.get(p.key)
+                if previous is None or p.issued_date>previous.issued_date:
+                    unique[p.key]=p
+        age=(date.today()-newest).days
+        status='stale' if age>self.seed_freshness_days else 'degraded' if discovery_note or failures or not candidates else 'ok'
+        note=(discovery_note+f'{len(fetched)} verified City report(s); {len(unique)} unique new-construction candidates. '
+              f'Latest labeled issue date {newest.isoformat()} ({age} days old); '
+              f'report period end {(period_end.isoformat() if period_end else "unverified")}.')
+        if status=='stale':note+=f' WARNING: latest verified issue date is older than {self.seed_freshness_days} days.'
+        if failures:note+=' Unavailable/invalid assets: '+', '.join(failures[:4])+'.'
+        return CollectorResult(self.name,source_url,list(unique.values()),note,status=status,
+                               latest_issued_date=newest.isoformat(),report_period_end=period_end.isoformat() if period_end else None)
 
 def parse_meridian(text,jurisdiction,url):
     """Parse Meridian's tokenized PDF extraction by permit block.
@@ -137,7 +173,6 @@ def parse_meridian(text,jurisdiction,url):
                 end=j
                 break
         block=lines[i:end]
-        block_text=' | '.join(block)
         subtype_lower=(subtype or '').lower()
         if 'new' not in subtype_lower and 'shell' not in subtype_lower:
             continue
@@ -164,6 +199,9 @@ def parse_meridian(text,jurisdiction,url):
             except ValueError: valuation=None
 
         contractor=after('Contractor:') or None
+        if contractor and (re.search(r'^property owner|^(?:to be determined|tbd|unknown|none|owner.builder|homeowner)$',contractor,re.I)
+                           or contractor.endswith(':')):
+            contractor=None
 
         project_parts=[]
         for pos,value in enumerate(block):
@@ -200,7 +238,7 @@ def parse_meridian(text,jurisdiction,url):
             permit_type=permit_type,address=address,source_name=f'{jurisdiction} permit report',
             source_url=url,project_name=project,building_use=project,units=units,
             valuation=valuation,contractor=contractor,
-            raw={'section':f'{category} {subtype}'.strip(),'context':block_text},
+            raw={'section':f'{category} {subtype}'.strip(),'contractor_role':'City report Contractor field; GC unverified' if contractor else None},
         ))
     return out
 

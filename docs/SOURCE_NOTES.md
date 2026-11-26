@@ -16,3 +16,11 @@ Keep: new single-family, duplex/fourplex/townhome, multifamily/apartments, comme
 Suppress: reroof, HVAC/mechanical replacement, plumbing/electrical, solar, signs, fences, pools, windows/doors, small remodels and tenant improvements.
 
 The stable key is `ID:JURISDICTION:PERMIT_NUMBER`.
+
+### Meridian-only validation lane
+
+Meridian source discovery uses the City construction report index and attributable
+City-hosted PDFs. The newest labeled issue date (not the run date) drives freshness;
+weekly and monthly overlaps are deduplicated. Contractor is the City's field, not
+independent GC verification. This lane deliberately does not change Eagle, Nampa,
+Coeur d'Alene or the collect/publish workflow.

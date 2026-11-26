@@ -6,3 +6,6 @@ class CollectorResult:
     source_url: str
     permits: list[Permit]
     note: str=''
+    status: str='ok'
+    latest_issued_date: str | None=None
+    report_period_end: str | None=None
