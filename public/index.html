@@ -18,7 +18,7 @@
     .card .label { color: #667085; font-size: 13px; }
     .card .value { font-size: 25px; font-weight: 700; margin-top: 6px; }
     .panel { padding: 16px; margin-bottom: 16px; }
-    .filters { display: grid; grid-template-columns: 1.3fr repeat(4, minmax(130px, .7fr)); gap: 10px; }
+    .filters { display: grid; grid-template-columns: 1.3fr repeat(5, minmax(0, .7fr)); gap: 10px; }
     input, select { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; }
     .feeds { display: flex; flex-wrap: wrap; gap: 8px; }
     .feeds a { text-decoration: none; border: 1px solid #cfd6e2; border-radius: 999px; padding: 7px 11px; color: #172033; background: white; }
@@ -43,6 +43,21 @@
     a { color: #175cd3; }
     @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
     @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
+    .filters > * { min-width: 0; width: 100%; }
+    .report-pager { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:8px 0; }
+    .report-pager button, #export { min-height:44px; padding:6px 12px; }
+    .report-sort { display:none; }
+    #permit-results td, #shared-reporting-status { overflow-wrap:anywhere; }
+    @media(max-width: 560px) {
+      .report-sort { display:flex; gap:8px; align-items:center; margin:8px 0; }
+      #permit-results { min-width:0; width:100%; }
+      #permit-results thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+      #permit-results tbody, #permit-results tr { display:block; }
+      #permit-results tr { border:1px solid var(--line,#334155); border-radius:8px; padding:4px 8px; margin:8px 0; }
+      #permit-results td { display:grid; grid-template-columns:minmax(85px,36%) minmax(0,1fr); align-items:start; gap:8px; white-space:normal; border:0; padding:5px 0; }
+      #permit-results td::before { content:attr(data-label); font-weight:600; }
+      #permit-results td > span { min-width:0; }
+    }
   </style>
 </head>
 <body>
@@ -79,6 +94,7 @@
   </section>
 
   <section class="panel">
+    <section id="shared-reporting-status" aria-live="polite"></section>
     <p class="muted">Published under existing qualification; inclusion does not prove a project is active or available to buy. Date window uses the legacy listing date. Use Date evidence to separate actual issuance, applications, planning and unverified records.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
       <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
@@ -94,8 +110,10 @@
       <div><strong>Construction opportunities</strong><div class="muted" id="updated"></div></div>
       <div><div class="muted" id="count" aria-live="polite"></div><button id="export" type="button">Export matching CSV</button></div>
     </div>
+    <label class="report-sort">Sort <select id="mobileSort"><option value="score">Score</option><option value="issued_date">Source date</option><option value="classification">Type</option><option value="jurisdiction">Jurisdiction</option><option value="project">Project / Address</option><option value="contractor">Contractor</option><option value="units">Units</option><option value="valuation">Valuation</option><option value="permit_number">Permit</option></select><button id="mobileDirection" type="button">Descending</button></label>
+    <nav class="report-pager" aria-label="Results pages"><button id="prevPage" type="button">Previous</button><span id="pageSummary" aria-live="polite"></span><button id="nextPage" type="button">Next</button></nav>
     <div class="table-wrap">
-      <table>
+      <table id="permit-results" role="table">
         <thead><tr>
           <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
           <th class="sortable" data-sort="issued_date">Source date<span class="sort-arrow"></span></th>
@@ -135,7 +153,8 @@ let permits=[];
 let generatedAt='';
 let sortKey='score';
 let sortDirection='desc';
-let matchingRows=[];
+let matchingRows=[], resultPage=0;
+const PAGE_SIZE=100;
 const MT='America/Boise';
 function mt(s){return s?new Date(s).toLocaleString('en-US',{timeZone:MT})+' MT':'Unknown'}
 function evidence(p){
@@ -152,6 +171,9 @@ function evidence(p){
   }
   return ["Coeur d'Alene Issued Permits",'Kootenai County weekly building permit report','City of Post Falls Building Permits GIS','Meridian permit report'].includes(src)?'issued':'unverified';
 }
+function evidenceDate(p, kind){
+  return evidence(p)===kind ? (p.issued_date||'') : '';
+}
 function contractorEvidence(p){
   const label=(p.raw||{}).contractor_role||'';
   if(!p.contractor)return 'Not reported';
@@ -163,8 +185,8 @@ function contractorEvidence(p){
 }
 function csvCell(v){let x=String(v??'');if(/^\s*[=+\-@]/.test(x)||/^[\t\r]/.test(x))x="'"+x;return '"'+x.replaceAll('"','""')+'"'}
 function csvText(rows){
-  return [['key','issuer','permit_number','source_date','date_evidence','observed_stage','reported_contractor','contractor_evidence','classification','score','source_url'],
-    ...rows.map(p=>[p.key,p.jurisdiction,p.permit_number,p.issued_date,evidence(p),p.stage,p.contractor,contractorEvidence(p),p.classification,p.score,p.source_url])]
+  return [['key','issuer','permit_number','source_date','date_evidence','verified_issue_date','application_received_date','observed_stage','reported_contractor','contractor_evidence','classification','score','source_url'],
+    ...rows.map(p=>[p.key,p.jurisdiction,p.permit_number,p.issued_date,evidence(p),evidenceDate(p,'issued'),evidenceDate(p,'application received'),p.stage,p.contractor,contractorEvidence(p),p.classification,p.score,p.source_url])]
    .map(r=>r.map(csvCell).join(',')).join('\r\n')+'\r\n';
 }
 function downloadCsv(){
@@ -224,18 +246,27 @@ function render(){
   }).sort(compareRows);
   updateSortHeaders();
   matchingRows=rows;
+  document.querySelector('#mobileSort').value=sortKey;
+  document.querySelector('#mobileDirection').textContent=sortDirection==='desc'?'Descending':'Ascending';
+  const pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));
+  resultPage=Math.min(Math.max(0,resultPage),pages-1);
+  const lo=resultPage*PAGE_SIZE, hi=Math.min(lo+PAGE_SIZE,rows.length);
   document.querySelector('#export').disabled=!rows.length;
-  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching records · showing ${Math.min(rows.length,1000).toLocaleString()} · CSV includes all matches`;
-  document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
-    <td class="score"><strong>${p.score}</strong></td>
-    <td class="date">${esc(p.issued_date)}<br><span class="muted">${esc(evidence(p))}</span></td>
-    <td><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
-    <td>${esc(p.jurisdiction)}</td>
-    <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
-    <td>${esc(p.contractor||'—')}<br><span class="muted">${esc(contractorEvidence(p))}</span></td>
-    <td class="units">${p.units ?? '—'}</td>
-    <td class="money">${money(p.valuation)}</td>
-    <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></td>
+  document.querySelector('#prevPage').disabled=resultPage===0;
+  document.querySelector('#nextPage').disabled=resultPage>=pages-1;
+  document.querySelector('#pageSummary').textContent=rows.length?`Page ${resultPage+1} of ${pages}`:'No pages';
+  const range=rows.length?`${(lo+1).toLocaleString()}–${hi.toLocaleString()}`:'0';
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching records · showing ${range} · CSV includes all matches`;
+  document.querySelector('#rows').innerHTML=rows.slice(lo,hi).map(p=>`<tr>
+    <td class="score" data-label="Score"><span><strong>${p.score}</strong></span></td>
+    <td class="date" data-label="Source date"><span>${esc(p.issued_date)}<br><span class="muted">${esc(evidence(p))}</span></span></td>
+    <td data-label="Type"><span><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></span></td>
+    <td data-label="Jurisdiction"><span>${esc(p.jurisdiction)}</span></td>
+    <td data-label="Project / address"><span>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</span></td>
+    <td data-label="Contractor"><span>${esc(p.contractor||'—')}<br><span class="muted">${esc(contractorEvidence(p))}</span></span></td>
+    <td class="units" data-label="Units"><span>${p.units ?? '—'}</span></td>
+    <td class="money" data-label="Valuation"><span>${money(p.valuation)}</span></td>
+    <td data-label="Permit"><span><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></span></td>
   </tr>`).join('');
 }
 async function boot(){
@@ -248,14 +279,18 @@ async function boot(){
   document.querySelector('#valuation').textContent=money(permits.reduce((s,p)=>s+(p.valuation||0),0));
   document.querySelector('#updated').textContent=generatedAt ? `Published snapshot ${mt(generatedAt)}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
-  ['search','classification','jurisdiction','days','minScore','evidence'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  ['search','classification','jurisdiction','days','minScore','evidence'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',()=>{resultPage=0;render()}));
   document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{
     const next=th.dataset.sort;
     if(sortKey===next) sortDirection=sortDirection==='asc'?'desc':'asc';
     else { sortKey=next; sortDirection=(next==='score'||next==='issued_date'||next==='units'||next==='valuation')?'desc':'asc'; }
-    render();
+    resultPage=0;render();
   }));
   document.querySelector('#export').addEventListener('click',downloadCsv);
+  document.querySelector('#prevPage').addEventListener('click',()=>{resultPage--;render()});
+  document.querySelector('#nextPage').addEventListener('click',()=>{resultPage++;render()});
+  document.querySelector('#mobileSort').addEventListener('change',e=>{sortKey=e.target.value;sortDirection=['score','issued_date','units','valuation'].includes(sortKey)?'desc':'asc';resultPage=0;render()});
+  document.querySelector('#mobileDirection').addEventListener('click',()=>{sortDirection=sortDirection==='asc'?'desc':'asc';resultPage=0;render()});
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
@@ -274,6 +309,57 @@ async function boot(){
   }
 }
 boot();
+</script>
+<script>
+/* Source reporting extension. No writes or lead/default/filter changes. */
+(() => {
+  'use strict';
+  const mount=document.getElementById('shared-reporting-status');
+  if(!mount)return;
+  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e};
+  const val=x=>(x===null||x===undefined||x==='')?'Unknown':String(x);
+  const title=(x)=>val(x).replaceAll('_',' ');
+  const count=x=>Number.isInteger(x)&&x>=0?x.toLocaleString('en-US'):'Unknown';
+  const mtime=x=>{
+    if(!x)return 'Unknown';
+    const d=new Date(x);return Number.isFinite(d.getTime())?
+      d.toLocaleString('en-US',{timeZone:'America/Boise'})+' MT':'Unknown';
+  };
+  const validDate=/^\d{4}-\d{2}-\d{2}$/;
+  function show(payload){
+    if(payload?.schema_version!==1||!Array.isArray(payload.sources)||payload.sources.length===0)throw Error('No comparable evidence manifest');
+    mount.replaceChildren();
+    mount.append(make('h2','Collection evidence by source'));
+    mount.append(make('p','An attempt, a successful collection and the latest source date are different. Stored history is not an active opportunity count. Unknown does not mean zero.'));
+    const style=make('style',`#shared-reporting-status .source-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.7rem}#shared-reporting-status .source-evidence-card{padding:.8rem;border:1px solid #bccbd2;border-radius:.55rem;min-width:0;overflow-wrap:anywhere}#shared-reporting-status .source-evidence-card h3{line-height:1.25;margin:.12em 0 .4em;font-size:1.03rem}#shared-reporting-status .source-evidence-card dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.35rem .5rem;margin:.5rem 0 0;font-size:.88rem}#shared-reporting-status .source-evidence-card dd{margin:0}#shared-reporting-status .source-evidence-card dt{font-weight:600}#shared-reporting-status .source-evidence-card p{margin:.3rem 0;font-size:.9rem}`);
+    mount.append(style);
+    const cards=make('div',undefined,'source-evidence-grid');
+    for(const row of payload.sources){
+      const card=make('article',undefined,'source-evidence-card');
+      const head=make('h3',val(row.label));const coverage=make('p',title(row.mode)+' · '+val(row.coverage));
+      const pairs=make('dl');
+      const date=typeof row.latest_authoritative_date==='string'&&validDate.test(row.latest_authoritative_date)?row.latest_authoritative_date:'Unknown';
+      const label=date==='Unknown'?'Unknown':date+' · '+title(row.latest_date_kind);
+      const stats=[
+        ['Last attempt',mtime(row.last_attempt_at)],['Last success',mtime(row.last_success_at)],
+        ['Latest source evidence',label],['Age at snapshot',row.source_age_days==null?'Unknown':count(row.source_age_days)+' days'],
+        ['New since prior success',count(row.new_since_previous_success)],['Stored history',count(row.retained_records)],
+        ['Observed this attempt',count(row.observed_records)],['Availability',title(row.availability)],
+        ['Collection outcome',title(row.collection_outcome)],
+      ];
+      if(row.date_provenance)stats.push(['Date provenance',title(row.date_provenance)]);
+      if(row.freshness_status)stats.push(['Freshness',title(row.freshness_status)]);
+      for(const [key,value] of stats)pairs.append(make('dt',key),make('dd',value));
+      card.append(head,coverage,pairs);cards.append(card);
+    }
+    mount.append(cards);
+  }
+  mount.hidden=false;
+  fetch('data/sources.json?reporting_v1='+Date.now(),{cache:'no-store'})
+    .then(r=>{if(!r.ok)throw Error('Source metadata unavailable');return r.json()})
+    .then(p=>show(p.reporting_v1))
+    .catch(()=>{mount.replaceChildren(make('h2','Collection evidence by source'),make('p','Comparable collection evidence is unavailable for this snapshot. Do not treat missing evidence as zero permits.'))});
+})();
 </script>
 </body>
 </html>

@@ -8,21 +8,25 @@ jobs:
   test:
     if: github.event_name == 'push' && github.ref == 'refs/heads/scout/qa-idaho-reporting-11e21db'
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: 32ad697c9ba158065986644888c346b937623b32
+          ref: 534130ddad2a8a6c28ec57786208fab4c39428d9
           fetch-depth: 0
           persist-credentials: false
-      - name: Verify exact tree, limited paths, and unchanged production snapshot
+      - name: Verify exact tree, limited paths and unchanged production snapshots
         run: |
-          test "$(git rev-parse HEAD)" = '32ad697c9ba158065986644888c346b937623b32'
-          test "$(git rev-parse HEAD^{tree})" = '2d629a9e9f866c109a90662b7ab8bf849e2b4aaf'
-          git diff --quiet 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD -- data public/data public/feeds src .github
-          printf 'public/index.html\nscripts/test-reporting.cjs\n' > /tmp/scout-expected-paths
+          test "$(git rev-parse HEAD)" = '534130ddad2a8a6c28ec57786208fab4c39428d9'
+          test "$(git rev-parse HEAD^{tree})" = '940d9ac4b5f96b9616213421aacbb2e1e352d4a0'
+          git diff --quiet 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD -- data public/data public/feeds .github src/idaho_permits/collectors src/idaho_permits/classify.py src/idaho_permits/feeds.py
+          printf '%s\n' public/index.html scripts/test-reporting.cjs src/idaho_permits/dashboard.py src/idaho_permits/pipeline.py src/idaho_permits/reporting.py tests/test_reporting.py > /tmp/scout-expected-paths
           git diff --name-only 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD | diff -u /tmp/scout-expected-paths -
-      - name: Test unchanged default and additive reporting
+      - name: Verify dashboard counts and exports
         env:
           TZ: UTC
         run: node scripts/test-reporting.cjs
+      - name: Replay collector and status tests locally on hosted runner
+        run: |
+          python -m pip install -r requirements.txt
+          PYTHONPATH=src python -m unittest discover -s tests
