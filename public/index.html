@@ -79,8 +79,9 @@
   </section>
 
   <section class="panel">
-    <div class="filters">
+    <p class="muted">Published under existing qualification; inclusion does not prove a project is active or available to buy. Date window uses the legacy listing date. Use Date evidence to separate actual issuance, applications, planning and unverified records.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
+      <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
       <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
       <select id="jurisdiction"><option value="">All jurisdictions</option></select>
       <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
@@ -91,17 +92,17 @@
   <section class="panel">
     <div style="display:flex;justify-content:space-between;gap:16px;align-items:end;flex-wrap:wrap;margin-bottom:8px">
       <div><strong>Construction opportunities</strong><div class="muted" id="updated"></div></div>
-      <div class="muted" id="count"></div>
+      <div><div class="muted" id="count" aria-live="polite"></div><button id="export" type="button">Export matching CSV</button></div>
     </div>
     <div class="table-wrap">
       <table>
         <thead><tr>
           <th class="sortable active" data-sort="score">Score<span class="sort-arrow">▼</span></th>
-          <th class="sortable" data-sort="issued_date">Issued<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="issued_date">Source date<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="classification">Type<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="jurisdiction">Jurisdiction<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="project">Project / Address<span class="sort-arrow"></span></th>
-          <th class="sortable" data-sort="contractor">Builder / GC<span class="sort-arrow"></span></th>
+          <th class="sortable" data-sort="contractor">Reported contractor / role<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="units">Units<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="valuation">Valuation<span class="sort-arrow"></span></th>
           <th class="sortable" data-sort="permit_number">Permit<span class="sort-arrow"></span></th>
@@ -134,6 +135,47 @@ let permits=[];
 let generatedAt='';
 let sortKey='score';
 let sortDirection='desc';
+let matchingRows=[];
+const MT='America/Boise';
+function mt(s){return s?new Date(s).toLocaleString('en-US',{timeZone:MT})+' MT':'Unknown'}
+function evidence(p){
+  const raw=p.raw||{}, d=p.issued_date||'', src=p.source_name||'';
+  const iso=/^\d{4}-\d{2}-\d{2}$/.test(d)&&Number.isFinite(dateValue(d))&&new Date(dateValue(d)).toISOString().slice(0,10)===d&&(!generatedAt||d<=generatedAt.slice(0,10));
+  if(!iso)return 'unverified';
+  if(src==='Boise Development Tracker'||src==='COMPASS Development Review')return 'planning';
+  if(src==='Canyon County DSD Building Permit Tracker')return 'application received';
+  if(src==='Eagle iWorQ Permit Portal')return raw.issue_date_verified===true?'issued':'unverified';
+  if(src==='City of Boise Accela Citizen Access')return raw.source_issue_date_authoritative===true?'issued':'unverified';
+  if(src==='Nampa weekly permit activity report'){
+    const dates=[...(raw.context||'').matchAll(/Issue Date:\s*(\d{1,2}\/\d{1,2}\/20\d{2})/gi)];
+    return dates.length===1&&dateValue(dates[0][1])===dateValue(d)?'issued':'unverified';
+  }
+  return ["Coeur d'Alene Issued Permits",'Kootenai County weekly building permit report','City of Post Falls Building Permits GIS','Meridian permit report'].includes(src)?'issued':'unverified';
+}
+function contractorEvidence(p){
+  const label=(p.raw||{}).contractor_role||'';
+  if(!p.contractor)return 'Not reported';
+  if(['registered building contractor','general contractor','builder','Registered Building Contractor / Associated Company','City report Contractor field; GC unverified'].includes(label))return 'Source-labeled: '+label;
+  if(p.source_name==='Canyon County DSD Building Permit Tracker')return 'Application-reported contractor; not verified GC';
+  if(p.source_name==="Coeur d'Alene Issued Permits")return 'City report Contractor field; GC unverified';
+  if(p.source_name==='City of Boise Accela Citizen Access')return 'Listed licensed professional; role unverified';
+  return 'Legacy attribution unverified';
+}
+function csvCell(v){let x=String(v??'');if(/^\s*[=+\-@]/.test(x)||/^[\t\r]/.test(x))x="'"+x;return '"'+x.replaceAll('"','""')+'"'}
+function csvText(rows){
+  return [['key','issuer','permit_number','source_date','date_evidence','observed_stage','reported_contractor','contractor_evidence','classification','score','source_url'],
+    ...rows.map(p=>[p.key,p.jurisdiction,p.permit_number,p.issued_date,evidence(p),p.stage,p.contractor,contractorEvidence(p),p.classification,p.score,p.source_url])]
+   .map(r=>r.map(csvCell).join(',')).join('\r\n')+'\r\n';
+}
+function downloadCsv(){
+  const u=URL.createObjectURL(new Blob([csvText(matchingRows)],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=u;a.download='idaho-construction-matching.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
+}
+function collectionLabel(s){
+  const status=(s.status||'UNKNOWN').toLowerCase();
+  if(['error','failed','unavailable'].includes(status))return 'No successful observation in this run; retained data may still be shown.';
+  return `${Number(s.records_seen||0).toLocaleString()} records observed · ${Number(s.qualifying_records||0).toLocaleString()} qualifying in run`;
+}
 
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
 function dateValue(value){
@@ -174,21 +216,23 @@ function render(){
   const jur=document.querySelector('#jurisdiction').value;
   const days=Number(document.querySelector('#days').value);
   const score=Number(document.querySelector('#minScore').value);
-  const cutoff=dateCutoff(days);
+  const cutoff=dateCutoff(days), dateKind=document.querySelector('#evidence').value;
   const rows=permits.filter(p => {
     const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
     const issuedIso=new Date(dateValue(p.issued_date)).toISOString().slice(0,10);
-    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
+    return (!dateKind || evidence(p)===dateKind) && (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
   }).sort(compareRows);
   updateSortHeaders();
-  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
+  matchingRows=rows;
+  document.querySelector('#export').disabled=!rows.length;
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching records · showing ${Math.min(rows.length,1000).toLocaleString()} · CSV includes all matches`;
   document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
     <td class="score"><strong>${p.score}</strong></td>
-    <td class="date">${esc(p.issued_date)}</td>
+    <td class="date">${esc(p.issued_date)}<br><span class="muted">${esc(evidence(p))}</span></td>
     <td><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
     <td>${esc(p.jurisdiction)}</td>
     <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
-    <td>${esc(p.contractor||'—')}</td>
+    <td>${esc(p.contractor||'—')}<br><span class="muted">${esc(contractorEvidence(p))}</span></td>
     <td class="units">${p.units ?? '—'}</td>
     <td class="money">${money(p.valuation)}</td>
     <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence||'')}</span></td>
@@ -202,15 +246,16 @@ async function boot(){
   document.querySelector('#multi').textContent=permits.filter(p=>p.classification==='MULTIFAMILY').length.toLocaleString();
   document.querySelector('#commercial').textContent=permits.filter(p=>p.classification==='COMMERCIAL').length.toLocaleString();
   document.querySelector('#valuation').textContent=money(permits.reduce((s,p)=>s+(p.valuation||0),0));
-  document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
+  document.querySelector('#updated').textContent=generatedAt ? `Published snapshot ${mt(generatedAt)}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
-  ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  ['search','classification','jurisdiction','days','minScore','evidence'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
   document.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>{
     const next=th.dataset.sort;
     if(sortKey===next) sortDirection=sortDirection==='asc'?'desc':'asc';
     else { sortKey=next; sortDirection=(next==='score'||next==='issued_date'||next==='units'||next==='valuation')?'desc':'asc'; }
     render();
   }));
+  document.querySelector('#export').addEventListener('click',downloadCsv);
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
@@ -218,9 +263,9 @@ async function boot(){
     const healthy=sources.filter(s=>s.status==='ok').length;
     const issues=sources.length-healthy;
     document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} automated collectors${issues?` — ${issues} need attention`:''}`;
-    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Checked ${new Date(status.generated_at).toLocaleString()}` : '';
-    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${Number(s.records_seen||0).toLocaleString()} records seen · ${Number(s.qualifying_records||0).toLocaleString()} qualifying<br>${esc(s.note||'')}</div></div>`).join('');
-    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${Number(s.records_seen||0).toLocaleString()} records seen; ${Number(s.qualifying_records||0).toLocaleString()} qualifying. ${esc(s.note||'')}</span></div>`).join('');
+    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Latest attempt snapshot ${mt(status.generated_at)} · not the source data date` : '';
+    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${esc(collectionLabel(s))}<br>${esc(s.note||'')}</div></div>`).join('');
+    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${esc(collectionLabel(s))} ${esc(s.note||'')}</span></div>`).join('');
     const directory=status.directory||[];
     document.querySelector('#directory').innerHTML=directory.map(x=>`<tr><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.market)}</a></td><td>${esc(x.grade)}</td><td><span class="badge">${esc(x.mode)}</span></td><td>${esc(x.use)}</td></tr>`).join('');
   } catch(e) {
