@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:53:26+00:00",
+  "generated_at": "2026-11-26T12:25:44+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -43,11 +43,11 @@
     },
     {
       "source": "Coeur d'Alene",
-      "status": "error",
-      "records_seen": 0,
-      "qualifying_records": 0,
+      "status": "ok",
+      "records_seen": 69,
+      "qualifying_records": 2,
       "source_url": "https://building.cdaid.org/Reports/IssuedPermits",
-      "note": "RuntimeError: Official date-range issued-permit endpoint returned HTTP 500 for 2026-10-13 through 2026-11-26; no report parsed"
+      "note": "Official City of Coeur d'Alene issued building permits; rolling 45-day report 2026-10-13 through 2026-11-26; 69 primary building permits parsed; newest primary building permit issued 2026-11-25"
     },
     {
       "source": "Kootenai County",
