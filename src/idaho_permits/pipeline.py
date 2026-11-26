@@ -27,7 +27,7 @@ def _site_base_url():
     return 'https://example.invalid/idaho-construction-intelligence/'
 
 def run(root: Path):
-    now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0; observations={}; original_ids=set(existing); previous=prior_status(root/'public'/'data'/'sources.json')
+    now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0; observations={}; original_ids=set(existing) if store.is_file() else None; previous=prior_status(root/'public'/'data'/'sources.json')
     for c in COLLECTORS:
         try:
             r=c.collect()

@@ -31,7 +31,7 @@ class ReportingTests(unittest.TestCase):
         out=reporting_report([dict(source=k,status='ok') for k in obs],obs,[plan,legacy,issued,future,canyon],{plan.key}, {},date)
         indexed={r['id']:r for r in out['sources']}
         self.assertEqual(indexed['boise-issued']['latest_authoritative_date'],'2026-11-19')
-        self.assertEqual(indexed['boise-planning']['new_since_previous_success'],0)
+        self.assertIsNone(indexed['boise-planning']['new_since_previous_success'])
         self.assertIsNone(indexed['boise-planning']['latest_authoritative_date'])
         self.assertIsNone(indexed['eagle']['latest_authoritative_date'])
         self.assertEqual(indexed['canyon-county']['latest_date_kind'],'application')
@@ -44,7 +44,26 @@ class ReportingTests(unittest.TestCase):
         r=reporting_report([dict(source='Eagle',status='ok')],{'Eagle':[observed,observed]},permits,history,{},'2026-11-26T18:59:23Z')['sources'][0]
         self.assertEqual(r['retained_records'],2815)
         self.assertEqual(r['observed_records'],1)
-        self.assertEqual(r['new_since_previous_success'],0)
+        self.assertIsNone(r['new_since_previous_success'])
+
+    def test_partial_keeps_comparable_checkpoint_and_does_not_carry_partial_date(self):
+        report='Meridian'
+        p=permit('22','2026-11-25','Meridian permit report',report)
+        prior={'meridian':dict(last_success_at='2026-11-24T17:00:00Z',
+                               last_successful_authoritative_date='2026-11-24',
+                               comparable_success_baseline=True)}
+        def one(status, obs, before, now):
+            return reporting_report([dict(source=report,status=status)],obs,[p],set(),before,now)['sources'][0]
+        part=one('degraded',{report:[p]},prior,'2026-11-25T17:00:00Z')
+        self.assertEqual((part['availability'],part['observed_records']),('partial',1))
+        self.assertEqual(part['last_success_at'],prior['meridian']['last_success_at'])
+        self.assertEqual(part['date_provenance'],'current_report')
+        self.assertIsNone(part['new_since_previous_success'])
+        self.assertFalse(part['comparable_success_baseline'])
+        failed=one('error',{}, {'meridian':part},'2026-11-26T18:00:00Z')
+        self.assertEqual(failed['latest_authoritative_date'],'2026-11-24')
+        self.assertEqual(failed['date_provenance'],'prior_success')
+        self.assertIsNone(failed['observed_records'])
 
     def test_pipeline_recovery_no_loss_or_duplicate(self):
         a=permit('11111111','2026-11-21',issue_date_verified=True)
@@ -57,7 +76,7 @@ class ReportingTests(unittest.TestCase):
                 rows=json.loads((tmp/'data/permits.json').read_text())['permits']
                 self.assertEqual(len(rows),len({p['key'] for p in rows}))
                 return doc['reporting_v1']['sources'][0],rows
-            r1,s1=collect(Collector([a,a])); self.assertEqual(r1['new_since_previous_success'],1)
+            r1,s1=collect(Collector([a,a])); self.assertIsNone(r1['new_since_previous_success'])
             failure,s2=collect(Collector(failing=True)); self.assertEqual(s1,s2)
             self.assertEqual(failure['last_success_at'],r1['last_success_at'])
             self.assertEqual(failure['retained_records'],1)
