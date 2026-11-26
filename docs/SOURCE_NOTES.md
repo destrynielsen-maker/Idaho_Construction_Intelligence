@@ -24,3 +24,11 @@ City-hosted PDFs. The newest labeled issue date (not the run date) drives freshn
 weekly and monthly overlaps are deduplicated. Contractor is the City's field, not
 independent GC verification. This lane deliberately does not change Eagle, Nampa,
 Coeur d'Alene or the collect/publish workflow.
+
+### Coeur d’Alene outage and recovery
+
+A successful response with a PDF but no verifiable primary permit rows is an
+unconfirmed source result, not an authoritative zero: no empty-report marker
+has been validated. Retain last-good history and first-seen data during outages.
+On recovery, validate all accepted issue dates against the requested window and
+deduplicate by permit key. Recovery is fixture-tested, not live-confirmed.

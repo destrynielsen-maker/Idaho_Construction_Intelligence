@@ -45,7 +45,16 @@ class CoeurDAleneCollector:
             )
 
         permits = parse(pdf_text(response.content), REPORT_URL)
-        newest = max((p.issued_date for p in permits if p.issued_date), default=None)
+        if not permits:
+            # No published empty-report marker has been verified. Layout drift and
+            # a real absence of primary records are indistinguishable here.
+            raise RuntimeError(
+                f'Official PDF for {window} yielded no verifiable primary permits; '
+                'source coverage unconfirmed, not an authoritative zero'
+            )
+        if any(not start <= date.fromisoformat(p.issued_date) <= end for p in permits):
+            raise RuntimeError(f'City PDF contains primary issue dates outside {window}')
+        newest = max(p.issued_date for p in permits)
         note = (
             f'Official City of Coeur d\'Alene issued building permits; rolling {self.window_days}-day report '
             f'{start.isoformat()} through {end.isoformat()}; {len(permits)} primary building permits parsed'

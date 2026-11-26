@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import date
 from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
@@ -21,6 +22,13 @@ def response(status, content, content_type='text/html'):
 
 
 MODULE = 'idaho_permits.collectors.coeur_dalene'
+
+
+class FixedDate(date):
+    @classmethod
+    def today(cls):
+        return cls(2026, 8, 28)
+
 
 
 class TestCdaPublicSource(unittest.TestCase):
@@ -71,7 +79,8 @@ Contractor: EXAMPLE HOMES LLC
 '''
         content = b'%PDF-1.4 fixture; pdf_text mocked'
         with patch(MODULE + '.requests.post', return_value=response(200, content, 'application/octet-stream')), \
-                patch(MODULE + '.pdf_text', return_value=text) as pdf:
+                patch(MODULE + '.pdf_text', return_value=text) as pdf, \
+                patch(MODULE + '.date', FixedDate):
             results = CoeurDAleneCollector().collect()
             pdf.assert_called_once_with(content)
         self.assertEqual(len(results.permits), 1)
