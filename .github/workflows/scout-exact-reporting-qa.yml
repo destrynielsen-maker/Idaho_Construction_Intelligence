@@ -1,0 +1,28 @@
+name: Exact Idaho reporting preview (no deployment)
+on:
+  push:
+    branches: [scout/qa-idaho-reporting-11e21db]
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/scout/qa-idaho-reporting-11e21db'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 32ad697c9ba158065986644888c346b937623b32
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify exact tree, limited paths, and unchanged production snapshot
+        run: |
+          test "$(git rev-parse HEAD)" = '32ad697c9ba158065986644888c346b937623b32'
+          test "$(git rev-parse HEAD^{tree})" = '2d629a9e9f866c109a90662b7ab8bf849e2b4aaf'
+          git diff --quiet 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD -- data public/data public/feeds src .github
+          printf 'public/index.html\nscripts/test-reporting.cjs\n' > /tmp/scout-expected-paths
+          git diff --name-only 11e21dbd7c14a20db232389b47dcbcdf6e8bf33e HEAD | diff -u /tmp/scout-expected-paths -
+      - name: Test unchanged default and additive reporting
+        env:
+          TZ: UTC
+        run: node scripts/test-reporting.cjs
