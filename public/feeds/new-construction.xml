@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 26 Nov 2026 06:41:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:38:39 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -176,6 +176,24 @@
       <guid isPermaLink="false">ID:EAGLE:269461</guid>
     </item>
     <item>
+      <title>[20] Meridian: New Single Family Residential/VP12001038 1470 Viera Lane A — 6323 S APEX AVE</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 157,698</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0927</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential/VP12001037 1470 Viera Lane B — 6327 S APEX AVE</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 158,610</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0928</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: JR 10-03 New SFD New — 1926 W SMOKEY LAKE DR</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | TH CONSTRUCTION LLC | 343,770</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-1003</guid>
+    </item>
+    <item>
       <title>[45] Boise: Milwaukee Single family home — 2966 N MILWAUKEE ST, Boise ID 83704</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00VHQ&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | TRINITY HOMES LLC | 400,000</description>
@@ -230,6 +248,18 @@
       <guid isPermaLink="false">ID:EAGLE:269441</guid>
     </item>
     <item>
+      <title>[20] Meridian: single family dwelling — 2200 E DEEP PURPLE LN</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP | 166,010</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0907</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: single family dwelling — 2210 E DEEP PURPLE LN</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP | 146,219</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0908</guid>
+    </item>
+    <item>
       <title>[27] Boise: HR 18-01 — 6103 E PROMINENCE CT, Boise ID 83716</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00OK6&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 1,024,600</description>
@@ -271,6 +301,12 @@
       <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
       <description>SINGLE_FAMILY | PROMINENT HOMES LLC | 0</description>
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0871</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 2077 SQ FT SINGLE FAMILY DWELLING WITH ATTACHED GARAGE — 5507 W LOST RAPIDS ST</title>
+      <link>https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES | 212,969</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0966</guid>
     </item>
     <item>
       <title>[20] Eagle: New Home — 334 N BOULDER RIDGE WAY</title>
@@ -393,6 +429,12 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0861</guid>
     </item>
     <item>
+      <title>[20] Meridian: Residential New Construction Single Family Dwelling — 105 W GLEASON ST</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 293,924</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0894</guid>
+    </item>
+    <item>
       <title>[15] Kootenai County: SFR Cadar Residence — 16243 [TEMP]</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3620</link>
       <description>SINGLE_FAMILY | Contractor unknown | 0</description>
@@ -403,6 +445,30 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29942967</link>
       <description>SINGLE_FAMILY | ACADIA BUILDING COMPANY LLC | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269250</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Brighton Homes Idaho, Inc - TOWN New Single Family Residential/VP12001046 1460 Viera TH B P1 — 6389 S APEX AVE</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 157,286</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0958</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Brighton Homes Idaho, Inc - TOWN New Single Family Residential/VP12001045 1460 Viera TH B P2 C ITY OF M ERIDIAN 5 P AGE # BUILDING PERMITS FOR THE WEEK (33) — 6387 S APEX AVE</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | BRIGHTON HOMES IDAHO INC | 157,270</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0959</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 6 BLK 7 — 796 N BILTMORE AVE</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 196,929</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0987</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 2-Car Garage + Boat Bay, Covered Entry and Covered Patio New — 6070 N ARCTIC FOX WAY</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 255,860</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0997</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Monarch — 15529 [TEMP] N Mountain</title>
@@ -465,6 +531,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02910</guid>
     </item>
     <item>
+      <title>[20] Meridian: New SFR - Two-Story, 5 Bedroom, 3.5 Bathroom, 4-Car Tandem Garage, Covered Entry and Covered Patio — 6138 N ARCTIC FOX WAY</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | BOISE PLH, LLC | 304,775</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0994</guid>
+    </item>
+    <item>
       <title>[45] Eagle: New Townhome — 200 N Morehouse Ave</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29913618</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
@@ -481,6 +553,24 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29913574</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269161</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5660 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0960</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5636 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0962</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: NEW 1984 SQ FT TOWNHOME WITH 523 SQ FT ATTACHED GARAGE — 5622 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>MULTIFAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0963</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | ATLAS BUILDING — 11699 [TEMP] N Fox Hole</title>
@@ -547,6 +637,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SSF&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | WEST RIDGE HOMES | 300,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02810</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW 1984 SQ FT SINGLE FAMILY DWELLING WITH 523 SQ FT ATTACHED GARAGE — 5648 W WILDFIRE DR</title>
+      <link>https://about.meridiancity.org/media/dh5iko1f/weekly-reports-1192026-11152026.pdf</link>
+      <description>SINGLE_FAMILY | HUBBLE HOMES | 206,751</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0961</guid>
     </item>
     <item>
       <title>[42] Boise: Veolia Bethel Well — 7180 W BETHEL ST, Boise ID 83704</title>
@@ -627,6 +723,12 @@
       <guid isPermaLink="false">ID:EAGLE:269072</guid>
     </item>
     <item>
+      <title>[20] Meridian: New Single Family Home New — 3135 E MARDIA ST</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 365,386</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0989</guid>
+    </item>
+    <item>
       <title>[45] Boise: 1426 S Denver Ave Townhouse — 1426 S DENVER AVE, Boise ID 83706</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00QPP&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | CHAMNESS CONSTRUCTION AND DESIGN, LLC | 440,000</description>
@@ -669,6 +771,12 @@
       <guid isPermaLink="false">ID:EAGLE:268828</guid>
     </item>
     <item>
+      <title>[20] Meridian: Building of a new single family home C ITY OF M ERIDIAN 9 P AGE # BUILDING PERMITS FOR THE WEEK (48) — 4694 N BRANDY CREEK AVE</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BILTMORE CO LLC | 299,384</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0955</guid>
+    </item>
+    <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | ROUNDHOUSE CONSTRUCTION, LLC | 4,000,000</description>
@@ -693,6 +801,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01552</guid>
     </item>
     <item>
+      <title>[45] Meridian: New single family dwelling town home unit — 3949 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 170,767</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0938</guid>
+    </item>
+    <item>
       <title>[42] Boise: Homewood Suites Boise - Whitewater Village — 3274 W MAIN ST, Boise ID 83702</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00M7D&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>COMMERCIAL | ENGINEERED STRUCTURES, INC. | 1,400,000</description>
@@ -715,6 +829,12 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U60&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 259,990</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02971</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 8 BLK 7 — 788 N BILTMORE AVE</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 215,071</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0965</guid>
     </item>
     <item>
       <title>[62] Boise: Building P (Type 1) — 2237 W VICTORY RD, Boise ID 83705</title>
@@ -837,6 +957,18 @@
       <guid isPermaLink="false">ID:EAGLE:268936</guid>
     </item>
     <item>
+      <title>[45] Meridian: New single-family townhome unit — 3965 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 169,826</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0936</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New single-family townhome unit — 3941 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 153,870</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0940</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Copper Basin — 30211 N ARCHER RD</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3616</link>
       <description>SINGLE_FAMILY | BENWAY QUALITY HOMES INC | 662,319</description>
@@ -855,10 +987,70 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0839</guid>
     </item>
     <item>
+      <title>[20] Meridian: NEW SINGLE FAMILY RESIDENTIAL C ITY OF M ERIDIAN 7 P AGE # BUILDING PERMITS FOR THE WEEK (48) — 1983 W SMOKEY LAKE DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | TH CONSTRUCTION LLC | 289,861</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0885</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1673 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0948</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1681 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 155,566</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0949</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1695 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0950</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1703 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 154,908</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0951</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1717 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 155,566</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0952</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1729 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0953</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New single family dwelling — 1741 E OVERT DR</title>
+      <link>https://about.meridiancity.org/media/2supipdx/weekly-reports-1122026-1182026.pdf</link>
+      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0954</guid>
+    </item>
+    <item>
       <title>[15] Post Falls: New Single Family Residential — 2689 N NEPTUNE ST, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 235,320</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-863</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New single-family townhome unit to be built in Pioma subdivision. — 3973 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 170,535</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0935</guid>
+    </item>
+    <item>
+      <title>[45] Meridian: New single-family townhome being built in the Poima subdivision — 3957 E DITMARS DR</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>MULTIFAMILY | River valley framing llc | 170,139</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0937</guid>
     </item>
     <item>
       <title>[20] Boise: 3-17 Barnwood #3 — 7027 W STEADING ST, Boise ID 83709</title>
@@ -871,6 +1063,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00F7L&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | RETRO HOMES INC | 325,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-01448</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential — 2661 E DARCY CT</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | HIGHLAND HOMES LLC | 394,354</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0866</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New Single Family Residential New — 3085 E MARDIA ST</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | HHS CONSTRUCTION LLC | 385,009</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0988</guid>
     </item>
     <item>
       <title>[15] Post Falls: New Single Family Residential — 3563 N SEGAR LOOP, POST FALLS ID 83854</title>
@@ -915,6 +1119,12 @@
       <guid isPermaLink="false">ID:EAGLE:268866</guid>
     </item>
     <item>
+      <title>[20] Meridian: New single Family residential construction — 6672 S NETHERFIELD WAY</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | Blast Properties INC | 448,253</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0916</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Cliff residence — 25715 N GATHERING PL</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
       <description>SINGLE_FAMILY | BRANDT HOMES | Jeffrey Brandt | 844,633</description>
@@ -937,6 +1147,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SH2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02778</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: New build single family residential — 1992 W SMOKEY LAKE DR</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | TH CONSTRUCTION LLC | 285,388</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0922</guid>
+    </item>
+    <item>
+      <title>[20] Meridian: Construct a 11'x18' patio cover. — 2581 E GRIFFON ST</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | SHADEWORKS INC | 3,168</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-PATIO-2026-0126</guid>
     </item>
     <item>
       <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Burns Residence — 16766 [TEMP] S Citrine Drive</title>
@@ -963,6 +1185,12 @@
       <guid isPermaLink="false">ID:EAGLE:268697</guid>
     </item>
     <item>
+      <title>[20] Meridian: Duralum aluminum pergola patio cover installed over existing concrete patio. Patio Covers — 3481 E ENGLEHART DR</title>
+      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
+      <description>SINGLE_FAMILY | COVERTECH INDUSTRIES INC | 1,568</description>
+      <guid isPermaLink="false">ID:MERIDIAN:R-PATIO-2026-0128</guid>
+    </item>
+    <item>
       <title>[15] Post Falls: New Single Family Residential — 1239 W MISS HANA AVE, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 320,203</description>
@@ -979,234 +1207,6 @@
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
       <description>SINGLE_FAMILY | Contractor unknown | 813,493</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1493</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 32001 N Swire Green Way</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867666</link>
-      <description>SINGLE_FAMILY | CLAYTON PROPERTIES GROUP INC DBA BERKELEY BUILDING | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268770</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: EA 04-04 NEW SFD — 483 N. MOREHOUSE AVE.</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867527</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268764</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8353 Maclachlan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29867285</link>
-      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268757</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 27246 IRON HORSE DR, Caldwell   836070000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | BRADSHAW CUSTOM HOMES | 296,644</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0814</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE — 8822 KEMP RD, Middleton   836440000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | RICKMAN BUILDING COMPANY | 324,820</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0811</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 5-17 Barnwood #3 — 7233 S CHINOOK AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U6A&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 279,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02973</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 2-17 Barnwood #3 — 7019 W STEADING ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00U5O&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 168,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02969</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5460 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WX&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00628</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5472 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WW&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00627</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pat's Cottages — 5476 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 380,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00625</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats Cottages — 5468 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WT&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00624</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Pats  Cottages — 5464 N PIERCE PARK LN, Boise ID 83714</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=006WS&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | MBH LLC | 167,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 409,351</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-882</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5239 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 160,912</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-866</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5255 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 198,801</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-857</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 3570 N SEGAR LOOP, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 287,730</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-856</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 5287 E EARLY DAWN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 198,801</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-855</guid>
-    </item>
-    <item>
-      <title>[50] Coeur d'Alene: 5 UNIT TOWNHOUSE — 954 W GROVE WY</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
-      <description>MULTIFAMILY | BRADY ERIC OAKLAND | 941,059</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:153070-B</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23826 N Eclipse Rd [TEMP]</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 603,124</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1786</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | JHL LLC — 29660 [TEMP] N Sylvan Road</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | REDTECH LLC | 569,353</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1475</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE |  Frank — 1041 [TEMP] E Yellow Pine</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 713,115</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0925</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 8349 Maclachlan Dr</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29862989</link>
-      <description>SINGLE_FAMILY | AVIMOR DEVELOPMENT LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268705</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7008 W CRISTOBAL DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29842729</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268693</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2431 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29842555</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268691</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2409 E MONHEGAN DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29842535</link>
-      <description>SINGLE_FAMILY | STERLING HOMES INC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268690</guid>
-    </item>
-    <item>
-      <title>[20] Coeur d'Alene: BUILDING NEW SFD — 1511 N LINCOLN WY</title>
-      <link>https://building.cdaid.org/Reports/IssuedPermits</link>
-      <description>SINGLE_FAMILY | JASON MORETT DBA HOMES NORTHWEST LLC | 225,000</description>
-      <guid isPermaLink="false">ID:COEUR D'ALENE:151515-B</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 2-10 Kirsten #2 — 6444 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PKM&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Rocky Allison | 77,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02427</guid>
-    </item>
-    <item>
-      <title>[20] Boise: 1-10 Kirsten #2 — 6412 S KANARA AVE, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00PJU&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | COREY BARTON HOMES INC | 89,990</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02424</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Asin Rental — 6216 W YORK ST, Boise ID 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00IDI&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | ASIN HOMES LLC | 240,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01754</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Stutzman Rental — 6214 W YORK ST, 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00ID9&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | ASIN HOMES LLC | 240,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01753</guid>
-    </item>
-    <item>
-      <title>[40] Eagle: New Townhome — 7084 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29838582</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268673</guid>
-    </item>
-    <item>
-      <title>[40] Eagle: New Townhome — 7092 W AMAZON DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29838248</link>
-      <description>MULTIFAMILY | Contractor unknown | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268669</guid>
-    </item>
-    <item>
-      <title>[37] Post Falls: New Commercial Building — 3334 E MULLAN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 1,800,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-85</guid>
-    </item>
-    <item>
-      <title>[30] Post Falls: New Commercial Building — 6335 W INTEGRITY WAY, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 358,272</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-125</guid>
-    </item>
-    <item>
-      <title>[30] Post Falls: New Commercial Building — 3334 E MULLAN AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>COMMERCIAL | Contractor unknown | 30,000</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDC-26-123</guid>
-    </item>
-    <item>
-      <title>[25] Kootenai County: NEW SFR | LH Homes LLC — 24990 [TEMP] N Ellington</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | L H HOMES LLC | 577,899</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1501</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7642 W FLATHEAD LAKE ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29841822</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268687</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2096 N HONALEE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268686</guid>
     </item>
   </channel>
 </rss>
