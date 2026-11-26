@@ -16,3 +16,11 @@ Keep: new single-family, duplex/fourplex/townhome, multifamily/apartments, comme
 Suppress: reroof, HVAC/mechanical replacement, plumbing/electrical, solar, signs, fences, pools, windows/doors, small remodels and tenant improvements.
 
 The stable key is `ID:JURISDICTION:PERMIT_NUMBER`.
+
+## Blackfoot: standalone issued-report preview (not a lead feed)
+
+The City of Blackfoot [monthly permit reports](https://www.cityofblackfoot.org/461/Monthly-Building-Permit-Reports) currently link separate direct PDFs. The [September 2026](https://www.cityofblackfoot.org/DocumentCenter/View/2311/Building-Permit-Report-September-2026) and [October 2026](https://www.cityofblackfoot.org/DocumentCenter/View/2344/Building-Permit-Report-October-2026) files have two validated column layouts; both explicitly identify issued dates. The October report also contains a public-works facility and manufactured/replacement work, which are not private construction opportunities. Applicant is not builder/GC, and detached/twin-home permits are not proof of unit counts or independently verified new projects.
+
+To get a read-only research preview, optionally install `pip install -r requirements.txt -r requirements-preview.txt` and run `PYTHONPATH=src python -m idaho_permits.blackfoot_preview`. Output goes to stdout only; default collection registration, dashboard, feeds, history, classification, and GitHub Actions are unchanged. Permit candidate IDs are marked manual-review only, never qualified or fed to a sales dashboard. Applicant names, addresses, and unstructured source notes are not printed. The preview fails closed on a missing/mismatched report, mixed schema, unknown issue-date layout, or date outside the published month. A future report may require another parser profile; do not infer issue date from generic “Permit Date” labels without confirmation.
+
+Live 2026-11-26 validation: October 7 official records / 1 detached-home candidate; September 3 records / 2 twin-home configuration candidates; 10 unique official IDs; latest official issue Oct 20 (37 days before the check). No candidate became an automatically qualified lead. No contractor role or unit count was asserted. No November report was listed.
