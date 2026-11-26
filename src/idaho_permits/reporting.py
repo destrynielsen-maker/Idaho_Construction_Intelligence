@@ -74,10 +74,15 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
         old=previous.get(ident,{})
         observed={p.key:p for p in observations.get(name,()) if p.source_name in source_names}
         state=str(status.get('status','error')).lower()
-        report_date=validated(status.get('latest_issued_date'),today) if name in {'Meridian','Nampa'} else None
+        report_date=validated(status.get('latest_issued_date'),today) if name in {'Meridian','Nampa','Post Falls'} else None
         has_evidence=bool(observed or report_date)
         partial=state in {'degraded','stale'} and has_evidence
         succeeded=state=='ok' and has_evidence
+        # Meridian index discovery may fail while its official direct PDFs give
+        # a successful current data collection. Never call the index healthy or
+        # move the comparable baseline for partial discovery.
+        verified_fallback=name=='Meridian' and partial and bool(observed and report_date)
+        data_success=succeeded or verified_fallback
         if succeeded:
             availability,outcome='reachable','success'
         elif partial:
@@ -86,23 +91,28 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
             availability,outcome='unavailable','error'
         else:
             availability,outcome='unknown','unknown'
-        retained=len({p.key for p in permits if p.source_name in source_names})
+        retained_rows={p.key:p for p in permits if p.source_name in source_names}
+        retained=len(retained_rows)
+        retained_date=max((d for p in retained_rows.values() if (d:=authoritative_date(name,p,today))),default=None) if name=='Post Falls' else None
         dates=[d for p in observed.values() if (d:=authoritative_date(name,p,today))]
         if report_date:
             dates.append(report_date)
         current=max(dates,default=None) if succeeded or partial else None
         prior_success_date=validated(old.get('last_successful_authoritative_date'),today)
-        last_success_date=max((d for d in (prior_success_date,current if succeeded else None) if d),default=None)
+        last_success_date=max((d for d in (prior_success_date,current if data_success else None) if d),default=None)
         latest=max((d for d in (current,prior_success_date) if d),default=None)
         comparable=succeeded and bool(old.get('last_success_at')) and old.get('comparable_success_baseline') is True and original_ids is not None
         rows.append(dict(id=ident,label=label,mode='automatic',coverage=COVERAGE[name],
-            last_attempt_at=now,last_success_at=now if succeeded else old.get('last_success_at'),
+            last_attempt_at=now,last_success_at=now if data_success else old.get('last_success_at'),
+            verified_data_fallback=verified_fallback,
+            retained_latest_authoritative_date=retained_date.isoformat() if retained_date else None,
             latest_authoritative_date=latest.isoformat() if latest else None,
             latest_date_kind=kind if latest else None,
             date_provenance=('current_report' if latest==current else 'prior_success') if latest else None,
             last_successful_authoritative_date=last_success_date.isoformat() if last_success_date else None,
             comparable_success_baseline=succeeded or (not partial and original_ids is not None and old.get('comparable_success_baseline') is True),
             source_age_days=(today-latest).days if latest else None,
+            freshness_status=('stale' if state=='stale' or (name=='Post Falls' and current and (today-current).days>14) else None),
             new_since_previous_success=len(observed.keys()-original_ids) if comparable else None,
             retained_records=retained,observed_records=len(observed) if observed and (succeeded or partial) else None,
             availability=availability,collection_outcome=outcome))

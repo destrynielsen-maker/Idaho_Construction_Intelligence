@@ -5,8 +5,16 @@ from .models import Permit
 def load_permits(path: Path):
     if not path.exists(): return {}
     data=json.loads(path.read_text(encoding='utf-8'))
-    rows=data.get('permits',data if isinstance(data,list) else [])
-    return {p.key:p for p in (Permit.from_dict(x) for x in rows)}
+    rows=data if isinstance(data,list) else data['permits']
+    if not isinstance(rows,list):
+        raise ValueError('Invalid historical permit ledger: expected a list')
+    permits={}
+    for row in rows:
+        permit=Permit.from_dict(row)
+        if permit.key in permits:
+            raise ValueError('Duplicate historical permit identity; refusing to overwrite ledger')
+        permits[permit.key]=permit
+    return permits
 
 def save_permits(path, permits, generated_at):
     path.parent.mkdir(parents=True,exist_ok=True)

@@ -36,6 +36,18 @@ class ReportingTests(unittest.TestCase):
         self.assertIsNone(indexed['eagle']['latest_authoritative_date'])
         self.assertEqual(indexed['canyon-county']['latest_date_kind'],'application')
 
+    def test_post_falls_source_date_can_be_later_than_qualified_permit(self):
+        now='2026-11-26T18:59:23Z'
+        lead=permit('BLDR-26-01','2026-11-02','City of Post Falls Building Permits GIS','Post Falls')
+        prior={}
+        observation=reporting_report(
+            [dict(source='Post Falls',status='ok',latest_issued_date='2026-11-03')],
+            {'Post Falls':[lead]},[lead],set(),prior,now)['sources'][0]
+        self.assertEqual(observation['latest_authoritative_date'],'2026-11-03')
+        self.assertEqual(observation['last_success_at'],now)
+        self.assertEqual(observation['source_age_days'],23)
+        self.assertEqual(observation['collection_outcome'],'success')
+
     def test_pinned_eagle_stored_history_includes_observed(self):
         seed=Path(__file__).resolve().parents[1]/'data/permits.json'
         permits=[Permit.from_dict(row) for row in json.loads(seed.read_text())['permits']]

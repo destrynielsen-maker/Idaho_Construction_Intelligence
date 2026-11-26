@@ -2,8 +2,9 @@ from __future__ import annotations
 import re
 from calendar import monthrange
 from datetime import date,datetime
-from urllib.parse import urlparse
+from urllib.parse import urljoin,urlparse
 import requests
+from bs4 import BeautifulSoup
 from .base import CollectorResult
 from .common import discover_links,get,pdf_text
 from ..models import Permit
@@ -29,7 +30,8 @@ class MeridianDirectCollector:
     """City-published issued-construction reports with content-based freshness."""
     name='Meridian'
     landing_url='https://about.meridiancity.org/community-development/building/construction-reports/'
-    include=('Week 1','Week 2','Week 3','Week 4','Week 5','Full Report')
+    alternate_index_url='https://meridiancity.org/community-development/building/construction-reports/'
+    official_hosts={'about.meridiancity.org','data.meridiancity.org','meridiancity.org','www.meridiancity.org'}
     seed_freshness_days=14
     seed_reports=(
         ('2026-11-16 through 2026-11-22','https://about.meridiancity.org/media/0v2dk25y/weekly-reports-11162026-11222026.pdf'),
@@ -48,7 +50,7 @@ class MeridianDirectCollector:
     @staticmethod
     def _asset_url(url):
         parsed=urlparse(url)
-        return (parsed.scheme=='https' and parsed.netloc in {'about.meridiancity.org','data.meridiancity.org'}
+        return (parsed.scheme=='https' and parsed.netloc in MeridianDirectCollector.official_hosts
                 and parsed.path.startswith('/media/') and parsed.path.lower().endswith('.pdf'))
 
     @staticmethod
@@ -72,15 +74,56 @@ class MeridianDirectCollector:
                 except ValueError:pass
         return None
 
+    @classmethod
+    def _index_reports(cls, response):
+        current=urlparse(response.url)
+        if (current.scheme!='https' or current.netloc not in cls.official_hosts
+                or current.path.rstrip('/')!=urlparse(cls.landing_url).path.rstrip('/')):
+            raise ValueError('unexpected city index URL')
+        html=BeautifulSoup(response.text,'html.parser')
+        links=[]
+        for a in html.find_all('a',href=True):
+            label=' '.join(a.stripped_strings)
+            match=re.fullmatch(r'Week ([1-5])|Full Report',label,re.I)
+            asset=urljoin(response.url,a['href'])
+            if match and cls._asset_url(asset):
+                links.append((int(match[1]) if match[1] else 6,label,asset))
+        if not links:
+            raise ValueError('no publisher-linked official PDFs')
+        accepted=[]; rejected=[]; recent=None
+        for slot,label,url in sorted(links):
+            end=cls._period_end('',label,url)
+            if slot<6 and end and recent and end<=recent:
+                rejected.append(f'{label} points to earlier period ending {end.isoformat()}')
+                continue
+            if slot<6 and end: recent=end
+            accepted.append((label,url))
+        return accepted,rejected
+
+    @staticmethod
+    def _alternate_allowed(exc):
+        if isinstance(exc,requests.HTTPError):
+            return exc.response is not None and exc.response.status_code in {404,408,410,500,502,503,504}
+        return not isinstance(exc,requests.exceptions.SSLError) and isinstance(exc,(requests.Timeout,requests.ConnectionError))
+
     def collect(self):
-        discovery_note=''
-        try:
-            links=discover_links(self.landing_url,self.include)
-            candidates=[(a,u) for a,u in links if self._asset_url(u)
-                        and re.fullmatch(r'Week [1-5]|Full Report',a.strip(),re.I)]
-        except requests.RequestException as exc:
-            candidates=[]
-            discovery_note=f'City index unavailable ({type(exc).__name__}); '
+        discovery_note=''; index_issues=[]; candidates=[]; rejected=[]
+        for index in (self.landing_url,self.alternate_index_url):
+            try:
+                candidates,rejected=self._index_reports(get(index,timeout=15))
+                if index!=self.landing_url:
+                    discovery_note='City standard index used after primary index failed; '
+                break
+            except (requests.RequestException,ValueError) as exc:
+                code=exc.response.status_code if isinstance(exc,requests.HTTPError) and exc.response is not None else None
+                index_issues.append(str(code or type(exc).__name__))
+                if not self._alternate_allowed(exc):break
+        if not candidates:
+            discovery_note=f'City index unavailable ({", ".join(index_issues)}); '
+        # Preserve the source URL and retrieval behavior of previously verified
+        # assets when both official hosts link the same media object.
+        seed_by_path={urlparse(url).path:(label,url) for label,url in self.seed_reports}
+        candidates=[seed_by_path.get(urlparse(url).path,(label,url)) for label,url in candidates]
         fetched=[]; failures=[]; seen=set()
         for label,url in [*candidates,*self.seed_reports]:
             if url in seen:continue
@@ -117,11 +160,12 @@ class MeridianDirectCollector:
                 if previous is None or p.issued_date>previous.issued_date:
                     unique[p.key]=p
         age=(date.today()-newest).days
-        status='stale' if age>self.seed_freshness_days else 'degraded' if discovery_note or failures or not candidates else 'ok'
+        status='stale' if age>self.seed_freshness_days else 'degraded' if failures or rejected or not candidates else 'ok'
         note=(discovery_note+f'{len(fetched)} verified City report(s); {len(unique)} unique new-construction candidates. '
               f'Latest labeled issue date {newest.isoformat()} ({age} days old); '
               f'report period end {(period_end.isoformat() if period_end else "unverified")}.')
         if status=='stale':note+=f' WARNING: latest verified issue date is older than {self.seed_freshness_days} days.'
+        if rejected:note+=' Index link skipped: '+', '.join(rejected)+'.'
         if failures:note+=' Unavailable/invalid assets: '+', '.join(failures[:4])+'.'
         return CollectorResult(self.name,source_url,list(unique.values()),note,status=status,
                                latest_issued_date=newest.isoformat(),report_period_end=period_end.isoformat() if period_end else None)

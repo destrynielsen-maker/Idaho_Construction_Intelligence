@@ -39,6 +39,8 @@
     .health-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin-top:10px; }
     .health-item { border:1px solid #e1e6ef; border-radius:10px; padding:11px 12px; background:#fbfcfe; }
     .health-item .meta { color:#667085; font-size:12px; margin-top:4px; line-height:1.45; }
+    .source-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 9px;margin:10px 0}.source-metrics div{min-width:0;overflow-wrap:anywhere}.source-metrics dt{font-size:11px;color:#667085;font-weight:600}.source-metrics dd{margin:0;font-size:13px}.compact-health-title{display:flex;align-items:start;justify-content:space-between;gap:8px;flex-wrap:wrap}.compact-health-title strong{font-size:15px}.source-diagnostic{border-top:1px solid #e1e6ef;margin-top:8px;font-size:12px;overflow-wrap:anywhere}.source-diagnostic summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:600}.source-diagnostic summary::before{content:'▸';margin-right:5px}.source-diagnostic[open] summary::before{content:'▾'}.source-diagnostic p{margin:0 0 8px}.source-evidence-gap{color:#667085}
+    @media(max-width:560px){.health-grid{grid-template-columns:minmax(0,1fr)}.source-metrics dd{font-size:12px}}
     .health-summary { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; }
     a { color: #175cd3; }
     @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
@@ -94,7 +96,6 @@
   </section>
 
   <section class="panel">
-    <section id="shared-reporting-status" aria-live="polite"></section>
     <p class="muted">Published under existing qualification; inclusion does not prove a project is active or available to buy. Date window uses the legacy listing date. Use Date evidence to separate actual issuance, applications, planning and unverified records.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
       <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
@@ -141,10 +142,6 @@
     </div>
   </section>
 
-  <section class="panel">
-    <strong>Source health details</strong>
-    <div id="sources" style="margin-top:8px"></div>
-  </section>
 </main>
 <script>
 const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
@@ -193,10 +190,75 @@ function downloadCsv(){
   const u=URL.createObjectURL(new Blob([csvText(matchingRows)],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=u;a.download='idaho-construction-matching.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
-function collectionLabel(s){
-  const status=(s.status||'UNKNOWN').toLowerCase();
-  if(['error','failed','unavailable'].includes(status))return 'No successful observation in this run; retained data may still be shown.';
-  return `${Number(s.records_seen||0).toLocaleString()} records observed · ${Number(s.qualifying_records||0).toLocaleString()} qualifying in run`;
+const sourceProfiles={
+  'Boise':['boise-planning','Boise Development Tracker','Planning only','City of Boise development tracker'],
+  'Boise Issued Building Permits':['boise-issued','Boise Issued Building Permits','Issued building permits','City of Boise building permits'],
+  'Eagle':['eagle','Eagle','Issued building permits','City of Eagle building permits'],
+  'Canyon County':['canyon-county','Canyon County','Applications only','Unincorporated Canyon County permit tracker'],
+  'Caldwell':['caldwell','Caldwell','Planning only','Caldwell regional development review'],
+  "Coeur d'Alene":['coeur-dalene','Coeur d’Alene','Issued building permits','City of Coeur d’Alene building permits'],
+  'Kootenai County':['kootenai-county','Kootenai County','Issued building permits','Unincorporated Kootenai County weekly reports'],
+  'Post Falls':['post-falls','Post Falls','Issued building permits','City of Post Falls rolling 90-day building permit window'],
+  'Meridian':['meridian','Meridian','Issued building permits','City of Meridian building permit reports'],
+  'Nampa':['nampa','Nampa','Issued building permits','City of Nampa weekly building permit reports'],
+};
+const sourceGapProfiles={
+  'bingham-manual':['Bingham County','Permit stage not verified here','Official county reports; manual review only'],
+  'eastern-idaho-issued-gap':['Eastern Idaho coverage gaps','City-issued permits not collected','Idaho Falls, Rexburg, Pocatello and Blackfoot city-issued permits'],
+};
+function safeDate(d){return typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)}
+function safeTimestamp(d){return d&&Number.isFinite(new Date(d).getTime())?mt(d):'Unknown'}
+function sourceCount(value){return Number.isInteger(value)&&value>=0?value.toLocaleString('en-US'):'Unknown'}
+function sourceCardData(snapshot){
+  const raw=Array.isArray(snapshot.collector_status)?snapshot.collector_status:[];
+  const env=snapshot.reporting_v1;
+  const same=env?.schema_version===1&&env.generated_at===snapshot.generated_at&&Array.isArray(env.sources);
+  const manifest=new Map(same?env.sources.map(s=>[s.id,s]):[]);
+  const rows=raw.map(item=>{
+    const [id,label,stage,coverage]=sourceProfiles[item.source]||[item.source,item.source,'Stage not verified','Coverage not documented'];
+    const row=manifest.get(id);
+    return {id,label:row?.label||label,stage,coverage:row?.coverage||coverage,mode:row?.mode||'automatic',raw:item,row};
+  });
+  for(const [id,[label,stage,coverage]] of Object.entries(sourceGapProfiles)){
+    const row=manifest.get(id);
+    rows.push({id,label:row?.label||label,stage,coverage:row?.coverage||coverage,mode:row?.mode||(id==='bingham-manual'?'manual':'uncovered'),raw:null,row});
+  }
+  return rows;
+}
+function collectionHealth(item){
+  const status=(item.raw?.status||'').toLowerCase(),r=item.row;
+  if(item.mode==='manual')return ['manual','Manual review only'];
+  if(item.mode==='uncovered')return ['uncovered','Not covered'];
+  if(r?.collection_outcome==='error'||['error','failed','unavailable'].includes(status))return ['failed','Collection failed'];
+  if(status==='stale'||status==='degraded'||r?.availability==='partial')
+    return ['partial',r?.verified_data_fallback?'Official reports collected · index degraded':'Partial collection'];
+  if(r?.collection_outcome==='no_data')return ['empty','Verified empty'];
+  if(r?.collection_outcome==='success'||(!r&&status==='ok'&&item.raw?.records_seen>0))return ['ok','Collection succeeded'];
+  return ['unknown','Collection unverified'];
+}
+function sourceCard(item,snapshot){
+  const r=item.row,status=item.raw, [key,health]=collectionHealth(item);
+  const knownAttempt=['ok','partial','empty'].includes(key);
+  const observed=r?.observed_records ?? (!r&&knownAttempt&&status?.records_seen>0?status.records_seen:null);
+  const observations=key==='failed'?'Not collected':sourceCount(observed);
+  const qualifies=knownAttempt&&Number.isInteger(observed)&&Number.isInteger(status?.qualifying_records)?' · '+sourceCount(status.qualifying_records)+' qualifying':'';
+  const lastSuccess=r?.last_success_at;
+  const verifiedLatest=r?.latest_authoritative_date;
+  const retainedOnly=!safeDate(verifiedLatest)&&safeDate(r?.retained_latest_authoritative_date);
+  const latest=retainedOnly?r.retained_latest_authoritative_date:verifiedLatest;
+  const basis=r?.latest_date_kind;
+  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.stage==='Applications only'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
+  let freshness=safeDate(latest)?(Number.isInteger(r?.source_age_days)&&r.source_age_days>=0?r.source_age_days+' days at snapshot':'Dated evidence'):'Not verified';
+  if(retainedOnly)freshness='Retained evidence; current freshness unverified';
+  if(safeDate(latest)&&r?.date_provenance==='prior_success')freshness+=' · prior successful collection';
+  if(r?.freshness_status==='stale'||String(status?.status||'').toLowerCase()==='stale')freshness+=' · source flagged stale';
+  const metric=(k,v)=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`;
+  const diagnostics=status?.note? `<details class="source-diagnostic"><summary>Diagnostic details</summary><p>${esc(status.note)}</p></details>`:'';
+  return `<article class="health-item" data-source-id="${esc(item.id)}"><div class="compact-health-title"><strong>${esc(item.label)}</strong><span class="badge source-${key==='failed'?'error':key==='ok'?'ok':'neutral'}">${esc(health)}</span></div>
+  <div class="meta">${esc(item.coverage)}</div><dl class="source-metrics">${metric('Permit stage',item.stage)}${metric('Freshness',freshness)}
+  ${metric(latestLabel,safeDate(latest)?latest:'Unknown')}${metric('Last successful collection',safeTimestamp(lastSuccess))}
+  ${metric('Observed this attempt',observations+qualifies)}${metric('Retained historical records',sourceCount(r?.retained_records))}</dl>
+  ${key==='failed'?'<p class="meta source-evidence-gap">No successful observation in this run. That does not mean zero permits were issued.</p>':''}${diagnostics}</article>`;
 }
 
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
@@ -294,72 +356,22 @@ async function boot(){
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
-    const sources=status.collector_status||[];
-    const healthy=sources.filter(s=>s.status==='ok').length;
-    const issues=sources.length-healthy;
-    document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} automated collectors${issues?` — ${issues} need attention`:''}`;
-    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Latest attempt snapshot ${mt(status.generated_at)} · not the source data date` : '';
-    document.querySelector('#sourceCards').innerHTML=sources.map(s=>`<div class="health-item"><div class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</div><div class="meta">${esc(collectionLabel(s))}<br>${esc(s.note||'')}</div></div>`).join('');
-    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status==='ok'?'ok':'error'}">${esc(s.source)} — ${s.status==='ok'?'HEALTHY':'ATTENTION'}</span> <span class="muted">${esc(collectionLabel(s))} ${esc(s.note||'')}</span></div>`).join('');
+    const rows=sourceCardData(status);
+    const attempts=rows.filter(s=>s.mode==='automatic');
+    const healthy=attempts.filter(s=>collectionHealth(s)[0]==='ok').length;
+    const failures=attempts.filter(s=>collectionHealth(s)[0]==='failed').length;
+    document.querySelector('#coverageSummary').textContent=`${healthy} successful / ${attempts.length} configured collectors · ${failures} failed · other checks may be partial or unverified`;
+    document.querySelector('#coverageFreshness').textContent=status.generated_at ? `Attempt snapshot ${mt(status.generated_at)} · not permit freshness` : '';
+    document.querySelector('#sourceCards').innerHTML=rows.map(s=>sourceCard(s,status)).join('');
     const directory=status.directory||[];
     document.querySelector('#directory').innerHTML=directory.map(x=>`<tr><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.market)}</a></td><td>${esc(x.grade)}</td><td><span class="badge">${esc(x.mode)}</span></td><td>${esc(x.use)}</td></tr>`).join('');
   } catch(e) {
     document.querySelector('#coverageSummary').textContent='Source status unavailable.';
-    document.querySelector('#sources').textContent='Source status unavailable.';
+    document.querySelector('#sourceCards').textContent='Source status could not be loaded. This does not mean zero permits were issued.';
   }
 }
 boot();
 </script>
-<script>
-/* Source reporting extension. No writes or lead/default/filter changes. */
-(() => {
-  'use strict';
-  const mount=document.getElementById('shared-reporting-status');
-  if(!mount)return;
-  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e};
-  const val=x=>(x===null||x===undefined||x==='')?'Unknown':String(x);
-  const title=(x)=>val(x).replaceAll('_',' ');
-  const count=x=>Number.isInteger(x)&&x>=0?x.toLocaleString('en-US'):'Unknown';
-  const mtime=x=>{
-    if(!x)return 'Unknown';
-    const d=new Date(x);return Number.isFinite(d.getTime())?
-      d.toLocaleString('en-US',{timeZone:'America/Boise'})+' MT':'Unknown';
-  };
-  const validDate=/^\d{4}-\d{2}-\d{2}$/;
-  function show(payload){
-    if(payload?.schema_version!==1||!Array.isArray(payload.sources)||payload.sources.length===0)throw Error('No comparable evidence manifest');
-    mount.replaceChildren();
-    mount.append(make('h2','Collection evidence by source'));
-    mount.append(make('p','An attempt, a successful collection and the latest source date are different. Stored history is not an active opportunity count. Unknown does not mean zero.'));
-    const style=make('style',`#shared-reporting-status .source-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.7rem}#shared-reporting-status .source-evidence-card{padding:.8rem;border:1px solid #bccbd2;border-radius:.55rem;min-width:0;overflow-wrap:anywhere}#shared-reporting-status .source-evidence-card h3{line-height:1.25;margin:.12em 0 .4em;font-size:1.03rem}#shared-reporting-status .source-evidence-card dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.35rem .5rem;margin:.5rem 0 0;font-size:.88rem}#shared-reporting-status .source-evidence-card dd{margin:0}#shared-reporting-status .source-evidence-card dt{font-weight:600}#shared-reporting-status .source-evidence-card p{margin:.3rem 0;font-size:.9rem}`);
-    mount.append(style);
-    const cards=make('div',undefined,'source-evidence-grid');
-    for(const row of payload.sources){
-      const card=make('article',undefined,'source-evidence-card');
-      const head=make('h3',val(row.label));const coverage=make('p',title(row.mode)+' · '+val(row.coverage));
-      const pairs=make('dl');
-      const date=typeof row.latest_authoritative_date==='string'&&validDate.test(row.latest_authoritative_date)?row.latest_authoritative_date:'Unknown';
-      const label=date==='Unknown'?'Unknown':date+' · '+title(row.latest_date_kind);
-      const stats=[
-        ['Last attempt',mtime(row.last_attempt_at)],['Last success',mtime(row.last_success_at)],
-        ['Latest source evidence',label],['Age at snapshot',row.source_age_days==null?'Unknown':count(row.source_age_days)+' days'],
-        ['New since prior success',count(row.new_since_previous_success)],['Stored history',count(row.retained_records)],
-        ['Observed this attempt',count(row.observed_records)],['Availability',title(row.availability)],
-        ['Collection outcome',title(row.collection_outcome)],
-      ];
-      if(row.date_provenance)stats.push(['Date provenance',title(row.date_provenance)]);
-      if(row.freshness_status)stats.push(['Freshness',title(row.freshness_status)]);
-      for(const [key,value] of stats)pairs.append(make('dt',key),make('dd',value));
-      card.append(head,coverage,pairs);cards.append(card);
-    }
-    mount.append(cards);
-  }
-  mount.hidden=false;
-  fetch('data/sources.json?reporting_v1='+Date.now(),{cache:'no-store'})
-    .then(r=>{if(!r.ok)throw Error('Source metadata unavailable');return r.json()})
-    .then(p=>show(p.reporting_v1))
-    .catch(()=>{mount.replaceChildren(make('h2','Collection evidence by source'),make('p','Comparable collection evidence is unavailable for this snapshot. Do not treat missing evidence as zero permits.'))});
-})();
-</script>
+
 </body>
 </html>
