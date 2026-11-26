@@ -3,7 +3,7 @@
 ## Automated sources
 - Boise Development Tracker: official City of Boise `Development_Tracker_Open_Data` FeatureServer. Updated daily and treated as an **early-lead planning source**, not an issued-building-permit source. Records retain Boise's stable record ID, project name, planning status, address, planning type, description, area and direct Accela link when available. These records are stored with `stage=PLANNING` so downstream users can distinguish pre-permit opportunities from issued permits.
 - Eagle: official City of Eagle iWorQ public permit portal. The live collector reads the current permit listing, keeps only `Building Residential` / `Building Commercial` records, and checks permit-detail scope before the shared classifier can promote a record as new construction. Trade permits remain excluded. Eagle's Laserfiche weekly reports remain the official historical/backfill path.
-- Coeur d'Alene: official `IssuedPermitsLastWeek` PDF; structured parser extracts permit number, owner, address, project, issued date, valuation, type, contractor and architect/draftsman when present.
+- Coeur d'Alene: official 45-day date-range `IssuedPermits` form (POST) PDF; structured parser extracts permit number, owner, address, project, issued date, valuation, type, contractor and architect/draftsman when present. An HTTP 5xx or non-PDF response is a source error, not a zero-permit report. On November 26, 2026 the public 45-day form returned HTTP 500 after a successful run on the same window; shorter date ranges and the City-linked weekly report also returned HTTP 500. Keep the last good history and do not substitute another jurisdiction or infer issuance from planning records.
 - Meridian: official Construction Reports page; discovers current report PDFs and conservatively extracts only explicit new-build records with recognizable permit/date/address context.
 - Nampa: official Permit Reports page; discovers weekly Permit Activity Type PDFs and uses the same conservative extraction rule.
 - Kootenai County: official weekly building permit archive and report PDFs.
@@ -24,3 +24,11 @@ City-hosted PDFs. The newest labeled issue date (not the run date) drives freshn
 weekly and monthly overlaps are deduplicated. Contractor is the City's field, not
 independent GC verification. This lane deliberately does not change Eagle, Nampa,
 Coeur d'Alene or the collect/publish workflow.
+
+### Coeur d’Alene outage and recovery
+
+A successful response with a PDF but no verifiable primary permit rows is an
+unconfirmed source result, not an authoritative zero: no empty-report marker
+has been validated. Retain last-good history and first-seen data during outages.
+On recovery, validate all accepted issue dates against the requested window and
+deduplicate by permit key. Recovery is fixture-tested, not live-confirmed.

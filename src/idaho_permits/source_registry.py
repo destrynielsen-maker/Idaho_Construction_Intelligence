@@ -1,7 +1,7 @@
 SOURCES = [
  {'market':'Meridian','grade':'A+','mode':'automated-report','url':'https://about.meridiancity.org/community-development/building/construction-reports/','use':'Weekly construction reports'},
  {'market':'Nampa','grade':'A+','mode':'automated-report','url':'https://www.cityofnampa.us/427/Permit-Reports','use':'Weekly permit activity and commercial review status'},
- {'market':"Coeur d'Alene",'grade':'A+','mode':'automated-pdf','url':'https://building.cdaid.org/Reports/IssuedPermitsLastWeek','use':'Direct weekly issued permits'},
+ {'market':"Coeur d'Alene",'grade':'A+','mode':'automated-pdf','url':'https://building.cdaid.org/Reports/IssuedPermits','use':'City 45-day issued permit report; form submission returns a PDF'},
  {'market':'Kootenai County','grade':'A+','mode':'automated-pdf','url':'https://kcgov.us/Archive/44','use':'Weekly county building permit archive'},
  {'market':'Boise','grade':'A+ early lead','mode':'automated-gis','url':'https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0','use':'Daily active planning/development tracker; early project leads before building permit issuance'},
  {'market':'Boise Issued Building Permits','grade':'A+','mode':'automated-portal','url':'https://permits.cityofboise.org/CitizenAccess/Cap/CapHome.aspx?module=Building','use':'Anonymous City of Boise Accela search for issued 402-404 residential, 502 commercial and 506 multifamily building permits; detail pages provide authoritative issue date, valuation, contractor, units and building area'},
