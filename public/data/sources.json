@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:22:06+00:00",
+  "generated_at": "2026-11-26T18:59:23+00:00",
   "collector_status": [
     {
       "source": "Boise",
@@ -59,11 +59,11 @@
     },
     {
       "source": "Post Falls",
-      "status": "ok",
-      "records_seen": 86,
-      "qualifying_records": 86,
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
       "source_url": "https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17",
-      "note": "Official City of Post Falls Building Permits GIS; rolling 90-day issued window; 211 source records inspected; 86 ground-up building permits kept; newest issued permit 2026-11-03 (23 days old); WARNING source is more than 14 days behind current date"
+      "note": "ReadTimeout: HTTPSConnectionPool(host='gis.postfalls.gov', port=443): Read timed out. (read timeout=60)"
     },
     {
       "source": "Meridian",
@@ -81,7 +81,7 @@
       "records_seen": 0,
       "qualifying_records": 0,
       "source_url": "https://www.cityofnampa.us/427/Permit-Reports",
-      "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofnampa.us/427/Permit-Reports"
+      "note": "RuntimeError: Listing unavailable (HTTPError); No validated City weekly PDF; 10/19/2026 \u2013 10/23/2026: HTTPError"
     }
   ],
   "directory": [
