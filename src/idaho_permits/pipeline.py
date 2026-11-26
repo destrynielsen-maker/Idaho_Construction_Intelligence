@@ -38,7 +38,10 @@ def run(root: Path):
             total+=len(r.permits); qual=0
             for p in r.permits:
                 classify_permit(p); qual+=int(p.qualifies); old=existing.get(p.key); p.first_seen_at=old.first_seen_at if old and old.first_seen_at else now; p.last_seen_at=now; existing[p.key]=p
-            statuses.append({'source':r.source,'status':'ok','records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note})
+            status={'source':r.source,'status':r.status,'records_seen':len(r.permits),'qualifying_records':qual,'source_url':r.source_url,'note':r.note}
+            if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
+            if r.report_period_end:status['report_period_end']=r.report_period_end
+            statuses.append(status)
         except Exception as e:
             statuses.append({'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
     permits=list(existing.values())

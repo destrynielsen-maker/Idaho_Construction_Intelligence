@@ -100,3 +100,9 @@ OUTERBANKS CLUBHOUSE - A new ground up clubhouse.
 
 if __name__ == '__main__':
     unittest.main()
+
+class MeridianFreshnessTests(unittest.TestCase):
+    def test_week_filename_does_not_become_calendar_month_end(self):
+        sample="NOV 2026\nCITY OF MERIDIAN\nBUILDING PERMITS FOR THE MONTH"
+        self.assertEqual(MeridianDirectCollector._period_end(sample,'Week 3','https://about.meridiancity.org/media/x/weekly-reports-11162026-11222026.pdf'), date(2026,11,22))
+        self.assertEqual(MeridianDirectCollector._period_end(sample,'Full Report','https://about.meridiancity.org/media/x/bldgmonthlypermits.pdf'),date(2026,11,30))

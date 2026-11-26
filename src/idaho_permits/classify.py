@@ -12,6 +12,10 @@ NEW = ('new ','new construction','ground up','ground-up','shell building','duple
 def _norm(v): return re.sub(r'\s+',' ',(v or '').strip()).lower()
 
 def classify_permit(p: Permit) -> Permit:
+    # Historical Eagle listing Date was not an issuing event and shifted cells sometimes
+    # produced non-permit keys. Keep those rows in history, but not in sales outputs.
+    if p.jurisdiction=='Eagle' and 'listing' in p.raw and p.raw.get('issue_date_verified') is not True:
+        p.classification='OTHER'; p.qualifies=False; p.new_construction_confidence='LOW'; p.score=0; return p
     permit_type=_norm(p.permit_type)
     text=_norm(' '.join(filter(None,[p.permit_type,p.building_use,p.project_name])))
     if any(permit_type.startswith(x) for x in TRADE_PREFIXES) or any(x in text for x in NEGATIVE):
