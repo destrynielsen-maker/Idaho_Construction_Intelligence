@@ -4,7 +4,7 @@ from decimal import Decimal
 from pathlib import Path
 
 from idaho_permits.collectors.bingham_preview import (
-    read_fixture, parse_layout, preview, tracker_preview, HEADERS,
+    read_fixture, parse_layout, parse_grid_rows, preview, tracker_preview, HEADERS,
 )
 
 FIXTURE = Path(__file__).parent / "fixtures" / "bingham_county_2026-09.csv"
@@ -85,3 +85,18 @@ class BinghamPreviewTests(unittest.TestCase):
     def test_layout_requires_explicit_issuance(self):
         with self.assertRaises(ValueError):
             parse_layout("Record # Title Type Date Received Owner Name Full Address Value")
+
+    def test_ruled_grid_preserves_address_and_ignores_owner(self):
+        row = ["BPR-26-81", "Building & Mechanical Permit", "Permit/License",
+               "9/21/2026", "OWNER LLC", "1591 N 835 E\nSHELLEY ID 83274", "370558"]
+        self.assertEqual(parse_grid_rows([HEADERS, row])[0], self.rows[3])
+        self.assertNotIn("OWNER LLC", str(parse_grid_rows([HEADERS, row])))
+
+    def test_ruled_grid_fails_closed_on_missing_or_shifted_cells(self):
+        row = ["BPR-26-81", "Building & Mechanical Permit", "Permit/License",
+               "9/21/2026", "OWNER LLC", "1591 N 835 E SHELLEY ID 83274", "370558"]
+        for bad in (row[:-1], [*row[:5], None, row[-1]], [*row[:2], "Application", *row[3:]]):
+            with self.assertRaises(ValueError):
+                parse_grid_rows([HEADERS, bad])
+        with self.assertRaises(ValueError):
+            parse_grid_rows([[*HEADERS[:3], "Date Received", *HEADERS[4:]], row])

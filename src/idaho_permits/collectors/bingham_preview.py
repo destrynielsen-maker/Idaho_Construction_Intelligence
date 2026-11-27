@@ -67,6 +67,55 @@ def parse_layout(text):
     return rows
 
 
+def parse_grid_rows(table):
+    """Parse physical PDF table cells; never split owner/address by whitespace."""
+    if not table or tuple(" ".join((v or "").split()) for v in table[0]) != HEADERS:
+        raise ValueError("Expected exact issued report table header")
+    rows = []
+    for cells in table[1:]:
+        if len(cells) != len(HEADERS) or any(v is None for v in cells):
+            raise ValueError("Missing or merged source table cell")
+        number, title, kind, issued, _owner, address, value = [
+            " ".join(v.split()) for v in cells
+        ]
+        if kind != "Permit/License" or not re.fullmatch(r"[A-Z]+-\d{2}-\d+", number):
+            raise ValueError("Unexpected permit type or record number")
+        if not title or not address or not value:
+            raise ValueError("Missing required issued-report cell")
+        issued = datetime.strptime(issued, "%m/%d/%Y").date().isoformat()
+        amount = Decimal(value.replace("$", "").replace(",", ""))
+        if not amount.is_finite() or amount < 0:
+            raise ValueError("Invalid source valuation")
+        rows.append(dict(zip(FIELDS, [number, title, issued, address, str(amount)])))
+    if not rows:
+        raise ValueError("Empty issued-report table")
+    return rows
+
+
+def parse_pdf_grid(data):
+    """Use the publisher's visible ruled grid, not layout-text header offsets.
+
+    Fail closed on extra tables, missing cells, or a non-issued header.
+    pdfplumber is currently an isolated hosted-review dependency.
+    """
+    from io import BytesIO
+    import pdfplumber
+    if not data.startswith(b"%PDF-"):
+        raise ValueError("Not PDF bytes")
+    rows = []
+    with pdfplumber.open(BytesIO(data)) as pdf:
+        if not pdf.pages:
+            raise ValueError("No PDF pages")
+        for page in pdf.pages:
+            tables = page.extract_tables(table_settings={
+                "vertical_strategy": "lines", "horizontal_strategy": "lines",
+            })
+            if len(tables) != 1:
+                raise ValueError(f"Page {page.page_number}: expected one ruled table, found {len(tables)}")
+            rows.extend(parse_grid_rows(tables[0]))
+    return rows
+
+
 def preview(rows, source_url, report_month, expected_rows):
     if not official_report_url(source_url):
         raise ValueError("Not an authorized Bingham County report URL")
