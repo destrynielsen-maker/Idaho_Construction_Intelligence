@@ -23,7 +23,10 @@ DATE = re.compile(r"\d{1,2}/\d{1,2}/20\d{2}")
 NUMBER = re.compile(r"B\d{4}-\d{4,}")
 # Column starts are normalized to the official October landscape layout,
 # excluding a small tolerance at the left edge of each printed cell.
-STARTS = [62,149,226,319,418,495,534,593,662,758,834,900,1036,1135,1183,1240,1298,1355]
+# Two verified publisher layouts; the September PDF uses narrower leading
+# columns than October. Identify by the actual SUBTYPE header, never by month.
+OCTOBER_STARTS = [62,149,226,319,418,495,534,593,662,758,834,900,1036,1135,1183,1240,1298,1355]
+SEPTEMBER_STARTS = [62,140,210,309,398,484,511,531,613,711,793,860,949,1058,1098,1160,1248,1307]
 SCALE = 1533
 FIELDS = ["issued_date","permit_number","owner","contractor","contractor_address",
           "block","lot","subdivision","project_address","permit_type","work_type",
@@ -62,9 +65,20 @@ def fetch_reports(session=None, limit=2):
             raise ValueError("unexpected report destination/content")
         yield month, r.url, r.content
 
-def _col(word,width):
+def _layout(words,width):
+    markers=[w["x0"]*SCALE/width for w in words if w["text"]=="SUBTYPE"]
+    if len(markers)!=1:
+        raise ValueError("unknown or ambiguous subtype header")
+    x=markers[0]
+    if 705<=x<=725:
+        return SEPTEMBER_STARTS
+    if 750<=x<=770:
+        return OCTOBER_STARTS
+    raise ValueError(f"unrecognized normalized subtype header position {x:.1f}")
+
+def _col(word,width,starts):
     x=word["x0"]*SCALE/width
-    return max((i for i,left in enumerate(STARTS) if x>=left), default=-1)
+    return max((i for i,left in enumerate(starts) if x>=left), default=-1)
 
 def _cell(words):
     # Preserve line breaks separately in the raw evidence; join normal cell text.
@@ -83,15 +97,18 @@ def parse_pdf(content, month, url):
         raise ValueError("unexpected source")
     records={}
     totals=[]
+    starts=None
     with pdfplumber.open(BytesIO(content)) as pdf:
         for page_index,page in enumerate(pdf.pages,1):
             if not 1.45 < page.width/page.height < 1.65:
                 raise ValueError("unknown report layout")
             words=page.extract_words(x_tolerance=1.5,y_tolerance=2)
-            anchors=sorted([w for w in words if _col(w,page.width)==0 and DATE.fullmatch(w["text"])],key=lambda w:w["bottom"])
-            ids=[w for w in words if _col(w,page.width)==1 and NUMBER.fullmatch(w["text"])]
+            if page_index==1:
+                starts=_layout(words,page.width)
+            anchors=sorted([w for w in words if _col(w,page.width,starts)==0 and DATE.fullmatch(w["text"])],key=lambda w:w["bottom"])
+            ids=[w for w in words if _col(w,page.width,starts)==1 and NUMBER.fullmatch(w["text"])]
             if not anchors or len(anchors)!=len(ids):
-                raise ValueError(f"unmatched date/ID anchors on page {page_index}")
+                raise ValueError(f"unmatched date/ID anchors on page {page_index}: dates={len(anchors)}, IDs={len(ids)}; date/ID token x positions="+str([(round(w["x0"]*SCALE/page.width,1), _col(w,page.width,starts)) for w in words if DATE.fullmatch(w["text"]) or NUMBER.fullmatch(w["text"])]))
             header=[w for w in words if w["text"] in {"DAT_ISSUED","Parcel","Valuation","SUBTYPE","TYPEOFWO"} and w["bottom"]<anchors[0]["top"]]
             if page_index==1 and not any(w["text"]=="DAT_ISSUED" for w in header):
                 raise ValueError("explicit issue-date header missing")
@@ -100,7 +117,7 @@ def parse_pdf(content, month, url):
                 bottom=anchor["bottom"]+1.5
                 columns=[[] for _ in FIELDS]
                 for w in words:
-                    c=_col(w,page.width)
+                    c=_col(w,page.width,starts)
                     if c>=0 and low < w["bottom"] <= bottom:
                         columns[c].append(w)
                 cells=dict(zip(FIELDS,[_cell(w) for w in columns]))
@@ -114,7 +131,7 @@ def parse_pdf(content, month, url):
                     "source_url":url,"report_month":month,"valuation_decimal":str(_money(cells["valuation"])),
                     "source_pdf_sha256":hashlib.sha256(content).hexdigest()}
                 low=bottom
-            remainder=[w for w in words if low<w["bottom"] and _col(w,page.width)==12]
+            remainder=[w for w in words if low<w["bottom"] and _col(w,page.width,starts)==12]
             if remainder:
                 totals.append(_money(_cell(remainder)))
     if not records or len(totals)!=1 or totals[0]!=sum(Decimal(r["valuation_decimal"]) for r in records.values()):

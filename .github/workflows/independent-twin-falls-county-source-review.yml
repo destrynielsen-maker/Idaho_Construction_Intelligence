@@ -20,4 +20,5 @@ jobs:
       - run: PYTHONPATH=src python scripts/review_twin_falls_county_sources.py
 
       - run: pip install pdfplumber==0.11.4
+      - run: PYTHONPATH=src python -m unittest discover -s tests -p 'test_twin_falls_pdf_layout.py' -v
       - run: PYTHONPATH=src python scripts/review_twin_falls_automated_pdf.py
