@@ -1,0 +1,74 @@
+name: Idaho Pages readiness (no deployment)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-and-publish.yml'
+      - '.github/workflows/idaho-pages-readiness.yml'
+      - 'scripts/check_pages_snapshot.py'
+      - 'tests/test_pages_snapshot.py'
+permissions:
+  contents: read
+jobs:
+  artifact-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    strategy:
+      fail-fast: false
+      matrix:
+        control: [normal, delayed, invalid]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Test snapshot verifier
+        run: python -m unittest discover -s tests -p test_pages_snapshot.py -v
+      - name: Upload checked-in representative snapshot
+        id: upload
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: preview-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.control }}
+          path: public
+      - name: Probe uploaded artifact (delayed control simulates not visible)
+        id: probe
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ matrix.control == 'delayed' && 'intentionally-absent' || format('preview-{0}-{1}-{2}',github.run_id,github.run_attempt,matrix.control) }}
+          path: ${{ runner.temp }}/scout-pages-first
+      - name: Retry uploaded artifact lookup
+        if: steps.probe.outcome == 'failure'
+        uses: actions/download-artifact@v4
+        with:
+          name: preview-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.control }}
+          path: ${{ runner.temp }}/scout-pages-retry
+      - name: Simulate changed bytes after upload
+        if: matrix.control == 'invalid'
+        run: printf 'mismatch\n' >> public/index.html
+      - name: Verify exact Pages archive
+        id: verify
+        continue-on-error: ${{ matrix.control == 'invalid' }}
+        env:
+          UPLOADED_ID: ${{ steps.upload.outputs.artifact_id }}
+          ARCHIVE_DIR: ${{ steps.probe.outcome == 'success' && 'scout-pages-first' || 'scout-pages-retry' }}
+        run: |
+          [[ "$UPLOADED_ID" =~ ^[1-9][0-9]*$ ]]
+          python scripts/check_pages_snapshot.py --manifest "$RUNNER_TEMP/scout-pages.json" archive "$RUNNER_TEMP/$ARCHIVE_DIR/artifact.tar" public
+      - name: Simulated publish marker
+        id: simulated
+        if: ${{ !cancelled() && steps.verify.outcome == 'success' }}
+        run: echo 'Verified snapshot would be eligible for publication; this workflow never deploys.'
+      - name: Assert expected validation and publication outcomes
+        if: ${{ !cancelled() }}
+        env:
+          CONTROL: ${{ matrix.control }}
+          FIRST: ${{ steps.probe.outcome }}
+          VERIFY: ${{ steps.verify.outcome }}
+          PUBLISH: ${{ steps.simulated.outcome }}
+        run: |
+          if [[ "$CONTROL" == delayed ]]; then [[ "$FIRST" == failure ]]; fi
+          if [[ "$CONTROL" == invalid ]]; then
+            [[ "$VERIFY" == failure && "$PUBLISH" == skipped ]]
+          else
+            [[ "$VERIFY" == success && "$PUBLISH" == success ]]
+          fi
