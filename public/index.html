@@ -65,17 +65,26 @@
 <body>
 <header>
   <h1>Idaho Construction Intelligence</h1>
-  <p>New single-family, multifamily and commercial building-permit leads</p>
+  <p>Published construction intelligence · issued permits, applications and planning evidence</p>
 </header>
 <main>
-  <section class="cards">
-    <div class="card"><div class="label">Qualifying permits</div><div class="value" id="total">—</div></div>
+  <p class="muted" id="summaryScope" aria-live="polite">Loading matching records…</p>
+  <section class="cards" aria-label="Summary of matching records">
+    <div class="card"><div class="label">Matching published records</div><div class="value" id="total">—</div></div>
     <div class="card"><div class="label">Single family</div><div class="value" id="single">—</div></div>
     <div class="card"><div class="label">Multifamily</div><div class="value" id="multi">—</div></div>
     <div class="card"><div class="label">Commercial</div><div class="value" id="commercial">—</div></div>
-    <div class="card"><div class="label">Known valuation</div><div class="value" id="valuation">—</div></div>
+    <div class="card"><div class="label">Reported valuation (matching)</div><div class="value" id="valuation">—</div></div>
   </section>
 
+  <section class="cards" aria-label="Date evidence breakdown of matching records">
+    <div class="card"><div class="label">Verified issued records</div><div class="value" id="issuedTotal">—</div></div>
+    <div class="card"><div class="label">Application received</div><div class="value" id="applicationTotal">—</div></div>
+    <div class="card"><div class="label">Planning records</div><div class="value" id="planningTotal">—</div></div>
+    <div class="card"><div class="label">Unverified date evidence</div><div class="value" id="unverifiedTotal">—</div></div>
+    <div class="card"><div class="label">All published records (unfiltered)</div><div class="value" id="allPublished">—</div></div>
+  </section>
+  <p class="muted">The four evidence counts partition the matching records, not every permit issued in Idaho. Application received does not establish pending status. Reported valuation may include overlapping project phases and is not a market total. Historical storage and source observations are shown separately below.</p>
   <section class="panel">
     <div class="health-summary">
       <div><strong>Source coverage</strong><div class="muted" id="coverageSummary">Loading source health…</div></div>
@@ -96,13 +105,13 @@
   </section>
 
   <section class="panel">
-    <p class="muted">Published under existing qualification; inclusion does not prove a project is active or available to buy. Date window uses the legacy listing date. Use Date evidence to separate actual issuance, applications, planning and unverified records.</p><div class="filters">
+    <p class="muted">Summary, results and CSV all use the same filters. All published score levels are shown by default; choose a score threshold to narrow the view. Date window uses the record’s source date, not necessarily an issue date; choose Issued for verified issue dates. Recent windows exclude invalid and future dates, using Mountain calendar days. All dates retains legacy records. Inclusion does not prove a project is active or available to buy.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
       <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
       <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
       <select id="jurisdiction"><option value="">All jurisdictions</option></select>
       <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
-      <select id="minScore"><option value="0">Any score</option><option value="20">Score 20+</option><option value="30" selected>Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
+      <select id="minScore" aria-label="Minimum score"><option value="0" selected>Any score</option><option value="20">Score 20+</option><option value="30">Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
     </div>
   </section>
 
@@ -268,11 +277,55 @@ function sourceCard(item,snapshot){
   return `<article class="health-item" data-source-id="${esc(item.id)}"><div class="compact-health-title"><strong>${esc(item.label)}</strong><span class="badge source-${key==='failed'?'error':key==='ok'?'ok':'neutral'}">${esc(health)}</span></div>
   <div class="meta">${esc(item.coverage)}</div><dl class="source-metrics">${metric('Permit stage',item.stage)}${metric('Freshness',freshness)}
   ${metric(latestLabel,safeDate(latest)?latest:'Unknown')}${metric('Last successful collection',safeTimestamp(lastSuccess))}
-  ${metric('Observed this attempt',observations+qualifies)}${metric('Retained historical records',sourceCount(r?.retained_records))}</dl>
+  ${metric('Observed this attempt',observations+qualifies)}${metric('New records since prior comparable collection',sourceCount(r?.new_since_previous_success))}${metric('Retained historical records',sourceCount(r?.retained_records))}</dl>
   ${canyonIssueEvidence(item)}${key==='failed'?'<p class="meta source-evidence-gap">No successful observation in this run. That does not mean zero permits were issued.</p>':''}${diagnostics}</article>`;
 }
 
-function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
+function mountainToday(now=new Date()){
+  const parts=new Intl.DateTimeFormat('en-US',{timeZone:MT,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+  const part=k=>parts.find(p=>p.type===k).value;
+  return [part('year'),part('month'),part('day')].join('-');
+}
+function dateCutoff(days,today=mountainToday()){
+  if(!days)return null;
+  const d=new Date(today+'T00:00:00Z');d.setUTCDate(d.getUTCDate()-(days-1));
+  return d.toISOString().slice(0,10);
+}
+function strictSourceDay(value){
+  const s=String(value??'');
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(s))return null;
+  const d=new Date(s+'T00:00:00Z');
+  return Number.isFinite(d.getTime())&&d.toISOString().slice(0,10)===s?s:null;
+}
+function filterPermitRows(records,{q='',cls='',jur='',days=0,score=0,dateKind='',today=mountainToday()}={}){
+  const cutoff=dateCutoff(days,today);
+  return records.filter(p=>{
+    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
+    const day=strictSourceDay(p.issued_date);
+    return (!dateKind||evidence(p)===dateKind)&&(!q||hay.includes(q.toLowerCase()))&&(!cls||p.classification===cls)&&(!jur||p.jurisdiction===jur)&&(!cutoff||(day&&day>=cutoff&&day<=today))&&(Number(p.score??0)>=score);
+  });
+}
+function summarizeMatching(rows){
+  const result={total:rows.length,single:0,multi:0,commercial:0,valuation:0,valuationCount:0,issuedTotal:0,applicationTotal:0,planningTotal:0,unverifiedTotal:0};
+  const kinds={'issued':'issuedTotal','application received':'applicationTotal','planning':'planningTotal','unverified':'unverifiedTotal'};
+  for(const p of rows){
+    result[kinds[evidence(p)]??'unverifiedTotal']++;
+    if(p.classification==='SINGLE_FAMILY')result.single++;
+    if(p.classification==='MULTIFAMILY')result.multi++;
+    if(p.classification==='COMMERCIAL')result.commercial++;
+    if(p.valuation!=null&&p.valuation!==''&&Number.isFinite(Number(p.valuation))){result.valuation+=Number(p.valuation);result.valuationCount++;}
+  }
+  return result;
+}
+function renderMatchingSummary(rows,days,score){
+  const s=summarizeMatching(rows);
+  for(const id of ['total','single','multi','commercial','issuedTotal','applicationTotal','planningTotal','unverifiedTotal']){
+    document.querySelector('#'+id).textContent=s[id].toLocaleString('en-US');
+  }
+  document.querySelector('#valuation').textContent=s.valuationCount?money(s.valuation):'—';
+  document.querySelector('#allPublished').textContent=permits.length.toLocaleString('en-US');
+  document.querySelector('#summaryScope').textContent=rows.length.toLocaleString('en-US')+' of '+permits.length.toLocaleString('en-US')+' published records match the current filters · '+(days?'Last '+days+' calendar days (Mountain time)':'All dates')+' · '+(score?'Score '+score+'+':'Any score');
+}
 function dateValue(value){
   if(!value) return 0;
   const s=String(value).trim();
@@ -311,12 +364,9 @@ function render(){
   const jur=document.querySelector('#jurisdiction').value;
   const days=Number(document.querySelector('#days').value);
   const score=Number(document.querySelector('#minScore').value);
-  const cutoff=dateCutoff(days), dateKind=document.querySelector('#evidence').value;
-  const rows=permits.filter(p => {
-    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
-    const issuedIso=new Date(dateValue(p.issued_date)).toISOString().slice(0,10);
-    return (!dateKind || evidence(p)===dateKind) && (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || issuedIso>=cutoff) && (p.score>=score);
-  }).sort(compareRows);
+  const dateKind=document.querySelector('#evidence').value;
+  const rows=filterPermitRows(permits,{q,cls,jur,days,score,dateKind}).sort(compareRows);
+  renderMatchingSummary(rows,days,score);
   updateSortHeaders();
   matchingRows=rows;
   document.querySelector('#mobileSort').value=sortKey;
@@ -343,13 +393,9 @@ function render(){
   </tr>`).join('');
 }
 async function boot(){
-  const permitPayload=await fetch('data/permits.json?'+Date.now()).then(r=>r.json());
+  const permitPayload=await fetch('data/permits.json?'+Date.now()).then(r=>{if(!r.ok)throw Error('Permit snapshot HTTP '+r.status);return r.json()});
+  if(!Array.isArray(permitPayload.permits))throw Error('Invalid permit snapshot');
   permits=permitPayload.permits||[]; generatedAt=permitPayload.generated_at||'';
-  document.querySelector('#total').textContent=permits.length.toLocaleString();
-  document.querySelector('#single').textContent=permits.filter(p=>p.classification==='SINGLE_FAMILY').length.toLocaleString();
-  document.querySelector('#multi').textContent=permits.filter(p=>p.classification==='MULTIFAMILY').length.toLocaleString();
-  document.querySelector('#commercial').textContent=permits.filter(p=>p.classification==='COMMERCIAL').length.toLocaleString();
-  document.querySelector('#valuation').textContent=money(permits.reduce((s,p)=>s+(p.valuation||0),0));
   document.querySelector('#updated').textContent=generatedAt ? `Published snapshot ${mt(generatedAt)}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
   ['search','classification','jurisdiction','days','minScore','evidence'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',()=>{resultPage=0;render()}));
@@ -366,7 +412,8 @@ async function boot(){
   document.querySelector('#mobileDirection').addEventListener('click',()=>{sortDirection=sortDirection==='asc'?'desc':'asc';resultPage=0;render()});
   render();
   try {
-    const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
+    const status=await fetch('data/sources.json?'+Date.now()).then(r=>{if(!r.ok)throw Error('Source snapshot HTTP '+r.status);return r.json()});
+    if(status.generated_at!==generatedAt)throw Error('Permit and source snapshots differ');
     const rows=sourceCardData(status);
     const attempts=rows.filter(s=>s.mode==='automatic');
     const healthy=attempts.filter(s=>collectionHealth(s)[0]==='ok').length;
@@ -381,7 +428,11 @@ async function boot(){
     document.querySelector('#sourceCards').textContent='Source status could not be loaded. This does not mean zero permits were issued.';
   }
 }
-boot();
+boot().catch(()=>{
+  document.querySelector('#summaryScope').textContent='Published permit snapshot unavailable or invalid. Counts are unknown, not zero.';
+  document.querySelector('#coverageSummary').textContent='Snapshot unavailable.';
+  document.querySelector('#export').disabled=true;
+});
 </script>
 
 </body>
