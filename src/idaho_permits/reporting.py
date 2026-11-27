@@ -1,6 +1,6 @@
 """Additive reporting-only view; never mutates permit history or ranking."""
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 SOURCES = {
@@ -64,6 +64,57 @@ def authoritative_date(name,p,today):
         return None
     return validated(p.issued_date,today)
 
+CANYON_TRACKER = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
+UNIX_DAY = date(1970, 1, 1)
+MILLIS_PER_DAY = 86_400_000
+
+
+def canyon_utc_civil(raw, today):
+    # County layer /1 date metadata is UTC, and published source dates match
+    # UTC-midnight encodings. These are civil dates, not Boise timestamps.
+    if type(raw) is not int or raw <= 0 or raw % MILLIS_PER_DAY:
+        return None
+    days = raw // MILLIS_PER_DAY
+    if not (date(2000, 1, 1) - UNIX_DAY).days <= days <= (today - UNIX_DAY).days:
+        return None
+    return UNIX_DAY + timedelta(days=days)
+
+
+def canyon_issue_evidence(status, observations, today):
+    # Aggregate current source evidence only. Never emit identities/raw data or
+    # write back to an application's stage, published rows, or lead policy.
+    if status.get('status') != 'ok' or status.get('source_url') != CANYON_TRACKER:
+        return None
+    distinct = {}
+    for p in observations:
+        raw = p.raw
+        if (p.source_name != 'Canyon County DSD Building Permit Tracker'
+                or p.source_url != CANYON_TRACKER or p.jurisdiction != 'Canyon County'
+                or p.stage != 'APPLICATION' or not isinstance(raw, dict)
+                or not p.permit_number or raw.get('BP_PermitNumber') != p.permit_number):
+            return None  # scope or identity not verified
+        if p.key in distinct and distinct[p.key] != raw:
+            return None  # conflicting source identities aren't comparable evidence
+        distinct[p.key] = raw
+    if not distinct or status.get('records_seen') != len(observations):
+        return None  # no proof of a complete county issued inventory
+    issue_dates = []
+    for raw in distinct.values():
+        d = canyon_utc_civil(raw.get('PermitIssuedDate'), today)
+        receipt = canyon_utc_civil(raw.get('BP_ReceivedDate'), today)
+        if (raw.get('PemitIssued') == 'Permit Issued' and d is not None
+                and (receipt is not None or raw.get('BP_ReceivedDate') is None)
+                and (receipt is None or d >= receipt)):
+            issue_dates.append(d)
+    return {
+        'schema_version': 1, 'source_url': CANYON_TRACKER,
+        'scope': 'observed_active_application_tracker_rows',
+        'applications_examined': len(distinct),
+        'explicit_issue_observations': len(issue_dates),
+        'latest_explicit_issue_date': max(issue_dates).isoformat() if issue_dates else None,
+    }
+
+
 def reporting_report(statuses, observations, permits, original_ids, previous, now):
     today=date.fromisoformat(now[:10]); rows=[]
     for status in statuses:
@@ -116,6 +167,8 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
             new_since_previous_success=len(observed.keys()-original_ids) if comparable else None,
             retained_records=retained,observed_records=len(observed) if observed and (succeeded or partial) else None,
             availability=availability,collection_outcome=outcome))
+        if name=='Canyon County':
+            rows[-1]['issued_evidence']=canyon_issue_evidence(status, observations.get(name, ()), today)
     for ident,label,mode,coverage in EASTERN_GAPS:
         rows.append(dict(id=ident,label=label,mode=mode,coverage=coverage,
             last_attempt_at=None,last_success_at=None,latest_authoritative_date=None,latest_date_kind=None,

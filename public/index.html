@@ -236,6 +236,17 @@ function collectionHealth(item){
   if(r?.collection_outcome==='success'||(!r&&status==='ok'&&item.raw?.records_seen>0))return ['ok','Collection succeeded'];
   return ['unknown','Collection unverified'];
 }
+function canyonIssueEvidence(item) {
+  if(item.id!=='canyon-county')return '';
+  const issue=item.row?.issued_evidence;
+  const valid=issue?.schema_version===1&&issue.scope==='observed_active_application_tracker_rows'&&
+     Number.isInteger(issue.applications_examined)&&issue.applications_examined>0&&
+     Number.isInteger(issue.explicit_issue_observations)&&issue.explicit_issue_observations>=0&&
+     issue.explicit_issue_observations<=issue.applications_examined;
+  const latest=valid&&safeDate(issue.latest_explicit_issue_date)?issue.latest_explicit_issue_date:'None verified';
+  const line=valid?`${sourceCount(issue.explicit_issue_observations)} of ${sourceCount(issue.applications_examined)} observed applications had explicit issue evidence. Latest verified issue in that set: ${latest}.`:'Issue evidence was not verified for this attempt. This does not mean zero permits were issued.';
+  return `<div class="meta" data-issue-evidence><strong>Separate issue evidence (source only)</strong><p>${esc(line)}</p><p>Not a county-wide issued count. Application rows and leads are unchanged.</p></div>`;
+}
 function sourceCard(item,snapshot){
   const r=item.row,status=item.raw, [key,health]=collectionHealth(item);
   const knownAttempt=['ok','partial','empty'].includes(key);
@@ -258,7 +269,7 @@ function sourceCard(item,snapshot){
   <div class="meta">${esc(item.coverage)}</div><dl class="source-metrics">${metric('Permit stage',item.stage)}${metric('Freshness',freshness)}
   ${metric(latestLabel,safeDate(latest)?latest:'Unknown')}${metric('Last successful collection',safeTimestamp(lastSuccess))}
   ${metric('Observed this attempt',observations+qualifies)}${metric('Retained historical records',sourceCount(r?.retained_records))}</dl>
-  ${key==='failed'?'<p class="meta source-evidence-gap">No successful observation in this run. That does not mean zero permits were issued.</p>':''}${diagnostics}</article>`;
+  ${canyonIssueEvidence(item)}${key==='failed'?'<p class="meta source-evidence-gap">No successful observation in this run. That does not mean zero permits were issued.</p>':''}${diagnostics}</article>`;
 }
 
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
