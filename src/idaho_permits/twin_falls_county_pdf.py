@@ -91,6 +91,16 @@ def _money(value):
         raise ValueError("unrecognized valuation cell")
     return Decimal(value)
 
+def _footer_money(value):
+    # pdfplumber splits the official October total "$ 2 ,420,828.01"
+    # into three words. Normalize only spaces around currency/grouping
+    # punctuation, not between arbitrary digit groups or separate amounts.
+    value = re.sub(r"^\$\s*", "", value.strip())
+    value = re.sub(r"\s*,\s*", ",", value)
+    if not re.fullmatch(r"(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d{2})?", value):
+        raise ValueError("invalid valuation footer")
+    return Decimal(value.replace(",", ""))
+
 def parse_pdf(content, month, url):
     import pdfplumber  # optional review dependency; layout unit tests do not require it
     if not official(url) or not content.startswith(b"%PDF"):
@@ -138,7 +148,7 @@ def parse_pdf(content, month, url):
                 # an incomplete monetary reconciliation.
                 footer=_cell(remainder)
                 try:
-                    totals.append(_money(footer))
+                    totals.append(_footer_money(footer))
                 except ValueError as exc:
                     raise ValueError(f"unrecognized valuation footer on page {page_index}: {footer!r}; normalized positions="+str([(round(w["x0"]*SCALE/page.width,1),round(w["bottom"],1)) for w in remainder])) from exc
     if not records or len(totals)!=1 or totals[0]!=sum(Decimal(r["valuation_decimal"]) for r in records.values()):
