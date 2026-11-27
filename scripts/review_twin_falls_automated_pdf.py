@@ -7,6 +7,7 @@ import re
 import pdfplumber
 from idaho_permits.county_intake import read_batch
 import requests
+from idaho_permits.twin_falls_candidate_review import review_candidates
 from idaho_permits.twin_falls_county_pdf import official, parse_pdf, _layout, contractor_flow_candidates
 
 def norm(s):
@@ -19,6 +20,7 @@ def norm_address(s):
     return norm(re.sub(r",?\s+ID\s+\d{5}(?:-\d{4})?\s*$","",s,flags=re.I))
 
 seen=set()
+all_rows=[]
 # Extraction acceptance is independent of report-index discovery. The index
 # returned HTTP 406 in run 45986290641; do not retry or bypass it here.
 # These exact, previously publisher-linked PDFs are independently accessible
@@ -38,6 +40,7 @@ for month,count in [("2026-09",30),("2026-10",19)]:
     records=parse_pdf(response.content,month,response.url)
     assert set(expected)==set(records) and not seen.intersection(records)
     seen.update(records)
+    all_rows.extend(records.values())
     differences=[]
     for number,r in records.items():
         e=expected[number]
@@ -63,3 +66,7 @@ for month,count in [("2026-09",30),("2026-10",19)]:
                     "oracle_match":norm(flow.get(d["number"],""))==norm(d["oracle"])}),flush=True)
     assert not differences,"manual oracle differences require human/source review; do not publish"
 assert len(seen)==49
+
+permits, conflicts = review_candidates(all_rows)
+print(json.dumps({'review_only': True, 'tracker_candidates': len(permits), 'classifier_qualifying': sum(p.qualifies for p in permits.values()), 'classification_review_flags': conflicts}, indent=2), flush=True)
+assert len(permits)==49
