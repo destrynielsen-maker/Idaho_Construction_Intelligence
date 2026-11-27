@@ -101,6 +101,35 @@ def _footer_money(value):
         raise ValueError("invalid valuation footer")
     return Decimal(value.replace(",", ""))
 
+def _header_bottom(words, first_anchor, require_header):
+    # The header's actual issue-date label is the anchor. A first-record
+    # subdivision/lot value can itself contain "Parcel" and must never
+    # be mistaken for a header word (October B2026-0588).
+    header=[w for w in words if w["text"]=="DAT_ISSUED"
+            and w["bottom"]<first_anchor["top"]]
+    if len(header)>1 or require_header and not header:
+        raise ValueError("missing or ambiguous explicit issue-date header")
+    return header[0]["bottom"]+0.1 if header else 0.1
+
+def contractor_flow_candidates(page, starts):
+    """Independent read-only PDF content-order diagnostic, not publication data.
+    
+    Source text can be wrapped or overlap in its geometric placement.
+    Associate only the contractor column with an explicit permit-number
+    anchor in the underlying text stream; reject ambiguous anchor ordering.
+    """
+    words=page.extract_words(x_tolerance=1.5,y_tolerance=1,use_text_flow=True)
+    anchors=[(i,w["text"]) for i,w in enumerate(words)
+             if _col(w,page.width,starts)==1 and NUMBER.fullmatch(w["text"])]
+    if not anchors or len({n for _,n in anchors})!=len(anchors):
+        return {}
+    result={}
+    for pos,(i,number) in enumerate(anchors):
+        end=anchors[pos+1][0] if pos+1<len(anchors) else len(words)
+        tokens=[w["text"] for w in words[i+1:end] if _col(w,page.width,starts)==3]
+        result[number]=" ".join(tokens)
+    return result
+
 def parse_pdf(content, month, url):
     import pdfplumber  # optional review dependency; layout unit tests do not require it
     if not official(url) or not content.startswith(b"%PDF"):
@@ -119,10 +148,7 @@ def parse_pdf(content, month, url):
             ids=[w for w in words if _col(w,page.width,starts)==1 and NUMBER.fullmatch(w["text"])]
             if not anchors or len(anchors)!=len(ids):
                 raise ValueError(f"unmatched date/ID anchors on page {page_index}: dates={len(anchors)}, IDs={len(ids)}; date/ID token x positions="+str([(round(w["x0"]*SCALE/page.width,1), _col(w,page.width,starts)) for w in words if DATE.fullmatch(w["text"]) or NUMBER.fullmatch(w["text"])]))
-            header=[w for w in words if w["text"] in {"DAT_ISSUED","Parcel","Valuation","SUBTYPE","TYPEOFWO"} and w["bottom"]<anchors[0]["top"]]
-            if page_index==1 and not any(w["text"]=="DAT_ISSUED" for w in header):
-                raise ValueError("explicit issue-date header missing")
-            low=max((w["bottom"] for w in header),default=0)+0.1
+            low=_header_bottom(words,anchors[0],page_index==1)
             for anchor in anchors:
                 bottom=anchor["bottom"]+1.5
                 columns=[[] for _ in FIELDS]
