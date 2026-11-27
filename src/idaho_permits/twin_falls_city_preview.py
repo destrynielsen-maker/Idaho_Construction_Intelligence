@@ -15,6 +15,7 @@ TYPES = (
     "Detached (shed, garage, deck, pool)", "Single-family Residential (detached)",
     "Addition Enclose-Addit., Garage, Sunroom", "Residential Remodel",
     "Duplex (2-family dwelling on one lot)",
+    "Multi-Family", "Townhouse (3+ single family attached)",
 )
 FIELDS = ("source_page", "permit_number", "permit_type", "application_date",
           "issued_date", "project_address", "contractor_field", "valuation", "parent_marker")
@@ -58,7 +59,7 @@ def validate_rows(rows, start, end, expected, source=SOURCE, evidence_hash=None)
             "stage": "issued", "contractor": contractor, "owner": None,
             "publication": "review_only", "qualification": "not_evaluated",
             "source_evidence_sha256": evidence_hash,
-            "relationship_review_required": row["parent_marker"] == "1" or row["permit_type"] == TYPES[7],
+            "relationship_review_required": row["parent_marker"] == "1" or row["permit_type"] in {TYPES[7], TYPES[8], TYPES[9]},
         }
     actual = Counter(r["permit_type"] for r in records.values())
     if actual != Counter(expected):
@@ -94,8 +95,8 @@ def parse_layout_pages(pages):
                 raise ValueError("Incomplete permit block")
             rows.append(active)
             active = None
+    current_type = None
     for i, page in enumerate(pages, 1):
-        current_type = None
         if "Permit List" not in page:
             raise ValueError("Unrecognized PDF page")
         for line in page.splitlines():

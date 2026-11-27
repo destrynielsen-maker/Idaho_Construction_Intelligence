@@ -81,3 +81,37 @@ class TestTwinFallsCityPreview(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_layout_pages([page.replace("Total # of Permits: 1","Total # of Permits: 2")])
 
+
+    def test_september_and_october_replay(self):
+        from decimal import Decimal
+        sept = read_review_csv(
+            FIXTURE.with_name("twin_falls_city_2026-09_review.csv"),
+            date(2026, 9, 1), START,
+            dict(zip(TYPES, [1, 3, 6, 1, 8, 1, 3, 2, 10, 5])),
+            "https://www.tfid.org/Archive/ViewFile/Item/3492",
+        )
+        self.assertEqual(len(sept), 40)
+        self.assertEqual(sum(Decimal(r["valuation"]) for r in sept.values()), Decimal("13654777.79"))
+        self.assertEqual(max(r["issued_date"] for r in sept.values()), "2026-09-28")
+        self.assertEqual(sum(r["relationship_review_required"] for r in sept.values()), 17)
+        self.assertFalse(set(sept) & set(self.data))
+        prior = {k: {**v, "first_seen_at": "2026-10-01"} for k, v in sept.items()}
+        merged, conflicts = merge_review(prior, self.data)
+        self.assertEqual(len(merged), 81)
+        self.assertFalse(conflicts)
+        self.assertTrue(all(merged[k] == v for k, v in prior.items()))
+        replay, conflicts = merge_review(merged, sept)
+        self.assertEqual(replay, merged)
+        self.assertFalse(conflicts)
+
+    def test_subtotal_on_next_page(self):
+        page = "\n".join([
+            "Permit List",
+            "Permit #: 25-2080   Multi-Family   Application Date: 6/20/2025   Issued Date: 9/9/2026",
+            "Permit Address: 185 Ibex Loop      Valuation: $721,632.68    Fees Paid: $25,029.53",
+            "Owner: OMITTED          Contractor: Elevated Homes LLC",
+            "                        Description of Work: New 4 plex",
+        ])
+        rows, counts = parse_layout_pages([page, "Permit List\nTotal # of Permits: 1"])
+        self.assertEqual(counts, {"Multi-Family": 1})
+        self.assertEqual(len(rows), 1)
