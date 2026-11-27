@@ -1,0 +1,75 @@
+name: Twin Falls city two-period PDF review (read only)
+on:
+  push:
+    branches: [independent/twin-falls-city-preview]
+permissions:
+  contents: read
+jobs:
+  source-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: PYTHONPATH=src python -m unittest discover -s tests -p test_twin_falls_city_preview.py -v
+      - name: Reconcile both official PDFs against independently transcribed rows
+        env:
+          PYTHONPATH: src
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from datetime import date
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from hashlib import sha256
+          from urllib.parse import urlparse
+          import requests
+          from idaho_permits.twin_falls_city_preview import TYPES, FIELDS, read_review_csv, read_pdf_preview
+
+          periods = [
+              ('2026-09', '3492', date(2026,9,1), date(2026,10,1), [1,3,6,1,8,1,3,2,10,5]),
+              ('2026-10', '3493', date(2026,10,1), date(2026,11,1), [2,1,7,2,23,1,2,3]),
+          ]
+          failures = []
+          with TemporaryDirectory() as tmp:
+              for month, item, start, end, counts in periods:
+                  url = f'https://www.tfid.org/Archive/ViewFile/Item/{item}'
+                  expected = dict(zip(TYPES, counts))
+                  reference = read_review_csv(Path('tests/fixtures') / f'twin_falls_city_{month}_review.csv', start, end, expected, url)
+                  try:
+                      # Only the official linked URL, normal HTTPS GET, no retries or alternate access.
+                      with requests.get(url, timeout=(10, 45), stream=True, allow_redirects=False) as response:
+                          print(f'{month}: HTTP {response.status_code}, type={response.headers.get("Content-Type")}')
+                          if response.status_code != 200:
+                              raise ValueError('Official URL did not return HTTP 200; no bypass attempted')
+                          data = bytearray()
+                          for block in response.iter_content(65536):
+                              data.extend(block)
+                              if len(data) > 25_000_000:
+                                  raise ValueError('Unexpected PDF size')
+                      if not data.startswith(b'%PDF'):
+                          raise ValueError('Response is not PDF bytes')
+                      print(f'{month}: {len(data)} bytes; SHA256={sha256(data).hexdigest()}')
+                      path = Path(tmp) / f'{month}.pdf'
+                      path.write_bytes(data)
+                      parsed = read_pdf_preview(path, start, end, expected, url)
+                      missing = set(reference) - set(parsed)
+                      extra = set(parsed) - set(reference)
+                      if missing or extra:
+                          raise ValueError(f'Identity mismatch: missing={sorted(missing)}, extra={sorted(extra)}')
+                      differences = [(key, field) for key in sorted(reference) for field in FIELDS if reference[key][field] != parsed[key][field]]
+                      if differences:
+                          print('Mismatches (identity, field):', differences)
+                          raise ValueError(f'{len(differences)} field discrepancies')
+                      print(f'{month}: {len(parsed)} permits; every fixture field reconciled')
+                  except (ValueError, requests.RequestException) as exc:
+                      failures.append(month)
+                      print(f'{month}: blocked: {exc}')
+          if failures:
+              raise SystemExit('Source validation blocked for ' + ', '.join(failures))
+          PY
