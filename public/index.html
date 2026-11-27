@@ -105,13 +105,13 @@
   </section>
 
   <section class="panel">
-    <p class="muted">Summary, results and CSV all use the same filters. Date window uses the record’s source date, not necessarily an issue date; choose Issued for verified issue dates. Recent windows exclude invalid and future dates, using Mountain calendar days. All dates retains legacy records. Inclusion does not prove a project is active or available to buy.</p><div class="filters">
+    <p class="muted">Summary, results and CSV all use the same filters. All published score levels are shown by default; choose a score threshold to narrow the view. Date window uses the record’s source date, not necessarily an issue date; choose Issued for verified issue dates. Recent windows exclude invalid and future dates, using Mountain calendar days. All dates retains legacy records. Inclusion does not prove a project is active or available to buy.</p><div class="filters">
       <input id="search" placeholder="Search address, builder, project, permit…">
       <select id="evidence" aria-label="Date evidence"><option value="">All date evidence</option><option value="issued">Issued</option><option value="application received">Application received</option><option value="planning">Planning</option><option value="unverified">Unverified legacy</option></select>
       <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
       <select id="jurisdiction"><option value="">All jurisdictions</option></select>
       <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
-      <select id="minScore"><option value="0">Any score</option><option value="20">Score 20+</option><option value="30" selected>Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
+      <select id="minScore" aria-label="Minimum score"><option value="0" selected>Any score</option><option value="20">Score 20+</option><option value="30">Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
     </div>
   </section>
 
