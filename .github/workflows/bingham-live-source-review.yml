@@ -1,0 +1,97 @@
+name: Bingham County two-period source review (read only)
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize]
+    paths:
+      - '.github/workflows/bingham-live-source-review.yml'
+      - 'src/idaho_permits/collectors/bingham_preview.py'
+      - 'tests/fixtures/bingham_county_*.csv'
+permissions:
+  contents: read
+jobs:
+  source:
+    if: github.head_ref == 'independent/bingham-county-issued-preview'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt pdfplumber==0.11.8
+      - name: Discover official links and reconcile actual PDF bytes
+        env:
+          PYTHONPATH: src
+        run: |
+          python - <<'PY'
+          import hashlib
+          from collections import Counter
+          from decimal import Decimal
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+          from idaho_permits.collectors.bingham_preview import (
+              INDEX, official_report_url, read_fixture, parse_pdf_grid, preview,
+          )
+
+          def get(url, limit):
+              # Ordinary public GET only; no credentials, redirects or access workaround.
+              with requests.get(url, timeout=25, stream=True, allow_redirects=False) as response:
+                  print(f"HTTP {response.status_code} {url}", flush=True)
+                  if response.status_code != 200:
+                      raise RuntimeError(f"Official source returned HTTP {response.status_code}")
+                  body = bytearray()
+                  for chunk in response.iter_content(65536):
+                      body.extend(chunk)
+                      if len(body) > limit:
+                          raise ValueError("Official response exceeds bounded size")
+                  return bytes(body)
+
+          index = BeautifulSoup(get(INDEX, 2_000_000), "html.parser")
+          # Require the official issued-permit column, not certificates of occupancy.
+          tables = [t for t in index.find_all("table")
+                    if "2026 Issued Building Permits" in " ".join(t.stripped_strings)
+                    and "2026 Issued Certificate of Occupancies" in " ".join(t.stripped_strings)]
+          if len(tables) != 1:
+              raise ValueError("Unique official 2026 issued-permit table not found")
+          links = {}
+          for tr in tables[0].find_all("tr"):
+              cells = tr.find_all(["td", "th"], recursive=False)
+              if not cells:
+                  continue
+              anchors = cells[0].find_all("a", href=True)
+              for a in anchors:
+                  label = a.get_text(" ", strip=True)
+                  if label not in ("September", "October"):
+                      continue
+                  url = urljoin(INDEX, a["href"])
+                  if not official_report_url(url) or label in links:
+                      raise ValueError("Unexpected or duplicate issued-report link")
+                  links[label] = url
+          if set(links) != {"September", "October"}:
+              raise ValueError("Missing verified reporting-period links")
+
+          def normalized(r):
+              return (r["record_number"].strip().upper(), " ".join(r["title"].split()),
+                      r["issued_date"], " ".join(r["address"].split()),
+                      Decimal(r["valuation"].replace("$", "").replace(",", "").strip()))
+          for label, month, count in (("September", "2026-09", 43), ("October", "2026-10", 34)):
+              url = links[label]
+              data = get(url, 10_000_000)
+              if not data.startswith(b"%PDF-"):
+                  raise ValueError("Source returned non-PDF bytes")
+              print(f"{month}: bytes={len(data)} sha256={hashlib.sha256(data).hexdigest()}", flush=True)
+              rows = parse_pdf_grid(data)
+              for row in rows:
+                  row["valuation"] = str(normalized(row)[-1])
+              expected = read_fixture(f"tests/fixtures/bingham_county_{month}.csv")
+              actual_set, expected_set = Counter(map(normalized, rows)), Counter(map(normalized, expected))
+              if actual_set != expected_set:
+                  raise ValueError(f"{month}: unmatched extracted rows={sum((actual_set-expected_set).values())}; missing reviewed rows={sum((expected_set-actual_set).values())}")
+              result = preview(rows, url, month, count)
+              print(f"{month}: {result['row_count']} rows, {result['identity_count']} identities, latest {result['latest_issued_date']}", flush=True)
+          PY
