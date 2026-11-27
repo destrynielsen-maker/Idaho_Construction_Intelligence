@@ -11,7 +11,6 @@ from urllib.parse import urljoin, urlparse
 import hashlib
 import re
 
-import pdfplumber
 import requests
 from bs4 import BeautifulSoup
 
@@ -93,6 +92,7 @@ def _money(value):
     return Decimal(value)
 
 def parse_pdf(content, month, url):
+    import pdfplumber  # optional review dependency; layout unit tests do not require it
     if not official(url) or not content.startswith(b"%PDF"):
         raise ValueError("unexpected source")
     records={}
@@ -133,7 +133,14 @@ def parse_pdf(content, month, url):
                 low=bottom
             remainder=[w for w in words if low<w["bottom"] and _col(w,page.width,starts)==12]
             if remainder:
-                totals.append(_money(_cell(remainder)))
+                # Keep the exact footer contents in diagnostic output so a
+                # changed report can be reviewed without guessing or accepting
+                # an incomplete monetary reconciliation.
+                footer=_cell(remainder)
+                try:
+                    totals.append(_money(footer))
+                except ValueError as exc:
+                    raise ValueError(f"unrecognized valuation footer on page {page_index}: {footer!r}; normalized positions="+str([(round(w["x0"]*SCALE/page.width,1),round(w["bottom"],1)) for w in remainder])) from exc
     if not records or len(totals)!=1 or totals[0]!=sum(Decimal(r["valuation_decimal"]) for r in records.values()):
         raise ValueError("missing or unreconciled report valuation total")
     return records
