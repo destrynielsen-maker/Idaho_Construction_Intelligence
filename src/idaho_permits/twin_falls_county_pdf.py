@@ -130,6 +130,18 @@ def contractor_flow_candidates(page, starts):
         result[number]=" ".join(tokens)
     return result
 
+def _validate_contractor_flow(flow, geometry_ids):
+    # Content-order extraction is accepted only when every page permit anchor
+    # is present exactly once and in the same order as the spatial anchors.
+    if not geometry_ids or list(flow)!=geometry_ids:
+        raise ValueError("contractor content order disagrees with page permit identities")
+    return flow
+
+def _clean_contractor_text(value):
+    # The official report wraps this word at CONSTRUCTI / ON. Keep the
+    # original source words separately; repair only this explicit split.
+    return re.sub(r"\bCONSTRUCTI\s+ON\b","CONSTRUCTION",value,flags=re.I)
+
 def parse_pdf(content, month, url):
     import pdfplumber  # optional review dependency; layout unit tests do not require it
     if not official(url) or not content.startswith(b"%PDF"):
@@ -148,6 +160,10 @@ def parse_pdf(content, month, url):
             ids=[w for w in words if _col(w,page.width,starts)==1 and NUMBER.fullmatch(w["text"])]
             if not anchors or len(anchors)!=len(ids):
                 raise ValueError(f"unmatched date/ID anchors on page {page_index}: dates={len(anchors)}, IDs={len(ids)}; date/ID token x positions="+str([(round(w["x0"]*SCALE/page.width,1), _col(w,page.width,starts)) for w in words if DATE.fullmatch(w["text"]) or NUMBER.fullmatch(w["text"])]))
+            flow=None
+            if starts==OCTOBER_STARTS:
+                geometric_ids=[w["text"] for w in sorted(ids,key=lambda w:w["bottom"])]
+                flow=_validate_contractor_flow(contractor_flow_candidates(page,starts),geometric_ids)
             low=_header_bottom(words,anchors[0],page_index==1)
             for anchor in anchors:
                 bottom=anchor["bottom"]+1.5
@@ -163,7 +179,13 @@ def parse_pdf(content, month, url):
                     raise ValueError("invalid/duplicate issue identity")
                 if not all(cells[k] for k in ("project_address","permit_type","work_type","description","parcel")):
                     raise ValueError(f"missing required row evidence: {number}")
-                records[number]={**cells,"issued_date":issued.isoformat(),"source_page":page_index,
+                contractor_evidence={"contractor_geometric_text":cells["contractor"],
+                    "contractor_source_basis":"geometry"}
+                if flow is not None:
+                    contractor_evidence.update({"contractor_content_order_text":flow[number],
+                        "contractor_source_basis":"explicit permit anchor in PDF content order"})
+                    cells["contractor"]=_clean_contractor_text(flow[number])
+                records[number]={**cells,**contractor_evidence,"issued_date":issued.isoformat(),"source_page":page_index,
                     "source_url":url,"report_month":month,"valuation_decimal":str(_money(cells["valuation"])),
                     "source_pdf_sha256":hashlib.sha256(content).hexdigest()}
                 low=bottom

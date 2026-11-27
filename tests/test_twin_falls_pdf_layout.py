@@ -1,6 +1,6 @@
 import unittest
 from decimal import Decimal
-from idaho_permits.twin_falls_county_pdf import _footer_money, _header_bottom, contractor_flow_candidates
+from idaho_permits.twin_falls_county_pdf import _footer_money, _header_bottom, contractor_flow_candidates, _validate_contractor_flow, _clean_contractor_text
 from idaho_permits.twin_falls_county_pdf import _layout,_col,SEPTEMBER_STARTS,OCTOBER_STARTS
 
 class TwinFallsPDFLayoutTests(unittest.TestCase):
@@ -45,3 +45,15 @@ class TwinFallsPDFLayoutTests(unittest.TestCase):
                     ("IDAHO, LLC",322),("HANSEN",664)]]
         self.assertEqual(contractor_flow_candidates(Page(),OCTOBER_STARTS),
                          {"B2026-0627":"KNS CONSTRUCTI ON INC.","B2026-0560":"CNR CONSTRUCTION IDAHO, LLC"})
+
+    def test_flow_requires_every_anchor_in_spatial_order(self):
+        values={"B2026-0627":"KNS CONSTRUCTI ON INC.",
+                "B2026-0560":"CNR CONSTRUCTI ON IDAHO, LLC"}
+        self.assertEqual(_validate_contractor_flow(values,list(values)),values)
+        for ids in ([],["B2026-0627"],["B2026-0560","B2026-0627"],
+                    ["B2026-0627","B2026-9999"]):
+            with self.assertRaises(ValueError):
+                _validate_contractor_flow(values,ids)
+        self.assertEqual(_clean_contractor_text(values["B2026-0627"]),"KNS CONSTRUCTION INC.")
+        self.assertEqual(_clean_contractor_text(values["B2026-0560"]),"CNR CONSTRUCTION IDAHO, LLC")
+        self.assertEqual(_clean_contractor_text(""),"")
