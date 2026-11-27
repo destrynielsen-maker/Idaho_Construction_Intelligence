@@ -36,6 +36,9 @@ jobs:
         with:
           name: ${{ matrix.control == 'delayed' && 'intentionally-absent' || format('preview-{0}-{1}-{2}',github.run_id,github.run_attempt,matrix.control) }}
           path: ${{ runner.temp }}/scout-pages-first
+      - name: Wait for artifact propagation
+        if: steps.probe.outcome == 'failure'
+        run: sleep 12
       - name: Retry uploaded artifact lookup
         if: steps.probe.outcome == 'failure'
         uses: actions/download-artifact@v4
