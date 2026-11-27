@@ -70,3 +70,88 @@ assert len(seen)==49
 permits, conflicts = review_candidates(all_rows)
 print(json.dumps({'review_only': True, 'tracker_candidates': len(permits), 'classifier_qualifying': sum(p.qualifies for p in permits.values()), 'classification_review_flags': conflicts}, indent=2), flush=True)
 assert len(permits)==49
+
+# Read-only integration replay on the ledger in this exact candidate tree.
+# A conflict is reported as a release blocker, never silently suppressed.
+from copy import deepcopy
+from tempfile import TemporaryDirectory
+from idaho_permits.storage import load_permits, save_permits
+from idaho_permits.dashboard import write_public_data
+from idaho_permits.feeds import write_all_feeds
+from xml.etree import ElementTree as ET
+
+ledger = load_permits(Path("data/permits.json"))
+original = {k: p.to_dict() for k, p in ledger.items()}
+timestamp = "2026-11-27T00:00:00+00:00"
+def append_only(existing, batch):
+    result = deepcopy(existing)
+    for k, p in batch.items():
+        if k in result:
+            old = result[k]
+            if old.raw != p.raw or old.issued_date != p.issued_date:
+                raise ValueError("existing identity has conflicting source evidence")
+            continue
+        q = deepcopy(p)
+        q.first_seen_at = q.last_seen_at = timestamp
+        result[k] = q
+    return result
+
+assert not set(ledger).intersection(permits), "existing county identities require reconciliation"
+combined = append_only(ledger, permits)
+assert len(combined) == len(ledger) + len(permits)
+assert {k: combined[k].to_dict() for k in ledger} == original
+# Exact replay and partial replay cannot remove or change historical records.
+for batch in (permits, dict(list(permits.items())[:19]), {}):
+    replay = append_only(combined, batch)
+    assert {k: p.to_dict() for k,p in replay.items()} == {k: p.to_dict() for k,p in combined.items()}
+# Conflicting re-observation is a failure, not an overwrite.
+bad = deepcopy(next(iter(permits.values())))
+bad.raw["description"] = "conflicting observation"
+try:
+    append_only(combined, {bad.key: bad})
+except ValueError:
+    pass
+else:
+    raise AssertionError("conflicting evidence accepted")
+
+def outputs(root, records):
+    write_public_data(root, list(records.values()), [], timestamp)
+    write_all_feeds(root / "feeds", list(records.values()), "https://example.invalid/")
+    published = json.loads((root / "data" / "permits.json").read_text())["permits"]
+    builders = json.loads((root / "data" / "builders.json").read_text())
+    feeds = {}
+    for file in (root / "feeds").glob("*.xml"):
+        entries = ET.parse(file).findall("./channel/item")
+        feeds[file.name] = {e.findtext("guid"): (e.findtext("title"), e.findtext("link"), e.findtext("description")) for e in entries}
+        assert len(entries) == len(feeds[file.name])
+    return {p["key"]: p for p in published}, {b["contractor"]: b for b in builders}, feeds
+
+with TemporaryDirectory() as tmp:
+    root = Path(tmp)
+    save_permits(root/"ledger.json", list(combined.values()), timestamp)
+    restored = load_permits(root/"ledger.json")
+    assert {k:p.to_dict() for k,p in restored.items()} == {k:p.to_dict() for k,p in combined.items()}
+    before, builders_before, feeds_before = outputs(root/"before", ledger)
+    after, builders_after, feeds_after = outputs(root/"after", combined)
+    new_qual = {k:p for k,p in permits.items() if p.qualifies}
+    assert set(after) - set(before) == set(new_qual)
+    assert all(after[k] == p for k,p in before.items())
+    for name in set(builders_before) | set(builders_after):
+        a, b = builders_before.get(name, {}), builders_after.get(name, {})
+        new = [p for p in new_qual.values() if p.contractor == name]
+        assert b.get("count", 0) - a.get("count", 0) == len(new)
+        assert b.get("score_total", 0) - a.get("score_total", 0) == sum(p.score for p in new)
+        assert abs(b.get("valuation_total", 0) - a.get("valuation_total", 0) - sum(p.valuation or 0 for p in new)) < .01
+    assert len(feeds_before) == len(feeds_after) == 5
+    for name in feeds_before:
+        a,b = feeds_before[name], feeds_after[name]
+        assert all(b[k] == a[k] for k in a.keys() & b.keys())
+        assert set(b) - set(a) <= set(new_qual)
+        assert len(set(a) - set(b)) <= len(set(b) - set(a))
+print(json.dumps({"review_only": True, "historical_preserved": len(ledger),
+    "candidate_count":len(permits), "hypothetical_qualifying":len(new_qual),
+    "replay_and_partial_preservation":True, "builder_delta_verified":True,
+    "rss_delta_verified":True, "release_blockers": [
+        "automatic report discovery not verified",
+        "source classification conflicts require review" if conflicts else "final production acceptance outstanding"
+    ]}, indent=2), flush=True)
