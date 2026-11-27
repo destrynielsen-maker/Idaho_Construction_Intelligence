@@ -3,17 +3,30 @@ import json
 from decimal import Decimal
 from pathlib import Path
 from idaho_permits.county_intake import read_batch
-from idaho_permits.twin_falls_county_pdf import fetch_reports, parse_pdf
+import requests
+from idaho_permits.twin_falls_county_pdf import official, parse_pdf
 
 def norm(s):
     return "".join(c for c in s.upper() if c.isalnum())
 
 seen=set()
-for month,url,content in fetch_reports():
-    records=parse_pdf(content,month,url)
+# Extraction acceptance is independent of report-index discovery. The index
+# returned HTTP 406 in run 45986290641; do not retry or bypass it here.
+# These exact, previously publisher-linked PDFs are independently accessible
+# and were reconciled successfully by review_twin_falls_county_sources.py.
+# A successful extraction here does NOT demonstrate automated discovery.
+print("REVIEW ONLY: known public PDF links; automated index discovery remains blocked (HTTP 406).",flush=True)
+for month,count in [("2026-09",30),("2026-10",19)]:
     expected_path=Path("tests/fixtures")/f"twin_falls_county_{month}.csv"
-    assert expected_path.exists(), "new publisher month needs independent reconciliation"
-    expected={r["permit_number"]:r for r in read_batch(expected_path,{"2026-09":30,"2026-10":19}[month]).values()}
+    expected={r["permit_number"]:r for r in read_batch(expected_path,count).values()}
+    urls={r["source_url"] for r in expected.values()}
+    assert len(urls)==1
+    url=urls.pop()
+    assert official(url)
+    response=requests.get(url,timeout=40)
+    response.raise_for_status()
+    assert official(response.url) and response.content.startswith(b"%PDF")
+    records=parse_pdf(response.content,month,response.url)
     assert set(expected)==set(records) and not seen.intersection(records)
     seen.update(records)
     differences=[]
