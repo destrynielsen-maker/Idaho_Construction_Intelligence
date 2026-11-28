@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 08:24:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:55:56 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -927,6 +927,12 @@
       <guid isPermaLink="false">ID:MOSCOW:BLD2026-1032</guid>
     </item>
     <item>
+      <title>[20] Twin Falls: New single-family building — 2093 Harrison St S</title>
+      <link>https://www.tfid.org/Archive/ViewFile/Item/3493#page=6</link>
+      <description>SINGLE_FAMILY | Jensen &amp; Jensen Construction | 331,429</description>
+      <guid isPermaLink="false">ID:TWIN FALLS:26-2918</guid>
+    </item>
+    <item>
       <title>[22] Moscow: New Single Family Residential — 1130 CHELSEA CT</title>
       <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/558</link>
       <description>SINGLE_FAMILY | Contractor unknown | 1,340,066</description>
@@ -1065,6 +1071,18 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-00623</guid>
     </item>
     <item>
+      <title>[20] Twin Falls: New single-family building — 995 Siphon St</title>
+      <link>https://www.tfid.org/Archive/ViewFile/Item/3493#page=6</link>
+      <description>SINGLE_FAMILY | Western Sky Homes | 352,936</description>
+      <guid isPermaLink="false">ID:TWIN FALLS:26-2908</guid>
+    </item>
+    <item>
+      <title>[20] Twin Falls: New single-family building — 3148 Scorpio Lane</title>
+      <link>https://www.tfid.org/Archive/ViewFile/Item/3493#page=6</link>
+      <description>SINGLE_FAMILY | R &amp; N Faught | 331,839</description>
+      <guid isPermaLink="false">ID:TWIN FALLS:26-3003</guid>
+    </item>
+    <item>
       <title>[15] Post Falls: New Single Family Residential — 3614 N MAY ELLA LN, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>SINGLE_FAMILY | Contractor unknown | 409,351</description>
@@ -1167,6 +1185,12 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-01753</guid>
     </item>
     <item>
+      <title>[20] Twin Falls: New single-family building — 572 Brads Pl</title>
+      <link>https://www.tfid.org/Archive/ViewFile/Item/3493#page=6</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | 281,427</description>
+      <guid isPermaLink="false">ID:TWIN FALLS:26-2976</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR | LH Homes LLC — 24990 [TEMP] N Ellington</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | L H HOMES LLC | 577,899</description>
@@ -1183,30 +1207,6 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29841749</link>
       <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:268686</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ ATTACHED GARAGE AND RV BAY — 13340 ROUND ROCK CT, Nampa   836510000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | TAMARACK CONSTRUCTION | 392,449</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0809</guid>
-    </item>
-    <item>
-      <title>[20] Hailey: New single-family building — 181 Sunbeam St</title>
-      <link>https://haileycityhall.org/wp-content/uploads/2026/11/10-October-Detailed-Month_Year-End-Final.pdf#page=1</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 722,027</description>
-      <guid isPermaLink="false">ID:HAILEY:26-193</guid>
-    </item>
-    <item>
-      <title>[20] Hayden: SINGLE FAMILY RESIDENCE — 969 E STEEPLE CHASE RD</title>
-      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
-      <description>SINGLE_FAMILY | ANTHEM PACIFIC HOMES LLC | 424,896</description>
-      <guid isPermaLink="false">ID:HAYDEN:PB26-0394</guid>
-    </item>
-    <item>
-      <title>[20] Hayden: SINGLE FAMILY RESIDENCE — 1030 E STEEPLE CHASE RD</title>
-      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
-      <description>SINGLE_FAMILY | ANTHEM PACIFIC HOMES LLC | 470,165</description>
-      <guid isPermaLink="false">ID:HAYDEN:PB26-0434</guid>
     </item>
   </channel>
 </rss>

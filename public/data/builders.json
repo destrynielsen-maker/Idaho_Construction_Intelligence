@@ -138,6 +138,18 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Hayden Homes Idaho LLC",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 2634674.58
+  },
+  {
+    "contractor": "WOLVERTON HOMES LLC",
+    "count": 11,
+    "score_total": 220,
+    "valuation_total": 3444437.8099999996
+  },
+  {
     "contractor": "ALTURAS CONSTRUCTION LLC",
     "count": 10,
     "score_total": 200,
@@ -220,12 +232,6 @@
     "count": 5,
     "score_total": 100,
     "valuation_total": 0
-  },
-  {
-    "contractor": "Hayden Homes Idaho LLC",
-    "count": 5,
-    "score_total": 100,
-    "valuation_total": 843212.6100000001
   },
   {
     "contractor": "Highland Homes LLC",
@@ -430,6 +436,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 919147.89
+  },
+  {
+    "contractor": "Zernickow Family Investments, Inc",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 909123.38
   },
   {
     "contractor": "SCHWEITZER ENGINEERING LABORATORIES INC",
@@ -814,6 +826,18 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 441630.32999999996
+  },
+  {
+    "contractor": "Josh Ruf Custom Homes LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 619549.8
+  },
+  {
+    "contractor": "TKO Homes, LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 551572.6
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -1216,6 +1240,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 755945.46
+  },
+  {
+    "contractor": "Better Homes Construction",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 560843.3
   },
   {
     "contractor": "Stetson Homes Inc",
@@ -2254,5 +2284,35 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 420210.24
+  },
+  {
+    "contractor": "CA Homes LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 272216.0
+  },
+  {
+    "contractor": "Highline Homes, LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342401.2
+  },
+  {
+    "contractor": "Jensen & Jensen Construction",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331428.9
+  },
+  {
+    "contractor": "R & N Faught",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 331839.45
+  },
+  {
+    "contractor": "Western Sky Homes",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 352936.5
   }
 ]
