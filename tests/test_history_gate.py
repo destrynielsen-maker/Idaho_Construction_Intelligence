@@ -21,7 +21,7 @@ FROZEN = WORKTREE / 'data/permits.json'
 EXPECTED_COLLECTORS = (
     'Boise', 'Boise Issued Building Permits', 'Eagle', 'Canyon County', 'Caldwell',
     "Coeur d'Alene", 'Kootenai County', 'Post Falls', 'Meridian', 'Nampa',
-    'Garden City', 'Hailey', 'Blackfoot', 'Moscow', 'Bannock County', 'Hayden', 'Ada County',
+    'Garden City', 'Hailey', 'Blackfoot', 'Moscow', 'Bannock County', 'Hayden', 'Ada County', 'Twin Falls',
 )
 
 def keyed(rows):

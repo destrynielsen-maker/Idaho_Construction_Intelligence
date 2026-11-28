@@ -18,7 +18,7 @@ SOURCES = [
  {'market':'Middleton','grade':'B','mode':'rep-research','url':'https://www4.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=242&original_contactID=0&original_iid=0','use':'Building permit portal'},
  {'market':'Post Falls','grade':'A+','mode':'automated-gis','url':'https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17','use':'Official rolling issued building-permit GIS with permit number, issued date, valuation, work type, building type, address and status; ground-up SFR, duplex/townhouse/multifamily and commercial only'},
  {'market':'Post Falls OpenGov','grade':'B+','mode':'rep-research','url':'https://postfallsid.portal.opengov.com/','use':'Building/planning/engineering project research'},
- {'market':'Twin Falls','grade':'A','mode':'rep-report','url':'https://www.tfid.org/214/Building-Permit-Information','use':'Dashboard, current commercial permits and monthly lists'},
+ {'market':'Twin Falls','grade':'A','mode':'automated-pdf','url':'https://www.tfid.org/Archive/48','use':'City monthly issued permit reports for explicit detached new single-family dwellings'},
  {'market':'Pocatello','grade':'B+','mode':'rep-research','url':'https://poca.csqrcloud.com/community-etrakit/','use':'Permit/project/contractor/map search'},
  {'market':'Idaho Falls','grade':'B','mode':'rep-research','url':'https://cw.idahofalls.gov/','use':'Cityworks permit/project research'},
  {'market':'Garden City','grade':'A','mode':'automated-report','url':'https://gardencityidaho.org/departments/development-services/activity-reports/','use':'Issued CSV records for explicit new commercial and single-family construction'},

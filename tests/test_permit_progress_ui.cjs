@@ -68,6 +68,20 @@ test('Hayden issue evidence requires the city report flag and appears in the lea
   assert.equal(context.contractorEvidence({ ...permit, contractor: null }), 'Not reported');
 });
 
+test('Twin Falls issue evidence and attribution stay with the city issuer', () => {
+  const { context } = runtime();
+  const permit = {
+    jurisdiction: 'Twin Falls', permit_number: 'BP26-FIXTURE', issued_date: '2026-10-29',
+    source_name: 'City of Twin Falls monthly issued building permit report', contractor: 'Example Builder',
+    raw: { issue_date_verified: true, contractor_role: 'City-reported contractor' },
+  };
+  assert.equal(context.evidence(permit), 'issued');
+  assert.match(context.csvText([permit]), /"BP26-FIXTURE","2026-10-29","issued","2026-10-29"/);
+  assert.equal(context.contractorEvidence(permit), 'Source-labeled: City-reported contractor');
+  assert.equal(context.evidence({ ...permit, raw: {} }), 'unverified');
+  assert.equal(context.evidence({ ...permit, jurisdiction: 'Twin Falls County' }), 'unverified');
+});
+
 test('building stage filter and CSV distinguish approval and issuance', async () => {
   const { context, control, download } = runtime(async () => ({
     ok: true, json: async () => ({ sources: [source], permits: [approval, issuance, planning] }),

@@ -19,6 +19,7 @@ from .collectors.moscow import MoscowPermitCollector
 from .collectors.nampa import NampaPermitCollector
 from .collectors.post_falls import PostFallsPermitCollector
 from .collectors.report_pages import MeridianCollector
+from .collectors.twin_falls_city import TwinFallsCityPermitCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .progress import PermitProgress
@@ -43,7 +44,7 @@ def _verify_application_progress(issuer, result):
             raise ValueError('Application progress source returned evidence outside its building application scope')
 
 
-COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector(),GardenCityPermitCollector(),HaileyPermitCollector(),BlackfootPermitCollector(),MoscowPermitCollector(),BannockCountyPermitCollector(),HaydenPermitCollector(),AdaCountyApplicationCollector()]
+COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector(),GardenCityPermitCollector(),HaileyPermitCollector(),BlackfootPermitCollector(),MoscowPermitCollector(),BannockCountyPermitCollector(),HaydenPermitCollector(),AdaCountyApplicationCollector(),TwinFallsCityPermitCollector()]
 
 def _site_base_url():
     x=os.getenv('SITE_BASE_URL','').strip()
