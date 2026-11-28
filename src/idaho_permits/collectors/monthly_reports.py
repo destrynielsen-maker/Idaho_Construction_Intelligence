@@ -127,20 +127,20 @@ class MonthlyReportCollector:
             if period is None or period > today:
                 continue
             url = self.report_url(url)
-            if period in reports and reports[period] != url:
-                raise ValueError('Conflicting publisher report links for one month')
-            reports[period] = url
+            reports.setdefault(period, set()).add(url)
         if not reports:
             raise ValueError('No recognized monthly permit reports on publisher index')
 
         selected = sorted(reports, reverse=True)[:2]
+        if any(len(reports[period]) != 1 for period in selected):
+            raise ValueError('Conflicting publisher report links for one month')
         permits, observed = [], {}
         for period in selected:
             wait = self.crawl_delay - (monotonic() - started)
             if wait > 0:
                 sleep(wait)
             started = monotonic()
-            url = reports[period]
+            (url,) = reports[period]
             try:
                 data = _get(url)
             except HTTPError as error:

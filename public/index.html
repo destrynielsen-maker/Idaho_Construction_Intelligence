@@ -218,6 +218,7 @@ function evidence(p){
   if(src==='Canyon County DSD Building Permit Tracker')return 'application received';
   if(src==='Eagle iWorQ Permit Portal'||src==='City of Eagle weekly building permit report')return raw.issue_date_verified===true?'issued':'unverified';
   if(src==='City of Hayden issued building permit report')return p.jurisdiction==='Hayden'&&raw.issue_date_verified===true?'issued':'unverified';
+  if(src==='City of Twin Falls monthly issued building permit report')return p.jurisdiction==='Twin Falls'&&raw.issue_date_verified===true?'issued':'unverified';
   if(src==='City of Boise Accela Citizen Access')return raw.source_issue_date_authoritative===true?'issued':'unverified';
   if(src==='Nampa weekly permit activity report'){
     const dates=[...(raw.context||'').matchAll(/Issue Date:\s*(\d{1,2}\/\d{1,2}\/20\d{2})/gi)];
@@ -233,6 +234,7 @@ function contractorEvidence(p){
   if(!p.contractor)return 'Not reported';
   if(['registered building contractor','general contractor','builder','Registered Building Contractor / Associated Company','City report Contractor field; GC unverified'].includes(label))return 'Source-labeled: '+label;
   if(p.source_name==='City of Hayden issued building permit report'&&p.jurisdiction==='Hayden'&&label==='City-reported contractor')return 'Source-labeled: '+label;
+  if(p.source_name==='City of Twin Falls monthly issued building permit report'&&p.jurisdiction==='Twin Falls'&&label==='City-reported contractor')return 'Source-labeled: '+label;
   if(p.source_name==='Canyon County DSD Building Permit Tracker')return 'Application-reported contractor; not verified GC';
   if(p.source_name==="Coeur d'Alene Issued Permits")return 'City report Contractor field; GC unverified';
   if(p.source_name==='City of Boise Accela Citizen Access')return 'Listed licensed professional; role unverified';
@@ -404,6 +406,7 @@ const sourceProfiles={
   "Coeur d'Alene":['coeur-dalene','Coeur d’Alene','Issued building permits','City of Coeur d’Alene building permits'],
   'Kootenai County':['kootenai-county','Kootenai County','Issued building permits','Unincorporated Kootenai County weekly reports'],
   'Hayden':['hayden','Hayden','Issued building permits','City of Hayden monthly new-building permit reports'],
+  'Twin Falls':['twin-falls-city','City of Twin Falls','Issued building permits','City of Twin Falls monthly issued detached single-family homes'],
   'Post Falls':['post-falls','Post Falls','Issued building permits','City of Post Falls rolling 90-day building permit window'],
   'Meridian':['meridian','Meridian','Issued building permits','City of Meridian building permit reports'],
   'Nampa':['nampa','Nampa','Issued building permits','City of Nampa weekly building permit reports'],
