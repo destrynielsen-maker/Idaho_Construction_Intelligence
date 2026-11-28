@@ -106,11 +106,16 @@ def verify_pdf(path):
     from eagle_report_parser import parse_report
     result = parse_report(path)
     counts = {}
+    source_categories = {}
     for row in result["records"]:
         kind = row["candidate_type"] or "other"
         counts[kind] = counts.get(kind, 0) + 1
+        # Aggregate only category labels, not owner, address or contractor information.
+        pair = (row["report_type"], row["use_class"])
+        source_categories[pair] = source_categories.get(pair, 0) + 1
     return {k:v for k,v in result.items() if k!="records"} | {
         "bytes":len(raw), "candidate_counts":counts,
+        "source_category_counts":[{"report_type":k[0],"use_class":k[1],"count":v} for k,v in sorted(source_categories.items())],
         "candidate_valuation":sum(r["valuation"] for r in result["records"] if r["candidate_type"])}
 
 

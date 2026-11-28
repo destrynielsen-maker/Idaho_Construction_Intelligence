@@ -63,6 +63,21 @@ def compare_outputs(root, expected):
 def main(source):
     payload=json.loads(Path(source).read_text())
     result=parse_batch(payload)
+    # Run the real entrypoint using captured official report evidence through
+    # the identical subprocess interface, without another network request.
+    # The production entrypoint can also acquire live; acquisition was just tested.
+    import os
+    import subprocess
+    from idaho_permits.collectors import eagle_reports
+    with patch.dict(os.environ,{"EAGLE_REPORT_FALLBACK":"1"}):
+        def captured(command,**kwargs):
+            assert command[1]==str(eagle_reports.SCRIPT) and command[2]=='--output'
+            Path(command[3]).write_bytes(Path(source).read_bytes())
+            return subprocess.CompletedProcess(command,0,"","")
+        with patch.object(eagle_reports.subprocess,"run",side_effect=captured):
+            through_entry=EaglePermitCollector().collect()
+    assert [p.to_dict() for p in through_entry.permits]==[p.to_dict() for p in result.permits]
+    assert through_entry.status==result.status and through_entry.latest_issued_date==result.latest_issued_date
     before=ledger(Path("data/permits.json"))
     oldpub=public(Path("public/data/permits.json"))
     expected={p.key:p.to_dict() for p in result.permits if p.key not in before}
