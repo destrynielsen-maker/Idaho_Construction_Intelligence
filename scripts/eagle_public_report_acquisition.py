@@ -8,7 +8,9 @@ import json
 import re
 import tempfile
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urljoin, parse_qs
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from urllib.robotparser import RobotFileParser
 
 import requests
@@ -16,11 +18,11 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 HOST = "lf.cityofeagle.org"
 ROOT = "https://" + HOST
-FOLDER = ROOT + "/WebLink/Browse.aspx?id=757930&dbid=0&repo=CityofEagle"
+FOLDER = ROOT + "/WebLink/Browse.aspx?id=100694&dbid=0&repo=CityofEagle"
 PUBLIC_ENTRY = ROOT + "/WebLink/?dbid=0&repo=CityofEagle"
 UA = "EaglePermitReportResearch"
 RESTRICT = re.compile(r"verify (?:that )?you(?:'re| are) not a robot|human verification|captcha|access denied|sign in to continue|login required|authentication required", re.I)
-REPORT = re.compile(r"(?:11[./_-](?:09|9|13|16|20|23|27)[./_-](?:2026|26)|nov(?:ember)?\s+(?:9|13|16|20|23|27)\b)", re.I)
+REPORT = re.compile(r"^Building Permit Report\s*[-–]\s*(\d{1,2})[-./](\d{1,2})[-./](\d{4})$", re.I)
 
 def check_robots():
     r = requests.get(ROOT + "/robots.txt", headers={"User-Agent": UA}, timeout=15, allow_redirects=False)
@@ -37,6 +39,65 @@ def check_robots():
 def allowed_url(url, robots):
     u = urlsplit(url)
     return u.scheme == "https" and u.netloc == HOST and (robots is None or robots.can_fetch(UA, url))
+
+def report_date(label):
+    m=REPORT.fullmatch(label.strip())
+    if not m: return None
+    try: return datetime(int(m[3]),int(m[1]),int(m[2])).date()
+    except ValueError: return None
+
+def public_href(url, robots, kind):
+    if not allowed_url(url, robots): return False
+    u=urlsplit(url)
+    q=parse_qs(u.query)
+    return (u.path.lower()=="/weblink/"+kind.lower()+".aspx"
+            and q.get("repo")==["CityofEagle"] and q.get("dbid")==["0"]
+            and len(q.get("id",[]))==1 and q["id"][0].isdigit())
+
+def discover_reports(page, guard, robots):
+    """Follow only visible report-related directory links from the supplied parent."""
+    today=datetime.now(ZoneInfo("America/Boise")).date()
+    cutoff=today-timedelta(days=45)
+    years={str(today.year), str(cutoff.year)}
+    months=set()
+    for i in range(46):
+        day=today-timedelta(days=i)
+        months.add(day.strftime("%B").lower())
+        months.add(day.strftime("%b").lower())
+        months.add(str(day.month))
+        months.add(f"{day.month:02}")
+    queue=[FOLDER]; seen=set(); reports={}
+    while queue and len(seen)<14:
+        url=queue.pop(0)
+        id_=parse_qs(urlsplit(url).query).get("id",[""])[0]
+        if id_ in seen: continue
+        seen.add(id_)
+        page.goto(url,wait_until="domcontentloaded",timeout=30000)
+        page.wait_for_timeout(1500)
+        guard()
+        links=[]
+        for fr in page.frames:
+            links.extend(fr.locator("a[href]").evaluate_all("(els)=>els.filter(e=>e.getClientRects().length).map(e=>({label:(e.innerText||e.textContent||'').trim().replace(/\\s+/g,' '),href:e.href}))"))
+        dirs=[]
+        for l in links:
+            label=l["label"]; href=l["href"]
+            if not label or len(label)>100: continue
+            d=report_date(label)
+            if d and cutoff<=d<=today and public_href(href,robots,"DocView"):
+                reports[href]=(d,label,href,page.url)
+            elif public_href(href,robots,"Browse"):
+                low=label.lower().strip()
+                match=("building permit report" in low or low in years or low in months
+                    or any(re.fullmatch(r"(?:\d{1,2}\s*[-. ]\s*)?"+re.escape(m)+r"(?:\s+20\d{2})?",low) for m in months)
+                    or bool(re.fullmatch(r"(?:building permit reports?\s*[-–]?\s*)?(?:"+"|".join(years)+r")",low)))
+                if match:
+                    dirs.append((label,href))
+                    if parse_qs(urlsplit(href).query).get("id",[""])[0] not in seen: queue.append(href)
+        print(json.dumps({"directory":page.url,"report_folders":dirs,"dated_reports":len(reports)}),flush=True)
+    result=sorted(reports.values(),reverse=True)
+    if len(result)<2:
+        raise RuntimeError("Parent directory did not expose two recent weekly reports; inspect directory navigation evidence")
+    return result[:2]
 
 def verify_pdf(path):
     raw = path.read_bytes()
@@ -105,20 +166,16 @@ def main():
                         continue
             return found
         try:
-            page.goto(FOLDER, wait_until="domcontentloaded", timeout=30000)
-            # Allow the ordinary public UI to render; no repeated requests.
-            page.wait_for_timeout(3500)
+            discovered = discover_reports(page, guard, robots)
+            print(json.dumps({"discovered_reports":[{"date":d.isoformat(),"title":l,"url":u} for d,l,u,f in discovered]}),flush=True)
+            # Prove the parent directory reaches the same PDF, using the latest discovered link.
+            report_day, report_title, report_href, report_folder = discovered[0]
+            page.goto(report_folder,wait_until="domcontentloaded",timeout=30000)
+            page.wait_for_timeout(1500)
             guard()
-            found = entries()
-            print(json.dumps({"public_folder":page.url,"report_labels":sorted(set(x[0] for x in found))}))
-            if not found:
-                raise RuntimeError("no dated November reports visible in normal folder view")
-            # Select a single visible document for each distinct period, newest first.
-            selected = []
-            for label, item in found:
-                if any(label == x[0] for x in selected):
-                    continue
-                selected.append((label,item))
+            selected = [(label,item) for label,item in entries() if label==report_title and public_href(urljoin(page.url,item.get_attribute("href") or ""),robots,"DocView")]
+            if len(selected)!=1:
+                raise RuntimeError("discovered report is not a unique visible document link")
             acquired = []
             downloads = []
             pdf_responses = []
@@ -206,7 +263,10 @@ def main():
                 dest.write_bytes(pdf_responses[0].body())
             else:
                 raise RuntimeError("public viewer did not deliver PDF")
-            acquired.append({"visible_title":label,**verify_pdf(dest)})
+            parsed=verify_pdf(dest)
+            if parsed["period_start"]!=report_day.isoformat():
+                raise RuntimeError("document period does not match directory label")
+            acquired.append({"visible_title":label,"document_url":report_href,**parsed})
             print(json.dumps({"acquired":acquired,"production_writes":0}))
             if not acquired:
                 raise RuntimeError("no official report obtained")
