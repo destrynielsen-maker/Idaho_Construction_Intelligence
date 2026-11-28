@@ -1,6 +1,5 @@
 'use strict';
 // Read-only preview. No private endpoints, credentials, export uploads, or tracker writes.
-const { chromium } = require('playwright');
 const HOST = 'https://nampaid-energovpub.tylerhost.net';
 const SEARCH = HOST + '/Apps/SelfService#/search';
 const TYPE = 'Residential (New Single Family Dwelling, Townhouse, and/or Duplex)';
@@ -37,6 +36,28 @@ function mergeDetail(row, detail) {
   const distinct=[...new Set(detail.contractors.map(c=>c.trim()).filter(Boolean))];
   return {...row, issued:iso(row.issued),description:detail.scope,contractor:distinct.length===1?distinct[0]:null};
 }
+class DetailUnavailableError extends Error {}
+
+async function collectVerified(rows, readDetail, isRestricted) {
+  const verified=[];
+  let detailUnavailable=0;
+  for (const row of rows) {
+    if (isRestricted()) throw Error('portal access restricted');
+    let detail;
+    try {
+      detail=await readDetail(row);
+    } catch (error) {
+      if (isRestricted()) throw Error('portal access restricted');
+      if (!(error instanceof DetailUnavailableError)) throw error;
+      detailUnavailable++;
+      continue;
+    }
+    if (isRestricted()) throw Error('portal access restricted');
+    verified.push(mergeDetail(row,detail));
+  }
+  if (!verified.length) throw Error('no case details verified');
+  return {rows:verified,detailUnavailable};
+}
 async function guard(page) {
   const url=new URL(page.url());
   if(url.origin!==HOST)throw Error('unexpected navigation');
@@ -44,6 +65,7 @@ async function guard(page) {
   if(/access denied|human verification|just a moment|captcha/i.test(title))throw Error('portal access and verification gate');
 }
 async function run(from,to) {
+  const { chromium } = require('playwright');
   const period=windowOf(from,to);
   const browser=await chromium.launch({headless:true,...(process.env.NAMPA_USE_SYSTEM_CHROME==='1'?{channel:'chrome'}:{})});
   try {
@@ -94,33 +116,37 @@ async function run(from,to) {
       return {id:a.textContent.trim(),url:a.href};
     }));
     validate(rows,count,period);
-    const out=[];
-    for(const r of rows) {
-      await page.goto(r.url,{waitUntil:'domcontentloaded'}); await guard(page);
-      await page.getByRole('tab',{name:'Contacts',exact:true}).waitFor();
-      await page.getByRole('heading',{name:'Permit Number: '+r.id,exact:true}).waitFor();
-      await page.getByText('Description:',{exact:true}).waitFor();
-      const summary=await page.evaluate(()=>{
-        const visible=[...document.querySelectorAll('body *')].filter(e=>e.childElementCount===0&&e.getBoundingClientRect().height);
-        const value=(label)=>{
-          const tags=visible.filter(e=>e.textContent.trim()===label);
-          for(const tag of tags) {
-            let n=tag; for(let i=0;i<3&&n;i++,n=n.parentElement) {
-              const s=n.innerText.split(/\n/).map(x=>x.trim()).filter(Boolean), at=s.indexOf(label);
-              if(at>=0&&s[at+1]&&s[at+1]!==label)return s[at+1];
-            }
-          } return '';
-        };
-        return {scope:value('Description:'),issued:value('Issue Date:'),id:visible.map(e=>e.textContent.trim()).find(t=>/^RES-\d+-20\d{2}$/.test(t))||''};
-      });
-      await page.getByRole('tab',{name:'Contacts',exact:true}).click();
-      await page.getByRole('columnheader',{name:'Company',exact:true}).waitFor();
-      const contractors=await page.getByRole('row',{name:/Type Registered Building Contractor Company/i}).evaluateAll(rs=>rs.map(r=>r.querySelectorAll('td')[1]?.innerText||''));
-      if(restricted)throw Error('portal access restricted');
-      out.push(mergeDetail(r,{...summary,contractors}));
-    }
-    return {scope:TYPE,period,count,rows:out};
+    const reviewed=await collectVerified(rows,async r=>{
+      const issue=page.locator('#label-PermitDetail-IssuedDate').getByText(/^\d{2}\/\d{2}\/20\d{2}$/);
+      const scope=page.locator('#label-PermitDetail-Description').filter({hasText:/\S/});
+      try {
+        await page.goto(r.url,{waitUntil:'domcontentloaded'});
+        await guard(page);
+        await page.getByRole('heading',{name:'Permit Number: '+r.id,exact:true}).waitFor();
+        await issue.waitFor();
+        await scope.waitFor();
+      } catch (error) {
+        if (error.name!=='TimeoutError') throw error;
+        await guard(page);
+        const heading=await page.getByRole('heading',{name:/^Permit Number:/}).allTextContents();
+        if (heading.some(text=>/\bRES-\d+-20\d{2}\b/.test(text)&&!text.includes(r.id)))
+          throw Error('detail identity, date or new-build scope not proved');
+        throw new DetailUnavailableError('case details unavailable');
+      }
+      const summary={scope:(await scope.innerText()).trim(),issued:(await issue.innerText()).trim(),id:r.id};
+      let contractors=[];
+      try {
+        await page.getByRole('tab',{name:'Contacts',exact:true}).click({timeout:3000});
+        await page.getByRole('columnheader',{name:'Company',exact:true}).waitFor({timeout:3000});
+        contractors=await page.getByRole('row',{name:/Type Registered Building Contractor Company/i}).evaluateAll(rs=>rs.map(r=>r.querySelectorAll('td')[1]?.innerText||''));
+      } catch (error) {
+        if (error.name!=='TimeoutError') throw error;
+        await guard(page);
+      }
+      return {...summary,contractors};
+    },()=>restricted);
+    return {scope:TYPE,period,count:reviewed.rows.length,observedCount:count,...reviewed};
   } finally {await browser.close();}
 }
-module.exports={iso,windowOf,validate,mergeDetail,TYPE};
-if(require.main===module)run(process.argv[2],process.argv[3]).then(x=>console.log(JSON.stringify({scope:x.scope,period:x.period,count:x.count,rows:process.argv.includes('--full')?x.rows:x.rows.map(r=>({id:r.id,issued:r.issued,contractor:r.contractor}))},null,2))).catch(e=>{console.error(e.message);process.exitCode=1;});
+module.exports={iso,windowOf,validate,mergeDetail,collectVerified,DetailUnavailableError,TYPE};
+if(require.main===module)run(process.argv[2],process.argv[3]).then(x=>console.log(JSON.stringify({...x,rows:process.argv.includes('--full')?x.rows:x.rows.map(r=>({id:r.id,issued:r.issued,contractor:r.contractor}))},null,2))).catch(e=>{console.error(e.message);process.exitCode=1;});

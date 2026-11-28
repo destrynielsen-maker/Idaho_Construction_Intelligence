@@ -1,7 +1,7 @@
 'use strict';
 const {test}=require('node:test');
 const a=require('node:assert/strict');
-const {iso,windowOf,validate,mergeDetail,TYPE}=require('./probe.cjs');
+const {iso,windowOf,validate,mergeDetail,collectVerified,DetailUnavailableError,TYPE}=require('./probe.cjs');
 const period={lo:'2026-11-23',hi:'2026-11-27'};
 const r={id:'RES-19147-2026',url:'https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/67c45e8c-0403-4a93-b806-7c66d943b526',issued:'11/24/2026',status:'Issued',type:TYPE,address:'1 TEST WAY'};
 const d={id:r.id,issued:r.issued,scope:'NEW SFD LT14 BLK01 STODDARD CROSSING',contractors:['Example Home LLC']};
@@ -10,3 +10,19 @@ test('guard against empty, partial, duplicate and unbounded queries',()=>{for(co
 test('reject foreign links, dates outside scope and misleading status',()=>{for(const y of [{url:'https://other.invalid/#/permit/fake'},{issued:'11/28/2026'},{status:'Approved - Ready to Issue'},{type:'Trade'}])a.throws(()=>validate([{...r,...y}],1,period));});
 test('does not infer contractor from other roles or from ambiguity',()=>{for(const contractors of [[],['Builder A','Builder B']])a.equal(mergeDetail(r,{...d,contractors}).contractor,null);});
 test('reject restoration, denied identity, invalid calendar dates and overly broad scans',()=>{a.throws(()=>mergeDetail(r,{...d,scope:'NEW SFD - FIRE DAMAGE RESTORATION'}));a.throws(()=>mergeDetail(r,{...d,id:'RES-00000-2026'}));a.throws(()=>iso('02/30/2026'));a.throws(()=>windowOf('01/01/2025','01/08/2025'));});
+test('keeps verified case evidence when another detail is unavailable',async()=>{
+  const unavailable={...r,id:'RES-00001-2026'};
+  const reviewed=await collectVerified([unavailable,r],async row=>{
+    if (row===unavailable) throw new DetailUnavailableError();
+    return d;
+  },()=>false);
+  a.equal(reviewed.detailUnavailable,1);
+  a.deepEqual(reviewed.rows,[mergeDetail(r,d)]);
+});
+test('an access restriction or identity mismatch still invalidates the batch',async()=>{
+  const fail=async()=>{throw new DetailUnavailableError();};
+  await a.rejects(collectVerified([r],fail,()=>false),/no case details verified/);
+  let restricted=false;
+  await a.rejects(collectVerified([r],async()=>{restricted=true;return d;},()=>restricted),/portal access restricted/);
+  await a.rejects(collectVerified([r],async()=>({...d,id:'RES-00001-2026'}),()=>false),/identity/);
+});

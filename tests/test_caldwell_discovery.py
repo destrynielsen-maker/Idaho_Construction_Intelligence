@@ -1,6 +1,6 @@
 import unittest
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import call, patch
 
 from idaho_permits.classify import classify_permit
 from idaho_permits.collectors.caldwell import CaldwellCompassCollector, records_from_page
@@ -50,14 +50,17 @@ class CaldwellCompassTests(unittest.TestCase):
         full = SimpleNamespace(text=HTML, url=BASE_URL)
         with patch('idaho_permits.collectors.caldwell.get', side_effect=[empty, full]) as mocked_get:
             result = CaldwellCompassCollector(year=2026).collect()
-        self.assertEqual(mocked_get.call_count, 2)
+        self.assertEqual(mocked_get.call_args_list, [
+            call(BASE_URL, timeout=60, revalidate=False),
+            call(BASE_URL, timeout=60, revalidate=True),
+        ])
         self.assertEqual(len(result.permits), 4)
         self.assertIn('recovered after 1 empty-response retry', result.note)
 
     def test_fails_closed_after_two_empty_caldwell_pages(self):
         empty = SimpleNamespace(text=EMPTY_HTML, url=BASE_URL)
         with patch('idaho_permits.collectors.caldwell.get', return_value=empty) as mocked_get:
-            with self.assertRaisesRegex(RuntimeError, 'after 2 reads'):
+            with self.assertRaisesRegex(RuntimeError, 'after 2 reads \\(1 tables, 0 Caldwell agency labels'):
                 CaldwellCompassCollector(year=2026).collect()
         self.assertEqual(mocked_get.call_count, 2)
 

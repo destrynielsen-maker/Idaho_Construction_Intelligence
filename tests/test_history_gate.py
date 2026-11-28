@@ -18,6 +18,11 @@ from idaho_permits.storage import load_permits
 
 WORKTREE = Path(__file__).resolve().parents[1]
 FROZEN = WORKTREE / 'data/permits.json'
+EXPECTED_COLLECTORS = (
+    'Boise', 'Boise Issued Building Permits', 'Eagle', 'Canyon County', 'Caldwell',
+    "Coeur d'Alene", 'Kootenai County', 'Post Falls', 'Meridian', 'Nampa',
+    'Garden City', 'Hailey', 'Blackfoot', 'Moscow', 'Bannock County',
+)
 
 def keyed(rows):
     result = {p['key']: p for p in rows}
@@ -65,8 +70,7 @@ class HistoryGateTest(unittest.TestCase):
         collectors=[ReplayCollector(c,self.seed,attempts,omitted,failed) for c in self.originals]
         with patch.object(pipeline,'COLLECTORS',collectors):
             out=pipeline.run(work)
-        self.assertEqual(attempts,[c.name for c in self.originals])
-        self.assertEqual(len(attempts),10)
+        self.assertEqual(tuple(attempts), EXPECTED_COLLECTORS)
         self.assertEqual(hashlib.sha256(FROZEN.read_bytes()).hexdigest(),self.seed_digest)
         return out
 
@@ -115,7 +119,7 @@ class HistoryGateTest(unittest.TestCase):
             for target in ('nampa','eagle'):
                 self.assertIsNone(by_id[target]['observed_records'])
                 self.assertEqual(by_id[target]['collection_outcome'],'error')
-            print('10-source frozen replay:',len(output),'retained;',len(leads),'published;',len(omitted),'omitted preserved;',
+            print(f'{len(EXPECTED_COLLECTORS)}-source frozen replay:',len(output),'retained;',len(leads),'published;',len(omitted),'omitted preserved;',
                    {k:len(v) for k,v in feeds.items()},'source hashes SHA-256',self.seed_digest)
 
     def test_duplicate_ledger_fails_before_any_generated_write(self):

@@ -14,6 +14,11 @@ SOURCES = {
     'Post Falls': ('post-falls', 'Post Falls', 'issued', {'City of Post Falls Building Permits GIS'}),
     'Meridian': ('meridian', 'Meridian', 'issued', {'Meridian permit report'}),
     'Nampa': ('nampa', 'Nampa', 'issued', {'Nampa weekly permit activity report','Nampa permit report'}),
+    'Garden City': ('garden-city', 'Garden City', 'issued', {'Garden City issued building permit CSV'}),
+    'Hailey': ('hailey', 'Hailey', 'issued', {'City of Hailey detailed issued building permit report'}),
+    'Blackfoot': ('blackfoot', 'Blackfoot', 'issued', {'City of Blackfoot issued building permit report'}),
+    'Moscow': ('moscow', 'Moscow', 'issued', {'City of Moscow Monthly Building Permits Issued'}),
+    'Bannock County': ('bannock-county', 'Bannock County', 'issued', {'Bannock County monthly issued building permits'}),
 }
 
 COVERAGE = {
@@ -27,12 +32,18 @@ COVERAGE = {
     'Post Falls': 'City of Post Falls · rolling 90-day building permit window',
     'Meridian': 'City of Meridian · building permit reports',
     'Nampa': 'City of Nampa · weekly building permit reports',
+    'Garden City': 'City of Garden City · issued new commercial and single-family buildings',
+    'Hailey': 'City of Hailey · issued new buildings',
+    'Blackfoot': 'City of Blackfoot · issued detached new homes',
+    'Moscow': 'City of Moscow · issued new single-family and commercial buildings',
+    'Bannock County': 'Bannock County · county-issued new single-family dwellings',
 }
 EASTERN_GAPS = (
     ('bingham-manual', 'Bingham County', 'manual', 'Bingham County · official reports require manual review; not collected here'),
     ('eastern-idaho-issued-gap', 'Eastern Idaho coverage gaps', 'uncovered',
-     'Idaho Falls, Rexburg, Pocatello and Blackfoot city-issued permits not collected here'),
+     'Idaho Falls, Rexburg and Pocatello city-issued permits not collected here'),
 )
+EXPLICIT_REPORT_DATES = {'Meridian','Nampa','Post Falls','Eagle','Garden City','Hailey','Blackfoot','Moscow','Bannock County'}
 
 def prior_status(path: Path):
     try:
@@ -125,7 +136,7 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
         old=previous.get(ident,{})
         observed={p.key:p for p in observations.get(name,()) if p.source_name in source_names}
         state=str(status.get('status','error')).lower()
-        report_date=validated(status.get('latest_issued_date'),today) if name in {'Meridian','Nampa','Post Falls','Eagle'} else None
+        report_date=validated(status.get('latest_issued_date'),today) if name in EXPLICIT_REPORT_DATES else None
         has_evidence=bool(observed or report_date)
         partial=state in {'degraded','stale'} and has_evidence
         succeeded=state=='ok' and has_evidence

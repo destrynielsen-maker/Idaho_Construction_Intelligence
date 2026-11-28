@@ -11,9 +11,10 @@ BROWSER_HEADERS={
     'Accept-Language':'en-US,en;q=0.9',
 }
 
-def get(url, timeout=45, referer=None):
+def get(url, timeout=45, referer=None, *, revalidate=False):
     headers=dict(BROWSER_HEADERS)
     if referer: headers['Referer']=referer
+    if revalidate: headers['Cache-Control']='no-cache'
     r=requests.get(url,timeout=timeout,headers=headers,allow_redirects=True)
     r.raise_for_status()
     return r

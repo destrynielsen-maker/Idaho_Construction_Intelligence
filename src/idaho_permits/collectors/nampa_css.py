@@ -25,6 +25,11 @@ def parse_batch(payload, lo, hi):
     rows = payload.get('rows')
     if not isinstance(rows, list) or not 1 <= len(rows) <= 25 or type(payload.get('count')) is not int or payload['count'] != len(rows):
         raise ValueError('incomplete Civic Access result set')
+    observed = payload.get('observedCount', len(rows))
+    unavailable = payload.get('detailUnavailable', 0)
+    if (type(observed) is not int or type(unavailable) is not int or not 0 <= unavailable < 25
+            or observed > 25 or observed != len(rows) + unavailable):
+        raise ValueError('unreconciled Civic Access case detail coverage')
     permits, seen, urls = [], set(), set()
     for r in rows:
         if not isinstance(r, dict):
@@ -60,9 +65,11 @@ def parse_batch(payload, lo, hi):
             stage='PERMITTED',raw={'scope':scope,'issue_date_verified':True,
                 'contractor_role':'Registered Building Contractor' if c else None,
                 'coverage':'Residential new dwelling search only','period_start':lo.isoformat(),'period_end':hi.isoformat()}))
-    return CollectorResult('Nampa',SITE+'#/search',permits,
-        'Civic Access fallback: issued residential new dwellings only; not a complete city permit report. '
-        'Only explicitly registered contractor companies are reported. Valuation not available.',
+    note = ('Civic Access fallback: issued residential new dwellings only; not a complete city permit report. '
+            'Only explicitly registered contractor companies are reported. Valuation not available.')
+    if unavailable:
+        note += f' Verified {len(permits)} of {observed} search results; {unavailable} case detail page(s) unavailable.'
+    return CollectorResult('Nampa',SITE+'#/search',permits,note,
         status='degraded',latest_issued_date=max(p.issued_date for p in permits),report_period_end=hi.isoformat())
 
 def collect_css(today=None):

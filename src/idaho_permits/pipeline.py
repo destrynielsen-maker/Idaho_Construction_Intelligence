@@ -3,12 +3,17 @@ import os
 from datetime import datetime,timezone
 from pathlib import Path
 from .classify import classify_permit
+from .collectors.bannock import BannockCountyPermitCollector
+from .collectors.blackfoot import BlackfootPermitCollector
 from .collectors.boise import BoiseDevelopmentCollector,BoiseIssuedPermitCollector
 from .collectors.caldwell import CaldwellCompassCollector
 from .collectors.canyon_county import CanyonCountyPermitCollector
 from .collectors.coeur_dalene import CoeurDAleneCollector
 from .collectors.eagle import EaglePermitCollector
+from .collectors.garden_city import GardenCityPermitCollector
+from .collectors.hailey import HaileyPermitCollector
 from .collectors.kootenai_county import KootenaiCountyCollector
+from .collectors.moscow import MoscowPermitCollector
 from .collectors.nampa import NampaPermitCollector
 from .collectors.post_falls import PostFallsPermitCollector
 from .collectors.report_pages import MeridianCollector
@@ -23,7 +28,7 @@ def _verify_history(before, after):
     altered = [key for key, first_seen in before.items() if key in after and after[key].first_seen_at != first_seen]
     if missing or altered:
         raise RuntimeError(f"Permit history preservation gate failed: {len(missing)} missing IDs, {len(altered)} altered first-seen timestamps")
-COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector()]
+COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector(),GardenCityPermitCollector(),HaileyPermitCollector(),BlackfootPermitCollector(),MoscowPermitCollector(),BannockCountyPermitCollector()]
 
 def _site_base_url():
     x=os.getenv('SITE_BASE_URL','').strip()

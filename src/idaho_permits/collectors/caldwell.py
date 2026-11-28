@@ -105,13 +105,18 @@ class CaldwellCompassCollector:
     def collect(self):
         attempts = 1 + MAX_EMPTY_RETRIES
         for attempt in range(attempts):
-            response = get(self.landing_url, timeout=60)
+            # Ask the shared cache to revalidate only after a successful but empty response.
+            # Transport failures and access denials still go directly to the source error path.
+            response = get(self.landing_url, timeout=60, revalidate=bool(attempt))
             permits = records_from_page(response.text, response.url, self.year)
             if permits:
                 note = f'Official COMPASS development-review checklist feed; City of Caldwell early-stage projects for {self.year}'
                 if attempt:
                     note += f'; recovered after {attempt} empty-response retry'
                 return CollectorResult('Caldwell', self.landing_url, permits, note)
+        tables = len(re.findall(r'<table\b', response.text, re.I))
+        agencies = len(re.findall(r'\bcity\s+of\s+caldwell\b', response.text, re.I))
         raise RuntimeError(
-            f'COMPASS page returned no City of Caldwell development-review records after {attempts} reads'
+            f'COMPASS page returned no City of Caldwell development-review records after {attempts} reads '
+            f'({tables} tables, {agencies} Caldwell agency labels in the final response)'
         )
