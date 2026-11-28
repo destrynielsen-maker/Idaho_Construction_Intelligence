@@ -53,6 +53,9 @@ def run(root: Path):
                 if old and c.name==p.jurisdiction=='Eagle':
                     continue
                 if old and c.name==p.jurisdiction=='Nampa':
+                    # Narrow CSS evidence can add an ID, never replace prior full source evidence.
+                    if p.source_name == 'City of Nampa Civic Access':
+                        continue
                     # The current report does not establish ownership/design roles.
                     for field in ('owner','developer','architect'):
                         if getattr(p,field) is None:

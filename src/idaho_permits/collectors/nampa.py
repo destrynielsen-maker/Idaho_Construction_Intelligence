@@ -43,6 +43,25 @@ class NampaPermitCollector:
         return reports
 
     def collect(self):
+        from .nampa_css import enabled, collect_css
+        if not enabled():
+            return self._collect_pdf()
+        prior_error = None
+        try:
+            prior = self._collect_pdf()
+            if prior.status == 'ok' or prior.latest_issued_date and (date.today() - date.fromisoformat(prior.latest_issued_date)).days <= 7:
+                return prior
+        except RuntimeError as exc:
+            prior, prior_error = None, exc
+        try:
+            return collect_css()
+        except (RuntimeError, ValueError, OSError):
+            if prior is not None:
+                prior.note += ' Civic Access fallback did not yield a validated current batch.'
+                return prior
+            raise RuntimeError('City weekly PDF unavailable; Civic Access fallback did not yield a validated current batch.') from prior_error
+
+    def _collect_pdf(self):
         discovery_error=''
         try:
             reports=self._weekly_reports()

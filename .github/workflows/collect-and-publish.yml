@@ -35,6 +35,14 @@ jobs:
         env:
           PYTHONPATH: src
         run: python -m unittest discover -s tests -v
+      - name: Prepare optional Nampa Civic Access fallback
+        run: |
+          if command -v node >/dev/null && command -v npm >/dev/null && command -v google-chrome >/dev/null && timeout 60 npm install --ignore-scripts --no-save --package-lock=false playwright@1.62.1; then
+            echo "NAMPA_CSS_FALLBACK=1" >> "$GITHUB_ENV"
+            echo "NAMPA_USE_SYSTEM_CHROME=1" >> "$GITHUB_ENV"
+          else
+            echo "::warning::Nampa browser fallback dependencies unavailable; using the existing PDF collector"
+          fi
       - name: Collect and render
         env:
           PYTHONPATH: src
