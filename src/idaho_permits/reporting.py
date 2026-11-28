@@ -15,6 +15,7 @@ SOURCES = {
     'Kootenai County': ('kootenai-county', 'Kootenai County', 'issued', {'Kootenai County weekly building permit report'}),
     'Hayden': ('hayden', 'Hayden', 'issued', {'City of Hayden issued building permit report'}),
     'Twin Falls': ('twin-falls-city', 'City of Twin Falls', 'issued', {'City of Twin Falls monthly issued building permit report'}),
+    'Jerome': ('jerome', 'City of Jerome', 'issued', {'City of Jerome monthly issued building permit report'}),
     'Post Falls': ('post-falls', 'Post Falls', 'issued', {'City of Post Falls Building Permits GIS'}),
     'Meridian': ('meridian', 'Meridian', 'issued', {'Meridian permit report'}),
     'Nampa': ('nampa', 'Nampa', 'issued', {'Nampa weekly permit activity report','Nampa permit report'}),
@@ -36,6 +37,7 @@ COVERAGE = {
     'Kootenai County': 'Unincorporated Kootenai County · weekly permit reports',
     'Hayden': 'City of Hayden · monthly issued new homes, townhomes and commercial buildings',
     'Twin Falls': 'City of Twin Falls · monthly issued detached single-family homes',
+    'Jerome': 'City of Jerome · monthly issued new single-family homes and commercial or industrial buildings',
     'Post Falls': 'City of Post Falls · rolling 90-day building permit window',
     'Meridian': 'City of Meridian · building permit reports',
     'Nampa': 'City of Nampa · weekly building permit reports',
@@ -50,7 +52,7 @@ EASTERN_GAPS = (
     ('eastern-idaho-issued-gap', 'Eastern Idaho coverage gaps', 'uncovered',
      'Idaho Falls, Rexburg and Pocatello city-issued permits not collected here'),
 )
-EXPLICIT_REPORT_DATES = {'Meridian','Nampa','Post Falls','Eagle','Garden City','Hailey','Blackfoot','Moscow','Bannock County','Hayden','Twin Falls'}
+EXPLICIT_REPORT_DATES = {'Meridian','Nampa','Post Falls','Eagle','Garden City','Hailey','Blackfoot','Moscow','Bannock County','Hayden','Twin Falls','Jerome'}
 
 def prior_status(path: Path):
     try:
@@ -75,7 +77,7 @@ def authoritative_date(name,p,today):
     # Eagle/Boise legacy dates were not uniformly verified; require exact row flags.
     if name=='Eagle' and raw.get('issue_date_verified') is not True:
         return None
-    if name=='Twin Falls' and raw.get('issue_date_verified') is not True:
+    if name in {'Twin Falls','Jerome'} and raw.get('issue_date_verified') is not True:
         return None
     if name=='Boise Issued Building Permits' and raw.get('source_issue_date_authoritative') is not True:
         return None

@@ -1,9 +1,9 @@
 """Conservative detached-building intake from Blackfoot city-issued reports."""
 
 import re
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urlsplit
 
-from .monthly_reports import MonthlyReportCollector, month_from_label, pdf_layout, report_date
+from .monthly_reports import MonthlyReportCollector, is_same_report_redirect, month_from_label, pdf_layout, report_date
 
 
 NUMBER = re.compile(r'(?:RES|COMM|MFG)-\d{2}-\d+')
@@ -11,8 +11,6 @@ DATE = re.compile(r'\d{1,2}/\d{1,2}/20\d{2}')
 DETACHED = re.compile(r'\bstick[ -]built house\b|\bnew single[ -]family\b', re.I)
 EXCLUDED = re.compile(r'\b(?:existing|addition|remodel\w*|alter\w*|replacement|relocat\w*|accessory|'
                       r'detached garage|twin[ -]home|duplex|manufactured|mobile home)\b', re.I)
-ACCESS_CHALLENGE = re.compile(rb'access denied|access restricted|captcha|challenge|'
-                              rb'request blocked|verify you are human', re.I)
 
 
 class BlackfootPermitCollector(MonthlyReportCollector):
@@ -36,10 +34,7 @@ class BlackfootPermitCollector(MonthlyReportCollector):
 
     def can_repeat_report_request(self, error, url):
         # The city sometimes returns an ordinary 302 back to the same public report.
-        location = error.headers.get('Location')
-        return bool(error.code == 302 and location and urljoin(url, location) == url
-                    and not error.headers.get('CF-Mitigated')
-                    and not ACCESS_CHALLENGE.search(error.read(4096)))
+        return is_same_report_redirect(error, url)
 
     def parse_report(self, data, period, today, url):
         permits, observed = [], {}
