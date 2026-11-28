@@ -6,7 +6,7 @@
     <description>Idaho Multifamily</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 07:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:17:23 +0000</lastBuildDate>
     <item>
       <title>[45] Eagle: New Townhome — 7050 W AMAZON DR</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29970802</link>
@@ -332,6 +332,18 @@
       <guid isPermaLink="false">ID:EAGLE:268580</guid>
     </item>
     <item>
+      <title>[45] Hayden: BLACKWOLF HOMES TOWNHOME LOT 9 BLK 1 — 206 E LOBO LOOP</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>MULTIFAMILY | BLACKWOLF HOMES &amp; DEVELOPMENT INC | 205,679</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0470</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: BLACKWOLF HOMES TOWNHOME LOT 10 BLK 1 — 198 E LOBO LOOP</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>MULTIFAMILY | BLACKWOLF HOMES &amp; DEVELOPMENT INC | 205,679</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0471</guid>
+    </item>
+    <item>
       <title>[40] Boise: 6121 N WELLSPRING WAY - duplex — 6121 N WELLSPRING WAY</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/GlobalSearchResults.aspx?QueryText=CZC26-00271</link>
       <description>MULTIFAMILY | Contractor unknown | 0</description>
@@ -468,6 +480,42 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=007XA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>MULTIFAMILY | PERRYMAN CONSTRUCTION MANAGEMENT INC | 3,283,462</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-00739</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 1 — 9762 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 187,885</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0363</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 2 — 9756 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0364</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 3 — 9750 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0365</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 4 — 9744 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0366</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 5 — 9738 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0367</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 6 — 9732 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 187,885</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0368</guid>
     </item>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>

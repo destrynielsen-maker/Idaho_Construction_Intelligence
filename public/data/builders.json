@@ -36,6 +36,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "VIKING CONSTRUCTION INC - ID",
+    "count": 15,
+    "score_total": 525,
+    "valuation_total": 2248900.0
+  },
+  {
     "contractor": "Brownstone Construction Management LLC",
     "count": 9,
     "score_total": 405,
@@ -55,9 +61,9 @@
   },
   {
     "contractor": "TIMBERED RIDGE HOMES LLC",
-    "count": 14,
-    "score_total": 350,
-    "valuation_total": 10020811.629999999
+    "count": 15,
+    "score_total": 375,
+    "valuation_total": 10689296.11
   },
   {
     "contractor": "CHAMNESS CONSTRUCTION AND DESIGN, LLC",
@@ -76,6 +82,12 @@
     "count": 14,
     "score_total": 280,
     "valuation_total": 0
+  },
+  {
+    "contractor": "CORNERSTONE INC",
+    "count": 6,
+    "score_total": 270,
+    "valuation_total": 1102329.2999999998
   },
   {
     "contractor": "HHS CONSTRUCTION LLC",
@@ -246,6 +258,12 @@
     "valuation_total": 4618842.43
   },
   {
+    "contractor": "ELA CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 92,
+    "valuation_total": 2568720.52
+  },
+  {
     "contractor": "FOOTHILLS PIS",
     "count": 2,
     "score_total": 90,
@@ -262,6 +280,12 @@
     "count": 2,
     "score_total": 90,
     "valuation_total": 402431.52
+  },
+  {
+    "contractor": "BLACKWOLF HOMES & DEVELOPMENT INC",
+    "count": 2,
+    "score_total": 90,
+    "valuation_total": 411358.28
   },
   {
     "contractor": "VISSER BUILDING COMPANY LLC",
@@ -334,6 +358,12 @@
     "count": 3,
     "score_total": 70,
     "valuation_total": 1990712.3800000001
+  },
+  {
+    "contractor": "TRU HOMES LLC",
+    "count": 3,
+    "score_total": 70,
+    "valuation_total": 2009412.9400000002
   },
   {
     "contractor": "BIG COUNTRY FENCING",
@@ -414,22 +444,10 @@
     "valuation_total": 1790325.33
   },
   {
-    "contractor": "ELA CONSTRUCTION LLC",
-    "count": 2,
-    "score_total": 52,
-    "valuation_total": 1823257.33
-  },
-  {
     "contractor": "PERRYMAN CONSTRUCTION MANAGEMENT INC",
     "count": 1,
     "score_total": 52,
     "valuation_total": 3283462.0
-  },
-  {
-    "contractor": "TRU HOMES LLC",
-    "count": 2,
-    "score_total": 50,
-    "valuation_total": 1561757.8900000001
   },
   {
     "contractor": "TRAILHEAD STRUCTURES | WENGER",
@@ -784,6 +802,18 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 904940.78
+  },
+  {
+    "contractor": "ANTHEM PACIFIC HOMES LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 895060.44
+  },
+  {
+    "contractor": "RAINEY DESIGN GROUP LLC",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 441630.32999999996
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -1180,6 +1210,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 520048.96
+  },
+  {
+    "contractor": "ROSENBERGER CONSTRUCTION LLC CASS BECKER/TIFFNEY MURPHREE",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 755945.46
   },
   {
     "contractor": "Stetson Homes Inc",
@@ -2206,5 +2242,17 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 396565.35
+  },
+  {
+    "contractor": "ALL VENTURE DRAFTING",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 281764.44
+  },
+  {
+    "contractor": "BASSETT CONSTRUCTION LLC PAIGE BASSETT",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 420210.24
   }
 ]

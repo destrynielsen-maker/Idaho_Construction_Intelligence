@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 07:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:17:23 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -380,6 +380,18 @@
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0917</guid>
     </item>
     <item>
+      <title>[45] Hayden: BLACKWOLF HOMES TOWNHOME LOT 9 BLK 1 — 206 E LOBO LOOP</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>MULTIFAMILY | BLACKWOLF HOMES &amp; DEVELOPMENT INC | 205,679</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0470</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: BLACKWOLF HOMES TOWNHOME LOT 10 BLK 1 — 198 E LOBO LOOP</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>MULTIFAMILY | BLACKWOLF HOMES &amp; DEVELOPMENT INC | 205,679</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0471</guid>
+    </item>
+    <item>
       <title>[45] Eagle: New Townhome — 6353 N FOXGLOVE WAY</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29769586</link>
       <description>MULTIFAMILY | SHALC GC INC | 0</description>
@@ -414,6 +426,42 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29732469</link>
       <description>MULTIFAMILY | TRESIDIO HOMES | 0</description>
       <guid isPermaLink="false">ID:EAGLE:267765</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 1 — 9762 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 187,885</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0363</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 2 — 9756 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0364</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 3 — 9750 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0365</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 4 — 9744 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0366</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 5 — 9738 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 181,640</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0367</guid>
+    </item>
+    <item>
+      <title>[45] Hayden: THE BRIDGE TOWNHOMES BLDG 3, LOT 6 — 9732 N LAYLIN CIR</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=2</link>
+      <description>MULTIFAMILY | CORNERSTONE INC | 187,885</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0368</guid>
     </item>
     <item>
       <title>[45] Boise: Jackie Lane - 5-Unit Residential PUD - Unit 101 &amp; 102 — 3528 N JACKIE LN, UNIT 101, BOISE ID 83704</title>
@@ -813,6 +861,12 @@ Charged for multi-family ($825) instead of single family ($1,984) fire impact fe
       <guid isPermaLink="false">ID:EAGLE:267973</guid>
     </item>
     <item>
+      <title>[40] Hayden: COMMERCIAL WAREHOUSE &amp; OFFICE — 10126 N TARYNE ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=1</link>
+      <description>COMMERCIAL | ELA CONSTRUCTION LLC | 745,463</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0240</guid>
+    </item>
+    <item>
       <title>[40] Nampa: Structure Use: Residential: Duplex — Permit Number: RES-18824-2026 Situs: 12161 W Harwich St Nampa, Id 83651</title>
       <link>https://www.cityofnampa.us/DocumentCenter/View/20805/Weekly-Permit-Activity-Report-08-24-2026---08-28-2026</link>
       <description>MULTIFAMILY | Contractor unknown | 140,990</description>
@@ -1097,41 +1151,64 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-23</guid>
     </item>
     <item>
+      <title>[37] Hayden: SHELL BUILDING DIVIDED INTO 5 SUITES — 12480 N WARREN ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued09-2026.pdf?t=202610061042560#page=1</link>
+      <description>COMMERCIAL | Contractor unknown | 1,382,022</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0348</guid>
+    </item>
+    <item>
       <title>[35] Eagle: Mailbox structure for Mailboxes and Parcels — S050832540</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29902824</link>
       <description>COMMERCIAL | Conger Management Group | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269049</guid>
     </item>
     <item>
-      <title>[35] Eagle: New Commercial — 3893 W. Johnny Ln</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29716591</link>
-      <description>COMMERCIAL | Kahler Management | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:267577</guid>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 9, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 147,200</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0441</guid>
     </item>
     <item>
-      <title>[35] Kootenai County: NEW OFFICE BUILDING | HAYDEN NORTH LLC — 18208 N Pope Rd</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3542</link>
-      <description>COMMERCIAL | DONOHOE CONSTRUCTION LLC | 156,199</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:COM26-0049</guid>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 10, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 220,800</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0442</guid>
     </item>
     <item>
-      <title>[35] Canyon County: COMMERCIAL - INSTALLING NEW MODULAR BUILDING ON STANDARD SET - Work/Office Space, Conference Room, Kitchen, and Locker Room (DP2026-0018) — 24783 BOISE RIVER RD, Parma   836600000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | CONSOR | 300,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0500</guid>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 11, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 110,400</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0443</guid>
     </item>
     <item>
-      <title>[35] Canyon County: NEW CELL TOWER — 353 HWY 45, Melba   83641</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | WHITE CLOUD COMMUNICATIONS INC | 65,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0109</guid>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 12, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 198,700</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0444</guid>
     </item>
     <item>
-      <title>[35] Canyon County: 45X80 COMMERCIAL TRUCK STORAGE SHOP  This permit was orig an addition but they changed it to a brand new building to avoid fire sprinkler reqs *Truck storage only*&#13;
-11/3/26: Owner has decided to withdraw this permit. BO made his representative aware of the $633.75 plan review still owed. LO *Permit withdrawn and fees paid for plan check in office 11/19/26 HB* — 16151 TEN LN, Nampa   0</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>COMMERCIAL | GUTIERREZ ERIKA | 80,000</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2025-0296</guid>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 13, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 110,400</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0445</guid>
+    </item>
+    <item>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 14, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 147,200</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0446</guid>
+    </item>
+    <item>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 15, PHASE 2 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 73,600</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0447</guid>
+    </item>
+    <item>
+      <title>[35] Hayden: CARRINGTON STORAGE BLDG 16, PHASE 3 — 10200 N CARRINGTON ST</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
+      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 255,300</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0448</guid>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 07:26:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:17:23 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -1197,16 +1197,16 @@
       <guid isPermaLink="false">ID:HAILEY:26-193</guid>
     </item>
     <item>
-      <title>[15] Kootenai County: NEW SFR | Tanner — 10017 W Looking Glass Ln</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 463,245</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1488</guid>
+      <title>[20] Hayden: SINGLE FAMILY RESIDENCE — 969 E STEEPLE CHASE RD</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>SINGLE_FAMILY | ANTHEM PACIFIC HOMES LLC | 424,896</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0394</guid>
     </item>
     <item>
-      <title>[15] Bannock County: New Single Family Residential — </title>
-      <link>https://www.bannockcounty.gov/wp-content/uploads/2026/11/OCTOBER-2026-MONTHLY-BUILDING-PERMIT-REPORT.pdf</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 400,000</description>
-      <guid isPermaLink="false">ID:BANNOCK COUNTY:RDP-26-84</guid>
+      <title>[20] Hayden: SINGLE FAMILY RESIDENCE — 1030 E STEEPLE CHASE RD</title>
+      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=2</link>
+      <description>SINGLE_FAMILY | ANTHEM PACIFIC HOMES LLC | 470,165</description>
+      <guid isPermaLink="false">ID:HAYDEN:PB26-0434</guid>
     </item>
   </channel>
 </rss>
