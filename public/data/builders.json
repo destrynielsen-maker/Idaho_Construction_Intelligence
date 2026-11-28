@@ -546,6 +546,18 @@
     "valuation_total": 1500000.0
   },
   {
+    "contractor": "BLACK PLATINUM",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 3200000
+  },
+  {
+    "contractor": "LZL Ventutures LLC/Chad",
+    "count": 1,
+    "score_total": 42,
+    "valuation_total": 1697391
+  },
+  {
     "contractor": "BRADSHAW CUSTOM HOMES",
     "count": 2,
     "score_total": 40,
@@ -1126,6 +1138,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 622738.8
+  },
+  {
+    "contractor": "Schaffner Homes LLC",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 902144
   },
   {
     "contractor": "Stetson Homes Inc",
