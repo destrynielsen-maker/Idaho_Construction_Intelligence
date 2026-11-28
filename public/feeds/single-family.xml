@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 00:51:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 05:19:38 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -32,6 +32,30 @@
       <guid isPermaLink="false">ID:BOISE:BLD26-02659</guid>
     </item>
     <item>
+      <title>[20] Nampa: NEW SFD LT28 BLK03 HARVEST CREEK PH #5 — 3941 S Harvest Creek Way Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/7a973f22-2a10-4117-8604-1d101f9ff860</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18986-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT76 BLK07 HARVEST CREEK PH #5 — 3940 S Harvest Creek Way Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/70b13c7c-1197-4113-950a-130607ab3e48</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18985-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT21 BLK14 FRANKLIN VILLAGE NORTH #5 — 7387 E Fritz St Nampa ID 83687</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/97e0b2b2-5812-403c-be6d-1f6ef037dabb</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19089-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT14 BLK01 STODDARD CROSSING — 3527 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/67c45e8c-0403-4a93-b806-7c66d943b526</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19147-2026</guid>
+    </item>
+    <item>
       <title>[20] Eagle: New Home — 7784 W FLATHEAD LAKE ST</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29969839</link>
       <description>SINGLE_FAMILY | Stetson Homes Inc | 0</description>
@@ -48,6 +72,24 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269512</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT13 BLK01 STODDARD CROSSING — 3555 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/3f08615c-eead-4e40-b0ff-e9b9bf538cc8</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19105-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT28 BLK11 FRANKLIN VILLAGE NORTH #4 — 17151 N Sancho Way Nampa ID 83687</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/aebe387d-f242-4aaf-8453-b45edb1964f0</link>
+      <description>SINGLE_FAMILY | Hubble Homes LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19111-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT06 BLK01 Stoddard Crossing — 3723 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/5aa0cea8-7b01-41b0-81a4-a52075ea4307</link>
+      <description>SINGLE_FAMILY | Contractor unknown | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19090-2026</guid>
     </item>
     <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Childress — 32411 [TEMP] N Leonard Loop</title>
@@ -1165,48 +1207,6 @@
       <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
       <description>SINGLE_FAMILY | TH CONSTRUCTION LLC | 272,859</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0929</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 1633 SQ FT SINGLE FAMILY DWELLING WITH 460 SQ FT ATTACHED GARAGE — 5649 N JUMPLIST AVE</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES | 173,523</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0923</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW 2345 SQ FT SINGLE FAMILY DWELLING WITH 464 SQ FT ATTACHED GARAGE — 5568 W LOST RAPIDS ST</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | HUBBLE HOMES | 243,553</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0921</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Holloway — 31509</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | SIMPLICITY BY HAYDEN HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1642</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SHOP w/LIVING SPACE| — 2070 [TEMP] S Signal Point</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
-      <description>SINGLE_FAMILY | BLACKPOINT INDUSTRIES AND | 5,720</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-0189</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 1532 E PELHAM ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29836284</link>
-      <description>SINGLE_FAMILY | TEAL POINT CUSTOM HOMES LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268649</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 7097 W TOLLAND ST</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29834477</link>
-      <description>SINGLE_FAMILY | TRESIDIO HOMES | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268629</guid>
-    </item>
-    <item>
-      <title>[20] Canyon County: NEW SFR W/ATTACHED GARAGE — 17260 GARNET RD, Wilder   836760000</title>
-      <link>https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1</link>
-      <description>SINGLE_FAMILY | IDEAL CUSTOM HOMES INC | 133,243</description>
-      <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0803</guid>
     </item>
   </channel>
 </rss>
