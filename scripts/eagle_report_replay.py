@@ -4,6 +4,8 @@ from pathlib import Path
 import shutil
 import sys
 import tempfile
+import math
+import xml.etree.ElementTree as ET
 from unittest.mock import patch
 from collections import Counter
 
@@ -21,6 +23,38 @@ def stable(p):
 def public(path):
     return {p["key"]:p for p in json.loads(path.read_text())["permits"]}
 
+def builders(path):
+    rows=json.loads(path.read_text())
+    assert len({x["contractor"] for x in rows})==len(rows)
+    return {x["contractor"]:x for x in rows}
+
+def feed_items(path):
+    rows=ET.parse(path).findall('./channel/item')
+    for row in rows: row.tail=None
+    result={r.findtext('guid'):ET.tostring(r,encoding='unicode') for r in rows}
+    assert len(result)==len(rows) and all(result)
+    return result
+
+def compare_outputs(root, expected):
+    old=builders(Path('public/data/builders.json'))
+    new=builders(root/'public/data/builders.json')
+    for p in expected.values():
+        name=p.get('contractor')
+        if not name: continue
+        row=old.setdefault(name,dict(contractor=name,count=0,score_total=0,valuation_total=0))
+        row['count']+=1; row['score_total']+=p['score']; row['valuation_total']+=p['valuation'] or 0
+    assert set(new)==set(old)
+    for k,v in old.items():
+        assert new[k]['count']==v['count'] and new[k]['score_total']==v['score_total']
+        assert math.isclose(new[k]['valuation_total'],v['valuation_total'],abs_tol=0.01,rel_tol=0)
+    for path in sorted(Path('public/feeds').glob('*.xml')):
+        a=feed_items(path); b=feed_items(root/'public/feeds'/path.name)
+        added=set(b)-set(a); removed=set(a)-set(b)
+        assert added<=set(expected) and len(removed)<=len(added)
+        if removed: assert len(b)==200
+        assert all(a[k]==b[k] for k in set(a)&set(b))
+        assert [k for k in a if k in b]==[k for k in b if k in a]
+
 def main(source):
     payload=json.loads(Path(source).read_text())
     result=parse_batch(payload)
@@ -35,7 +69,10 @@ def main(source):
             first=pipeline.run(root)
             after=ledger(root/"data/permits.json")
             published=public(root/"public/data/permits.json")
+            compare_outputs(root,expected)
+            first_feeds={p.name:feed_items(p) for p in (root/"public/feeds").glob("*.xml")}
             second=pipeline.run(root)
+            assert first_feeds=={p.name:feed_items(p) for p in (root/"public/feeds").glob("*.xml")}
             repeated=ledger(root/"data/permits.json")
         assert before.keys()<=after.keys()
         assert set(after)-set(before)==set(expected)

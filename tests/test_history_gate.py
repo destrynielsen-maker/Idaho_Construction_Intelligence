@@ -1,6 +1,7 @@
 import copy
 import hashlib
 import json
+import shutil
 from collections import Counter
 from pathlib import Path
 import tempfile
@@ -55,6 +56,8 @@ class HistoryGateTest(unittest.TestCase):
     def replay(self, work, omitted=(), failed=()):
         (work/'data').mkdir(parents=True)
         (work/'data/permits.json').write_bytes(FROZEN.read_bytes())
+        # Reproduce the real refresh against the exact served feed order.
+        shutil.copytree(WORKTREE/'public/feeds',work/'public/feeds')
         attempts=[]
         collectors=[ReplayCollector(c,self.seed,attempts,omitted,failed) for c in self.originals]
         with patch.object(pipeline,'COLLECTORS',collectors):

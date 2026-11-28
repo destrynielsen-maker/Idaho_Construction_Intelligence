@@ -46,7 +46,7 @@ def parse_batch(payload,today=None):
     if not isinstance(payload,list) or len(payload)!=2:
         raise ValueError("expected two recent official reports")
     ids=set(); hashes=set(); periods=set(); urls=set(); permits=[]; partial=False
-    source_total=visible_total=0; issue_dates=[]; end_dates=[]
+    source_total=visible_total=0; missing_controls=0; issue_dates=[]; end_dates=[]
     for report in payload:
         if not isinstance(report,dict): raise ValueError("invalid report")
         lo=date.fromisoformat(report["period_start"]); hi=date.fromisoformat(report["period_end"])
@@ -56,9 +56,11 @@ def parse_batch(payload,today=None):
         if not re.fullmatch(r"[0-9a-f]{64}",hash_) or hash_ in hashes or not source_link(url) or url in urls:
             raise ValueError("invalid or repeated report evidence")
         visible=report["visible_total"]; total=report["printed_total"]
-        if type(visible) is not int or type(total) is not int or not isinstance(rows,list) or visible!=len(rows) or not 1<=visible<=total<=500 or type(report["complete"]) is not bool or report["complete"]!=(visible==total):
+        if type(visible) is not int or not isinstance(rows,list) or visible!=len(rows) or not 1<=visible<=500 or (total is not None and (type(total) is not int or not visible<=total<=500)) or type(report["complete"]) is not bool or report["complete"]!=(total is not None and visible==total):
             raise ValueError("report count reconciliation failed")
-        source_total+=total; visible_total+=visible; partial|=visible!=total
+        if total is None: missing_controls+=1
+        else: source_total+=total
+        visible_total+=visible; partial|=total is None or visible!=total
         periods.add(lo); hashes.add(hash_); urls.add(url); end_dates.append(hi)
         for r in rows:
             n=r["permit_number"]; issued=date.fromisoformat(r["issued_date"])
@@ -94,11 +96,11 @@ def parse_batch(payload,today=None):
     ordered=sorted((date.fromisoformat(r["period_start"]),date.fromisoformat(r["period_end"])) for r in payload)
     if ordered[0][1]>=ordered[1][0]: raise ValueError("overlapping report periods")
     latest=max(issue_dates); stale=(today-latest).days>14
-    note=(f"Official Eagle weekly reports: {visible_total} distinct visible records of {source_total} printed; "
+    note=(f"Official Eagle weekly reports: {visible_total} distinct visible records; printed total {source_total} across reports with controls, {missing_controls} report(s) without a control total; "
           f"{len(permits)} explicit new-building candidates. Source-reported contractor, not independent GC verification. "
           f"Latest verified issue {latest.isoformat()}; report periods end {max(end_dates).isoformat()}. "
           "Existing identities preserved; no inferred missing records.")
-    if partial: note+=" Printed total mismatch: partial report coverage."
+    if partial: note+=" Missing or mismatched control total: partial report coverage."
     if stale: note+=" Source older than 14 days."
     return CollectorResult("Eagle",DIRECTORY,permits,note,status="degraded" if partial or stale else "ok",
         latest_issued_date=latest.isoformat(),report_period_end=max(end_dates).isoformat())

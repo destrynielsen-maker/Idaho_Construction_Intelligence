@@ -1,16 +1,31 @@
 from pathlib import Path
 from feedgen.feed import FeedGenerator
+import xml.etree.ElementTree as ET
 
 
-def _ordered(rows, score_first=False):
+def _ordered(rows, score_first=False, prior=()):
+    # A stored snapshot has a different insertion order from a just-collected
+    # ledger. Preserve prior GUID order for exact rank ties, including at the cap.
+    # New tied records follow existing items; otherwise use stable permit key.
+    positions={key:i for i,key in enumerate(prior)}
+    stable=sorted(rows,key=lambda p:(positions.get(p.key,len(positions)),p.key))
     if score_first:
-        return sorted(rows, key=lambda x: (x.score, x.issued_date), reverse=True)
-    return sorted(rows, key=lambda x: (x.issued_date, x.score), reverse=True)
+        return sorted(stable,key=lambda p:(p.score,p.issued_date),reverse=True)
+    return sorted(stable,key=lambda p:(p.issued_date,p.score),reverse=True)
+
+def _prior_guids(path):
+    if not path.exists():
+        return ()
+    # Invalid previous feed is an integrity failure, not a fresh baseline.
+    ids=[n.text for n in ET.parse(path).findall('./channel/item/guid')]
+    if any(not x for x in ids) or len(ids)!=len(set(ids)):
+        raise ValueError('Previous RSS feed contains missing or duplicate GUIDs')
+    return ids
 
 
 def _write(path,title,rows,base_url,score_first=False):
     fg=FeedGenerator(); fg.title(title); fg.link(href=base_url); fg.description(title)
-    ordered = _ordered(rows, score_first=score_first)[:200]
+    ordered = _ordered(rows, score_first=score_first, prior=_prior_guids(path))[:200]
     # feedgen prepends entries as they are added, so insert in reverse to preserve
     # the logical output order in the serialized RSS XML.
     for p in reversed(ordered):

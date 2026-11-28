@@ -37,6 +37,16 @@ class FeedOrderingTests(unittest.TestCase):
         self.assertTrue(guids[0].endswith(':NEW'), guids)
         self.assertTrue(guids[1].endswith(':OLD'), guids)
 
+    def test_existing_equal_rank_order_survives_ledger_reload_and_new_tie(self):
+        a,b,c=[row(x,'2026-11-20',15) for x in ('A','B','C')]
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/'feed.xml'
+            _write(path,'Test',[a,b],'https://example.com/')
+            _write(path,'Test',[c,b,a],'https://example.com/')
+            guids=[x.text for x in ET.parse(path).findall('./channel/item/guid')]
+            self.assertEqual(guids,[a.key,b.key,c.key])
+            _write(path,'Test',[b,a,c],'https://example.com/')
+            self.assertEqual([x.text for x in ET.parse(path).findall('./channel/item/guid')],guids)
 
 if __name__ == '__main__':
     unittest.main()

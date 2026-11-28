@@ -38,6 +38,9 @@ def parse_report(path):
         if lo > hi or (datetime.fromisoformat(hi)-datetime.fromisoformat(lo)).days > 7:
             raise ValueError('unexpected reporting period')
         for n, pg in enumerate(doc.pages,1):
+            footer=re.findall(r'Page:\s*(\d+)\s+of\s+(\d+)',pg.extract_text() or '',re.I)
+            if len(footer)!=1 or tuple(map(int,footer[0]))!=(n,len(doc.pages)):
+                raise ValueError('missing or inconsistent report page numbering')
             table=pg.extract_table()
             if not table or any(len(r)!=19 for r in table):
                 raise ValueError('unexpected ruled table layout')
@@ -68,6 +71,7 @@ def parse_report(path):
                 elif ptype=='Building Commer' and use=='New Commerc':
                     if description in ('New Commercial','Core & shell construction'): kind='New commercial construction'
                 records.append(dict(permit_number=permit_id,issued_date=issue,address=r[4],subdivision=r[7],apn=r[0] or None,contractor=r[13] or None,valuation=integer(r[15]),living_area_sqft=integer(r[8]),description=description,report_type=ptype,use_class=use,candidate_type=kind,source_page=n))
-        if len(totals)!=1 or totals[0]<len(ids):
-            raise ValueError('invalid printed record total')
-    return dict(sha256=hashlib.sha256(data).hexdigest(),period_start=lo,period_end=hi,printed_total=totals[0],visible_total=len(ids),complete=totals[0]==len(ids),records=records)
+        if len(totals)>1 or (totals and totals[0]<len(ids)) or not ids:
+            raise ValueError(f'invalid printed record total: controls={totals}, visible={len(ids)}')
+        total=totals[0] if totals else None
+    return dict(sha256=hashlib.sha256(data).hexdigest(),period_start=lo,period_end=hi,printed_total=total,visible_total=len(ids),complete=total is not None and total==len(ids),records=records)
