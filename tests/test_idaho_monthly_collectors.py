@@ -1,6 +1,9 @@
 from datetime import date
+from email.message import Message
+from io import BytesIO
 from unittest import TestCase
-from unittest.mock import patch
+from unittest.mock import call, patch
+from urllib.error import HTTPError
 
 from idaho_permits.classify import classify_permit
 from idaho_permits.collectors.blackfoot import BlackfootPermitCollector
@@ -11,6 +14,8 @@ from idaho_permits.collectors.twin_falls_county import _permit_type
 
 PERIOD = date(2026, 10, 1)
 TODAY = date(2026, 11, 27)
+BLACKFOOT_OCT = 'https://www.cityofblackfoot.org/DocumentCenter/View/2344/Building-Permit-Report-October-2026'
+BLACKFOOT_INDEX = f'<a href="{BLACKFOOT_OCT}">Building Permit Report October 2026</a>'.encode()
 GARDEN_CSV = (
     'Permit Type,Permit No.,Issue Status,Issue Date,Description,Address,Project Value\n'
     'ResSFH,BLD-001,Issued,10/7/2026,New SFH construction,11 Test St,$400000\n'
@@ -18,6 +23,14 @@ GARDEN_CSV = (
     'CommNewConst,BLD-003,Issued,10/9/2026,Tenant improvement,13 Test St,$200000\n'
     'ResSFH,BLD-004,Applied,,New SFH construction,14 Test St,$400000\n'
 ).encode()
+
+
+def blackfoot_response_error(status, location, body=b'', mitigated=False):
+    headers = Message()
+    headers['Location'] = location
+    if mitigated:
+        headers['CF-Mitigated'] = 'challenge'
+    return HTTPError(BLACKFOOT_OCT, status, 'Test error', headers, BytesIO(body))
 
 
 class IdahoMonthlyCollectorTests(TestCase):
@@ -61,6 +74,44 @@ class IdahoMonthlyCollectorTests(TestCase):
         self.assertEqual(len(observed), 1)
         self.assertEqual((permits[0].address, permits[0].area, permits[0].issued_date), ('11 Test St', '1200', '2026-10-07'))
         self.assertIsNone(permits[0].contractor)
+
+    def test_blackfoot_repeats_exact_public_report_once_at_the_crawl_delay(self):
+        collector = BlackfootPermitCollector()
+        location = BLACKFOOT_OCT.removeprefix('https://www.cityofblackfoot.org')
+        redirect = blackfoot_response_error(302, location)
+        with (
+            patch('idaho_permits.collectors.monthly_reports._get',
+                  side_effect=[BLACKFOOT_INDEX, redirect, b'pdf']) as get,
+            patch('idaho_permits.collectors.monthly_reports.monotonic', side_effect=[0, 0, 10, 10, 20]),
+            patch('idaho_permits.collectors.monthly_reports.sleep') as sleep,
+            patch.object(collector, 'parse_report', return_value=([], {'RES-26-1': PERIOD})) as parse,
+        ):
+            result = collector.collect(TODAY)
+        self.assertEqual(get.call_args_list, [call(collector.landing_url, limit=1_200_000),
+                                             call(BLACKFOOT_OCT), call(BLACKFOOT_OCT)])
+        self.assertEqual(sleep.call_args_list, [call(10), call(10)])
+        parse.assert_called_once_with(b'pdf', PERIOD, TODAY, BLACKFOOT_OCT)
+        self.assertEqual(result.latest_issued_date, PERIOD.isoformat())
+
+    def test_blackfoot_stops_for_repeated_redirects_access_restrictions_and_other_destinations(self):
+        collector = BlackfootPermitCollector()
+        for errors in (
+            [blackfoot_response_error(302, BLACKFOOT_OCT), blackfoot_response_error(302, BLACKFOOT_OCT)],
+            [blackfoot_response_error(302, 'https://unrelated.example/pdf')],
+            [blackfoot_response_error(403, BLACKFOOT_OCT)],
+            [blackfoot_response_error(429, BLACKFOOT_OCT)],
+            [blackfoot_response_error(302, BLACKFOOT_OCT, b'Please verify you are human')],
+            [blackfoot_response_error(302, BLACKFOOT_OCT, mitigated=True)],
+        ):
+            with (
+                self.subTest(status=errors[-1].code, location=errors[-1].headers['Location']),
+                patch('idaho_permits.collectors.monthly_reports._get',
+                      side_effect=[BLACKFOOT_INDEX, *errors]) as get,
+                patch('idaho_permits.collectors.monthly_reports.sleep'),
+            ):
+                with self.assertRaises(HTTPError):
+                    collector.collect(TODAY)
+                self.assertEqual(get.call_count, 1 + len(errors))
 
     def test_hailey_ignores_summary_links_and_rejects_unlabeled_issue_dates(self):
         collector = HaileyPermitCollector()

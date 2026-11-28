@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 from io import BytesIO
 import re
 from time import monotonic, sleep
+from urllib.error import HTTPError
 from urllib.parse import quote, urljoin, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
@@ -100,6 +101,9 @@ class MonthlyReportCollector:
     def report_url(self, url):
         return url
 
+    def can_repeat_report_request(self, error, url):
+        return False
+
     def parse_report(self, data, period, today, url):
         """Return permits and all distinct observed permit identities with issue dates."""
         raise NotImplementedError
@@ -137,7 +141,18 @@ class MonthlyReportCollector:
                 sleep(wait)
             started = monotonic()
             url = reports[period]
-            result, identities = self.parse_report(_get(url), period, today, url)
+            try:
+                data = _get(url)
+            except HTTPError as error:
+                if not self.can_repeat_report_request(error, url):
+                    raise
+                error.close()
+                wait = self.crawl_delay - (monotonic() - started)
+                if wait > 0:
+                    sleep(wait)
+                started = monotonic()
+                data = _get(url)
+            result, identities = self.parse_report(data, period, today, url)
             if observed.keys() & identities.keys():
                 raise ValueError('Duplicate permit identity across report periods')
             observed.update(identities)
