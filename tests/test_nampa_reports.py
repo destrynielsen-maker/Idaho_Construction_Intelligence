@@ -133,6 +133,12 @@ Scope of Work: New SFD
         self.assertIn('direct fallback',collected.note)
         self.assertEqual(collected.latest_issued_date,'2026-10-22')
         self.assertEqual(collected.report_period_end,'2026-10-23')
+        self.assertTrue(collected.progress_complete)
+        row, = collected.progress
+        self.assertEqual((row['stage'], row['issue_date'], row['source_url']), ('issued', '2026-10-22', url))
+        self.assertIsNone(row['issued_flag'])
+        self.assertIsNone(row['received_date'])
+        self.assertIsNone(row['source_status'])
 
 if __name__ == '__main__':
     unittest.main()

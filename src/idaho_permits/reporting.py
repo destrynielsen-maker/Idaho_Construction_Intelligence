@@ -1,7 +1,8 @@
 """Additive reporting-only view; never mutates permit history or ranking."""
 import json
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
+from .collectors.canyon_progress import LAYER_URL as CANYON_TRACKER, canyon_utc_civil
 
 SOURCES = {
     'Boise': ('boise-planning', 'Boise Development Tracker', 'planning', {'Boise Development Tracker'}),
@@ -74,22 +75,6 @@ def authoritative_date(name,p,today):
         # Historical planning placeholders and Nampa legacy PDFs must not set freshness.
         return None
     return validated(p.issued_date,today)
-
-CANYON_TRACKER = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
-UNIX_DAY = date(1970, 1, 1)
-MILLIS_PER_DAY = 86_400_000
-
-
-def canyon_utc_civil(raw, today):
-    # County layer /1 date metadata is UTC, and published source dates match
-    # UTC-midnight encodings. These are civil dates, not Boise timestamps.
-    if type(raw) is not int or raw <= 0 or raw % MILLIS_PER_DAY:
-        return None
-    days = raw // MILLIS_PER_DAY
-    if not (date(2000, 1, 1) - UNIX_DAY).days <= days <= (today - UNIX_DAY).days:
-        return None
-    return UNIX_DAY + timedelta(days=days)
-
 
 def canyon_issue_evidence(status, observations, today):
     # Aggregate current source evidence only. Never emit identities/raw data or

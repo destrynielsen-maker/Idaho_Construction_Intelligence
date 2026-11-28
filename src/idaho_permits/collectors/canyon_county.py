@@ -3,16 +3,17 @@ from datetime import datetime, timezone
 import re
 import requests
 from .base import CollectorResult
+from .canyon_progress import LAYER_URL, progress_from_tracker_attributes
 from ..models import Permit
 
-LAYER_URL = 'https://maps.canyonco.org/arcgisserver/rest/services/DSD/Building_Permits_NEW_2023/FeatureServer/1'
 QUERY_URL = LAYER_URL + '/query'
 PAGE_SIZE = 1000
 REQUIRED_FIELDS = {
     'BP_PermitNumber','BP_ProjectInfo','BP_SubType','BP_Classficiation',
     'BP_BuildValuation','BP_Address','BP_Contractor','BP_Status',
     'BP_ReceivedDate','BP_Approval_Status','BP_DecisionDate','BP_DateClosed',
-    'BP_ParcelNumber'
+    'BP_ParcelNumber','BP_Building_Review_Result','BP_Building_Review_ResultDate',
+    'PemitIssued','PermitIssuedDate',
 }
 
 
@@ -97,16 +98,23 @@ class CanyonCountyPermitCollector:
             raise RuntimeError(f'Unexpected Canyon County tracker identity name={layer_name!r} missing_fields={missing}')
 
         permits = []
+        progress = {}
+        conflicts = set()
+        today = datetime.now(timezone.utc).date()
         offset = 0
+        oid = str(metadata.get('objectIdField') or '')
+        order = 'BP_ReceivedDate DESC'
+        if oid in fields and re.fullmatch(r'[A-Za-z_][A-Za-z_0-9]*', oid):
+            order += f', {oid} ASC'
         while True:
             params = {
-                'where': 'BP_PermitNumber IS NOT NULL AND BP_ReceivedDate IS NOT NULL',
+                'where': 'BP_PermitNumber IS NOT NULL',
                 'outFields': '*',
                 'returnGeometry': 'false',
                 'f': 'json',
                 'resultOffset': offset,
                 'resultRecordCount': PAGE_SIZE,
-                'orderByFields': 'BP_ReceivedDate DESC',
+                'orderByFields': order,
             }
             response = requests.get(QUERY_URL, params=params, timeout=60)
             response.raise_for_status()
@@ -115,16 +123,32 @@ class CanyonCountyPermitCollector:
                 raise RuntimeError(f"ArcGIS query error: {payload['error']}")
             features = payload.get('features') or []
             for feature in features:
-                permit = permit_from_tracker_attributes(feature.get('attributes') or {})
+                attributes = feature.get('attributes') or {}
+                permit = permit_from_tracker_attributes(attributes)
                 if permit:
                     permits.append(permit)
-            if len(features) < PAGE_SIZE:
+                observation = progress_from_tracker_attributes(attributes, today)
+                if observation:
+                    key = observation['permit_id'].upper()
+                    previous = progress.setdefault(key, observation)
+                    if previous != observation:
+                        conflicts.add(key)
+            if payload.get('exceededTransferLimit') and not features:
+                raise RuntimeError('Canyon County tracker returned an incomplete page without records')
+            if not payload.get('exceededTransferLimit') and len(features) < PAGE_SIZE:
                 break
             offset += len(features)
 
+        note = ('Official Canyon County DSD current building-permit tracker; legacy lead dates use application receipt. '
+                'Permit progress tracks building review, issuance, and verified closures separately.')
+        if conflicts:
+            note += f' Conflicting progress evidence for {len(conflicts)} permit IDs was skipped.'
         return CollectorResult(
             'Canyon County',
             LAYER_URL,
             permits,
-            'Official Canyon County DSD current building-permit tracker; active applications only; date is application received date',
+            note,
+            progress=[row for key, row in progress.items() if key not in conflicts],
+            progress_complete=not conflicts,
+            progress_source_name='Canyon County DSD Building Permit Tracker',
         )

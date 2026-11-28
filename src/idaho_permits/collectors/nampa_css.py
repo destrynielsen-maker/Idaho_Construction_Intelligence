@@ -9,6 +9,7 @@ from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 from .base import CollectorResult
+from .issued_progress import issued_progress
 from ..models import Permit
 
 SITE = 'https://nampaid-energovpub.tylerhost.net/Apps/SelfService'
@@ -69,8 +70,10 @@ def parse_batch(payload, lo, hi):
             'Only explicitly registered contractor companies are reported. Valuation not available.')
     if unavailable:
         note += f' Verified {len(permits)} of {observed} search results; {unavailable} case detail page(s) unavailable.'
-    return CollectorResult('Nampa',SITE+'#/search',permits,note,
-        status='degraded',latest_issued_date=max(p.issued_date for p in permits),report_period_end=hi.isoformat())
+    return CollectorResult('Nampa', SITE+'#/search', permits, note, status='degraded',
+        latest_issued_date=max(p.issued_date for p in permits), report_period_end=hi.isoformat(),
+        progress=[issued_progress(permit) for permit in permits], progress_complete=unavailable == 0,
+        progress_source_name='Nampa Civic Access (issued new dwellings only)')
 
 def collect_css(today=None):
     hi = today or datetime.now(ZoneInfo('America/Boise')).date()

@@ -50,6 +50,22 @@
     .report-pager button, #export { min-height:44px; padding:6px 12px; }
     .report-sort { display:none; }
     #permit-results td, #shared-reporting-status { overflow-wrap:anywhere; }
+    .permit-progress h2 { margin:0; font-size:20px; }
+    .permit-progress [hidden] { display:none; }
+    .permit-progress .progress-summary { margin:4px 0 12px; }
+    .progress-controls { display:flex; flex-wrap:wrap; gap:10px 14px; align-items:end; margin:14px 0 8px; }
+    .progress-controls label { display:block; font-size:13px; font-weight:600; }
+    .progress-controls select, .progress-controls input[type="search"] { display:block; min-height:44px; margin-top:4px; }
+    .progress-kind { display:flex; flex-wrap:wrap; gap:0 12px; align-items:center; border:0; padding:0; margin:0; }
+    .progress-kind legend { font-size:13px; font-weight:600; }
+    .progress-kind label { display:flex; gap:6px; min-height:44px; align-items:center; }
+    .progress-kind input { width:auto; }
+    #progress-export { min-height:44px; padding:6px 12px; }
+    .progress-table td { overflow-wrap:anywhere; }
+    .progress-date { white-space:nowrap; }
+    .progress-changes summary { cursor:pointer; line-height:1.5; min-height:28px; }
+    .progress-changes ul { margin:4px 0; padding-left:18px; }
+    .progress-changes li + li { margin-top:6px; }
     @media(max-width: 560px) {
       .report-sort { display:flex; gap:8px; align-items:center; margin:8px 0; }
       #permit-results { min-width:0; width:100%; }
@@ -59,6 +75,11 @@
       #permit-results td { display:grid; grid-template-columns:minmax(85px,36%) minmax(0,1fr); align-items:start; gap:8px; white-space:normal; border:0; padding:5px 0; }
       #permit-results td::before { content:attr(data-label); font-weight:600; }
       #permit-results td > span { min-width:0; }
+      .progress-table thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+      .progress-table tbody, .progress-table tbody tr { display:block; }
+      .progress-table tbody tr { border:1px solid #dfe5ee; border-radius:8px; margin-top:8px; padding:4px 8px; }
+      .progress-table td { display:grid; grid-template-columns:minmax(90px,36%) minmax(0,1fr); gap:8px; padding:5px 0; border:0; }
+      .progress-table td::before { content:attr(data-label); font-weight:600; }
     }
   </style>
 </head>
@@ -92,6 +113,41 @@
       <a href="feeds/single-family.xml">Single family</a>
       <a href="feeds/commercial.xml">Commercial</a>
       <a href="feeds/top-opportunities.xml">Top opportunities</a>
+    </div>
+  </section>
+
+  <section class="panel permit-progress" aria-labelledby="permit-progress-title">
+    <h2 id="permit-progress-title">Permit progress</h2>
+    <p class="muted progress-summary">Official event dates and dashboard observation times are shown separately.</p>
+    <div id="progress-sources" class="health-grid"></div>
+    <div class="progress-controls">
+      <fieldset class="progress-kind">
+        <legend>Record type</legend>
+        <label><input type="radio" name="progress-kind" id="progress-building-kind" value="building_permit" checked> Building permits</label>
+        <label><input type="radio" name="progress-kind" id="progress-planning-kind" value="planning"> Planning</label>
+      </fieldset>
+      <label for="progress-issuer">Issuer<select id="progress-issuer"><option value="">All issuers</option></select></label>
+      <label for="progress-stage">Permit stage<select id="progress-stage"><option value="">All stages</option></select></label>
+      <label for="progress-search">Official record ID<input id="progress-search" type="search" autocomplete="off"></label>
+      <button id="progress-export" type="button" disabled>Export permit progress CSV</button>
+    </div>
+    <p id="progress-count" class="muted" role="status">Loading permit progress…</p>
+    <nav id="progress-pager" class="report-pager" aria-label="Permit progress pages" hidden>
+      <button id="progress-prev" type="button">Previous</button>
+      <span id="progress-page" aria-live="polite"></span>
+      <button id="progress-next" type="button">Next</button>
+    </nav>
+    <div id="progress-building" class="table-wrap" role="region" aria-label="Building permit progress" tabindex="0" hidden>
+      <table class="progress-table" role="table">
+        <thead><tr><th scope="col">Permit</th><th scope="col">Issuer</th><th scope="col">Stage</th><th scope="col">Received</th><th scope="col">Review</th><th scope="col">Issuance</th><th scope="col">Closed</th><th scope="col">Source status</th><th scope="col">Inspection</th><th scope="col">Observed</th></tr></thead>
+        <tbody id="progress-building-rows"></tbody>
+      </table>
+    </div>
+    <div id="progress-planning" class="table-wrap" role="region" aria-label="Planning records" tabindex="0" hidden>
+      <table class="progress-table" role="table">
+        <thead><tr><th scope="col">Planning record</th><th scope="col">Issuer</th><th scope="col">Received</th><th scope="col">Source status</th><th scope="col">Observed</th></tr></thead>
+        <tbody id="progress-planning-rows"></tbody>
+      </table>
     </div>
   </section>
 
@@ -190,11 +246,157 @@ function downloadCsv(){
   const u=URL.createObjectURL(new Blob([csvText(matchingRows)],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=u;a.download='idaho-construction-matching.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
+const progressStages={
+  application_under_review:'Application under review',
+  review_approved_no_issue:'Review approved · issuance unverified',
+  issued:'Issued',
+  closed:'Closed',
+  unknown:'Unknown',
+  planning:'Planning',
+};
+const progressFields={stage:'Stage',received_date:'Received date',review_result:'Review result',review_date:'Review date',
+  issued_flag:'Issue flag',issue_date:'Issue date',closed_date:'Closed date',source_status:'Source status',inspection_status:'Inspection status'};
+function progressStage(permit){
+  if(permit.record_kind==='planning')return 'planning';
+  return permit.stage!=='planning'&&Object.hasOwn(progressStages,permit.stage)?permit.stage:'unknown';
+}
+function progressIssuerKey(row){return JSON.stringify([row.state,row.issuer]);}
+function progressText(value){
+  if(typeof value==='boolean')return value?'Yes':'No';
+  return value==null||value===''||value==='unknown'?'Unknown':String(value);
+}
+function progressLink(url,label){
+  const href=progressUrl(url);
+  return href?`<a href="${esc(href)}" target="_blank" rel="noopener">${esc(label)}</a>`:esc(label);
+}
+function progressUrl(value){
+  try {
+    const url=new URL(value);
+    return url.protocol==='https:'&&!url.username&&!url.password?url.href:'';
+  } catch { return ''; }
+}
+function progressDate(value){
+  if(!safeDate(value))return 'Unknown';
+  const timestamp=dateValue(value);
+  return Number.isFinite(timestamp)&&new Date(timestamp).toISOString().slice(0,10)===value?value:'Unknown';
+}
+function progressChanges(permit){return Array.isArray(permit.changes)?permit.changes:[];}
+function progressChangeValue(field,value){
+  return field==='stage'&&Object.hasOwn(progressStages,value)?progressStages[value]:progressText(value);
+}
+function progressHistory(permit){
+  const changes=progressChanges(permit);
+  if(!changes.length)return '';
+  const items=changes.map(change=>`<li><strong>${esc(progressFields[change.field]||change.field)}</strong>: ${esc(progressChangeValue(change.field,change.previous_value))} → ${esc(progressChangeValue(change.field,change.new_value))}
+    <br><span class="muted">Official event date ${esc(progressDate(change.event_date))} · Observed ${esc(safeTimestamp(change.observed_at))}</span></li>`);
+  return `<details class="progress-changes"><summary>Changes (${changes.length})</summary><ul>${items.join('')}</ul></details>`;
+}
+function progressSourceCard(source){
+  const label=source.source_name||source.issuer;
+  return `<article class="health-item"><strong>${progressLink(source.source_url,label)}</strong><div class="meta">${esc(source.issuer)} · ${esc(source.state)}</div>
+    <dl class="source-metrics"><div><dt>Last successful refresh</dt><dd>${esc(safeTimestamp(source.last_successful_refresh))}</dd></div>
+    <div><dt>Latest date covered</dt><dd>${esc(progressDate(source.latest_date_covered))}</dd></div></dl></article>`;
+}
+function progressRow(permit){
+  const planning=permit.record_kind==='planning';
+  const cell=(label,html)=>`<td data-label="${label}"><div>${html}</div></td>`;
+  const text=(label,value)=>cell(label,esc(value));
+  const stage=text('Stage',progressStages[progressStage(permit)]);
+  const received=text('Received',progressDate(permit.received_date));
+  const review=cell('Review',`${esc(progressText(permit.review_result))}<br><span class="progress-date muted">${esc(progressDate(permit.review_date))}</span>`);
+  const issued=cell('Issuance',`${esc(progressText(permit.issued_flag))}<br><span class="progress-date muted">${esc(progressDate(permit.issue_date))}</span>`);
+  const status=progressText(permit.source_status);
+  const statusUrl=progressUrl(permit.source_status_url);
+  const sourceStatus=statusUrl&&statusUrl!==progressUrl(permit.source_url)?cell('Source status',progressLink(statusUrl,status)):text('Source status',status);
+  return `<tr>${cell(planning?'Planning record':'Permit',progressLink(permit.source_url,permit.permit_id))}
+    ${text('Issuer',`${permit.issuer} · ${permit.state}`)}
+    ${planning?received:stage+received+review+issued+text('Closed',progressDate(permit.closed_date))}
+    ${sourceStatus}${planning?'':text('Inspection',progressText(permit.inspection_status))}
+    ${cell('Observed',esc(safeTimestamp(permit.last_observed_at))+progressHistory(permit))}</tr>`;
+}
+function selectProgressRows(rows,kind,issuer,stage,query=''){
+  const needle=query.trim().toLowerCase();
+  return rows.filter(row=>row.record_kind===kind&&(!issuer||progressIssuerKey(row)===issuer)&&
+    (kind==='planning'||!stage||progressStage(row)===stage)&&(!needle||String(row.permit_id??'').toLowerCase().includes(needle)));
+}
+function matchProgressSource(permit,sources){
+  const candidates=sources.filter(source=>progressIssuerKey(source)===progressIssuerKey(permit));
+  if(permit.source_name)return candidates.find(source=>source.source_name===permit.source_name)||{};
+  const url=progressUrl(permit.source_url);
+  return (url&&candidates.find(source=>progressUrl(source.source_url)===url))||
+    (candidates.length===1?candidates[0]:{});
+}
+function permitProgressCsv(rows,sources){
+  const headers=['key','state','issuer','permit_id','record_kind','stage','received_date','review_result','review_date','issued_flag',
+    'issue_date','closed_date','source_status','inspection_status','source_name','source_url','source_status_url','last_observed_at','last_successful_refresh','latest_date_covered','changes'];
+  const values=rows.map(permit=>{
+    const source=matchProgressSource(permit,sources);
+    const record={...permit,stage:progressStage(permit),source_url:progressUrl(permit.source_url),
+      source_status_url:progressUrl(permit.source_status_url),
+      last_successful_refresh:source.last_successful_refresh,latest_date_covered:source.latest_date_covered,
+      changes:JSON.stringify(progressChanges(permit))};
+    return headers.map(key=>record[key]);
+  });
+  return [headers,...values].map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n';
+}
+async function bootPermitProgress(){
+  const view=Object.fromEntries(['sources','issuer','stage','search','export','count','pager','prev','page','next','building-kind','planning-kind','building',
+    'planning','building-rows','planning-rows'].map(id=>[id,document.querySelector('#progress-'+id)]));
+  let payload;
+  try {
+    const response=await fetch('data/permit-progress.json',{cache:'no-cache'});
+    if(!response.ok)throw new Error('Permit progress unavailable');
+    payload=await response.json();
+    if(!Array.isArray(payload.sources)||!Array.isArray(payload.permits))throw new Error('Invalid permit progress snapshot');
+  } catch {
+    view.count.textContent='Published permit progress is unavailable.';
+    return;
+  }
+  const issuers=new Map([...payload.sources,...payload.permits].map(row=>[progressIssuerKey(row),`${row.issuer} · ${row.state}`]));
+  const option=([value,label])=>`<option value="${esc(value)}">${esc(label)}</option>`;
+  view.issuer.insertAdjacentHTML('beforeend',[...issuers].sort((a,b)=>a[1].localeCompare(b[1])).map(option).join(''));
+  view.stage.insertAdjacentHTML('beforeend',Object.entries(progressStages).filter(([key])=>key!=='planning').map(option).join(''));
+  let page=0, selected=[];
+  function renderProgress(){
+    const planning=view['planning-kind'].checked;
+    const kind=planning?'planning':'building_permit';
+    const selectedSources=payload.sources.filter(source=>!view.issuer.value||progressIssuerKey(source)===view.issuer.value);
+    selected=selectProgressRows(payload.permits,kind,view.issuer.value,view.stage.value,view.search.value);
+    const pages=Math.max(1,Math.ceil(selected.length/PAGE_SIZE));
+    page=Math.min(Math.max(0,page),pages-1);
+    view.sources.innerHTML=selectedSources.map(progressSourceCard).join('');
+    view.stage.disabled=planning;
+    view.building.hidden=planning||!selected.length;
+    view.planning.hidden=!planning||!selected.length;
+    const rows=selected.slice(page*PAGE_SIZE,(page+1)*PAGE_SIZE).map(progressRow).join('');
+    view['building-rows'].innerHTML=planning?'':rows;
+    view['planning-rows'].innerHTML=planning?rows:'';
+    const noun=planning?'planning record':'building permit';
+    view.count.textContent=selected.length?`${sourceCount(selected.length)} matching ${noun}${selected.length===1?'':'s'} · CSV includes all matches`:
+      `No matching ${planning?'planning records':'building permits'}.`;
+    view.export.disabled=!selected.length;
+    view.pager.hidden=pages===1;
+    view.prev.disabled=page===0;
+    view.next.disabled=page===pages-1;
+    view.page.textContent=`Page ${page+1} of ${pages}`;
+  }
+  for(const id of ['issuer','stage','building-kind','planning-kind'])view[id].addEventListener('change',()=>{page=0;renderProgress();});
+  view.search.addEventListener('input',()=>{page=0;renderProgress();});
+  view.prev.addEventListener('click',()=>{page--;renderProgress();});
+  view.next.addEventListener('click',()=>{page++;renderProgress();});
+  view.export.addEventListener('click',()=>{
+    if(!selected.length)return;
+    const url=URL.createObjectURL(new Blob([permitProgressCsv(selected,payload.sources)],{type:'text/csv;charset=utf-8'}));
+    const link=document.createElement('a');link.href=url;link.download='idaho-permit-progress.csv';
+    document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  });
+  renderProgress();
+}
 const sourceProfiles={
   'Boise':['boise-planning','Boise Development Tracker','Planning only','City of Boise development tracker'],
   'Boise Issued Building Permits':['boise-issued','Boise Issued Building Permits','Issued building permits','City of Boise building permits'],
   'Eagle':['eagle','Eagle','Issued building permits','City of Eagle building permits'],
-  'Canyon County':['canyon-county','Canyon County','Applications only','Unincorporated Canyon County permit tracker'],
+  'Canyon County':['canyon-county','Canyon County','Application lead dates','Unincorporated Canyon County permit tracker'],
   'Caldwell':['caldwell','Caldwell','Planning only','Caldwell regional development review'],
   "Coeur d'Alene":['coeur-dalene','Coeur d’Alene','Issued building permits','City of Coeur d’Alene building permits'],
   'Kootenai County':['kootenai-county','Kootenai County','Issued building permits','Unincorporated Kootenai County weekly reports'],
@@ -258,7 +460,7 @@ function sourceCard(item,snapshot){
   const retainedOnly=!safeDate(verifiedLatest)&&safeDate(r?.retained_latest_authoritative_date);
   const latest=retainedOnly?r.retained_latest_authoritative_date:verifiedLatest;
   const basis=r?.latest_date_kind;
-  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.stage==='Applications only'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
+  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.id==='canyon-county'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
   let freshness=safeDate(latest)?(Number.isInteger(r?.source_age_days)&&r.source_age_days>=0?r.source_age_days+' days at snapshot':'Dated evidence'):'Not verified';
   if(retainedOnly)freshness='Retained evidence; current freshness unverified';
   if(safeDate(latest)&&r?.date_provenance==='prior_success')freshness+=' · prior successful collection';
@@ -382,6 +584,7 @@ async function boot(){
   }
 }
 boot();
+bootPermitProgress();
 </script>
 
 </body>

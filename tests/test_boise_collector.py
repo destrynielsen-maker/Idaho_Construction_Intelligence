@@ -1,10 +1,11 @@
 import unittest
 from datetime import date
+from unittest.mock import patch
 
 import requests
 
 from idaho_permits.classify import classify_permit
-from idaho_permits.collectors.boise import BoiseIssuedPermitCollector, permit_from_feature
+from idaho_permits.collectors.boise import BoiseDevelopmentCollector, BoiseIssuedPermitCollector, permit_from_feature
 
 
 class BoiseCollectorTests(unittest.TestCase):
@@ -30,6 +31,20 @@ class BoiseCollectorTests(unittest.TestCase):
         self.assertEqual(permit.stage, 'PLANNING')
         self.assertEqual(permit.county, 'Ada')
         self.assertTrue(permit.building_use.startswith('New construction'))
+        with patch('idaho_permits.collectors.boise.requests.get') as request:
+            request.return_value.json.side_effect = [
+                {'features': [feature], 'exceededTransferLimit': True},
+                {'features': [], 'exceededTransferLimit': False},
+            ]
+            result = BoiseDevelopmentCollector().collect()
+        self.assertEqual([call.kwargs['params']['resultOffset'] for call in request.call_args_list], [0, 1])
+        self.assertTrue(result.progress_complete)
+        self.assertEqual(result.progress_coverage_end, '2024-08-01')
+        planning, = result.progress
+        self.assertEqual((planning['record_kind'], planning['source_status']), ('planning', 'Applications in Review'))
+        self.assertEqual(planning['source_url'], feature['attributes']['Website'])
+        self.assertNotIn('received_date', planning)
+        self.assertNotIn('issue_date', planning)
 
     def test_drops_feature_without_stable_record_id(self):
         self.assertIsNone(permit_from_feature({'attributes': {'RecordName': 'Missing ID'}}))
@@ -80,6 +95,17 @@ class BoiseCollectorTests(unittest.TestCase):
         self.assertEqual(permit.issued_date, '2026-08-20')
         self.assertEqual(permit.valuation, 525000.0)
         self.assertEqual(permit.contractor, 'TEST HOMES LLC')
+
+        with (patch.object(self.collector, '_today', return_value=self.today),
+              patch.object(self.collector, '_search_type', side_effect=[[row], [], []]),
+              patch.object(self.collector, '_detail', return_value=self.detail())):
+            result = self.collector.collect()
+        issued, = result.progress
+        self.assertEqual((issued['stage'], issued['received_date'], issued['issue_date']),
+                         ('issued', '2026-03-01', '2026-08-20'))
+        self.assertEqual((issued['source_status'], issued['inspection_status']), ('Issued', 'unknown'))
+        self.assertNotIn('review_date', issued)
+        self.assertNotIn('closed_date', issued)
 
     def test_residential_adu_is_rejected(self):
         row = self.row('Permit for the construction of a new detached ADU.')

@@ -19,6 +19,7 @@ from .collectors.post_falls import PostFallsPermitCollector
 from .collectors.report_pages import MeridianCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
+from .progress import PermitProgress
 from .reporting import prior_status, reporting_report
 from .storage import load_permits,save_permits
 
@@ -40,6 +41,8 @@ def _site_base_url():
 
 def run(root: Path):
     now=datetime.now(timezone.utc).replace(microsecond=0).isoformat(); store=root/'data'/'permits.json'; existing=load_permits(store); statuses=[]; total=0; observations={}; original_ids=set(existing) if store.is_file() else None; historic_first_seen={key:p.first_seen_at for key,p in existing.items()}; previous=prior_status(root/'public'/'data'/'sources.json')
+    progress_store = root/'data'/'permit-progress.json'
+    progress = PermitProgress.load(progress_store)
     for c in COLLECTORS:
         try:
             r=c.collect()
@@ -70,6 +73,16 @@ def run(root: Path):
             if omitted_count:status['retained_not_observed_in_latest_pull']=omitted_count
             if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
             if r.report_period_end:status['report_period_end']=r.report_period_end
+            if r.progress is not None and r.status in {'ok', 'degraded', 'stale'}:
+                issuer = 'Boise' if r.source == 'Boise Issued Building Permits' else r.source
+                observed_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+                try:
+                    progress.observe(r.progress_source_name or r.source, r.source_url, r.progress, observed_at,
+                        complete=r.progress_complete,
+                        coverage_end=r.progress_coverage_end or r.report_period_end or r.latest_issued_date,
+                        default_issuer=('ID', issuer))
+                except ValueError:
+                    status['progress_error'] = 'The source returned invalid or conflicting progress evidence.'
             statuses.append(status); observations[r.source]=r.permits
         except Exception as e:
             statuses.append({'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
@@ -77,4 +90,5 @@ def run(root: Path):
     for p in permits: classify_permit(p)
     _verify_history(historic_first_seen,existing)
     save_permits(store,permits,now); write_public_data(root/'public',permits,statuses,now,reporting_report(statuses,observations,permits,original_ids,previous,now)); write_all_feeds(root/'public'/'feeds',permits,_site_base_url())
+    progress.save(progress_store, root/'public'/'data'/'permit-progress.json')
     return {'generated_at':now,'total_collected_this_run':total,'total_stored':len(permits),'qualifying_stored':sum(p.qualifies for p in permits),'sources':statuses}
