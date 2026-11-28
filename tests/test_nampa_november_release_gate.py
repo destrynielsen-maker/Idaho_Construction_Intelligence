@@ -52,6 +52,7 @@ def audit_ledgers(before, after, prior_leads, next_leads):
     require(set(public) == set(old_public) | KEYS, "published membership delta")
     for k, r in old_public.items():
         require(stable(r) == stable(public[k]), "existing published row changed: " + k)
+    case_links = set()
     for n, (date, contractor) in EXPECTED.items():
         k = "ID:NAMPA:" + n
         r = b[k]
@@ -70,6 +71,14 @@ def audit_ledgers(before, after, prior_leads, next_leads):
                 and re.fullmatch(r"/apps/selfservice(?:/NampaIDProd)?/?", u.path, re.I)
                 and not u.query and re.fullmatch(r"/permit/[0-9a-f-]{36}", u.fragment, re.I),
                 "missing official case link: " + k)
+        require(u.fragment.lower() not in case_links, "case link reused by another identity: " + k)
+        case_links.add(u.fragment.lower())
+        scope = r["raw"].get("scope", "").strip()
+        single = re.match(r"NEW\s+(?:SFD|SINGLE[- ]FAMILY)\b", scope, re.I)
+        multi = re.match(r"NEW\s+(?:TOWN(?:HOUSE|HOME)|DUPLEX)\b", scope, re.I)
+        require(bool(single or multi), "explicit case scope missing: " + k)
+        require(r.get("classification") == ("SINGLE_FAMILY" if single else "MULTIFAMILY"),
+                "classification differs from case scope: " + k)
         require(MIXED_LABEL not in r.get("permit_type", "").lower(),
                 "generic mixed search label would misclassify dwellings: " + k)
         require(r.get("qualifies") is True and r.get("classification") in
@@ -143,8 +152,8 @@ class NampaReleaseGateTests(unittest.TestCase):
         self.new = [
             {"key":"ID:NAMPA:"+n,"state":"ID","jurisdiction":"Nampa","permit_number":n,
              "issued_date":date,"contractor":name,"valuation":None,"stage":"PERMITTED",
-             "status":"Issued","address":"TEST ADDRESS","raw":{"scope":"TEST SFD"},
-             "source_url":"https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/00000000-0000-0000-0000-000000000000",
+             "status":"Issued","address":"TEST ADDRESS","raw":{"scope":"NEW SFD TEST FIXTURE"},
+             "source_url":"https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/00000000-0000-0000-0000-"+n[4:9].zfill(12),
              "permit_type":"New Residential","qualifies":True,"classification":"SINGLE_FAMILY",
              "first_seen_at":"test","score":20 if name else 15}
             for n,(date,name) in EXPECTED.items()]
@@ -161,6 +170,14 @@ class NampaReleaseGateTests(unittest.TestCase):
     def test_no_generic_mixed_permit_label(self):
         self.new[0]["permit_type"] = MIXED_LABEL
         with self.assertRaisesRegex(AssertionError,"mixed search label"):
+            self.run_gate()
+    def test_case_scope_and_distinct_links(self):
+        self.new[0]["classification"] = "MULTIFAMILY"
+        with self.assertRaisesRegex(AssertionError,"classification differs"):
+            self.run_gate()
+        self.new[0]["classification"] = "SINGLE_FAMILY"
+        self.new[0]["source_url"] = self.new[1]["source_url"]
+        with self.assertRaisesRegex(AssertionError,"case link reused"):
             self.run_gate()
     def test_no_invented_valuation_or_contractor(self):
         self.new[0]["valuation"] = 0
