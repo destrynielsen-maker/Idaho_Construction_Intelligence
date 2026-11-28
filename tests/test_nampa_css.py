@@ -4,7 +4,6 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 from idaho_permits.collectors.base import CollectorResult
-from idaho_permits.collectors.nampa import NampaPermitCollector
 from idaho_permits.collectors.nampa_css import parse_batch, collect_css, SEARCH_TYPE, SITE
 from idaho_permits.classify import classify_permit
 
@@ -31,18 +30,33 @@ class NampaCSSTest(unittest.TestCase):
                 f=fixture()
                 f['rows'][0].update(changing)
                 with self.assertRaises(ValueError): parse_batch(f,LO,HI)
+
         f=fixture()
         f['count']=2
         with self.assertRaises(ValueError): parse_batch(f,LO,HI)
         f['rows'].append(dict(f['rows'][0],id='RES-54321-2026'))
         with self.assertRaises(ValueError): parse_batch(f,LO,HI)
 
+    def test_partial_details_keep_verified_subset_with_reconciled_counts(self):
+        batch = fixture()
+        batch.update(observedCount=2, detailUnavailable=1)
+        result = parse_batch(batch, LO, HI)
+        self.assertEqual(len(result.permits), 1)
+        self.assertIn('Verified 1 of 2 search results', result.note)
+        batch['observedCount'] = 3
+        with self.assertRaises(ValueError):
+            parse_batch(batch, LO, HI)
+
     def test_keep_pdf_if_fallback_unavailable(self):
+        from idaho_permits.collectors.nampa import NampaPermitCollector
+
         historical=CollectorResult('Nampa','https://www.cityofnampa.us',[],'old',status='stale')
         with patch.dict(os.environ,{'NAMPA_CSS_FALLBACK':'1'}),patch.object(NampaPermitCollector,'_collect_pdf',return_value=historical),patch('idaho_permits.collectors.nampa_css.collect_css',side_effect=RuntimeError):
             self.assertIs(NampaPermitCollector().collect(),historical)
 
     def test_existing_path_untouched_without_opt_in(self):
+        from idaho_permits.collectors.nampa import NampaPermitCollector
+
         ready=CollectorResult('Nampa','https://www.cityofnampa.us',[])
         with patch.dict(os.environ,{'NAMPA_CSS_FALLBACK':'0'}),patch.object(NampaPermitCollector,'_collect_pdf',return_value=ready),patch('idaho_permits.collectors.nampa_css.collect_css') as browser:
             self.assertIs(NampaPermitCollector().collect(),ready)

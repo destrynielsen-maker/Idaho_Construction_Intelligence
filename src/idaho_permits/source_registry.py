@@ -19,4 +19,12 @@ SOURCES = [
  {'market':'Twin Falls','grade':'A','mode':'rep-report','url':'https://www.tfid.org/214/Building-Permit-Information','use':'Dashboard, current commercial permits and monthly lists'},
  {'market':'Pocatello','grade':'B+','mode':'rep-research','url':'https://poca.csqrcloud.com/community-etrakit/','use':'Permit/project/contractor/map search'},
  {'market':'Idaho Falls','grade':'B','mode':'rep-research','url':'https://cw.idahofalls.gov/','use':'Cityworks permit/project research'},
+ {'market':'Garden City','grade':'A','mode':'automated-report','url':'https://gardencityidaho.org/departments/development-services/activity-reports/','use':'Issued CSV records for explicit new commercial and single-family construction'},
+ {'market':'Hailey','grade':'A','mode':'automated-pdf','url':'https://haileycityhall.org/community-development/building-services/building-inspections-permit-reports/','use':'Detailed monthly reports with explicit issue date and new-building permit type'},
+ {'market':'Blackfoot','grade':'A','mode':'automated-pdf','url':'https://www.cityofblackfoot.org/461/Monthly-Building-Permit-Reports','use':'Explicit detached new homes from city-issued reports; twin-home and accessory records require review'},
+ {'market':'Moscow','grade':'A','mode':'automated-pdf','url':'https://www.ci.moscow.id.us/Archive.aspx?AMID=39','use':'City-issued new single-family and commercial building records'},
+ {'market':'Bannock County','grade':'A','mode':'automated-pdf','url':'https://www.bannockcounty.gov/planning/','use':'County-issued explicit new single-family dwellings; separate municipal permits omitted'},
+ {'market':'Twin Falls County','grade':'A issued preview','mode':'rep-report','url':'https://twinfallscounty.org/building_department/monthly_permits/','use':'Local issued PDF collector; hosted index access needs verification'},
+ {'market':'Kuna','grade':'B manual-detail','mode':'rep-report','url':'https://www.kunacity.id.gov/242/Building-Permit-Reports','use':'Monthly permit reports; confirm authoritative issue date and status before automation'},
+ {'market':'Teton County, ID','grade':'B manual-detail','mode':'rep-report','url':'https://tetoncountyidaho.gov/departments/building_department/monthly_permit_reports.php','use':'Monthly permit data; confirm issuance and distinguish county permits from municipality rows'},
 ]
