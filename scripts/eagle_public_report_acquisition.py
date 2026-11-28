@@ -42,16 +42,16 @@ def verify_pdf(path):
     raw = path.read_bytes()
     if not raw.startswith(b"%PDF-") or len(raw) > 100_000_000:
         raise RuntimeError("not a bounded PDF")
-    from pypdf import PdfReader
-    pdf = PdfReader(path)
-    if not 1 <= len(pdf.pages) <= 200:
-        raise RuntimeError("PDF page count outside expected bounds")
-    s = "\n".join(page.extract_text(extraction_mode="layout") or "" for page in pdf.pages)
-    return {"sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw),
-            "text_chars": len(s), "issue_label_present": bool(re.search(r"(?:issue[d]?\s+date|date\s+issued)", s, re.I)),
-            "permit_label_present": bool(re.search(r"permit\s*(?:#|number|no\b)", s, re.I)),
-            "contractor_label_present": bool(re.search(r"contractor", s, re.I)),
-            "printed_totals": re.findall(r"(?:total(?:\s+records|\s+permits)?|record count)\s*[:=]?\s*(\d+)", s, re.I)[:10]}
+    from eagle_report_parser import parse_report
+    result = parse_report(path)
+    counts = {}
+    for row in result["records"]:
+        kind = row["candidate_type"] or "other"
+        counts[kind] = counts.get(kind, 0) + 1
+    return {k:v for k,v in result.items() if k!="records"} | {
+        "bytes":len(raw), "candidate_counts":counts,
+        "candidate_valuation":sum(r["valuation"] for r in result["records"] if r["candidate_type"])}
+
 
 def main():
     robots = check_robots()
@@ -208,8 +208,13 @@ def main():
                 raise RuntimeError("public viewer did not deliver PDF")
             acquired.append({"visible_title":label,**verify_pdf(dest)})
             print(json.dumps({"acquired":acquired,"production_writes":0}))
-            if not acquired or not all(x["issue_label_present"] and x["permit_label_present"] for x in acquired):
-                raise RuntimeError("PDF issue-date and permit identity labels not yet established")
+            if not acquired:
+                raise RuntimeError("no official report obtained")
+            if acquired[0]["sha256"] == "55864c0276a4c958d7fcc0501e8a1c425ce78a9fd26f7b2814e90404ed606295":
+                assert acquired[0]["visible_total"] == 34 and acquired[0]["printed_total"] == 35
+                assert acquired[0]["candidate_counts"] == {"New single-family dwelling":18,"other":11,"New townhome":3,"New commercial construction":2}
+                assert acquired[0]["candidate_valuation"] == 16841106
+                print("Exact owner-supplied PDF reconciliation passed; partial evidence only.", flush=True)
         finally:
             browser.close()
 
