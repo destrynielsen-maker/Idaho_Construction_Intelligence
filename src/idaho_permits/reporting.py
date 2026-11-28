@@ -6,7 +6,7 @@ from pathlib import Path
 SOURCES = {
     'Boise': ('boise-planning', 'Boise Development Tracker', 'planning', {'Boise Development Tracker'}),
     'Boise Issued Building Permits': ('boise-issued', 'Boise Issued Building Permits', 'issued', {'City of Boise Accela Citizen Access'}),
-    'Eagle': ('eagle', 'Eagle', 'issued', {'Eagle iWorQ Permit Portal'}),
+    'Eagle': ('eagle', 'Eagle', 'issued', {'Eagle iWorQ Permit Portal','City of Eagle weekly building permit report'}),
     'Canyon County': ('canyon-county', 'Canyon County', 'application', {'Canyon County DSD Building Permit Tracker'}),
     'Caldwell': ('caldwell', 'Caldwell', 'planning', {'COMPASS Development Review'}),
     "Coeur d'Alene": ('coeur-dalene', "Coeur d’Alene", 'issued', {"Coeur d'Alene Issued Permits"}),
@@ -125,7 +125,7 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
         old=previous.get(ident,{})
         observed={p.key:p for p in observations.get(name,()) if p.source_name in source_names}
         state=str(status.get('status','error')).lower()
-        report_date=validated(status.get('latest_issued_date'),today) if name in {'Meridian','Nampa','Post Falls'} else None
+        report_date=validated(status.get('latest_issued_date'),today) if name in {'Meridian','Nampa','Post Falls','Eagle'} else None
         has_evidence=bool(observed or report_date)
         partial=state in {'degraded','stale'} and has_evidence
         succeeded=state=='ok' and has_evidence
@@ -163,7 +163,7 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
             last_successful_authoritative_date=last_success_date.isoformat() if last_success_date else None,
             comparable_success_baseline=succeeded or (not partial and original_ids is not None and old.get('comparable_success_baseline') is True),
             source_age_days=(today-latest).days if latest else None,
-            freshness_status=('stale' if state=='stale' or (name=='Post Falls' and current and (today-current).days>14) else None),
+            freshness_status=('stale' if state=='stale' or (name in {'Post Falls','Eagle'} and current and (today-current).days>14) else None),
             new_since_previous_success=len(observed.keys()-original_ids) if comparable else None,
             retained_records=retained,observed_records=len(observed) if observed and (succeeded or partial) else None,
             availability=availability,collection_outcome=outcome))

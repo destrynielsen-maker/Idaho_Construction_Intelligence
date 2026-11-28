@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 00:51:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 05:19:38 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -30,6 +30,30 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00RI2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | BILTMORE CO LLC | 154,500</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02659</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT28 BLK03 HARVEST CREEK PH #5 — 3941 S Harvest Creek Way Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/7a973f22-2a10-4117-8604-1d101f9ff860</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18986-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT76 BLK07 HARVEST CREEK PH #5 — 3940 S Harvest Creek Way Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/70b13c7c-1197-4113-950a-130607ab3e48</link>
+      <description>SINGLE_FAMILY | Hayden Homes Idaho LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-18985-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT21 BLK14 FRANKLIN VILLAGE NORTH #5 — 7387 E Fritz St Nampa ID 83687</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/97e0b2b2-5812-403c-be6d-1f6ef037dabb</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19089-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT14 BLK01 STODDARD CROSSING — 3527 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/67c45e8c-0403-4a93-b806-7c66d943b526</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19147-2026</guid>
     </item>
     <item>
       <title>[45] Eagle: New Townhome — 7050 W AMAZON DR</title>
@@ -72,6 +96,24 @@
       <link>https://portal.iworq.net/EAGLE/permit/600/29963559</link>
       <description>SINGLE_FAMILY | Solitude Homes Inc | 0</description>
       <guid isPermaLink="false">ID:EAGLE:269512</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT13 BLK01 STODDARD CROSSING — 3555 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/3f08615c-eead-4e40-b0ff-e9b9bf538cc8</link>
+      <description>SINGLE_FAMILY | Richmond American Homes of Idaho INC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19105-2026</guid>
+    </item>
+    <item>
+      <title>[20] Nampa: NEW SFD LT28 BLK11 FRANKLIN VILLAGE NORTH #4 — 17151 N Sancho Way Nampa ID 83687</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/aebe387d-f242-4aaf-8453-b45edb1964f0</link>
+      <description>SINGLE_FAMILY | Hubble Homes LLC | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19111-2026</guid>
+    </item>
+    <item>
+      <title>[15] Nampa: NEW SFD LT06 BLK01 Stoddard Crossing — 3723 S Anise Ave Nampa ID 83686</title>
+      <link>https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/5aa0cea8-7b01-41b0-81a4-a52075ea4307</link>
+      <description>SINGLE_FAMILY | Contractor unknown | Valuation not reported</description>
+      <guid isPermaLink="false">ID:NAMPA:RES-19090-2026</guid>
     </item>
     <item>
       <title>[40] Eagle: New Townhome — 200 N Morehouse Ave</title>
@@ -1165,48 +1207,6 @@
       <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
       <description>SINGLE_FAMILY | COVERTECH INDUSTRIES INC | 1,568</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-PATIO-2026-0128</guid>
-    </item>
-    <item>
-      <title>[20] Kootenai County: NEW SFR w/ATTACHED GARAGE | Burns Residence — 16766 [TEMP] S Citrine Drive</title>
-      <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 925,417</description>
-      <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1271</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home after demo of older home is complete. Demo on separate permit — 2283 N Edgewood Road</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29870892</link>
-      <description>SINGLE_FAMILY | TWO SEVEN ONE | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268805</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 6490 W LARGO DR</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29870696</link>
-      <description>SINGLE_FAMILY | BOISE PLH, LLC | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268801</guid>
-    </item>
-    <item>
-      <title>[20] Eagle: New Home — 2137 N HONALEE AVE</title>
-      <link>https://portal.iworq.net/EAGLE/permit/600/29843121</link>
-      <description>SINGLE_FAMILY | Toll Bros, Inc | 0</description>
-      <guid isPermaLink="false">ID:EAGLE:268697</guid>
-    </item>
-    <item>
-      <title>[15] Post Falls: New Single Family Residential — 1239 W MISS HANA AVE, POST FALLS ID 83854</title>
-      <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
-      <description>SINGLE_FAMILY | Contractor unknown | 320,203</description>
-      <guid isPermaLink="false">ID:POST FALLS:BLDR-26-689</guid>
-    </item>
-    <item>
-      <title>[40] Boise: Take 5 Milwaukee St — 1255 N MILWAUKEE ST, Boise ID 83704</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00DDB&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>COMMERCIAL | RRC CONTRACTORS INC | 650,000</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-01281</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: NEW SFD HORSE MEADOWS #3 LOT 26 BLK 6 OCT 2026 C ITY OF M ERIDIAN 37 P AGE # BUILDING PERMITS FOR THE MONTH (260) — 4593 W MEADOWPINE CT</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | KB HOME IDAHO LLC | 212,703</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0924</guid>
     </item>
   </channel>
 </rss>

@@ -210,6 +210,12 @@
     "valuation_total": 0
   },
   {
+    "contractor": "Hayden Homes Idaho LLC",
+    "count": 5,
+    "score_total": 100,
+    "valuation_total": 843212.6100000001
+  },
+  {
     "contractor": "Highland Homes LLC",
     "count": 5,
     "score_total": 100,
@@ -336,12 +342,6 @@
     "valuation_total": 753572.88
   },
   {
-    "contractor": "Hayden Homes Idaho LLC",
-    "count": 3,
-    "score_total": 60,
-    "valuation_total": 843212.6100000001
-  },
-  {
     "contractor": "ABC & MHK INC DBA BROOKSTONE CUSTOM HOMES",
     "count": 3,
     "score_total": 60,
@@ -382,6 +382,12 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 981970.8
+  },
+  {
+    "contractor": "Richmond American Homes of Idaho INC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 0
   },
   {
     "contractor": "BENTON DEVELOPMENT INC",
@@ -2116,5 +2122,11 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 301056.72
+  },
+  {
+    "contractor": "Hubble Homes LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 0
   }
 ]

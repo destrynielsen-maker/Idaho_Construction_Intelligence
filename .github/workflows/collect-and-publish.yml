@@ -43,6 +43,13 @@ jobs:
           else
             echo "::warning::Nampa browser fallback dependencies unavailable; using the existing PDF collector"
           fi
+      - name: Prepare Eagle weekly report collector
+        run: |
+          if command -v google-chrome >/dev/null && timeout 60 python -m pip install playwright==1.57.0 pdfplumber==0.11.8; then
+            echo "EAGLE_REPORT_FALLBACK=1" >> "$GITHUB_ENV"
+          else
+            echo "::warning::Eagle report dependencies unavailable; using legacy Eagle portal"
+          fi
       - name: Collect and render
         env:
           PYTHONPATH: src
