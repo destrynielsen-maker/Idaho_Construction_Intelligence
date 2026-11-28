@@ -56,8 +56,18 @@ async function run(from,to) {
     await guard(page);
     const mode=page.getByRole('combobox',{name:'Search',exact:true});
     await mode.locator('option:checked').filter({hasText:/^All$/}).waitFor({state:'attached'});
-    await mode.selectOption({label:'Permit'});
-    await page.getByRole('button',{name:/Advanced/}).click();
+    const dateFrom=page.locator('#IssueDateFrom');
+    const advanced=page.getByRole('button',{name:/Advanced/});
+    for(let attempt=0;attempt<2;attempt++) {
+      if(restricted)throw Error('portal access restricted');
+      await guard(page);
+      await mode.selectOption({label:'Permit'});
+      await mode.locator('option:checked').filter({hasText:/^Permit$/}).waitFor({state:'attached'});
+      if(!await dateFrom.isVisible())await advanced.click();
+      // The tenant can reset the initial option while the first view is loading.
+      if(await dateFrom.waitFor({state:'visible',timeout:3500}).then(()=>true,()=>false))break;
+    }
+    await dateFrom.waitFor({state:'visible'});
     await page.getByRole('combobox',{name:'Permit Type',exact:true}).selectOption({label:TYPE});
     for(const [k,v] of [['IssueDateFrom',from],['IssueDateTo',to]]) {
       const field=page.locator('#'+k);
@@ -88,6 +98,7 @@ async function run(from,to) {
     for(const r of rows) {
       await page.goto(r.url,{waitUntil:'domcontentloaded'}); await guard(page);
       await page.getByRole('tab',{name:'Contacts',exact:true}).waitFor();
+      await page.getByRole('heading',{name:'Permit Number: '+r.id,exact:true}).waitFor();
       await page.getByText('Description:',{exact:true}).waitFor();
       const summary=await page.evaluate(()=>{
         const visible=[...document.querySelectorAll('body *')].filter(e=>e.childElementCount===0&&e.getBoundingClientRect().height);
