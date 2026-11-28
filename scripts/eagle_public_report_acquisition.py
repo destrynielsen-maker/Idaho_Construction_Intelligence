@@ -112,31 +112,76 @@ def main():
                     continue
                 selected.append((label,item))
             acquired = []
-            # The download is initiated through the visible public link only.
-            # If it opens a document viewer, stop rather than guessing a download endpoint.
-            for label,item in selected[:1]:
-                try:
-                    with page.expect_download(timeout=10000) as dl:
-                        item.click(timeout=5000)
-                    guard()
-                    dest=Path(tmp)/"report.pdf"
-                    dl.value.save_as(dest)
-                    acquired.append({"visible_title":label,**verify_pdf(dest)})
-                except PlaywrightTimeout:
-                    guard()
-                    # A viewer may expose a clearly labelled Download button.
-                    buttons = []
-                    for fr in page.frames:
-                        buttons.extend([b for b in fr.get_by_role("button", name=re.compile(r"^Download(?: document| PDF)?$",re.I)).all() if b.is_visible()])
-                        buttons.extend([b for b in fr.get_by_role("link", name=re.compile(r"^Download(?: document| PDF)?$",re.I)).all() if b.is_visible()])
-                    if len(buttons) != 1:
-                        raise RuntimeError("public document viewer has no unique visible download control")
-                    with page.expect_download(timeout=12000) as dl:
-                        buttons[0].click(timeout=5000)
-                    guard()
-                    dest=Path(tmp)/"report.pdf"
-                    dl.value.save_as(dest)
-                    acquired.append({"visible_title":label,**verify_pdf(dest)})
+            downloads = []
+            pdf_responses = []
+            def capture(response):
+                if allowed_url(response.url, robots) and response.status == 200 and "application/pdf" in response.headers.get("content-type","").lower():
+                    pdf_responses.append(response)
+            context.on("response", capture)
+            def attach(new_page):
+                new_page.on("download", lambda download: downloads.append(download))
+            context.on("page", attach)
+            attach(page)
+
+            # The WebLink folder may select a row on click and open on double click.
+            # Follow actual public links, and inspect any new viewer tab.
+            label, item = selected[0]
+            print(json.dumps({"selected":label,"tag":item.evaluate("(e)=>e.tagName"),"href":item.get_attribute("href"),"title":item.get_attribute("title")}), flush=True)
+            item.click(timeout=5000)
+            page.wait_for_timeout(1500)
+            guard()
+            if not downloads and not pdf_responses and len(context.pages)==1 and "browse.aspx" in page.url.lower():
+                item.dblclick(timeout=5000)
+                page.wait_for_timeout(2500)
+            def viewer_controls():
+                result = []
+                for pg in context.pages:
+                    if pg.is_closed() or not allowed_url(pg.url, robots):
+                        continue
+                    for fr in pg.frames:
+                        for ctl in fr.locator("a,button,input[type=button],input[type=submit],[role=button],[title],[aria-label]").all()[:500]:
+                            try:
+                                if not ctl.is_visible():
+                                    continue
+                                values = [ctl.get_attribute(k) or "" for k in ("title","aria-label","value","alt")]
+                                values.append(ctl.inner_text(timeout=500))
+                                name = " ".join(v.strip() for v in values if v.strip())
+                                if len(name) <= 100 and re.search(r"download|export|print|pdf|electronic file", name,re.I):
+                                    result.append((pg,ctl,name))
+                            except PlaywrightTimeout:
+                                continue
+                return result
+            controls = viewer_controls()
+            print(json.dumps({"viewer_pages":[pg.url for pg in context.pages],"visible_export_controls":sorted(set(x[2] for x in controls))}),flush=True)
+            guard()
+            if not downloads and not pdf_responses:
+                # Use the explicit public toolbar action. Avoid print-only or permission prompts.
+                matches = [c for c in controls if re.search(r"download|export",c[2],re.I) and not re.search(r"cancel|selected entries|folder|multiple",c[2],re.I)]
+                if not matches:
+                    matches = [c for c in controls if re.fullmatch(r"(?:view |open )?pdf(?: file)?",c[2],re.I)]
+                if not matches:
+                    raise RuntimeError("no visible public download/export control; manual export required")
+                pg,ctl,name = matches[0]
+                print(json.dumps({"chosen_public_control":name}),flush=True)
+                ctl.click(timeout=5000)
+                pg.wait_for_timeout(2000)
+                guard()
+                if not downloads and not pdf_responses:
+                    controls2 = viewer_controls()
+                    print(json.dumps({"dialog_controls":sorted(set(x[2] for x in controls2))}),flush=True)
+                    confirm = [c for c in controls2 if re.fullmatch(r"download(?: & print| and print)?(?: download)?",c[2],re.I)]
+                    if len(confirm)==1:
+                        confirm[0][1].click(timeout=5000)
+                        confirm[0][0].wait_for_timeout(2500)
+            guard()
+            dest=Path(tmp)/"report.pdf"
+            if downloads:
+                downloads[0].save_as(dest)
+            elif pdf_responses:
+                dest.write_bytes(pdf_responses[0].body())
+            else:
+                raise RuntimeError("public viewer did not deliver PDF")
+            acquired.append({"visible_title":label,**verify_pdf(dest)})
             print(json.dumps({"acquired":acquired,"production_writes":0}))
             if not acquired or not all(x["issue_label_present"] and x["permit_label_present"] for x in acquired):
                 raise RuntimeError("PDF issue-date and permit identity labels not yet established")
