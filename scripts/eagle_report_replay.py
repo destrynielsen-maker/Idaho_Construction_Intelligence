@@ -37,6 +37,8 @@ def feed_items(path):
 
 def compare_outputs(root, expected):
     old=builders(Path('public/data/builders.json'))
+    prior_rank=list(old)
+    prior_scores={k:(v['score_total'],v['count']) for k,v in old.items()}
     new=builders(root/'public/data/builders.json')
     for p in expected.values():
         name=p.get('contractor')
@@ -47,6 +49,9 @@ def compare_outputs(root, expected):
     for k,v in old.items():
         assert new[k]['count']==v['count'] and new[k]['score_total']==v['score_total']
         assert math.isclose(new[k]['valuation_total'],v['valuation_total'],abs_tol=0.01,rel_tol=0)
+    # No reshuffling of equally-ranked unchanged builders.
+    unchanged={k for k in prior_rank if prior_scores[k]==(new[k]['score_total'],new[k]['count'])}
+    assert [k for k in prior_rank if k in unchanged]==[k for k in new if k in unchanged]
     for path in sorted(Path('public/feeds').glob('*.xml')):
         a=feed_items(path); b=feed_items(root/'public/feeds'/path.name)
         added=set(b)-set(a); removed=set(a)-set(b)
