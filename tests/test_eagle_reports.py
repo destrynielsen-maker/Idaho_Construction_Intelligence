@@ -26,6 +26,16 @@ class EagleReportAdapterTests(unittest.TestCase):
         self.assertEqual(r.status,'ok')
         self.assertEqual(len(r.permits),2)
         self.assertEqual(r.latest_issued_date,'2026-11-20')
+    def test_observed_alternate_city_labels(self):
+        row=self.payload[0]['records'][0]
+        row.update(report_type='Building Residential',use_class='New Home Single')
+        self.assertEqual(parse_batch(self.payload,TODAY).permits[0].permit_type,'New single-family dwelling')
+        row.update(description='New Commercial',report_type='Building Commercial',
+                   use_class='New Commerci',candidate_type='New commercial construction')
+        self.assertEqual(parse_batch(self.payload,TODAY).permits[0].permit_type,'New commercial construction')
+        row.update(description='Occupancy Only',candidate_type='New commercial construction')
+        with self.assertRaisesRegex(ValueError,'candidate mapping'):
+            parse_batch(self.payload,TODAY)
     def test_missing_total_is_partial(self):
         self.payload[0].update(printed_total=None,complete=False)
         r=parse_batch(self.payload,TODAY)

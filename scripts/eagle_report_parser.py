@@ -65,10 +65,10 @@ def parse_report(path):
                 ids.add(permit_id)
                 description,ptype,use=r[16:19]
                 kind=None
-                if ptype=='Building Residenti' and use=='New Home-':
+                if (ptype,use) in {('Building Residenti','New Home-'),('Building Residential','New Home Single')}:
                     if description=='New Home': kind='New single-family dwelling'
-                    elif description=='New Townhome': kind='New townhome'
-                elif ptype=='Building Commer' and use=='New Commerc':
+                    elif description=='New Townhome' and use=='New Home-': kind='New townhome'
+                elif (ptype,use) in {('Building Commer','New Commerc'),('Building Commercial','New Commerci')}:
                     if description in ('New Commercial','Core & shell construction'): kind='New commercial construction'
                 records.append(dict(permit_number=permit_id,issued_date=issue,address=r[4],subdivision=r[7],apn=r[0] or None,contractor=r[13] or None,valuation=integer(r[15]),living_area_sqft=integer(r[8]),description=description,report_type=ptype,use_class=use,candidate_type=kind,source_page=n))
         if len(totals)>1 or (totals and totals[0]<len(ids)) or not ids:

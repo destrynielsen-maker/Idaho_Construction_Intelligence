@@ -24,6 +24,9 @@ DIRECTORY="https://lf.cityofeagle.org/WebLink/Browse.aspx?id=100694&dbid=0&repo=
 SCRIPT=Path(__file__).resolve().parents[3]/"scripts"/"eagle_public_report_acquisition.py"
 KINDS={
     ("Building Residenti","New Home-","New Home"):"New single-family dwelling",
+    ("Building Residential","New Home Single","New Home"):"New single-family dwelling",
+    ("Building Commercial","New Commerci","New Commercial"):"New commercial construction",
+    ("Building Commercial","New Commerci","Core & shell construction"):"New commercial construction",
     ("Building Residenti","New Home-","New Townhome"):"New townhome",
     ("Building Commer","New Commerc","New Commercial"):"New commercial construction",
     ("Building Commer","New Commerc","Core & shell construction"):"New commercial construction",
