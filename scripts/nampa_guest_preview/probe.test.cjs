@@ -1,0 +1,12 @@
+'use strict';
+const {test}=require('node:test');
+const a=require('node:assert/strict');
+const {iso,windowOf,validate,mergeDetail,TYPE}=require('./probe.cjs');
+const period={lo:'2026-11-23',hi:'2026-11-27'};
+const r={id:'RES-19147-2026',url:'https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/67c45e8c-0403-4a93-b806-7c66d943b526',issued:'11/24/2026',status:'Issued',type:TYPE,address:'1 TEST WAY'};
+const d={id:r.id,issued:r.issued,scope:'NEW SFD LT14 BLK01 STODDARD CROSSING',contractors:['Example Home LLC']};
+test('accept an explicitly dated official record',()=>{a.deepEqual(validate([r],1,period),[r]); a.equal(mergeDetail(r,d).contractor,'Example Home LLC');});
+test('guard against empty, partial, duplicate and unbounded queries',()=>{for(const x of [[[],0],[[r],2],[[r,r],2],[[r],26]])a.throws(()=>validate(x[0],x[1],period));});
+test('reject foreign links, dates outside scope and misleading status',()=>{for(const y of [{url:'https://other.invalid/#/permit/fake'},{issued:'11/28/2026'},{status:'Approved - Ready to Issue'},{type:'Trade'}])a.throws(()=>validate([{...r,...y}],1,period));});
+test('does not infer contractor from other roles or from ambiguity',()=>{for(const contractors of [[],['Builder A','Builder B']])a.equal(mergeDetail(r,{...d,contractors}).contractor,null);});
+test('reject restoration, denied identity, invalid calendar dates and overly broad scans',()=>{a.throws(()=>mergeDetail(r,{...d,scope:'NEW SFD - FIRE DAMAGE RESTORATION'}));a.throws(()=>mergeDetail(r,{...d,id:'RES-00000-2026'}));a.throws(()=>iso('02/30/2026'));a.throws(()=>windowOf('01/01/2025','01/08/2025'));});

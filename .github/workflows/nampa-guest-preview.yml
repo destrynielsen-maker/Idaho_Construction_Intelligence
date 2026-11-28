@@ -1,0 +1,45 @@
+name: Nampa guest search preview
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'scripts/nampa_guest_preview/**'
+      - '.github/workflows/nampa-guest-preview.yml'
+permissions:
+  contents: read
+jobs:
+  preview:
+    if: github.head_ref == 'scout/nampa-civic-access-guest-preview'
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install preview-only test dependencies
+        run: npm install --ignore-scripts --no-save --package-lock=false playwright@1.62.1
+      - name: Run validation tests
+        run: node --test scripts/nampa_guest_preview/probe.test.cjs
+      - name: Select a stock Chrome installation
+        run: |
+          if command -v google-chrome >/dev/null; then
+            google-chrome --version
+            echo "NAMPA_USE_SYSTEM_CHROME=1" >> "$GITHUB_ENV"
+          else
+            npx --no-install playwright install --with-deps chromium --only-shell
+          fi
+      - name: Check bounded public search against both known periods
+        run: |
+          set -euo pipefail
+          for period in october november; do
+            if [ "$period" = october ]; then
+              set -- 10/19/2026 10/23/2026
+            else
+              set -- 11/23/2026 11/27/2026
+            fi
+            node scripts/nampa_guest_preview/probe.cjs "$1" "$2" > "$RUNNER_TEMP/$period.json"
+          done
+          node scripts/nampa_guest_preview/accept.cjs "$RUNNER_TEMP/october.json" "$RUNNER_TEMP/november.json"
