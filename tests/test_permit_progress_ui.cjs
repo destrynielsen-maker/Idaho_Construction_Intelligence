@@ -82,6 +82,19 @@ test('Twin Falls issue evidence and attribution stay with the city issuer', () =
   assert.equal(context.evidence({ ...permit, jurisdiction: 'Twin Falls County' }), 'unverified');
 });
 
+test('Jerome issue evidence requires the city report flag and city issuer', () => {
+  const { context } = runtime();
+  const permit = {
+    jurisdiction: 'Jerome', permit_number: 'BLD-26-00001', issued_date: '2026-10-14',
+    source_name: 'City of Jerome monthly issued building permit report', raw: { issue_date_verified: true },
+  };
+  assert.equal(context.evidence(permit), 'issued');
+  assert.match(context.csvText([permit]), /"BLD-26-00001","2026-10-14","issued","2026-10-14"/);
+  assert.equal(context.contractorEvidence(permit), 'Not reported');
+  assert.equal(context.evidence({ ...permit, raw: {} }), 'unverified');
+  assert.equal(context.evidence({ ...permit, jurisdiction: 'Jerome County' }), 'unverified');
+});
+
 test('building stage filter and CSV distinguish approval and issuance', async () => {
   const { context, control, download } = runtime(async () => ({
     ok: true, json: async () => ({ sources: [source], permits: [approval, issuance, planning] }),

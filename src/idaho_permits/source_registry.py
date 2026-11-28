@@ -19,6 +19,7 @@ SOURCES = [
  {'market':'Post Falls','grade':'A+','mode':'automated-gis','url':'https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17','use':'Official rolling issued building-permit GIS with permit number, issued date, valuation, work type, building type, address and status; ground-up SFR, duplex/townhouse/multifamily and commercial only'},
  {'market':'Post Falls OpenGov','grade':'B+','mode':'rep-research','url':'https://postfallsid.portal.opengov.com/','use':'Building/planning/engineering project research'},
  {'market':'Twin Falls','grade':'A','mode':'automated-pdf','url':'https://www.tfid.org/Archive/48','use':'City monthly issued permit reports for explicit detached new single-family dwellings'},
+ {'market':'Jerome','grade':'A','mode':'automated-pdf','url':'https://ci.jerome.id.us/353/Permit-Reports','use':'City monthly issued permit reports for explicit new single-family dwellings and full commercial or industrial buildings'},
  {'market':'Pocatello','grade':'B+','mode':'rep-research','url':'https://poca.csqrcloud.com/community-etrakit/','use':'Permit/project/contractor/map search'},
  {'market':'Idaho Falls','grade':'B','mode':'rep-research','url':'https://cw.idahofalls.gov/','use':'Cityworks permit/project research'},
  {'market':'Garden City','grade':'A','mode':'automated-report','url':'https://gardencityidaho.org/departments/development-services/activity-reports/','use':'Issued CSV records for explicit new commercial and single-family construction'},
@@ -26,7 +27,7 @@ SOURCES = [
  {'market':'Blackfoot','grade':'A','mode':'automated-pdf','url':'https://www.cityofblackfoot.org/461/Monthly-Building-Permit-Reports','use':'Explicit detached new homes from city-issued reports; twin-home and accessory records require review'},
  {'market':'Moscow','grade':'A','mode':'automated-pdf','url':'https://www.ci.moscow.id.us/Archive.aspx?AMID=39','use':'City-issued new single-family and commercial building records'},
  {'market':'Bannock County','grade':'A','mode':'automated-pdf','url':'https://www.bannockcounty.gov/planning/','use':'County-issued explicit new single-family dwellings; separate municipal permits omitted'},
- {'market':'Twin Falls County','grade':'A issued preview','mode':'rep-report','url':'https://twinfallscounty.org/building_department/monthly_permits/','use':'Local issued PDF collector; hosted index access needs verification'},
+ {'market':'Twin Falls County','grade':'A issued preview','mode':'rep-report','url':'https://twinfallscounty.org/building_department/monthly_permits/','use':'Known issued PDFs are accessible; monthly report index returns HTTP 406 from GitHub Actions'},
  {'market':'Kuna','grade':'B manual-detail','mode':'rep-report','url':'https://www.kunacity.id.gov/242/Building-Permit-Reports','use':'Monthly permit reports; confirm authoritative issue date and status before automation'},
  {'market':'Teton County, ID','grade':'B manual-detail','mode':'rep-report','url':'https://tetoncountyidaho.gov/departments/building_department/monthly_permit_reports.php','use':'Monthly permit data; confirm issuance and distinguish county permits from municipality rows'},
 ]

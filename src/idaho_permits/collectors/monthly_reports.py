@@ -16,6 +16,8 @@ from ..models import Permit
 
 MONTHS = {name.casefold(): n for n, name in enumerate(month_name) if name}
 MAX_REPORT_BYTES = 3_000_000
+ACCESS_CHALLENGE = re.compile(rb'access denied|access restricted|captcha|challenge|'
+                              rb'request blocked|verify you are human', re.I)
 
 
 class _ReportLinks(HTMLParser):
@@ -52,6 +54,13 @@ def _get(url, limit=MAX_REPORT_BYTES):
         if len(data) > limit:
             raise ValueError('Publisher response exceeded the configured size limit')
         return data
+
+
+def is_same_report_redirect(error, url):
+    location = error.headers.get('Location')
+    return bool(error.code == 302 and location and urljoin(url, location) == url
+                and not error.headers.get('CF-Mitigated')
+                and not ACCESS_CHALLENGE.search(error.read(4096)))
 
 
 def month_from_label(label):
