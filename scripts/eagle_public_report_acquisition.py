@@ -42,10 +42,11 @@ def verify_pdf(path):
     raw = path.read_bytes()
     if not raw.startswith(b"%PDF-") or len(raw) > 100_000_000:
         raise RuntimeError("not a bounded PDF")
-    import subprocess
-    result = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True,
-                            text=True, check=True, timeout=30)
-    s = result.stdout
+    from pypdf import PdfReader
+    pdf = PdfReader(path)
+    if not 1 <= len(pdf.pages) <= 200:
+        raise RuntimeError("PDF page count outside expected bounds")
+    s = "\n".join(page.extract_text(extraction_mode="layout") or "" for page in pdf.pages)
     return {"sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw),
             "text_chars": len(s), "issue_label_present": bool(re.search(r"(?:issue[d]?\s+date|date\s+issued)", s, re.I)),
             "permit_label_present": bool(re.search(r"permit\s*(?:#|number|no\b)", s, re.I)),
