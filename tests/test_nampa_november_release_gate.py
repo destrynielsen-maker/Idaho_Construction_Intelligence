@@ -15,6 +15,8 @@ import unittest
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
+from idaho_permits.models import Permit
+from idaho_permits.classify import classify_permit
 import xml.etree.ElementTree as ET
 
 EXPECTED = {
@@ -84,6 +86,12 @@ def audit_ledgers(before, after, prior_leads, next_leads):
         require(r.get("qualifies") is True and r.get("classification") in
                 ("SINGLE_FAMILY", "MULTIFAMILY") and bool(r.get("first_seen_at")),
                 "new dwelling failed existing qualification: " + k)
+        # Verify candidate classification and scoring with the unchanged production
+        # implementation, rather than trusting self-reported candidate fields.
+        replay = classify_permit(Permit.from_dict(r))
+        for field in ('classification', 'qualifies', 'score', 'new_construction_confidence'):
+            require(getattr(replay, field) == r.get(field),
+                    'production classifier/score mismatch: ' + field + ': ' + k)
         require(stable(public[k]) == stable(r), "public evidence differs: " + k)
     return [b[k] for k in sorted(KEYS)]
 
@@ -154,7 +162,8 @@ class NampaReleaseGateTests(unittest.TestCase):
              "issued_date":date,"contractor":name,"valuation":None,"stage":"PERMITTED",
              "status":"Issued","address":"TEST ADDRESS","raw":{"scope":"NEW SFD TEST FIXTURE"},
              "source_url":"https://nampaid-energovpub.tylerhost.net/Apps/SelfService#/permit/00000000-0000-0000-0000-"+n[4:9].zfill(12),
-             "permit_type":"New Residential","qualifies":True,"classification":"SINGLE_FAMILY",
+             "permit_type":"New Residential","source_name":"Nampa", "qualifies":True,"classification":"SINGLE_FAMILY",
+             "new_construction_confidence":"HIGH",
              "first_seen_at":"test","score":20 if name else 15}
             for n,(date,name) in EXPECTED.items()]
     def run_gate(self):
@@ -186,6 +195,14 @@ class NampaReleaseGateTests(unittest.TestCase):
         self.new[0]["valuation"] = None
         self.new[1]["contractor"] = "Unknown Owner"
         with self.assertRaisesRegex(AssertionError,"contractor mismatch"):
+            self.run_gate()
+    def test_actual_production_classifier_and_score(self):
+        self.new[0]['score'] = 99
+        with self.assertRaisesRegex(AssertionError, 'production classifier/score mismatch: score'):
+            self.run_gate()
+        self.new[0]['score'] = 20
+        self.new[0]['permit_type'] = 'Residential'
+        with self.assertRaisesRegex(AssertionError, 'production classifier/score mismatch'):
             self.run_gate()
     def test_missing_and_duplicate_fail(self):
         r = self.new.pop()
