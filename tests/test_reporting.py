@@ -53,8 +53,11 @@ class ReportingTests(unittest.TestCase):
         permits=[Permit.from_dict(row) for row in json.loads(seed.read_text())['permits']]
         observed=next(p for p in permits if p.source_name=='Eagle iWorQ Permit Portal')
         history={p.key for p in permits}
+        eagle_sources = {'Eagle iWorQ Permit Portal', 'City of Eagle weekly building permit report'}
+        eagle_history = {p.key for p in permits if p.jurisdiction == 'Eagle' and p.source_name in eagle_sources}
+        self.assertGreater(len(eagle_history), 1)
         r=reporting_report([dict(source='Eagle',status='ok')],{'Eagle':[observed,observed]},permits,history,{},'2026-11-26T18:59:23Z')['sources'][0]
-        self.assertEqual(r['retained_records'],2815)
+        self.assertEqual(r['retained_records'],len(eagle_history))
         self.assertEqual(r['observed_records'],1)
         self.assertIsNone(r['new_since_previous_success'])
 
