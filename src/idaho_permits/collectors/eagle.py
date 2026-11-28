@@ -178,6 +178,12 @@ def permits_from_listing(html,base_url=PORTAL_URL):
 class EaglePermitCollector:
     name='Eagle'; landing_url=PORTAL_URL
     def collect(self):
+        from .eagle_reports import enabled, collect_reports
+        if enabled():
+            return collect_reports()
+        return self._collect_portal()
+
+    def _collect_portal(self):
         all_rows={}; seen_detail_urls=set(); detail_cache={}; detail_failures=0; detail_unparsed=0; pages_read=0
         def detail_record(url, referer):
             nonlocal detail_failures, detail_unparsed

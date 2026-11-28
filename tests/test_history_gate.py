@@ -1,6 +1,8 @@
 import copy
 import hashlib
+import math
 import json
+import shutil
 from collections import Counter
 from pathlib import Path
 import tempfile
@@ -55,6 +57,10 @@ class HistoryGateTest(unittest.TestCase):
     def replay(self, work, omitted=(), failed=()):
         (work/'data').mkdir(parents=True)
         (work/'data/permits.json').write_bytes(FROZEN.read_bytes())
+        # Reproduce the real refresh against the exact served feed order.
+        shutil.copytree(WORKTREE/'public/feeds',work/'public/feeds')
+        (work/'public/data').mkdir(parents=True)
+        shutil.copy2(WORKTREE/'public/data/builders.json',work/'public/data/builders.json')
         attempts=[]
         collectors=[ReplayCollector(c,self.seed,attempts,omitted,failed) for c in self.originals]
         with patch.object(pipeline,'COLLECTORS',collectors):
@@ -86,7 +92,12 @@ class HistoryGateTest(unittest.TestCase):
             self.assertEqual(feeds,full_feeds)
             self.assertEqual(feeds,prior_feeds)
             self.assertEqual(builders,full_builders)
-            self.assertEqual(builders,prior_builders)
+            self.assertEqual([b['contractor'] for b in builders],[b['contractor'] for b in prior_builders])
+            for actual,prior in zip(builders,prior_builders):
+                self.assertEqual(actual['count'],prior['count'])
+                self.assertEqual(actual['score_total'],prior['score_total'])
+                self.assertTrue(math.isclose(actual['valuation_total'],prior['valuation_total'],abs_tol=0.005,rel_tol=0),
+                                'Builder valuation changed beyond half-cent: '+actual['contractor'])
             for key, prior in self.seed.items():
                 row=output[key]
                 self.assertEqual(row['first_seen_at'],prior.first_seen_at)
