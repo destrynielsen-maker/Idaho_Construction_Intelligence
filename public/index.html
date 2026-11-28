@@ -217,6 +217,7 @@ function evidence(p){
   if(src==='Boise Development Tracker'||src==='COMPASS Development Review')return 'planning';
   if(src==='Canyon County DSD Building Permit Tracker')return 'application received';
   if(src==='Eagle iWorQ Permit Portal'||src==='City of Eagle weekly building permit report')return raw.issue_date_verified===true?'issued':'unverified';
+  if(src==='City of Hayden issued building permit report')return p.jurisdiction==='Hayden'&&raw.issue_date_verified===true?'issued':'unverified';
   if(src==='City of Boise Accela Citizen Access')return raw.source_issue_date_authoritative===true?'issued':'unverified';
   if(src==='Nampa weekly permit activity report'){
     const dates=[...(raw.context||'').matchAll(/Issue Date:\s*(\d{1,2}\/\d{1,2}\/20\d{2})/gi)];
@@ -231,6 +232,7 @@ function contractorEvidence(p){
   const label=(p.raw||{}).contractor_role||'';
   if(!p.contractor)return 'Not reported';
   if(['registered building contractor','general contractor','builder','Registered Building Contractor / Associated Company','City report Contractor field; GC unverified'].includes(label))return 'Source-labeled: '+label;
+  if(p.source_name==='City of Hayden issued building permit report'&&p.jurisdiction==='Hayden'&&label==='City-reported contractor')return 'Source-labeled: '+label;
   if(p.source_name==='Canyon County DSD Building Permit Tracker')return 'Application-reported contractor; not verified GC';
   if(p.source_name==="Coeur d'Alene Issued Permits")return 'City report Contractor field; GC unverified';
   if(p.source_name==='City of Boise Accela Citizen Access')return 'Listed licensed professional; role unverified';

@@ -52,6 +52,22 @@ function runtime(fetch) {
   return { context, control: suffix => document.querySelector('#progress-' + suffix), download: () => downloaded.text() };
 }
 
+test('Hayden issue evidence requires the city report flag and appears in the lead CSV', () => {
+  const { context } = runtime();
+  const permit = {
+    jurisdiction: 'Hayden', permit_number: 'PB26-0001', issued_date: '2026-10-22', stage: 'PERMITTED',
+    source_name: 'City of Hayden issued building permit report', contractor: 'Example Builder',
+    raw: { issue_date_verified: true, contractor_role: 'City-reported contractor' },
+  };
+  assert.equal(context.evidence(permit), 'issued');
+  assert.equal(context.evidence({ ...permit, raw: { issue_date_verified: false } }), 'unverified');
+  assert.equal(context.evidence({ ...permit, jurisdiction: 'Kootenai County' }), 'unverified');
+  assert.equal(context.evidence({ ...permit, issued_date: '2026-10-32' }), 'unverified');
+  assert.match(context.csvText([permit]), /"PB26-0001","2026-10-22","issued","2026-10-22"/);
+  assert.equal(context.contractorEvidence(permit), 'Source-labeled: City-reported contractor');
+  assert.equal(context.contractorEvidence({ ...permit, contractor: null }), 'Not reported');
+});
+
 test('building stage filter and CSV distinguish approval and issuance', async () => {
   const { context, control, download } = runtime(async () => ({
     ok: true, json: async () => ({ sources: [source], permits: [approval, issuance, planning] }),
