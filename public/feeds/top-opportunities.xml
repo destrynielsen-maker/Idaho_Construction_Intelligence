@@ -6,7 +6,7 @@
     <description>Idaho Top Opportunities</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 08:55:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 12:04:45 +0000</lastBuildDate>
     <item>
       <title>[62] Boise: Building H (Type 5) — 2215 W VICTORY RD, Boise ID 83705</title>
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00G5F&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
@@ -1157,6 +1157,12 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <guid isPermaLink="false">ID:HAYDEN:PB26-0348</guid>
     </item>
     <item>
+      <title>[37] Jerome: Coffee Shop — 2708 S LINCOLN AVE</title>
+      <link>https://ci.jerome.id.us/DocumentCenter/View/1799/September-2026-Issued-Permits#page=1</link>
+      <description>COMMERCIAL | Contractor unknown | 1,371,426</description>
+      <guid isPermaLink="false">ID:JEROME:BLD-26-00112</guid>
+    </item>
+    <item>
       <title>[35] Eagle: Mailbox structure for Mailboxes and Parcels — S050832540</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29902824</link>
       <description>COMMERCIAL | Conger Management Group | 0</description>
@@ -1203,12 +1209,6 @@ Changed contact to Property Owner/Contractor that was originally the architect (
       <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
       <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 73,600</description>
       <guid isPermaLink="false">ID:HAYDEN:PB26-0447</guid>
-    </item>
-    <item>
-      <title>[35] Hayden: CARRINGTON STORAGE BLDG 16, PHASE 3 — 10200 N CARRINGTON ST</title>
-      <link>https://cms2.revize.com/revize/haydenid/Docs/Government/Departments/Building/Reports/PermitsIssued10-2026.pdf?t=202611031526330#page=1</link>
-      <description>COMMERCIAL | VIKING CONSTRUCTION INC - ID | 255,300</description>
-      <guid isPermaLink="false">ID:HAYDEN:PB26-0448</guid>
     </item>
   </channel>
 </rss>

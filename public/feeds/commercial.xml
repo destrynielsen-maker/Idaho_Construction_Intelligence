@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 08:55:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 12:04:45 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: Mailbox structure for Mailboxes and Parcels — W Yellowstone St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29969866</link>
@@ -170,6 +170,12 @@
       <guid isPermaLink="false">ID:GARDEN CITY:BLDFY2026-0072</guid>
     </item>
     <item>
+      <title>[35] Jerome: Storage Building — 300 S. JOSHUA STREET</title>
+      <link>https://ci.jerome.id.us/DocumentCenter/View/1810/October-2026-Permit-Report#page=1</link>
+      <description>COMMERCIAL | Contractor unknown | 666,500</description>
+      <guid isPermaLink="false">ID:JEROME:BLD-26-00148</guid>
+    </item>
+    <item>
       <title>[37] Post Falls: New Commercial Building — 1147 N INNOVATION WAY, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 1,500,000</description>
@@ -300,6 +306,12 @@
       <link>https://www.cityofnampa.us/DocumentCenter/View/20813/Weekly-Permit-Activity-Report-08-31-2026---09-04-2026</link>
       <description>COMMERCIAL | Contractor unknown | 400,000</description>
       <guid isPermaLink="false">ID:NAMPA:COM-05510-2026</guid>
+    </item>
+    <item>
+      <title>[37] Jerome: Coffee Shop — 2708 S LINCOLN AVE</title>
+      <link>https://ci.jerome.id.us/DocumentCenter/View/1799/September-2026-Issued-Permits#page=1</link>
+      <description>COMMERCIAL | Contractor unknown | 1,371,426</description>
+      <guid isPermaLink="false">ID:JEROME:BLD-26-00112</guid>
     </item>
     <item>
       <title>[30] Eagle: New production facility — 4952 N Gooder John Ln</title>
