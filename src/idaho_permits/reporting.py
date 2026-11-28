@@ -7,11 +7,13 @@ from .collectors.canyon_progress import LAYER_URL as CANYON_TRACKER, canyon_utc_
 SOURCES = {
     'Boise': ('boise-planning', 'Boise Development Tracker', 'planning', {'Boise Development Tracker'}),
     'Boise Issued Building Permits': ('boise-issued', 'Boise Issued Building Permits', 'issued', {'City of Boise Accela Citizen Access'}),
+    'Ada County': ('ada-county-applications', 'Ada County Building Applications', 'application', set()),
     'Eagle': ('eagle', 'Eagle', 'issued', {'Eagle iWorQ Permit Portal','City of Eagle weekly building permit report'}),
     'Canyon County': ('canyon-county', 'Canyon County', 'application', {'Canyon County DSD Building Permit Tracker'}),
     'Caldwell': ('caldwell', 'Caldwell', 'planning', {'COMPASS Development Review'}),
     "Coeur d'Alene": ('coeur-dalene', "Coeur d’Alene", 'issued', {"Coeur d'Alene Issued Permits"}),
     'Kootenai County': ('kootenai-county', 'Kootenai County', 'issued', {'Kootenai County weekly building permit report'}),
+    'Hayden': ('hayden', 'Hayden', 'issued', {'City of Hayden issued building permit report'}),
     'Post Falls': ('post-falls', 'Post Falls', 'issued', {'City of Post Falls Building Permits GIS'}),
     'Meridian': ('meridian', 'Meridian', 'issued', {'Meridian permit report'}),
     'Nampa': ('nampa', 'Nampa', 'issued', {'Nampa weekly permit activity report','Nampa permit report'}),
@@ -25,11 +27,13 @@ SOURCES = {
 COVERAGE = {
     'Boise': 'City of Boise · development tracker',
     'Boise Issued Building Permits': 'City of Boise · building permits',
+    'Ada County': 'Unincorporated Ada County · building application records',
     'Eagle': 'City of Eagle · building permits',
     'Canyon County': 'Unincorporated Canyon County · county permits',
     'Caldwell': 'Caldwell · regional development review',
     "Coeur d'Alene": 'City of Coeur d’Alene · building permits',
     'Kootenai County': 'Unincorporated Kootenai County · weekly permit reports',
+    'Hayden': 'City of Hayden · monthly issued new homes, townhomes and commercial buildings',
     'Post Falls': 'City of Post Falls · rolling 90-day building permit window',
     'Meridian': 'City of Meridian · building permit reports',
     'Nampa': 'City of Nampa · weekly building permit reports',
@@ -44,7 +48,7 @@ EASTERN_GAPS = (
     ('eastern-idaho-issued-gap', 'Eastern Idaho coverage gaps', 'uncovered',
      'Idaho Falls, Rexburg and Pocatello city-issued permits not collected here'),
 )
-EXPLICIT_REPORT_DATES = {'Meridian','Nampa','Post Falls','Eagle','Garden City','Hailey','Blackfoot','Moscow','Bannock County'}
+EXPLICIT_REPORT_DATES = {'Meridian','Nampa','Post Falls','Eagle','Garden City','Hailey','Blackfoot','Moscow','Bannock County','Hayden'}
 
 def prior_status(path: Path):
     try:
@@ -122,9 +126,14 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
         observed={p.key:p for p in observations.get(name,()) if p.source_name in source_names}
         state=str(status.get('status','error')).lower()
         report_date=validated(status.get('latest_issued_date'),today) if name in EXPLICIT_REPORT_DATES else None
+        progress_only = status.get('progress_only') is True
         has_evidence=bool(observed or report_date)
         partial=state in {'degraded','stale'} and has_evidence
         succeeded=state=='ok' and has_evidence
+        if progress_only:
+            report_date = validated(status.get('latest_application_date'), today)
+            succeeded = state == 'ok' and bool(status.get('progress_success_at'))
+            partial = not succeeded and state != 'error' and bool(status.get('records_seen'))
         # Meridian index discovery may fail while its official direct PDFs give
         # a successful current data collection. Never call the index healthy or
         # move the comparable baseline for partial discovery.
@@ -140,6 +149,8 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
             availability,outcome='unknown','unknown'
         retained_rows={p.key:p for p in permits if p.source_name in source_names}
         retained=len(retained_rows)
+        if progress_only:
+            retained = status.get('progress_retained_records', old.get('retained_records'))
         retained_date=max((d for p in retained_rows.values() if (d:=authoritative_date(name,p,today))),default=None) if name=='Post Falls' else None
         dates=[d for p in observed.values() if (d:=authoritative_date(name,p,today))]
         if report_date:
@@ -148,20 +159,23 @@ def reporting_report(statuses, observations, permits, original_ids, previous, no
         prior_success_date=validated(old.get('last_successful_authoritative_date'),today)
         last_success_date=max((d for d in (prior_success_date,current if data_success else None) if d),default=None)
         latest=max((d for d in (current,prior_success_date) if d),default=None)
-        comparable=succeeded and bool(old.get('last_success_at')) and old.get('comparable_success_baseline') is True and original_ids is not None
+        comparable=not progress_only and succeeded and bool(old.get('last_success_at')) and old.get('comparable_success_baseline') is True and original_ids is not None
+        observed_count = len(observed) if observed else None
+        if progress_only:
+            observed_count = status.get('records_seen')
         rows.append(dict(id=ident,label=label,mode='automatic',coverage=COVERAGE[name],
-            last_attempt_at=now,last_success_at=now if data_success else old.get('last_success_at'),
+            last_attempt_at=now,last_success_at=(status.get('progress_success_at') or now) if data_success else old.get('last_success_at'),
             verified_data_fallback=verified_fallback,
             retained_latest_authoritative_date=retained_date.isoformat() if retained_date else None,
             latest_authoritative_date=latest.isoformat() if latest else None,
             latest_date_kind=kind if latest else None,
             date_provenance=('current_report' if latest==current else 'prior_success') if latest else None,
             last_successful_authoritative_date=last_success_date.isoformat() if last_success_date else None,
-            comparable_success_baseline=succeeded or (not partial and original_ids is not None and old.get('comparable_success_baseline') is True),
+            comparable_success_baseline=not progress_only and (succeeded or (not partial and original_ids is not None and old.get('comparable_success_baseline') is True)),
             source_age_days=(today-latest).days if latest else None,
             freshness_status=('stale' if state=='stale' or (name in {'Post Falls','Eagle'} and current and (today-current).days>14) else None),
             new_since_previous_success=len(observed.keys()-original_ids) if comparable else None,
-            retained_records=retained,observed_records=len(observed) if observed and (succeeded or partial) else None,
+            retained_records=retained,observed_records=observed_count if succeeded or partial else None,
             availability=availability,collection_outcome=outcome))
         if name=='Canyon County':
             rows[-1]['issued_evidence']=canyon_issue_evidence(status, observations.get(name, ()), today)

@@ -3,6 +3,7 @@ import os
 from datetime import datetime,timezone
 from pathlib import Path
 from .classify import classify_permit
+from .collectors.ada_county import AdaCountyApplicationCollector
 from .collectors.bannock import BannockCountyPermitCollector
 from .collectors.blackfoot import BlackfootPermitCollector
 from .collectors.boise import BoiseDevelopmentCollector,BoiseIssuedPermitCollector
@@ -12,6 +13,7 @@ from .collectors.coeur_dalene import CoeurDAleneCollector
 from .collectors.eagle import EaglePermitCollector
 from .collectors.garden_city import GardenCityPermitCollector
 from .collectors.hailey import HaileyPermitCollector
+from .collectors.hayden import HaydenPermitCollector
 from .collectors.kootenai_county import KootenaiCountyCollector
 from .collectors.moscow import MoscowPermitCollector
 from .collectors.nampa import NampaPermitCollector
@@ -29,7 +31,19 @@ def _verify_history(before, after):
     altered = [key for key, first_seen in before.items() if key in after and after[key].first_seen_at != first_seen]
     if missing or altered:
         raise RuntimeError(f"Permit history preservation gate failed: {len(missing)} missing IDs, {len(altered)} altered first-seen timestamps")
-COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector(),GardenCityPermitCollector(),HaileyPermitCollector(),BlackfootPermitCollector(),MoscowPermitCollector(),BannockCountyPermitCollector()]
+
+
+def _verify_application_progress(issuer, result):
+    if result.source != issuer or result.permits or result.latest_issued_date or not isinstance(result.progress, list):
+        raise ValueError('Application progress source returned unexpected lead data or no progress batch')
+    for row in result.progress:
+        if (not isinstance(row, dict) or row.get('state') != 'ID' or row.get('issuer') != issuer
+                or row.get('record_kind') != 'building_permit' or row.get('stage') == 'issued'
+                or row.get('issued_flag') is not None or row.get('issue_date') is not None):
+            raise ValueError('Application progress source returned evidence outside its building application scope')
+
+
+COLLECTORS=[BoiseDevelopmentCollector(),BoiseIssuedPermitCollector(),EaglePermitCollector(),CanyonCountyPermitCollector(),CaldwellCompassCollector(),CoeurDAleneCollector(),KootenaiCountyCollector(),PostFallsPermitCollector(),MeridianCollector(),NampaPermitCollector(),GardenCityPermitCollector(),HaileyPermitCollector(),BlackfootPermitCollector(),MoscowPermitCollector(),BannockCountyPermitCollector(),HaydenPermitCollector(),AdaCountyApplicationCollector()]
 
 def _site_base_url():
     x=os.getenv('SITE_BASE_URL','').strip()
@@ -44,8 +58,11 @@ def run(root: Path):
     progress_store = root/'data'/'permit-progress.json'
     progress = PermitProgress.load(progress_store)
     for c in COLLECTORS:
+        progress_only = getattr(c, 'progress_only', False) is True
         try:
             r=c.collect()
+            if progress_only:
+                _verify_application_progress(c.name, r)
             # A current-only source observation is not a deletion instruction.
             # Omitted keys keep their historical row and last_seen timestamp;
             # the observation applied to reporting includes only returned rows.
@@ -73,19 +90,36 @@ def run(root: Path):
             if omitted_count:status['retained_not_observed_in_latest_pull']=omitted_count
             if r.latest_issued_date:status['latest_issued_date']=r.latest_issued_date
             if r.report_period_end:status['report_period_end']=r.report_period_end
+            if progress_only:
+                status['progress_only'] = True
             if r.progress is not None and r.status in {'ok', 'degraded', 'stale'}:
                 issuer = 'Boise' if r.source == 'Boise Issued Building Permits' else r.source
                 observed_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+                progress_source = r.progress_source_name or r.source
                 try:
-                    progress.observe(r.progress_source_name or r.source, r.source_url, r.progress, observed_at,
+                    progress.observe(progress_source, r.source_url, r.progress, observed_at,
                         complete=r.progress_complete,
                         coverage_end=r.progress_coverage_end or r.report_period_end or r.latest_issued_date,
                         default_issuer=('ID', issuer))
                 except ValueError:
                     status['progress_error'] = 'The source returned invalid or conflicting progress evidence.'
+                    if progress_only:
+                        status['status'] = 'error'
+                        status['note'] = status['progress_error']
+                else:
+                    if progress_only:
+                        status['records_seen'] = len(r.progress)
+                        status['progress_retained_records'] = sum(row['issuer'] == issuer and row['source_name'] == progress_source
+                                                                for row in progress.permits.values())
+                        if r.progress_complete:
+                            status['progress_success_at'] = observed_at
+                            status['latest_application_date'] = r.progress_coverage_end
             statuses.append(status); observations[r.source]=r.permits
         except Exception as e:
-            statuses.append({'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'})
+            failure = {'source':c.name,'status':'error','records_seen':0,'qualifying_records':0,'source_url':getattr(c,'pdf_url',getattr(c,'landing_url','')),'note':f'{type(e).__name__}: {e}'}
+            if progress_only:
+                failure['progress_only'] = True
+            statuses.append(failure)
     permits=list(existing.values())
     for p in permits: classify_permit(p)
     _verify_history(historic_first_seen,existing)
