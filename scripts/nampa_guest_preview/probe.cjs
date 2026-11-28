@@ -123,4 +123,4 @@ async function run(from,to) {
   } finally {await browser.close();}
 }
 module.exports={iso,windowOf,validate,mergeDetail,TYPE};
-if(require.main===module)run(process.argv[2],process.argv[3]).then(x=>console.log(JSON.stringify({scope:x.scope,period:x.period,count:x.count,rows:x.rows.map(r=>({id:r.id,issued:r.issued,contractor:r.contractor}))},null,2))).catch(e=>{console.error(e.message);process.exitCode=1;});
+if(require.main===module)run(process.argv[2],process.argv[3]).then(x=>console.log(JSON.stringify({scope:x.scope,period:x.period,count:x.count,rows:process.argv.includes('--full')?x.rows:x.rows.map(r=>({id:r.id,issued:r.issued,contractor:r.contractor}))},null,2))).catch(e=>{console.error(e.message);process.exitCode=1;});

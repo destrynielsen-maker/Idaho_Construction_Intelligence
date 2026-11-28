@@ -14,7 +14,8 @@ def _write(path,title,rows,base_url,score_first=False):
     # feedgen prepends entries as they are added, so insert in reverse to preserve
     # the logical output order in the serialized RSS XML.
     for p in reversed(ordered):
-        e=fg.add_entry(); e.id(p.key); e.title(f'[{p.score}] {p.jurisdiction}: {p.project_name or p.permit_type} — {p.address}'); e.link(href=p.source_url); e.description(f'{p.classification} | {p.contractor or "Contractor unknown"} | {p.valuation or 0:,.0f}')
+        value = ('Valuation not reported' if p.source_name == 'City of Nampa Civic Access' and p.valuation is None else f'{p.valuation or 0:,.0f}')
+        e=fg.add_entry(); e.id(p.key); e.title(f'[{p.score}] {p.jurisdiction}: {p.project_name or p.permit_type} — {p.address}'); e.link(href=p.source_url); e.description(f'{p.classification} | {p.contractor or "Contractor unknown"} | {value}')
     path.parent.mkdir(parents=True,exist_ok=True); fg.rss_file(str(path),pretty=True)
 
 
