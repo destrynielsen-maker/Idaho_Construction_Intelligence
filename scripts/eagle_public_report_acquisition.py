@@ -79,10 +79,18 @@ def main():
         def guard():
             if restricted:
                 raise RuntimeError("restricted public archive response: " + ",".join(sorted(set(restricted))))
-            for fr in page.frames:
-                body = fr.locator("body").inner_text(timeout=3000)
-                if RESTRICT.search(body):
-                    raise RuntimeError("public archive requires verification or authentication")
+            for pg in context.pages:
+                if pg.is_closed() or pg.url == "about:blank":
+                    continue
+                if not allowed_url(pg.url, robots):
+                    raise RuntimeError("unexpected or restricted viewer location")
+                for fr in pg.frames:
+                    try:
+                        body = fr.locator("body").inner_text(timeout=3000)
+                    except PlaywrightTimeout:
+                        continue
+                    if RESTRICT.search(body):
+                        raise RuntimeError("public archive requires verification or authentication")
         def entries():
             found = []
             for fr in page.frames:
@@ -139,27 +147,44 @@ def main():
                     if pg.is_closed() or not allowed_url(pg.url, robots):
                         continue
                     for fr in pg.frames:
-                        for ctl in fr.locator("a,button,input[type=button],input[type=submit],[role=button],[title],[aria-label]").all()[:500]:
+                        for ctl in fr.locator("a,button,input[type=button],input[type=submit],input[type=image],[role=button],[title],[aria-label],[data-original-title],[data-bs-original-title],img[alt],svg").all()[:500]:
                             try:
                                 if not ctl.is_visible():
                                     continue
-                                values = [ctl.get_attribute(k) or "" for k in ("title","aria-label","value","alt")]
+                                values = [ctl.get_attribute(k) or "" for k in ("title","aria-label","value","alt","data-original-title","data-bs-original-title")]
                                 values.append(ctl.inner_text(timeout=500))
+                                values.extend(ctl.locator("img[alt],svg title").evaluate_all("(els)=>els.map(e=>e.getAttribute('alt')||e.textContent||'')"))
                                 name = " ".join(v.strip() for v in values if v.strip())
-                                if len(name) <= 100 and re.search(r"download|export|print|pdf|electronic file", name,re.I):
+                                if len(name) <= 100 and re.search(r"download|export|print|pdf|electronic file|plain text|text pane", name,re.I):
                                     result.append((pg,ctl,name))
                             except PlaywrightTimeout:
                                 continue
                 return result
-            controls = viewer_controls()
+            # The report opens in a new tab; wait for that tab and its toolbar, not the folder.
+            for pg in context.pages:
+                if pg != page and not pg.is_closed():
+                    pg.wait_for_load_state("domcontentloaded", timeout=20000)
+                    pg.bring_to_front()
+            controls = []
+            for _ in range(4):
+                guard()
+                controls = viewer_controls()
+                if controls or downloads or pdf_responses:
+                    break
+                context.pages[-1].wait_for_timeout(2500)
             print(json.dumps({"viewer_pages":[pg.url for pg in context.pages],"visible_export_controls":sorted(set(x[2] for x in controls))}),flush=True)
             guard()
             if not downloads and not pdf_responses:
                 # Use the explicit public toolbar action. Avoid print-only or permission prompts.
-                matches = [c for c in controls if re.search(r"download|export",c[2],re.I) and not re.search(r"cancel|selected entries|folder|multiple",c[2],re.I)]
+                matches = [c for c in controls if re.search(r"download|export|print.*pdf|pdf.*print",c[2],re.I) and not re.search(r"cancel|selected entries|folder|multiple",c[2],re.I)]
                 if not matches:
-                    matches = [c for c in controls if re.fullmatch(r"(?:view |open )?pdf(?: file)?",c[2],re.I)]
+                    matches = [c for c in controls if re.fullmatch(r"(?:view |open )?pdf(?: file)?|print",c[2],re.I)]
                 if not matches:
+                    # Print only short toolbar labels, never document contents.
+                    for pg in context.pages:
+                        for fr in pg.frames:
+                            labels = fr.locator("button, [role=button], a[title], img[alt], input[type=image]").evaluate_all("(els)=>els.filter(e=>e.getClientRects().length).map(e=>({tag:e.tagName,title:e.title||e.getAttribute('aria-label')||e.getAttribute('alt')||'',id:e.id||''})).filter(x=>x.title||x.id).slice(0,80)")
+                            print(json.dumps({"frame":fr.url,"toolbar_metadata":labels}),flush=True)
                     raise RuntimeError("no visible public download/export control; manual export required")
                 pg,ctl,name = matches[0]
                 print(json.dumps({"chosen_public_control":name}),flush=True)
