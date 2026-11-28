@@ -1,0 +1,653 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destrynielsen-maker.github.io/schemas/permit-intelligence-v1-proposed.json",
+  "title": "Proposed Permit Intelligence v1 interchange snapshot",
+  "description": "Additive read model. Not active production schema; no migration or eligibility changes implied. Nullable fields mean unknown/not reported, not zero.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "records",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0-proposed"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "coverage_note": {
+      "type": "string"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/permit"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "permit": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "legacy_key",
+        "state",
+        "issuer_id",
+        "source_permit_number",
+        "market_id",
+        "stage",
+        "event_date",
+        "event_date_kind",
+        "issued_date",
+        "date_precision",
+        "official_record_url",
+        "record_link_kind",
+        "source_url",
+        "source_id",
+        "first_seen_at",
+        "last_seen_at",
+        "contractor_reported",
+        "contractor_role",
+        "valuation_usd",
+        "qualification"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legacy_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "issuer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "issuer_name": {
+          "type": "string"
+        },
+        "source_permit_number": {
+          "type": "string",
+          "minLength": 1
+        },
+        "market_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "county": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "municipality": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "project_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subdivision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "project_match_group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_permit_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "project_type": {
+          "enum": [
+            "single_family",
+            "townhome",
+            "duplex",
+            "multifamily",
+            "commercial",
+            "industrial",
+            "hospitality",
+            "other",
+            "unknown"
+          ]
+        },
+        "stage": {
+          "enum": [
+            "planning",
+            "application",
+            "issued",
+            "construction_confirmed",
+            "completed",
+            "expired_canceled",
+            "unknown"
+          ]
+        },
+        "source_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "event_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "event_date_kind": {
+          "enum": [
+            "issued",
+            "application_received",
+            "planning",
+            "status_event",
+            "unverified",
+            "unknown"
+          ]
+        },
+        "date_precision": {
+          "enum": [
+            "day",
+            "month",
+            "unknown"
+          ]
+        },
+        "issued_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "application_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "planning_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "contractor_reported": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contractor_role": {
+          "enum": [
+            "general_contractor",
+            "registered_building_contractor",
+            "builder",
+            "contractor",
+            "licensed_professional",
+            "applicant",
+            "owner",
+            "unknown",
+            null
+          ]
+        },
+        "company_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "company_match_confidence": {
+          "enum": [
+            "verified",
+            "probable",
+            "unverified",
+            null
+          ]
+        },
+        "units": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "living_area_sqft": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "floor_area_sqft": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "valuation_usd": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "valuation_basis": {
+          "enum": [
+            "reported",
+            "not_reported",
+            "unverified",
+            null
+          ]
+        },
+        "official_record_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "record_link_kind": {
+          "enum": [
+            "case",
+            "report",
+            "dataset",
+            "none"
+          ]
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "source_page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "source_report_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_period_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_period_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_date_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_role_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parser_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_seen_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "last_seen_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "evidence_state": {
+          "enum": [
+            "verified",
+            "partial",
+            "unverified",
+            "conflict_review"
+          ]
+        },
+        "qualification": {
+          "type": "object",
+          "required": [
+            "eligible",
+            "policy_id",
+            "score"
+          ],
+          "properties": {
+            "eligible": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "policy_id": {
+              "type": "string"
+            },
+            "score": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "issuer_id",
+        "coverage",
+        "mode",
+        "availability",
+        "outcome",
+        "freshness",
+        "last_attempt_at",
+        "last_success_at",
+        "latest_authoritative_issue_date",
+        "report_period_end",
+        "observed_count",
+        "qualifying_count",
+        "new_unique_count",
+        "retained_count"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "issuer_id": {
+          "type": "string"
+        },
+        "coverage": {
+          "type": "string"
+        },
+        "official_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "mode": {
+          "enum": [
+            "automatic",
+            "manual",
+            "uncovered"
+          ]
+        },
+        "availability": {
+          "enum": [
+            "reachable",
+            "partial",
+            "restricted",
+            "unavailable",
+            "unknown"
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "success",
+            "partial",
+            "verified_empty",
+            "error",
+            "not_attempted"
+          ]
+        },
+        "freshness": {
+          "enum": [
+            "fresh",
+            "stale",
+            "unknown"
+          ]
+        },
+        "last_attempt_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "last_success_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "latest_authoritative_issue_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "latest_other_event_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "report_period_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "data_age_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "expected_cadence": {
+          "enum": [
+            "daily",
+            "weekly",
+            "monthly",
+            "irregular",
+            "unknown"
+          ]
+        },
+        "observed_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "qualifying_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "new_unique_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "retained_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "retained_latest_issue_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "duplicate_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "conflict_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "comparison_scope_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "error_class": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "release_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "outcome": {
+                "const": "error"
+              }
+            },
+            "required": [
+              "outcome"
+            ]
+          },
+          "then": {
+            "properties": {
+              "observed_count": {
+                "type": "null"
+              },
+              "qualifying_count": {
+                "type": "null"
+              },
+              "new_unique_count": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "outcome": {
+                "const": "verified_empty"
+              }
+            },
+            "required": [
+              "outcome"
+            ]
+          },
+          "then": {
+            "properties": {
+              "observed_count": {
+                "const": 0
+              },
+              "qualifying_count": {
+                "const": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
