@@ -6,7 +6,7 @@
     <description>Idaho Commercial</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 05:52:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 06:34:04 +0000</lastBuildDate>
     <item>
       <title>[30] Eagle: Mailbox structure for Mailboxes and Parcels — W Yellowstone St</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29969866</link>
@@ -68,10 +68,28 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-123</guid>
     </item>
     <item>
+      <title>[47] Moscow: New Commercial Building — 2137 BLOOM AVE</title>
+      <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/558</link>
+      <description>COMMERCIAL | BLUM CONSTRUCTION LLC | 2,159,826</description>
+      <guid isPermaLink="false">ID:MOSCOW:BLD2026-1026</guid>
+    </item>
+    <item>
+      <title>[30] Garden City: New commercial building — 6515 W STATE ST.</title>
+      <link>https://storage.googleapis.com/juniper-media-library/464/2026/11/October 2026.csv</link>
+      <description>COMMERCIAL | Contractor unknown | 205,000</description>
+      <guid isPermaLink="false">ID:GARDEN CITY:BLDFY2026-0072</guid>
+    </item>
+    <item>
       <title>[37] Post Falls: New Commercial Building — 1147 N INNOVATION WAY, POST FALLS ID 83854</title>
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 1,500,000</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-26-84</guid>
+    </item>
+    <item>
+      <title>[37] Garden City: New commercial building — 202 E 34TH ST</title>
+      <link>https://storage.googleapis.com/juniper-media-library/464/2026/11/October 2026.csv</link>
+      <description>COMMERCIAL | Contractor unknown | 1,100,000</description>
+      <guid isPermaLink="false">ID:GARDEN CITY:BLDFY2026-0049</guid>
     </item>
     <item>
       <title>[37] Post Falls: New Commercial Building — 4899 W RIVERBEND AVE, POST FALLS ID 83854</title>
@@ -90,6 +108,12 @@
       <link>https://gis.postfalls.gov/server/rest/services/Building_Permits/FeatureServer/17</link>
       <description>COMMERCIAL | Contractor unknown | 2,309,000</description>
       <guid isPermaLink="false">ID:POST FALLS:BLDC-25-75</guid>
+    </item>
+    <item>
+      <title>[47] Moscow: New Commercial Building — 2143 BLOOM AVE</title>
+      <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/556</link>
+      <description>COMMERCIAL | BLUM CONSTRUCTION LLC | 2,459,017</description>
+      <guid isPermaLink="false">ID:MOSCOW:BLD2026-0930</guid>
     </item>
     <item>
       <title>[42] Kootenai County: NEW OFFICE BLDG W/SHOP | KGG PARTNERSHIP | — 9374 N MCGUIRE RD</title>
@@ -162,6 +186,12 @@
       <link>https://building.cdaid.org/Reports/IssuedPermits</link>
       <description>COMMERCIAL | WOOD BOAT BUILDERS LLC | 1,500,000</description>
       <guid isPermaLink="false">ID:COEUR D'ALENE:151974-B</guid>
+    </item>
+    <item>
+      <title>[55] Moscow: New Commercial Building — 2737 REISENAUER RD</title>
+      <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/556</link>
+      <description>COMMERCIAL | SCHWEITZER ENGINEERING LABORATORIES INC | 58,935,180</description>
+      <guid isPermaLink="false">ID:MOSCOW:BLD2026-0343</guid>
     </item>
     <item>
       <title>[30] Nampa: Intermountain West Homes No. 2 — 993 S Almond St Nampa, Id 83686</title>

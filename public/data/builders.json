@@ -240,6 +240,12 @@
     "valuation_total": 2456043.49
   },
   {
+    "contractor": "BLUM CONSTRUCTION LLC",
+    "count": 2,
+    "score_total": 94,
+    "valuation_total": 4618842.43
+  },
+  {
     "contractor": "FOOTHILLS PIS",
     "count": 2,
     "score_total": 90,
@@ -388,6 +394,18 @@
     "count": 3,
     "score_total": 60,
     "valuation_total": 0
+  },
+  {
+    "contractor": "JEFF FAGER CONSTRUCTION LLC",
+    "count": 3,
+    "score_total": 60,
+    "valuation_total": 919147.89
+  },
+  {
+    "contractor": "SCHWEITZER ENGINEERING LABORATORIES INC",
+    "count": 1,
+    "score_total": 55,
+    "valuation_total": 58935180.16
   },
   {
     "contractor": "BENTON DEVELOPMENT INC",
@@ -754,6 +772,18 @@
     "count": 2,
     "score_total": 40,
     "valuation_total": 629723.28
+  },
+  {
+    "contractor": "LEXAR HOMES",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 559973.96
+  },
+  {
+    "contractor": "911 CONSTRUCTION",
+    "count": 2,
+    "score_total": 40,
+    "valuation_total": 904940.78
   },
   {
     "contractor": "RRC CONTRACTORS INC",
@@ -1144,6 +1174,12 @@
     "count": 1,
     "score_total": 25,
     "valuation_total": 902144
+  },
+  {
+    "contractor": "EALY CONSTRUCTION",
+    "count": 1,
+    "score_total": 25,
+    "valuation_total": 520048.96
   },
   {
     "contractor": "Stetson Homes Inc",
@@ -1686,12 +1722,6 @@
     "valuation_total": 285327.48
   },
   {
-    "contractor": "LEXAR HOMES",
-    "count": 1,
-    "score_total": 20,
-    "valuation_total": 265573.32
-  },
-  {
     "contractor": "TIMBER STONE CUSTOM HOMES",
     "count": 1,
     "score_total": 20,
@@ -2146,5 +2176,35 @@
     "count": 1,
     "score_total": 20,
     "valuation_total": 0
+  },
+  {
+    "contractor": "BLUM CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 342281.49
+  },
+  {
+    "contractor": "BOUMA CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 477832.33
+  },
+  {
+    "contractor": "ITANI QUALITY HOMES",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 322908.8
+  },
+  {
+    "contractor": "KAMIAK CONSTRUCTION",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 473886.59
+  },
+  {
+    "contractor": "ZACHARY CURTIS CONSTRUCTION LLC",
+    "count": 1,
+    "score_total": 20,
+    "valuation_total": 396565.35
   }
 ]

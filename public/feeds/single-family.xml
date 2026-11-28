@@ -6,7 +6,7 @@
     <description>Idaho Single Family</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 05:52:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 06:34:04 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -843,6 +843,12 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
     </item>
     <item>
+      <title>[15] Hailey: New single-family building — 192 San Badger Dr.</title>
+      <link>https://haileycityhall.org/wp-content/uploads/2026/11/10-October-Detailed-Month_Year-End-Final.pdf#page=1</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 320,112</description>
+      <guid isPermaLink="false">ID:HAILEY:26-201</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23948 [TEMP] N Ceylon Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
@@ -913,6 +919,18 @@
       <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00SH2&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
       <description>SINGLE_FAMILY | Thomas Lufkin | 455,000</description>
       <guid isPermaLink="false">ID:BOISE:BLD26-02778</guid>
+    </item>
+    <item>
+      <title>[20] Moscow: New Single Family Residential — 1124 EDINGTON AVE</title>
+      <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/558</link>
+      <description>SINGLE_FAMILY | BOUMA CONSTRUCTION | 477,832</description>
+      <guid isPermaLink="false">ID:MOSCOW:BLD2026-1032</guid>
+    </item>
+    <item>
+      <title>[22] Moscow: New Single Family Residential — 1130 CHELSEA CT</title>
+      <link>https://www.ci.moscow.id.us/ArchiveCenter/ViewFile/Item/558</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 1,340,066</description>
+      <guid isPermaLink="false">ID:MOSCOW:BLD2026-1011</guid>
     </item>
     <item>
       <title>[20] Meridian: Duralum aluminum pergola patio cover installed over existing concrete patio. Patio Covers — 3481 E ENGLEHART DR</title>
@@ -1173,40 +1191,22 @@
       <guid isPermaLink="false">ID:CANYON COUNTY:BP2026-0809</guid>
     </item>
     <item>
+      <title>[20] Hailey: New single-family building — 181 Sunbeam St</title>
+      <link>https://haileycityhall.org/wp-content/uploads/2026/11/10-October-Detailed-Month_Year-End-Final.pdf#page=1</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 722,027</description>
+      <guid isPermaLink="false">ID:HAILEY:26-193</guid>
+    </item>
+    <item>
       <title>[15] Kootenai County: NEW SFR | Tanner — 10017 W Looking Glass Ln</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3605</link>
       <description>SINGLE_FAMILY | Contractor unknown | 463,245</description>
       <guid isPermaLink="false">ID:KOOTENAI COUNTY:RES26-1488</guid>
     </item>
     <item>
-      <title>[20] Meridian: single family home — 867 E PRESTIGE ST</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | CLYDE DEVELOPMENT INC | 344,753</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0957</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 1649 E OVERT DR</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 168,062</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0934</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 1655 E OVERT DR</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 154,908</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0933</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 1661 E OVERT DR</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 149,727</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0932</guid>
-    </item>
-    <item>
-      <title>[20] Meridian: New single family dwelling — 1667 E OVERT DR</title>
-      <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
-      <description>SINGLE_FAMILY | BLACKROCK HOMES LLC | 155,566</description>
-      <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0931</guid>
+      <title>[15] Bannock County: New Single Family Residential — </title>
+      <link>https://www.bannockcounty.gov/wp-content/uploads/2026/11/OCTOBER-2026-MONTHLY-BUILDING-PERMIT-REPORT.pdf</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 400,000</description>
+      <guid isPermaLink="false">ID:BANNOCK COUNTY:RDP-26-84</guid>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Idaho New Construction</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Nov 2026 05:52:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 06:34:04 +0000</lastBuildDate>
     <item>
       <title>[20] Eagle: New Single Family Home — 6444 W. Carnock Dr.</title>
       <link>https://portal.iworq.net/EAGLE/permit/600/29973196</link>
@@ -1149,6 +1149,12 @@
       <guid isPermaLink="false">ID:POST FALLS:BLDR-26-878</guid>
     </item>
     <item>
+      <title>[15] Hailey: New single-family building — 192 San Badger Dr.</title>
+      <link>https://haileycityhall.org/wp-content/uploads/2026/11/10-October-Detailed-Month_Year-End-Final.pdf#page=1</link>
+      <description>SINGLE_FAMILY | Contractor unknown | 320,112</description>
+      <guid isPermaLink="false">ID:HAILEY:26-201</guid>
+    </item>
+    <item>
       <title>[25] Kootenai County: NEW SFR w/ATTACHED GARAGE | Timbered Ridge — 23948 [TEMP] N Ceylon Road</title>
       <link>https://kcgov.us/Archive/ViewFile/Item/3613</link>
       <description>SINGLE_FAMILY | TIMBERED RIDGE HOMES LLC | 744,358</description>
@@ -1201,12 +1207,6 @@
       <link>https://about.meridiancity.org/media/radihw1g/bldgmonthlypermits.pdf</link>
       <description>SINGLE_FAMILY | TH CONSTRUCTION LLC | 285,388</description>
       <guid isPermaLink="false">ID:MERIDIAN:R-NEW-2026-0922</guid>
-    </item>
-    <item>
-      <title>[20] Boise: Monitor Way/Syringa Springs — 10068 W MALAD ST, Boise ID 83709</title>
-      <link>https://permits.cityofboise.org/CitizenAccess/Cap/CapDetail.aspx?Module=Building&amp;TabName=Building&amp;capID1=26CAP&amp;capID2=00000&amp;capID3=00UJA&amp;agencyCode=BOISE&amp;IsToShowInspection=</link>
-      <description>SINGLE_FAMILY | Thomas Lufkin | 0</description>
-      <guid isPermaLink="false">ID:BOISE:BLD26-02998</guid>
     </item>
   </channel>
 </rss>
