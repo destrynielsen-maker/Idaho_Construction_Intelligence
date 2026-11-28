@@ -22,6 +22,17 @@ class NampaCSSTest(unittest.TestCase):
         classify_permit(p)
         self.assertEqual((p.classification,p.valuation,p.contractor),('SINGLE_FAMILY',None,None))
         self.assertEqual((batch.status,batch.latest_issued_date),('degraded','2026-11-24'))
+        self.assertTrue(batch.progress_complete)
+        row, = batch.progress
+        self.assertEqual((row['stage'], row['issue_date'], row['source_status'], row['inspection_status']),
+                         ('issued', '2026-11-24', 'Issued', 'unknown'))
+        self.assertTrue(row['issued_flag'])
+        finaled = fixture()
+        finaled['rows'][0]['status'] = 'Finaled'
+        row, = parse_batch(finaled, LO, HI).progress
+        self.assertEqual((row['stage'], row['source_status']), ('issued', 'Finaled'))
+        self.assertIsNone(row['issued_flag'])
+        self.assertNotIn('closed_date', row)
 
     def test_reject_wrong_date_scope_count_and_authority(self):
         for changing in (dict(issued='2026-11-28'),dict(status='Approved'),dict(description='NEW SFD FIRE DAMAGE RESTORATION'),
@@ -42,6 +53,7 @@ class NampaCSSTest(unittest.TestCase):
         batch.update(observedCount=2, detailUnavailable=1)
         result = parse_batch(batch, LO, HI)
         self.assertEqual(len(result.permits), 1)
+        self.assertFalse(result.progress_complete)
         self.assertIn('Verified 1 of 2 search results', result.note)
         batch['observedCount'] = 3
         with self.assertRaises(ValueError):

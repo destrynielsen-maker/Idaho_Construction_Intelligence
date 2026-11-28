@@ -10,6 +10,7 @@ from pypdf import PdfReader
 
 from .base import CollectorResult
 from .common import discover_links, get
+from .issued_progress import issued_progress
 from ..models import Permit
 
 
@@ -103,7 +104,10 @@ class NampaPermitCollector:
                   f'last labeled issue date {newest.isoformat()} ({age} days old).')
             if rejected:note+=' Unavailable/newer assets: '+', '.join(rejected)+'.'
             if state=='stale':note+=f' WARNING: latest verified issue date is older than {self.freshness_days} days.'
-            return CollectorResult(self.name,url,permits,note,status=state,latest_issued_date=newest.isoformat(),report_period_end=end.isoformat())
+            return CollectorResult(self.name, url, permits, note, status=state,
+                latest_issued_date=newest.isoformat(), report_period_end=end.isoformat(),
+                progress=[issued_progress(permit) for permit in permits], progress_complete=True,
+                progress_source_name='Nampa weekly permit activity report (issued new construction)')
         raise RuntimeError(f'{discovery_error}No validated City weekly PDF; {", ".join(rejected) or "no linked report"}')
 
 

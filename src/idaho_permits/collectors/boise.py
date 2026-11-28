@@ -9,6 +9,7 @@ from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 
 from .base import CollectorResult
+from .issued_progress import issued_progress
 from ..models import Permit
 
 LAYER_URL = 'https://services1.arcgis.com/WHM6qC35aMtyAAlN/ArcGIS/rest/services/Development_Tracker_Open_Data/FeatureServer/0'
@@ -58,6 +59,16 @@ def permit_from_feature(feature: dict) -> Permit | None:
     )
 
 
+def _planning_progress(permit: Permit) -> dict:
+    website = urlparse(permit.source_url)
+    url = permit.source_url if website.scheme == 'https' and website.netloc == 'permits.cityofboise.org' else LAYER_URL
+    return {
+        'state': permit.state, 'issuer': permit.jurisdiction, 'permit_id': permit.permit_number,
+        'record_kind': 'planning', 'stage': 'planning', 'source_status': permit.status,
+        'source_url': url, 'inspection_status': 'unknown',
+    }
+
+
 class BoiseDevelopmentCollector:
     name = 'Boise'
     landing_url = LAYER_URL
@@ -73,7 +84,7 @@ class BoiseDevelopmentCollector:
                 'f': 'json',
                 'resultOffset': offset,
                 'resultRecordCount': PAGE_SIZE,
-                'orderByFields': 'AddToTrackerDate DESC',
+                'orderByFields': 'AddToTrackerDate DESC, OBJECTID ASC',
             }
             response = requests.get(QUERY_URL, params=params, timeout=45)
             response.raise_for_status()
@@ -85,14 +96,23 @@ class BoiseDevelopmentCollector:
                 permit = permit_from_feature(feature)
                 if permit:
                     permits.append(permit)
-            if len(features) < PAGE_SIZE:
+            if payload.get('exceededTransferLimit') and not features:
+                raise RuntimeError('Boise Development Tracker returned an incomplete page without records')
+            if not payload.get('exceededTransferLimit') and len(features) < PAGE_SIZE:
                 break
             offset += len(features)
+        today = date.today().isoformat()
+        tracker_dates = [permit.issued_date for permit in permits
+                         if type(permit.raw.get('AddToTrackerDate')) in (int, float) and permit.issued_date <= today]
         return CollectorResult(
             'Boise',
             LAYER_URL,
             permits,
             'Official City of Boise Development Tracker active planning projects; daily early-lead source',
+            progress=[_planning_progress(permit) for permit in permits],
+            progress_complete=True,
+            progress_source_name='Boise Development Tracker (planning cases)',
+            progress_coverage_end=max(tracker_dates, default=None),
         )
 
 
@@ -168,11 +188,20 @@ class BoiseIssuedPermitCollector:
         if successful_types != len(self.type_specs):
             raise RuntimeError('Boise Accela did not complete all issued-building type queries')
 
+        progress = []
+        for permit in permits.values():
+            received = permit.raw['received_date'] or None
+            if received and received > permit.issued_date:
+                received = None
+            progress.append(issued_progress(permit, received_date=received))
         return CollectorResult(
             self.name,
             self.source_url,
             list(permits.values()),
             'Official City of Boise Accela Citizen Access issued Building records; anonymous type/status search with authoritative detail-page issue dates and a rolling 45-day issue-date cutoff',
+            progress=progress,
+            progress_complete=True,
+            progress_source_name='Boise Accela (issued new buildings, 45-day window)',
         )
 
     def _configure_session(self, session: requests.Session) -> None:

@@ -7,6 +7,7 @@ on:
       - main
     paths-ignore:
       - 'data/permits.json'
+      - 'data/permit-progress.json'
       - 'public/data/**'
       - 'public/feeds/**'
   schedule:
@@ -103,9 +104,14 @@ jobs:
           Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('\n'.join(lines) + '\n', encoding='utf-8')
       - name: Persist permit history and generated site
         run: |
+          test -s public/data/permit-progress.json
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/permits.json public/data public/feeds
+          if [[ -f data/permit-progress.json ]]; then
+            cmp -s data/permit-progress.json public/data/permit-progress.json
+            git add data/permit-progress.json
+          fi
           if git diff --cached --quiet; then
             echo "No generated-data changes to persist."
             exit 0
