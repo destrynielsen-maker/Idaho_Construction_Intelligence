@@ -395,11 +395,13 @@ async function bootPermitProgress(){
 const sourceProfiles={
   'Boise':['boise-planning','Boise Development Tracker','Planning only','City of Boise development tracker'],
   'Boise Issued Building Permits':['boise-issued','Boise Issued Building Permits','Issued building permits','City of Boise building permits'],
+  'Ada County':['ada-county-applications','Ada County Building Applications','Building applications','Unincorporated Ada County building application tracker'],
   'Eagle':['eagle','Eagle','Issued building permits','City of Eagle building permits'],
   'Canyon County':['canyon-county','Canyon County','Application lead dates','Unincorporated Canyon County permit tracker'],
   'Caldwell':['caldwell','Caldwell','Planning only','Caldwell regional development review'],
   "Coeur d'Alene":['coeur-dalene','Coeur d’Alene','Issued building permits','City of Coeur d’Alene building permits'],
   'Kootenai County':['kootenai-county','Kootenai County','Issued building permits','Unincorporated Kootenai County weekly reports'],
+  'Hayden':['hayden','Hayden','Issued building permits','City of Hayden monthly new-building permit reports'],
   'Post Falls':['post-falls','Post Falls','Issued building permits','City of Post Falls rolling 90-day building permit window'],
   'Meridian':['meridian','Meridian','Issued building permits','City of Meridian building permit reports'],
   'Nampa':['nampa','Nampa','Issued building permits','City of Nampa weekly building permit reports'],
@@ -454,13 +456,13 @@ function sourceCard(item,snapshot){
   const knownAttempt=['ok','partial','empty'].includes(key);
   const observed=r?.observed_records ?? (!r&&knownAttempt&&status?.records_seen>0?status.records_seen:null);
   const observations=key==='failed'?'Not collected':sourceCount(observed);
-  const qualifies=knownAttempt&&Number.isInteger(observed)&&Number.isInteger(status?.qualifying_records)?' · '+sourceCount(status.qualifying_records)+' qualifying':'';
+  const qualifies=knownAttempt&&!status?.progress_only&&Number.isInteger(observed)&&Number.isInteger(status?.qualifying_records)?' · '+sourceCount(status.qualifying_records)+' qualifying':'';
   const lastSuccess=r?.last_success_at;
   const verifiedLatest=r?.latest_authoritative_date;
   const retainedOnly=!safeDate(verifiedLatest)&&safeDate(r?.retained_latest_authoritative_date);
   const latest=retainedOnly?r.retained_latest_authoritative_date:verifiedLatest;
   const basis=r?.latest_date_kind;
-  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.id==='canyon-county'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
+  const latestLabel=retainedOnly?'Last verified issued date (retained)':item.id==='post-falls'&&safeDate(verifiedLatest)?'Latest source-issued date':basis==='issued'||(!basis&&item.stage==='Issued building permits')?'Latest issued date':basis==='application'||item.id==='canyon-county'||item.stage==='Building applications'?'Latest application date':item.mode==='manual'?'Latest verified source date':item.mode==='uncovered'?'Latest issued date':'Latest planning date';
   let freshness=safeDate(latest)?(Number.isInteger(r?.source_age_days)&&r.source_age_days>=0?r.source_age_days+' days at snapshot':'Dated evidence'):'Not verified';
   if(retainedOnly)freshness='Retained evidence; current freshness unverified';
   if(safeDate(latest)&&r?.date_provenance==='prior_success')freshness+=' · prior successful collection';
